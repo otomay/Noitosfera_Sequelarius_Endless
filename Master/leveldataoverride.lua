@@ -42,7 +42,7 @@ return {
     deciduoustree_regrowth="default",
     deerclops="default",
     dragonfly="default",
-    dropeverythingondespawn="always",
+    dropeverythingondespawn="default",
     evergreen_regrowth="default",
     extrastartingitems="0",
     eyeofterror="default",

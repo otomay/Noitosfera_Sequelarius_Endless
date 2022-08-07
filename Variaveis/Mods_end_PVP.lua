@@ -204,26 +204,25 @@ enabled=true },
     },
     enabled=true
   },
-  ["workshop-2114266459"]={ configuration_options={  }, enabled=true }, -- PVP EXTENSION
-  ["workshop-960992208"]={ -- PVP REVAMP
+  ["workshop-960992208"]={
     configuration_options={
       SplPVP_Abigail=true,
-      SplPVP_AllRead=true,
+      SplPVP_AllRead=false,
       SplPVP_Bushhat=true,
       SplPVP_Combatlog=false,
-      SplPVP_Disarm=true,
+      SplPVP_Disarm=false,
       SplPVP_Dmg=1,
       SplPVP_Forcefeed=true,
       SplPVP_HammerLoot=0.5,
       SplPVP_Indicators=3,
       SplPVP_InstantNoods=false,
-      SplPVP_Longpig=2,
+      SplPVP_Longpig=3,
       SplPVP_NoGhost=false,
       SplPVP_PanNerf=true,
       SplPVP_Penalty=3,
-      SplPVP_Percent=1,
+      SplPVP_Percent=0.75,
       SplPVP_Quotes=false,
-      SplPVP_Randomspawn=true,
+      SplPVP_Randomspawn=false,
       SplPVP_Reviving=3,
       SplPVP_Scoring=true,
       SplPVP_SdartNerf=true,
@@ -242,5 +241,31 @@ enabled=true },
     configuration_options={ bekkitt_skeleton_pen=0, null_option=true, skeleton_player=true },
     enabled=true 
   },
-["workshop-706633455"]={ configuration_options={ speedmultiplier=2 }, enabled=true } -- Velocidade fantasma
+  ["workshop-706633455"]={ configuration_options={ speedmultiplier=2 }, enabled=true }, -- Velocidade fantasma
+  ["workshop-1803285852"]={
+    configuration_options={
+      [""]=0,
+      AutoPickupAsh=false,
+      AutoPickupEnabled=false,
+      AutoPickupPoop=false,
+      AutoPickupRange=10,
+      AutoPickupSeeds=false,
+      AutoStackAsh=true,
+      AutoStackEnabled=true,
+      AutoStackMakeNewStackMainStack=false,
+      AutoStackManuallyDroppedItems=false,
+      AutoStackPoop=true,
+      AutoStackRange=10,
+      AutoStackSeeds=true,
+      ManualDropStackRange=5,
+      ManualStackAsh=false,
+      ManualStackMakeNewStackMainStack=false,
+      ManualStackPoop=false,
+      ManualStackSeeds=false,
+      PlayerMustHaveOneOfItemToAutoPickup=false,
+      SmokePuffOnStacking=true,
+      StackDuringPopulation=false 
+    },
+    enabled=true 
+  }
 }

@@ -27,7 +27,7 @@ return {
     chess="default",
     crow_carnival="default",
     day="default",
-    dropeverythingondespawn="always",
+    dropeverythingondespawn="default",
     dustmoths="default",
     earthquakes="default",
     extrastartingitems="0",

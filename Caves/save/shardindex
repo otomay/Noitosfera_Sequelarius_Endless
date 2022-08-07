@@ -17,23 +17,52 @@ KLEI     1 return {
       configuration_options={ ddon=true, hbcolor="dynamic", hblength=5, hbpos=1, hbstyle="heart", value=true },
       enabled=true 
     },
+    ["workshop-1271089343"]={
+      configuration_options={ bekkitt_skeleton_pen=0, null_option=true, skeleton_player=true },
+      enabled=true 
+    },
     ["workshop-1609069355"]={
       configuration_options={
         MessageLength="bigger",
         MessageWhen="selection",
         WindowStyle="dark_wide",
         WindowTheme="redux",
-        welcome_message=" - Sistema de RPG: Ganhe pontos de atributo ao subir de nível e pontos de conquista ao realizar as conquistas listadas.\
--- Você pode trocar estes pontos por melhorias permanentes do seu personagem, basta navegar entre os botões (estrelinha e balança) para conferir.\
-- Sistema de economia: Ganhe ouro matando monstros ou usando os itens dedicados do mod.\
--- Você pode usar ouro pra comprar diversos itens, basta clicar no botão da loja (ou apertar O) para conferir o que está a venda.\
-- Você pode também pode mandar dúvidas, críticas, sugestões, reports e etc no discord. Tem o botãozinho ai na tela :D\
+        welcome_message="- Reviva no seu esqueleto e sem penalidade de HP\
+- Mecânicas de PVP mais justas, sem stunlock\
+- Personagens e itens balanceados\
+- Novos players tem proteção de 2 dias\
 ",
-        welcome_message_title="Orientações e descrições:" 
+        welcome_message_title="DOMINGÃO DO PVP" 
       },
       enabled=true 
     },
     ["workshop-1655960203"]={ configuration_options={ craftable_eyebone=true }, enabled=true },
+    ["workshop-1803285852"]={
+      configuration_options={
+        [""]=0,
+        AutoPickupAsh=false,
+        AutoPickupEnabled=false,
+        AutoPickupPoop=false,
+        AutoPickupRange=10,
+        AutoPickupSeeds=false,
+        AutoStackAsh=true,
+        AutoStackEnabled=true,
+        AutoStackMakeNewStackMainStack=false,
+        AutoStackManuallyDroppedItems=false,
+        AutoStackPoop=true,
+        AutoStackRange=10,
+        AutoStackSeeds=true,
+        ManualDropStackRange=5,
+        ManualStackAsh=false,
+        ManualStackMakeNewStackMainStack=false,
+        ManualStackPoop=false,
+        ManualStackSeeds=false,
+        PlayerMustHaveOneOfItemToAutoPickup=false,
+        SmokePuffOnStacking=true,
+        StackDuringPopulation=false 
+      },
+      enabled=true 
+    },
     ["workshop-1840284484"]={
       configuration_options={
         [""]=0,
@@ -165,8 +194,9 @@ KLEI     1 return {
         SHOWPLAYERICONS=true,
         SHOWPLAYERSOPTIONS=2 
       },
-      enabled=true 
+      enabled=false 
     },
+    ["workshop-706633455"]={ configuration_options={ speedmultiplier=2 }, enabled=true },
     ["workshop-926178831"]={
       configuration_options={
         BATCLOISTER="RANDOM",
@@ -200,6 +230,39 @@ KLEI     1 return {
         null=0 
       },
       enabled=true 
+    },
+    ["workshop-960992208"]={
+      configuration_options={
+        SplPVP_Abigail=true,
+        SplPVP_AllRead=false,
+        SplPVP_Bushhat=true,
+        SplPVP_Combatlog=false,
+        SplPVP_Disarm=false,
+        SplPVP_Dmg=1,
+        SplPVP_Forcefeed=true,
+        SplPVP_HammerLoot=0.5,
+        SplPVP_Indicators=3,
+        SplPVP_InstantNoods=false,
+        SplPVP_Longpig=3,
+        SplPVP_NoGhost=false,
+        SplPVP_PanNerf=true,
+        SplPVP_Penalty=3,
+        SplPVP_Percent=0.75,
+        SplPVP_Quotes=false,
+        SplPVP_Randomspawn=false,
+        SplPVP_Reviving=3,
+        SplPVP_Scoring=true,
+        SplPVP_SdartNerf=true,
+        SplPVP_SpawnProtect=1,
+        SplPVP_Spideregg=true,
+        SplPVP_StsNerf=true,
+        SplPVP_Tentacles=true,
+        SplPVP_Traps=true,
+        SplPVP_TrapsSpawn=true,
+        SplPVP_Trumping=true,
+        SplPVP_UniqueScoring=true 
+      },
+      enabled=true 
     } 
   },
   server={
@@ -207,13 +270,13 @@ KLEI     1 return {
     description="Triple Tusk | 24x7 | Discord no Lobby | Guias no discord",
     encode_user_path=true,
     game_mode="endless",
-    intention="social",
+    intention="madness",
     max_players=12,
-    name="[󰀀 Noitosfera] Sequelarius - Endless RPG & Casual/Social",
+    name="[󰀀 Noitosfera] Sequelarius - 󰀘 DOMINGÃO DO PVP 󰀘",
     online_mode=true,
     password="",
     privacy_type=0,
-    pvp=false,
+    pvp=true,
     server_language="pt" 
   },
   session_id="1B90822F55B0F4DE",

@@ -169,7 +169,7 @@ enabled=true },
       SHOWPLAYERICONS=true,
       SHOWPLAYERSOPTIONS=2
     },
-    enabled=true
+    enabled=false
   },
   ["workshop-926178831"]={ -- Force biomes
     configuration_options={
@@ -204,5 +204,31 @@ enabled=true },
       null=0
     },
     enabled=true
+  },
+  ["workshop-1803285852"]={
+    configuration_options={
+      [""]=0,
+      AutoPickupAsh=false,
+      AutoPickupEnabled=false,
+      AutoPickupPoop=false,
+      AutoPickupRange=10,
+      AutoPickupSeeds=false,
+      AutoStackAsh=true,
+      AutoStackEnabled=true,
+      AutoStackMakeNewStackMainStack=false,
+      AutoStackManuallyDroppedItems=false,
+      AutoStackPoop=true,
+      AutoStackRange=10,
+      AutoStackSeeds=true,
+      ManualDropStackRange=5,
+      ManualStackAsh=false,
+      ManualStackMakeNewStackMainStack=false,
+      ManualStackPoop=false,
+      ManualStackSeeds=false,
+      PlayerMustHaveOneOfItemToAutoPickup=false,
+      SmokePuffOnStacking=true,
+      StackDuringPopulation=false 
+    },
+    enabled=true 
   }
 }
