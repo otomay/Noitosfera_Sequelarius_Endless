@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "fs": "latest",
-    "discord.js": "latest",
+    "discord.js": "^13.6.0",
     "child_process": "latest"
   },
   "scripts": {
