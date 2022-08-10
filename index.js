@@ -34,7 +34,7 @@ client.on("messageCreate",  async (message) => {
  if (message.channel.type === "DM") return
  if (message.channel.id !== idcanal) return
  
-var yourscript = exec(`sudo screen -S Master -p 0 -X stuff 'c_announce("${message.author.username}: ${message.content}")^M'`,
+exec(`sudo screen -S Master -p 0 -X stuff 'c_announce("${message.author.username}: ${message.content}")^M'`,
         (error, stdout, stderr) => {
             console.log(stdout);
             console.log(stderr);
@@ -43,6 +43,8 @@ var yourscript = exec(`sudo screen -S Master -p 0 -X stuff 'c_announce("${messag
             }
         })
 })
+
+//==========================================
 
 fs.watch(caminholog, (event, filename) => {
     fs.readFile(caminholog, (err, data) => {
