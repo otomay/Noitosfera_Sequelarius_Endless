@@ -1,5 +1,6 @@
 const { Client, Collection, Intents, Discord } = require("discord.js")
 const { token } = require("./config.json")
+const { exec } = require('child_process')
 const fs = require("fs")
 
 const client = new Client({ intents: [
@@ -23,3 +24,20 @@ const client = new Client({ intents: [
  })
  
  client.login(token)
+
+//==========================================
+
+client.on("messageCreate",  async (message) => {
+ if (message.author.bot) return
+ if (message.channel.type === "DM") return
+ if (message.channel.id !== "1234") return
+ 
+var yourscript = exec(`sudo screen -S Master -p 0 -X stuff 'c_announce("${message.author.username}: ${message.content}")^M'`,
+        (error, stdout, stderr) => {
+            console.log(stdout);
+            console.log(stderr);
+            if (error !== null) {
+                console.log(`exec error: ${error}`);
+            }
+        })
+})
