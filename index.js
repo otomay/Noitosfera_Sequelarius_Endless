@@ -1,4 +1,4 @@
-const { Client, Collection, Intents, Discord } = require("discord.js")
+const { Client, Intents } = require("discord.js")
 const { token } = require("./config.json")
 const { exec } = require('child_process')
 const fs = require("fs")
