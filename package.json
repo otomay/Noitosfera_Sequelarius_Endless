@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "fs",
-    "discord.js",
-    "child_process"
+    "fs": "latest",
+    "discord.js": "latest",
+    "child_process": "latest"
   },
   "scripts": {
     "start": "pm2 start index.js --restart-delay=3000 --max-memory-restart 300M --exp-backoff-restart-delay=4000 --name DiscordChat"
