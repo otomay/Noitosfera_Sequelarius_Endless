@@ -2,6 +2,8 @@ const { Client, Collection, Intents, Discord } = require("discord.js")
 const { token } = require("./config.json")
 const { exec } = require('child_process')
 const fs = require("fs")
+const idcanal = "1234"
+const caminholog = "~/.klei/DoNotStarveTogether/MyDediServer/Master/server_chat_log.txt"
 
 const client = new Client({ intents: [
 "GUILDS",
@@ -30,7 +32,7 @@ const client = new Client({ intents: [
 client.on("messageCreate",  async (message) => {
  if (message.author.bot) return
  if (message.channel.type === "DM") return
- if (message.channel.id !== "1234") return
+ if (message.channel.id !== idcanal) return
  
 var yourscript = exec(`sudo screen -S Master -p 0 -X stuff 'c_announce("${message.author.username}: ${message.content}")^M'`,
         (error, stdout, stderr) => {
@@ -41,3 +43,12 @@ var yourscript = exec(`sudo screen -S Master -p 0 -X stuff 'c_announce("${messag
             }
         })
 })
+
+fs.watch(caminholog, (event, filename) => {
+    fs.readFile(caminholog, (err, data) => {
+         if (err) throw err;
+         exec(`tail -n 1 ${caminholog}`,  (error, stdout, stderr) => {
+            client.channels.get(idcanal).send(stdout)
+         })
+    }
+}
