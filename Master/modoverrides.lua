@@ -19,14 +19,15 @@ return {
   ["workshop-1609069355"]={ configuration_options={ -- Welcome Message
         -- edit the welcome message here
         ["welcome_message"] =
-[[- Reviva no seu esqueleto e sem penalidade de HP
-- Mecânicas de PVP mais justas, sem stunlock
-- Personagens e itens balanceados
-- Novos players tem proteção de 2 dias
+[[ - Sistema de RPG: Ganhe pontos de atributo ao subir de nível e pontos de conquista ao realizar as conquistas listadas.
+-- Você pode trocar estes pontos por melhorias permanentes do seu personagem, basta navegar entre os botões (estrelinha e balança) para conferir.
+- Sistema de economia: Ganhe ouro matando monstros ou usando os itens dedicados do mod.
+-- Você pode usar ouro pra comprar diversos itens, basta clicar no botão da loja (ou apertar O) para conferir o que está a venda.
+- Você pode também pode mandar dúvidas, críticas, sugestões, reports e etc no discord. Tem o botãozinho ai na tela :D
 ]]
 ,
         -- you can also edit a custom title here, otherwise the server name will be displayed
-        ["welcome_message_title"] = "DOMINGÃO DO PVP" ,
+        ["welcome_message_title"] = "Orientações e descrições:" ,
 
  -- other window parameters
  MessageLength="bigger", --valid values: "small", "big", "bigger"
@@ -36,7 +37,6 @@ return {
 
 },
 enabled=true },
-  ["workshop-1655960203"]={ configuration_options={ craftable_eyebone=true }, enabled=true }, -- One more chesters
   ["workshop-1840284484"]={ -- Achievments
     configuration_options={
       [""]=0,
@@ -54,7 +54,7 @@ enabled=true },
       HUNGERGAIN=3,
       INSULATIONGAIN=10,
       KILLXP=true,
-      LANGUAGE="en",
+      LANGUAGE="ptbr",
       LEVELPOINTS=3,
       LEVELXP=2000,
       MANDRAKEBOI=true,
@@ -136,7 +136,6 @@ enabled=true },
     },
     enabled=true
   },
-  ["workshop-2559637840"]={ configuration_options={  }, enabled=true }, -- Hide admin
   ["workshop-2561335747"]={ -- MyHome
     configuration_options={
       access_archive_maze=false,
@@ -157,18 +156,6 @@ enabled=true },
       restricted_area=true
     },
     enabled=true
-  },
-  ["workshop-378160973"]={ -- Global positions
-    configuration_options={
-      ENABLEPINGS=true,
-      FIREOPTIONS=2,
-      OVERRIDEMODE=false,
-      SHAREMINIMAPPROGRESS=true,
-      SHOWFIREICONS=true,
-      SHOWPLAYERICONS=true,
-      SHOWPLAYERSOPTIONS=2
-    },
-    enabled=false
   },
   ["workshop-926178831"]={ -- Force biomes
     configuration_options={
@@ -203,69 +190,5 @@ enabled=true },
       null=0
     },
     enabled=true
-  },
-  ["workshop-960992208"]={
-    configuration_options={
-      SplPVP_Abigail=true,
-      SplPVP_AllRead=false,
-      SplPVP_Bushhat=true,
-      SplPVP_Combatlog=false,
-      SplPVP_Disarm=false,
-      SplPVP_Dmg=1,
-      SplPVP_Forcefeed=true,
-      SplPVP_HammerLoot=0.5,
-      SplPVP_Indicators=3,
-      SplPVP_InstantNoods=false,
-      SplPVP_Longpig=3,
-      SplPVP_NoGhost=false,
-      SplPVP_PanNerf=true,
-      SplPVP_Penalty=3,
-      SplPVP_Percent=0.75,
-      SplPVP_Quotes=false,
-      SplPVP_Randomspawn=false,
-      SplPVP_Reviving=3,
-      SplPVP_Scoring=true,
-      SplPVP_SdartNerf=true,
-      SplPVP_SpawnProtect=1,
-      SplPVP_Spideregg=true,
-      SplPVP_StsNerf=true,
-      SplPVP_Tentacles=true,
-      SplPVP_Traps=true,
-      SplPVP_TrapsSpawn=true,
-      SplPVP_Trumping=true,
-      SplPVP_UniqueScoring=true 
-    },
-    enabled=true 
-  },
-  ["workshop-1271089343"]={ -- Revive esqueleto
-    configuration_options={ bekkitt_skeleton_pen=0, null_option=true, skeleton_player=true },
-    enabled=true 
-  },
-  ["workshop-706633455"]={ configuration_options={ speedmultiplier=2 }, enabled=true }, -- Velocidade fantasma
-  ["workshop-1803285852"]={
-    configuration_options={
-      [""]=0,
-      AutoPickupAsh=false,
-      AutoPickupEnabled=false,
-      AutoPickupPoop=false,
-      AutoPickupRange=10,
-      AutoPickupSeeds=false,
-      AutoStackAsh=true,
-      AutoStackEnabled=true,
-      AutoStackMakeNewStackMainStack=false,
-      AutoStackManuallyDroppedItems=false,
-      AutoStackPoop=true,
-      AutoStackRange=10,
-      AutoStackSeeds=true,
-      ManualDropStackRange=5,
-      ManualStackAsh=false,
-      ManualStackMakeNewStackMainStack=false,
-      ManualStackPoop=false,
-      ManualStackSeeds=false,
-      PlayerMustHaveOneOfItemToAutoPickup=false,
-      SmokePuffOnStacking=true,
-      StackDuringPopulation=false 
-    },
-    enabled=true 
   }
 }

@@ -36,7 +36,6 @@ return {
 
 },
 enabled=true },
-  ["workshop-1655960203"]={ configuration_options={ craftable_eyebone=true }, enabled=true }, -- One more chesters
   ["workshop-1840284484"]={ -- Achievments
     configuration_options={
       [""]=0,
@@ -54,7 +53,7 @@ enabled=true },
       HUNGERGAIN=3,
       INSULATIONGAIN=10,
       KILLXP=true,
-      LANGUAGE="en",
+      LANGUAGE="ptbr",
       LEVELPOINTS=3,
       LEVELXP=2000,
       MANDRAKEBOI=true,
@@ -136,7 +135,6 @@ enabled=true },
     },
     enabled=true
   },
-  ["workshop-2559637840"]={ configuration_options={  }, enabled=true }, -- Hide admin
   ["workshop-2561335747"]={ -- MyHome
     configuration_options={
       access_archive_maze=false,
@@ -157,18 +155,6 @@ enabled=true },
       restricted_area=true
     },
     enabled=true
-  },
-  ["workshop-378160973"]={ -- Global positions
-    configuration_options={
-      ENABLEPINGS=true,
-      FIREOPTIONS=2,
-      OVERRIDEMODE=false,
-      SHAREMINIMAPPROGRESS=true,
-      SHOWFIREICONS=true,
-      SHOWPLAYERICONS=true,
-      SHOWPLAYERSOPTIONS=2
-    },
-    enabled=false
   },
   ["workshop-926178831"]={ -- Force biomes
     configuration_options={
@@ -241,31 +227,5 @@ enabled=true },
     configuration_options={ bekkitt_skeleton_pen=0, null_option=true, skeleton_player=true },
     enabled=true 
   },
-  ["workshop-706633455"]={ configuration_options={ speedmultiplier=2 }, enabled=true }, -- Velocidade fantasma
-  ["workshop-1803285852"]={
-    configuration_options={
-      [""]=0,
-      AutoPickupAsh=false,
-      AutoPickupEnabled=false,
-      AutoPickupPoop=false,
-      AutoPickupRange=10,
-      AutoPickupSeeds=false,
-      AutoStackAsh=true,
-      AutoStackEnabled=true,
-      AutoStackMakeNewStackMainStack=false,
-      AutoStackManuallyDroppedItems=false,
-      AutoStackPoop=true,
-      AutoStackRange=10,
-      AutoStackSeeds=true,
-      ManualDropStackRange=5,
-      ManualStackAsh=false,
-      ManualStackMakeNewStackMainStack=false,
-      ManualStackPoop=false,
-      ManualStackSeeds=false,
-      PlayerMustHaveOneOfItemToAutoPickup=false,
-      SmokePuffOnStacking=true,
-      StackDuringPopulation=false 
-    },
-    enabled=true 
-  }
+  ["workshop-706633455"]={ configuration_options={ speedmultiplier=2 }, enabled=true } -- Velocidade fantasma
 }
