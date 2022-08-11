@@ -128,7 +128,7 @@ enabled=true },
   ["workshop-2460675139"]={ -- Simple economy
     configuration_options={
       CanDragMainbutton=true,
-      Disintegrate=false,
+      Disintegrate=true,
       KillBonus=0.1,
       Language=false,
       Precious_Disintegratable=false,
@@ -190,5 +190,6 @@ enabled=true },
       null=0
     },
     enabled=true
-  }
+  },
+  ["workshop-1216718131"]={ configuration_options={ clean=true, lang=false, stack=true }, enabled=true } -- AntiStun
 }

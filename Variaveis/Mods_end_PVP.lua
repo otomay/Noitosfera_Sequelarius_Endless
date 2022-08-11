@@ -127,7 +127,7 @@ enabled=true },
   ["workshop-2460675139"]={ -- Simple economy
     configuration_options={
       CanDragMainbutton=true,
-      Disintegrate=false,
+      Disintegrate=true,
       KillBonus=0.1,
       Language=false,
       Precious_Disintegratable=false,
@@ -223,9 +223,10 @@ enabled=true },
     },
     enabled=true 
   },
-  ["workshop-1271089343"]={ -- Revive esqueleto
-    configuration_options={ bekkitt_skeleton_pen=0, null_option=true, skeleton_player=true },
+  ["workshop-706633455"]={ configuration_options={ speedmultiplier=2 }, enabled=true }, -- Velocidade fantasma
+  ["workshop-1216718131"]={ configuration_options={ clean=true, lang=false, stack=true }, enabled=true }, -- AntiStun
+  ["workshop-2753774601"]={ -- Botão de respawn
+    configuration_options={ [""]=0, CD=0, Health_Penalty=0, Language=true, UI="center_offset_down" },
     enabled=true 
-  },
-  ["workshop-706633455"]={ configuration_options={ speedmultiplier=2 }, enabled=true } -- Velocidade fantasma
+  }
 }
