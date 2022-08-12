@@ -124,17 +124,6 @@ enabled=true },
     enabled=true
   },
   ["workshop-2167036904"]={ configuration_options={ URL="https://discord.gg/NaX26M64VZ" }, enabled=true }, -- Discord button
-  ["workshop-2460675139"]={ -- Simple economy
-    configuration_options={
-      CanDragMainbutton=true,
-      Disintegrate=true,
-      KillBonus=0.1,
-      Language=false,
-      Precious_Disintegratable=false,
-      ShopHotKey="O"
-    },
-    enabled=true
-  },
   ["workshop-2561335747"]={ -- MyHome
     configuration_options={
       access_archive_maze=false,
@@ -224,9 +213,130 @@ enabled=true },
     enabled=true 
   },
   ["workshop-706633455"]={ configuration_options={ speedmultiplier=2 }, enabled=true }, -- Velocidade fantasma
-  ["workshop-1216718131"]={ configuration_options={ clean=true, lang=false, stack=true }, enabled=true }, -- AntiStun
+  ["workshop-1803285852"]={
+    configuration_options={
+      [""]=0,
+      AutoPickupAsh=false,
+      AutoPickupEnabled=false,
+      AutoPickupPoop=false,
+      AutoPickupRange=10,
+      AutoPickupSeeds=false,
+      AutoStackAsh=true,
+      AutoStackEnabled=true,
+      AutoStackMakeNewStackMainStack=true,
+      AutoStackManuallyDroppedItems=false,
+      AutoStackPoop=true,
+      AutoStackRange=10,
+      AutoStackSeeds=true,
+      ManualDropStackRange=5,
+      ManualStackAsh=false,
+      ManualStackMakeNewStackMainStack=true,
+      ManualStackPoop=false,
+      ManualStackSeeds=false,
+      PlayerMustHaveOneOfItemToAutoPickup=false,
+      SmokePuffOnStacking=false,
+      StackDuringPopulation=false 
+    },
+    enabled=true 
+  },
   ["workshop-2753774601"]={ -- Botão de respawn
     configuration_options={ [""]=0, CD=0, Health_Penalty=0, Language=true, UI="center_offset_down" },
+    enabled=true 
+  },
+  ["workshop-2324689937"]={
+    configuration_options={
+      Compatibility=false,
+      config_auto_amulet=true,
+      config_auto_armor=false,
+      config_auto_backpack=false,
+      config_auto_dress=false,
+      config_render=false,
+      slot_amulet="extrabody3",
+      slot_armor="extrabody1",
+      slot_backpack=false,
+      slot_dress="extrabody2",
+      slot_heavy=false,
+      ["Тype/slot mapping"]=false 
+    },
+    enabled=true 
+  },
+  ["workshop-2410967470"]={
+    configuration_options={
+      [""]=0,
+      ["addItem-batwing"]="batwing",
+      ["addItem-beardhair"]="beardhair",
+      ["addItem-beefalowool"]="beefalowool",
+      ["addItem-bluegem"]=false,
+      ["addItem-boneshard"]="boneshard",
+      ["addItem-charcoal"]=false,
+      ["addItem-cookiecuttershell"]=false,
+      ["addItem-coontail"]="coontail",
+      ["addItem-cutgrass"]=false,
+      ["addItem-feathers"]="feathers",
+      ["addItem-flint"]=false,
+      ["addItem-froglegs"]="froglegs",
+      ["addItem-ghostflower"]=false,
+      ["addItem-glommerfuel"]="glommerfuel",
+      ["addItem-gnarwail_horn"]=false,
+      ["addItem-goldnugget"]=false,
+      ["addItem-goose_feather"]="goose_feather",
+      ["addItem-guano"]="guano",
+      ["addItem-halloweencandies"]="halloweencandies",
+      ["addItem-halloweendecorations"]="halloweendecorations",
+      ["addItem-houndstooth"]="houndstooth",
+      ["addItem-log"]=false,
+      ["addItem-low_durability"]="low_durability",
+      ["addItem-malbatross_feather"]=false,
+      ["addItem-manrabbit_tail"]="manrabbit_tail",
+      ["addItem-marble"]=false,
+      ["addItem-moonrocknugget"]=false,
+      ["addItem-moonshards"]=false,
+      ["addItem-mosquitosacks"]="mosquitosacks",
+      ["addItem-nightmarefuel"]="nightmarefuel",
+      ["addItem-nitre"]=false,
+      ["addItem-pigskin"]=false,
+      ["addItem-poop"]="poop",
+      ["addItem-redgem"]=false,
+      ["addItem-rock_avocado_fruit"]=false,
+      ["addItem-rocks"]=false,
+      ["addItem-rottenegg"]="rottenegg",
+      ["addItem-ruinedsap"]="ruinedsap",
+      ["addItem-saltrock"]=false,
+      ["addItem-scrap_papers"]="scrap_papers",
+      ["addItem-silk"]="silk",
+      ["addItem-slurtle_shellpieces"]="slurtle_shellpieces",
+      ["addItem-spidergland"]="spidergland",
+      ["addItem-spoiledfish"]="spoiledfish",
+      ["addItem-stinger"]="stinger",
+      ["addItem-tentaclespikes"]=false,
+      ["addItem-tentaclespots"]=false,
+      ["addItem-townportaltalisman"]=false,
+      ["addItem-tree_cones"]=false,
+      ["addItem-trinkets"]=false,
+      ["addItem-twigs"]=false,
+      ["addItem-uprooted_plants"]=false,
+      ["addItem-walrushat"]="walrushat",
+      ["addItem-wetpouch"]=false,
+      ["addItem-winterfoods"]="winterfoods",
+      ["addItem-winterornaments"]="winterornaments",
+      ["addItem-yot_pouches"]="yot_pouches",
+      configureKeyBind=false,
+      configureModifierKey="KEY_CTRL",
+      configureSound="dontstarve_DLC001/fall/leaf_rustle",
+      configureState=true,
+      configureTimer=1,
+      configureToggleKey="KEY_K" 
+    },
+    enabled=true 
+  },
+  ["workshop-2847806795"]={
+    configuration_options={
+      CanDragMainbutton=true,
+      Disintegrate=true,
+      KillBonus=0.02,
+      Language=false,
+      Precious_Disintegratable=false 
+    },
     enabled=true 
   }
 }
