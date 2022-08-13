@@ -150,7 +150,7 @@ KLEI     1 return {
     ["workshop-2324689937"]={
       configuration_options={
         Compatibility=false,
-        config_auto_amulet=false,
+        config_auto_amulet=true,
         config_auto_armor=false,
         config_auto_backpack=false,
         config_auto_dress=false,
@@ -233,17 +233,6 @@ KLEI     1 return {
       },
       enabled=true 
     },
-    ["workshop-2460675139"]={
-      configuration_options={
-        CanDragMainbutton=true,
-        Disintegrate=true,
-        KillBonus=0.1,
-        Language=false,
-        Precious_Disintegratable=false,
-        ShopHotKey="O" 
-      },
-      enabled=true 
-    },
     ["workshop-2561335747"]={
       configuration_options={
         access_archive_maze=false,
@@ -262,6 +251,16 @@ KLEI     1 return {
         pushout_hauntable_mobs=true,
         pushout_klaussack=true,
         restricted_area=true 
+      },
+      enabled=true 
+    },
+    ["workshop-2847806795"]={
+      configuration_options={
+        CanDragMainbutton=true,
+        Disintegrate=true,
+        KillBonus=0.01,
+        Language=false,
+        Precious_Disintegratable=false 
       },
       enabled=true 
     },
