@@ -1,7 +1,7 @@
-[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
+[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Caves/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 518333
-[00:00:00]: Current time: Thu Aug 18 10:45:45 2022
+[00:00:00]: Current time: Thu Aug 18 10:37:35 2022
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,12 +12,12 @@
 [00:00:00]: Build Date: 1240
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 22494 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 22527 -shard Caves 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:01]: THREAD - started 'GAClient' (281472813776912)
-[00:00:01]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: THREAD - started 'GAClient' (281473430343696)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:01]: Mounting file system databundles/klump.zip successful.
 [00:00:01]: Mounting file system databundles/shaders.zip successful.
 [00:00:01]: Mounting file system databundles/fonts.zip successful.
@@ -25,15 +25,16 @@
 [00:00:01]: Mounting file system databundles/bigportraits.zip successful.
 [00:00:01]: Mounting file system databundles/images.zip successful.
 [00:00:01]: Mounting file system databundles/scripts.zip successful.
-[00:00:01]: [Steam] SteamGameServer_Init(11000, 27016)
+[00:00:01]: [Steam] SteamGameServer_Init(11001, 27016)
+[00:00:01]: [Steam] SteamGameServer_Init(11001, 27017)
 [00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: ProfileIndex:3.86
+[00:00:01]: ProfileIndex:3.83
 [00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: THREAD - started 'Ping Job Thread' (281472296673296)
+[00:00:01]: THREAD - started 'Ping Job Thread' (281472903372816)
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (281472085237776)
+[00:00:01]: THREAD - started 'StreamInput' (281472426569744)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
@@ -50,7 +51,7 @@
 [00:00:01]: LOADING LUA
 [00:00:01]: DoLuaFile scripts/main.lua
 [00:00:01]: DoLuaFile loading buffer scripts/main.lua
-[00:00:02]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
 [00:00:07]:   taskgrouplist:	default	Juntos	
 [00:00:07]:   taskgrouplist:	classic	Clássico	
 [00:00:07]:   taskgrouplist:	cave_default	Subterrâneo	
@@ -515,4 +516,4 @@ LUA ERROR stack traceback:
 [00:00:08]: lua_close took 0.08 seconds
 [00:00:08]: CurlRequestManager::ClientThread::Main() complete
 [00:00:08]: HttpClient2 discarded 0 callbacks.
-[00:00:09]: Shutting down
+[00:00:08]: Shutting down
