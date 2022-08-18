@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Caves/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 518333
-[00:00:00]: Current time: Thu Aug 18 08:33:48 2022
+[00:00:00]: Current time: Thu Aug 18 08:25:33 2022
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,11 +12,11 @@
 [00:00:00]: Build Date: 1240
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 22534 -shard Caves 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 22524 -shard Caves 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473364684816)
+[00:00:00]: THREAD - started 'GAClient' (281473100460048)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -28,13 +28,13 @@
 [00:00:00]: [Steam] SteamGameServer_Init(11001, 27016)
 [00:00:01]: [Steam] SteamGameServer_Init(11001, 27017)
 [00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: ProfileIndex:3.89
+[00:00:01]: ProfileIndex:3.87
 [00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: THREAD - started 'Ping Job Thread' (281472838905872)
+[00:00:01]: THREAD - started 'Ping Job Thread' (281472569413648)
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (281472832602128)
+[00:00:01]: THREAD - started 'StreamInput' (281472563109904)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
@@ -473,9 +473,9 @@
 [00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_ruins_slab_builder	
 [00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodmetal_builder	
 [00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodpaneling_builder	
-[00:00:08]: upvaluehelper loaded	
-[00:00:08]: modimport: ../mods/workshop-1951468597/scripts/stategraphs/SG_hua_house.lua	
-[00:00:08]: modimport: ../mods/workshop-1951468597/scripts/hua_house_named.lua	
+[00:00:07]: upvaluehelper loaded	
+[00:00:07]: modimport: ../mods/workshop-1951468597/scripts/stategraphs/SG_hua_house.lua	
+[00:00:07]: modimport: ../mods/workshop-1951468597/scripts/hua_house_named.lua	
 [00:00:08]: modimport: ../mods/workshop-1951468597/tardis.lua	
 [00:00:08]: [string "../mods/workshop-2847806795/modmain.lua"]:79: attempt to concatenate field 'SElan' (a nil value)
 LUA ERROR stack traceback:
