@@ -334,8 +334,8 @@ enabled=true },
       CanDragMainbutton=true,
       Disintegrate=true,
       KillBonus=0.02,
-      Language=false,
-      Precious_Disintegratable=false 
+      Language=1,
+      Precious_Disintegratable=true 
     },
     enabled=true 
   }
