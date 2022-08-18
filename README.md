@@ -25,20 +25,14 @@
 > Concedido ao jogador que mais usou cajados na temporada
 - O Masoquista: Xxxxxxx
 > Concedido ao jogador que mais levou dano na temporada
-- O Monarca: Xxxxxxx
-> Concedido ao jogador que mais ganhou moedas na temporada
-- Bob, o Construtor: Xxxxxxx
-> Concedido ao jogador que mais fez construções na temporada
-- O Demolidor: Xxxxxxx
-> Concedido ao jogador que mais demoliu construções na temporada
-- Colheita feliz: Xxxxxxx
-> Concedido ao jogador que mais colheu vegetais na temporada
 - Natsuki Subaru: Xxxxxxx
 > Concedido ao jogador que mais morreu na temporada
+- Colheita feliz: Xxxxxxx
+> Concedido ao jogador que mais colheu vegetais na temporada
 - O Tagarela: Xxxxxxx
 > Concedido ao jogador que mais conversou na temporada
 - O Indeciso: Xxxxxxx
 > Concedido ao jogador que mais trocou de personagem na temporada 
 - O Vagabundo: Xxxxxxx
-> Concedido ao jogador que passou mais tempo online no servidor na temporada
+> Concedido ao jogador que passou mais tempo online (no servidor) na temporada
 - (Informações a serem adicionadas ao final da season. Possivelmente não terei todos os dados ao final da primeira.)
