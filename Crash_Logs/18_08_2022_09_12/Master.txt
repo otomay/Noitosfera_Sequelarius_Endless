@@ -1,7 +1,7 @@
-[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Caves/ 
+[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 518333
-[00:00:00]: Current time: Thu Aug 18 09:15:04 2022
+[00:00:00]: Current time: Thu Aug 18 09:06:44 2022
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,11 +12,11 @@
 [00:00:00]: Build Date: 1240
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 22533 -shard Caves 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 22513 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473512755216)
+[00:00:00]: THREAD - started 'GAClient' (281472986800144)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -25,16 +25,15 @@
 [00:00:00]: Mounting file system databundles/bigportraits.zip successful.
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
-[00:00:00]: [Steam] SteamGameServer_Init(11001, 27016)
-[00:00:00]: [Steam] SteamGameServer_Init(11001, 27017)
+[00:00:00]: [Steam] SteamGameServer_Init(11000, 27016)
 [00:00:00]: [Steam] SteamGameServer_Init success
-[00:00:00]: ProfileIndex:3.86
-[00:00:00]: [Connect] PendingConnection::Reset(true)
-[00:00:00]: THREAD - started 'Ping Job Thread' (281472981032976)
+[00:00:01]: ProfileIndex:3.77
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: THREAD - started 'Ping Job Thread' (281472457330704)
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (281472974729232)
+[00:00:01]: THREAD - started 'StreamInput' (281472451026960)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
@@ -506,14 +505,14 @@ LUA ERROR stack traceback:
 [00:00:07]: Failed mSimulation->Reset()
 [00:00:07]: Error during game initialization!
 [00:00:07]: Collecting garbage...
-[00:00:07]: lua_gc took 0.26 seconds
-[00:00:07]: ~ShardLuaProxy()
-[00:00:07]: ~cEventLeaderboardProxy()
-[00:00:07]: ~ItemServerLuaProxy()
-[00:00:07]: ~InventoryLuaProxy()
-[00:00:07]: ~NetworkLuaProxy()
-[00:00:07]: ~SimLuaProxy()
-[00:00:08]: lua_close took 0.08 seconds
+[00:00:08]: lua_gc took 0.26 seconds
+[00:00:08]: ~ShardLuaProxy()
+[00:00:08]: ~cEventLeaderboardProxy()
+[00:00:08]: ~ItemServerLuaProxy()
+[00:00:08]: ~InventoryLuaProxy()
+[00:00:08]: ~NetworkLuaProxy()
+[00:00:08]: ~SimLuaProxy()
+[00:00:08]: lua_close took 0.07 seconds
 [00:00:08]: CurlRequestManager::ClientThread::Main() complete
 [00:00:08]: HttpClient2 discarded 0 callbacks.
 [00:00:08]: Shutting down
