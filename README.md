@@ -27,8 +27,6 @@
 > Concedido ao jogador que mais levou dano na temporada
 - Natsuki Subaru: Xxxxxxx
 > Concedido ao jogador que mais morreu na temporada
-- Colheita feliz: Xxxxxxx
-> Concedido ao jogador que mais colheu vegetais na temporada
 - O Tagarela: Xxxxxxx
 > Concedido ao jogador que mais conversou na temporada
 - O Indeciso: Xxxxxxx
