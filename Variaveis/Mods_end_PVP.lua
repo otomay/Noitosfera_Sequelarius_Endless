@@ -338,5 +338,6 @@ enabled=true },
       Precious_Disintegratable=true 
     },
     enabled=true 
-  }
+  },
+  ["Noitosfera"]={ configuration_options = {}, enabled=true }
 }
