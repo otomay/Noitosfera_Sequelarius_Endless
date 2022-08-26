@@ -302,5 +302,5 @@ enabled=true },
     },
     enabled=true 
   },
-  ["Noitosfera"]={ configuration_options = {}, enabled=true }
+  ["workshop-2854057841"]={ configuration_options = {}, enabled=true }
 }
