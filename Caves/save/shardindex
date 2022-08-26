@@ -1,6 +1,5 @@
 KLEI     1 return {
   enabled_mods={
-    Noitosfera={ configuration_options={  }, enabled=true },
     ["workshop-1185229307"]={
       configuration_options={
         [""]="",
@@ -265,6 +264,7 @@ KLEI     1 return {
       },
       enabled=true 
     },
+    ["workshop-2854057841"]={ configuration_options={  }, enabled=true },
     ["workshop-926178831"]={
       configuration_options={
         BATCLOISTER="RANDOM",
