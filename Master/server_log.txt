@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 519602
-[00:00:00]: Current time: Fri Aug 26 00:25:29 2022
+[00:00:00]: Current time: Fri Aug 26 00:35:58 2022
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,28 +12,28 @@
 [00:00:00]: Build Date: 1257
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 30139 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 25736 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473770393616)
+[00:00:00]: THREAD - started 'GAClient' (281473039699984)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
 [00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
-[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
-[00:00:00]: Mounting file system databundles/images.zip successful.
-[00:00:00]: Mounting file system databundles/scripts.zip successful.
-[00:00:00]: [Steam] SteamGameServer_Init(11000, 27016)
+[00:00:01]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:01]: Mounting file system databundles/images.zip successful.
+[00:00:01]: Mounting file system databundles/scripts.zip successful.
+[00:00:01]: [Steam] SteamGameServer_Init(11000, 27016)
 [00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: ProfileIndex:3.89
+[00:00:01]: ProfileIndex:3.86
 [00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: THREAD - started 'Ping Job Thread' (281473238896656)
+[00:00:01]: THREAD - started 'Ping Job Thread' (281472521244688)
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (281472896331792)
+[00:00:01]: THREAD - started 'StreamInput' (281472513884176)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
@@ -64,6 +64,7 @@
 [00:00:08]: SUCCESS: Loaded modoverrides.lua	
 [00:00:08]: modoverrides.lua enabling workshop-1609069355	
 [00:00:08]: modoverrides.lua enabling workshop-2410967470	
+[00:00:08]: modoverrides.lua enabling workshop-1803285852	
 [00:00:08]: modoverrides.lua enabling workshop-2847806795	
 [00:00:08]: modoverrides.lua enabling workshop-1951468597	
 [00:00:08]: modoverrides.lua enabling workshop-1840284484	
@@ -72,9 +73,10 @@
 [00:00:08]: modoverrides.lua enabling workshop-2561335747	
 [00:00:08]: modoverrides.lua enabling workshop-926178831	
 [00:00:08]: modoverrides.lua enabling workshop-2324689937	
-[00:00:08]: modoverrides.lua enabling workshop-1803285852	
+[00:00:08]: modoverrides.lua enabling Noitosfera	
 [00:00:08]: modoverrides.lua enabling workshop-2167036904	
 [00:00:08]: modoverrides.lua enabling workshop-1852257480	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	Noitosfera	
 [00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
 [00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1609069355	
 [00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-926178831	
@@ -88,6 +90,8 @@
 [00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1803285852	
 [00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2167036904	
 [00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2324689937	
+[00:00:08]: Could not load mod_config_data/modconfiguration_Noitosfera_CLIENT	
+[00:00:08]: Loading mod: Noitosfera Version:0.1.0	
 [00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1852257480_CLIENT	
 [00:00:08]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:1.7	
 [00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1609069355_CLIENT	
@@ -201,6 +205,31 @@
 [00:00:08]: Overriding mod workshop-2410967470's option addItem-froglegs with value froglegs	
 [00:00:08]: Overriding mod workshop-2410967470's option addItem-bluegem with value false	
 [00:00:08]: Overriding mod workshop-2410967470's option addItem-cutgrass with value cutgrass	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1803285852	
+[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
+[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
+[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
+[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupEnabled with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option ManualStackMakeNewStackMainStack with value true	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupRange with value 10	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackEnabled with value true	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackMakeNewStackMainStack with value true	
+[00:00:08]: Overriding mod workshop-1803285852's option SmokePuffOnStacking with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option StackDuringPopulation with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupSeeds with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option PlayerMustHaveOneOfItemToAutoPickup with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupAsh with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option ManualStackSeeds with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackManuallyDroppedItems with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option ManualStackAsh with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupPoop with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option ManualStackPoop with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option ManualDropStackRange with value 5	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackAsh with value true	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackRange with value 10	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackSeeds with value true	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackPoop with value true	
 [00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2847806795	
 [00:00:08]: Overriding mod workshop-2847806795's option KillBonus with value 0.01	
 [00:00:08]: Overriding mod workshop-2847806795's option CanDragMainbutton with value true	
@@ -360,31 +389,7 @@
 [00:00:08]: Overriding mod workshop-2324689937's option slot_amulet with value extrabody3	
 [00:00:08]: Overriding mod workshop-2324689937's option slot_backpack with value false	
 [00:00:08]: Overriding mod workshop-2324689937's option config_auto_backpack with value false	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1803285852	
-[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
-[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
-[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
-[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupEnabled with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option ManualStackMakeNewStackMainStack with value true	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupRange with value 10	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoStackEnabled with value true	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoStackMakeNewStackMainStack with value true	
-[00:00:08]: Overriding mod workshop-1803285852's option SmokePuffOnStacking with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option StackDuringPopulation with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupSeeds with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option PlayerMustHaveOneOfItemToAutoPickup with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupAsh with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option ManualStackSeeds with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoStackManuallyDroppedItems with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option ManualStackAsh with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupPoop with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option ManualStackPoop with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option ManualDropStackRange with value 5	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoStackAsh with value true	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoStackRange with value 10	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoStackSeeds with value true	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoStackPoop with value true	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod Noitosfera	
 [00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2167036904	
 [00:00:08]: Overriding mod workshop-2167036904's option URL with value https://discord.gg/NaX26M64VZ	
 [00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
@@ -406,6 +411,9 @@
 [00:00:08]: Mod: workshop-2410967470 (Rot Begone)	Loading modworldgenmain.lua	
 [00:00:08]: Mod: workshop-2410967470 (Rot Begone)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-2410967470 (Rot Begone)	Loading modmain.lua	
+[00:00:08]: Mod: Noitosfera	Loading modworldgenmain.lua	
+[00:00:08]: Mod: Noitosfera	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: Noitosfera	Loading modmain.lua	
 [00:00:08]: Mod: workshop-2561335747 (MyHome Reworked)	Loading modworldgenmain.lua	
 [00:00:08]: Mod: workshop-2561335747 (MyHome Reworked)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-2561335747 (MyHome Reworked)	Loading modmain.lua	
@@ -518,6 +526,8 @@
 [00:00:13]: Mod: workshop-1609069355 (Welcome Message)	  Registering default mod prefab	
 [00:00:13]: Mod: workshop-2410967470 (Rot Begone)	Registering prefabs	
 [00:00:13]: Mod: workshop-2410967470 (Rot Begone)	  Registering default mod prefab	
+[00:00:13]: Mod: Noitosfera	Registering prefabs	
+[00:00:13]: Mod: Noitosfera	  Registering default mod prefab	
 [00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	Registering prefabs	
 [00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome	
 [00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome	
