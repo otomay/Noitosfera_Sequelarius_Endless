@@ -21,8 +21,6 @@
 # Títulos conquistados
 - O Carniceiro: Xxxxxxx
 > Concedido ao jogador que mais matou monstros na temporada
-- O Mister M: Xxxxxxx
-> Concedido ao jogador que mais usou cajados na temporada
 - O Masoquista: Xxxxxxx
 > Concedido ao jogador que mais levou dano na temporada
 - Natsuki Subaru: Xxxxxxx
