@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 520864
-[00:00:00]: Current time: Wed Aug 31 15:16:43 2022
+[00:00:00]: Current time: Thu Sep  1 06:13:19 2022
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -16,7 +16,7 @@
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473611440144)
+[00:00:00]: THREAD - started 'GAClient' (281472881618960)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -27,13 +27,13 @@
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(11000, 27016)
 [00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: ProfileIndex:4.21
+[00:00:01]: ProfileIndex:3.94
 [00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: THREAD - started 'Ping Job Thread' (281472888958992)
+[00:00:01]: THREAD - started 'Ping Job Thread' (281472365895696)
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (281472879484944)
+[00:00:01]: THREAD - started 'StreamInput' (281472158134288)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
@@ -421,14 +421,14 @@
 [00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions.lua	
 [00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_commands.lua	
 [00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_restrictedarea_helper.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_mods_compatibility.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions_override.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_cannonballs_override.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_orangeamulet_override.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_abigail_override.lua	
-[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_mods_compatibility.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions_override.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_cannonballs_override.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_orangeamulet_override.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_abigail_override.lua	
+[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
 [00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modworldgenmain.lua	
 [00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modmain.lua	
@@ -500,15 +500,15 @@
 [00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
 [00:00:09]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:00:10]: LOADING LUA SUCCESS
-[00:00:10]: Registering Server mod namespace "rotbegone"
-[00:00:10]: Registering Server mod namespace "huahouse_name"
-[00:00:10]: Registering Server mod namespace "simpleeconomy"
-[00:00:10]: Registering Server mod namespace "workshop-1207269058"
-[00:00:10]: Registering Server mod namespace "dstachievement"
-[00:00:10]: Registering Server mod namespace "workshop-1852257480"
-[00:00:10]: Registering Shard mod namespace "rotbegone"
-[00:00:10]: Registering Shard mod namespace "workshop-2167036904"
+[00:00:11]: LOADING LUA SUCCESS
+[00:00:11]: Registering Server mod namespace "rotbegone"
+[00:00:11]: Registering Server mod namespace "huahouse_name"
+[00:00:11]: Registering Server mod namespace "simpleeconomy"
+[00:00:11]: Registering Server mod namespace "workshop-1207269058"
+[00:00:11]: Registering Server mod namespace "dstachievement"
+[00:00:11]: Registering Server mod namespace "workshop-1852257480"
+[00:00:11]: Registering Shard mod namespace "rotbegone"
+[00:00:11]: Registering Shard mod namespace "workshop-2167036904"
 [00:00:11]: PlayerDeaths could not load morgue	
 [00:00:11]: PlayerHistory could not load player_history	
 [00:00:11]: ServerPreferences could not load server_preferences	
