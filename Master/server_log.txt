@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 521260
-[00:00:00]: Current time: Thu Sep  8 06:13:30 2022
+[00:00:00]: Current time: Fri Sep  9 06:12:43 2022
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,11 +12,11 @@
 [00:00:00]: Build Date: 1279
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 23098 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 23107 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473313968144)
+[00:00:00]: THREAD - started 'GAClient' (281473374302224)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -27,13 +27,13 @@
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(11000, 27016)
 [00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: ProfileIndex:3.93
+[00:00:01]: ProfileIndex:4.42
 [00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: THREAD - started 'Ping Job Thread' (281472788623376)
+[00:00:01]: THREAD - started 'Ping Job Thread' (281472857845776)
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (281472779677712)
+[00:00:01]: THREAD - started 'StreamInput' (281472846786576)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
@@ -59,7 +59,7 @@
 [00:00:06]: Running main.lua
 	
 [00:00:06]: loaded modindex	
-[00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
+[00:00:06]: ModIndex: Beginning normal load sequence for dedicated server.
 	
 [00:00:07]: SUCCESS: Loaded modoverrides.lua	
 [00:00:07]: modoverrides.lua enabling workshop-1609069355	
@@ -421,14 +421,14 @@
 [00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions.lua	
 [00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_commands.lua	
 [00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_restrictedarea_helper.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_mods_compatibility.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions_override.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_cannonballs_override.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_orangeamulet_override.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_abigail_override.lua	
-[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_mods_compatibility.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions_override.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_cannonballs_override.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_orangeamulet_override.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_abigail_override.lua	
+[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
 [00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modworldgenmain.lua	
 [00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modmain.lua	
@@ -561,21 +561,21 @@
 [00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/luckamulet	
 [00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	    luckamulet	
 [00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/coin_bundle	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	Registering prefabs	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_door_exit	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit1	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit2	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit3	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_wall	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wall	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_floor	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-1951468597 (Sweet House)	Registering prefabs	
+[00:00:12]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_door_exit	
+[00:00:12]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit	
+[00:00:12]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit1	
+[00:00:12]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit2	
+[00:00:12]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit3	
+[00:00:12]: Mod: workshop-1951468597 (Sweet House)	    hua_house	
+[00:00:12]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house	
+[00:00:12]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house	
+[00:00:12]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_placer	
+[00:00:12]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_wall	
+[00:00:12]: Mod: workshop-1951468597 (Sweet House)	    hua_wall	
+[00:00:12]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_floor	
 [00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_floor	
 [00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wallpaper	
 [00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_zhu1	
@@ -699,10 +699,18 @@
 [00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer_placer	
 [00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer	
 [00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:14]: 	Load FE	
+[00:00:15]: THREAD - started 'FilesExistAsyncThread' (281472445366288)
+[00:00:15]: 	Load FE: done	
+[00:00:15]: FilesExistAsyncThread started (20404 files)...
+[00:00:15]: Check for write access: TRUE
+[00:00:15]: Check for read access: TRUE
+[00:00:15]: Available disk space for save files: 9630 MB
+[00:00:15]: ModIndex: Load sequence finished successfully.	
+[00:00:15]: Reset() returning
