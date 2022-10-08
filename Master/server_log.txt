@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 522521
-[00:00:00]: Current time: Fri Oct  7 06:14:18 2022
+[00:00:00]: Current time: Sat Oct  8 06:12:43 2022
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,11 +12,11 @@
 [00:00:00]: Build Date: 1292
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 23394 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 23455 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473442742288)
+[00:00:00]: THREAD - started 'GAClient' (281472850231312)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -27,13 +27,13 @@
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(11000, 27016)
 [00:00:00]: [Steam] SteamGameServer_Init success
-[00:00:00]: ProfileIndex:4.07
+[00:00:00]: ProfileIndex:3.84
 [00:00:00]: [Connect] PendingConnection::Reset(true)
-[00:00:00]: THREAD - started 'Ping Job Thread' (281472925483024)
+[00:00:00]: THREAD - started 'Ping Job Thread' (281472393895952)
 [00:00:00]: Platform: 1
 [00:00:00]: Network tick rate: U=15(2), D=0
 [00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: THREAD - started 'StreamInput' (281472918122512)
+[00:00:00]: THREAD - started 'StreamInput' (281472386535440)
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
@@ -50,7 +50,7 @@
 [00:00:00]: LOADING LUA
 [00:00:00]: DoLuaFile scripts/main.lua
 [00:00:00]: DoLuaFile loading buffer scripts/main.lua
-[00:00:00]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
 [00:00:06]:   taskgrouplist:	default	Juntos	
 [00:00:06]:   taskgrouplist:	classic	Clássico	
 [00:00:06]:   taskgrouplist:	cave_default	Subterrâneo	
@@ -663,42 +663,42 @@
 [00:00:12]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies	
 [00:00:12]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies_builder	
 [00:00:12]: Mod: workshop-1951468597 (Sweet House)	  Registering default mod prefab	
-[00:00:12]: Mod: workshop-2324689937 (More equip slots)	Registering prefabs	
-[00:00:12]: Mod: workshop-2324689937 (More equip slots)	  Registering default mod prefab	
-[00:00:12]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
-[00:00:12]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
-[00:00:12]: Mod: workshop-926178831 (Force Biomes)	Registering prefabs	
-[00:00:12]: Mod: workshop-926178831 (Force Biomes)	  Registering default mod prefab	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	Registering prefabs	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/seffc	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    seffc	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/klaussack_placer	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    klaussack_placer	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/altar_placer	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    ancient_altar_placer	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/pigking	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    pigking	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/antlion	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    antlion	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/shadowwaxwell	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber_builder	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer_builder	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger_builder	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist_builder	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportableblender	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender_placer	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablecookpot	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot_placer	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablespicer	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer_placer	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer	
-[00:00:12]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-2324689937 (More equip slots)	Registering prefabs	
+[00:00:13]: Mod: workshop-2324689937 (More equip slots)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:00:13]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-926178831 (Force Biomes)	Registering prefabs	
+[00:00:13]: Mod: workshop-926178831 (Force Biomes)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	Registering prefabs	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/seffc	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    seffc	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/klaussack_placer	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    klaussack_placer	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/altar_placer	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    ancient_altar_placer	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/pigking	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    pigking	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/antlion	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    antlion	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/shadowwaxwell	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber_builder	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer_builder	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger_builder	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist_builder	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportableblender	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender_placer	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablecookpot	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot_placer	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablespicer	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer_placer	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer	
+[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering default mod prefab	
 [00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
 [00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
 [00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
@@ -706,11 +706,11 @@
 [00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:13]: 	Load FE	
-[00:00:14]: THREAD - started 'FilesExistAsyncThread' (281472519323664)
+[00:00:14]: THREAD - started 'FilesExistAsyncThread' (281471915565072)
 [00:00:14]: 	Load FE: done	
 [00:00:14]: FilesExistAsyncThread started (20405 files)...
 [00:00:14]: Check for write access: TRUE
 [00:00:14]: Check for read access: TRUE
-[00:00:14]: Available disk space for save files: 7985 MB
+[00:00:14]: Available disk space for save files: 8118 MB
 [00:00:14]: ModIndex: Load sequence finished successfully.	
 [00:00:14]: Reset() returning
