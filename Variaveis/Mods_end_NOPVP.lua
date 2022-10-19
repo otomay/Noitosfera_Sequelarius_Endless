@@ -120,7 +120,7 @@ enabled=true },
       HouseHammered=true,
       NewInteriors=true,
       NewWalls=true,
-      Tardis=true
+      Tardis=false
     },
     enabled=true
   },
