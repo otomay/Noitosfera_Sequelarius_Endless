@@ -1,22 +1,22 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Caves/ 
 [00:00:00]: Starting Up
-[00:00:00]: Version: 518333
-[00:00:00]: Current time: Thu Aug 18 13:06:10 2022
+[00:00:00]: Version: 522521
+[00:00:00]: Current time: Thu Oct 20 22:43:10 2022
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
 [00:00:00]: Release(Kernel) Version: 5.13.0-1025-oracle
 [00:00:00]: Kernel Build Timestamp: #30~20.04.1-Ubuntu SMP Fri Apr 1 06:09:46 UTC 2022
 [00:00:00]: Machine Arch: x86_64
-[00:00:00]: Don't Starve Together: 518333 LINUX
-[00:00:00]: Build Date: 1240
+[00:00:00]: Don't Starve Together: 522521 LINUX
+[00:00:00]: Build Date: 1292
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 22523 -shard Caves 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 23953 -shard Caves 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473274261520)
+[00:00:00]: THREAD - started 'GAClient' (281472944218128)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -28,13 +28,13 @@
 [00:00:00]: [Steam] SteamGameServer_Init(11001, 27016)
 [00:00:01]: [Steam] SteamGameServer_Init(11001, 27017)
 [00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: ProfileIndex:3.83
+[00:00:01]: ProfileIndex:3.89
 [00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: THREAD - started 'Ping Job Thread' (281472411799568)
+[00:00:01]: THREAD - started 'Ping Job Thread' (281472219983888)
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (281472405495824)
+[00:00:01]: THREAD - started 'StreamInput' (281472212623376)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
