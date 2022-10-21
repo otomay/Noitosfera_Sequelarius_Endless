@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Caves/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 527664
-[00:00:00]: Current time: Fri Oct 21 04:25:03 2022
+[00:00:00]: Current time: Fri Oct 21 06:13:33 2022
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,11 +12,11 @@
 [00:00:00]: Build Date: 1393
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 23809 -shard Caves 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 23814 -shard Caves 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473702285328)
+[00:00:00]: THREAD - started 'GAClient' (281473105268752)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -28,13 +28,13 @@
 [00:00:00]: [Steam] SteamGameServer_Init(11001, 27016)
 [00:00:01]: [Steam] SteamGameServer_Init(11001, 27017)
 [00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: ProfileIndex:4.51
+[00:00:01]: ProfileIndex:3.84
 [00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: THREAD - started 'Ping Job Thread' (281473168637968)
+[00:00:01]: THREAD - started 'Ping Job Thread' (281472577318928)
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (281472689745936)
+[00:00:01]: THREAD - started 'StreamInput' (281472569958416)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
@@ -65,7 +65,7 @@
 [00:00:06]: [Workshop] Collection query page 0, size: 1, total size: 1
 [00:00:06]: [Workshop] Collection query queued to get details from ID: 2792228447
 [00:00:06]: [Workshop] Collection query sent
-[00:00:07]: [Workshop] CollectionQuery got this many results: 1
+[00:00:06]: [Workshop] CollectionQuery got this many results: 1
 [00:00:07]: [Workshop] CollectionQuery queued IDs: 706633455 926178831 960992208 1185229307 1207269058 1271089343 1609069355 1803285852 1840284484 1852257480 1951468597 2167036904 2324689937 2410967470 2460675139 2484725102 2561335747 2753774601 2847806795 2854057841 2503437364 2597204554
 [00:00:07]: [Workshop] CollectionQuery finished, downloading mods.
 [00:00:07]: [Workshop] Item query page 0, size: 22, total size: 22
@@ -514,20 +514,20 @@
 [00:00:07]: Overriding mod workshop-2167036904's option URL with value https://discord.gg/NaX26M64VZ	
 [00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2854057841	
 [00:00:07]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modmain.lua	
-[00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/tuning_strings.lua	
-[00:00:08]: [Quest System] Amount of quests:	97	
-[00:00:08]: [Quest System] Amount of quests difficulty 1:	22	
-[00:00:08]: [Quest System] Amount of quests difficulty 2:	28	
-[00:00:08]: [Quest System] Amount of quests difficulty 3:	23	
-[00:00:08]: [Quest System] Amount of quests difficulty 4:	15	
-[00:00:08]: [Quest System] Amount of quests difficulty 5:	9	
-[00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/RPC.lua	
-[00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/Quest_Board_Util.lua	
-[00:00:08]: [Quest System] Amount of custom goals:	259	
-[00:00:08]: [Quest System] Amount of custom goals outdated:	260	
-[00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/postinitfns.lua	
-[00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/postinitclass.lua	
+[00:00:07]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/tuning_strings.lua	
+[00:00:07]: [Quest System] Amount of quests:	97	
+[00:00:07]: [Quest System] Amount of quests difficulty 1:	22	
+[00:00:07]: [Quest System] Amount of quests difficulty 2:	28	
+[00:00:07]: [Quest System] Amount of quests difficulty 3:	23	
+[00:00:07]: [Quest System] Amount of quests difficulty 4:	15	
+[00:00:07]: [Quest System] Amount of quests difficulty 5:	9	
+[00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/RPC.lua	
+[00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/Quest_Board_Util.lua	
+[00:00:07]: [Quest System] Amount of custom goals:	259	
+[00:00:07]: [Quest System] Amount of custom goals outdated:	260	
+[00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/postinitfns.lua	
+[00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/postinitclass.lua	
 [00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/actions.lua	
 [00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/consolecommands.lua	
 [00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/init_custom_quests.lua	
