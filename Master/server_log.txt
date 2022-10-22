@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 527877
-[00:00:00]: Current time: Sat Oct 22 01:34:45 2022
+[00:00:00]: Current time: Sat Oct 22 04:53:15 2022
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,11 +12,11 @@
 [00:00:00]: Build Date: 1396
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 36185 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 23914 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281472975261712)
+[00:00:00]: THREAD - started 'GAClient' (281472992579600)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -27,13 +27,13 @@
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(11000, 27016)
 [00:00:00]: [Steam] SteamGameServer_Init success
-[00:00:00]: ProfileIndex:3.98
+[00:00:00]: ProfileIndex:4.14
 [00:00:00]: [Connect] PendingConnection::Reset(true)
-[00:00:00]: THREAD - started 'Ping Job Thread' (281472449929232)
+[00:00:00]: THREAD - started 'Ping Job Thread' (281472396517392)
 [00:00:00]: Platform: 1
 [00:00:00]: Network tick rate: U=15(2), D=0
 [00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: THREAD - started 'StreamInput' (281472439398416)
+[00:00:00]: THREAD - started 'StreamInput' (281472387571728)
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
@@ -527,93 +527,93 @@
 [00:00:07]: [Quest System] Amount of custom goals outdated:	260	
 [00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/postinitfns.lua	
 [00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/postinitclass.lua	
-[00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/actions.lua	
-[00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/consolecommands.lua	
-[00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/init_custom_quests.lua	
-[00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/recipes.lua	
-[00:00:08]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-1609069355 (Welcome Message)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-1609069355 (Welcome Message)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-1609069355 (Welcome Message)	Loading modmain.lua	
-[00:00:08]: [WELCOME_MESSAGE]	Received welcome message from server:	 - Sistema de RPG: Ganhe pontos de atributo ao subir de nível e pontos de conquista ao realizar as conquistas listadas.
+[00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/actions.lua	
+[00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/consolecommands.lua	
+[00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/init_custom_quests.lua	
+[00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/recipes.lua	
+[00:00:07]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-1609069355 (Welcome Message)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1609069355 (Welcome Message)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1609069355 (Welcome Message)	Loading modmain.lua	
+[00:00:07]: [WELCOME_MESSAGE]	Received welcome message from server:	 - Sistema de RPG: Ganhe pontos de atributo ao subir de nível e pontos de conquista ao realizar as conquistas listadas.
 -- Você pode trocar estes pontos por melhorias permanentes do seu personagem, basta navegar entre os botões (estrelinha e balança) para conferir.
 - Sistema de economia: Ganhe ouro matando monstros ou usando os itens dedicados do mod.
 -- Você pode usar ouro pra comprar diversos itens, basta clicar no botão da loja (ou apertar O) para conferir o que está a venda.
 - Você pode também pode mandar dúvidas, críticas, sugestões, reports e etc no discord. Tem o botãozinho ai na tela :D
 	
-[00:00:08]: Mod: workshop-2410967470 (Rot Begone)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2410967470 (Rot Begone)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2410967470 (Rot Begone)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-2854057841 (Noitosfera)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2854057841 (Noitosfera)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2854057841 (Noitosfera)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-2561335747 (MyHome Reworked)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2561335747 (MyHome Reworked)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2561335747 (MyHome Reworked)	Loading modmain.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/languages/mh_en.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_commands.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_restrictedarea_helper.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_mods_compatibility.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions_override.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_cannonballs_override.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_orangeamulet_override.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_abigail_override.lua	
-[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	Loading modmain.lua	
-[00:00:08]: modimport: ../mods/workshop-2847806795/scripts/SEscripts/itemlist.lua	
-[00:00:08]: Mod: workshop-1951468597 (Sweet House)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-1951468597 (Sweet House)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-1951468597 (Sweet House)	Loading modmain.lua	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_recipe	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house1_recipe	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_pvz_recipe	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_tardis_recipe	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_named_item	
-[00:00:08]: Warning: function AddRecipeTab in modmain is deprecated.	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_1	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_2	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_3	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_4	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_5	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_6	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_7	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_8	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_9	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_10	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_11	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_12	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_zombies_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_phonograph	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_mushroom_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_punk_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_pvz_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_tardis_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_sunflower_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_upholstered_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_harlequin_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_circles_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_mushroom_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_punk_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_pvz_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_tardis_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checker_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checkered_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_geome_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_herringbone_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_octagon_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_ruins_slab_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodmetal_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodpaneling_builder	
+[00:00:07]: Mod: workshop-2410967470 (Rot Begone)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2410967470 (Rot Begone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2410967470 (Rot Begone)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-2854057841 (Noitosfera)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2854057841 (Noitosfera)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2854057841 (Noitosfera)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-2561335747 (MyHome Reworked)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2561335747 (MyHome Reworked)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2561335747 (MyHome Reworked)	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/languages/mh_en.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_commands.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_restrictedarea_helper.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_mods_compatibility.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions_override.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_cannonballs_override.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_orangeamulet_override.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_abigail_override.lua	
+[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-2847806795 ( Economia Simples )	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2847806795 ( Economia Simples )	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2847806795 ( Economia Simples )	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-2847806795/scripts/SEscripts/itemlist.lua	
+[00:00:07]: Mod: workshop-1951468597 (Sweet House)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1951468597 (Sweet House)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1951468597 (Sweet House)	Loading modmain.lua	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_recipe	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house1_recipe	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_pvz_recipe	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_tardis_recipe	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_named_item	
+[00:00:07]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_1	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_2	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_3	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_4	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_5	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_6	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_7	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_8	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_9	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_10	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_11	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_12	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_zombies_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_phonograph	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_mushroom_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_punk_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_pvz_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_tardis_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_sunflower_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_upholstered_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_harlequin_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_circles_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_mushroom_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_punk_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_pvz_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_tardis_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checker_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checkered_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_geome_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_herringbone_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_octagon_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_ruins_slab_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodmetal_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodpaneling_builder	
 [00:00:08]: upvaluehelper loaded	
 [00:00:08]: modimport: ../mods/workshop-1951468597/scripts/stategraphs/SG_hua_house.lua	
 [00:00:08]: modimport: ../mods/workshop-1951468597/scripts/hua_house_named.lua	
@@ -639,75 +639,75 @@
 [00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
 [00:00:09]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:00:11]: LOADING LUA SUCCESS
-[00:00:11]: Registering Server mod namespace "quest_system_rpc"
-[00:00:11]: Registering Server mod namespace "huahouse_name"
-[00:00:11]: Registering Server mod namespace "workshop-1207269058"
-[00:00:11]: Registering Server mod namespace "simpleeconomy"
-[00:00:11]: Registering Server mod namespace "workshop-1852257480"
-[00:00:11]: Registering Server mod namespace "dstachievement"
-[00:00:11]: Registering Server mod namespace "rotbegone"
-[00:00:11]: Registering Client mod namespace "quest_system_rpc"
-[00:00:11]: Registering Shard mod namespace "rotbegone"
-[00:00:11]: Registering Shard mod namespace "workshop-2167036904"
-[00:00:11]: Registering Shard mod namespace "quest_system_rpc"
-[00:00:11]: PlayerDeaths could not load morgue	
-[00:00:11]: PlayerHistory could not load player_history	
-[00:00:11]: ServerPreferences could not load server_preferences	
-[00:00:11]: ConsoleScreenSettings could not load consolescreen	
-[00:00:11]: bloom_enabled	true	
-[00:00:11]: OnFilesLoaded()	
-[00:00:11]: OnUpdatePurchaseStateComplete	
-[00:00:11]: Klump load on boot started.	
-[00:00:11]: Klump files loaded: 	0	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	Registering prefabs	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/questboard	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    questboard	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    questboard_placer	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/request_quest	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_very_easy	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_easy	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_normal	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_difficult	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_very_difficult	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_specific	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/quest_system_fx	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    greenfiresplash_fx	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splat_fx	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_full	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_med	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_low	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_melted	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/glommer_lightflower	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_lightflower	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/shadow_piece_items	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    shadow_crest	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    shadow_mitre	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    shadow_lance	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/frogking	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_beyblade	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_crown	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_p_crown	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_scepter	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/glommer_puddle	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_puddle_fx	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_puddle_trap	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/glommer_boss	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_small	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_boss	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine_item	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine_item_placer	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    blackglommerfuel	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    blackglommerfuel_placer	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/chester_boss	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    chester_boss	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_eyebone	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	    spit_bomb	
-[00:00:13]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering default mod prefab	
+[00:00:10]: LOADING LUA SUCCESS
+[00:00:10]: Registering Server mod namespace "quest_system_rpc"
+[00:00:10]: Registering Server mod namespace "huahouse_name"
+[00:00:10]: Registering Server mod namespace "workshop-1207269058"
+[00:00:10]: Registering Server mod namespace "simpleeconomy"
+[00:00:10]: Registering Server mod namespace "workshop-1852257480"
+[00:00:10]: Registering Server mod namespace "dstachievement"
+[00:00:10]: Registering Server mod namespace "rotbegone"
+[00:00:10]: Registering Client mod namespace "quest_system_rpc"
+[00:00:10]: Registering Shard mod namespace "rotbegone"
+[00:00:10]: Registering Shard mod namespace "workshop-2167036904"
+[00:00:10]: Registering Shard mod namespace "quest_system_rpc"
+[00:00:10]: PlayerDeaths could not load morgue	
+[00:00:10]: PlayerHistory could not load player_history	
+[00:00:10]: ServerPreferences could not load server_preferences	
+[00:00:10]: ConsoleScreenSettings could not load consolescreen	
+[00:00:10]: bloom_enabled	true	
+[00:00:10]: OnFilesLoaded()	
+[00:00:10]: OnUpdatePurchaseStateComplete	
+[00:00:10]: Klump load on boot started.	
+[00:00:10]: Klump files loaded: 	0	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	Registering prefabs	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/questboard	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    questboard	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    questboard_placer	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/request_quest	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_very_easy	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_easy	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_normal	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_difficult	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_very_difficult	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_specific	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/quest_system_fx	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    greenfiresplash_fx	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splat_fx	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_full	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_med	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_low	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_melted	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/glommer_lightflower	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_lightflower	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/shadow_piece_items	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    shadow_crest	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    shadow_mitre	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    shadow_lance	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/frogking	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_beyblade	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_crown	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_p_crown	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_scepter	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/glommer_puddle	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_puddle_fx	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_puddle_trap	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/glommer_boss	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_small	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_boss	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine_item	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine_item_placer	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    blackglommerfuel	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    blackglommerfuel_placer	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/chester_boss	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    chester_boss	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_eyebone	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	    spit_bomb	
+[00:00:12]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering default mod prefab	
 [00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
 [00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
 [00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
@@ -810,49 +810,49 @@
 [00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_light_light	
 [00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_light_light	
 [00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house1	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_named_item	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_named_item	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_pvz	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_tardis	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_fake	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_interiors	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_phonograph	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_zombies	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies_builder	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_named_item	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_named_item	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_pvz	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_tardis	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_fake	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_interiors	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_phonograph	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph_placer	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_zombies	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies_builder	
+[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering default mod prefab	
 [00:00:14]: Mod: workshop-2324689937 (More equip slots)	Registering prefabs	
 [00:00:14]: Mod: workshop-2324689937 (More equip slots)	  Registering default mod prefab	
 [00:00:14]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
@@ -907,3 +907,9 @@
 [00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer_placer	
 [00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer	
 [00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
