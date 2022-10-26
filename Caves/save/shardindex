@@ -286,7 +286,7 @@ KLEI     1 return {
         TREASURECHASEDIST=4900,
         durability_same=false 
       },
-      enabled=true 
+      enabled=false 
     },
     ["workshop-2561335747"]={
       configuration_options={
@@ -354,7 +354,7 @@ KLEI     1 return {
         ["UI Options"]=0,
         UNCOMPROMISING_MODE=true 
       },
-      enabled=true 
+      enabled=false 
     },
     ["workshop-2847806795"]={
       configuration_options={
