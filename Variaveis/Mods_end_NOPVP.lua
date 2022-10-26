@@ -356,7 +356,7 @@ enabled=true },
       TREASURECHASEDIST=4900,
       durability_same=false 
     },
-    enabled=true 
+    enabled=false 
   },
   ["workshop-2597204554"]={
     configuration_options={
@@ -403,6 +403,6 @@ enabled=true },
       ["UI Options"]=0,
       UNCOMPROMISING_MODE=true 
     },
-    enabled=true 
+    enabled=false 
   }
 }
