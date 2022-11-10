@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 529179
-[00:00:00]: Current time: Wed Nov  9 06:13:20 2022
+[00:00:00]: Current time: Thu Nov 10 06:13:31 2022
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,11 +12,11 @@
 [00:00:00]: Build Date: 1422
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 24338 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 24334 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281472799031312)
+[00:00:00]: THREAD - started 'GAClient' (281473529069584)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -26,20 +26,20 @@
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(11000, 27016)
-[00:00:00]: [Steam] SteamGameServer_Init success
-[00:00:00]: ProfileIndex:4.27
-[00:00:00]: [Connect] PendingConnection::Reset(true)
-[00:00:00]: THREAD - started 'Ping Job Thread' (281472205209616)
-[00:00:00]: Platform: 1
-[00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: THREAD - started 'StreamInput' (281472194150416)
-[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
-[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
-[00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
-[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
-[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
-[00:00:00]: cGame::InitializeOnMainThread
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: ProfileIndex:3.85
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: THREAD - started 'Ping Job Thread' (281472934973456)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: THREAD - started 'StreamInput' (281472925499408)
+[00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
+[00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
+[00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:01]: cGame::InitializeOnMainThread
 [00:00:01]: Renderer initialize: Okay
 [00:00:01]: AnimManager initialize: Okay
 [00:00:01]: Buffers initialize: Okay
@@ -77,7 +77,7 @@
 [00:00:07]: [Workshop] ItemQuery finished all queries, moving to download phase
 [00:00:07]: [Workshop] ItemQuery downloading 1 pending mods marked to download
 [00:00:07]: [Workshop] DownloadPublishedFile [4] 2484725102
-[00:00:10]: [Workshop] OnDownloadPublishedFile [1] 2484725102
+[00:00:09]: [Workshop] OnDownloadPublishedFile [1] 2484725102
 [00:00:10]: SUCCESS: Loaded modoverrides.lua	
 [00:00:10]: modoverrides.lua enabling workshop-1852257480	
 [00:00:10]: modoverrides.lua enabling workshop-1609069355	
@@ -603,12 +603,12 @@
 [00:00:10]: modimport: ../mods/workshop-1852257480/scripts/patches/beefaloinformation.lua	
 [00:00:10]: Mod: workshop-926178831 (Force Biomes)	Loading modworldgenmain.lua	
 [00:00:10]: Mod: workshop-926178831 (Force Biomes)	Loading modmain.lua	
-[00:00:11]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modworldgenmain.lua	
-[00:00:11]: Mod: workshop-1840284484 (Achievements and Level System)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:11]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modmain.lua	
-[00:00:11]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
-[00:00:11]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:11]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:10]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modworldgenmain.lua	
+[00:00:10]: Mod: workshop-1840284484 (Achievements and Level System)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:10]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modmain.lua	
+[00:00:10]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:10]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:10]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
 [00:00:11]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
 [00:00:13]: LOADING LUA SUCCESS
 [00:00:13]: Registering Server mod namespace "rotbegone"
@@ -628,3 +628,48 @@
 [00:00:13]: OnUpdatePurchaseStateComplete	
 [00:00:13]: Klump load on boot started.	
 [00:00:13]: Klump files loaded: 	0	
+[00:00:15]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
+[00:00:15]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
+[00:00:15]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
+[00:00:15]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering default mod prefab	
+[00:00:15]: Mod: workshop-1609069355 (Welcome Message)	Registering prefabs	
+[00:00:15]: Mod: workshop-1609069355 (Welcome Message)	  Registering default mod prefab	
+[00:00:15]: Mod: workshop-2410967470 (Rot Begone)	Registering prefabs	
+[00:00:15]: Mod: workshop-2410967470 (Rot Begone)	  Registering default mod prefab	
+[00:00:15]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
+[00:00:15]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	Registering prefabs	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_builder	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_builder	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_marker	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_marker	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guidemarker	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_placemarker	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_placemarker	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_guestmarker	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guestmarker	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_informer	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_informer	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_antlion_spawner	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_antlion_spawner	
+[00:00:15]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering default mod prefab	
+[00:00:15]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
+[00:00:15]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
+[00:00:15]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Registering prefabs	
+[00:00:15]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Registering default mod prefab	
+[00:00:15]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
+[00:00:15]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/secoin	
+[00:00:15]: Mod: workshop-2847806795 ( Economia Simples )	    secoin	
+[00:00:15]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/stealer	
+[00:00:15]: Mod: workshop-2847806795 ( Economia Simples )	    stealer	
+[00:00:15]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/goldstaff	
+[00:00:15]: Mod: workshop-2847806795 ( Economia Simples )	    goldstaff	
+[00:00:15]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/vipcard	
+[00:00:15]: Mod: workshop-2847806795 ( Economia Simples )	    vipcard	
+[00:00:15]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/luckamulet	
+[00:00:15]: Mod: workshop-2847806795 ( Economia Simples )	    luckamulet	
+[00:00:15]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/coin_bundle	
+[00:00:15]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
+[00:00:15]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
