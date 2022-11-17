@@ -221,7 +221,7 @@ enabled=true },
       slot_heavy=false,
       ["Тype/slot mapping"]=false 
     },
-    enabled=true 
+    enabled=falsee 
   },
   ["workshop-2410967470"]={
     configuration_options={
