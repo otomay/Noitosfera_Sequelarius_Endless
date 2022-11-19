@@ -1,22 +1,22 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
-[00:00:00]: Version: 529179
-[00:00:00]: Current time: Sat Nov 19 00:22:34 2022
+[00:00:00]: Version: 531975
+[00:00:00]: Current time: Sat Nov 19 00:51:02 2022
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
 [00:00:00]: Release(Kernel) Version: 5.13.0-1025-oracle
 [00:00:00]: Kernel Build Timestamp: #30~20.04.1-Ubuntu SMP Fri Apr 1 06:09:46 UTC 2022
 [00:00:00]: Machine Arch: x86_64
-[00:00:00]: Don't Starve Together: 529179 LINUX
-[00:00:00]: Build Date: 1422
+[00:00:00]: Don't Starve Together: 531975 LINUX
+[00:00:00]: Build Date: 1466
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 24504 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 24619 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473429098512)
+[00:00:00]: THREAD - started 'GAClient' (281473428197392)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -27,13 +27,13 @@
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(11000, 27016)
 [00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: ProfileIndex:3.82
+[00:00:01]: ProfileIndex:4.36
 [00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: THREAD - started 'Ping Job Thread' (281472909754384)
+[00:00:01]: THREAD - started 'Ping Job Thread' (281472905424912)
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (281472900280336)
+[00:00:01]: THREAD - started 'StreamInput' (281472695005200)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
@@ -804,11 +804,11 @@
 [00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:14]: 	Load FE	
-[00:00:15]: THREAD - started 'FilesExistAsyncThread' (281472506540048)
+[00:00:15]: THREAD - started 'FilesExistAsyncThread' (281472637071376)
 [00:00:15]: 	Load FE: done	
 [00:00:15]: FilesExistAsyncThread started (21007 files)...
 [00:00:15]: Check for write access: TRUE
 [00:00:15]: Check for read access: TRUE
-[00:00:15]: Available disk space for save files: 7307 MB
+[00:00:15]: Available disk space for save files: 5131 MB
 [00:00:15]: ModIndex: Load sequence finished successfully.	
 [00:00:15]: Reset() returning
