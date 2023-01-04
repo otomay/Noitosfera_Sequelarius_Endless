@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 536667
-[00:00:00]: Current time: Tue Jan  3 06:13:18 2023
+[00:00:00]: Current time: Wed Jan  4 06:13:22 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,11 +12,11 @@
 [00:00:00]: Build Date: 1538
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 25838 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 25831 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281472726216720)
+[00:00:00]: THREAD - started 'GAClient' (281472964661264)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -29,11 +29,11 @@
 [00:00:01]: [Steam] SteamGameServer_Init success
 [00:00:01]: ProfileIndex:3.90
 [00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: THREAD - started 'Ping Job Thread' (281472133365776)
+[00:00:01]: THREAD - started 'Ping Job Thread' (281472447799312)
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (281472123891728)
+[00:00:01]: THREAD - started 'StreamInput' (281472437796880)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
@@ -59,11 +59,11 @@
 [00:00:06]: Running main.lua
 	
 [00:00:06]: loaded modindex	
-[00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
+[00:00:06]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:07]: [Workshop] Collection query page 0, size: 1, total size: 1
-[00:00:07]: [Workshop] Collection query queued to get details from ID: 2792228447
-[00:00:07]: [Workshop] Collection query sent
+[00:00:06]: [Workshop] Collection query page 0, size: 1, total size: 1
+[00:00:06]: [Workshop] Collection query queued to get details from ID: 2792228447
+[00:00:06]: [Workshop] Collection query sent
 [00:00:07]: [Workshop] CollectionQuery got this many results: 1
 [00:00:07]: [Workshop] CollectionQuery queued IDs: 706633455 926178831 960992208 1185229307 1207269058 1271089343 1609069355 1803285852 1840284484 1852257480 1951468597 2167036904 2324689937 2410967470 2460675139 2484725102 2503437364 2561335747 2597204554 2753774601 2847806795 2854057841
 [00:00:07]: [Workshop] CollectionQuery finished, downloading mods.
@@ -616,10 +616,10 @@
 [00:00:10]: ServerPreferences could not load server_preferences	
 [00:00:10]: ConsoleScreenSettings could not load consolescreen	
 [00:00:10]: bloom_enabled	true	
-[00:00:10]: OnFilesLoaded()	
-[00:00:10]: OnUpdatePurchaseStateComplete	
-[00:00:10]: Klump load on boot started.	
-[00:00:10]: Klump files loaded: 	0	
+[00:00:11]: OnFilesLoaded()	
+[00:00:11]: OnUpdatePurchaseStateComplete	
+[00:00:11]: Klump load on boot started.	
+[00:00:11]: Klump files loaded: 	0	
 [00:00:12]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
 [00:00:12]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
 [00:00:12]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
@@ -663,8 +663,8 @@
 [00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/luckamulet	
 [00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	    luckamulet	
 [00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/coin_bundle	
-[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
-[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
 [00:00:13]: Mod: workshop-1951468597 (Sweet House)	Registering prefabs	
 [00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_door_exit	
 [00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit	
@@ -810,9 +810,3 @@
 [00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:14]: 	Load FE	
-[00:00:15]: 	Load FE: done	
-[00:00:15]: THREAD - started 'FilesExistAsyncThread' (281471839162384)
-[00:00:15]: Check for write access: TRUE
-[00:00:15]: FilesExistAsyncThread started (21274 files)...
-[00:00:15]: Check for read access: TRUE
-[00:00:15]: Available disk space for save files: 10155 MB
