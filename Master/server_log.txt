@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 540053
-[00:00:00]: Current time: Fri Jan 27 06:44:20 2023
+[00:00:00]: Current time: Sat Jan 28 06:13:29 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -16,7 +16,7 @@
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473463439376)
+[00:00:00]: THREAD - started 'GAClient' (281472794071056)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -27,15 +27,15 @@
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(11000, 27016)
 [00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: ProfileIndex:3.92
+[00:00:01]: ProfileIndex:4.51
 [00:00:01]: [Connect] PendingConnection::Reset(true)
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (281472873132048)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
+[00:00:01]: THREAD - started 'StreamInput' (281472198361104)
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: cGame::InitializeOnMainThread
@@ -60,9 +60,9 @@
 [00:00:06]: loaded modindex	
 [00:00:06]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:07]: [Workshop] Collection query page 0, size: 1, total size: 1
-[00:00:07]: [Workshop] Collection query queued to get details from ID: 2792228447
-[00:00:07]: [Workshop] Collection query sent
+[00:00:06]: [Workshop] Collection query page 0, size: 1, total size: 1
+[00:00:06]: [Workshop] Collection query queued to get details from ID: 2792228447
+[00:00:06]: [Workshop] Collection query sent
 [00:00:07]: [Workshop] CollectionQuery got this many results: 1
 [00:00:07]: [Workshop] CollectionQuery queued IDs: 706633455 926178831 960992208 1185229307 1207269058 1271089343 1609069355 1803285852 1840284484 1852257480 1951468597 2167036904 2324689937 2410967470 2460675139 2484725102 2503437364 2561335747 2597204554 2753774601 2847806795 2854057841
 [00:00:07]: [Workshop] CollectionQuery finished, downloading mods.
