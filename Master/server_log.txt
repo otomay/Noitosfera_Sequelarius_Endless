@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 542788
-[00:00:00]: Current time: Mon Mar 13 06:12:52 2023
+[00:00:00]: Current time: Tue Mar 14 06:13:34 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,11 +12,11 @@
 [00:00:00]: Build Date: 1651
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 27320 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 27226 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473373945872)
+[00:00:00]: THREAD - started 'GAClient' (281473113362448)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -26,29 +26,29 @@
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(11000, 27016)
-[00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: ProfileIndex:3.85
-[00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: Platform: 1
-[00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (281472849829904)
-[00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
-[00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
-[00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
-[00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
-[00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
-[00:00:01]: cGame::InitializeOnMainThread
-[00:00:01]: Renderer initialize: Okay
-[00:00:01]: AnimManager initialize: Okay
-[00:00:01]: Buffers initialize: Okay
-[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
-[00:00:01]: GameSpecific initialize: Okay
-[00:00:01]: cGame::StartPlaying
-[00:00:01]: AppVersion::GetArchitecture() x64
-[00:00:01]: LOADING LUA
-[00:00:01]: DoLuaFile scripts/main.lua
-[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: ProfileIndex:3.88
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'StreamInput' (281472585183248)
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: AppVersion::GetArchitecture() x64
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
 [00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
 [00:00:06]:   taskgrouplist:	default	Juntos	
 [00:00:06]:   taskgrouplist:	classic	Clássico	
@@ -60,9 +60,9 @@
 [00:00:06]: loaded modindex	
 [00:00:06]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:07]: [Workshop] Collection query page 0, size: 1, total size: 1
-[00:00:07]: [Workshop] Collection query queued to get details from ID: 2792228447
-[00:00:07]: [Workshop] Collection query sent
+[00:00:06]: [Workshop] Collection query page 0, size: 1, total size: 1
+[00:00:06]: [Workshop] Collection query queued to get details from ID: 2792228447
+[00:00:06]: [Workshop] Collection query sent
 [00:00:07]: [Workshop] CollectionQuery got this many results: 1
 [00:00:07]: [Workshop] CollectionQuery queued IDs: 706633455 926178831 960992208 1185229307 1207269058 1271089343 1609069355 1803285852 1840284484 1852257480 1951468597 2167036904 2324689937 2410967470 2460675139 2484725102 2503437364 2561335747 2597204554 2753774601 2847806795 2854057841
 [00:00:07]: [Workshop] CollectionQuery finished, downloading mods.
@@ -71,12 +71,12 @@
 [00:00:07]: [Workshop] Item query sent
 [00:00:07]: [Workshop] ItemQuery got this many results: 22, matching: 22
 [00:00:07]: [Workshop] ModQuery got 22 results
-[00:00:07]: [Workshop] ModQuery queued to download IDs: 2503437364
-[00:00:07]: [Workshop] ModQuery already have IDs: {0.3,706633455} {2.1,926178831} {public release,960992208} {70,1185229307} {2.16,1207269058} {1.2.6.2,1271089343} {1.0,1609069355} {0.2.4,1803285852} {3.7.5,1840284484} {1.7,1852257480} {4.8,1951468597} {2.0,2167036904} {1.3.2,2324689937} {2.8.6,2410967470} {1.0.0,2460675139} {14.8,2484725102} {1.1.8,2561335747} {1.0.102,2597204554} {2.0.0,2753774601} {1.1,2847806795} {0.1.4,2854057841}
+[00:00:07]: [Workshop] ModQuery queued to download IDs: 2753774601
+[00:00:07]: [Workshop] ModQuery already have IDs: {0.3,706633455} {2.1,926178831} {public release,960992208} {70,1185229307} {2.16,1207269058} {1.2.6.2,1271089343} {1.0,1609069355} {0.2.4,1803285852} {3.7.5,1840284484} {1.7,1852257480} {4.8,1951468597} {2.0,2167036904} {1.3.2,2324689937} {2.8.6,2410967470} {1.0.0,2460675139} {14.8,2484725102} {3.3.1,2503437364} {1.1.8,2561335747} {1.0.102,2597204554} {1.1,2847806795} {0.1.4,2854057841}
 [00:00:07]: [Workshop] ItemQuery finished all queries, moving to download phase
 [00:00:07]: [Workshop] ItemQuery downloading 1 pending mods marked to download
-[00:00:07]: [Workshop] DownloadPublishedFile [4] 2503437364
-[00:00:10]: [Workshop] OnDownloadPublishedFile [1] 2503437364
+[00:00:07]: [Workshop] DownloadPublishedFile [4] 2753774601
+[00:00:10]: [Workshop] OnDownloadPublishedFile [1] 2753774601
 [00:00:10]: SUCCESS: Loaded modoverrides.lua	
 [00:00:10]: modoverrides.lua enabling workshop-1852257480	
 [00:00:10]: modoverrides.lua enabling workshop-1609069355	
