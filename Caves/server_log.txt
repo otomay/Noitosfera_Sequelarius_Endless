@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Caves/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 550219
-[00:00:00]: Current time: Tue Apr  4 06:17:59 2023
+[00:00:00]: Current time: Wed Apr  5 06:13:09 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,11 +12,11 @@
 [00:00:00]: Build Date: 1734
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 28495 -shard Caves 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 28346 -shard Caves 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473445875728)
+[00:00:00]: THREAD - started 'GAClient' (281472735334416)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -28,12 +28,12 @@
 [00:00:00]: [Steam] SteamGameServer_Init(11001, 27016)
 [00:00:00]: [Steam] SteamGameServer_Init(11001, 27017)
 [00:00:00]: [Steam] SteamGameServer_Init success
-[00:00:00]: ProfileIndex:3.93
+[00:00:00]: ProfileIndex:4.44
 [00:00:00]: [Connect] PendingConnection::Reset(true)
 [00:00:00]: Platform: 1
 [00:00:00]: Network tick rate: U=15(2), D=0
 [00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: THREAD - started 'StreamInput' (281472917577744)
+[00:00:00]: THREAD - started 'StreamInput' (281471862779920)
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
@@ -64,7 +64,7 @@
 [00:00:06]: [Workshop] Collection query page 0, size: 1, total size: 1
 [00:00:06]: [Workshop] Collection query queued to get details from ID: 2792228447
 [00:00:06]: [Workshop] Collection query sent
-[00:00:07]: [Workshop] CollectionQuery got this many results: 1
+[00:00:06]: [Workshop] CollectionQuery got this many results: 1
 [00:00:07]: [Workshop] CollectionQuery queued IDs: 706633455 926178831 960992208 1185229307 1207269058 1271089343 1609069355 1803285852 1840284484 1852257480 1951468597 2167036904 2324689937 2410967470 2460675139 2484725102 2503437364 2561335747 2597204554 2753774601 2847806795 2854057841
 [00:00:07]: [Workshop] CollectionQuery finished, downloading mods.
 [00:00:07]: [Workshop] Item query page 0, size: 22, total size: 22
@@ -587,17 +587,17 @@
 [00:00:07]: upvaluehelper loaded	
 [00:00:07]: modimport: ../mods/workshop-1951468597/scripts/stategraphs/SG_hua_house.lua	
 [00:00:07]: modimport: ../mods/workshop-1951468597/scripts/hua_house_named.lua	
-[00:00:07]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
-[00:00:07]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
-[00:00:07]: modimport: ../mods/workshop-1852257480/scripts/patches/beefaloinformation.lua	
-[00:00:07]: Mod: workshop-926178831 (Force Biomes)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-926178831 (Force Biomes)	Loading modmain.lua	
-[00:00:07]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-1840284484 (Achievements and Level System)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modmain.lua	
-[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:00:08]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:08]: modimport: ../mods/workshop-1852257480/scripts/patches/beefaloinformation.lua	
+[00:00:08]: Mod: workshop-926178831 (Force Biomes)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-926178831 (Force Biomes)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1840284484 (Achievements and Level System)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
 [00:00:08]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
