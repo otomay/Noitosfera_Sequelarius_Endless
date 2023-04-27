@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Caves/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 551676
-[00:00:00]: Current time: Thu Apr 27 06:13:08 2023
+[00:00:00]: Current time: Thu Apr 27 17:22:35 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,11 +12,11 @@
 [00:00:00]: Build Date: 1745
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 28634 -shard Caves 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 28787 -shard Caves 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473451859984)
+[00:00:00]: THREAD - started 'GAClient' (281472951894032)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -28,12 +28,12 @@
 [00:00:00]: [Steam] SteamGameServer_Init(11001, 27016)
 [00:00:00]: [Steam] SteamGameServer_Init(11001, 27017)
 [00:00:00]: [Steam] SteamGameServer_Init success
-[00:00:00]: ProfileIndex:3.95
+[00:00:00]: ProfileIndex:4.10
 [00:00:00]: [Connect] PendingConnection::Reset(true)
 [00:00:00]: Platform: 1
 [00:00:00]: Network tick rate: U=15(2), D=0
 [00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: THREAD - started 'StreamInput' (281472914448400)
+[00:00:00]: THREAD - started 'StreamInput' (281472085237776)
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
@@ -50,7 +50,7 @@
 [00:00:00]: LOADING LUA
 [00:00:00]: DoLuaFile scripts/main.lua
 [00:00:00]: DoLuaFile loading buffer scripts/main.lua
-[00:00:00]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
 [00:00:06]:   taskgrouplist:	default	Juntos	
 [00:00:06]:   taskgrouplist:	classic	Clássico	
 [00:00:06]:   taskgrouplist:	cave_default	Subterrâneo	
