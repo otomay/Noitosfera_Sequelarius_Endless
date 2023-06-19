@@ -1,7 +1,7 @@
-[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
+[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Caves/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 556225
-[00:00:00]: Current time: Mon Jun 19 04:33:39 2023
+[00:00:00]: Current time: Mon Jun 19 04:25:25 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,13 +12,13 @@
 [00:00:00]: Build Date: 1827
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 30789 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 30806 -shard Caves 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473294647312)
+[00:00:00]: THREAD - started 'GAClient' (281472810983440)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:4.84
+[00:00:00]: ProfileIndex:3.86
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -26,13 +26,14 @@
 [00:00:00]: Mounting file system databundles/bigportraits.zip successful.
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
-[00:00:00]: [Steam] SteamGameServer_Init(11000, 27016)
+[00:00:00]: [Steam] SteamGameServer_Init(11001, 27016)
+[00:00:01]: [Steam] SteamGameServer_Init(11001, 27017)
 [00:00:01]: [Steam] SteamGameServer_Init success
 [00:00:01]: [Connect] PendingConnection::Reset(true)
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (281472768020496)
+[00:00:01]: THREAD - started 'StreamInput' (281471944151056)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
@@ -50,11 +51,11 @@
 [00:00:01]: DoLuaFile scripts/main.lua
 [00:00:01]: DoLuaFile loading buffer scripts/main.lua
 [00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
-[00:00:07]:   taskgrouplist:	default	Juntos	
-[00:00:07]:   taskgrouplist:	classic	Clássico	
-[00:00:07]:   taskgrouplist:	cave_default	Subterrâneo	
-[00:00:07]:   taskgrouplist:	lavaarena_taskset	A Forja	
-[00:00:07]:   taskgrouplist:	quagmire_taskset	A Garganta	
+[00:00:06]:   taskgrouplist:	default	Juntos	
+[00:00:06]:   taskgrouplist:	classic	Clássico	
+[00:00:06]:   taskgrouplist:	cave_default	Subterrâneo	
+[00:00:06]:   taskgrouplist:	lavaarena_taskset	A Forja	
+[00:00:06]:   taskgrouplist:	quagmire_taskset	A Garganta	
 [00:00:07]: Running main.lua
 	
 [00:00:07]: loaded modindex	
@@ -69,8 +70,8 @@
 [00:00:07]: [Workshop] Item query page 0, size: 22, total size: 22
 [00:00:07]: [Workshop] Item query queued IDs: 706633455 926178831 960992208 1185229307 1207269058 1271089343 1609069355 1803285852 1840284484 1852257480 1951468597 2167036904 2324689937 2410967470 2460675139 2484725102 2503437364 2561335747 2597204554 2753774601 2847806795 2854057841
 [00:00:07]: [Workshop] Item query sent
-[00:00:08]: [Workshop] ItemQuery got this many results: 22, matching: 22
-[00:00:08]: [Workshop] ModQuery got 22 results
+[00:00:07]: [Workshop] ItemQuery got this many results: 22, matching: 22
+[00:00:07]: [Workshop] ModQuery got 22 results
 [00:00:08]: [Workshop] ModQuery already have IDs: {0.3,706633455} {2.1,926178831} {public release,960992208} {74,1185229307} {2.16,1207269058} {1.2.6.2,1271089343} {1.0,1609069355} {0.2.8,1803285852} {3.7.5,1840284484} {1.7,1852257480} {4.8,1951468597} {2.0,2167036904} {1.3.5,2324689937} {2.8.6,2410967470} {1.0.0,2460675139} {14.11,2484725102} {4.0.5,2503437364} {1.1.9,2561335747} {1.0.110,2597204554} {2.1.0,2753774601} {1.1,2847806795} {0.1.4,2854057841}
 [00:00:08]: [Workshop] ItemQuery finished all queries, moving to download phase
 [00:00:08]: [Workshop] ItemQuery finished downloading everything
@@ -653,14 +654,14 @@ LUA ERROR stack traceback:
 [00:00:08]: Failed mSimulation->Reset()
 [00:00:08]: Error during game initialization!
 [00:00:08]: Collecting garbage...
-[00:00:09]: lua_gc took 0.27 seconds
-[00:00:09]: ~ShardLuaProxy()
-[00:00:09]: ~cEventLeaderboardProxy()
-[00:00:09]: ~ItemServerLuaProxy()
-[00:00:09]: ~InventoryLuaProxy()
-[00:00:09]: ~NetworkLuaProxy()
-[00:00:09]: ~SimLuaProxy()
-[00:00:09]: lua_close took 0.08 seconds
-[00:00:09]: CurlRequestManager::ClientThread::Main() complete
-[00:00:09]: HttpClient2 discarded 0 callbacks.
-[00:00:09]: Shutting down
+[00:00:08]: lua_gc took 0.28 seconds
+[00:00:08]: ~ShardLuaProxy()
+[00:00:08]: ~cEventLeaderboardProxy()
+[00:00:08]: ~ItemServerLuaProxy()
+[00:00:08]: ~InventoryLuaProxy()
+[00:00:08]: ~NetworkLuaProxy()
+[00:00:08]: ~SimLuaProxy()
+[00:00:08]: lua_close took 0.09 seconds
+[00:00:08]: CurlRequestManager::ClientThread::Main() complete
+[00:00:08]: HttpClient2 discarded 0 callbacks.
+[00:00:08]: Shutting down
