@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 556225
-[00:00:00]: Current time: Mon Jun 19 11:18:48 2023
+[00:00:00]: Current time: Mon Jun 19 11:47:26 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,13 +12,13 @@
 [00:00:00]: Build Date: 1827
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 32602 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 32707 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473659162640)
+[00:00:00]: THREAD - started 'GAClient' (281473518370832)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:4.30
+[00:00:00]: ProfileIndex:4.64
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -32,10 +32,10 @@
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: THREAD - started 'StreamInput' (281472983629840)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
-[00:00:01]: THREAD - started 'StreamInput' (281473124171792)
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: cGame::InitializeOnMainThread
@@ -618,51 +618,51 @@
 [00:00:10]: OnUpdatePurchaseStateComplete	
 [00:00:10]: Klump load on boot started.	
 [00:00:10]: Klump files loaded: 	0	
-[00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
-[00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
-[00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
-[00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-1609069355 (Welcome Message)	Registering prefabs	
-[00:00:13]: Mod: workshop-1609069355 (Welcome Message)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-2410967470 (Rot Begone)	Registering prefabs	
-[00:00:13]: Mod: workshop-2410967470 (Rot Begone)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
-[00:00:13]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	Registering prefabs	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_builder	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_builder	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_marker	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_marker	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guidemarker	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_placemarker	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_placemarker	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_guestmarker	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guestmarker	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_informer	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_informer	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_antlion_spawner	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_antlion_spawner	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
-[00:00:13]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Registering prefabs	
-[00:00:13]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/secoin	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    secoin	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/stealer	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    stealer	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/goldstaff	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    goldstaff	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/vipcard	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    vipcard	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/luckamulet	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    luckamulet	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/coin_bundle	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
+[00:00:12]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
+[00:00:12]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
+[00:00:12]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-1609069355 (Welcome Message)	Registering prefabs	
+[00:00:12]: Mod: workshop-1609069355 (Welcome Message)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-2410967470 (Rot Begone)	Registering prefabs	
+[00:00:12]: Mod: workshop-2410967470 (Rot Begone)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
+[00:00:12]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	Registering prefabs	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_builder	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_builder	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_marker	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_marker	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guidemarker	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_placemarker	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_placemarker	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_guestmarker	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guestmarker	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_informer	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_informer	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_antlion_spawner	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_antlion_spawner	
+[00:00:12]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
+[00:00:12]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Registering prefabs	
+[00:00:12]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/secoin	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	    secoin	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/stealer	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	    stealer	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/goldstaff	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	    goldstaff	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/vipcard	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	    vipcard	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/luckamulet	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	    luckamulet	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/coin_bundle	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
+[00:00:12]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
 [00:00:13]: Mod: workshop-1951468597 (Sweet House)	Registering prefabs	
 [00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_door_exit	
 [00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit	
