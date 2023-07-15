@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 556225
-[00:00:00]: Current time: Sat Jul 15 08:08:01 2023
+[00:00:00]: Current time: Sat Jul 15 08:36:37 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,13 +12,13 @@
 [00:00:00]: Build Date: 1827
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 49725 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 49735 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281472950222864)
+[00:00:00]: THREAD - started 'GAClient' (281473336856592)
+[00:00:00]: ProfileIndex:4.62
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:4.50
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -32,8 +32,8 @@
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (281472084181008)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
+[00:00:01]: THREAD - started 'StreamInput' (281472821891088)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
@@ -540,17 +540,17 @@
 [00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	Loading modmain.lua	
 [00:00:08]: modimport: ../mods/workshop-2847806795/scripts/SEscripts/itemlist.lua	
-[00:00:09]: Mod: workshop-1951468597 (Sweet House)	Loading modworldgenmain.lua	
-[00:00:09]: Mod: workshop-1951468597 (Sweet House)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:09]: Mod: workshop-1951468597 (Sweet House)	Loading modmain.lua	
-[00:00:09]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_recipe	
-[00:00:09]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house1_recipe	
-[00:00:09]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_pvz_recipe	
-[00:00:09]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_tardis_recipe	
-[00:00:09]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_named_item	
-[00:00:09]: Warning: function AddRecipeTab in modmain is deprecated.	
-[00:00:09]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_1	
-[00:00:09]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_2	
+[00:00:08]: Mod: workshop-1951468597 (Sweet House)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1951468597 (Sweet House)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1951468597 (Sweet House)	Loading modmain.lua	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_recipe	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house1_recipe	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_pvz_recipe	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_tardis_recipe	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_named_item	
+[00:00:08]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_1	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_2	
 [00:00:09]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_3	
 [00:00:09]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_4	
 [00:00:09]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_5	
@@ -618,8 +618,8 @@
 [00:00:11]: OnUpdatePurchaseStateComplete	
 [00:00:11]: Klump load on boot started.	
 [00:00:11]: Klump files loaded: 	0	
-[00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
-[00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
+[00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
+[00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
 [00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
 [00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering default mod prefab	
 [00:00:14]: Mod: workshop-1609069355 (Welcome Message)	Registering prefabs	
