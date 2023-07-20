@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Caves/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 556225
-[00:00:00]: Current time: Thu Jul 20 00:48:41 2023
+[00:00:00]: Current time: Thu Jul 20 01:17:17 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,13 +12,13 @@
 [00:00:00]: Build Date: 1827
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 50556 -shard Caves 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 50387 -shard Caves 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: ProfileIndex:3.83
-[00:00:00]: THREAD - started 'GAClient' (281473681031184)
+[00:00:00]: THREAD - started 'GAClient' (281473095356432)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:3.91
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -39,7 +39,7 @@
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: cGame::InitializeOnMainThread
-[00:00:01]: THREAD - started 'StreamInput' (281473169047568)
+[00:00:01]: THREAD - started 'StreamInput' (281472575709200)
 [00:00:01]: Renderer initialize: Okay
 [00:00:01]: AnimManager initialize: Okay
 [00:00:01]: Buffers initialize: Okay
@@ -587,16 +587,16 @@
 [00:00:08]: upvaluehelper loaded	
 [00:00:08]: modimport: ../mods/workshop-1951468597/scripts/stategraphs/SG_hua_house.lua	
 [00:00:08]: modimport: ../mods/workshop-1951468597/scripts/hua_house_named.lua	
-[00:00:09]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
-[00:00:09]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:09]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
-[00:00:09]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
-[00:00:09]: modimport: ../mods/workshop-1852257480/scripts/patches/beefaloinformation.lua	
-[00:00:09]: Mod: workshop-926178831 (Force Biomes)	Loading modworldgenmain.lua	
-[00:00:09]: Mod: workshop-926178831 (Force Biomes)	Loading modmain.lua	
-[00:00:09]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modworldgenmain.lua	
-[00:00:09]: Mod: workshop-1840284484 (Achievements and Level System)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:09]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:00:08]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:08]: modimport: ../mods/workshop-1852257480/scripts/patches/beefaloinformation.lua	
+[00:00:08]: Mod: workshop-926178831 (Force Biomes)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-926178831 (Force Biomes)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1840284484 (Achievements and Level System)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modmain.lua	
 [00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
 [00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
