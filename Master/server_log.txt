@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 556225
-[00:00:00]: Current time: Wed Jul 26 11:26:33 2023
+[00:00:00]: Current time: Wed Jul 26 11:55:10 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,13 +12,13 @@
 [00:00:00]: Build Date: 1827
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 47627 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 47767 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281472806010896)
+[00:00:00]: THREAD - started 'GAClient' (281473018761232)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:4.61
+[00:00:00]: ProfileIndex:4.17
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -35,7 +35,7 @@
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
-[00:00:00]: THREAD - started 'StreamInput' (281472225243152)
+[00:00:00]: THREAD - started 'StreamInput' (281472498503696)
 [00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:00]: cGame::InitializeOnMainThread
@@ -481,38 +481,38 @@
 [00:00:07]: Overriding mod workshop-1803285852's option AutoStackEnabled with value true	
 [00:00:07]: Overriding mod workshop-1803285852's option AutoStackMakeNewStackMainStack with value true	
 [00:00:07]: Overriding mod workshop-1803285852's option SmokePuffOnStacking with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option StackDuringPopulation with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoPickupSeeds with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option PlayerMustHaveOneOfItemToAutoPickup with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoPickupAsh with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option ManualStackSeeds with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoStackManuallyDroppedItems with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option ManualStackAsh with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoPickupPoop with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option ManualStackPoop with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option ManualDropStackRange with value 5	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoStackAsh with value true	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoStackRange with value 10	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoStackSeeds with value true	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoStackPoop with value true	
-[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2167036904	
-[00:00:07]: Overriding mod workshop-2167036904's option URL with value https://discord.gg/NaX26M64VZ	
-[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2854057841	
-[00:00:07]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modmain.lua	
-[00:00:07]: Mod: workshop-1609069355 (Welcome Message)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-1609069355 (Welcome Message)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-1609069355 (Welcome Message)	Loading modmain.lua	
-[00:00:07]: [WELCOME_MESSAGE]	Received welcome message from server:	 - Sistema de RPG: Ganhe pontos de atributo ao subir de nível e pontos de conquista ao realizar as conquistas listadas.
+[00:00:08]: Overriding mod workshop-1803285852's option StackDuringPopulation with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupSeeds with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option PlayerMustHaveOneOfItemToAutoPickup with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupAsh with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option ManualStackSeeds with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackManuallyDroppedItems with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option ManualStackAsh with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupPoop with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option ManualStackPoop with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option ManualDropStackRange with value 5	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackAsh with value true	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackRange with value 10	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackSeeds with value true	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackPoop with value true	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2167036904	
+[00:00:08]: Overriding mod workshop-2167036904's option URL with value https://discord.gg/NaX26M64VZ	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2854057841	
+[00:00:08]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-1609069355 (Welcome Message)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1609069355 (Welcome Message)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1609069355 (Welcome Message)	Loading modmain.lua	
+[00:00:08]: [WELCOME_MESSAGE]	Received welcome message from server:	 - Sistema de RPG: Ganhe pontos de atributo ao subir de nível e pontos de conquista ao realizar as conquistas listadas.
 -- Você pode trocar estes pontos por melhorias permanentes do seu personagem, basta navegar entre os botões (estrelinha e balança) para conferir.
 - Sistema de economia: Ganhe ouro matando monstros ou usando os itens dedicados do mod.
 -- Você pode usar ouro pra comprar diversos itens, basta clicar no botão da loja (ou apertar O) para conferir o que está a venda.
 - Você pode também pode mandar dúvidas, críticas, sugestões, reports e etc no discord. Tem o botãozinho ai na tela :D
 	
-[00:00:07]: Mod: workshop-2410967470 (Rot Begone)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-2410967470 (Rot Begone)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-2410967470 (Rot Begone)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-2410967470 (Rot Begone)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-2410967470 (Rot Begone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-2410967470 (Rot Begone)	Loading modmain.lua	
 [00:00:08]: Mod: workshop-2854057841 (Noitosfera)	Loading modworldgenmain.lua	
 [00:00:08]: Mod: workshop-2854057841 (Noitosfera)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-2854057841 (Noitosfera)	Loading modmain.lua	
