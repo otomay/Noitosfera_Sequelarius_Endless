@@ -1,24 +1,24 @@
-[00:00:01]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
-[00:00:01]: Starting Up
-[00:00:01]: Version: 556225
-[00:00:01]: Current time: Wed Jul 26 05:43:03 2023
+[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 556225
+[00:00:00]: Current time: Wed Jul 26 06:11:40 2023
 
-[00:00:01]: System Name: Linux
-[00:00:01]: Host Name: instance-20220401-1206
-[00:00:01]: Release(Kernel) Version: 5.13.0-1025-oracle
-[00:00:01]: Kernel Build Timestamp: #30~20.04.1-Ubuntu SMP Fri Apr 1 06:09:46 UTC 2022
-[00:00:01]: Machine Arch: x86_64
-[00:00:01]: Don't Starve Together: 556225 LINUX
-[00:00:01]: Build Date: 1827
-[00:00:01]: Mode: 64-bit
-[00:00:01]: Parsing command line
-[00:00:01]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 48018 -shard Master 
-[00:00:01]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
-[00:00:01]: Initializing distribution platform
-[00:00:01]: ....Done
-[00:00:01]: THREAD - started 'GAClient' (281473229922320)
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: instance-20220401-1206
+[00:00:00]: Release(Kernel) Version: 5.13.0-1025-oracle
+[00:00:00]: Kernel Build Timestamp: #30~20.04.1-Ubuntu SMP Fri Apr 1 06:09:46 UTC 2022
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 556225 LINUX
+[00:00:00]: Build Date: 1827
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 47976 -shard Master 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:01]: THREAD - started 'GAClient' (281473586679824)
 [00:00:01]: CurlRequestManager::ClientThread::Main()
-[00:00:01]: ProfileIndex:4.50
+[00:00:01]: ProfileIndex:4.83
 [00:00:01]: Mounting file system databundles/klump.zip successful.
 [00:00:01]: Mounting file system databundles/shaders.zip successful.
 [00:00:01]: Mounting file system databundles/fonts.zip successful.
@@ -32,12 +32,12 @@
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: THREAD - started 'StreamInput' (281473001529360)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
-[00:00:01]: THREAD - started 'StreamInput' (281472712527888)
 [00:00:01]: cGame::InitializeOnMainThread
 [00:00:01]: Renderer initialize: Okay
 [00:00:01]: AnimManager initialize: Okay
@@ -533,13 +533,13 @@
 [00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
 [00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	Loading modmain.lua	
-[00:00:08]: modimport: ../mods/workshop-2847806795/scripts/SEscripts/itemlist.lua	
+[00:00:09]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-2847806795 ( Economia Simples )	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-2847806795 ( Economia Simples )	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-2847806795 ( Economia Simples )	Loading modmain.lua	
+[00:00:09]: modimport: ../mods/workshop-2847806795/scripts/SEscripts/itemlist.lua	
 [00:00:09]: Mod: workshop-1951468597 (Sweet House)	Loading modworldgenmain.lua	
 [00:00:09]: Mod: workshop-1951468597 (Sweet House)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:09]: Mod: workshop-1951468597 (Sweet House)	Loading modmain.lua	
@@ -725,44 +725,44 @@
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_named_item	
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_named_item	
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_pvz	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_tardis	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_fake	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_interiors	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_phonograph	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph_placer	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_zombies	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies_builder	
-[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering default mod prefab	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz_placer	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_tardis	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_fake	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_placer	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_interiors	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1_placer	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2_placer	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3_placer	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4_placer	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5_placer	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6_placer	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7_placer	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8_placer	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9_placer	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10_placer	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11_placer	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12_placer	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_phonograph	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph_placer	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_zombies	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies_builder	
+[00:00:15]: Mod: workshop-1951468597 (Sweet House)	  Registering default mod prefab	
 [00:00:15]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
 [00:00:15]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
 [00:00:15]: Mod: workshop-926178831 (Force Biomes)	Registering prefabs	
@@ -801,9 +801,3 @@
 [00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer_placer	
 [00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer	
 [00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering default mod prefab	
-[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
-[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
-[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
-[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
-[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
-[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
