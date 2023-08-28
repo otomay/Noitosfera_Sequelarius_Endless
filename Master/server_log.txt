@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 570012
-[00:00:00]: Current time: Sat Aug 26 06:14:56 2023
+[00:00:00]: Current time: Mon Aug 28 06:19:25 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,13 +12,13 @@
 [00:00:00]: Build Date: 1980
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 46712 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 46316 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473442201616)
+[00:00:00]: THREAD - started 'GAClient' (281473665843216)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:4.42
+[00:00:00]: ProfileIndex:4.77
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -35,11 +35,11 @@
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
-[00:00:01]: THREAD - started 'StreamInput' (281472926502928)
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: cGame::InitializeOnMainThread
 [00:00:01]: Renderer initialize: Okay
+[00:00:01]: THREAD - started 'StreamInput' (281473071308816)
 [00:00:01]: AnimManager initialize: Okay
 [00:00:01]: Buffers initialize: Okay
 [00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
@@ -379,186 +379,186 @@
 [00:00:07]: Overriding mod workshop-1840284484's option SYSTEM with value both	
 [00:00:07]: Overriding mod workshop-1840284484's option engineering with value true	
 [00:00:07]: Overriding mod workshop-1840284484's option SANITYGAIN with value 3	
-[00:00:08]: Overriding mod workshop-1840284484's option KILLXP with value true	
-[00:00:08]: Overriding mod workshop-1840284484's option GEAR with value fight	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1185229307	
-[00:00:08]: Overriding mod workshop-1185229307's option  with value 	
-[00:00:08]: Overriding mod workshop-1185229307's option  with value 	
-[00:00:08]: Overriding mod workshop-1185229307's option  with value 	
-[00:00:08]: Overriding mod workshop-1185229307's option WETNESS_METER with value false	
-[00:00:08]: Overriding mod workshop-1185229307's option NOEPIC with value false	
-[00:00:08]: Overriding mod workshop-1185229307's option FRAME_PHASES with value true	
-[00:00:08]: Overriding mod workshop-1185229307's option DAMAGE_NUMBERS with value false	
-[00:00:08]: Overriding mod workshop-1185229307's option NONOEPIC with value false	
-[00:00:08]: Overriding mod workshop-1185229307's option DAMAGE_RESISTANCE with value true	
-[00:00:08]: Overriding mod workshop-1185229307's option HORIZONTAL_OFFSET with value 0	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2561335747	
-[00:00:08]: Overriding mod workshop-2561335747's option pushout_klaussack with value true	
-[00:00:08]: Overriding mod workshop-2561335747's option access_hermitcrab_island with value false	
-[00:00:08]: Overriding mod workshop-2561335747's option access_archive_maze with value false	
-[00:00:08]: Overriding mod workshop-2561335747's option restricted_area with value true	
-[00:00:08]: Overriding mod workshop-2561335747's option pushout_coming_bosses with value true	
-[00:00:08]: Overriding mod workshop-2561335747's option pushout_hauntable_mobs with value true	
-[00:00:08]: Overriding mod workshop-2561335747's option max_walls with value 300	
-[00:00:08]: Overriding mod workshop-2561335747's option guest_glommer_days_alive with value 0	
-[00:00:08]: Overriding mod workshop-2561335747's option intruders with value true	
-[00:00:08]: Overriding mod workshop-2561335747's option min_walls with value 16	
-[00:00:08]: Overriding mod workshop-2561335747's option access_ruins_area with value false	
-[00:00:08]: Overriding mod workshop-2561335747's option min_dist_between_myhomes with value 5	
-[00:00:08]: Overriding mod workshop-2561335747's option pushout_coming_mobs with value true	
-[00:00:08]: Overriding mod workshop-2561335747's option language with value en	
-[00:00:08]: Overriding mod workshop-2561335747's option announce with value true	
-[00:00:08]: Overriding mod workshop-2561335747's option admin with value false	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-926178831	
-[00:00:08]: Overriding mod workshop-926178831's option MOOSEBREEDINGTASK with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option MOREALTARS with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option KILLTHESPIDERS with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option RABBITTOWN with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option KILLERBEES with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option SPIDERLAND with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option null with value 0	
-[00:00:08]: Overriding mod workshop-926178831's option null with value 0	
-[00:00:08]: Overriding mod workshop-926178831's option null with value 0	
-[00:00:08]: Overriding mod workshop-926178831's option null with value 0	
-[00:00:08]: Overriding mod workshop-926178831's option MAKEABEEHAT with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option SACREDDANGER with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option FUNGALNOISEMEADOW with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option CAVEJUNGLE with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option THEHUNTERS with value ON	
-[00:00:08]: Overriding mod workshop-926178831's option CAVESWAMP with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option MOLECOLONYDECIDUOUS with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option MAGICMEADOW with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option RABBITSPIDERWAR with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option BEFRIENDTHEPIGS with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option SWAMPYSINKHOLE with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option RESIDENTIAL3 with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option MUDDYSACRED with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option UNDERGROUNDFOREST with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option RESIDENTIAL2 with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option FROGSANDBUGS with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option RABBITCITY with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option PLEASANTSINKHOLE with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option MILITARYPITS with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option MOLECOLONYROCKS with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option BATCLOISTER with value RANDOM	
-[00:00:08]: Overriding mod workshop-926178831's option FUNGALNOISEFOREST with value RANDOM	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1803285852	
-[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
-[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
-[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
-[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupEnabled with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option ManualStackMakeNewStackMainStack with value true	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupRange with value 10	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoStackEnabled with value true	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoStackMakeNewStackMainStack with value true	
-[00:00:08]: Overriding mod workshop-1803285852's option SmokePuffOnStacking with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option StackDuringPopulation with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupSeeds with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option PlayerMustHaveOneOfItemToAutoPickup with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupAsh with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option ManualStackSeeds with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoStackManuallyDroppedItems with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option ManualStackAsh with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupPoop with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option ManualStackPoop with value false	
-[00:00:08]: Overriding mod workshop-1803285852's option ManualDropStackRange with value 5	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoStackAsh with value true	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoStackRange with value 10	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoStackSeeds with value true	
-[00:00:08]: Overriding mod workshop-1803285852's option AutoStackPoop with value true	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2167036904	
-[00:00:08]: Overriding mod workshop-2167036904's option URL with value https://discord.gg/NaX26M64VZ	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2854057841	
-[00:00:08]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-1609069355 (Welcome Message)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-1609069355 (Welcome Message)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-1609069355 (Welcome Message)	Loading modmain.lua	
-[00:00:08]: [WELCOME_MESSAGE]	Received welcome message from server:	 - Sistema de RPG: Ganhe pontos de atributo ao subir de nível e pontos de conquista ao realizar as conquistas listadas.
+[00:00:07]: Overriding mod workshop-1840284484's option KILLXP with value true	
+[00:00:07]: Overriding mod workshop-1840284484's option GEAR with value fight	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1185229307	
+[00:00:07]: Overriding mod workshop-1185229307's option  with value 	
+[00:00:07]: Overriding mod workshop-1185229307's option  with value 	
+[00:00:07]: Overriding mod workshop-1185229307's option  with value 	
+[00:00:07]: Overriding mod workshop-1185229307's option WETNESS_METER with value false	
+[00:00:07]: Overriding mod workshop-1185229307's option NOEPIC with value false	
+[00:00:07]: Overriding mod workshop-1185229307's option FRAME_PHASES with value true	
+[00:00:07]: Overriding mod workshop-1185229307's option DAMAGE_NUMBERS with value false	
+[00:00:07]: Overriding mod workshop-1185229307's option NONOEPIC with value false	
+[00:00:07]: Overriding mod workshop-1185229307's option DAMAGE_RESISTANCE with value true	
+[00:00:07]: Overriding mod workshop-1185229307's option HORIZONTAL_OFFSET with value 0	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2561335747	
+[00:00:07]: Overriding mod workshop-2561335747's option pushout_klaussack with value true	
+[00:00:07]: Overriding mod workshop-2561335747's option access_hermitcrab_island with value false	
+[00:00:07]: Overriding mod workshop-2561335747's option access_archive_maze with value false	
+[00:00:07]: Overriding mod workshop-2561335747's option restricted_area with value true	
+[00:00:07]: Overriding mod workshop-2561335747's option pushout_coming_bosses with value true	
+[00:00:07]: Overriding mod workshop-2561335747's option pushout_hauntable_mobs with value true	
+[00:00:07]: Overriding mod workshop-2561335747's option max_walls with value 300	
+[00:00:07]: Overriding mod workshop-2561335747's option guest_glommer_days_alive with value 0	
+[00:00:07]: Overriding mod workshop-2561335747's option intruders with value true	
+[00:00:07]: Overriding mod workshop-2561335747's option min_walls with value 16	
+[00:00:07]: Overriding mod workshop-2561335747's option access_ruins_area with value false	
+[00:00:07]: Overriding mod workshop-2561335747's option min_dist_between_myhomes with value 5	
+[00:00:07]: Overriding mod workshop-2561335747's option pushout_coming_mobs with value true	
+[00:00:07]: Overriding mod workshop-2561335747's option language with value en	
+[00:00:07]: Overriding mod workshop-2561335747's option announce with value true	
+[00:00:07]: Overriding mod workshop-2561335747's option admin with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-926178831	
+[00:00:07]: Overriding mod workshop-926178831's option MOOSEBREEDINGTASK with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option MOREALTARS with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option KILLTHESPIDERS with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option RABBITTOWN with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option KILLERBEES with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option SPIDERLAND with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option null with value 0	
+[00:00:07]: Overriding mod workshop-926178831's option null with value 0	
+[00:00:07]: Overriding mod workshop-926178831's option null with value 0	
+[00:00:07]: Overriding mod workshop-926178831's option null with value 0	
+[00:00:07]: Overriding mod workshop-926178831's option MAKEABEEHAT with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option SACREDDANGER with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option FUNGALNOISEMEADOW with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option CAVEJUNGLE with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option THEHUNTERS with value ON	
+[00:00:07]: Overriding mod workshop-926178831's option CAVESWAMP with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option MOLECOLONYDECIDUOUS with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option MAGICMEADOW with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option RABBITSPIDERWAR with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option BEFRIENDTHEPIGS with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option SWAMPYSINKHOLE with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option RESIDENTIAL3 with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option MUDDYSACRED with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option UNDERGROUNDFOREST with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option RESIDENTIAL2 with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option FROGSANDBUGS with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option RABBITCITY with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option PLEASANTSINKHOLE with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option MILITARYPITS with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option MOLECOLONYROCKS with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option BATCLOISTER with value RANDOM	
+[00:00:07]: Overriding mod workshop-926178831's option FUNGALNOISEFOREST with value RANDOM	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1803285852	
+[00:00:07]: Overriding mod workshop-1803285852's option  with value 0	
+[00:00:07]: Overriding mod workshop-1803285852's option  with value 0	
+[00:00:07]: Overriding mod workshop-1803285852's option  with value 0	
+[00:00:07]: Overriding mod workshop-1803285852's option  with value 0	
+[00:00:07]: Overriding mod workshop-1803285852's option AutoPickupEnabled with value false	
+[00:00:07]: Overriding mod workshop-1803285852's option ManualStackMakeNewStackMainStack with value true	
+[00:00:07]: Overriding mod workshop-1803285852's option AutoPickupRange with value 10	
+[00:00:07]: Overriding mod workshop-1803285852's option AutoStackEnabled with value true	
+[00:00:07]: Overriding mod workshop-1803285852's option AutoStackMakeNewStackMainStack with value true	
+[00:00:07]: Overriding mod workshop-1803285852's option SmokePuffOnStacking with value false	
+[00:00:07]: Overriding mod workshop-1803285852's option StackDuringPopulation with value false	
+[00:00:07]: Overriding mod workshop-1803285852's option AutoPickupSeeds with value false	
+[00:00:07]: Overriding mod workshop-1803285852's option PlayerMustHaveOneOfItemToAutoPickup with value false	
+[00:00:07]: Overriding mod workshop-1803285852's option AutoPickupAsh with value false	
+[00:00:07]: Overriding mod workshop-1803285852's option ManualStackSeeds with value false	
+[00:00:07]: Overriding mod workshop-1803285852's option AutoStackManuallyDroppedItems with value false	
+[00:00:07]: Overriding mod workshop-1803285852's option ManualStackAsh with value false	
+[00:00:07]: Overriding mod workshop-1803285852's option AutoPickupPoop with value false	
+[00:00:07]: Overriding mod workshop-1803285852's option ManualStackPoop with value false	
+[00:00:07]: Overriding mod workshop-1803285852's option ManualDropStackRange with value 5	
+[00:00:07]: Overriding mod workshop-1803285852's option AutoStackAsh with value true	
+[00:00:07]: Overriding mod workshop-1803285852's option AutoStackRange with value 10	
+[00:00:07]: Overriding mod workshop-1803285852's option AutoStackSeeds with value true	
+[00:00:07]: Overriding mod workshop-1803285852's option AutoStackPoop with value true	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2167036904	
+[00:00:07]: Overriding mod workshop-2167036904's option URL with value https://discord.gg/NaX26M64VZ	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2854057841	
+[00:00:07]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-1609069355 (Welcome Message)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1609069355 (Welcome Message)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1609069355 (Welcome Message)	Loading modmain.lua	
+[00:00:07]: [WELCOME_MESSAGE]	Received welcome message from server:	 - Sistema de RPG: Ganhe pontos de atributo ao subir de nível e pontos de conquista ao realizar as conquistas listadas.
 -- Você pode trocar estes pontos por melhorias permanentes do seu personagem, basta navegar entre os botões (estrelinha e balança) para conferir.
 - Sistema de economia: Ganhe ouro matando monstros ou usando os itens dedicados do mod.
 -- Você pode usar ouro pra comprar diversos itens, basta clicar no botão da loja (ou apertar O) para conferir o que está a venda.
 - Você pode também pode mandar dúvidas, críticas, sugestões, reports e etc no discord. Tem o botãozinho ai na tela :D
 	
-[00:00:08]: Mod: workshop-2410967470 (Rot Begone)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2410967470 (Rot Begone)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2410967470 (Rot Begone)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-2854057841 (Noitosfera)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2854057841 (Noitosfera)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2854057841 (Noitosfera)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-2561335747 (MyHome Reworked)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2561335747 (MyHome Reworked)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2561335747 (MyHome Reworked)	Loading modmain.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/languages/mh_en.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_commands.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_restrictedarea_helper.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_mods_compatibility.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_fns.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions_override.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_cannonballs_override.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_orangeamulet_override.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_abigail_override.lua	
-[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_shadowwaxwell_override.lua	
-[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	Loading modmain.lua	
-[00:00:08]: modimport: ../mods/workshop-2847806795/scripts/SEscripts/itemlist.lua	
-[00:00:08]: Mod: workshop-1951468597 (Sweet House)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-1951468597 (Sweet House)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-1951468597 (Sweet House)	Loading modmain.lua	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_recipe	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house1_recipe	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_pvz_recipe	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_tardis_recipe	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_named_item	
-[00:00:08]: Warning: function AddRecipeTab in modmain is deprecated.	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_1	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_2	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_3	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_4	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_5	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_6	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_7	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_8	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_9	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_10	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_11	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_12	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_zombies_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_phonograph	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_mushroom_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_punk_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_pvz_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_tardis_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_sunflower_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_upholstered_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_harlequin_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_circles_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_mushroom_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_punk_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_pvz_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_tardis_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checker_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checkered_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_geome_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_herringbone_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_octagon_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_ruins_slab_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodmetal_builder	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodpaneling_builder	
-[00:00:08]: upvaluehelper loaded	
-[00:00:08]: modimport: ../mods/workshop-1951468597/scripts/stategraphs/SG_hua_house.lua	
-[00:00:08]: modimport: ../mods/workshop-1951468597/scripts/hua_house_named.lua	
+[00:00:07]: Mod: workshop-2410967470 (Rot Begone)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2410967470 (Rot Begone)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2410967470 (Rot Begone)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-2854057841 (Noitosfera)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2854057841 (Noitosfera)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2854057841 (Noitosfera)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-2561335747 (MyHome Reworked)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2561335747 (MyHome Reworked)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2561335747 (MyHome Reworked)	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/languages/mh_en.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_commands.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_restrictedarea_helper.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_mods_compatibility.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_fns.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions_override.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_cannonballs_override.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_orangeamulet_override.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_abigail_override.lua	
+[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_shadowwaxwell_override.lua	
+[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-2847806795 ( Economia Simples )	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2847806795 ( Economia Simples )	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2847806795 ( Economia Simples )	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-2847806795/scripts/SEscripts/itemlist.lua	
+[00:00:07]: Mod: workshop-1951468597 (Sweet House)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1951468597 (Sweet House)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1951468597 (Sweet House)	Loading modmain.lua	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_recipe	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house1_recipe	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_pvz_recipe	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_tardis_recipe	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_named_item	
+[00:00:07]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_1	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_2	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_3	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_4	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_5	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_6	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_7	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_8	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_9	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_10	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_11	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_12	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_zombies_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_phonograph	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_mushroom_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_punk_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_pvz_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_tardis_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_sunflower_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_upholstered_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_harlequin_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_circles_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_mushroom_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_punk_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_pvz_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_tardis_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checker_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checkered_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_geome_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_herringbone_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_octagon_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_ruins_slab_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodmetal_builder	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodpaneling_builder	
+[00:00:07]: upvaluehelper loaded	
+[00:00:07]: modimport: ../mods/workshop-1951468597/scripts/stategraphs/SG_hua_house.lua	
+[00:00:07]: modimport: ../mods/workshop-1951468597/scripts/hua_house_named.lua	
 [00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
 [00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
@@ -591,51 +591,51 @@
 [00:00:11]: OnUpdatePurchaseStateComplete	
 [00:00:11]: Klump load on boot started.	
 [00:00:11]: Klump files loaded: 	0	
-[00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
-[00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
-[00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
-[00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-1609069355 (Welcome Message)	Registering prefabs	
-[00:00:14]: Mod: workshop-1609069355 (Welcome Message)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-2410967470 (Rot Begone)	Registering prefabs	
-[00:00:14]: Mod: workshop-2410967470 (Rot Begone)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
-[00:00:14]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	Registering prefabs	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_builder	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_builder	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_marker	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_marker	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guidemarker	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_placemarker	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_placemarker	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_guestmarker	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guestmarker	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_informer	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_informer	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_antlion_spawner	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_antlion_spawner	
-[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
-[00:00:14]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Registering prefabs	
-[00:00:14]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
-[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/secoin	
-[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	    secoin	
-[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/stealer	
-[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	    stealer	
-[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/goldstaff	
-[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	    goldstaff	
-[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/vipcard	
-[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	    vipcard	
-[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/luckamulet	
-[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	    luckamulet	
-[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/coin_bundle	
-[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
-[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
+[00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
+[00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
+[00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-1609069355 (Welcome Message)	Registering prefabs	
+[00:00:13]: Mod: workshop-1609069355 (Welcome Message)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-2410967470 (Rot Begone)	Registering prefabs	
+[00:00:13]: Mod: workshop-2410967470 (Rot Begone)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
+[00:00:13]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	Registering prefabs	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_builder	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_builder	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_marker	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_marker	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guidemarker	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_placemarker	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_placemarker	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_guestmarker	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guestmarker	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_informer	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_informer	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_antlion_spawner	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_antlion_spawner	
+[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
+[00:00:13]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Registering prefabs	
+[00:00:13]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Registering default mod prefab	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/secoin	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    secoin	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/stealer	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    stealer	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/goldstaff	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    goldstaff	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/vipcard	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    vipcard	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/luckamulet	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    luckamulet	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/coin_bundle	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
+[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	Registering prefabs	
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_door_exit	
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit	
@@ -736,41 +736,41 @@
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies	
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies_builder	
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering default mod prefab	
-[00:00:15]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
-[00:00:15]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
-[00:00:15]: Mod: workshop-926178831 (Force Biomes)	Registering prefabs	
-[00:00:15]: Mod: workshop-926178831 (Force Biomes)	  Registering default mod prefab	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	Registering prefabs	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/seffc	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    seffc	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/klaussack_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    klaussack_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/altar_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    ancient_altar_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/pigking	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    pigking	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/antlion	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    antlion	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/shadowwaxwell	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadow_despawn	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdancer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowworker	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowprotector	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist_builder	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber_builder	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer_builder	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger_builder	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportableblender	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablecookpot	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablespicer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:00:14]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-926178831 (Force Biomes)	Registering prefabs	
+[00:00:14]: Mod: workshop-926178831 (Force Biomes)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	Registering prefabs	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/seffc	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    seffc	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/klaussack_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    klaussack_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/altar_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    ancient_altar_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/pigking	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    pigking	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/antlion	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    antlion	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/shadowwaxwell	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadow_despawn	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdancer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowworker	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowprotector	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist_builder	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber_builder	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer_builder	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger_builder	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportableblender	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablecookpot	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablespicer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering default mod prefab	
