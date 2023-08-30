@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Caves/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 570654
-[00:00:00]: Current time: Tue Aug 29 06:13:41 2023
+[00:00:00]: Current time: Wed Aug 30 06:13:40 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,16 +12,16 @@
 [00:00:00]: Build Date: 1988
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 48761 -shard Caves 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 49472 -shard Caves 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: ProfileIndex:3.88
+[00:00:00]: THREAD - started 'GAClient' (281472948150288)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:4.30
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
-[00:00:00]: THREAD - started 'GAClient' (281473250447376)
-[00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
 [00:00:00]: Mounting file system databundles/bigportraits.zip successful.
 [00:00:00]: Mounting file system databundles/images.zip successful.
@@ -38,7 +38,6 @@
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
-[00:00:01]: THREAD - started 'StreamInput' (281472726245392)
 [00:00:01]: cGame::InitializeOnMainThread
 [00:00:01]: Renderer initialize: Okay
 [00:00:01]: AnimManager initialize: Okay
@@ -47,6 +46,7 @@
 [00:00:01]: GameSpecific initialize: Okay
 [00:00:01]: cGame::StartPlaying
 [00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: THREAD - started 'StreamInput' (281472225243152)
 [00:00:01]: LOADING LUA
 [00:00:01]: DoLuaFile scripts/main.lua
 [00:00:01]: DoLuaFile loading buffer scripts/main.lua
@@ -501,8 +501,8 @@
 [00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_abigail_override.lua	
 [00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_shadowwaxwell_override.lua	
 [00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
 [00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modworldgenmain.lua	
 [00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modmain.lua	
