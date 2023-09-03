@@ -19,15 +19,14 @@ return {
   ["workshop-1609069355"]={ configuration_options={ -- Welcome Message
         -- edit the welcome message here
         ["welcome_message"] =
-[[ - Sistema de RPG: Ganhe pontos de atributo ao subir de nível e pontos de conquista ao realizar as conquistas listadas.
--- Você pode trocar estes pontos por melhorias permanentes do seu personagem, basta navegar entre os botões (estrelinha e balança) para conferir.
-- Sistema de economia: Ganhe ouro matando monstros ou usando os itens dedicados do mod.
--- Você pode usar ouro pra comprar diversos itens, basta clicar no botão da loja (ou apertar O) para conferir o que está a venda.
-- Você pode também pode mandar dúvidas, críticas, sugestões, reports e etc no discord. Tem o botãozinho ai na tela :D
+[[- Reviva no seu esqueleto e sem penalidade de HP
+- Mecânicas de PVP mais justas, sem stunlock
+- Personagens e itens balanceados
+- Novos players tem proteção de 2 dias
 ]]
 ,
         -- you can also edit a custom title here, otherwise the server name will be displayed
-        ["welcome_message_title"] = "Orientações e descrições:" ,
+        ["welcome_message_title"] = "DOMINGÃO DO PVP" ,
 
  -- other window parameters
  MessageLength="bigger", --valid values: "small", "big", "bigger"
@@ -112,7 +111,7 @@ enabled=true },
   },
   ["workshop-1852257480"]={ -- Beefalo Widget
     configuration_options={ horizontal=-1080, info=true, vertical=-70 },
-    enabled=false
+    enabled=true
   },
   ["workshop-1951468597"]={ -- Sweet house
     configuration_options={
@@ -180,6 +179,40 @@ enabled=true },
     },
     enabled=true
   },
+  ["workshop-960992208"]={
+    configuration_options={
+      SplPVP_Abigail=true,
+      SplPVP_AllRead=false,
+      SplPVP_Bushhat=true,
+      SplPVP_Combatlog=false,
+      SplPVP_Disarm=false,
+      SplPVP_Dmg=1,
+      SplPVP_Forcefeed=true,
+      SplPVP_HammerLoot=0.5,
+      SplPVP_Indicators=3,
+      SplPVP_InstantNoods=false,
+      SplPVP_Longpig=3,
+      SplPVP_NoGhost=false,
+      SplPVP_PanNerf=true,
+      SplPVP_Penalty=3,
+      SplPVP_Percent=0.75,
+      SplPVP_Quotes=false,
+      SplPVP_Randomspawn=false,
+      SplPVP_Reviving=3,
+      SplPVP_Scoring=true,
+      SplPVP_SdartNerf=true,
+      SplPVP_SpawnProtect=1,
+      SplPVP_Spideregg=true,
+      SplPVP_StsNerf=true,
+      SplPVP_Tentacles=true,
+      SplPVP_Traps=true,
+      SplPVP_TrapsSpawn=true,
+      SplPVP_Trumping=true,
+      SplPVP_UniqueScoring=true 
+    },
+    enabled=true 
+  },
+  ["workshop-706633455"]={ configuration_options={ speedmultiplier=2 }, enabled=true }, -- Velocidade fantasma
   ["workshop-1803285852"]={
     configuration_options={
       [""]=0,
@@ -206,6 +239,10 @@ enabled=true },
     },
     enabled=true 
   },
+  ["workshop-2753774601"]={ -- Botão de respawn
+    configuration_options={ [""]=0, CD=0, Health_Penalty=0, Language=true, UI="center_offset_down" },
+    enabled=true 
+  },
   ["workshop-2324689937"]={
     configuration_options={
       Compatibility=false,
@@ -221,7 +258,7 @@ enabled=true },
       slot_heavy=false,
       ["Тype/slot mapping"]=false 
     },
-    enabled=falsee 
+    enabled=true 
   },
   ["workshop-2410967470"]={
     configuration_options={
@@ -296,113 +333,11 @@ enabled=true },
     configuration_options={
       CanDragMainbutton=true,
       Disintegrate=true,
-      KillBonus=0.01,
+      KillBonus=0.02,
       Language=1,
       Precious_Disintegratable=true 
     },
     enabled=true 
   },
-  ["workshop-2854057841"]={ configuration_options = {}, enabled=true },
-  ["workshop-2503437364"]={
-    configuration_options={
-      ACTIVATE=true,
-      ADAMANTIT=0.01,
-      ANVIL=3,
-      ATTRIBUTE_1=true,
-      ATTRIBUTE_10=true,
-      ATTRIBUTE_11=true,
-      ATTRIBUTE_12=true,
-      ATTRIBUTE_13=true,
-      ATTRIBUTE_14=true,
-      ATTRIBUTE_15=true,
-      ATTRIBUTE_2=true,
-      ATTRIBUTE_3=true,
-      ATTRIBUTE_4=true,
-      ATTRIBUTE_5=true,
-      ATTRIBUTE_6=true,
-      ATTRIBUTE_7=true,
-      ATTRIBUTE_8=true,
-      ATTRIBUTE_9=true,
-      ["Adamantite and hunts options"]=0,
-      ["Attribute Settings"]=0,
-      BACKPACKS=1,
-      CHANCE_8=12.5,
-      CHANCE_9=1.25,
-      CHANCE_MODIFIER=0,
-      CHANCE_MODIFIER2=0.01,
-      COLOURS=3,
-      CONTROLLER_REFORGE=70,
-      ["Controller settings"]=0,
-      DESCRIPTION=2,
-      FINISHED=1,
-      GIVEITEM=0,
-      GLOWING=0,
-      HAMMER_PRICE=0.5,
-      ["HUD settings"]=0,
-      HUNTS=2,
-      HUNTS_PROB=0.05,
-      ITEM_QUANTITY_CONFIG=1.5,
-      LANGUAGE="en",
-      MAX_AMOUNT_MODIFIERS=4,
-      MODIFIER=0.5,
-      MORE_MODIFIERS=1,
-      ["Mod Compability Options"]=0,
-      ["Modifiers options"]=0,
-      NO_SAME_MODS=false,
-      PROB_HUNTS_BOSSES=0.25,
-      QUEST_SYSTEM=true,
-      REALISTIC=0,
-      REPAIR=2,
-      TREASURECHASEDIST=4900,
-      durability_same=false 
-    },
-    enabled=false 
-  },
-  ["workshop-2597204554"]={
-    configuration_options={
-      BASE_QUEST_SLOTS=10,
-      BOSSFIGHTS=true,
-      BOSS_DIFFICULTY=2,
-      BOSS_ISLAND=true,
-      BUTTON=1,
-      ["Bossfight Options"]=0,
-      CHERRY_FOREST=true,
-      CLIENT_DATA=false,
-      COLORBLINDNESS=0,
-      CRAFTING_REQUEST=false,
-      CRAFTING_REQUEST_DIFFICULTY=false,
-      CUSTOM_QUESTS=2,
-      ["Custom Quests"]=0,
-      DEBUG=0,
-      FEAST_FAMINE=true,
-      FRIENDLY_KILLS=true,
-      GIVE_CREATOR_QUEST=0,
-      GLOBAL_REWARDS=true,
-      HOTKEY_QUESTLOG="nil",
-      INITIAL_QUESTS=true,
-      LANGUAGE="en",
-      LEGION=true,
-      LEVELSYSTEM=0,
-      LEVELUPRATE=0.25,
-      LEVEL_RATE=2,
-      LOADING_TIPS=1,
-      ["Level System"]=0,
-      MANAGE_CUSTOM_QUESTS=1,
-      MAX_AMOUNT_GODLY_ITEMS=2,
-      Miscellaneous=0,
-      ["Mod Quests"]=0,
-      PROB_CHAR_QUEST=0.05,
-      QUEST_BOARD=3,
-      ["Quest Options"]=0,
-      RANK=1,
-      REQUEST_QUEST=0.01,
-      RESET_QUESTS=false,
-      REWARDS_AMOUNT=0.3,
-      TAP=true,
-      TROPICAL_EXPERIENCE=true,
-      ["UI Options"]=0,
-      UNCOMPROMISING_MODE=true 
-    },
-    enabled=false 
-  }
+["workshop-2854057841"]={ configuration_options = {}, enabled=true }
 }
