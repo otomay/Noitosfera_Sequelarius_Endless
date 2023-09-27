@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 572130
-[00:00:00]: Current time: Tue Sep 26 06:13:33 2023
+[00:00:00]: Current time: Wed Sep 27 06:14:07 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,13 +12,13 @@
 [00:00:00]: Build Date: 2005
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 46413 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 46814 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473525973008)
+[00:00:00]: THREAD - started 'GAClient' (281473639366672)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:4.69
+[00:00:00]: ProfileIndex:4.34
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -32,7 +32,7 @@
 [00:00:00]: Platform: 1
 [00:00:00]: Network tick rate: U=15(2), D=0
 [00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: THREAD - started 'StreamInput' (281472994725904)
+[00:00:00]: THREAD - started 'StreamInput' (281473118248976)
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
@@ -46,15 +46,15 @@
 [00:00:00]: GameSpecific initialize: Okay
 [00:00:00]: cGame::StartPlaying
 [00:00:00]: AppVersion::GetArchitecture() x64
-[00:00:00]: LOADING LUA
-[00:00:00]: DoLuaFile scripts/main.lua
-[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
 [00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
-[00:00:06]:   taskgrouplist:	default	Juntos	
-[00:00:06]:   taskgrouplist:	classic	Clássico	
-[00:00:06]:   taskgrouplist:	cave_default	Subterrâneo	
-[00:00:06]:   taskgrouplist:	lavaarena_taskset	A Forja	
-[00:00:06]:   taskgrouplist:	quagmire_taskset	A Garganta	
+[00:00:07]:   taskgrouplist:	default	Juntos	
+[00:00:07]:   taskgrouplist:	classic	Clássico	
+[00:00:07]:   taskgrouplist:	cave_default	Subterrâneo	
+[00:00:07]:   taskgrouplist:	lavaarena_taskset	A Forja	
+[00:00:07]:   taskgrouplist:	quagmire_taskset	A Garganta	
 [00:00:07]: Running main.lua
 	
 [00:00:07]: loaded modindex	
@@ -573,24 +573,24 @@
 [00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
 [00:00:08]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:00:10]: LOADING LUA SUCCESS
-[00:00:10]: Registering Server mod namespace "rotbegone"
-[00:00:10]: Registering Server mod namespace "huahouse_name"
-[00:00:10]: Registering Server mod namespace "simpleeconomy"
-[00:00:10]: Registering Server mod namespace "workshop-1207269058"
-[00:00:10]: Registering Server mod namespace "dstachievement"
-[00:00:10]: Registering Server mod namespace "workshop-1852257480"
-[00:00:10]: Registering Shard mod namespace "rotbegone"
-[00:00:10]: Registering Shard mod namespace "workshop-2167036904"
-[00:00:10]: PlayerDeaths could not load morgue	
-[00:00:10]: PlayerHistory could not load player_history	
-[00:00:10]: ServerPreferences could not load server_preferences	
-[00:00:10]: ConsoleScreenSettings could not load consolescreen	
-[00:00:10]: bloom_enabled	true	
-[00:00:10]: OnFilesLoaded()	
-[00:00:10]: OnUpdatePurchaseStateComplete	
-[00:00:10]: Klump load on boot started.	
-[00:00:10]: Klump files loaded: 	0	
+[00:00:11]: LOADING LUA SUCCESS
+[00:00:11]: Registering Server mod namespace "rotbegone"
+[00:00:11]: Registering Server mod namespace "huahouse_name"
+[00:00:11]: Registering Server mod namespace "simpleeconomy"
+[00:00:11]: Registering Server mod namespace "workshop-1207269058"
+[00:00:11]: Registering Server mod namespace "dstachievement"
+[00:00:11]: Registering Server mod namespace "workshop-1852257480"
+[00:00:11]: Registering Shard mod namespace "rotbegone"
+[00:00:11]: Registering Shard mod namespace "workshop-2167036904"
+[00:00:11]: PlayerDeaths could not load morgue	
+[00:00:11]: PlayerHistory could not load player_history	
+[00:00:11]: ServerPreferences could not load server_preferences	
+[00:00:11]: ConsoleScreenSettings could not load consolescreen	
+[00:00:11]: bloom_enabled	true	
+[00:00:11]: OnFilesLoaded()	
+[00:00:11]: OnUpdatePurchaseStateComplete	
+[00:00:11]: Klump load on boot started.	
+[00:00:11]: Klump files loaded: 	0	
 [00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
 [00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
 [00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
@@ -736,18 +736,18 @@
 [00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies	
 [00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies_builder	
 [00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
-[00:00:13]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-926178831 (Force Biomes)	Registering prefabs	
-[00:00:13]: Mod: workshop-926178831 (Force Biomes)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	Registering prefabs	
-[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/seffc	
-[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    seffc	
-[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/klaussack_placer	
-[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    klaussack_placer	
-[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/altar_placer	
-[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	    ancient_altar_placer	
-[00:00:13]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/pigking	
+[00:00:14]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:00:14]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-926178831 (Force Biomes)	Registering prefabs	
+[00:00:14]: Mod: workshop-926178831 (Force Biomes)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	Registering prefabs	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/seffc	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    seffc	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/klaussack_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    klaussack_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/altar_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    ancient_altar_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/pigking	
 [00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    pigking	
 [00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/antlion	
 [00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    antlion	
@@ -774,10 +774,5 @@
 [00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer_placer	
 [00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer	
 [00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
-[00:00:14]: 	Load FE	
+[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
