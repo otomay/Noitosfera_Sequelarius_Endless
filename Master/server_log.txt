@@ -1,24 +1,24 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
-[00:00:00]: Version: 577797
-[00:00:00]: Current time: Fri Oct 20 21:33:36 2023
+[00:00:00]: Version: 577874
+[00:00:00]: Current time: Sat Oct 21 01:12:44 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
 [00:00:00]: Release(Kernel) Version: 5.13.0-1025-oracle
 [00:00:00]: Kernel Build Timestamp: #30~20.04.1-Ubuntu SMP Fri Apr 1 06:09:46 UTC 2022
 [00:00:00]: Machine Arch: x86_64
-[00:00:00]: Don't Starve Together: 577797 LINUX
-[00:00:00]: Build Date: 2081
+[00:00:00]: Don't Starve Together: 577874 LINUX
+[00:00:00]: Build Date: 2083
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 45986 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 45297 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473457983504)
+[00:00:00]: THREAD - started 'GAClient' (281472832880656)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:4.58
+[00:00:00]: ProfileIndex:4.92
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -26,19 +26,19 @@
 [00:00:00]: Mounting file system databundles/bigportraits.zip successful.
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
-[00:00:01]: [Steam] SteamGameServer_Init(11000, 27016)
+[00:00:00]: [Steam] SteamGameServer_Init(11000, 27016)
 [00:00:01]: [Steam] SteamGameServer_Init success
 [00:00:01]: [Connect] PendingConnection::Reset(true)
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (281472943915024)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: THREAD - started 'StreamInput' (281472308752400)
 [00:00:01]: Renderer initialize: Okay
 [00:00:01]: AnimManager initialize: Okay
 [00:00:01]: Buffers initialize: Okay
@@ -49,58 +49,58 @@
 [00:00:01]: LOADING LUA
 [00:00:01]: DoLuaFile scripts/main.lua
 [00:00:01]: DoLuaFile loading buffer scripts/main.lua
-[00:00:02]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
 [00:00:07]:   taskgrouplist:	default	Juntos	
 [00:00:07]:   taskgrouplist:	classic	Clássico	
 [00:00:07]:   taskgrouplist:	cave_default	Subterrâneo	
 [00:00:07]:   taskgrouplist:	lavaarena_taskset	A Forja	
 [00:00:07]:   taskgrouplist:	quagmire_taskset	A Garganta	
-[00:00:08]: Running main.lua
+[00:00:07]: Running main.lua
 	
-[00:00:08]: loaded modindex	
-[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
+[00:00:07]: loaded modindex	
+[00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:08]: SUCCESS: Loaded modoverrides.lua	
-[00:00:08]: modoverrides.lua enabling workshop-1852257480	
-[00:00:08]: modoverrides.lua enabling workshop-1609069355	
-[00:00:08]: modoverrides.lua enabling workshop-2410967470	
-[00:00:08]: modoverrides.lua enabling workshop-2847806795	
-[00:00:08]: modoverrides.lua enabling workshop-1951468597	
-[00:00:08]: modoverrides.lua enabling workshop-1840284484	
-[00:00:08]: modoverrides.lua enabling workshop-1207269058	
-[00:00:08]: modoverrides.lua enabling workshop-1185229307	
-[00:00:08]: modoverrides.lua enabling workshop-2561335747	
-[00:00:08]: modoverrides.lua enabling workshop-926178831	
-[00:00:08]: modoverrides.lua enabling workshop-1803285852	
-[00:00:08]: modoverrides.lua enabling workshop-2167036904	
-[00:00:08]: modoverrides.lua enabling workshop-2854057841	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1609069355	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-926178831	
-[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2410967470	
-[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1951468597	
-[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1840284484	
-[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
-[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
-[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2561335747	
-[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2854057841	
-[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
-[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1803285852	
-[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2167036904	
-[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1852257480_CLIENT	
-[00:00:08]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:1.7	
-[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1609069355_CLIENT	
-[00:00:08]: Loading mod: workshop-1609069355 (Welcome Message) Version:1.0	
-[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-926178831_CLIENT	
-[00:00:08]: Loading mod: workshop-926178831 (Force Biomes) Version:2.1	
-[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-2410967470_CLIENT	
-[00:00:08]: Loading mod: workshop-2410967470 (Rot Begone) Version:2.8.6	
-[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1951468597_CLIENT	
-[00:00:08]: Loading mod: workshop-1951468597 (Sweet House) Version:4.8	
-[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1840284484_CLIENT	
-[00:00:08]: Loading mod: workshop-1840284484 (Achievements and Level System) Version:3.7.5	
-[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
-[00:00:08]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.16	
+[00:00:07]: SUCCESS: Loaded modoverrides.lua	
+[00:00:07]: modoverrides.lua enabling workshop-1852257480	
+[00:00:07]: modoverrides.lua enabling workshop-1609069355	
+[00:00:07]: modoverrides.lua enabling workshop-2410967470	
+[00:00:07]: modoverrides.lua enabling workshop-2847806795	
+[00:00:07]: modoverrides.lua enabling workshop-1951468597	
+[00:00:07]: modoverrides.lua enabling workshop-1840284484	
+[00:00:07]: modoverrides.lua enabling workshop-1207269058	
+[00:00:07]: modoverrides.lua enabling workshop-1185229307	
+[00:00:07]: modoverrides.lua enabling workshop-2561335747	
+[00:00:07]: modoverrides.lua enabling workshop-926178831	
+[00:00:07]: modoverrides.lua enabling workshop-1803285852	
+[00:00:07]: modoverrides.lua enabling workshop-2167036904	
+[00:00:07]: modoverrides.lua enabling workshop-2854057841	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1609069355	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-926178831	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2410967470	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1951468597	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1840284484	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2561335747	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2854057841	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1803285852	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2167036904	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-1852257480_CLIENT	
+[00:00:07]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:1.7	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-1609069355_CLIENT	
+[00:00:07]: Loading mod: workshop-1609069355 (Welcome Message) Version:1.0	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-926178831_CLIENT	
+[00:00:07]: Loading mod: workshop-926178831 (Force Biomes) Version:2.1	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-2410967470_CLIENT	
+[00:00:07]: Loading mod: workshop-2410967470 (Rot Begone) Version:2.8.6	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-1951468597_CLIENT	
+[00:00:07]: Loading mod: workshop-1951468597 (Sweet House) Version:4.8	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-1840284484_CLIENT	
+[00:00:07]: Loading mod: workshop-1840284484 (Achievements and Level System) Version:3.7.5	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
+[00:00:07]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.16	
 [00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1185229307_CLIENT	
 [00:00:08]: Loading mod: workshop-1185229307 (Barra de Vida Épica) Version:75	
 [00:00:08]: Could not load mod_config_data/modconfiguration_workshop-2561335747_CLIENT	
@@ -736,18 +736,18 @@
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies	
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies_builder	
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering default mod prefab	
-[00:00:15]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
-[00:00:15]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
-[00:00:15]: Mod: workshop-926178831 (Force Biomes)	Registering prefabs	
-[00:00:15]: Mod: workshop-926178831 (Force Biomes)	  Registering default mod prefab	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	Registering prefabs	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/seffc	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    seffc	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/klaussack_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    klaussack_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/altar_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    ancient_altar_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/pigking	
+[00:00:14]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:00:14]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-926178831 (Force Biomes)	Registering prefabs	
+[00:00:14]: Mod: workshop-926178831 (Force Biomes)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	Registering prefabs	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/seffc	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    seffc	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/klaussack_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    klaussack_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/altar_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    ancient_altar_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/pigking	
 [00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    pigking	
 [00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/antlion	
 [00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    antlion	
@@ -780,3 +780,4 @@
 [00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
 [00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:15]: 	Load FE	
