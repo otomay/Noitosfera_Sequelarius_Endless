@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 580433
-[00:00:00]: Current time: Fri Dec  8 06:17:39 2023
+[00:00:00]: Current time: Sat Dec  9 06:13:37 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,13 +12,13 @@
 [00:00:00]: Build Date: 2142
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 46231 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 46292 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473641959440)
+[00:00:00]: THREAD - started 'GAClient' (281473514643472)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:5.06
+[00:00:00]: ProfileIndex:4.76
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -35,7 +35,7 @@
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
-[00:00:01]: THREAD - started 'StreamInput' (281473122578448)
+[00:00:01]: THREAD - started 'StreamInput' (281472990478352)
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: cGame::InitializeOnMainThread
@@ -386,91 +386,91 @@
 [00:00:07]: Overriding mod workshop-1185229307's option  with value 	
 [00:00:07]: Overriding mod workshop-1185229307's option  with value 	
 [00:00:07]: Overriding mod workshop-1185229307's option  with value 	
-[00:00:07]: Overriding mod workshop-1185229307's option WETNESS_METER with value false	
-[00:00:07]: Overriding mod workshop-1185229307's option NOEPIC with value false	
-[00:00:07]: Overriding mod workshop-1185229307's option FRAME_PHASES with value true	
-[00:00:07]: Overriding mod workshop-1185229307's option DAMAGE_NUMBERS with value false	
-[00:00:07]: Overriding mod workshop-1185229307's option NONOEPIC with value false	
-[00:00:07]: Overriding mod workshop-1185229307's option DAMAGE_RESISTANCE with value true	
-[00:00:07]: Overriding mod workshop-1185229307's option HORIZONTAL_OFFSET with value 0	
-[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2561335747	
-[00:00:07]: Overriding mod workshop-2561335747's option pushout_klaussack with value true	
-[00:00:07]: Overriding mod workshop-2561335747's option access_hermitcrab_island with value false	
-[00:00:07]: Overriding mod workshop-2561335747's option access_archive_maze with value false	
-[00:00:07]: Overriding mod workshop-2561335747's option restricted_area with value true	
-[00:00:07]: Overriding mod workshop-2561335747's option pushout_coming_bosses with value true	
-[00:00:07]: Overriding mod workshop-2561335747's option pushout_hauntable_mobs with value true	
-[00:00:07]: Overriding mod workshop-2561335747's option max_walls with value 300	
-[00:00:07]: Overriding mod workshop-2561335747's option guest_glommer_days_alive with value 0	
-[00:00:07]: Overriding mod workshop-2561335747's option intruders with value true	
-[00:00:07]: Overriding mod workshop-2561335747's option min_walls with value 16	
-[00:00:07]: Overriding mod workshop-2561335747's option access_ruins_area with value false	
-[00:00:07]: Overriding mod workshop-2561335747's option min_dist_between_myhomes with value 5	
-[00:00:07]: Overriding mod workshop-2561335747's option pushout_coming_mobs with value true	
-[00:00:07]: Overriding mod workshop-2561335747's option language with value en	
-[00:00:07]: Overriding mod workshop-2561335747's option announce with value true	
-[00:00:07]: Overriding mod workshop-2561335747's option admin with value false	
-[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-926178831	
-[00:00:07]: Overriding mod workshop-926178831's option MOOSEBREEDINGTASK with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option MOREALTARS with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option KILLTHESPIDERS with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option RABBITTOWN with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option KILLERBEES with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option SPIDERLAND with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option null with value 0	
-[00:00:07]: Overriding mod workshop-926178831's option null with value 0	
-[00:00:07]: Overriding mod workshop-926178831's option null with value 0	
-[00:00:07]: Overriding mod workshop-926178831's option null with value 0	
-[00:00:07]: Overriding mod workshop-926178831's option MAKEABEEHAT with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option SACREDDANGER with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option FUNGALNOISEMEADOW with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option CAVEJUNGLE with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option THEHUNTERS with value ON	
-[00:00:07]: Overriding mod workshop-926178831's option CAVESWAMP with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option MOLECOLONYDECIDUOUS with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option MAGICMEADOW with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option RABBITSPIDERWAR with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option BEFRIENDTHEPIGS with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option SWAMPYSINKHOLE with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option RESIDENTIAL3 with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option MUDDYSACRED with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option UNDERGROUNDFOREST with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option RESIDENTIAL2 with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option FROGSANDBUGS with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option RABBITCITY with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option PLEASANTSINKHOLE with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option MILITARYPITS with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option MOLECOLONYROCKS with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option BATCLOISTER with value RANDOM	
-[00:00:07]: Overriding mod workshop-926178831's option FUNGALNOISEFOREST with value RANDOM	
-[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1803285852	
-[00:00:07]: Overriding mod workshop-1803285852's option  with value 0	
-[00:00:07]: Overriding mod workshop-1803285852's option  with value 0	
-[00:00:07]: Overriding mod workshop-1803285852's option  with value 0	
-[00:00:07]: Overriding mod workshop-1803285852's option  with value 0	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoPickupEnabled with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option ManualStackMakeNewStackMainStack with value true	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoPickupRange with value 10	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoStackEnabled with value true	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoStackMakeNewStackMainStack with value true	
-[00:00:07]: Overriding mod workshop-1803285852's option SmokePuffOnStacking with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option StackDuringPopulation with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoPickupSeeds with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option PlayerMustHaveOneOfItemToAutoPickup with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoPickupAsh with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option ManualStackSeeds with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoStackManuallyDroppedItems with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option ManualStackAsh with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoPickupPoop with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option ManualStackPoop with value false	
-[00:00:07]: Overriding mod workshop-1803285852's option ManualDropStackRange with value 5	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoStackAsh with value true	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoStackRange with value 10	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoStackSeeds with value true	
-[00:00:07]: Overriding mod workshop-1803285852's option AutoStackPoop with value true	
-[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2167036904	
-[00:00:07]: Overriding mod workshop-2167036904's option URL with value https://discord.gg/NaX26M64VZ	
-[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2854057841	
+[00:00:08]: Overriding mod workshop-1185229307's option WETNESS_METER with value false	
+[00:00:08]: Overriding mod workshop-1185229307's option NOEPIC with value false	
+[00:00:08]: Overriding mod workshop-1185229307's option FRAME_PHASES with value true	
+[00:00:08]: Overriding mod workshop-1185229307's option DAMAGE_NUMBERS with value false	
+[00:00:08]: Overriding mod workshop-1185229307's option NONOEPIC with value false	
+[00:00:08]: Overriding mod workshop-1185229307's option DAMAGE_RESISTANCE with value true	
+[00:00:08]: Overriding mod workshop-1185229307's option HORIZONTAL_OFFSET with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2561335747	
+[00:00:08]: Overriding mod workshop-2561335747's option pushout_klaussack with value true	
+[00:00:08]: Overriding mod workshop-2561335747's option access_hermitcrab_island with value false	
+[00:00:08]: Overriding mod workshop-2561335747's option access_archive_maze with value false	
+[00:00:08]: Overriding mod workshop-2561335747's option restricted_area with value true	
+[00:00:08]: Overriding mod workshop-2561335747's option pushout_coming_bosses with value true	
+[00:00:08]: Overriding mod workshop-2561335747's option pushout_hauntable_mobs with value true	
+[00:00:08]: Overriding mod workshop-2561335747's option max_walls with value 300	
+[00:00:08]: Overriding mod workshop-2561335747's option guest_glommer_days_alive with value 0	
+[00:00:08]: Overriding mod workshop-2561335747's option intruders with value true	
+[00:00:08]: Overriding mod workshop-2561335747's option min_walls with value 16	
+[00:00:08]: Overriding mod workshop-2561335747's option access_ruins_area with value false	
+[00:00:08]: Overriding mod workshop-2561335747's option min_dist_between_myhomes with value 5	
+[00:00:08]: Overriding mod workshop-2561335747's option pushout_coming_mobs with value true	
+[00:00:08]: Overriding mod workshop-2561335747's option language with value en	
+[00:00:08]: Overriding mod workshop-2561335747's option announce with value true	
+[00:00:08]: Overriding mod workshop-2561335747's option admin with value false	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-926178831	
+[00:00:08]: Overriding mod workshop-926178831's option MOOSEBREEDINGTASK with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option MOREALTARS with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option KILLTHESPIDERS with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option RABBITTOWN with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option KILLERBEES with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option SPIDERLAND with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option null with value 0	
+[00:00:08]: Overriding mod workshop-926178831's option null with value 0	
+[00:00:08]: Overriding mod workshop-926178831's option null with value 0	
+[00:00:08]: Overriding mod workshop-926178831's option null with value 0	
+[00:00:08]: Overriding mod workshop-926178831's option MAKEABEEHAT with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option SACREDDANGER with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option FUNGALNOISEMEADOW with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option CAVEJUNGLE with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option THEHUNTERS with value ON	
+[00:00:08]: Overriding mod workshop-926178831's option CAVESWAMP with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option MOLECOLONYDECIDUOUS with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option MAGICMEADOW with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option RABBITSPIDERWAR with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option BEFRIENDTHEPIGS with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option SWAMPYSINKHOLE with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option RESIDENTIAL3 with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option MUDDYSACRED with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option UNDERGROUNDFOREST with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option RESIDENTIAL2 with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option FROGSANDBUGS with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option RABBITCITY with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option PLEASANTSINKHOLE with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option MILITARYPITS with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option MOLECOLONYROCKS with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option BATCLOISTER with value RANDOM	
+[00:00:08]: Overriding mod workshop-926178831's option FUNGALNOISEFOREST with value RANDOM	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1803285852	
+[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
+[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
+[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
+[00:00:08]: Overriding mod workshop-1803285852's option  with value 0	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupEnabled with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option ManualStackMakeNewStackMainStack with value true	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupRange with value 10	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackEnabled with value true	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackMakeNewStackMainStack with value true	
+[00:00:08]: Overriding mod workshop-1803285852's option SmokePuffOnStacking with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option StackDuringPopulation with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupSeeds with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option PlayerMustHaveOneOfItemToAutoPickup with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupAsh with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option ManualStackSeeds with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackManuallyDroppedItems with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option ManualStackAsh with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoPickupPoop with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option ManualStackPoop with value false	
+[00:00:08]: Overriding mod workshop-1803285852's option ManualDropStackRange with value 5	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackAsh with value true	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackRange with value 10	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackSeeds with value true	
+[00:00:08]: Overriding mod workshop-1803285852's option AutoStackPoop with value true	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2167036904	
+[00:00:08]: Overriding mod workshop-2167036904's option URL with value https://discord.gg/NaX26M64VZ	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2854057841	
 [00:00:08]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modworldgenmain.lua	
 [00:00:08]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modmain.lua	
@@ -738,39 +738,39 @@
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering default mod prefab	
 [00:00:14]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
 [00:00:14]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
-[00:00:15]: Mod: workshop-926178831 (Force Biomes)	Registering prefabs	
-[00:00:15]: Mod: workshop-926178831 (Force Biomes)	  Registering default mod prefab	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	Registering prefabs	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/seffc	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    seffc	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/klaussack_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    klaussack_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/altar_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    ancient_altar_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/pigking	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    pigking	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/antlion	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    antlion	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/shadowwaxwell	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadow_despawn	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdancer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowworker	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowprotector	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist_builder	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber_builder	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer_builder	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger_builder	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportableblender	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablecookpot	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablespicer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer	
+[00:00:14]: Mod: workshop-926178831 (Force Biomes)	Registering prefabs	
+[00:00:14]: Mod: workshop-926178831 (Force Biomes)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	Registering prefabs	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/seffc	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    seffc	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/klaussack_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    klaussack_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/altar_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    ancient_altar_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/pigking	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    pigking	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/antlion	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    antlion	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/shadowwaxwell	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadow_despawn	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdancer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowworker	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowprotector	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist_builder	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber_builder	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer_builder	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger_builder	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportableblender	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablecookpot	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablespicer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer_placer	
+[00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer	
 [00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering default mod prefab	
