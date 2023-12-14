@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 580433
-[00:00:00]: Current time: Thu Dec 14 06:14:17 2023
+[00:00:00]: Current time: Thu Dec 14 18:43:49 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,13 +12,13 @@
 [00:00:00]: Build Date: 2142
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 46655 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 45591 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: ProfileIndex:4.50
-[00:00:00]: THREAD - started 'GAClient' (281473434435600)
+[00:00:00]: THREAD - started 'GAClient' (281472944521232)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:5.16
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -38,7 +38,7 @@
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: cGame::InitializeOnMainThread
-[00:00:01]: THREAD - started 'StreamInput' (281472912298000)
+[00:00:01]: THREAD - started 'StreamInput' (281472428769296)
 [00:00:01]: Renderer initialize: Okay
 [00:00:01]: AnimManager initialize: Okay
 [00:00:01]: Buffers initialize: Okay
@@ -55,13 +55,13 @@
 [00:00:07]:   taskgrouplist:	cave_default	Subterrâneo	
 [00:00:07]:   taskgrouplist:	lavaarena_taskset	A Forja	
 [00:00:07]:   taskgrouplist:	quagmire_taskset	A Garganta	
-[00:00:08]: Running main.lua
+[00:00:07]: Running main.lua
 	
-[00:00:08]: loaded modindex	
-[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
+[00:00:07]: loaded modindex	
+[00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:08]: SUCCESS: Loaded modoverrides.lua	
-[00:00:08]: modoverrides.lua enabling workshop-1852257480	
+[00:00:07]: SUCCESS: Loaded modoverrides.lua	
+[00:00:07]: modoverrides.lua enabling workshop-1852257480	
 [00:00:08]: modoverrides.lua enabling workshop-1609069355	
 [00:00:08]: modoverrides.lua enabling workshop-2410967470	
 [00:00:08]: modoverrides.lua enabling workshop-2847806795	
@@ -582,15 +582,15 @@
 [00:00:11]: Registering Server mod namespace "workshop-1852257480"
 [00:00:11]: Registering Shard mod namespace "rotbegone"
 [00:00:11]: Registering Shard mod namespace "workshop-2167036904"
-[00:00:12]: PlayerDeaths could not load morgue	
-[00:00:12]: PlayerHistory could not load player_history	
-[00:00:12]: ServerPreferences could not load server_preferences	
-[00:00:12]: ConsoleScreenSettings could not load consolescreen	
-[00:00:12]: bloom_enabled	true	
-[00:00:12]: OnFilesLoaded()	
-[00:00:12]: OnUpdatePurchaseStateComplete	
-[00:00:12]: Klump load on boot started.	
-[00:00:12]: Klump files loaded: 	0	
+[00:00:11]: PlayerDeaths could not load morgue	
+[00:00:11]: PlayerHistory could not load player_history	
+[00:00:11]: ServerPreferences could not load server_preferences	
+[00:00:11]: ConsoleScreenSettings could not load consolescreen	
+[00:00:11]: bloom_enabled	true	
+[00:00:11]: OnFilesLoaded()	
+[00:00:11]: OnUpdatePurchaseStateComplete	
+[00:00:11]: Klump load on boot started.	
+[00:00:11]: Klump files loaded: 	0	
 [00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
 [00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
 [00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
@@ -774,10 +774,3 @@
 [00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer_placer	
 [00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer	
 [00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering default mod prefab	
-[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
-[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
-[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
-[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
-[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
-[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
-[00:00:16]: 	Load FE	
