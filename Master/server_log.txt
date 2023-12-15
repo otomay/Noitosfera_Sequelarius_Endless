@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 586529
-[00:00:00]: Current time: Thu Dec 14 19:12:56 2023
+[00:00:00]: Current time: Fri Dec 15 06:14:25 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,13 +12,13 @@
 [00:00:00]: Build Date: 2189
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 46120 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 46254 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473440292880)
+[00:00:00]: THREAD - started 'GAClient' (281472750223376)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:4.70
+[00:00:00]: ProfileIndex:4.82
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -37,8 +37,8 @@
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
-[00:00:01]: THREAD - started 'StreamInput' (281472927027216)
 [00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: THREAD - started 'StreamInput' (281472236638224)
 [00:00:01]: Renderer initialize: Okay
 [00:00:01]: AnimManager initialize: Okay
 [00:00:01]: Buffers initialize: Okay
@@ -55,19 +55,19 @@
 [00:00:07]:   taskgrouplist:	cave_default	Subterrâneo	
 [00:00:07]:   taskgrouplist:	lavaarena_taskset	A Forja	
 [00:00:07]:   taskgrouplist:	quagmire_taskset	A Garganta	
-[00:00:07]: Running main.lua
+[00:00:08]: Running main.lua
 	
-[00:00:07]: loaded modindex	
-[00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
+[00:00:08]: loaded modindex	
+[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:07]: SUCCESS: Loaded modoverrides.lua	
-[00:00:07]: modoverrides.lua enabling workshop-1852257480	
-[00:00:07]: modoverrides.lua enabling workshop-1609069355	
-[00:00:07]: modoverrides.lua enabling workshop-2410967470	
-[00:00:07]: modoverrides.lua enabling workshop-2847806795	
-[00:00:07]: modoverrides.lua enabling workshop-1951468597	
-[00:00:07]: modoverrides.lua enabling workshop-1840284484	
-[00:00:07]: modoverrides.lua enabling workshop-1207269058	
+[00:00:08]: SUCCESS: Loaded modoverrides.lua	
+[00:00:08]: modoverrides.lua enabling workshop-1852257480	
+[00:00:08]: modoverrides.lua enabling workshop-1609069355	
+[00:00:08]: modoverrides.lua enabling workshop-2410967470	
+[00:00:08]: modoverrides.lua enabling workshop-2847806795	
+[00:00:08]: modoverrides.lua enabling workshop-1951468597	
+[00:00:08]: modoverrides.lua enabling workshop-1840284484	
+[00:00:08]: modoverrides.lua enabling workshop-1207269058	
 [00:00:08]: modoverrides.lua enabling workshop-1185229307	
 [00:00:08]: modoverrides.lua enabling workshop-2561335747	
 [00:00:08]: modoverrides.lua enabling workshop-926178831	
