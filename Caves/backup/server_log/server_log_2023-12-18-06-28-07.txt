@@ -1,43 +1,44 @@
-[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
+[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Caves/ 
 [00:00:00]: Starting Up
-[00:00:00]: Version: 572130
-[00:00:00]: Current time: Wed Sep 13 06:13:31 2023
+[00:00:00]: Version: 586529
+[00:00:00]: Current time: Sat Dec 16 06:14:39 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
 [00:00:00]: Release(Kernel) Version: 5.13.0-1025-oracle
 [00:00:00]: Kernel Build Timestamp: #30~20.04.1-Ubuntu SMP Fri Apr 1 06:09:46 UTC 2022
 [00:00:00]: Machine Arch: x86_64
-[00:00:00]: Don't Starve Together: 572130 LINUX
-[00:00:00]: Build Date: 2005
+[00:00:00]: Don't Starve Together: 586529 LINUX
+[00:00:00]: Build Date: 2189
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 46984 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 48448 -shard Caves 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473483526160)
-[00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:4.69
+[00:00:00]: ProfileIndex:3.85
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
 [00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: THREAD - started 'GAClient' (281473408024592)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/bigportraits.zip successful.
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
-[00:00:00]: [Steam] SteamGameServer_Init(11000, 27016)
+[00:00:00]: [Steam] SteamGameServer_Init(11001, 27016)
+[00:00:00]: [Steam] SteamGameServer_Init(11001, 27017)
 [00:00:00]: [Steam] SteamGameServer_Init success
 [00:00:00]: [Connect] PendingConnection::Reset(true)
 [00:00:00]: Platform: 1
 [00:00:00]: Network tick rate: U=15(2), D=0
 [00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: THREAD - started 'StreamInput' (281472762114064)
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
 [00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:00]: THREAD - started 'StreamInput' (281472825020432)
 [00:00:00]: cGame::InitializeOnMainThread
 [00:00:00]: Renderer initialize: Okay
 [00:00:00]: AnimManager initialize: Okay
@@ -50,11 +51,11 @@
 [00:00:01]: DoLuaFile scripts/main.lua
 [00:00:01]: DoLuaFile loading buffer scripts/main.lua
 [00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
-[00:00:06]:   taskgrouplist:	default	Juntos	
-[00:00:06]:   taskgrouplist:	classic	Clássico	
-[00:00:06]:   taskgrouplist:	cave_default	Subterrâneo	
-[00:00:06]:   taskgrouplist:	lavaarena_taskset	A Forja	
-[00:00:06]:   taskgrouplist:	quagmire_taskset	A Garganta	
+[00:00:07]:   taskgrouplist:	default	Juntos	
+[00:00:07]:   taskgrouplist:	classic	Clássico	
+[00:00:07]:   taskgrouplist:	cave_default	Subterrâneo	
+[00:00:07]:   taskgrouplist:	lavaarena_taskset	A Forja	
+[00:00:07]:   taskgrouplist:	quagmire_taskset	A Garganta	
 [00:00:07]: Running main.lua
 	
 [00:00:07]: loaded modindex	
@@ -489,90 +490,90 @@
 [00:00:07]: Mod: workshop-2854057841 (Noitosfera)	Loading modworldgenmain.lua	
 [00:00:07]: Mod: workshop-2854057841 (Noitosfera)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:07]: Mod: workshop-2854057841 (Noitosfera)	Loading modmain.lua	
-[00:00:07]: Mod: workshop-2561335747 (MyHome Reworked)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-2561335747 (MyHome Reworked)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-2561335747 (MyHome Reworked)	Loading modmain.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/languages/mh_en.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_commands.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_restrictedarea_helper.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_mods_compatibility.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_fns.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions_override.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_cannonballs_override.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_orangeamulet_override.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_abigail_override.lua	
-[00:00:07]: modimport: ../mods/workshop-2561335747/scripts/myhome_shadowwaxwell_override.lua	
-[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
-[00:00:07]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modmain.lua	
-[00:00:07]: Mod: workshop-2847806795 ( Economia Simples )	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-2847806795 ( Economia Simples )	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-2847806795 ( Economia Simples )	Loading modmain.lua	
-[00:00:07]: modimport: ../mods/workshop-2847806795/scripts/SEscripts/itemlist.lua	
-[00:00:07]: Mod: workshop-1951468597 (Sweet House)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-1951468597 (Sweet House)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-1951468597 (Sweet House)	Loading modmain.lua	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_recipe	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house1_recipe	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_pvz_recipe	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_tardis_recipe	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_named_item	
-[00:00:07]: Warning: function AddRecipeTab in modmain is deprecated.	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_1	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_2	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_3	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_4	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_5	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_6	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_7	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_8	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_9	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_10	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_11	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_12	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_zombies_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_phonograph	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_mushroom_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_punk_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_pvz_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_tardis_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_sunflower_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_upholstered_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_harlequin_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_circles_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_mushroom_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_punk_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_pvz_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_tardis_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checker_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checkered_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_geome_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_herringbone_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_octagon_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_ruins_slab_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodmetal_builder	
-[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodpaneling_builder	
-[00:00:07]: upvaluehelper loaded	
-[00:00:07]: modimport: ../mods/workshop-1951468597/scripts/stategraphs/SG_hua_house.lua	
-[00:00:07]: modimport: ../mods/workshop-1951468597/scripts/hua_house_named.lua	
-[00:00:07]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
-[00:00:07]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
-[00:00:07]: modimport: ../mods/workshop-1852257480/scripts/patches/beefaloinformation.lua	
-[00:00:07]: Mod: workshop-926178831 (Force Biomes)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-926178831 (Force Biomes)	Loading modmain.lua	
-[00:00:07]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-1840284484 (Achievements and Level System)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modmain.lua	
-[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
-[00:00:08]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:08]: Mod: workshop-2561335747 (MyHome Reworked)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-2561335747 (MyHome Reworked)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-2561335747 (MyHome Reworked)	Loading modmain.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/languages/mh_en.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_commands.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_restrictedarea_helper.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_mods_compatibility.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_fns.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_actions_override.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_cannonballs_override.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_orangeamulet_override.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_abigail_override.lua	
+[00:00:08]: modimport: ../mods/workshop-2561335747/scripts/myhome_shadowwaxwell_override.lua	
+[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	Loading modmain.lua	
+[00:00:08]: modimport: ../mods/workshop-2847806795/scripts/SEscripts/itemlist.lua	
+[00:00:08]: Mod: workshop-1951468597 (Sweet House)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1951468597 (Sweet House)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1951468597 (Sweet House)	Loading modmain.lua	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_recipe	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house1_recipe	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_pvz_recipe	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_tardis_recipe	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_named_item	
+[00:00:08]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_1	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_2	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_3	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_4	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_5	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_6	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_7	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_8	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_9	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_10	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_11	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_12	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_zombies_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_phonograph	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_mushroom_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_punk_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_pvz_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_tardis_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_sunflower_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_upholstered_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_harlequin_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_circles_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_mushroom_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_punk_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_pvz_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_tardis_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checker_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checkered_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_geome_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_herringbone_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_octagon_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_ruins_slab_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodmetal_builder	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodpaneling_builder	
+[00:00:08]: upvaluehelper loaded	
+[00:00:08]: modimport: ../mods/workshop-1951468597/scripts/stategraphs/SG_hua_house.lua	
+[00:00:08]: modimport: ../mods/workshop-1951468597/scripts/hua_house_named.lua	
+[00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:00:08]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:08]: modimport: ../mods/workshop-1852257480/scripts/patches/beefaloinformation.lua	
+[00:00:08]: Mod: workshop-926178831 (Force Biomes)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-926178831 (Force Biomes)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1840284484 (Achievements and Level System)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:09]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
 [00:00:11]: LOADING LUA SUCCESS
 [00:00:11]: Registering Server mod namespace "rotbegone"
 [00:00:11]: Registering Server mod namespace "huahouse_name"
@@ -591,151 +592,151 @@
 [00:00:11]: OnUpdatePurchaseStateComplete	
 [00:00:11]: Klump load on boot started.	
 [00:00:11]: Klump files loaded: 	0	
-[00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
-[00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
-[00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
-[00:00:13]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-1609069355 (Welcome Message)	Registering prefabs	
-[00:00:13]: Mod: workshop-1609069355 (Welcome Message)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-2410967470 (Rot Begone)	Registering prefabs	
-[00:00:13]: Mod: workshop-2410967470 (Rot Begone)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
-[00:00:13]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	Registering prefabs	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_builder	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_builder	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_marker	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_marker	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guidemarker	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_placemarker	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_placemarker	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_guestmarker	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guestmarker	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_informer	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_informer	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_antlion_spawner	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_antlion_spawner	
-[00:00:13]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
-[00:00:13]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Registering prefabs	
-[00:00:13]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/secoin	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    secoin	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/stealer	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    stealer	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/goldstaff	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    goldstaff	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/vipcard	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    vipcard	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/luckamulet	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    luckamulet	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/coin_bundle	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
-[00:00:13]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	Registering prefabs	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_door_exit	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit1	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit2	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit3	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_wall	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wall	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_floor	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_floor	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wallpaper	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_zhu1	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_zhu2	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_zhu2_light	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_in	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals1	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals1_in	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_pvz	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_pvz_in	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_tardis	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_tardis_in	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_mushroom_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_sunflower_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_upholstered_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_harlequin_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_circles_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_punk_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_pvz_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_tardis_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_mushroom_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_checker_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_checkered_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_geome_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_herringbone_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_octagon_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_ruins_slab_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_woodmetal_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_woodpaneling_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_punk_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_pvz_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_tardis_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_lights	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_light_red	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_light_red1	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_light_red2	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_window_round	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_window_round_light	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_window_punk	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_window_punk_light	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_light_light	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_light_light	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house1	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_named_item	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_named_item	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_pvz	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_tardis	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_fake	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_interiors	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_phonograph	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph_placer	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_zombies	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies_builder	
-[00:00:13]: Mod: workshop-1951468597 (Sweet House)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
+[00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
+[00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
+[00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-1609069355 (Welcome Message)	Registering prefabs	
+[00:00:14]: Mod: workshop-1609069355 (Welcome Message)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-2410967470 (Rot Begone)	Registering prefabs	
+[00:00:14]: Mod: workshop-2410967470 (Rot Begone)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
+[00:00:14]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	Registering prefabs	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_builder	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_builder	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_marker	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_marker	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guidemarker	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_placemarker	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_placemarker	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_guestmarker	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guestmarker	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_informer	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_informer	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_antlion_spawner	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_antlion_spawner	
+[00:00:14]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
+[00:00:14]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Registering prefabs	
+[00:00:14]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
+[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/secoin	
+[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	    secoin	
+[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/stealer	
+[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	    stealer	
+[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/goldstaff	
+[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	    goldstaff	
+[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/vipcard	
+[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	    vipcard	
+[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/luckamulet	
+[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	    luckamulet	
+[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/coin_bundle	
+[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
+[00:00:14]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	Registering prefabs	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_door_exit	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit1	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit2	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit3	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_wall	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wall	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_floor	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_floor	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wallpaper	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_zhu1	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_zhu2	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_zhu2_light	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_in	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals1	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals1_in	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_pvz	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_pvz_in	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_tardis	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_tardis_in	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_mushroom_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_sunflower_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_upholstered_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_harlequin_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_circles_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_punk_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_pvz_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_tardis_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_mushroom_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_checker_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_checkered_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_geome_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_herringbone_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_octagon_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_ruins_slab_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_woodmetal_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_woodpaneling_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_punk_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_pvz_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_tardis_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_lights	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_light_red	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_light_red1	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_light_red2	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_window_round	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_window_round_light	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_window_punk	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_window_punk_light	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_light_light	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_light_light	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house1	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_named_item	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_named_item	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_pvz	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_tardis	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_fake	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_interiors	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_phonograph	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_zombies	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering default mod prefab	
 [00:00:14]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
 [00:00:14]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
 [00:00:14]: Mod: workshop-926178831 (Force Biomes)	Registering prefabs	
@@ -774,23 +775,23 @@
 [00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer_placer	
 [00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer	
 [00:00:14]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
-[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:15]: 	Load FE	
 [00:00:16]: 	Load FE: done	
+[00:00:16]: THREAD - started 'FilesExistAsyncThread' (281472391872528)
+[00:00:16]: FilesExistAsyncThread started (23114 files)...
 [00:00:16]: Check for write access: TRUE
 [00:00:16]: Check for read access: TRUE
-[00:00:16]: Available disk space for save files: 9492 MB
+[00:00:16]: Available disk space for save files: 3836 MB
 [00:00:16]: ModIndex: Load sequence finished successfully.	
 [00:00:16]: Reset() returning
-[00:00:16]: THREAD - started 'FilesExistAsyncThread' (281472481087504)
-[00:00:16]: FilesExistAsyncThread started (22468 files)...
 [00:00:17]: [200] Account Communication Success (6)
-[00:00:17]: Cached userid (null) saved to /root/.klei//DoNotStarveTogether/MyDediServer/Master/save/cached_userid
+[00:00:17]: Cached userid (null) saved to /root/.klei//DoNotStarveTogether/MyDediServer/Caves/save/cached_userid
 [00:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
 [00:00:17]: Starting Dedicated Server Game	
 [00:00:17]: Network tick rate: U=15(2), D=0
@@ -798,7 +799,7 @@
 [00:00:17]:   Dedicated: true
 [00:00:17]:   Online: true
 [00:00:17]:   Passworded: false
-[00:00:17]:   ServerPort: 11000
+[00:00:17]:   ServerPort: 11001
 [00:00:17]:   SteamAuthPort: 8766
 [00:00:17]:   SteamMasterServerPort: 27016
 [00:00:17]:   ClanID: false
@@ -827,208 +828,130 @@
 [00:00:17]: Could not load mod_config_data/modconfiguration_workshop-2847806795	
 [00:00:17]: Could not load mod_config_data/modconfiguration_workshop-1185229307	
 [00:00:17]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
-[00:00:17]: Online Server Started on port: 11000
+[00:00:17]: Online Server Started on port: 11001
 [00:00:17]: SUCCESS: Loaded modoverrides.lua	
 [00:00:17]: Found a level data override file with these contents:	
-[00:00:17]: 	K: 	desc	 V: 	The standard Don't Starve experience.	
+[00:00:17]: 	K: 	background_node_range	 V: 	table: 0x85002e50	
+[00:00:17]: 		K: 	1	 V: 	0	
+[00:00:17]: 		K: 	2	 V: 	1	
+[00:00:17]: 	K: 	desc	 V: 	Delve into the caves... together!	
 [00:00:17]: 	K: 	hideminimap	 V: 	false	
-[00:00:17]: 	K: 	id	 V: 	SURVIVAL_TOGETHER	
-[00:00:17]: 	K: 	location	 V: 	forest	
+[00:00:17]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:17]: 	K: 	location	 V: 	cave	
 [00:00:17]: 	K: 	max_playlist_position	 V: 	999	
 [00:00:17]: 	K: 	min_playlist_position	 V: 	0	
-[00:00:17]: 	K: 	name	 V: 	Standard Forest	
-[00:00:17]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:17]: 	K: 	name	 V: 	The Caves	
+[00:00:17]: 	K: 	numrandom_set_pieces	 V: 	0	
 [00:00:17]: 	K: 	override_level_string	 V: 	false	
-[00:00:17]: 	K: 	overrides	 V: 	table: 0x79fd7770	
-[00:00:17]: 		K: 	alternatehunt	 V: 	default	
-[00:00:17]: 		K: 	angrybees	 V: 	default	
-[00:00:17]: 		K: 	antliontribute	 V: 	default	
-[00:00:17]: 		K: 	autumn	 V: 	default	
+[00:00:17]: 	K: 	overrides	 V: 	table: 0x850041c0	
+[00:00:17]: 		K: 	atriumgate	 V: 	default	
+[00:00:17]: 		K: 	banana	 V: 	default	
+[00:00:17]: 		K: 	bats	 V: 	default	
 [00:00:17]: 		K: 	bats_setting	 V: 	default	
-[00:00:17]: 		K: 	bearger	 V: 	default	
-[00:00:17]: 		K: 	beefalo	 V: 	default	
 [00:00:17]: 		K: 	beefaloheat	 V: 	default	
-[00:00:17]: 		K: 	beequeen	 V: 	default	
-[00:00:17]: 		K: 	bees	 V: 	default	
-[00:00:17]: 		K: 	bees_setting	 V: 	default	
 [00:00:17]: 		K: 	berrybush	 V: 	default	
-[00:00:17]: 		K: 	birds	 V: 	default	
 [00:00:17]: 		K: 	boons	 V: 	default	
 [00:00:17]: 		K: 	branching	 V: 	default	
 [00:00:17]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:17]: 		K: 	bunnymen	 V: 	default	
 [00:00:17]: 		K: 	bunnymen_setting	 V: 	default	
-[00:00:17]: 		K: 	butterfly	 V: 	default	
-[00:00:17]: 		K: 	buzzard	 V: 	default	
-[00:00:17]: 		K: 	cactus	 V: 	default	
-[00:00:17]: 		K: 	carrot	 V: 	default	
-[00:00:17]: 		K: 	carrots_regrowth	 V: 	default	
-[00:00:17]: 		K: 	catcoon	 V: 	default	
-[00:00:17]: 		K: 	catcoons	 V: 	default	
+[00:00:17]: 		K: 	cave_ponds	 V: 	default	
+[00:00:17]: 		K: 	cave_spiders	 V: 	default	
+[00:00:17]: 		K: 	cavelight	 V: 	default	
 [00:00:17]: 		K: 	chess	 V: 	default	
-[00:00:17]: 		K: 	cookiecutters	 V: 	default	
-[00:00:17]: 		K: 	crabking	 V: 	default	
 [00:00:17]: 		K: 	crow_carnival	 V: 	default	
 [00:00:17]: 		K: 	day	 V: 	default	
-[00:00:17]: 		K: 	deciduousmonster	 V: 	default	
-[00:00:17]: 		K: 	deciduoustree_regrowth	 V: 	default	
-[00:00:17]: 		K: 	deerclops	 V: 	default	
-[00:00:17]: 		K: 	dragonfly	 V: 	default	
 [00:00:17]: 		K: 	dropeverythingondespawn	 V: 	default	
-[00:00:17]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:00:17]: 		K: 	dustmoths	 V: 	default	
+[00:00:17]: 		K: 	earthquakes	 V: 	default	
 [00:00:17]: 		K: 	extrastartingitems	 V: 	0	
-[00:00:17]: 		K: 	eyeofterror	 V: 	default	
-[00:00:17]: 		K: 	fishschools	 V: 	default	
+[00:00:17]: 		K: 	fern	 V: 	default	
+[00:00:17]: 		K: 	fissure	 V: 	default	
 [00:00:17]: 		K: 	flint	 V: 	default	
-[00:00:17]: 		K: 	flowers	 V: 	default	
-[00:00:17]: 		K: 	flowers_regrowth	 V: 	default	
-[00:00:17]: 		K: 	frograin	 V: 	default	
-[00:00:17]: 		K: 	frogs	 V: 	default	
+[00:00:17]: 		K: 	flower_cave	 V: 	default	
+[00:00:17]: 		K: 	flower_cave_regrowth	 V: 	default	
 [00:00:17]: 		K: 	fruitfly	 V: 	default	
-[00:00:17]: 		K: 	gnarwail	 V: 	default	
-[00:00:17]: 		K: 	goosemoose	 V: 	default	
 [00:00:17]: 		K: 	grass	 V: 	default	
 [00:00:17]: 		K: 	grassgekkos	 V: 	default	
 [00:00:17]: 		K: 	hallowed_nights	 V: 	default	
-[00:00:17]: 		K: 	has_ocean	 V: 	true	
-[00:00:17]: 		K: 	hound_mounds	 V: 	default	
-[00:00:17]: 		K: 	houndmound	 V: 	default	
-[00:00:17]: 		K: 	hounds	 V: 	default	
-[00:00:17]: 		K: 	hunt	 V: 	default	
-[00:00:17]: 		K: 	keep_disconnected_tiles	 V: 	true	
-[00:00:17]: 		K: 	klaus	 V: 	default	
 [00:00:17]: 		K: 	krampus	 V: 	default	
-[00:00:17]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:17]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:17]: 		K: 	lichen	 V: 	default	
 [00:00:17]: 		K: 	liefs	 V: 	default	
-[00:00:17]: 		K: 	lightning	 V: 	default	
-[00:00:17]: 		K: 	lightninggoat	 V: 	default	
+[00:00:17]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:17]: 		K: 	lightfliers	 V: 	default	
 [00:00:17]: 		K: 	loop	 V: 	default	
-[00:00:17]: 		K: 	lureplants	 V: 	default	
-[00:00:17]: 		K: 	malbatross	 V: 	default	
 [00:00:17]: 		K: 	marshbush	 V: 	default	
-[00:00:17]: 		K: 	merm	 V: 	default	
 [00:00:17]: 		K: 	merms	 V: 	default	
-[00:00:17]: 		K: 	meteorshowers	 V: 	default	
-[00:00:17]: 		K: 	meteorspawner	 V: 	default	
-[00:00:17]: 		K: 	moles	 V: 	default	
+[00:00:17]: 		K: 	molebats	 V: 	default	
 [00:00:17]: 		K: 	moles_setting	 V: 	default	
-[00:00:17]: 		K: 	moon_berrybush	 V: 	default	
-[00:00:17]: 		K: 	moon_bullkelp	 V: 	default	
-[00:00:17]: 		K: 	moon_carrot	 V: 	default	
-[00:00:17]: 		K: 	moon_fissure	 V: 	default	
-[00:00:17]: 		K: 	moon_fruitdragon	 V: 	default	
-[00:00:17]: 		K: 	moon_hotspring	 V: 	default	
-[00:00:17]: 		K: 	moon_rock	 V: 	default	
-[00:00:17]: 		K: 	moon_sapling	 V: 	default	
-[00:00:17]: 		K: 	moon_spider	 V: 	default	
-[00:00:17]: 		K: 	moon_spiders	 V: 	default	
-[00:00:17]: 		K: 	moon_starfish	 V: 	default	
-[00:00:17]: 		K: 	moon_tree	 V: 	default	
-[00:00:17]: 		K: 	moon_tree_regrowth	 V: 	default	
-[00:00:17]: 		K: 	mosquitos	 V: 	default	
+[00:00:17]: 		K: 	monkey	 V: 	default	
+[00:00:17]: 		K: 	monkey_setting	 V: 	default	
+[00:00:17]: 		K: 	mushgnome	 V: 	default	
 [00:00:17]: 		K: 	mushroom	 V: 	default	
-[00:00:17]: 		K: 	mutated_hounds	 V: 	default	
-[00:00:17]: 		K: 	no_joining_islands	 V: 	true	
-[00:00:17]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
-[00:00:17]: 		K: 	ocean_bullkelp	 V: 	default	
-[00:00:17]: 		K: 	ocean_seastack	 V: 	ocean_default	
-[00:00:17]: 		K: 	ocean_shoal	 V: 	default	
-[00:00:17]: 		K: 	ocean_waterplant	 V: 	ocean_default	
-[00:00:17]: 		K: 	ocean_wobsterden	 V: 	default	
-[00:00:17]: 		K: 	penguins	 V: 	default	
-[00:00:17]: 		K: 	penguins_moon	 V: 	default	
-[00:00:17]: 		K: 	perd	 V: 	default	
-[00:00:17]: 		K: 	petrification	 V: 	default	
-[00:00:17]: 		K: 	pigs	 V: 	default	
+[00:00:17]: 		K: 	mushtree	 V: 	default	
+[00:00:17]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:17]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:17]: 		K: 	nightmarecreatures	 V: 	default	
 [00:00:17]: 		K: 	pigs_setting	 V: 	default	
-[00:00:17]: 		K: 	ponds	 V: 	default	
 [00:00:17]: 		K: 	prefabswaps_start	 V: 	default	
-[00:00:17]: 		K: 	rabbits	 V: 	default	
-[00:00:17]: 		K: 	rabbits_setting	 V: 	default	
 [00:00:17]: 		K: 	reeds	 V: 	default	
 [00:00:17]: 		K: 	regrowth	 V: 	default	
-[00:00:17]: 		K: 	roads	 V: 	default	
+[00:00:17]: 		K: 	roads	 V: 	never	
 [00:00:17]: 		K: 	rock	 V: 	default	
-[00:00:17]: 		K: 	rock_ice	 V: 	default	
-[00:00:17]: 		K: 	saltstack_regrowth	 V: 	default	
+[00:00:17]: 		K: 	rocky	 V: 	default	
+[00:00:17]: 		K: 	rocky_setting	 V: 	default	
 [00:00:17]: 		K: 	sapling	 V: 	default	
 [00:00:17]: 		K: 	season_start	 V: 	default	
 [00:00:17]: 		K: 	seasonalstartingitems	 V: 	default	
 [00:00:17]: 		K: 	shadowcreatures	 V: 	default	
-[00:00:17]: 		K: 	sharks	 V: 	default	
+[00:00:17]: 		K: 	slurper	 V: 	default	
+[00:00:17]: 		K: 	slurtles	 V: 	default	
+[00:00:17]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:17]: 		K: 	snurtles	 V: 	default	
 [00:00:17]: 		K: 	spawnprotection	 V: 	always	
 [00:00:17]: 		K: 	specialevent	 V: 	default	
+[00:00:17]: 		K: 	spider_dropper	 V: 	default	
+[00:00:17]: 		K: 	spider_hider	 V: 	default	
+[00:00:17]: 		K: 	spider_spitter	 V: 	default	
 [00:00:17]: 		K: 	spider_warriors	 V: 	default	
 [00:00:17]: 		K: 	spiderqueen	 V: 	default	
 [00:00:17]: 		K: 	spiders	 V: 	default	
 [00:00:17]: 		K: 	spiders_setting	 V: 	default	
-[00:00:17]: 		K: 	spring	 V: 	default	
-[00:00:17]: 		K: 	squid	 V: 	default	
-[00:00:17]: 		K: 	start_location	 V: 	default	
-[00:00:17]: 		K: 	summer	 V: 	default	
-[00:00:17]: 		K: 	summerhounds	 V: 	default	
-[00:00:17]: 		K: 	tallbirds	 V: 	default	
-[00:00:17]: 		K: 	task_set	 V: 	default	
+[00:00:17]: 		K: 	start_location	 V: 	caves	
+[00:00:17]: 		K: 	task_set	 V: 	cave_default	
 [00:00:17]: 		K: 	tentacles	 V: 	default	
-[00:00:17]: 		K: 	terrariumchest	 V: 	default	
+[00:00:17]: 		K: 	toadstool	 V: 	default	
 [00:00:17]: 		K: 	touchstone	 V: 	default	
 [00:00:17]: 		K: 	trees	 V: 	default	
-[00:00:17]: 		K: 	tumbleweed	 V: 	default	
-[00:00:17]: 		K: 	twiggytrees_regrowth	 V: 	default	
-[00:00:17]: 		K: 	walrus	 V: 	default	
-[00:00:17]: 		K: 	walrus_setting	 V: 	default	
-[00:00:17]: 		K: 	wasps	 V: 	default	
 [00:00:17]: 		K: 	weather	 V: 	default	
-[00:00:17]: 		K: 	wildfires	 V: 	default	
-[00:00:17]: 		K: 	winter	 V: 	default	
-[00:00:17]: 		K: 	winterhounds	 V: 	default	
 [00:00:17]: 		K: 	winters_feast	 V: 	default	
-[00:00:17]: 		K: 	wobsters	 V: 	default	
 [00:00:17]: 		K: 	world_size	 V: 	huge	
-[00:00:17]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:17]: 		K: 	wormattacks	 V: 	default	
+[00:00:17]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:17]: 		K: 	wormlights	 V: 	default	
+[00:00:17]: 		K: 	worms	 V: 	default	
 [00:00:17]: 		K: 	year_of_the_beefalo	 V: 	default	
 [00:00:17]: 		K: 	year_of_the_carrat	 V: 	default	
 [00:00:17]: 		K: 	year_of_the_catcoon	 V: 	default	
 [00:00:17]: 		K: 	year_of_the_gobbler	 V: 	default	
 [00:00:17]: 		K: 	year_of_the_pig	 V: 	default	
 [00:00:17]: 		K: 	year_of_the_varg	 V: 	default	
-[00:00:17]: 	K: 	random_set_pieces	 V: 	table: 0x79fd8fe0	
-[00:00:17]: 		K: 	1	 V: 	Sculptures_2	
-[00:00:17]: 		K: 	2	 V: 	Sculptures_3	
-[00:00:17]: 		K: 	3	 V: 	Sculptures_4	
-[00:00:17]: 		K: 	4	 V: 	Sculptures_5	
-[00:00:17]: 		K: 	5	 V: 	Chessy_1	
-[00:00:17]: 		K: 	6	 V: 	Chessy_2	
-[00:00:17]: 		K: 	7	 V: 	Chessy_3	
-[00:00:17]: 		K: 	8	 V: 	Chessy_4	
-[00:00:17]: 		K: 	9	 V: 	Chessy_5	
-[00:00:17]: 		K: 	10	 V: 	Chessy_6	
-[00:00:17]: 		K: 	11	 V: 	Maxwell1	
-[00:00:17]: 		K: 	12	 V: 	Maxwell2	
-[00:00:17]: 		K: 	13	 V: 	Maxwell3	
-[00:00:17]: 		K: 	14	 V: 	Maxwell4	
-[00:00:17]: 		K: 	15	 V: 	Maxwell6	
-[00:00:17]: 		K: 	16	 V: 	Maxwell7	
-[00:00:17]: 		K: 	17	 V: 	Warzone_1	
-[00:00:17]: 		K: 	18	 V: 	Warzone_2	
-[00:00:17]: 		K: 	19	 V: 	Warzone_3	
-[00:00:17]: 	K: 	required_prefabs	 V: 	table: 0x79fd9610	
+[00:00:17]: 	K: 	required_prefabs	 V: 	table: 0x850035c0	
 [00:00:17]: 		K: 	1	 V: 	multiplayer_portal	
-[00:00:17]: 	K: 	required_setpieces	 V: 	table: 0x79fdd280	
-[00:00:17]: 		K: 	1	 V: 	Sculptures_1	
-[00:00:17]: 		K: 	2	 V: 	Maxwell5	
-[00:00:17]: 	K: 	settings_desc	 V: 	The standard Don't Starve experience.	
-[00:00:17]: 	K: 	settings_id	 V: 	SURVIVAL_TOGETHER	
-[00:00:17]: 	K: 	settings_name	 V: 	Standard Forest	
-[00:00:17]: 	K: 	substitutes	 V: 	table: 0x79fd68e0	
+[00:00:17]: 	K: 	settings_desc	 V: 	Delve into the caves... together!	
+[00:00:17]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:17]: 	K: 	settings_name	 V: 	The Caves	
+[00:00:17]: 	K: 	substitutes	 V: 	table: 0x85005210	
 [00:00:17]: 	K: 	version	 V: 	4	
-[00:00:17]: 	K: 	worldgen_desc	 V: 	The standard Don't Starve experience.	
-[00:00:17]: 	K: 	worldgen_id	 V: 	SURVIVAL_TOGETHER	
-[00:00:17]: 	K: 	worldgen_name	 V: 	Standard Forest	
+[00:00:17]: 	K: 	worldgen_desc	 V: 	Delve into the caves... together!	
+[00:00:17]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:17]: 	K: 	worldgen_name	 V: 	The Caves	
 [00:00:17]: Loaded and applied level data override from ../leveldataoverride.lua	
 [00:00:17]: Overwriting savedata with level data file.	
 [00:00:17]: Not applying world gen overrides.	
 [00:00:17]: Collecting garbage...
-[00:00:17]: lua_gc took 0.20 seconds
+[00:00:17]: lua_gc took 0.30 seconds
 [00:00:17]: ~ShardLuaProxy()
 [00:00:17]: ~cEventLeaderboardProxy()
 [00:00:17]: ~ItemServerLuaProxy()
@@ -1584,7 +1507,7 @@
 [00:00:26]: bloom_enabled	true	
 [00:00:26]: OnFilesLoaded()	
 [00:00:26]: OnUpdatePurchaseStateComplete	
-[00:00:26]: Loading world: session/6F781675563B4BC0/0000008820	
+[00:00:26]: Loading world: session/1B90822F55B0F4DE/0000009099	
 [00:00:26]: Save file is at version 5.142	
 [00:00:26]: Klump load on boot started.	
 [00:00:26]: Klump files loaded: 	0	
@@ -1594,151 +1517,151 @@
 [00:00:27]: Could not unload undefined prefab (ocean_splash_med2)
 [00:00:27]: Could not unload undefined prefab (ocean_splash_med1)
 [00:00:27]: Could not unload undefined prefab (ocean_splash_med2)
-[00:00:30]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
-[00:00:30]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
-[00:00:30]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
-[00:00:30]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering default mod prefab	
-[00:00:30]: Mod: workshop-1609069355 (Welcome Message)	Registering prefabs	
-[00:00:30]: Mod: workshop-1609069355 (Welcome Message)	  Registering default mod prefab	
-[00:00:30]: Mod: workshop-2410967470 (Rot Begone)	Registering prefabs	
-[00:00:30]: Mod: workshop-2410967470 (Rot Begone)	  Registering default mod prefab	
-[00:00:30]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
-[00:00:30]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	Registering prefabs	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_builder	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_builder	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_marker	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_marker	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guidemarker	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_placemarker	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_placemarker	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_guestmarker	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guestmarker	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_informer	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_informer	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_antlion_spawner	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_antlion_spawner	
-[00:00:30]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering default mod prefab	
-[00:00:30]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
-[00:00:30]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
-[00:00:30]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Registering prefabs	
-[00:00:30]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Registering default mod prefab	
-[00:00:30]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
-[00:00:30]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/secoin	
-[00:00:30]: Mod: workshop-2847806795 ( Economia Simples )	    secoin	
-[00:00:30]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/stealer	
-[00:00:30]: Mod: workshop-2847806795 ( Economia Simples )	    stealer	
-[00:00:30]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/goldstaff	
-[00:00:30]: Mod: workshop-2847806795 ( Economia Simples )	    goldstaff	
-[00:00:30]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/vipcard	
-[00:00:30]: Mod: workshop-2847806795 ( Economia Simples )	    vipcard	
-[00:00:30]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/luckamulet	
-[00:00:30]: Mod: workshop-2847806795 ( Economia Simples )	    luckamulet	
-[00:00:30]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/coin_bundle	
-[00:00:30]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
-[00:00:30]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	Registering prefabs	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_door_exit	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit1	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit2	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit3	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_wall	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wall	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_floor	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_floor	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wallpaper	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_zhu1	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_zhu2	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_zhu2_light	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_in	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals1	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals1_in	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_pvz	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_pvz_in	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_tardis	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_tardis_in	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_mushroom_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_sunflower_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_upholstered_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_harlequin_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_circles_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_punk_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_pvz_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_tardis_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_mushroom_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_checker_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_checkered_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_geome_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_herringbone_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_octagon_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_ruins_slab_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_woodmetal_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_woodpaneling_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_punk_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_pvz_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_tardis_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_lights	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_light_red	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_light_red1	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_light_red2	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_window_round	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_window_round_light	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_window_punk	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_window_punk_light	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_light_light	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_light_light	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house1	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_named_item	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_named_item	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_pvz	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_tardis	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_fake	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_interiors	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_phonograph	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph_placer	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_zombies	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies_builder	
-[00:00:30]: Mod: workshop-1951468597 (Sweet House)	  Registering default mod prefab	
+[00:00:29]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
+[00:00:29]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
+[00:00:29]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
+[00:00:29]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering default mod prefab	
+[00:00:29]: Mod: workshop-1609069355 (Welcome Message)	Registering prefabs	
+[00:00:29]: Mod: workshop-1609069355 (Welcome Message)	  Registering default mod prefab	
+[00:00:29]: Mod: workshop-2410967470 (Rot Begone)	Registering prefabs	
+[00:00:29]: Mod: workshop-2410967470 (Rot Begone)	  Registering default mod prefab	
+[00:00:29]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
+[00:00:29]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	Registering prefabs	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_builder	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_builder	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_marker	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_marker	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guidemarker	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_placemarker	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_placemarker	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_guestmarker	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_guestmarker	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_informer	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_informer	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering prefab file: prefabs/myhome_antlion_spawner	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	    myhome_antlion_spawner	
+[00:00:29]: Mod: workshop-2561335747 (MyHome Reworked)	  Registering default mod prefab	
+[00:00:29]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
+[00:00:29]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
+[00:00:29]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	Registering prefabs	
+[00:00:29]: Mod: workshop-1803285852 (Auto Stack and Pick Up)	  Registering default mod prefab	
+[00:00:29]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
+[00:00:29]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/secoin	
+[00:00:29]: Mod: workshop-2847806795 ( Economia Simples )	    secoin	
+[00:00:29]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/stealer	
+[00:00:29]: Mod: workshop-2847806795 ( Economia Simples )	    stealer	
+[00:00:29]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/goldstaff	
+[00:00:29]: Mod: workshop-2847806795 ( Economia Simples )	    goldstaff	
+[00:00:29]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/vipcard	
+[00:00:29]: Mod: workshop-2847806795 ( Economia Simples )	    vipcard	
+[00:00:29]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/luckamulet	
+[00:00:29]: Mod: workshop-2847806795 ( Economia Simples )	    luckamulet	
+[00:00:29]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/coin_bundle	
+[00:00:29]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
+[00:00:29]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	Registering prefabs	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_door_exit	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit1	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit2	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_door_exit3	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_wall	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wall	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_floor	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_floor	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wallpaper	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_zhu1	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_zhu2	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_zhu2_light	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_in	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals1	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals1_in	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_pvz	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_pvz_in	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_tardis	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wall_decals_tardis_in	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_mushroom_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_sunflower_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_upholstered_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_harlequin_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_circles_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_punk_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_pvz_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_wallskin_tardis_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_mushroom_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_checker_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_checkered_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_geome_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_herringbone_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_octagon_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_ruins_slab_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_woodmetal_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_woodpaneling_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_punk_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_pvz_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_floorskin_tardis_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_lights	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_light_red	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_light_red1	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_light_red2	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_window_round	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_window_round_light	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_window_punk	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_window_punk_light	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_light_light	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_light_light	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house1	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_named_item	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_named_item	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_pvz	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_tardis	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_fake	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_interiors	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_phonograph	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph_placer	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_zombies	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies_builder	
+[00:00:29]: Mod: workshop-1951468597 (Sweet House)	  Registering default mod prefab	
 [00:00:30]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
 [00:00:30]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
 [00:00:30]: Mod: workshop-926178831 (Force Biomes)	Registering prefabs	
@@ -1783,175 +1706,171 @@
 [00:00:30]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
 [00:00:30]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:30]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
-[00:00:31]: 	LOAD BE	
-[00:00:42]: Could not preload undefined prefab (winter_palmconetree)
+[00:00:30]: 	LOAD BE	
+[00:00:39]: Could not preload undefined prefab (winter_palmconetree)
 [00:00:43]: Could not preload undefined prefab (construction_repair_container)
-[00:00:44]: Could not preload undefined prefab (construction_repair_container)
-[00:00:46]: Could not preload undefined prefab (redpouch_yotr)
-[00:00:47]: 	LOAD BE: done	
-[00:00:47]: Begin Session: 6F781675563B4BC0
-[00:00:47]: saving to server_temp/server_save	
-[00:00:48]: OVERRIDE: setting	extrastartingitems	to	0	
-[00:00:48]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
-[00:00:48]: MiniMapComponent::AddAtlas( ../mods/workshop-1951468597/images/map_icons/hua_player_house.xml )
-[00:00:48]: MiniMapComponent::AddAtlas( ../mods/workshop-1951468597/images/map_icons/hua_player_house1.xml )
-[00:00:48]: MiniMapComponent::AddAtlas( ../mods/workshop-1951468597/images/map_icons/hua_player_house_pvz.xml )
-[00:00:48]: MiniMapComponent::AddAtlas( ../mods/workshop-1951468597/images/map_icons/hua_player_house_tardis.xml )
-[00:00:48]: MiniMapComponent::AddAtlas( ../mods/workshop-1840284484/images/inventoryimages/altar.xml )
-[00:00:48]: Loading 19 new character(s)	
-[00:00:49]: Total 19 character(s) loaded	
-[00:00:51]: Loading Nav Grid	
-[00:00:51]: World generated on build 502346 with save version: 5.1, using seed: 1649612472	
-[00:00:51]: setting 	summerlength	15	
-[00:00:51]: setting 	cavemoonphase	full	
-[00:00:51]: setting 	iscavefullmoon	false	
-[00:00:51]: setting 	isnightmaredawn	false	
-[00:00:51]: setting 	elapseddaysinseason	1	
-[00:00:51]: setting 	isfullmoon	false	
-[00:00:51]: setting 	moisture	6550.8286132812	
-[00:00:51]: setting 	cavephase	day	
-[00:00:51]: setting 	iscavewaxingmoon	false	
-[00:00:51]: setting 	isnightmarewild	false	
-[00:00:51]: setting 	nightmaretimeinphase	0	
-[00:00:51]: setting 	precipitationrate	0	
-[00:00:51]: setting 	iswet	false	
-[00:00:51]: setting 	isnewmoon	false	
-[00:00:51]: setting 	precipitation	none	
-[00:00:51]: setting 	israining	false	
-[00:00:51]: setting 	isnightmarewarn	false	
-[00:00:51]: setting 	isacidraining	false	
-[00:00:51]: setting 	iswinter	false	
-[00:00:51]: setting 	season	autumn	
-[00:00:51]: setting 	remainingdaysinseason	19	
-[00:00:51]: setting 	winterlength	15	
-[00:00:51]: setting 	iscaveday	true	
-[00:00:51]: setting 	moistureceil	11920.342773438	
-[00:00:51]: setting 	isday	true	
-[00:00:51]: setting 	springlength	20	
-[00:00:51]: setting 	wetness	0	
-[00:00:51]: setting 	iscavedusk	false	
-[00:00:51]: setting 	isalterawake	false	
-[00:00:51]: setting 	isnightmarecalm	false	
-[00:00:51]: setting 	isnight	false	
-[00:00:51]: setting 	isdusk	false	
-[00:00:51]: setting 	isspring	false	
-[00:00:51]: setting 	isautumn	true	
-[00:00:51]: setting 	issnowing	false	
-[00:00:51]: setting 	iswaxingmoon	false	
-[00:00:51]: setting 	phase	day	
-[00:00:51]: setting 	snowlevel	0	
-[00:00:51]: setting 	issnowcovered	false	
-[00:00:51]: setting 	autumnlength	20	
-[00:00:51]: setting 	pop	0.15657732269664	
-[00:00:51]: setting 	nightmaretime	0	
-[00:00:51]: setting 	seasonprogress	0.05	
-[00:00:51]: setting 	moonphase	full	
-[00:00:51]: setting 	nightmarephase	none	
-[00:00:51]: setting 	cycles	8261	
-[00:00:51]: setting 	timeinphase	0.38234111644604	
-[00:00:51]: setting 	iscavenight	false	
-[00:00:51]: setting 	iscavenewmoon	false	
-[00:00:51]: setting 	issummer	false	
-[00:00:51]: setting 	temperature	55.644435599944	
-[00:00:51]: setting 	time	0.2150668780009	
-[00:00:51]: OVERRIDE: setting	resettime	to	none	
-[00:00:51]: OVERRIDE: setting	basicresource_regrowth	to	always	
-[00:00:51]: OVERRIDE: setting	portalresurection	to	always	
-[00:00:51]: OVERRIDE: setting	ghostsanitydrain	to	none	
-[00:01:32]: Could not find anim [sway1_loop_short] in bank [tree_leaf_monster]
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:41]: Could not find anim build FROMNUM
-[00:01:51]: Reconstructing topology	
-[00:01:51]: 	...Sorting points	
-[00:01:51]: 	...Sorting edges	
-[00:01:51]: 	...Connecting nodes	
-[00:01:51]: 	...Validating connections	
-[00:01:52]: 	...Housekeeping	
-[00:01:52]: 	...Done!	
-[00:01:52]: You must first AddTimer before you can start a timer	bearger_timetospawn	
-[00:01:52]: You must first AddTimer before you can start a timer	bearger_timetospawn	
-[00:01:52]: 1 uploads added to server. From server_temp
-[00:01:52]: About to start a shard with these settings:
-[00:01:52]:   ShardName: [SHDMASTER]
-[00:01:52]:   ShardID: 1
-[00:01:52]:   ShardRole: MASTER
-[00:01:52]:   MasterHost: (null)
-[00:01:52]:   MasterBind: 127.0.0.1
-[00:01:52]:   MasterPort: 10889
-[00:01:52]: [Shard] Starting master server
-[00:01:52]: [Shard] Shard server started on port: 10889
-[00:01:52]: Telling Client our new session identifier: 6F781675563B4BC0
-[00:01:52]: Check for write access: TRUE
-[00:01:52]: Check for read access: TRUE
-[00:01:52]: Available disk space for save files: 9492 MB
-[00:01:52]: ModIndex: Load sequence finished successfully.	
-[00:01:58]: Reset() returning
-[00:02:01]: Validating portal[9] <-> 3159915411[9] (inactive)	
-[00:02:01]: Validating portal[2] <-> 3159915411[2] (inactive)	
-[00:02:01]: Validating portal[6] <-> 3159915411[6] (inactive)	
-[00:02:02]: Validating portal[1] <-> 3159915411[1] (inactive)	
-[00:02:02]: Validating portal[5] <-> 3159915411[5] (inactive)	
-[00:02:02]: Validating portal[3] <-> 3159915411[3] (inactive)	
-[00:02:02]: Retrofitting for Return Of Them: Turn of Tides - completed hermit house 1, 2, 3 friendship tasks.	
-[00:02:02]: Validating portal[4] <-> 3159915411[4] (inactive)	
-[00:02:02]: Validating portal[8] <-> 3159915411[8] (inactive)	
-[00:02:02]: Validating portal[7] <-> 3159915411[7] (inactive)	
-[00:02:02]: Validating portal[10] <-> 3159915411[10] (inactive)	
-[00:02:04]: Server registered via geo DNS in us-east-1
-[00:02:04]: Sim paused
-[00:02:04]: [Shard] Secondary shard Caves(3159915411) connected: [LAN] 127.0.0.1
-[00:02:05]: [Shard] Secondary Caves(3159915411) ready!
-[00:02:05]: World 3159915411 is now connected	
-[00:02:05]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
-[00:02:05]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
-[00:02:05]: [SyncWorldSettings] Sending master world option brightmarecreatures = default to secondary shards.	
-[00:02:05]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
-[00:02:05]: [SyncWorldSettings] Sending master world option shadowcreatures = default to secondary shards.	
-[00:02:05]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
-[00:02:05]: [SyncWorldSettings] Sending master world option krampus = default to secondary shards.	
-[00:02:05]: [SyncWorldSettings] Sending master world option dropeverythingondespawn = default to secondary shards.	
-[00:02:05]: Validating portal[9] <-> 3159915411[9] (active)	
-[00:02:05]: Validating portal[2] <-> 3159915411[2] (active)	
-[00:02:05]: Validating portal[6] <-> 3159915411[6] (active)	
-[00:02:05]: Validating portal[1] <-> 3159915411[1] (active)	
-[00:02:05]: Validating portal[5] <-> 3159915411[5] (active)	
-[00:02:05]: Validating portal[3] <-> 3159915411[3] (active)	
-[00:02:05]: Validating portal[4] <-> 3159915411[4] (active)	
-[00:02:05]: Validating portal[8] <-> 3159915411[8] (active)	
-[00:02:05]: Validating portal[7] <-> 3159915411[7] (active)	
-[00:02:05]: Validating portal[10] <-> 3159915411[10] (active)	
-[00:02:05]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
-[00:02:05]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
-[00:02:05]: [SyncWorldSettings] Resyncing master world option brightmarecreatures = default to secondary shards.	
-[00:02:05]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
-[00:02:05]: [SyncWorldSettings] Resyncing master world option shadowcreatures = default to secondary shards.	
-[00:02:05]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
-[00:02:05]: [SyncWorldSettings] Resyncing master world option krampus = default to secondary shards.	
-[00:02:05]: [SyncWorldSettings] Resyncing master world option dropeverythingondespawn = default to secondary shards.	
-[00:30:16]: [200] Account Communication Success (6)
-[00:30:16]: Received (KU_2DNgIUgO) from TokenPurpose
+[00:00:44]: Could not preload undefined prefab (redpouch_yotr)
+[00:00:45]: Could not preload undefined prefab (construction_repair_container)
+[00:00:46]: 	LOAD BE: done	
+[00:00:46]: Begin Session: 1B90822F55B0F4DE
+[00:00:46]: saving to server_temp/server_save	
+[00:00:46]: OVERRIDE: setting	extrastartingitems	to	0	
+[00:00:46]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:46]: MiniMapComponent::AddAtlas( ../mods/workshop-1951468597/images/map_icons/hua_player_house.xml )
+[00:00:46]: MiniMapComponent::AddAtlas( ../mods/workshop-1951468597/images/map_icons/hua_player_house1.xml )
+[00:00:46]: MiniMapComponent::AddAtlas( ../mods/workshop-1951468597/images/map_icons/hua_player_house_pvz.xml )
+[00:00:46]: MiniMapComponent::AddAtlas( ../mods/workshop-1951468597/images/map_icons/hua_player_house_tardis.xml )
+[00:00:46]: MiniMapComponent::AddAtlas( ../mods/workshop-1840284484/images/inventoryimages/altar.xml )
+[00:00:46]: Loading 19 new character(s)	
+[00:00:47]: Total 19 character(s) loaded	
+[00:01:12]: Loading Nav Grid	
+[00:01:12]: World generated on build 502346 with save version: 5.1, using seed: 1649612470	
+[00:01:12]: setting 	summerlength	15	
+[00:01:12]: setting 	cavemoonphase	full	
+[00:01:12]: setting 	iscavefullmoon	false	
+[00:01:12]: setting 	isnightmaredawn	false	
+[00:01:12]: setting 	elapseddaysinseason	1	
+[00:01:12]: setting 	isfullmoon	false	
+[00:01:12]: setting 	moisture	4913.0639648438	
+[00:01:12]: setting 	springlength	20	
+[00:01:12]: setting 	islunarhailing	false	
+[00:01:12]: setting 	isnightmarewild	false	
+[00:01:12]: setting 	nightmaretimeinphase	0.81419810295211	
+[00:01:12]: setting 	precipitationrate	0	
+[00:01:12]: setting 	iswet	false	
+[00:01:12]: setting 	isnewmoon	false	
+[00:01:12]: setting 	israining	false	
+[00:01:12]: setting 	iswinter	false	
+[00:01:12]: setting 	isnightmarewarn	false	
+[00:01:12]: setting 	precipitation	none	
+[00:01:12]: setting 	iscavewaxingmoon	false	
+[00:01:12]: setting 	isacidraining	false	
+[00:01:12]: setting 	moonphase	new	
+[00:01:12]: setting 	remainingdaysinseason	19	
+[00:01:12]: setting 	temperature	32.464901022621	
+[00:01:12]: setting 	wetness	0	
+[00:01:12]: setting 	cycles	8261	
+[00:01:12]: setting 	moistureceil	8994.7763671875	
+[00:01:12]: setting 	isday	false	
+[00:01:12]: setting 	winterlength	15	
+[00:01:12]: setting 	season	autumn	
+[00:01:12]: setting 	iswaxingmoon	true	
+[00:01:12]: setting 	isalterawake	false	
+[00:01:12]: setting 	isnightmarecalm	true	
+[00:01:12]: setting 	isnight	true	
+[00:01:12]: setting 	isdusk	false	
+[00:01:12]: setting 	isspring	false	
+[00:01:12]: setting 	isautumn	true	
+[00:01:12]: setting 	iscaveday	true	
+[00:01:12]: setting 	lunarhaillevel	0	
+[00:01:12]: setting 	pop	0.5303180008517	
+[00:01:12]: setting 	snowlevel	0	
+[00:01:12]: setting 	issnowcovered	false	
+[00:01:12]: setting 	autumnlength	20	
+[00:01:12]: setting 	phase	night	
+[00:01:12]: setting 	nightmaretime	293.11131706276	
+[00:01:12]: setting 	issnowing	false	
+[00:01:12]: setting 	iscavedusk	false	
+[00:01:12]: setting 	nightmarephase	calm	
+[00:01:12]: setting 	timeinphase	0.785195823952	
+[00:01:12]: setting 	seasonprogress	0.05	
+[00:01:12]: setting 	iscavenight	false	
+[00:01:12]: setting 	iscavenewmoon	false	
+[00:01:12]: setting 	issummer	false	
+[00:01:12]: setting 	cavephase	day	
+[00:01:12]: setting 	time	0.441672650973	
+[00:01:12]: [Shard] Secondary shard is waiting for LUA...
+[00:01:12]: OVERRIDE: setting	resettime	to	none	
+[00:01:12]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:01:12]: OVERRIDE: setting	portalresurection	to	always	
+[00:01:12]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:01:33]: SWITCHING 	true	
+[00:01:33]: ARCHIVE ON	
+[00:01:33]: Reconstructing topology	
+[00:01:33]: 	...Sorting points	
+[00:01:33]: 	...Sorting edges	
+[00:01:33]: 	...Connecting nodes	
+[00:01:33]: 	...Validating connections	
+[00:01:34]: 	...Housekeeping	
+[00:01:34]: 	...Done!	
+[00:01:34]: 1 uploads added to server. From server_temp
+[00:01:34]: About to start a shard with these settings:
+[00:01:34]:   ShardName: Caves
+[00:01:34]:   ShardID: 3159915411
+[00:01:34]:   ShardRole: SECONDARY
+[00:01:34]:   MasterHost: 127.0.0.1
+[00:01:34]:   MasterBind: (null)
+[00:01:34]:   MasterPort: 10889
+[00:01:34]: [Shard] Connecting to master...
+[00:01:34]: Telling Client our new session identifier: 1B90822F55B0F4DE
+[00:01:34]: Check for write access: TRUE
+[00:01:34]: Check for read access: TRUE
+[00:01:34]: Available disk space for save files: 3836 MB
+[00:01:34]: ModIndex: Load sequence finished successfully.	
+[00:01:37]: Reset() returning
+[00:01:37]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:01:38]: Validating portal[10] <-> 1[10] (inactive)	
+[00:01:38]: Validating portal[5] <-> 1[5] (inactive)	
+[00:01:38]: Validating portal[6] <-> 1[6] (inactive)	
+[00:01:38]: Validating portal[4] <-> 1[4] (inactive)	
+[00:01:38]: Validating portal[9] <-> 1[9] (inactive)	
+[00:01:38]: Validating portal[1] <-> 1[1] (inactive)	
+[00:01:38]: Validating portal[3] <-> 1[3] (inactive)	
+[00:01:38]: Validating portal[7] <-> 1[7] (inactive)	
+[00:01:38]: Validating portal[8] <-> 1[8] (inactive)	
+[00:01:38]: Validating portal[2] <-> 1[2] (inactive)	
+[00:01:42]: About to start a shard with these settings:
+[00:01:42]:   ShardName: Caves
+[00:01:42]:   ShardID: 3159915411
+[00:01:42]:   ShardRole: SECONDARY
+[00:01:42]:   MasterHost: 127.0.0.1
+[00:01:42]:   MasterBind: (null)
+[00:01:42]:   MasterPort: 10889
+[00:01:42]: [Shard] Connecting to master...
+[00:01:48]: [Shard] Sending secondary shard information to master...
+[00:01:59]: Received MasterInfoPacket row 382082d05b064578445bf1258779e7d4 region us-east-1
+[00:01:59]: Obtaining secondary shard IP from us-east-1 lobby
+[00:02:00]: [Shard] secondary shard is now ready!
+[00:02:00]: World 1 is now connected	
+[00:02:00]: [SyncWorldSettings] Sending ResyncWorldSettings.	
+[00:02:00]: Validating portal[10] <-> 1[10] (active)	
+[00:02:00]: Validating portal[5] <-> 1[5] (active)	
+[00:02:00]: Validating portal[6] <-> 1[6] (active)	
+[00:02:00]: Validating portal[4] <-> 1[4] (active)	
+[00:02:00]: Validating portal[9] <-> 1[9] (active)	
+[00:02:00]: Validating portal[1] <-> 1[1] (active)	
+[00:02:00]: Validating portal[3] <-> 1[3] (active)	
+[00:02:00]: Validating portal[7] <-> 1[7] (active)	
+[00:02:00]: Validating portal[8] <-> 1[8] (active)	
+[00:02:00]: Validating portal[2] <-> 1[2] (active)	
+[00:02:00]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:02:00]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:02:00]: [SyncWorldSettings] applying krampus = default from master shard.	
+[00:02:00]: [SyncWorldSettings] applying dropeverythingondespawn = default from master shard.	
+[00:02:00]: [SyncWorldSettings] applying shadowcreatures = default from master shard.	
+[00:02:00]: [SyncWorldSettings] applying brightmarecreatures = default from master shard.	
+[00:02:00]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:02:00]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:02:00]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:02:00]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:02:00]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:02:00]: [SyncWorldSettings] applying krampus = default from master shard.	
+[00:02:00]: [SyncWorldSettings] applying dropeverythingondespawn = default from master shard.	
+[00:02:00]: [SyncWorldSettings] applying shadowcreatures = default from master shard.	
+[00:02:00]: [SyncWorldSettings] applying brightmarecreatures = default from master shard.	
+[00:02:00]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:02:00]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:02:00]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:02:01]: Available disk space for save files: 3836 MB
+[00:02:02]: Missing reference:	110355 - beefaloherd	->	102382	102382 - beefalo	
+[00:02:02]: Serializing world: session/1B90822F55B0F4DE/0000009100
+[00:02:02]: Truncating to snapshot #9100...
+[00:02:02]:  - session/1B90822F55B0F4DE/0000009094
+[00:02:02]:    1 file(s) removed
+[00:02:02]: [Shard] secondary shard LUA is now ready!
+[00:02:02]: Sim paused
+[00:30:17]: [200] Account Communication Success (6)
+[00:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
 [01:00:16]: [200] Account Communication Success (6)
 [01:00:16]: Received (KU_2DNgIUgO) from TokenPurpose
 [01:30:17]: [200] Account Communication Success (6)
@@ -1960,24 +1879,8 @@
 [02:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
 [02:30:16]: [200] Account Communication Success (6)
 [02:30:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[03:00:17]: [200] Account Communication Success (6)
-[03:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[03:11:51]: [P2P] Session request for '76561199030027685'
-[03:11:52]: New incoming connection 124.171.239.38|55591 <5433065317902872993>
-[03:11:52]: Client connected from 124.171.239.38|55591 <5433065317902872993>
-[03:11:52]: ValidateGameSessionToken GUID<5433065317902872993>
-[03:11:52]: [P2P] Create session: 118.103.122.90|1 '76561199030027685'
-[03:11:52]: [P2P] Received from 118.103.122.90|1 '76561199030027685'
-[03:11:52]: [P2P] Sent to 118.103.122.90|1 '76561199030027685'
-[03:11:52]: Client authenticated: (KU_vCuBS9VQ) errornesss
-[03:11:54]: [Steam] SendUserConnectAndAuthenticate for '76561199030027685'
-[03:11:54]: [Steam] Authenticated client '76561199030027685'
-[03:11:55]: There is no active event to validate against.
-[03:11:55]: [Shard] Read save location file for (KU_vCuBS9VQ)
-[03:12:12]: [Steam] SendUserDisconnect for '76561199030027685'
-[03:12:12]: [Shard] (KU_vCuBS9VQ) disconnected from [SHDMASTER](1)
-[03:21:52]: [P2P] Session timed out for '76561199030027685'
-[03:21:52]: [P2P] Remove session: 118.103.122.90|1 '76561199030027685'
+[03:00:16]: [200] Account Communication Success (6)
+[03:00:16]: Received (KU_2DNgIUgO) from TokenPurpose
 [03:30:17]: [200] Account Communication Success (6)
 [03:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
 [04:00:17]: [200] Account Communication Success (6)
@@ -2060,53 +1963,101 @@
 [23:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
 [23:30:17]: [200] Account Communication Success (6)
 [23:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[23:46:30]: RemoteCommandInput: "c_announce("O servidor (não o mundo) será reiniciado em aproximadamente 10 minutos para manutenção agendada!")"
-[23:56:30]: RemoteCommandInput: "c_announce("Reiniciando para manutenção, voltamos em até 15 minutos. Aproveita para tomar uma água :)")"
-[23:56:30]: RemoteCommandInput: "c_save()"
-[23:56:30]: Sim unpaused
-[23:56:32]: Available disk space for save files: 9423 MB
-[23:56:33]: Missing reference:	116381 - beef_bell	->	116383	116383 - beefalo	
-[23:56:34]: Serializing world: session/6F781675563B4BC0/0000008821
-[23:56:34]: Truncating to snapshot #8821...
-[23:56:34]:  - session/6F781675563B4BC0/0000008815
-[23:56:34]:    1 file(s) removed
-[23:56:34]: Available disk space for save files: 9423 MB
-[23:56:35]: Missing reference:	116381 - beef_bell	->	116383	116383 - beefalo	
-[23:56:36]: Serializing world: session/6F781675563B4BC0/0000008822
-[23:56:36]: Truncating to snapshot #8822...
-[23:56:36]:  - session/6F781675563B4BC0/0000008816
-[23:56:36]:    1 file(s) removed
-[23:56:36]: Sim paused
-[23:56:40]: RemoteCommandInput: "c_shutdown()"
-[23:56:40]: c_shutdown	nil	
-[23:56:40]: Available disk space for save files: 9423 MB
-[23:56:41]: Missing reference:	116381 - beef_bell	->	116383	116383 - beefalo	
-[23:56:42]: Serializing world: session/6F781675563B4BC0/0000008823
-[23:56:42]: Truncating to snapshot #8823...
-[23:56:42]:  - session/6F781675563B4BC0/0000008817
-[23:56:42]:    1 file(s) removed
-[23:56:42]: Available disk space for save files: 9421 MB
-[23:56:43]: Missing reference:	116381 - beef_bell	->	116383	116383 - beefalo	
-[23:56:44]: Serializing world: session/6F781675563B4BC0/0000008824
-[23:56:44]: Truncating to snapshot #8824...
-[23:56:44]:  - session/6F781675563B4BC0/0000008818
-[23:56:44]:    1 file(s) removed
-[23:56:44]: Removing server from lobby
-[23:56:44]: [Shard] Stopping shard mode
-[23:56:44]: [Steam] SendUserDisconnect for ''
-[23:56:46]: Collecting garbage...
-[23:56:48]: lua_gc took 2.20 seconds
-[23:56:49]: ~ShardLuaProxy()
-[23:56:49]: ~cEventLeaderboardProxy()
-[23:56:49]: ~ItemServerLuaProxy()
-[23:56:49]: ~InventoryLuaProxy()
-[23:56:49]: ~NetworkLuaProxy()
-[23:56:49]: ~SimLuaProxy()
-[23:56:50]: lua_close took 2.26 seconds
-[23:56:51]: Could not unload undefined prefab (construction_repair_container)
-[23:56:51]: Could not unload undefined prefab (redpouch_yotr)
-[23:56:51]: Could not unload undefined prefab (construction_repair_container)
-[23:56:51]: Could not unload undefined prefab (winter_palmconetree)
-[23:56:51]: CurlRequestManager::ClientThread::Main() complete
-[23:56:51]: HttpClient2 discarded 0 callbacks.
-[23:56:51]: Shutting down
+[00:00:17]: [200] Account Communication Success (6)
+[00:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[00:30:17]: [200] Account Communication Success (6)
+[00:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[01:00:17]: [200] Account Communication Success (6)
+[01:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[01:30:17]: [200] Account Communication Success (6)
+[01:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[02:00:17]: [200] Account Communication Success (6)
+[02:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[02:30:17]: [200] Account Communication Success (6)
+[02:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[03:00:17]: [200] Account Communication Success (6)
+[03:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[03:30:17]: [200] Account Communication Success (6)
+[03:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[04:00:17]: [200] Account Communication Success (6)
+[04:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[04:30:17]: [200] Account Communication Success (6)
+[04:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[05:00:17]: [200] Account Communication Success (6)
+[05:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[05:30:17]: [200] Account Communication Success (6)
+[05:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[06:00:17]: [200] Account Communication Success (6)
+[06:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[06:30:17]: [200] Account Communication Success (6)
+[06:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[07:00:17]: [200] Account Communication Success (6)
+[07:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[07:30:17]: [200] Account Communication Success (6)
+[07:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[08:00:17]: [200] Account Communication Success (6)
+[08:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[08:30:17]: [200] Account Communication Success (6)
+[08:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[09:00:17]: [200] Account Communication Success (6)
+[09:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[09:30:17]: [200] Account Communication Success (6)
+[09:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[10:00:17]: [200] Account Communication Success (6)
+[10:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[10:30:17]: [200] Account Communication Success (6)
+[10:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[11:00:17]: [200] Account Communication Success (6)
+[11:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[11:30:17]: [200] Account Communication Success (6)
+[11:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[12:00:17]: [200] Account Communication Success (6)
+[12:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[12:30:17]: [200] Account Communication Success (6)
+[12:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[13:00:17]: [200] Account Communication Success (6)
+[13:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[13:30:17]: [200] Account Communication Success (6)
+[13:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[14:00:17]: [200] Account Communication Success (6)
+[14:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[14:30:17]: [200] Account Communication Success (6)
+[14:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[15:00:17]: [200] Account Communication Success (6)
+[15:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[15:30:17]: [200] Account Communication Success (6)
+[15:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[16:00:17]: [200] Account Communication Success (6)
+[16:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[16:30:17]: [200] Account Communication Success (6)
+[16:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[17:00:17]: [200] Account Communication Success (6)
+[17:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[17:30:17]: [200] Account Communication Success (6)
+[17:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[18:00:17]: [200] Account Communication Success (6)
+[18:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[18:30:17]: [200] Account Communication Success (6)
+[18:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[19:00:17]: [200] Account Communication Success (6)
+[19:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[19:30:17]: [200] Account Communication Success (6)
+[19:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[20:00:17]: [200] Account Communication Success (6)
+[20:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[20:30:17]: [200] Account Communication Success (6)
+[20:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[21:00:17]: [200] Account Communication Success (6)
+[21:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[21:30:17]: [200] Account Communication Success (6)
+[21:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[22:00:17]: [200] Account Communication Success (6)
+[22:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[22:30:17]: [200] Account Communication Success (6)
+[22:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[23:00:17]: [200] Account Communication Success (6)
+[23:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[23:30:17]: [200] Account Communication Success (6)
+[23:30:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[00:00:17]: [200] Account Communication Success (6)
+[00:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
