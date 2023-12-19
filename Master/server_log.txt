@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 586529
-[00:00:00]: Current time: Mon Dec 18 06:28:02 2023
+[00:00:00]: Current time: Tue Dec 19 06:13:36 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,13 +12,13 @@
 [00:00:00]: Build Date: 2189
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 46096 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 46171 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473612202000)
+[00:00:00]: THREAD - started 'GAClient' (281473740488720)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:4.71
+[00:00:00]: ProfileIndex:4.29
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -33,9 +33,9 @@
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
-[00:00:01]: THREAD - started 'StreamInput' (281472887373840)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
+[00:00:01]: THREAD - started 'StreamInput' (281473012101136)
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: cGame::InitializeOnMainThread
@@ -49,19 +49,19 @@
 [00:00:01]: LOADING LUA
 [00:00:01]: DoLuaFile scripts/main.lua
 [00:00:01]: DoLuaFile loading buffer scripts/main.lua
-[00:00:02]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
-[00:00:08]:   taskgrouplist:	default	Juntos	
-[00:00:08]:   taskgrouplist:	classic	Clássico	
-[00:00:08]:   taskgrouplist:	cave_default	Subterrâneo	
-[00:00:08]:   taskgrouplist:	lavaarena_taskset	A Forja	
-[00:00:08]:   taskgrouplist:	quagmire_taskset	A Garganta	
-[00:00:08]: Running main.lua
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
+[00:00:07]:   taskgrouplist:	default	Juntos	
+[00:00:07]:   taskgrouplist:	classic	Clássico	
+[00:00:07]:   taskgrouplist:	cave_default	Subterrâneo	
+[00:00:07]:   taskgrouplist:	lavaarena_taskset	A Forja	
+[00:00:07]:   taskgrouplist:	quagmire_taskset	A Garganta	
+[00:00:07]: Running main.lua
 	
-[00:00:08]: loaded modindex	
-[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
+[00:00:07]: loaded modindex	
+[00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:08]: SUCCESS: Loaded modoverrides.lua	
-[00:00:08]: modoverrides.lua enabling workshop-1852257480	
+[00:00:07]: SUCCESS: Loaded modoverrides.lua	
+[00:00:07]: modoverrides.lua enabling workshop-1852257480	
 [00:00:08]: modoverrides.lua enabling workshop-1609069355	
 [00:00:08]: modoverrides.lua enabling workshop-2410967470	
 [00:00:08]: modoverrides.lua enabling workshop-2847806795	
@@ -562,17 +562,17 @@
 [00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
 [00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
-[00:00:09]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
-[00:00:09]: modimport: ../mods/workshop-1852257480/scripts/patches/beefaloinformation.lua	
-[00:00:09]: Mod: workshop-926178831 (Force Biomes)	Loading modworldgenmain.lua	
-[00:00:09]: Mod: workshop-926178831 (Force Biomes)	Loading modmain.lua	
-[00:00:09]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modworldgenmain.lua	
-[00:00:09]: Mod: workshop-1840284484 (Achievements and Level System)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:09]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modmain.lua	
-[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
-[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
-[00:00:10]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:08]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:08]: modimport: ../mods/workshop-1852257480/scripts/patches/beefaloinformation.lua	
+[00:00:08]: Mod: workshop-926178831 (Force Biomes)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-926178831 (Force Biomes)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1840284484 (Achievements and Level System)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1840284484 (Achievements and Level System)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:09]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
 [00:00:12]: LOADING LUA SUCCESS
 [00:00:12]: Registering Server mod namespace "rotbegone"
 [00:00:12]: Registering Server mod namespace "huahouse_name"
@@ -693,49 +693,49 @@
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_light_light	
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_light_light	
 [00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house1	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_named_item	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_named_item	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_pvz	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_tardis	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_fake	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_interiors	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_phonograph	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph_placer	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_zombies	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies_builder	
-[00:00:15]: Mod: workshop-1951468597 (Sweet House)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house1_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_named_item	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_named_item	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_pvz	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_pvz_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_player_house_tardis	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_fake	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_player_house_tardis_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_house_interiors	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_1_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_2_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_3_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_4_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_5_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_6_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_7_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_8_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_9_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_10_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_11_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_house_interiors_12_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_phonograph	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_phonograph_placer	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering prefab file: prefabs/hua_zombies	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	    hua_zombies_builder	
+[00:00:14]: Mod: workshop-1951468597 (Sweet House)	  Registering default mod prefab	
 [00:00:15]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
 [00:00:15]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
 [00:00:15]: Mod: workshop-926178831 (Force Biomes)	Registering prefabs	
@@ -752,25 +752,3 @@
 [00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/antlion	
 [00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    antlion	
 [00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/shadowwaxwell	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadow_despawn	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdancer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowworker	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowprotector	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowduelist_builder	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowlumber_builder	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowminer_builder	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    shadowdigger_builder	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportableblender	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportableblender	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablecookpot	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablecookpot	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering prefab file: prefabs/perkportablespicer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer_placer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	    perkportablespicer	
-[00:00:15]: Mod: workshop-1840284484 (Achievements and Level System)	  Registering default mod prefab	
