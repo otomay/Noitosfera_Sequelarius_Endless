@@ -1,26 +1,26 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Caves/ 
 [00:00:00]: Starting Up
-[00:00:00]: Version: 587429
-[00:00:00]: Current time: Thu Dec 21 06:14:26 2023
+[00:00:00]: Version: 587581
+[00:00:00]: Current time: Fri Dec 22 00:14:23 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
 [00:00:00]: Release(Kernel) Version: 5.13.0-1025-oracle
 [00:00:00]: Kernel Build Timestamp: #30~20.04.1-Ubuntu SMP Fri Apr 1 06:09:46 UTC 2022
 [00:00:00]: Machine Arch: x86_64
-[00:00:00]: Don't Starve Together: 587429 LINUX
-[00:00:00]: Build Date: 2205
+[00:00:00]: Don't Starve Together: 587581 LINUX
+[00:00:00]: Build Date: 2209
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 49004 -shard Caves 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 47652 -shard Caves 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: ProfileIndex:3.83
+[00:00:00]: THREAD - started 'GAClient' (281473727287312)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:5.17
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
-[00:00:00]: THREAD - started 'GAClient' (281473444970512)
-[00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
 [00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
 [00:00:00]: Mounting file system databundles/bigportraits.zip successful.
@@ -36,9 +36,9 @@
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:01]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:01]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
-[00:00:01]: THREAD - started 'StreamInput' (281472920195088)
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:01]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:01]: THREAD - started 'StreamInput' (281473074962448)
 [00:00:01]: cGame::InitializeOnMainThread
 [00:00:01]: Renderer initialize: Okay
 [00:00:01]: AnimManager initialize: Okay
@@ -574,3 +574,6 @@
 [00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
 [00:00:09]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:09]: Failed to load skilltree file itself!	
+[00:00:09]: Trying to apply online cache of skilltree data..	
+[00:00:09]: Which also failed. This error is unrecoverable. Skill tree will be cleared.	
