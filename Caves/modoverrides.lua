@@ -112,7 +112,7 @@ enabled=true },
   },
   ["workshop-1852257480"]={ -- Beefalo Widget
     configuration_options={ horizontal=-1080, info=true, vertical=-70 },
-    enabled=true
+    enabled=false
   },
   ["workshop-1951468597"]={ -- Sweet house
     configuration_options={
