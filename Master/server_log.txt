@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 587581
-[00:00:00]: Current time: Sun Dec 31 02:15:58 2023
+[00:00:00]: Current time: Sun Dec 31 02:31:13 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: instance-20220401-1206
@@ -12,13 +12,13 @@
 [00:00:00]: Build Date: 2209
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 45029 -shard Master 
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 45880 -shard Master 
 [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (281473514049552)
+[00:00:00]: THREAD - started 'GAClient' (281473189810192)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:4.40
+[00:00:00]: ProfileIndex:5.03
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -32,19 +32,19 @@
 [00:00:00]: Platform: 1
 [00:00:00]: Network tick rate: U=15(2), D=0
 [00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'StreamInput' (281472657596432)
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
 [00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Failure)
 [00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
 [00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
 [00:00:00]: cGame::InitializeOnMainThread
-[00:00:00]: THREAD - started 'StreamInput' (281472987836432)
-[00:00:01]: Renderer initialize: Okay
-[00:00:01]: AnimManager initialize: Okay
-[00:00:01]: Buffers initialize: Okay
-[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
-[00:00:01]: GameSpecific initialize: Okay
-[00:00:01]: cGame::StartPlaying
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
 [00:00:01]: AppVersion::GetArchitecture() x64
 [00:00:01]: LOADING LUA
 [00:00:01]: DoLuaFile scripts/main.lua
@@ -61,7 +61,6 @@
 [00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
 	
 [00:00:07]: SUCCESS: Loaded modoverrides.lua	
-[00:00:07]: modoverrides.lua enabling workshop-1609069355	
 [00:00:07]: modoverrides.lua enabling workshop-2410967470	
 [00:00:07]: modoverrides.lua enabling workshop-2847806795	
 [00:00:07]: modoverrides.lua enabling workshop-1951468597	
@@ -73,7 +72,6 @@
 [00:00:07]: modoverrides.lua enabling workshop-1803285852	
 [00:00:07]: modoverrides.lua enabling workshop-2167036904	
 [00:00:07]: modoverrides.lua enabling workshop-2854057841	
-[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1609069355	
 [00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-926178831	
 [00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2410967470	
 [00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1951468597	
@@ -85,8 +83,6 @@
 [00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
 [00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1803285852	
 [00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2167036904	
-[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-1609069355_CLIENT	
-[00:00:07]: Loading mod: workshop-1609069355 (Welcome Message) Version:1.0	
 [00:00:07]: Could not load mod_config_data/modconfiguration_workshop-926178831_CLIENT	
 [00:00:07]: Loading mod: workshop-926178831 (Force Biomes) Version:2.1	
 [00:00:07]: Could not load mod_config_data/modconfiguration_workshop-2410967470_CLIENT	
@@ -470,15 +466,6 @@
 [00:00:07]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modworldgenmain.lua	
 [00:00:07]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:07]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modmain.lua	
-[00:00:07]: Mod: workshop-1609069355 (Welcome Message)	Loading modworldgenmain.lua	
-[00:00:07]: Mod: workshop-1609069355 (Welcome Message)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:07]: Mod: workshop-1609069355 (Welcome Message)	Loading modmain.lua	
-[00:00:07]: [WELCOME_MESSAGE]	Received welcome message from server:	 - Sistema de RPG: Ganhe pontos de atributo ao subir de nível e pontos de conquista ao realizar as conquistas listadas.
--- Você pode trocar estes pontos por melhorias permanentes do seu personagem, basta navegar entre os botões (estrelinha e balança) para conferir.
-- Sistema de economia: Ganhe ouro matando monstros ou usando os itens dedicados do mod.
--- Você pode usar ouro pra comprar diversos itens, basta clicar no botão da loja (ou apertar O) para conferir o que está a venda.
-- Você pode também pode mandar dúvidas, críticas, sugestões, reports e etc no discord. Tem o botãozinho ai na tela :D
-	
 [00:00:07]: Mod: workshop-2410967470 (Rot Begone)	Loading modworldgenmain.lua	
 [00:00:07]: Mod: workshop-2410967470 (Rot Begone)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:07]: Mod: workshop-2410967470 (Rot Begone)	Loading modmain.lua	
@@ -588,8 +575,6 @@
 [00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
 [00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
 [00:00:14]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-1609069355 (Welcome Message)	Registering prefabs	
-[00:00:14]: Mod: workshop-1609069355 (Welcome Message)	  Registering default mod prefab	
 [00:00:14]: Mod: workshop-2410967470 (Rot Begone)	Registering prefabs	
 [00:00:14]: Mod: workshop-2410967470 (Rot Begone)	  Registering default mod prefab	
 [00:00:14]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	

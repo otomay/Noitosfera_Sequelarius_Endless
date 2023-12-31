@@ -36,7 +36,7 @@ return {
  WindowTheme="redux", --"original", "redux"
 
 },
-enabled=true },
+enabled=false },
   ["workshop-1840284484"]={ -- Achievments
     configuration_options={
       [""]=0,
