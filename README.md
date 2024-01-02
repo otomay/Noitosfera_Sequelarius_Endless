@@ -1,5 +1,5 @@
 # [Noitosfera] Sequelarius - Season #1
-- De `meados do primeiro semestre 2022` à `01/01/2024`
+- De `10/04/2022` à `01/01/2024`
 - ~Seed `xxxxxxxxxxxxx`~ (preguiça de pegar isso, hein? alguém n quer fazer pra mim n?)
 - `8262` dias de jogo
 - `45,9` dias reais passados em jogo
