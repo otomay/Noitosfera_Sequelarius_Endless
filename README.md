@@ -1,4 +1,14 @@
-Ranking de melhores jogadores (total de `94930` pontos)
+# [Noitosfera] Sequelarius - Pré-Season #2
+- De 03/01/2024 à Hoje
+- `1378` dias de jogo
+- `7` dias reais passados em jogo
+- `65` jogadores únicos
+- `843558` moedas dropadas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
+- `681795` moedas gastas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
+- `12318` monstros normais derrotados
+- `396` chefes derrotados
+- `0` crashes do servidor
+\n# Ranking de melhores jogadores (total de `94930` pontos)
 1. 🎗️ **Vapo** *[`echo 81006` pontos]*
 2. 🎗️ **PtckLB** *[`echo 5702` pontos]*
 3. 🎗️ **GMC6** *[`echo 1804` pontos]*
@@ -18,14 +28,3 @@ Ranking de melhores jogadores (total de `94930` pontos)
 > ~Concedido ao jogador que mais trocou de personagem na temporada~
 - 😴 O Vagabundo: Vapo (7608 minutos / `126.80` horas / `2.11` dias)
 > Concedido ao jogador que passou mais tempo online (no servidor) na temporada
-
-# Informações adicionais
-> - De 03/01/2024 à Hoje
-> - `1378` dias de jogo
-> - `7` dias reais passados em jogo
-> - `65` jogadores únicos
-> - ~`843558` moedas dropadas [(Economia Simples)](https://github.com/otomay/Economia-Simples)~
-> - ~`681795` moedas gastas [(Economia Simples)](https://github.com/otomay/Economia-Simples)~
-> - `12318` monstros normais derrotados
-> - `396` chefes derrotados
-> - `0` crashes do servidor
