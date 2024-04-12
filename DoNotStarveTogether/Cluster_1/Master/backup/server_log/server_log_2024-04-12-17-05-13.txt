@@ -1,10 +1,10 @@
 [00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 601983
-[00:00:00]: Current time: Fri Apr 12 17:06:07 2024
+[00:00:00]: Current time: Fri Apr 12 16:27:47 2024
 
 [00:00:00]: System Name: Linux
-[00:00:00]: Host Name: 00d4c2d6e2db
+[00:00:00]: Host Name: f1760120d728
 [00:00:00]: Release(Kernel) Version: 6.5.0-1019-oracle
 [00:00:00]: Kernel Build Timestamp: #19~22.04.1-Ubuntu SMP Tue Mar 12 23:02:13 UTC 2024
 [00:00:00]: Machine Arch: x86_64
@@ -15,9 +15,9 @@
 [00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Master 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (274199440142176)
+[00:00:00]: THREAD - started 'GAClient' (259601566981984)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:3.95
+[00:00:00]: ProfileIndex:3.86
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -26,18 +26,18 @@
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
-[00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: Platform: 1
-[00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (274199377997664)
-[00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
-[00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
-[00:00:01]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
-[00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
-[00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
-[00:00:01]: cGame::InitializeOnMainThread
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'StreamInput' (259601170095968)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
 [00:00:01]: Renderer initialize: Okay
 [00:00:01]: AnimManager initialize: Okay
 [00:00:01]: Buffers initialize: Okay
@@ -49,17 +49,17 @@
 [00:00:01]: DoLuaFile scripts/main.lua
 [00:00:01]: DoLuaFile loading buffer scripts/main.lua
 [00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
-[00:00:07]:   taskgrouplist:	default	Juntos	
-[00:00:07]:   taskgrouplist:	classic	Clássico	
-[00:00:07]:   taskgrouplist:	cave_default	Subterrâneo	
-[00:00:07]:   taskgrouplist:	lavaarena_taskset	A Forja	
-[00:00:07]:   taskgrouplist:	quagmire_taskset	A Garganta	
-[00:00:07]: Running main.lua
+[00:00:06]:   taskgrouplist:	default	Juntos	
+[00:00:06]:   taskgrouplist:	classic	Clássico	
+[00:00:06]:   taskgrouplist:	cave_default	Subterrâneo	
+[00:00:06]:   taskgrouplist:	lavaarena_taskset	A Forja	
+[00:00:06]:   taskgrouplist:	quagmire_taskset	A Garganta	
+[00:00:06]: Running main.lua
 	
-[00:00:07]: loaded modindex	
-[00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
+[00:00:06]: loaded modindex	
+[00:00:06]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:07]: SUCCESS: Loaded modoverrides.lua	
+[00:00:06]: SUCCESS: Loaded modoverrides.lua	
 [00:00:07]: modoverrides.lua enabling workshop-1416161108	
 [00:00:07]: modoverrides.lua enabling workshop-1207269058	
 [00:00:07]: modoverrides.lua enabling workshop-2167036904	
@@ -613,42 +613,42 @@
 [00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
 [00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-2665263549 (Colosseum)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2665263549 (Colosseum)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2665263549 (Colosseum)	Loading modmain.lua	
-[00:00:08]: modimport: ../mods/workshop-2665263549/main/colosseum_levels.lua	
-[00:00:08]: modimport: ../mods/workshop-2665263549/main/colosseum_levels_hard.lua	
-[00:00:08]: modimport: ../mods/workshop-2665263549/main/colosseum_levels_endless.lua	
-[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	maxwell_torch	
-[00:00:08]: modimport: ../mods/workshop-2665263549/main/startgame.lua	
-[00:00:08]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2847806795 ( Economia Simples )	Loading modmain.lua	
-[00:00:08]: modimport: ../mods/workshop-2847806795/scripts/SEscripts/itemlist.lua	
-[00:00:08]: Mod: workshop-2324689937 (More equip slots)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2324689937 (More equip slots)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2324689937 (More equip slots)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-1416161108 (Camp Security)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-1416161108 (Camp Security)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-1416161108 (Camp Security)	Loading modmain.lua	
-[00:00:08]: modimport: ../mods/workshop-1416161108/data/strings.lua	
-[00:00:08]: modimport: ../mods/workshop-1416161108/lib_fn.lua	
-[00:00:08]: modimport: ../mods/workshop-1416161108/data/PlayerCache.lua	
-[00:00:08]: modimport: ../mods/workshop-1416161108/scripts/patches/controlpanel.lua	
-[00:00:08]: modimport: ../mods/workshop-1416161108/scripts/patches/friendlist.lua	
-[00:00:08]: modimport: ../mods/workshop-1416161108/scripts/patches/lockedcontainers.lua	
-[00:00:08]: modimport: ../mods/workshop-1416161108/scripts/patches/drop_everything.lua	
-[00:00:08]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modmain.lua	
-[00:00:08]: modimport: ../mods/workshop-2503437364/init/init_assets.lua	
-[00:00:08]: modimport: ../mods/workshop-2503437364/init/init_tuning.lua	
-[00:00:08]: modimport: ../mods/workshop-2503437364/init/init_debug.lua	
-[00:00:08]: modimport: ../mods/workshop-2503437364/init/init_strings.lua	
-[00:00:08]: modimport: ../mods/workshop-2503437364/init/init_recipes.lua	
+[00:00:07]: Mod: workshop-2665263549 (Colosseum)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2665263549 (Colosseum)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2665263549 (Colosseum)	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-2665263549/main/colosseum_levels.lua	
+[00:00:07]: modimport: ../mods/workshop-2665263549/main/colosseum_levels_hard.lua	
+[00:00:07]: modimport: ../mods/workshop-2665263549/main/colosseum_levels_endless.lua	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	maxwell_torch	
+[00:00:07]: modimport: ../mods/workshop-2665263549/main/startgame.lua	
+[00:00:07]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-2847806795 ( Economia Simples )	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2847806795 ( Economia Simples )	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2847806795 ( Economia Simples )	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-2847806795/scripts/SEscripts/itemlist.lua	
+[00:00:07]: Mod: workshop-2324689937 (More equip slots)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2324689937 (More equip slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2324689937 (More equip slots)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-1416161108 (Camp Security)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1416161108 (Camp Security)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1416161108 (Camp Security)	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-1416161108/data/strings.lua	
+[00:00:07]: modimport: ../mods/workshop-1416161108/lib_fn.lua	
+[00:00:07]: modimport: ../mods/workshop-1416161108/data/PlayerCache.lua	
+[00:00:07]: modimport: ../mods/workshop-1416161108/scripts/patches/controlpanel.lua	
+[00:00:07]: modimport: ../mods/workshop-1416161108/scripts/patches/friendlist.lua	
+[00:00:07]: modimport: ../mods/workshop-1416161108/scripts/patches/lockedcontainers.lua	
+[00:00:07]: modimport: ../mods/workshop-1416161108/scripts/patches/drop_everything.lua	
+[00:00:07]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-2503437364/init/init_assets.lua	
+[00:00:07]: modimport: ../mods/workshop-2503437364/init/init_tuning.lua	
+[00:00:07]: modimport: ../mods/workshop-2503437364/init/init_debug.lua	
+[00:00:07]: modimport: ../mods/workshop-2503437364/init/init_strings.lua	
+[00:00:07]: modimport: ../mods/workshop-2503437364/init/init_recipes.lua	
 [00:00:08]: modimport: ../mods/workshop-2503437364/init/init_containers.lua	
 [00:00:08]: modimport: ../mods/workshop-2503437364/init/init_actions.lua	
 [00:00:08]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
@@ -931,64 +931,64 @@
 [00:00:13]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/treasurechasechest	
 [00:00:13]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    treasurechasechest	
 [00:00:13]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering default mod prefab	
-[00:00:14]: Could not preload undefined prefab (beequeenhat)
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	Registering prefabs	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_door_exit	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit1	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit2	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit3	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_placer	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_wall	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_floor	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floor	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallpaper	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu1	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2_light	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_in	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1_in	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz_in	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis_in	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_mushroom_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_sunflower_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_upholstered_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_harlequin_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_circles_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_punk_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_pvz_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_tardis_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_mushroom_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checker_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checkered_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_geome_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_herringbone_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_octagon_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_ruins_slab_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodmetal_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodpaneling_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_punk_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_pvz_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_tardis_builder	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_lights	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red1	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red2	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round_light	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk_light	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_light_light	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_light	
-[00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house1	
+[00:00:13]: Could not preload undefined prefab (beequeenhat)
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	Registering prefabs	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_door_exit	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit1	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit2	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit3	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_placer	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_wall	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_floor	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floor	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallpaper	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu1	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2_light	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_in	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1_in	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz_in	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis_in	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_mushroom_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_sunflower_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_upholstered_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_harlequin_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_circles_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_punk_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_pvz_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_tardis_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_mushroom_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checker_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checkered_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_geome_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_herringbone_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_octagon_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_ruins_slab_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodmetal_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodpaneling_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_punk_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_pvz_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_tardis_builder	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_lights	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red1	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red2	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round_light	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk_light	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_light_light	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_light	
+[00:00:13]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house1	
 [00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1	
 [00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1_placer	
 [00:00:14]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_named_item	
@@ -1697,7 +1697,7 @@
 [00:00:14]: Could not preload undefined prefab (chasni_crab_shadowlunarorgan)
 [00:00:14]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:14]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:15]: AnimationFile::LoadFile Failed to open anim/sparks_green.zip
+[00:00:14]: AnimationFile::LoadFile Failed to open anim/sparks_green.zip
 [00:00:15]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:15]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:15]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
@@ -1723,7 +1723,7 @@
 [00:00:15]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:15]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:15]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:15]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
 [00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:16]: AnimationFile::LoadFile Failed to open anim/batbat_batfx.zip
@@ -1775,89 +1775,30 @@
 [00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
 [00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:17]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:17]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:17]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:17]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:17]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:17]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:17]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:17]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:17]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:17]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
-[00:00:17]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
-[00:00:17]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
-[00:00:17]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
-[00:00:17]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
-[00:00:17]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:16]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:16]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:16]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:16]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:16]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:16]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:17]: 	Load FE	
-[00:00:17]: THREAD - started 'FilesExistAsyncThread' (274198698127200)
-[00:00:17]: 	Load FE: done	
+[00:00:17]: THREAD - started 'FilesExistAsyncThread' (259600827338592)
 [00:00:17]: FilesExistAsyncThread started (24711 files)...
+[00:00:17]: 	Load FE: done	
 [00:00:17]: Check for write access: TRUE
 [00:00:17]: Check for read access: TRUE
-[00:00:17]: Available disk space for save files: 81611 MB
+[00:00:17]: Available disk space for save files: 86089 MB
 [00:00:17]: ModIndex: Load sequence finished successfully.	
 [00:00:17]: Reset() returning
-[00:00:18]: [200] Account Communication Success (6)
-[00:00:18]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
-[00:00:18]: Received (KU_2DNgIUgO) from TokenPurpose
-[00:00:18]: Starting Dedicated Server Game	
-[00:00:18]: Network tick rate: U=15(2), D=0
-[00:00:18]: About to start a server with the following settings:
-[00:00:18]:   Dedicated: true
-[00:00:18]:   Online: true
-[00:00:18]:   Passworded: false
-[00:00:18]:   ServerPort: 10999
-[00:00:18]:   SteamAuthPort: 8766
-[00:00:18]:   SteamMasterServerPort: 12346
-[00:00:18]:   ClanID: false
-[00:00:18]:   ClanOnly: false
-[00:00:18]:   ClanAdmin: false
-[00:00:18]:   LanOnly: false
-[00:00:18]:   FriendsOnly: false
-[00:00:18]:   EnableAutosaver: true
-[00:00:18]:   EncodeUserPath: true
-[00:00:18]:   PVP: false
-[00:00:18]:   MaxPlayers: 12
-[00:00:18]:   GameMode: endless
-[00:00:18]:   OverridenDNS: 
-[00:00:18]:   PauseWhenEmpty: true
-[00:00:18]:   IdleTimeout: 1800s
-[00:00:18]:   VoteEnabled: true
-[00:00:18]:   InternetBroadcasting: true
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1416161108	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2167036904	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2665263549	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2876537244	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-3055010657	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2597204554	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2937640068	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2324689937	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2854057841	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2847806795	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1185229307	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2503437364	
-[00:00:18]: Online Server Started on port: 10999
-[00:00:18]: SUCCESS: Loaded modoverrides.lua	
-[00:00:18]: Not applying level data overrides.	
-[00:00:18]: Found a worldgen override file with these contents:	
-[00:00:18]: 	K: 	override_enabled	 V: 	true	
-[00:00:18]: 	K: 	overrides	 V: 	table: 0x6802d3d0	
-[00:00:18]: 		K: 	basicresource_regrowth	 V: 	always	
-[00:00:18]: 		K: 	ghostsanitydrain	 V: 	none	
-[00:00:18]: 		K: 	portalresurection	 V: 	always	
-[00:00:18]: 		K: 	resettime	 V: 	none	
-[00:00:18]: 	K: 	settings_preset	 V: 	SURVIVAL_TOGETHER	
-[00:00:18]: 	K: 	worldgen_preset	 V: 	SURVIVAL_TOGETHER	
-[00:00:18]:   sanity-checking worldgenoverride.lua...	
-[00:00:18]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
-[00:00:18]:   contained worldgen preset SURVIVAL_TOGETHER, loading...	
-[00:00:18]:   contained settings preset SURVIVAL_TOGETHER, loading...	
-[00:00:18]: Overwriting savedata with override file.	
 [00:00:18]: Error: Could not find file: anim/chop_mangrove_pink.zip
 [00:00:18]: Error: Could not find file: anim/chop_mangrove_pink.zip
 [00:00:18]: Error: Could not find file: anim/hacking_tall_grass_fx.zip
@@ -1924,8 +1865,171 @@
 [00:00:18]: Error: Could not find file: anim/chasni_slingshotammo.zip
 [00:00:18]: Error: Could not find file: anim/chasni_slingshotammo.zip
 [00:00:18]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:18]: [200] Account Communication Success (6)
+[00:00:18]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
+[00:00:18]: Received (KU_2DNgIUgO) from TokenPurpose
+[00:00:18]: Starting Dedicated Server Game	
+[00:00:18]: Network tick rate: U=15(2), D=0
+[00:00:18]: About to start a server with the following settings:
+[00:00:18]:   Dedicated: true
+[00:00:18]:   Online: true
+[00:00:18]:   Passworded: false
+[00:00:18]:   ServerPort: 10999
+[00:00:18]:   SteamAuthPort: 8766
+[00:00:18]:   SteamMasterServerPort: 12346
+[00:00:18]:   ClanID: false
+[00:00:18]:   ClanOnly: false
+[00:00:18]:   ClanAdmin: false
+[00:00:18]:   LanOnly: false
+[00:00:18]:   FriendsOnly: false
+[00:00:18]:   EnableAutosaver: true
+[00:00:18]:   EncodeUserPath: true
+[00:00:18]:   PVP: false
+[00:00:18]:   MaxPlayers: 12
+[00:00:18]:   GameMode: endless
+[00:00:18]:   OverridenDNS: 
+[00:00:18]:   PauseWhenEmpty: true
+[00:00:18]:   IdleTimeout: 1800s
+[00:00:18]:   VoteEnabled: true
+[00:00:18]:   InternetBroadcasting: true
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1416161108	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2167036904	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2665263549	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2876537244	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-3055010657	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2597204554	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2324689937	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2854057841	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2847806795	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1185229307	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2937640068	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2503437364	
+[00:00:18]: Online Server Started on port: 10999
+[00:00:18]: SUCCESS: Loaded modoverrides.lua	
+[00:00:18]: Not applying level data overrides.	
+[00:00:18]: Found a worldgen override file with these contents:	
+[00:00:18]: 	K: 	override_enabled	 V: 	true	
+[00:00:18]: 	K: 	overrides	 V: 	table: 0x45567a30	
+[00:00:18]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:18]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:18]: 		K: 	portalresurection	 V: 	always	
+[00:00:18]: 		K: 	resettime	 V: 	none	
+[00:00:18]: 	K: 	settings_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:18]: 	K: 	worldgen_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:18]:   sanity-checking worldgenoverride.lua...	
+[00:00:18]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:18]:   contained worldgen preset SURVIVAL_TOGETHER, loading...	
+[00:00:18]:   contained settings preset SURVIVAL_TOGETHER, loading...	
+[00:00:18]: Overwriting savedata with override file.	
 [00:00:18]: Collecting garbage...
-[00:00:18]: lua_gc took 0.26 seconds
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:18]: lua_gc took 0.28 seconds
 [00:00:18]: ~ShardLuaProxy()
 [00:00:18]: ~cEventLeaderboardProxy()
 [00:00:18]: ~ItemServerLuaProxy()
@@ -1934,7 +2038,7 @@
 [00:00:18]: ~SimLuaProxy()
 [00:00:18]: FilesExistAsyncThread aborted.
 [00:00:18]: ... FilesExistAsyncThread complete
-[00:00:19]: lua_close took 0.23 seconds
+[00:00:18]: lua_close took 0.25 seconds
 [00:00:19]: ReleaseAll
 [00:00:19]: ReleaseAll Finished
 [00:00:19]: cGame::StartPlaying
@@ -2464,8 +2568,8 @@
 [00:00:24]: Overriding mod workshop-2854057841's option os_hammer with value false	
 [00:00:24]: Overriding mod workshop-2854057841's option number with value 6	
 [00:00:24]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modworldgenmain.lua	
-[00:00:24]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modmain.lua	
-[00:00:24]: modimport: ../mods/workshop-2597204554/quest_system/tuning_strings.lua	
+[00:00:25]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modmain.lua	
+[00:00:25]: modimport: ../mods/workshop-2597204554/quest_system/tuning_strings.lua	
 [00:00:25]: [Quest System] Amount of quests:	150	
 [00:00:25]: [Quest System] Amount of quests difficulty 1:	29	
 [00:00:25]: [Quest System] Amount of quests difficulty 2:	41	
@@ -2634,15 +2738,15 @@
 [00:00:25]: modimport: ../mods/workshop-2937640068/main_initialize.lua	
 [00:00:25]: CZ-INFO : Loading save files	
 [00:00:25]: modimport: ../mods/workshop-2937640068/main_recipes.lua	
-[00:00:25]: modimport: ../mods/workshop-2937640068/main_containers.lua	
-[00:00:25]: modimport: ../mods/workshop-2937640068/main_winonaexpert.lua	
-[00:00:25]: modimport: ../mods/workshop-2937640068/main_wxexpert.lua	
-[00:00:25]: modimport: ../mods/workshop-2937640068/main_warlyexpert.lua	
-[00:00:25]: modimport: ../mods/workshop-2937640068/scripts/functions/customtechtree.lua	
-[00:00:25]: modimport: ../mods/workshop-2937640068/main_fx.lua	
-[00:00:25]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
-[00:00:25]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:25]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:26]: modimport: ../mods/workshop-2937640068/main_containers.lua	
+[00:00:26]: modimport: ../mods/workshop-2937640068/main_winonaexpert.lua	
+[00:00:26]: modimport: ../mods/workshop-2937640068/main_wxexpert.lua	
+[00:00:26]: modimport: ../mods/workshop-2937640068/main_warlyexpert.lua	
+[00:00:26]: modimport: ../mods/workshop-2937640068/scripts/functions/customtechtree.lua	
+[00:00:26]: modimport: ../mods/workshop-2937640068/main_fx.lua	
+[00:00:26]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:26]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:26]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
 [00:00:27]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
 [00:00:27]: LOADING LUA SUCCESS
 [00:00:27]: Registering Server mod namespace "huahouse_name"
@@ -2671,9 +2775,9 @@
 [00:00:27]: OnFilesLoaded()	
 [00:00:27]: OnUpdatePurchaseStateComplete	
 [00:00:27]: Loading world: session/BF953A8AFDD25F52/0000001496	
-[00:00:27]: Save file is at version 5.146	
-[00:00:27]: Klump load on boot started.	
-[00:00:27]: Klump files loaded: 	0	
+[00:00:28]: Save file is at version 5.146	
+[00:00:28]: Klump load on boot started.	
+[00:00:28]: Klump files loaded: 	0	
 [00:00:28]: 	Unload FE	
 [00:00:28]: 	Unload FE done	
 [00:00:28]: Could not unload undefined prefab (chasni_fire_crab_king_claw_fx_build)
@@ -2800,160 +2904,160 @@
 [00:00:31]: Mod: workshop-2854057841 (Noitosfera)	    chasni_lasertrail	
 [00:00:31]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserhit	
 [00:00:31]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
-[00:00:32]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
-[00:00:32]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
-[00:00:32]: Mod: workshop-2665263549 (Colosseum)	Registering prefabs	
-[00:00:32]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/colosseum_title	
-[00:00:32]: Mod: workshop-2665263549 (Colosseum)	    colosseum_title	
-[00:00:32]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/maxwell_torch	
-[00:00:32]: Mod: workshop-2665263549 (Colosseum)	    maxwell_torch	
-[00:00:32]: Mod: workshop-2665263549 (Colosseum)	    maxwell_torch_placer	
-[00:00:32]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/maxwell_torch_flame	
-[00:00:32]: Mod: workshop-2665263549 (Colosseum)	    maxwell_torch_flame	
-[00:00:32]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/enemyping	
-[00:00:32]: Mod: workshop-2665263549 (Colosseum)	    enemyping	
-[00:00:32]: Mod: workshop-2665263549 (Colosseum)	  Registering default mod prefab	
-[00:00:32]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
-[00:00:32]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
-[00:00:32]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
-[00:00:32]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/secoin	
-[00:00:32]: Mod: workshop-2847806795 ( Economia Simples )	    secoin	
-[00:00:32]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/stealer	
-[00:00:32]: Mod: workshop-2847806795 ( Economia Simples )	    stealer	
-[00:00:32]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/goldstaff	
-[00:00:32]: Mod: workshop-2847806795 ( Economia Simples )	    goldstaff	
-[00:00:32]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/vipcard	
-[00:00:32]: Mod: workshop-2847806795 ( Economia Simples )	    vipcard	
-[00:00:32]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/luckamulet	
-[00:00:32]: Mod: workshop-2847806795 ( Economia Simples )	    luckamulet	
-[00:00:32]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/coin_bundle	
-[00:00:32]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
-[00:00:32]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
-[00:00:32]: Mod: workshop-2324689937 (More equip slots)	Registering prefabs	
-[00:00:32]: Mod: workshop-2324689937 (More equip slots)	  Registering default mod prefab	
-[00:00:32]: Mod: workshop-1416161108 (Camp Security)	Registering prefabs	
-[00:00:32]: Mod: workshop-1416161108 (Camp Security)	  Registering default mod prefab	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Registering prefabs	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/modifier_ores	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    adamantit_ore	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    chlorophyte_ore	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    luminite_ore	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    recycled_7	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    recycled_8	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    recycled_9	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/modifier_duelist	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    modifier_duelist	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/anvil	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    anvil	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    anvil_placer	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/schatzkarte	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    schatzkarte	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/schatztruhe	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    schatztruhe	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/treasurechasechest	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    treasurechasechest	
-[00:00:32]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering default mod prefab	
-[00:00:32]: Could not preload undefined prefab (beequeenhat)
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	Registering prefabs	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_door_exit	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit1	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit2	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit3	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_wall	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_floor	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floor	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallpaper	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu1	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2_light	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_in	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1_in	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz_in	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis_in	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_mushroom_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_sunflower_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_upholstered_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_harlequin_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_circles_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_punk_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_pvz_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_tardis_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_mushroom_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checker_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checkered_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_geome_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_herringbone_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_octagon_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_ruins_slab_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodmetal_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodpaneling_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_punk_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_pvz_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_tardis_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_lights	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red1	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red2	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round_light	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk_light	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_light_light	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_light	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house1	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_named_item	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_named_item	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_pvz	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_tardis	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_fake	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_interiors	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_phonograph	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph_placer	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_zombies	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies_builder	
-[00:00:32]: Mod: workshop-3055010657 (Sweet House fix)	  Registering default mod prefab	
+[00:00:31]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
+[00:00:31]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
+[00:00:31]: Mod: workshop-2665263549 (Colosseum)	Registering prefabs	
+[00:00:31]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/colosseum_title	
+[00:00:31]: Mod: workshop-2665263549 (Colosseum)	    colosseum_title	
+[00:00:31]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/maxwell_torch	
+[00:00:31]: Mod: workshop-2665263549 (Colosseum)	    maxwell_torch	
+[00:00:31]: Mod: workshop-2665263549 (Colosseum)	    maxwell_torch_placer	
+[00:00:31]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/maxwell_torch_flame	
+[00:00:31]: Mod: workshop-2665263549 (Colosseum)	    maxwell_torch_flame	
+[00:00:31]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/enemyping	
+[00:00:31]: Mod: workshop-2665263549 (Colosseum)	    enemyping	
+[00:00:31]: Mod: workshop-2665263549 (Colosseum)	  Registering default mod prefab	
+[00:00:31]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
+[00:00:31]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
+[00:00:31]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
+[00:00:31]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/secoin	
+[00:00:31]: Mod: workshop-2847806795 ( Economia Simples )	    secoin	
+[00:00:31]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/stealer	
+[00:00:31]: Mod: workshop-2847806795 ( Economia Simples )	    stealer	
+[00:00:31]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/goldstaff	
+[00:00:31]: Mod: workshop-2847806795 ( Economia Simples )	    goldstaff	
+[00:00:31]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/vipcard	
+[00:00:31]: Mod: workshop-2847806795 ( Economia Simples )	    vipcard	
+[00:00:31]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/luckamulet	
+[00:00:31]: Mod: workshop-2847806795 ( Economia Simples )	    luckamulet	
+[00:00:31]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/coin_bundle	
+[00:00:31]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
+[00:00:31]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
+[00:00:31]: Mod: workshop-2324689937 (More equip slots)	Registering prefabs	
+[00:00:31]: Mod: workshop-2324689937 (More equip slots)	  Registering default mod prefab	
+[00:00:31]: Mod: workshop-1416161108 (Camp Security)	Registering prefabs	
+[00:00:31]: Mod: workshop-1416161108 (Camp Security)	  Registering default mod prefab	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Registering prefabs	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/modifier_ores	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    adamantit_ore	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    chlorophyte_ore	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    luminite_ore	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    recycled_7	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    recycled_8	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    recycled_9	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/modifier_duelist	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    modifier_duelist	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/anvil	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    anvil	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    anvil_placer	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/schatzkarte	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    schatzkarte	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/schatztruhe	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    schatztruhe	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/treasurechasechest	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    treasurechasechest	
+[00:00:31]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering default mod prefab	
+[00:00:31]: Could not preload undefined prefab (beequeenhat)
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	Registering prefabs	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_door_exit	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit1	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit2	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit3	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_wall	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_floor	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floor	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallpaper	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu1	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2_light	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_in	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1_in	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz_in	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis_in	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_mushroom_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_sunflower_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_upholstered_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_harlequin_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_circles_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_punk_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_pvz_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_tardis_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_mushroom_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checker_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checkered_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_geome_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_herringbone_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_octagon_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_ruins_slab_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodmetal_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodpaneling_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_punk_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_pvz_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_tardis_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_lights	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red1	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red2	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round_light	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk_light	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_light_light	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_light	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house1	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_named_item	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_named_item	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_pvz	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_tardis	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_fake	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_interiors	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_phonograph	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph_placer	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_zombies	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies_builder	
+[00:00:31]: Mod: workshop-3055010657 (Sweet House fix)	  Registering default mod prefab	
 [00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Registering prefabs	
 [00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/seffc	
 [00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    seffc	
@@ -3615,8 +3719,8 @@
 [00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/uncontested/upgraded_beehat	
 [00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_beehat	
 [00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering default mod prefab	
-[00:00:33]: Could not preload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
-[00:00:33]: Could not preload undefined prefab (chasni_crab_shadowlunarorgan)
+[00:00:32]: Could not preload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
+[00:00:32]: Could not preload undefined prefab (chasni_crab_shadowlunarorgan)
 [00:00:33]: Could not preload undefined prefab (chasni_fire_crab_king_claw_fx_build)
 [00:00:33]: Could not preload undefined prefab (chasni_crab_shadowfireorgan)
 [00:00:33]: Could not preload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
@@ -3628,12 +3732,12 @@
 [00:00:34]: Could not preload undefined prefab (chasni_crab_shadowwaterorgan)
 [00:00:34]: Could not preload undefined prefab (fryfocals_charge)
 [00:00:34]: Could not preload undefined prefab (paint_fx)
-[00:00:35]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
-[00:00:35]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
-[00:00:35]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
-[00:00:35]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
-[00:00:35]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
-[00:00:35]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:34]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:34]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:34]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:34]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:34]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:34]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:35]: 	LOAD BE	
 [00:00:43]: Could not preload undefined prefab (brokenwall_scrap)
 [00:00:45]: 	LOAD BE: done	
@@ -3717,3 +3821,157 @@
 [00:00:48]: OVERRIDE: setting	basicresource_regrowth	to	always	
 [00:00:48]: OVERRIDE: setting	portalresurection	to	always	
 [00:00:48]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:52]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
+[00:00:55]: inserting post_fn armor	stack traceback:
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:788 in (method) EndFn (Lua) <763-869>
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:690 in (field) ? (Lua) <684-691>
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:487 in (method) ChooseEquipment (Lua) <466-491>
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:1283 in (method) OnLoad (Lua) <1246-1311>
+	scripts/entityscript.lua:1809 in (method) SetPersistData (Lua) <1796-1817>
+	scripts/mainfunctions.lua:457 in (global) SpawnSaveRecord (Lua) <418-464>
+	scripts/components/container.lua:819 in (method) OnLoad (Lua) <816-825>
+	scripts/entityscript.lua:1809 in (method) SetPersistData (Lua) <1796-1817>
+	scripts/mainfunctions.lua:457 in (global) SpawnSaveRecord (Lua) <418-464>
+	scripts/gamelogic.lua:665 in (upvalue) PopulateWorld (Lua) <394-701>
+	scripts/gamelogic.lua:975 in (upvalue) DoInitGame (Lua) <858-1054>
+	scripts/gamelogic.lua:1088 in (local) cb (Lua) <1082-1089>
+	...
+	=[C]:-1 in (method) GetPersistentString (C) <-1--1>
+	scripts/saveindex.lua:285 in (method) Load (Lua) <282-289>
+	scripts/gamelogic.lua:1323 in (local) callback (Lua) <1322-1328>
+	scripts/playerprofile.lua:1747 in (method) Set (Lua) <1599-1750>
+	scripts/playerprofile.lua:1587 in () ? (Lua) <1586-1588>
+	=[C]:-1 in (method) GetPersistentString (C) <-1--1>
+	scripts/playerprofile.lua:1585 in (method) Load (Lua) <1584-1589>
+	scripts/gamelogic.lua:1322 in () ? (main) <0-0>
+	=[C]:-1 in (upvalue) _3asx (C) <-1--1>
+	../mods/workshop-1207269058/modmain.lua:1 in (global) require (Lua) <1-1>	
+[00:01:03]: inserting post_fn armor	stack traceback:
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:788 in (method) EndFn (Lua) <763-869>
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:690 in (field) ? (Lua) <684-691>
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:487 in (method) ChooseEquipment (Lua) <466-491>
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:1283 in (method) OnLoad (Lua) <1246-1311>
+	scripts/entityscript.lua:1809 in (method) SetPersistData (Lua) <1796-1817>
+	scripts/mainfunctions.lua:457 in (global) SpawnSaveRecord (Lua) <418-464>
+	scripts/gamelogic.lua:665 in (upvalue) PopulateWorld (Lua) <394-701>
+	scripts/gamelogic.lua:975 in (upvalue) DoInitGame (Lua) <858-1054>
+	scripts/gamelogic.lua:1088 in (local) cb (Lua) <1082-1089>
+	scripts/shardindex.lua:214 in (upvalue) OnLoadSaveDataFile (Lua) <196-215>
+	scripts/shardindex.lua:219 in () ? (Lua) <218-220>
+	=[C]:-1 in (method) GetPersistentString (C) <-1--1>
+	...
+	=[C]:-1 in (method) GetPersistentString (C) <-1--1>
+	scripts/saveindex.lua:285 in (method) Load (Lua) <282-289>
+	scripts/gamelogic.lua:1323 in (local) callback (Lua) <1322-1328>
+	scripts/playerprofile.lua:1747 in (method) Set (Lua) <1599-1750>
+	scripts/playerprofile.lua:1587 in () ? (Lua) <1586-1588>
+	=[C]:-1 in (method) GetPersistentString (C) <-1--1>
+	scripts/playerprofile.lua:1585 in (method) Load (Lua) <1584-1589>
+	scripts/gamelogic.lua:1322 in () ? (main) <0-0>
+	=[C]:-1 in (upvalue) _3asx (C) <-1--1>
+	../mods/workshop-1207269058/modmain.lua:1 in (global) require (Lua) <1-1>	
+[00:01:17]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:17]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:17]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:17]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:17]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:17]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:23]: [dst-more-equip-slots]	INFO	["thunder_armor"] = nil, -- Thor's Cape	
+[00:01:23]: [dst-more-equip-slots]	INFO	["upgraded_amulet"] = nil, -- Exort Amulet	
+[00:01:23]: [dst-more-equip-slots]	INFO	["upgraded_blueamulet"] = nil, -- Quas Amulet	
+[00:01:23]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:23]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:23]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
+[00:01:23]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
+[00:01:24]: [dst-more-equip-slots]	INFO	["armorgold"] = nil, -- Golden Scalemail	
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:37]: Reconstructing topology	
+[00:01:37]: 	...Sorting points	
+[00:01:37]: 	...Sorting edges	
+[00:01:37]: 	...Connecting nodes	
+[00:01:37]: 	...Validating connections	
+[00:01:38]: 	...Housekeeping	
+[00:01:38]: 	...Done!	
+[00:01:38]: 1 uploads added to server. From server_temp
+[00:01:38]: About to start a shard with these settings:
+[00:01:38]:   ShardName: [SHDMASTER]
+[00:01:38]:   ShardID: 1
+[00:01:38]:   ShardRole: MASTER
+[00:01:38]:   MasterHost: (null)
+[00:01:38]:   MasterBind: 127.0.0.1
+[00:01:38]:   MasterPort: 10998
+[00:01:38]: [Shard] Starting master server
+[00:01:38]: [Shard] Shard server started on port: 10998
+[00:01:38]: Telling Client our new session identifier: BF953A8AFDD25F52
+[00:01:38]: Check for write access: TRUE
+[00:01:38]: Check for read access: TRUE
+[00:01:38]: Available disk space for save files: 86088 MB
+[00:01:38]: ModIndex: Load sequence finished successfully.	
+[00:01:38]: Reset() returning
+[00:01:42]: Validating portal[4] <-> 4239966897[4] (inactive)	
+[00:01:42]: Validating portal[9] <-> 4239966897[9] (inactive)	
+[00:01:42]: Validating portal[10] <-> 4239966897[10] (inactive)	
+[00:01:42]: Validating portal[5] <-> 4239966897[5] (inactive)	
+[00:01:42]: Validating portal[8] <-> 4239966897[8] (inactive)	
+[00:01:42]: Validating portal[6] <-> 4239966897[6] (inactive)	
+[00:01:42]: Validating portal[3] <-> 4239966897[3] (inactive)	
+[00:01:42]: Validating portal[1] <-> 4239966897[1] (inactive)	
+[00:01:42]: Validating portal[2] <-> 4239966897[2] (inactive)	
+[00:01:42]: Validating portal[7] <-> 4239966897[7] (inactive)	
+[00:01:44]: Server registered via geo DNS in us-east-1
+[00:01:44]: Sim paused
+[00:01:44]: [Shard] Secondary shard Caves(4239966897) connected: [LAN] 127.0.0.1
+[00:01:45]: [Shard] Secondary Caves(4239966897) ready!
+[00:01:45]: World 4239966897 is now connected	
+[00:01:45]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:01:45]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
+[00:01:45]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[00:01:45]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
+[00:01:45]: Validating portal[4] <-> 4239966897[4] (active)	
+[00:01:45]: Validating portal[9] <-> 4239966897[9] (active)	
+[00:01:45]: Validating portal[10] <-> 4239966897[10] (active)	
+[00:01:45]: Validating portal[5] <-> 4239966897[5] (active)	
+[00:01:45]: Validating portal[8] <-> 4239966897[8] (active)	
+[00:01:45]: Validating portal[6] <-> 4239966897[6] (disabled)	
+[00:01:45]: Validating portal[3] <-> 4239966897[3] (active)	
+[00:01:45]: Validating portal[1] <-> 4239966897[1] (active)	
+[00:01:45]: Validating portal[2] <-> 4239966897[2] (active)	
+[00:01:45]: Validating portal[7] <-> 4239966897[7] (active)	
+[00:01:45]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
+[00:01:45]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
+[00:01:45]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
+[00:01:45]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
