@@ -1,4 +1,4 @@
-[00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Caves/ 
+[00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 601983
 [00:00:00]: Current time: Fri Apr 12 19:37:41 2024
@@ -12,12 +12,12 @@
 [00:00:00]: Build Date: 2373
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Caves 
+[00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Master 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (257616452611936)
+[00:00:00]: THREAD - started 'GAClient' (273959843311456)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:3.90
+[00:00:00]: ProfileIndex:3.85
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -25,13 +25,13 @@
 [00:00:00]: Mounting file system databundles/bigportraits.zip successful.
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
-[00:00:00]: [Steam] SteamGameServer_Init(11000, 12347)
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
 [00:00:00]: [Steam] SteamGameServer_Init success
 [00:00:00]: [Connect] PendingConnection::Reset(true)
 [00:00:00]: Platform: 1
 [00:00:00]: Network tick rate: U=15(2), D=0
 [00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: THREAD - started 'StreamInput' (257616323063648)
+[00:00:00]: THREAD - started 'StreamInput' (273959445778272)
 [00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
 [00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
 [00:00:00]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
@@ -734,14 +734,14 @@
 [00:00:07]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:07]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Loading modmain.lua	
 [00:00:07]: modimport: ../mods/workshop-2937640068/main_strings.lua	
-[00:00:08]: modimport: ../mods/workshop-2937640068/main_globalpostInits.lua	
-[00:00:08]: modimport: ../mods/workshop-2937640068/main_achivpostInits.lua	
-[00:00:08]: modimport: ../mods/workshop-2937640068/main_perkpostInits.lua	
-[00:00:08]: modimport: ../mods/workshop-2937640068/main_RoGpostInit.lua	
-[00:00:08]: modimport: ../mods/workshop-2937640068/main_trinketslotpostInit.lua	
-[00:00:08]: modimport: ../mods/workshop-2937640068/main_initialize.lua	
-[00:00:08]: CZ-INFO : Loading save files	
-[00:00:08]: modimport: ../mods/workshop-2937640068/main_recipes.lua	
+[00:00:07]: modimport: ../mods/workshop-2937640068/main_globalpostInits.lua	
+[00:00:07]: modimport: ../mods/workshop-2937640068/main_achivpostInits.lua	
+[00:00:07]: modimport: ../mods/workshop-2937640068/main_perkpostInits.lua	
+[00:00:07]: modimport: ../mods/workshop-2937640068/main_RoGpostInit.lua	
+[00:00:07]: modimport: ../mods/workshop-2937640068/main_trinketslotpostInit.lua	
+[00:00:07]: modimport: ../mods/workshop-2937640068/main_initialize.lua	
+[00:00:07]: CZ-INFO : Loading save files	
+[00:00:07]: modimport: ../mods/workshop-2937640068/main_recipes.lua	
 [00:00:08]: modimport: ../mods/workshop-2937640068/main_containers.lua	
 [00:00:08]: modimport: ../mods/workshop-2937640068/main_winonaexpert.lua	
 [00:00:08]: modimport: ../mods/workshop-2937640068/main_wxexpert.lua	
@@ -1358,19 +1358,19 @@
 [00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wormwood/nature_hat	
 [00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    nature_hat	
 [00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wormwood/wormwood_salve	
-[00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wormwood_salve	
-[00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wormwood/brambletower	
-[00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    brambletower	
-[00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    brambletower_placer	
-[00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wormwood/bramblechest	
-[00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bramblechest	
-[00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bramblechest_placer	
-[00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wormwood/bramblefx_new	
-[00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bramblefx_new	
-[00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bramblefx_ring	
-[00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wormwood/healingward	
-[00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    healingward	
-[00:00:13]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wormwood/healingward_fire	
+[00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wormwood_salve	
+[00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wormwood/brambletower	
+[00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    brambletower	
+[00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    brambletower_placer	
+[00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wormwood/bramblechest	
+[00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bramblechest	
+[00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bramblechest_placer	
+[00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wormwood/bramblefx_new	
+[00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bramblefx_new	
+[00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bramblefx_ring	
+[00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wormwood/healingward	
+[00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    healingward	
+[00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wormwood/healingward_fire	
 [00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    lighterfire_healingward	
 [00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wormwood/wormwood_poop_buff	
 [00:00:14]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wormwood_hunger_buff	
@@ -1791,57 +1791,73 @@
 [00:00:16]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:16]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:16]: 	Load FE	
-[00:00:17]: THREAD - started 'FilesExistAsyncThread' (257615779020640)
 [00:00:17]: 	Load FE: done	
+[00:00:17]: THREAD - started 'FilesExistAsyncThread' (273959167180640)
 [00:00:17]: FilesExistAsyncThread started (24711 files)...
 [00:00:17]: Check for write access: TRUE
 [00:00:17]: Check for read access: TRUE
 [00:00:17]: Available disk space for save files: 63775 MB
 [00:00:17]: ModIndex: Load sequence finished successfully.	
 [00:00:17]: Reset() returning
-[00:00:18]: [200] Account Communication Success (6)
-[00:00:18]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Caves/save/cached_userid
-[00:00:18]: Received (KU_2DNgIUgO) from TokenPurpose
-[00:00:18]: Starting Dedicated Server Game	
-[00:00:18]: Network tick rate: U=15(2), D=0
-[00:00:18]: About to start a server with the following settings:
-[00:00:18]:   Dedicated: true
-[00:00:18]:   Online: true
-[00:00:18]:   Passworded: false
-[00:00:18]:   ServerPort: 11000
-[00:00:18]:   SteamAuthPort: 8767
-[00:00:18]:   SteamMasterServerPort: 12347
-[00:00:18]:   ClanID: false
-[00:00:18]:   ClanOnly: false
-[00:00:18]:   ClanAdmin: false
-[00:00:18]:   LanOnly: false
-[00:00:18]:   FriendsOnly: false
-[00:00:18]:   EnableAutosaver: true
-[00:00:18]:   EncodeUserPath: true
-[00:00:18]:   PVP: false
-[00:00:18]:   MaxPlayers: 12
-[00:00:18]:   GameMode: endless
-[00:00:18]:   OverridenDNS: 
-[00:00:18]:   PauseWhenEmpty: true
-[00:00:18]:   IdleTimeout: 1800s
-[00:00:18]:   VoteEnabled: true
-[00:00:18]:   InternetBroadcasting: true
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1416161108	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2167036904	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-3055010657	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2665263549	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2854057841	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2597204554	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2937640068	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2324689937	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1185229307	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2847806795	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2503437364	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2876537244	
-[00:00:18]: Online Server Started on port: 11000
+[00:00:17]: [200] Account Communication Success (6)
+[00:00:17]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
+[00:00:17]: Received (KU_2DNgIUgO) from TokenPurpose
+[00:00:17]: Starting Dedicated Server Game	
+[00:00:17]: Network tick rate: U=15(2), D=0
+[00:00:17]: About to start a server with the following settings:
+[00:00:17]:   Dedicated: true
+[00:00:17]:   Online: true
+[00:00:17]:   Passworded: false
+[00:00:17]:   ServerPort: 10999
+[00:00:17]:   SteamAuthPort: 8766
+[00:00:17]:   SteamMasterServerPort: 12346
+[00:00:17]:   ClanID: false
+[00:00:17]:   ClanOnly: false
+[00:00:17]:   ClanAdmin: false
+[00:00:17]:   LanOnly: false
+[00:00:17]:   FriendsOnly: false
+[00:00:17]:   EnableAutosaver: true
+[00:00:17]:   EncodeUserPath: true
+[00:00:17]:   PVP: false
+[00:00:17]:   MaxPlayers: 12
+[00:00:17]:   GameMode: endless
+[00:00:17]:   OverridenDNS: 
+[00:00:17]:   PauseWhenEmpty: true
+[00:00:17]:   IdleTimeout: 1800s
+[00:00:17]:   VoteEnabled: true
+[00:00:17]:   InternetBroadcasting: true
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-1416161108	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-2167036904	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-2665263549	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-2876537244	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-3055010657	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-2597204554	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-2937640068	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-2324689937	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-2854057841	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-2847806795	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-1185229307	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-2503437364	
+[00:00:18]: Online Server Started on port: 10999
+[00:00:18]: SUCCESS: Loaded modoverrides.lua	
+[00:00:18]: Not applying level data overrides.	
+[00:00:18]: Found a worldgen override file with these contents:	
+[00:00:18]: 	K: 	override_enabled	 V: 	true	
+[00:00:18]: 	K: 	overrides	 V: 	table: 0x47be9220	
+[00:00:18]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:18]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:18]: 		K: 	portalresurection	 V: 	always	
+[00:00:18]: 		K: 	resettime	 V: 	none	
+[00:00:18]: 	K: 	settings_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:18]: 	K: 	worldgen_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:18]:   sanity-checking worldgenoverride.lua...	
+[00:00:18]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:18]:   contained worldgen preset SURVIVAL_TOGETHER, loading...	
+[00:00:18]:   contained settings preset SURVIVAL_TOGETHER, loading...	
+[00:00:18]: Overwriting savedata with override file.	
 [00:00:18]: Error: Could not find file: anim/chop_mangrove_pink.zip
 [00:00:18]: Error: Could not find file: anim/chop_mangrove_pink.zip
 [00:00:18]: Error: Could not find file: anim/hacking_tall_grass_fx.zip
@@ -1908,23 +1924,6 @@
 [00:00:18]: Error: Could not find file: anim/chasni_slingshotammo.zip
 [00:00:18]: Error: Could not find file: anim/chasni_slingshotammo.zip
 [00:00:18]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:18]: SUCCESS: Loaded modoverrides.lua	
-[00:00:18]: Not applying level data overrides.	
-[00:00:18]: Found a worldgen override file with these contents:	
-[00:00:18]: 	K: 	override_enabled	 V: 	true	
-[00:00:18]: 	K: 	overrides	 V: 	table: 0x71036a20	
-[00:00:18]: 		K: 	basicresource_regrowth	 V: 	always	
-[00:00:18]: 		K: 	ghostsanitydrain	 V: 	none	
-[00:00:18]: 		K: 	portalresurection	 V: 	always	
-[00:00:18]: 		K: 	resettime	 V: 	none	
-[00:00:18]: 		K: 	start_location	 V: 	default	
-[00:00:18]: 	K: 	settings_preset	 V: 	DST_CAVE	
-[00:00:18]: 	K: 	worldgen_preset	 V: 	DST_CAVE	
-[00:00:18]:   sanity-checking worldgenoverride.lua...	
-[00:00:18]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
-[00:00:18]:   contained worldgen preset DST_CAVE, loading...	
-[00:00:18]:   contained settings preset DST_CAVE, loading...	
-[00:00:18]: Overwriting savedata with override file.	
 [00:00:18]: Collecting garbage...
 [00:00:18]: lua_gc took 0.24 seconds
 [00:00:18]: ~ShardLuaProxy()
@@ -1944,11 +1943,11 @@
 [00:00:18]: DoLuaFile scripts/main.lua
 [00:00:18]: DoLuaFile loading buffer scripts/main.lua
 [00:00:18]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
-[00:00:24]:   taskgrouplist:	default	Juntos	
-[00:00:24]:   taskgrouplist:	classic	Clássico	
-[00:00:24]:   taskgrouplist:	cave_default	Subterrâneo	
-[00:00:24]:   taskgrouplist:	lavaarena_taskset	A Forja	
-[00:00:24]:   taskgrouplist:	quagmire_taskset	A Garganta	
+[00:00:23]:   taskgrouplist:	default	Juntos	
+[00:00:23]:   taskgrouplist:	classic	Clássico	
+[00:00:23]:   taskgrouplist:	cave_default	Subterrâneo	
+[00:00:23]:   taskgrouplist:	lavaarena_taskset	A Forja	
+[00:00:23]:   taskgrouplist:	quagmire_taskset	A Garganta	
 [00:00:24]: Running main.lua
 	
 [00:00:24]: loaded modindex	
@@ -2644,34 +2643,34 @@
 [00:00:25]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
 [00:00:25]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:25]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
-[00:00:27]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:00:27]: LOADING LUA SUCCESS
-[00:00:27]: Registering Server mod namespace "huahouse_name"
-[00:00:27]: Registering Server mod namespace "woodie_mod"
-[00:00:27]: Registering Server mod namespace "invokerbook"
-[00:00:27]: Registering Server mod namespace "workshop-1416161108"
-[00:00:27]: Registering Server mod namespace "workshop-1207269058"
-[00:00:27]: Registering Server mod namespace "modmodifier"
-[00:00:27]: Registering Server mod namespace "quest_system_rpc"
-[00:00:27]: Registering Server mod namespace "workshop-1111658995"
-[00:00:27]: Registering Server mod namespace "extra_mod"
-[00:00:27]: Registering Server mod namespace "wendy_mod"
-[00:00:27]: Registering Server mod namespace "simpleeconomy"
-[00:00:27]: Registering Server mod namespace "achievementui"
-[00:00:27]: Registering Server mod namespace "dstachievement"
-[00:00:27]: Registering Client mod namespace "quest_system_rpc"
-[00:00:27]: Registering Client mod namespace "workshop-1185229307"
-[00:00:27]: Registering Client mod namespace "workshop-1111658995"
-[00:00:27]: Registering Shard mod namespace "quest_system_rpc"
-[00:00:27]: Registering Shard mod namespace "workshop-2167036904"
-[00:00:27]: PlayerDeaths could not load morgue	
-[00:00:27]: PlayerHistory could not load player_history	
-[00:00:27]: ServerPreferences could not load server_preferences	
-[00:00:27]: ConsoleScreenSettings could not load consolescreen	
-[00:00:27]: bloom_enabled	true	
+[00:00:26]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:26]: LOADING LUA SUCCESS
+[00:00:26]: Registering Server mod namespace "huahouse_name"
+[00:00:26]: Registering Server mod namespace "woodie_mod"
+[00:00:26]: Registering Server mod namespace "invokerbook"
+[00:00:26]: Registering Server mod namespace "workshop-1416161108"
+[00:00:26]: Registering Server mod namespace "workshop-1207269058"
+[00:00:26]: Registering Server mod namespace "modmodifier"
+[00:00:26]: Registering Server mod namespace "quest_system_rpc"
+[00:00:26]: Registering Server mod namespace "workshop-1111658995"
+[00:00:26]: Registering Server mod namespace "extra_mod"
+[00:00:26]: Registering Server mod namespace "wendy_mod"
+[00:00:26]: Registering Server mod namespace "simpleeconomy"
+[00:00:26]: Registering Server mod namespace "achievementui"
+[00:00:26]: Registering Server mod namespace "dstachievement"
+[00:00:26]: Registering Client mod namespace "quest_system_rpc"
+[00:00:26]: Registering Client mod namespace "workshop-1185229307"
+[00:00:26]: Registering Client mod namespace "workshop-1111658995"
+[00:00:26]: Registering Shard mod namespace "quest_system_rpc"
+[00:00:26]: Registering Shard mod namespace "workshop-2167036904"
+[00:00:26]: PlayerDeaths could not load morgue	
+[00:00:26]: PlayerHistory could not load player_history	
+[00:00:26]: ServerPreferences could not load server_preferences	
+[00:00:26]: ConsoleScreenSettings could not load consolescreen	
+[00:00:26]: bloom_enabled	true	
 [00:00:27]: OnFilesLoaded()	
 [00:00:27]: OnUpdatePurchaseStateComplete	
-[00:00:27]: Loading world: session/324D3B74FD686B24/0000001496	
+[00:00:27]: Loading world: session/BF953A8AFDD25F52/0000001496	
 [00:00:27]: Save file is at version 5.146	
 [00:00:27]: Klump load on boot started.	
 [00:00:27]: Klump files loaded: 	0	
@@ -3100,18 +3099,18 @@
 [00:00:31]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_chasni_purple	
 [00:00:31]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_chasni_green	
 [00:00:31]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/webbermasks	
-[00:00:31]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_normal	
-[00:00:31]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_hider	
-[00:00:31]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_poison	
-[00:00:31]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_dropper	
-[00:00:31]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_water	
-[00:00:31]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_moon	
-[00:00:31]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_healer	
-[00:00:31]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_spitter	
-[00:00:31]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_warrior	
-[00:00:31]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/webbermask_spike	
-[00:00:31]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_spike	
-[00:00:31]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/webbermask_spit	
+[00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_normal	
+[00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_hider	
+[00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_poison	
+[00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_dropper	
+[00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_water	
+[00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_moon	
+[00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_healer	
+[00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_spitter	
+[00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_warrior	
+[00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/webbermask_spike	
+[00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_spike	
+[00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/webbermask_spit	
 [00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_spit	
 [00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/warly/fryingpan	
 [00:00:32]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fryingpan	
