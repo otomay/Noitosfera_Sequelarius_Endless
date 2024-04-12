@@ -1,23 +1,23 @@
 [00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
 [00:00:00]: Starting Up
-[00:00:00]: Version: 600680
-[00:00:00]: Current time: Sun Mar 31 13:39:49 2024
+[00:00:00]: Version: 601983
+[00:00:00]: Current time: Fri Apr 12 12:28:34 2024
 
 [00:00:00]: System Name: Linux
-[00:00:00]: Host Name: 0ca4f9fd27dc
+[00:00:00]: Host Name: de15f79a3838
 [00:00:00]: Release(Kernel) Version: 6.5.0-1019-oracle
 [00:00:00]: Kernel Build Timestamp: #19~22.04.1-Ubuntu SMP Tue Mar 12 23:02:13 UTC 2024
 [00:00:00]: Machine Arch: x86_64
-[00:00:00]: Don't Starve Together: 600680 LINUX
-[00:00:00]: Build Date: 2355
+[00:00:00]: Don't Starve Together: 601983 LINUX
+[00:00:00]: Build Date: 2373
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
 [00:00:00]: Command Line Arguments: -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -only_update_server_mods 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (273842785451872)
+[00:00:00]: THREAD - started 'GAClient' (252249361502048)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:3.97
+[00:00:00]: ProfileIndex:4.49
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -28,13 +28,13 @@
 [00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
 [00:00:00]: [Steam] SteamGameServer_Init success
 [00:00:00]: [Connect] PendingConnection::Reset(true)
-[00:00:00]: Platform: 1
-[00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: THREAD - started 'StreamInput' (273842529574752)
-[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
-[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
-[00:00:00]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: THREAD - started 'StreamInput' (252249231015776)
+[00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:01]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
 [00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
 [00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
 [00:00:01]: cGame::InitializeOnMainThread
@@ -59,9 +59,9 @@
 [00:00:06]: loaded modindex	
 [00:00:06]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:06]: [Workshop] Collection query page 0, size: 1, total size: 1
-[00:00:06]: [Workshop] Collection query queued to get details from ID: 2792228447
-[00:00:06]: [Workshop] Collection query sent
+[00:00:07]: [Workshop] Collection query page 0, size: 1, total size: 1
+[00:00:07]: [Workshop] Collection query queued to get details from ID: 2792228447
+[00:00:07]: [Workshop] Collection query sent
 [00:00:07]: [Workshop] CollectionQuery got this many results: 1
 [00:00:07]: [Workshop] CollectionQuery queued IDs: 666155465 1111658995 1185229307 1207269058 1228256860 1416161108 1803285852 2039181790 2167036904 2281925291 2324689937 2410967470 2477889104 2486802405 2503437364 2537774396 2597204554 2665263549 2847806795 2847908822 2854057841 2876537244 2937640068 2948633273 3055010657
 [00:00:07]: [Workshop] CollectionQuery finished, downloading mods.
@@ -70,20 +70,19 @@
 [00:00:07]: [Workshop] Item query sent
 [00:00:07]: [Workshop] ItemQuery got this many results: 25, matching: 25
 [00:00:07]: [Workshop] ModQuery got 25 results
-[00:00:07]: [Workshop] ModQuery queued to download IDs: 1228256860 2281925291
-[00:00:07]: [Workshop] ModQuery already have IDs: {0.58,666155465} {3.0,1111658995} {87,1185229307} {2.16,1207269058} {24.6,1416161108} {0.2.8,1803285852} {under the weather pt.1 v1.4.15.4,2039181790} {2.0,2167036904} {1.3.5,2324689937} {2.8.8,2410967470} {1.3.1,2477889104} {1.00.03.28,2486802405} {6.0.4,2503437364} {2.4.1,2537774396} {1.0.126,2597204554} {1.1.3,2665263549} {1.2.2,2847806795} {23-12-28,2847908822} {0.2.0,2854057841} {1.0.2.,2876537244} {6.3.1,2937640068} {1.0.4.,2948633273} {5.0.5,3055010657}
-[00:00:07]: [Workshop] ItemQuery finished all queries, moving to download phase
-[00:00:07]: [Workshop] ItemQuery downloading 2 pending mods marked to download
-[00:00:07]: [Workshop] DownloadPublishedFile [10] 1228256860
-[00:00:07]: [Workshop] DownloadPublishedFile [10] 2281925291
-[00:00:16]: [Workshop] OnDownloadPublishedFile [37] 1228256860
-[00:00:16]: [Workshop] ODPF failed entirely: 37
-[00:00:17]: [Workshop] OnDownloadPublishedFile [37] 2281925291
-[00:00:17]: [Workshop] ODPF failed entirely: 37
+[00:00:08]: [Workshop] ModQuery queued to download IDs: 1228256860 2281925291
+[00:00:08]: [Workshop] ModQuery already have IDs: {0.58,666155465} {3.0,1111658995} {87,1185229307} {2.16,1207269058} {24.6,1416161108} {0.2.8,1803285852} {under the weather pt.1 v1.4.16.0,2039181790} {2.0,2167036904} {1.3.5,2324689937} {2.8.8,2410967470} {1.3.1,2477889104} {1.00.03.28,2486802405} {6.0.4,2503437364} {2.4.1,2537774396} {1.0.126,2597204554} {1.1.3,2665263549} {1.2.2,2847806795} {24-4-3,2847908822} {0.2.0,2854057841} {1.0.2.,2876537244} {6.3.4.4,2937640068} {1.0.4.,2948633273} {5.0.5,3055010657}
+[00:00:08]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:08]: [Workshop] ItemQuery downloading 2 pending mods marked to download
+[00:00:08]: [Workshop] DownloadPublishedFile [10] 1228256860
+[00:00:08]: [Workshop] DownloadPublishedFile [10] 2281925291
+[00:00:13]: [Workshop] OnDownloadPublishedFile [37] 1228256860
+[00:00:13]: [Workshop] ODPF failed entirely: 37
+[00:00:14]: [Workshop] OnDownloadPublishedFile [37] 2281925291
+[00:00:14]: [Workshop] ODPF failed entirely: 37
 [00:00:38]: DownloadServerMods timed out with no response from Workshop...
 [00:00:38]: FinishDownloadingServerMods Complete! Process trying to quit nicely..
 [00:00:38]: SUCCESS: Loaded modoverrides.lua	
-[00:00:38]: modoverrides.lua enabling workshop-2847908822	
 [00:00:38]: modoverrides.lua enabling workshop-1416161108	
 [00:00:38]: modoverrides.lua enabling workshop-1207269058	
 [00:00:38]: modoverrides.lua enabling workshop-2167036904	
@@ -100,7 +99,6 @@
 [00:00:38]: modoverrides.lua enabling workshop-2503437364	
 [00:00:38]: modoverrides.lua enabling workshop-2537774396	
 [00:00:38]: modoverrides.lua enabling workshop-2854057841	
-[00:00:38]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
 [00:00:38]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1416161108	
 [00:00:38]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
 [00:00:38]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2167036904	
@@ -117,8 +115,6 @@
 [00:00:38]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
 [00:00:38]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
 [00:00:38]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
-[00:00:38]: Could not load mod_config_data/modconfiguration_workshop-2847908822_CLIENT	
-[00:00:38]: Loading mod: workshop-2847908822 ([DST] Performance Pack) Version:23-12-28	
 [00:00:38]: Could not load mod_config_data/modconfiguration_workshop-1416161108_CLIENT	
 [00:00:38]: Loading mod: workshop-1416161108 (Camp Security) Version:24.6	
 [00:00:38]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
@@ -136,7 +132,7 @@
 [00:00:38]: Could not load mod_config_data/modconfiguration_workshop-2477889104_CLIENT	
 [00:00:38]: Loading mod: workshop-2477889104 (Beefalo Status Bar) Version:1.3.1	
 [00:00:38]: Could not load mod_config_data/modconfiguration_workshop-2937640068_CLIENT	
-[00:00:38]: Loading mod: workshop-2937640068 (Achievement Chasni Mod) Version:6.3.1	
+[00:00:38]: Loading mod: workshop-2937640068 (Achievement Chasni Mod) Version:6.3.4.4	
 [00:00:38]: Could not load mod_config_data/modconfiguration_workshop-2324689937_CLIENT	
 [00:00:38]: Loading mod: workshop-2324689937 (More equip slots) Version:1.3.5	
 [00:00:38]: Could not load mod_config_data/modconfiguration_workshop-1111658995_CLIENT	
@@ -485,7 +481,7 @@
 [00:00:38]: Overriding mod workshop-2503437364's option RETICULE with value true	
 [00:00:38]: Overriding mod workshop-2503437364's option ATTRIBUTE_1 with value true	
 [00:00:38]: Overriding mod workshop-2503437364's option ATTRIBUTE_19 with value true	
-[00:00:38]: Overriding mod workshop-2503437364's option PROB_HUNTS_BOSSES with value 0.1	
+[00:00:38]: Overriding mod workshop-2503437364's option PROB_HUNTS_BOSSES with value 1	
 [00:00:38]: Overriding mod workshop-2503437364's option COLOURS with value 3	
 [00:00:38]: Overriding mod workshop-2503437364's option ATTRIBUTE_9 with value true	
 [00:00:38]: Overriding mod workshop-2503437364's option Ore Options with value 0	
@@ -508,12 +504,12 @@
 [00:00:38]: Overriding mod workshop-2503437364's option ATTRIBUTE_8 with value true	
 [00:00:38]: Overriding mod workshop-2503437364's option ATTRIBUTE_13 with value true	
 [00:00:38]: Overriding mod workshop-2503437364's option NO_SAME_MODS with value false	
-[00:00:38]: Overriding mod workshop-2503437364's option CHANCE_MODIFIER with value 0	
+[00:00:38]: Overriding mod workshop-2503437364's option CHANCE_MODIFIER with value 1	
 [00:00:38]: Overriding mod workshop-2503437364's option ATTRIBUTE_18 with value true	
 [00:00:38]: Overriding mod workshop-2503437364's option HUNTS_DIFFICULTY with value 10	
-[00:00:38]: Overriding mod workshop-2503437364's option CHANCE_MODIFIER2 with value 0.01	
+[00:00:38]: Overriding mod workshop-2503437364's option CHANCE_MODIFIER2 with value 0.05	
 [00:00:38]: Overriding mod workshop-2503437364's option CRAFT_ORE_ADAMANTITE with value false	
-[00:00:38]: Overriding mod workshop-2503437364's option ADAMANTIT with value 0.01	
+[00:00:38]: Overriding mod workshop-2503437364's option ADAMANTIT with value 0.3	
 [00:00:38]: Overriding mod workshop-2503437364's option HUNTS_BOSSES with value 0.01	
 [00:00:38]: Overriding mod workshop-2503437364's option GLOWING with value 0	
 [00:00:38]: Overriding mod workshop-2503437364's option CRAFT_ORE_DIFFICULTY with value 2	
@@ -524,7 +520,7 @@
 [00:00:38]: Overriding mod workshop-2503437364's option TREASURECHASEDIST with value 4900	
 [00:00:38]: Overriding mod workshop-2503437364's option DESCRIPTION with value 2	
 [00:00:38]: Overriding mod workshop-2503437364's option Hunts options with value 0	
-[00:00:38]: Overriding mod workshop-2503437364's option CHANCE_9 with value 0.25	
+[00:00:38]: Overriding mod workshop-2503437364's option CHANCE_9 with value 2.5	
 [00:00:38]: Overriding mod workshop-2503437364's option FINISHED with value 1	
 [00:00:38]: Overriding mod workshop-2503437364's option ATTRIBUTE_16 with value true	
 [00:00:38]: Overriding mod workshop-2503437364's option QUEST_SYSTEM with value true	
@@ -538,7 +534,7 @@
 [00:00:38]: Overriding mod workshop-2503437364's option CONTROLLER_REFORGE with value 70	
 [00:00:38]: Overriding mod workshop-2503437364's option REALISTIC with value 0	
 [00:00:38]: Overriding mod workshop-2503437364's option CRAFT_ORE_LUMINITE with value false	
-[00:00:38]: Overriding mod workshop-2503437364's option CHANCE_8 with value 2.5	
+[00:00:38]: Overriding mod workshop-2503437364's option CHANCE_8 with value 25	
 [00:00:38]: Overriding mod workshop-2503437364's option REPAIR with value 2	
 [00:00:38]: Overriding mod workshop-2503437364's option BACKPACKS with value 1	
 [00:00:38]: Overriding mod workshop-2503437364's option ATTRIBUTE_14 with value true	
@@ -718,70 +714,63 @@
 [00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_pvz_recipe	
 [00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_tardis_recipe	
 [00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_named_item	
-[00:00:39]: Warning: function AddRecipeTab in modmain is deprecated.	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_1	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_2	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_3	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_4	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_5	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_6	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_7	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_8	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_9	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_10	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_11	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_12	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_zombies_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_phonograph	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_mushroom_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_punk_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_pvz_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_tardis_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_sunflower_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_upholstered_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_harlequin_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_circles_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_mushroom_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_punk_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_pvz_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_tardis_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checker_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checkered_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_geome_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_herringbone_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_octagon_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_ruins_slab_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodmetal_builder	
-[00:00:39]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodpaneling_builder	
-[00:00:39]: upvaluehelper loaded	
-[00:00:39]: modimport: ../mods/workshop-3055010657/scripts/stategraphs/SG_hua_house.lua	
-[00:00:39]: modimport: ../mods/workshop-3055010657/scripts/hua_house_named.lua	
-[00:00:39]: modimport: ../mods/workshop-3055010657/tardis.lua	
-[00:00:39]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Loading modworldgenmain.lua	
-[00:00:39]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:39]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Loading modmain.lua	
-[00:00:39]: modimport: ../mods/workshop-2937640068/main_strings.lua	
-[00:00:39]: modimport: ../mods/workshop-2937640068/main_globalpostInits.lua	
-[00:00:39]: modimport: ../mods/workshop-2937640068/main_achivpostInits.lua	
-[00:00:39]: modimport: ../mods/workshop-2937640068/main_perkpostInits.lua	
-[00:00:39]: modimport: ../mods/workshop-2937640068/main_RoGpostInit.lua	
-[00:00:39]: modimport: ../mods/workshop-2937640068/main_trinketslotpostInit.lua	
-[00:00:39]: modimport: ../mods/workshop-2937640068/main_initialize.lua	
-[00:00:39]: CZ-INFO : Loading save files	
-[00:00:39]: modimport: ../mods/workshop-2937640068/main_recipes.lua	
+[00:00:40]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_1	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_2	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_3	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_4	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_5	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_6	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_7	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_8	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_9	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_10	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_11	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_12	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_zombies_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_phonograph	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_mushroom_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_punk_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_pvz_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_tardis_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_sunflower_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_upholstered_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_harlequin_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_circles_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_mushroom_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_punk_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_pvz_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_tardis_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checker_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checkered_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_geome_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_herringbone_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_octagon_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_ruins_slab_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodmetal_builder	
+[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodpaneling_builder	
+[00:00:40]: upvaluehelper loaded	
+[00:00:40]: modimport: ../mods/workshop-3055010657/scripts/stategraphs/SG_hua_house.lua	
+[00:00:40]: modimport: ../mods/workshop-3055010657/scripts/hua_house_named.lua	
+[00:00:40]: modimport: ../mods/workshop-3055010657/tardis.lua	
+[00:00:40]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Loading modworldgenmain.lua	
+[00:00:40]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:40]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Loading modmain.lua	
+[00:00:40]: modimport: ../mods/workshop-2937640068/main_strings.lua	
+[00:00:40]: modimport: ../mods/workshop-2937640068/main_globalpostInits.lua	
+[00:00:40]: modimport: ../mods/workshop-2937640068/main_achivpostInits.lua	
+[00:00:40]: modimport: ../mods/workshop-2937640068/main_perkpostInits.lua	
+[00:00:40]: modimport: ../mods/workshop-2937640068/main_RoGpostInit.lua	
+[00:00:40]: modimport: ../mods/workshop-2937640068/main_trinketslotpostInit.lua	
+[00:00:40]: modimport: ../mods/workshop-2937640068/main_initialize.lua	
+[00:00:40]: CZ-INFO : Loading save files	
+[00:00:40]: modimport: ../mods/workshop-2937640068/main_recipes.lua	
 [00:00:40]: modimport: ../mods/workshop-2937640068/main_containers.lua	
 [00:00:40]: modimport: ../mods/workshop-2937640068/main_winonaexpert.lua	
 [00:00:40]: modimport: ../mods/workshop-2937640068/main_wxexpert.lua	
 [00:00:40]: modimport: ../mods/workshop-2937640068/main_warlyexpert.lua	
 [00:00:40]: modimport: ../mods/workshop-2937640068/scripts/functions/customtechtree.lua	
 [00:00:40]: modimport: ../mods/workshop-2937640068/main_fx.lua	
-[00:00:40]: Mod: workshop-2847908822 ([DST] Performance Pack)	Loading modworldgenmain.lua	
-[00:00:40]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:40]: Mod: workshop-2847908822 ([DST] Performance Pack)	Loading modmain.lua	
-[00:00:40]: modimport: ../mods/workshop-2847908822/1.lua	
-[00:00:40]: modimport: ../mods/workshop-2847908822/10.lua	
-[00:00:40]: modimport: ../mods/workshop-2847908822/14.lua	
-[00:00:40]: modimport: ../mods/workshop-2847908822/15.lua	
 [00:00:40]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
 [00:00:40]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:40]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
@@ -888,184 +877,184 @@
 [00:00:45]: Mod: workshop-2876537244 (The Ever-Dagger)	  Registering prefab file: prefabs/powerpowder_big	
 [00:00:45]: Mod: workshop-2876537244 (The Ever-Dagger)	    powerpowder_big	
 [00:00:45]: Mod: workshop-2876537244 (The Ever-Dagger)	  Registering default mod prefab	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/terraprisma	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/terraprisma_magic	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_red	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_green	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_blue	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_yellow	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_orange	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_purple	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/opticstaff	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    opticstaff	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/eyeofterror_summon	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    eyeofterror_summon1	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    eyeofterror_summon2	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/laser	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laser	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    chasni_playerlaser	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserempty	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    chasni_playerlaserempty	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserscorch	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    chasni_lasertrail	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserhit	
-[00:00:45]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
-[00:00:45]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
-[00:00:45]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
-[00:00:45]: Mod: workshop-2665263549 (Colosseum)	Registering prefabs	
-[00:00:45]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/colosseum_title	
-[00:00:45]: Mod: workshop-2665263549 (Colosseum)	    colosseum_title	
-[00:00:45]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/maxwell_torch	
-[00:00:45]: Mod: workshop-2665263549 (Colosseum)	    maxwell_torch	
-[00:00:45]: Mod: workshop-2665263549 (Colosseum)	    maxwell_torch_placer	
-[00:00:45]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/maxwell_torch_flame	
-[00:00:45]: Mod: workshop-2665263549 (Colosseum)	    maxwell_torch_flame	
-[00:00:45]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/enemyping	
-[00:00:45]: Mod: workshop-2665263549 (Colosseum)	    enemyping	
-[00:00:45]: Mod: workshop-2665263549 (Colosseum)	  Registering default mod prefab	
-[00:00:45]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
-[00:00:45]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
-[00:00:45]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
-[00:00:45]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/secoin	
-[00:00:45]: Mod: workshop-2847806795 ( Economia Simples )	    secoin	
-[00:00:45]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/stealer	
-[00:00:45]: Mod: workshop-2847806795 ( Economia Simples )	    stealer	
-[00:00:45]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/goldstaff	
-[00:00:45]: Mod: workshop-2847806795 ( Economia Simples )	    goldstaff	
-[00:00:45]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/vipcard	
-[00:00:45]: Mod: workshop-2847806795 ( Economia Simples )	    vipcard	
-[00:00:45]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/luckamulet	
-[00:00:45]: Mod: workshop-2847806795 ( Economia Simples )	    luckamulet	
-[00:00:45]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/coin_bundle	
-[00:00:45]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
-[00:00:45]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
-[00:00:45]: Mod: workshop-2324689937 (More equip slots)	Registering prefabs	
-[00:00:45]: Mod: workshop-2324689937 (More equip slots)	  Registering default mod prefab	
-[00:00:45]: Mod: workshop-1416161108 (Camp Security)	Registering prefabs	
-[00:00:45]: Mod: workshop-1416161108 (Camp Security)	  Registering default mod prefab	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Registering prefabs	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/modifier_ores	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    adamantit_ore	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    chlorophyte_ore	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    luminite_ore	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    recycled_7	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    recycled_8	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    recycled_9	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/modifier_duelist	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    modifier_duelist	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/anvil	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    anvil	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    anvil_placer	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/schatzkarte	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    schatzkarte	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/schatztruhe	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    schatztruhe	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/treasurechasechest	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    treasurechasechest	
-[00:00:45]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering default mod prefab	
-[00:00:45]: Could not preload undefined prefab (beequeenhat)
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	Registering prefabs	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_door_exit	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit1	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit2	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit3	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_wall	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_floor	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floor	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallpaper	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu1	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2_light	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_in	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1_in	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz_in	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis_in	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_mushroom_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_sunflower_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_upholstered_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_harlequin_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_circles_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_punk_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_pvz_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_tardis_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_mushroom_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checker_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checkered_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_geome_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_herringbone_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_octagon_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_ruins_slab_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodmetal_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodpaneling_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_punk_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_pvz_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_tardis_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_lights	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red1	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red2	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round_light	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk_light	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_light_light	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_light	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house1	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_named_item	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_named_item	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_pvz	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_tardis	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_fake	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_interiors	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_phonograph	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph_placer	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_zombies	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies_builder	
-[00:00:45]: Mod: workshop-3055010657 (Sweet House fix)	  Registering default mod prefab	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/terraprisma	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/terraprisma_magic	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_red	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_green	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_blue	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_yellow	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_orange	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_purple	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/opticstaff	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    opticstaff	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/eyeofterror_summon	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    eyeofterror_summon1	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    eyeofterror_summon2	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/laser	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laser	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    chasni_playerlaser	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserempty	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    chasni_playerlaserempty	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserscorch	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    chasni_lasertrail	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserhit	
+[00:00:46]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
+[00:00:46]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
+[00:00:46]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
+[00:00:46]: Mod: workshop-2665263549 (Colosseum)	Registering prefabs	
+[00:00:46]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/colosseum_title	
+[00:00:46]: Mod: workshop-2665263549 (Colosseum)	    colosseum_title	
+[00:00:46]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/maxwell_torch	
+[00:00:46]: Mod: workshop-2665263549 (Colosseum)	    maxwell_torch	
+[00:00:46]: Mod: workshop-2665263549 (Colosseum)	    maxwell_torch_placer	
+[00:00:46]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/maxwell_torch_flame	
+[00:00:46]: Mod: workshop-2665263549 (Colosseum)	    maxwell_torch_flame	
+[00:00:46]: Mod: workshop-2665263549 (Colosseum)	  Registering prefab file: prefabs/enemyping	
+[00:00:46]: Mod: workshop-2665263549 (Colosseum)	    enemyping	
+[00:00:46]: Mod: workshop-2665263549 (Colosseum)	  Registering default mod prefab	
+[00:00:46]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
+[00:00:46]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
+[00:00:46]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
+[00:00:46]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/secoin	
+[00:00:46]: Mod: workshop-2847806795 ( Economia Simples )	    secoin	
+[00:00:46]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/stealer	
+[00:00:46]: Mod: workshop-2847806795 ( Economia Simples )	    stealer	
+[00:00:46]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/goldstaff	
+[00:00:46]: Mod: workshop-2847806795 ( Economia Simples )	    goldstaff	
+[00:00:46]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/vipcard	
+[00:00:46]: Mod: workshop-2847806795 ( Economia Simples )	    vipcard	
+[00:00:46]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/luckamulet	
+[00:00:46]: Mod: workshop-2847806795 ( Economia Simples )	    luckamulet	
+[00:00:46]: Mod: workshop-2847806795 ( Economia Simples )	  Registering prefab file: prefabs/coin_bundle	
+[00:00:46]: Mod: workshop-2847806795 ( Economia Simples )	    coin_bundle	
+[00:00:46]: Mod: workshop-2847806795 ( Economia Simples )	  Registering default mod prefab	
+[00:00:46]: Mod: workshop-2324689937 (More equip slots)	Registering prefabs	
+[00:00:46]: Mod: workshop-2324689937 (More equip slots)	  Registering default mod prefab	
+[00:00:46]: Mod: workshop-1416161108 (Camp Security)	Registering prefabs	
+[00:00:46]: Mod: workshop-1416161108 (Camp Security)	  Registering default mod prefab	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Registering prefabs	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/modifier_ores	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    adamantit_ore	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    chlorophyte_ore	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    luminite_ore	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    recycled_7	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    recycled_8	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    recycled_9	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/modifier_duelist	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    modifier_duelist	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/anvil	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    anvil	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    anvil_placer	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/schatzkarte	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    schatzkarte	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/schatztruhe	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    schatztruhe	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/treasurechasechest	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    treasurechasechest	
+[00:00:46]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering default mod prefab	
+[00:00:46]: Could not preload undefined prefab (beequeenhat)
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	Registering prefabs	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_door_exit	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit1	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit2	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit3	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_wall	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_floor	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floor	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallpaper	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu1	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2_light	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_in	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1_in	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz_in	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis_in	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_mushroom_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_sunflower_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_upholstered_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_harlequin_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_circles_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_punk_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_pvz_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_tardis_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_mushroom_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checker_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checkered_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_geome_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_herringbone_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_octagon_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_ruins_slab_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodmetal_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodpaneling_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_punk_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_pvz_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_tardis_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_lights	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red1	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red2	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round_light	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk_light	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_light_light	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_light	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house1	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_named_item	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_named_item	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_pvz	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_tardis	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_fake	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_interiors	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_phonograph	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph_placer	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_zombies	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies_builder	
+[00:00:46]: Mod: workshop-3055010657 (Sweet House fix)	  Registering default mod prefab	
 [00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Registering prefabs	
 [00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/seffc	
 [00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    seffc	
@@ -1440,310 +1429,298 @@
 [00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_basefan	
 [00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_basefan_placer	
 [00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/sprinkler	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_sprinkler	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_sprinkler_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/water_spray	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    water_spray	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/water_pipe	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    water_pipe	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/rain_drop	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    rain_drop	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/city_lamp	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_city_lamp	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_city_lamp_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/pugalisk_trapdoor	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pugalisk_trapdoor	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pugalisk_trapdoor_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/materialmaker	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ropemaker	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    boardsmaker	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    cutstonemaker	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    gemmaker	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    materialmaker_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/telipad	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    beacon	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_telipad	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_telipad_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/telebrella	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_telebrella	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    telebrella_glow	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/thumper	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_thumper	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_thumper_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/smelter	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_smelter	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_smelter_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/propelomatic	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    propelomatic	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    propelomatic_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/chronoflux	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chronoflux	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chronoflux_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/accomplishrine	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    accomplishrine	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    accomplishrine_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/fluffyhouse	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fluffyhouse	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fluffyhouse_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/fluffy	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_fluffy	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wonkey/wonkey_burrow	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wonkey_burrow	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wurt/mermprotector	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    mermprotector	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/wargfant	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_wargfant	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/wargfant_firering	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wargfant_fire	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wargfant_firering	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/snapdragon	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/slip	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slip	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/slipstor	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slipstor	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/brrrd	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brrrd_summer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brrrd_winter	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/brrrd_ring	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    blackfx_ring	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    redfx_ring	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    orangefx_ring	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    purplefx_ring	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    whitefx_ring	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bluefx_ring	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/blackfly	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_blackfly	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/dungpile	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_dungpile	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/giantgrub	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_giantgrub	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/weevole	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_weevole	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/crocodog	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crocodog	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_watercrocodog	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_poisoncrocodog	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crocodogspawner	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/spidermonkey	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_spidermonkey	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/spidermonkey_creep	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    spidermonkey_creep	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/hippopotamoose	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hippopotamoose	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/pangolden	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pangolden	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/adultflytrap	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_adultflytrap	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/grabbingvine	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_grabbingvine	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/treeguard	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_treeguard	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/treeguard_coconut	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_treeguard_coconut	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/mandrakeman	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mandrakeman	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/poison_spider	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_spider_poison	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/poison_mosquito	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mosquito_poison	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/poison_frog	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_frog_poison	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/poison_gland	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    poison_gland	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    poison_antidote	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_deer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_green	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_yellow	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_orange	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_purple	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_deer_fx	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_green_charge	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_orange_charge	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_yellow_charge	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_deer_green_circle_fx	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_green_circle	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_green_circle_overlay	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_deer_orange_circle_fx	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_orange_circle	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_deer_yellow_circle_fx	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_yellow_circle_explode	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_yellow_circle	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_deer_purple_circle_fx	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_purple_circle	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_deerantler	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_klaussackkey	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_klaussack	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_klaus_sack	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_klaus	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_klaus	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancientherald	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancientherald	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancientherald_firerain	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancientherald_firerain	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancientherald_firerainshadow	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancientherald_firerainimpact	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancientherald_firerainimpact	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancientherald_lavapool	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancientherald_lavapool	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/sealnado	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_sealnado	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/seal	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_seal	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/otter	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_otter	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancient_hulk	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancient_hulk	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancient_hulk_mine	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancient_hulk_orb	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancient_hulk_marker	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancient_robots	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_spider	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_claw	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_leg	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_head	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancient_robots_assembly	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_assembly	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/snapdragon_flower	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon_flower	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/cocoontrees	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_normal	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_cocoon	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_burnt	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_stump	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/new_seeds	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontreeseed	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontreeseed_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon_seed	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon_seed_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/woodenpigstatue	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_woodenpigstatue	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/windconch	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_windconch	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/birdwhistle	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_birdwhistle	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_birdwhistlecorrupted	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/tinker_house	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    tinkertower	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    tinkertower_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_batbat	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_batbat	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_minerhat	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_minerhat	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_minerhatlight	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_shovel	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_shovel	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_shovel_ground	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_farmplot	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_farmplot	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_farmplot_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/medicalkit	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    medicalkit	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/armorgold	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    armorgold	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_fencerotator	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_fencerotator	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_boat	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_player_collision	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_item_collision	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_item	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_item_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/oar_stopper	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    oar_stopper	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_amulet	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_amulet	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_blueamulet	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_greenamulet	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_catcoonhat	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_catcoonhat	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_whip	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_whip	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_treasurechest	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_treasurechest	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_treasurechest_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/voker_alacrity	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    voker_alacrity	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/voker_icewall	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    voker_icewall	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/voker_forgespirit	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    voker_forgespirit	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    voker_forgespirit_proj	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/voker_tornado	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    voker_tornado	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/dark_beeguard	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dark_beeguard	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/chasni_kitcoon	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kitcoon_healer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/basicitems	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancient_remnant	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_exort_feather	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_quas_feather	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_grub_jaw	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_grub_skull	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon_petal	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hippo_skin	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hippo_antler	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_wargfant_tooth	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_wargfant_fur	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_seal_fur	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slipstor_fur	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crocodog_skin	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pangolden_scale	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_palmtreeguard_log	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_metalbit	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    trinket_chasni_1	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/slipscraft	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    slipscraft	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/trap_flytrap	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    trap_flytrap	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dug_trap_flytrap	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dug_trap_flytrap_placer	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/crocpack	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    crocpack	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/crockit	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    crockit	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/hulkhat	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    hulkhat	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/hulkgloves	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    hulkgloves	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/uncontested/upgraded_redbluestaff	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_firestaff	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_icestaff	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/uncontested/upgraded_beehat	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_beehat	
-[00:00:46]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering default mod prefab	
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/sparks_green.zip
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:46]: Tried to add build [bearger_ground_fx] from file [anim/bearger_ground_fx.zip] but we've already added a build with that name!
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:46]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_sprinkler	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_sprinkler_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/water_spray	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    water_spray	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/water_pipe	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    water_pipe	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/rain_drop	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    rain_drop	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/city_lamp	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_city_lamp	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_city_lamp_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/pugalisk_trapdoor	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pugalisk_trapdoor	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pugalisk_trapdoor_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/materialmaker	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ropemaker	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    boardsmaker	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    cutstonemaker	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    gemmaker	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    materialmaker_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/telipad	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    beacon	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_telipad	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_telipad_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/telebrella	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_telebrella	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    telebrella_glow	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/thumper	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_thumper	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_thumper_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/smelter	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_smelter	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_smelter_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/propelomatic	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    propelomatic	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    propelomatic_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/chronoflux	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chronoflux	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chronoflux_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/winona/accomplishrine	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    accomplishrine	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    accomplishrine_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/fluffyhouse	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fluffyhouse	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fluffyhouse_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/fluffy	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_fluffy	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wonkey/wonkey_burrow	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wonkey_burrow	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wurt/mermprotector	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    mermprotector	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/wargfant	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_wargfant	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/wargfant_firering	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wargfant_fire	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wargfant_firering	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/snapdragon	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/slip	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slip	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/slipstor	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slipstor	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/brrrd	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brrrd_summer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brrrd_winter	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/brrrd_ring	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    blackfx_ring	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    redfx_ring	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    orangefx_ring	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    purplefx_ring	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    whitefx_ring	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bluefx_ring	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/blackfly	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_blackfly	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/dungpile	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_dungpile	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/giantgrub	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_giantgrub	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/weevole	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_weevole	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/crocodog	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crocodog	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_watercrocodog	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_poisoncrocodog	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crocodogspawner	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/spidermonkey	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_spidermonkey	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/spidermonkey_creep	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    spidermonkey_creep	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/hippopotamoose	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hippopotamoose	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/pangolden	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pangolden	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/adultflytrap	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_adultflytrap	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/grabbingvine	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_grabbingvine	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/treeguard	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_treeguard	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/treeguard_coconut	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_treeguard_coconut	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/mandrakeman	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mandrakeman	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/poison_spider	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_spider_poison	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/poison_mosquito	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mosquito_poison	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/poison_frog	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_frog_poison	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/poison_gland	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    poison_gland	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    poison_antidote	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_deer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_green	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_yellow	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_orange	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_purple	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_deer_fx	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_green_charge	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_orange_charge	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_yellow_charge	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_deer_green_circle_fx	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_green_circle	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_green_circle_overlay	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_deer_orange_circle_fx	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_orange_circle	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_deer_yellow_circle_fx	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_yellow_circle_explode	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_yellow_circle	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_deer_purple_circle_fx	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    deer_purple_circle	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_deerantler	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_klaussackkey	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_klaussack	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_klaus_sack	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_klaus	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_klaus	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancientherald	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancientherald	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancientherald_firerain	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancientherald_firerain	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancientherald_firerainshadow	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancientherald_firerainimpact	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancientherald_firerainimpact	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancientherald_lavapool	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancientherald_lavapool	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/sealnado	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_sealnado	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/seal	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_seal	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/otter	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_otter	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancient_hulk	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancient_hulk	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancient_hulk_mine	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancient_hulk_orb	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancient_hulk_marker	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancient_robots	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_spider	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_claw	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_leg	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_head	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancient_robots_assembly	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_assembly	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_crabking_claw	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_firecrabking_claw	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_watercrabking_claw	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_icecrabking_claw	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_shadowcrabking_claw	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_lunarcrabking_claw	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_crabking_claw_proj	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_fire_proj	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_water_proj	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_ice_proj	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_electric_proj	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_lunar_proj	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_shadow_proj	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/snapdragon_flower	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon_flower	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/cocoontrees	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_normal	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_cocoon	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_burnt	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_stump	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/new_seeds	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontreeseed	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontreeseed_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon_seed	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon_seed_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/woodenpigstatue	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_woodenpigstatue	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/windconch	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_windconch	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/birdwhistle	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_birdwhistle	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_birdwhistlecorrupted	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/tinker_house	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    tinkertower	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    tinkertower_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_batbat	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_batbat	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_minerhat	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_minerhat	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_minerhatlight	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_shovel	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_shovel	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_shovel_ground	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_farmplot	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_farmplot	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_farmplot_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/medicalkit	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    medicalkit	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/armorgold	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    armorgold	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_fencerotator	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_fencerotator	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_boat	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_player_collision	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_item_collision	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_item	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_item_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/oar_stopper	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    oar_stopper	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_amulet	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_amulet	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_blueamulet	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_greenamulet	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_catcoonhat	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_catcoonhat	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_whip	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_whip	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_treasurechest	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_treasurechest	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_treasurechest_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/voker_alacrity	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    voker_alacrity	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/voker_icewall	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    voker_icewall	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/voker_forgespirit	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    voker_forgespirit	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    voker_forgespirit_proj	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/voker_tornado	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    voker_tornado	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/dark_beeguard	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dark_beeguard	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/chasni_kitcoon	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kitcoon_healer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/basicitems	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancient_remnant	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_exort_feather	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_quas_feather	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_grub_jaw	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_grub_skull	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon_petal	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hippo_skin	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hippo_antler	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_wargfant_tooth	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_wargfant_fur	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_seal_fur	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slipstor_fur	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crocodog_skin	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pangolden_scale	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_palmtreeguard_log	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_metalbit	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    trinket_chasni_1	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/slipscraft	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    slipscraft	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/trap_flytrap	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    trap_flytrap	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dug_trap_flytrap	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dug_trap_flytrap_placer	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/crocpack	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    crocpack	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/crockit	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    crockit	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/hulkhat	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    hulkhat	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/hulkgloves	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    hulkgloves	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/uncontested/upgraded_redbluestaff	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_firestaff	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_icestaff	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/uncontested/upgraded_beehat	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_beehat	
+[00:00:47]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering default mod prefab	
+[00:00:47]: Could not preload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
+[00:00:47]: Could not preload undefined prefab (chasni_crab_shadowlunarorgan)
 [00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
-[00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:47]: AnimationFile::LoadFile Failed to open anim/batbat_batfx.zip
-[00:00:47]: AnimationFile::LoadFile Failed to open anim/batbat_batfx.zip
-[00:00:47]: AnimationFile::LoadFile Failed to open anim/batbat_batfx.zip
-[00:00:47]: AnimationFile::LoadFile Failed to open anim/batbat_batfx.zip
+[00:00:47]: AnimationFile::LoadFile Failed to open anim/sparks_green.zip
 [00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
@@ -1752,239 +1729,124 @@
 [00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:47]: AnimationFile::LoadFile Failed to open anim/bishop_projectile_yellow.zip
+[00:00:47]: Tried to add build [bearger_ground_fx] from file [anim/bearger_ground_fx.zip] but we've already added a build with that name!
+[00:00:47]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:48]: Could not preload undefined prefab (chasni_fire_crab_king_claw_fx_build)
+[00:00:48]: Could not preload undefined prefab (chasni_crab_shadowfireorgan)
+[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:48]: Could not preload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
+[00:00:48]: Could not preload undefined prefab (chasni_crab_shadowshadoworgan)
 [00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: Could not preload undefined prefab (fryfocals_charge)
-[00:00:48]: Could not preload undefined prefab (paint_fx)
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:48]: Mod: workshop-2847908822 ([DST] Performance Pack)	Registering prefabs	
-[00:00:48]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Registering default mod prefab	
-[00:00:48]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
-[00:00:48]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
-[00:00:48]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
-[00:00:48]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
-[00:00:48]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
-[00:00:48]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
-[00:00:48]: 	Load FE	
-[00:00:49]: THREAD - started 'FilesExistAsyncThread' (273842236100448)
-[00:00:49]: 	Load FE: done	
-[00:00:49]: FilesExistAsyncThread started (24700 files)...
-[00:00:49]: Check for write access: TRUE
-[00:00:49]: Check for read access: TRUE
-[00:00:49]: Available disk space for save files: 130821 MB
-[00:00:49]: ModIndex: Load sequence finished successfully.	
-[00:00:49]: Reset() returning
-[00:00:49]: Collecting garbage...
-[00:00:49]: Error: Could not find file: anim/chop_mangrove_pink.zip
-[00:00:49]: Error: Could not find file: anim/chop_mangrove_pink.zip
-[00:00:49]: Error: Could not find file: anim/hacking_tall_grass_fx.zip
-[00:00:49]: Error: Could not find file: anim/snake_scales_fx.zip
-[00:00:49]: Error: Could not find file: anim/splash_water.zip
-[00:00:49]: Error: Could not find file: anim/water_bombsplash.zip
-[00:00:49]: Error: Could not find file: anim/sparks_green.zip
-[00:00:49]: Error: Could not find file: anim/robot_leaf_fx.zip
-[00:00:49]: Error: Could not find file: anim/hacking_fx.zip
-[00:00:49]: Error: Could not find file: anim/circle_puff_fx.zip
-[00:00:49]: Error: Could not find file: anim/sparklefx.zip
-[00:00:49]: Error: Could not find file: anim/laser_ring_fx.zip
-[00:00:49]: Error: Could not find file: anim/living_suit_explode_fx.zip
-[00:00:49]: Error: Could not find file: anim/rock_hit_debris.zip
-[00:00:49]: Error: Could not find file: anim/shock_machines_fx.zip
-[00:00:49]: Error: Could not find file: anim/hacking_bamboo_fx.zip
-[00:00:49]: Error: Could not find file: anim/chop_jungle.zip
-[00:00:49]: Error: Could not find file: anim/chop_jungle.zip
-[00:00:49]: Error: Could not find file: anim/chop_mangrove.zip
-[00:00:49]: Error: Could not find file: anim/chop_mangrove.zip
-[00:00:49]: Error: Could not find file: anim/vortex_cloak_fx.zip
-[00:00:49]: Error: Could not find file: anim/chasni_music_fx.zip
-[00:00:49]: Error: Could not find file: anim/alchelab.zip
-[00:00:49]: Error: Could not find file: anim/accomplishment_fireworks.zip
-[00:00:49]: Error: Could not find file: anim/accomplishment_fireworks.zip
-[00:00:49]: Error: Could not find file: anim/batbat_batfx.zip
-[00:00:49]: Error: Could not find file: anim/batbat_batfx.zip
-[00:00:49]: Error: Could not find file: anim/batbat_batfx.zip
-[00:00:49]: Error: Could not find file: anim/batbat_batfx.zip
-[00:00:49]: Error: Could not find file: anim/willow_shield.zip
-[00:00:49]: Error: Could not find file: anim/chasni_fx_wathgrithr_buff.zip
-[00:00:49]: Error: Could not find file: anim/chasni_fx_wathgrithr_buff.zip
-[00:00:49]: Error: Could not find file: anim/chasni_moon_geyser.zip
-[00:00:49]: Error: Could not find file: anim/chasni_moon_geyser.zip
-[00:00:49]: Error: Could not find file: anim/chasni_moon_geyser.zip
-[00:00:49]: Error: Could not find file: anim/chasni_alterguardian_meteor.zip
-[00:00:49]: Error: Could not find file: anim/laserball.zip
-[00:00:49]: Error: Could not find file: anim/lunar_shadow_books_fxs.zip
-[00:00:49]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:49]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:49]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:49]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:49]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:49]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:49]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:49]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:49]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:49]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:49]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:49]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:49]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:49]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:49]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:49]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:49]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:49]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:49]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:49]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:49]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:49]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: lua_gc took 0.22 seconds
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:49]: ~ShardLuaProxy()
-[00:00:49]: ~cEventLeaderboardProxy()
-[00:00:49]: ~ItemServerLuaProxy()
-[00:00:49]: ~InventoryLuaProxy()
-[00:00:49]: ~NetworkLuaProxy()
-[00:00:49]: ~SimLuaProxy()
-[00:00:49]: FilesExistAsyncThread aborted.
-[00:00:49]: ... FilesExistAsyncThread complete
-[00:00:49]: lua_close took 0.21 seconds
-[00:00:49]: Could not unload undefined prefab (fryfocals_charge)
-[00:00:49]: Could not unload undefined prefab (paint_fx)
-[00:00:49]: Could not unload undefined prefab (beequeenhat)
-[00:00:49]: CurlRequestManager::ClientThread::Main() complete
-[00:00:49]: HttpClient2 discarded 0 callbacks.
-[00:00:50]: Shutting down
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/batbat_batfx.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/batbat_batfx.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/batbat_batfx.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/batbat_batfx.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:49]: Could not preload undefined prefab (chasni_ice_crab_king_claw_fx_build)
+[00:00:49]: Could not preload undefined prefab (chasni_crab_shadowiceorgan)
+[00:00:49]: Could not preload undefined prefab (cckproj_ice)
+[00:00:49]: Could not preload undefined prefab (chasni_water_crab_king_claw_fx_build)
+[00:00:49]: Could not preload undefined prefab (chasni_crab_shadowwaterorgan)
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:49]: Could not preload undefined prefab (fryfocals_charge)
+[00:00:49]: Could not preload undefined prefab (paint_fx)
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_drawing.zip
+[00:00:49]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:50]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:50]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:50]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:50]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:50]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:50]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:50]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:50]: 	Load FE	
+[00:00:51]: THREAD - started 'FilesExistAsyncThread' (252248462454624)
+[00:00:51]: 	Load FE: done	
+[00:00:51]: FilesExistAsyncThread started (24711 files)...
+[00:00:51]: Check for write access: TRUE
+[00:00:51]: Check for read access: TRUE
+[00:00:51]: Available disk space for save files: 99522 MB
+[00:00:51]: ModIndex: Load sequence finished successfully.	
+[00:00:51]: Reset() returning
+[00:00:51]: Collecting garbage...
+[00:00:51]: lua_gc took 0.38 seconds
+[00:00:51]: ~ShardLuaProxy()
+[00:00:51]: ~cEventLeaderboardProxy()
+[00:00:51]: ~ItemServerLuaProxy()
+[00:00:51]: ~InventoryLuaProxy()
+[00:00:51]: ~NetworkLuaProxy()
+[00:00:51]: ~SimLuaProxy()
+[00:00:51]: FilesExistAsyncThread aborted.
+[00:00:51]: ... FilesExistAsyncThread complete
+[00:00:51]: lua_close took 0.23 seconds
+[00:00:52]: Could not unload undefined prefab (cckproj_ice)
+[00:00:52]: Could not unload undefined prefab (chasni_fire_crab_king_claw_fx_build)
+[00:00:52]: Could not unload undefined prefab (chasni_crab_shadowfireorgan)
+[00:00:52]: Could not unload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
+[00:00:52]: Could not unload undefined prefab (chasni_crab_shadowlunarorgan)
+[00:00:52]: Could not unload undefined prefab (chasni_water_crab_king_claw_fx_build)
+[00:00:52]: Could not unload undefined prefab (chasni_crab_shadowwaterorgan)
+[00:00:52]: Could not unload undefined prefab (chasni_ice_crab_king_claw_fx_build)
+[00:00:52]: Could not unload undefined prefab (chasni_crab_shadowiceorgan)
+[00:00:52]: Could not unload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
+[00:00:52]: Could not unload undefined prefab (chasni_crab_shadowshadoworgan)
+[00:00:52]: Could not unload undefined prefab (fryfocals_charge)
+[00:00:52]: Could not unload undefined prefab (paint_fx)
+[00:00:52]: Could not unload undefined prefab (beequeenhat)
+[00:00:52]: CurlRequestManager::ClientThread::Main() complete
+[00:00:52]: HttpClient2 discarded 1 callbacks.
+[00:00:52]: Shutting down
