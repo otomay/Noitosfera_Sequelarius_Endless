@@ -1,10 +1,10 @@
 [00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 601983
-[00:00:00]: Current time: Fri Apr 12 19:50:01 2024
+[00:00:00]: Current time: Fri Apr 12 19:57:29 2024
 
 [00:00:00]: System Name: Linux
-[00:00:00]: Host Name: 2f12e2782b50
+[00:00:00]: Host Name: a33fa7331478
 [00:00:00]: Release(Kernel) Version: 6.5.0-1019-oracle
 [00:00:00]: Kernel Build Timestamp: #19~22.04.1-Ubuntu SMP Tue Mar 12 23:02:13 UTC 2024
 [00:00:00]: Machine Arch: x86_64
@@ -15,9 +15,9 @@
 [00:00:00]: Command Line Arguments: -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -only_update_server_mods 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (247758704861024)
+[00:00:00]: THREAD - started 'GAClient' (271578616811360)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:4.52
+[00:00:00]: ProfileIndex:5.15
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -26,19 +26,19 @@
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
-[00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: Platform: 1
-[00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (247758574157664)
-[00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
-[00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
-[00:00:01]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
-[00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
-[00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
-[00:00:01]: cGame::InitializeOnMainThread
-[00:00:01]: Renderer initialize: Okay
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'StreamInput' (271578217959264)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
 [00:00:01]: AnimManager initialize: Okay
 [00:00:01]: Buffers initialize: Okay
 [00:00:01]: cDontStarveGame::DoGameSpecificInitialize()

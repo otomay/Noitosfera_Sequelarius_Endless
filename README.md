@@ -19,6 +19,7 @@
 # Títulos conquistados
 - 👹 O Carniceiro: Vapo (`10047` monstros mortos)
 > Concedido ao jogador que mais matou monstros na temporada
+- 🥵 O Masoquista: Vapo (2594 de dano recebido)
 > Concedido ao jogador que mais levou dano na temporada
 - 💀 Natsuki Subaru: Vapo (`45` mortes)
 > Concedido ao jogador que mais morreu na temporada
