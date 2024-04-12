@@ -1,4 +1,4 @@
-[00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Caves/ 
+[00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 601983
 [00:00:00]: Current time: Fri Apr 12 17:06:07 2024
@@ -12,12 +12,12 @@
 [00:00:00]: Build Date: 2373
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Caves 
+[00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Master 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (265766520860512)
+[00:00:00]: THREAD - started 'GAClient' (274199440142176)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:7.64
+[00:00:00]: ProfileIndex:3.95
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -25,13 +25,13 @@
 [00:00:00]: Mounting file system databundles/bigportraits.zip successful.
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
-[00:00:00]: [Steam] SteamGameServer_Init(11000, 12347)
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
 [00:00:01]: [Steam] SteamGameServer_Init success
 [00:00:01]: [Connect] PendingConnection::Reset(true)
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (265766121750368)
+[00:00:01]: THREAD - started 'StreamInput' (274199377997664)
 [00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
 [00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
 [00:00:01]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
@@ -584,35 +584,35 @@
 [00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/postinitfns.lua	
 [00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/postinitclass.lua	
 [00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/actions.lua	
-[00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/consolecommands.lua	
-[00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/init_custom_quests.lua	
-[00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/recipes.lua	
-[00:00:08]: modimport: ../mods/workshop-2597204554/quest_system/scrapbook.lua	
-[00:00:08]: modimport: ../mods/workshop-2597204554/mod_util/insight.lua	
-[00:00:08]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
-[00:00:08]: modimport: ../mods/workshop-1111658995/main/util.lua	
-[00:00:08]: modimport: ../mods/workshop-1111658995/main/showbundle_widgetcreation.lua	
-[00:00:08]: WARNING! Invalid resource handle for atlas 'FROMNUM', did you remember to load the asset?
-[00:00:08]: WARNING! Invalid resource handle for atlas 'FROMNUM', did you remember to load the asset?
-[00:00:08]: Mod: workshop-2537774396 (Discord Thông Báo)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2537774396 (Discord Thông Báo)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2537774396 (Discord Thông Báo)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-2876537244 (The Ever-Dagger)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2876537244 (The Ever-Dagger)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2876537244 (The Ever-Dagger)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-2854057841 (Noitosfera)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2854057841 (Noitosfera)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2854057841 (Noitosfera)	Loading modmain.lua	
-[00:00:08]: modimport: ../mods/workshop-2854057841/main/desummon.lua	
-[00:00:08]: modimport: ../mods/workshop-2854057841/main/enemyselect.lua	
-[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/consolecommands.lua	
+[00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/init_custom_quests.lua	
+[00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/recipes.lua	
+[00:00:07]: modimport: ../mods/workshop-2597204554/quest_system/scrapbook.lua	
+[00:00:07]: modimport: ../mods/workshop-2597204554/mod_util/insight.lua	
+[00:00:07]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1185229307 (Barra de Vida Épica)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-1111658995/main/util.lua	
+[00:00:07]: modimport: ../mods/workshop-1111658995/main/showbundle_widgetcreation.lua	
+[00:00:07]: WARNING! Invalid resource handle for atlas 'FROMNUM', did you remember to load the asset?
+[00:00:07]: WARNING! Invalid resource handle for atlas 'FROMNUM', did you remember to load the asset?
+[00:00:07]: Mod: workshop-2537774396 (Discord Thông Báo)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2537774396 (Discord Thông Báo)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2537774396 (Discord Thông Báo)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-2876537244 (The Ever-Dagger)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2876537244 (The Ever-Dagger)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2876537244 (The Ever-Dagger)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-2854057841 (Noitosfera)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2854057841 (Noitosfera)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2854057841 (Noitosfera)	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-2854057841/main/desummon.lua	
+[00:00:07]: modimport: ../mods/workshop-2854057841/main/enemyselect.lua	
+[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
 [00:00:08]: Mod: workshop-2665263549 (Colosseum)	Loading modworldgenmain.lua	
 [00:00:08]: Mod: workshop-2665263549 (Colosseum)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-2665263549 (Colosseum)	Loading modmain.lua	
@@ -1697,7 +1697,7 @@
 [00:00:14]: Could not preload undefined prefab (chasni_crab_shadowlunarorgan)
 [00:00:14]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:14]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:14]: AnimationFile::LoadFile Failed to open anim/sparks_green.zip
+[00:00:15]: AnimationFile::LoadFile Failed to open anim/sparks_green.zip
 [00:00:15]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:15]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:15]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
@@ -1723,7 +1723,7 @@
 [00:00:15]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:15]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:15]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:15]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
 [00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:16]: AnimationFile::LoadFile Failed to open anim/batbat_batfx.zip
@@ -1775,8 +1775,8 @@
 [00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
 [00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:16]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:17]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:17]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:17]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:17]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:17]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
@@ -1791,7 +1791,7 @@
 [00:00:17]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:17]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:17]: 	Load FE	
-[00:00:17]: THREAD - started 'FilesExistAsyncThread' (265765845974880)
+[00:00:17]: THREAD - started 'FilesExistAsyncThread' (274198698127200)
 [00:00:17]: 	Load FE: done	
 [00:00:17]: FilesExistAsyncThread started (24711 files)...
 [00:00:17]: Check for write access: TRUE
@@ -1800,7 +1800,7 @@
 [00:00:17]: ModIndex: Load sequence finished successfully.	
 [00:00:17]: Reset() returning
 [00:00:18]: [200] Account Communication Success (6)
-[00:00:18]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Caves/save/cached_userid
+[00:00:18]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
 [00:00:18]: Received (KU_2DNgIUgO) from TokenPurpose
 [00:00:18]: Starting Dedicated Server Game	
 [00:00:18]: Network tick rate: U=15(2), D=0
@@ -1808,9 +1808,9 @@
 [00:00:18]:   Dedicated: true
 [00:00:18]:   Online: true
 [00:00:18]:   Passworded: false
-[00:00:18]:   ServerPort: 11000
-[00:00:18]:   SteamAuthPort: 8767
-[00:00:18]:   SteamMasterServerPort: 12347
+[00:00:18]:   ServerPort: 10999
+[00:00:18]:   SteamAuthPort: 8766
+[00:00:18]:   SteamMasterServerPort: 12346
 [00:00:18]:   ClanID: false
 [00:00:18]:   ClanOnly: false
 [00:00:18]:   ClanAdmin: false
@@ -1829,37 +1829,35 @@
 [00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1416161108	
 [00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
 [00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2167036904	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-3055010657	
 [00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2665263549	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2854057841	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2876537244	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-3055010657	
 [00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2597204554	
 [00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2937640068	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2324689937	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1185229307	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2847806795	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2503437364	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
 [00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
-[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2876537244	
-[00:00:18]: Online Server Started on port: 11000
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2324689937	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2854057841	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2847806795	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1185229307	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-2503437364	
+[00:00:18]: Online Server Started on port: 10999
 [00:00:18]: SUCCESS: Loaded modoverrides.lua	
 [00:00:18]: Not applying level data overrides.	
 [00:00:18]: Found a worldgen override file with these contents:	
 [00:00:18]: 	K: 	override_enabled	 V: 	true	
-[00:00:18]: 	K: 	overrides	 V: 	table: 0x4eb6ebd0	
+[00:00:18]: 	K: 	overrides	 V: 	table: 0x6802d3d0	
 [00:00:18]: 		K: 	basicresource_regrowth	 V: 	always	
 [00:00:18]: 		K: 	ghostsanitydrain	 V: 	none	
 [00:00:18]: 		K: 	portalresurection	 V: 	always	
 [00:00:18]: 		K: 	resettime	 V: 	none	
-[00:00:18]: 		K: 	start_location	 V: 	default	
-[00:00:18]: 	K: 	settings_preset	 V: 	DST_CAVE	
-[00:00:18]: 	K: 	worldgen_preset	 V: 	DST_CAVE	
+[00:00:18]: 	K: 	settings_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:18]: 	K: 	worldgen_preset	 V: 	SURVIVAL_TOGETHER	
 [00:00:18]:   sanity-checking worldgenoverride.lua...	
 [00:00:18]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
-[00:00:18]:   contained worldgen preset DST_CAVE, loading...	
-[00:00:18]:   contained settings preset DST_CAVE, loading...	
+[00:00:18]:   contained worldgen preset SURVIVAL_TOGETHER, loading...	
+[00:00:18]:   contained settings preset SURVIVAL_TOGETHER, loading...	
 [00:00:18]: Overwriting savedata with override file.	
-[00:00:18]: Collecting garbage...
 [00:00:18]: Error: Could not find file: anim/chop_mangrove_pink.zip
 [00:00:18]: Error: Could not find file: anim/chop_mangrove_pink.zip
 [00:00:18]: Error: Could not find file: anim/hacking_tall_grass_fx.zip
@@ -1926,6 +1924,7 @@
 [00:00:18]: Error: Could not find file: anim/chasni_slingshotammo.zip
 [00:00:18]: Error: Could not find file: anim/chasni_slingshotammo.zip
 [00:00:18]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:18]: Collecting garbage...
 [00:00:18]: lua_gc took 0.26 seconds
 [00:00:18]: ~ShardLuaProxy()
 [00:00:18]: ~cEventLeaderboardProxy()
@@ -2467,14 +2466,14 @@
 [00:00:24]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modworldgenmain.lua	
 [00:00:24]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modmain.lua	
 [00:00:24]: modimport: ../mods/workshop-2597204554/quest_system/tuning_strings.lua	
-[00:00:24]: [Quest System] Amount of quests:	150	
-[00:00:24]: [Quest System] Amount of quests difficulty 1:	29	
-[00:00:24]: [Quest System] Amount of quests difficulty 2:	41	
-[00:00:24]: [Quest System] Amount of quests difficulty 3:	38	
-[00:00:24]: [Quest System] Amount of quests difficulty 4:	28	
-[00:00:24]: [Quest System] Amount of quests difficulty 5:	14	
-[00:00:24]: modimport: ../mods/workshop-2597204554/quest_system/RPC.lua	
-[00:00:24]: modimport: ../mods/workshop-2597204554/quest_system/Quest_Board_Util.lua	
+[00:00:25]: [Quest System] Amount of quests:	150	
+[00:00:25]: [Quest System] Amount of quests difficulty 1:	29	
+[00:00:25]: [Quest System] Amount of quests difficulty 2:	41	
+[00:00:25]: [Quest System] Amount of quests difficulty 3:	38	
+[00:00:25]: [Quest System] Amount of quests difficulty 4:	28	
+[00:00:25]: [Quest System] Amount of quests difficulty 5:	14	
+[00:00:25]: modimport: ../mods/workshop-2597204554/quest_system/RPC.lua	
+[00:00:25]: modimport: ../mods/workshop-2597204554/quest_system/Quest_Board_Util.lua	
 [00:00:25]: [Quest System] Amount of custom goals:	272	
 [00:00:25]: modimport: ../mods/workshop-2597204554/quest_system/postinitfns.lua	
 [00:00:25]: modimport: ../mods/workshop-2597204554/quest_system/postinitclass.lua	
@@ -2671,7 +2670,7 @@
 [00:00:27]: bloom_enabled	true	
 [00:00:27]: OnFilesLoaded()	
 [00:00:27]: OnUpdatePurchaseStateComplete	
-[00:00:27]: Loading world: session/324D3B74FD686B24/0000001496	
+[00:00:27]: Loading world: session/BF953A8AFDD25F52/0000001496	
 [00:00:27]: Save file is at version 5.146	
 [00:00:27]: Klump load on boot started.	
 [00:00:27]: Klump files loaded: 	0	
@@ -3638,7 +3637,7 @@
 [00:00:35]: 	LOAD BE	
 [00:00:43]: Could not preload undefined prefab (brokenwall_scrap)
 [00:00:45]: 	LOAD BE: done	
-[00:00:45]: Begin Session: 324D3B74FD686B24
+[00:00:45]: Begin Session: BF953A8AFDD25F52
 [00:00:45]: saving to server_temp/server_save	
 [00:00:45]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
 [00:00:45]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
@@ -3658,144 +3657,217 @@
 [00:00:45]: ---### a player is come back! reset the name? ###---	
 [00:00:45]: Loading 19 new character(s)	
 [00:00:46]: Total 19 character(s) loaded	
-[00:01:05]: Loading Nav Grid	
-[00:01:05]: World generated on build 587581 with save version: 5.142, using seed: 1655734220	
-[00:01:05]: setting 	summerlength	15	
-[00:01:05]: setting 	cavemoonphase	quarter	
-[00:01:05]: setting 	iscavefullmoon	false	
-[00:01:05]: setting 	isnightmaredawn	false	
-[00:01:05]: setting 	elapseddaysinseason	14	
-[00:01:05]: setting 	isfullmoon	false	
-[00:01:05]: setting 	moisture	5201.5317382812	
-[00:01:05]: setting 	springlength	20	
-[00:01:05]: setting 	islunarhailing	false	
-[00:01:05]: setting 	isnightmarewild	false	
-[00:01:05]: setting 	nightmaretimeinphase	0.25852566765955	
-[00:01:05]: setting 	precipitationrate	0	
-[00:01:05]: setting 	iswet	false	
-[00:01:05]: setting 	isnewmoon	false	
-[00:01:05]: setting 	israining	false	
-[00:01:05]: setting 	iswinter	false	
-[00:01:05]: setting 	isnightmarewarn	false	
-[00:01:05]: setting 	precipitation	none	
-[00:01:05]: setting 	iscavewaxingmoon	false	
-[00:01:05]: setting 	isacidraining	false	
-[00:01:05]: setting 	moonphase	new	
-[00:01:05]: setting 	remainingdaysinseason	6	
-[00:01:05]: setting 	temperature	11.793027235103	
-[00:01:05]: setting 	wetness	0	
-[00:01:05]: setting 	cycles	1378	
-[00:01:05]: setting 	moistureceil	8279.2607421875	
-[00:01:05]: setting 	isday	false	
-[00:01:05]: setting 	winterlength	15	
-[00:01:05]: setting 	season	autumn	
-[00:01:05]: setting 	iswaxingmoon	true	
-[00:01:05]: setting 	isalterawake	false	
-[00:01:05]: setting 	isnightmarecalm	true	
-[00:01:05]: setting 	isnight	true	
-[00:01:05]: setting 	isdusk	false	
-[00:01:05]: setting 	isspring	false	
-[00:01:05]: setting 	isautumn	true	
-[00:01:05]: setting 	iscaveday	true	
-[00:01:05]: setting 	lunarhaillevel	0	
-[00:01:05]: setting 	pop	0.61351117341266	
-[00:01:05]: setting 	snowlevel	0	
-[00:01:05]: setting 	issnowcovered	false	
-[00:01:05]: setting 	autumnlength	20	
-[00:01:05]: setting 	phase	night	
-[00:01:05]: setting 	nightmaretime	93.069240357439	
-[00:01:05]: setting 	issnowing	false	
-[00:01:05]: setting 	iscavedusk	false	
-[00:01:05]: setting 	nightmarephase	calm	
-[00:01:05]: setting 	timeinphase	0.075464693705241	
-[00:01:05]: setting 	seasonprogress	0.7	
-[00:01:05]: setting 	iscavenight	false	
-[00:01:05]: setting 	iscavenewmoon	false	
-[00:01:05]: setting 	issummer	false	
-[00:01:05]: setting 	cavephase	day	
-[00:01:05]: setting 	time	0.03773234685262	
-[00:01:05]: [Shard] Secondary shard is waiting for LUA...
-[00:01:05]: OVERRIDE: setting	resettime	to	none	
-[00:01:05]: OVERRIDE: setting	basicresource_regrowth	to	always	
-[00:01:05]: OVERRIDE: setting	portalresurection	to	always	
-[00:01:05]: OVERRIDE: setting	ghostsanitydrain	to	none	
-[00:01:24]: Reconstructing topology	
-[00:01:24]: 	...Sorting points	
-[00:01:24]: 	...Sorting edges	
-[00:01:24]: 	...Connecting nodes	
-[00:01:24]: 	...Validating connections	
-[00:01:24]: 	...Housekeeping	
-[00:01:24]: 	...Done!	
-[00:01:24]: 1 uploads added to server. From server_temp
-[00:01:24]: About to start a shard with these settings:
-[00:01:24]:   ShardName: Caves
-[00:01:24]:   ShardID: 4239966897
-[00:01:24]:   ShardRole: SECONDARY
-[00:01:24]:   MasterHost: 127.0.0.1
-[00:01:24]:   MasterBind: (null)
-[00:01:24]:   MasterPort: 10998
-[00:01:24]: [Shard] Connecting to master...
-[00:01:24]: Telling Client our new session identifier: 324D3B74FD686B24
-[00:01:24]: Check for write access: TRUE
-[00:01:24]: Check for read access: TRUE
-[00:01:24]: Available disk space for save files: 81609 MB
-[00:01:24]: ModIndex: Load sequence finished successfully.	
-[00:01:24]: Reset() returning
-[00:01:24]: [Shard] Connection to master failed. Waiting to reconnect...
-[00:01:26]: Validating portal[5] <-> 1[5] (inactive)	
-[00:01:26]: Validating portal[7] <-> 1[7] (inactive)	
-[00:01:26]: Validating portal[9] <-> 1[9] (inactive)	
-[00:01:26]: Validating portal[10] <-> 1[10] (inactive)	
-[00:01:26]: Validating portal[6] <-> 1[6] (inactive)	
-[00:01:26]: Validating portal[1] <-> 1[1] (inactive)	
-[00:01:26]: Validating portal[3] <-> 1[3] (inactive)	
-[00:01:26]: Validating portal[2] <-> 1[2] (inactive)	
-[00:01:26]: Validating portal[4] <-> 1[4] (inactive)	
-[00:01:26]: Validating portal[8] <-> 1[8] (inactive)	
-[00:01:29]: About to start a shard with these settings:
-[00:01:29]:   ShardName: Caves
-[00:01:29]:   ShardID: 4239966897
-[00:01:29]:   ShardRole: SECONDARY
-[00:01:29]:   MasterHost: 127.0.0.1
-[00:01:29]:   MasterBind: (null)
-[00:01:29]:   MasterPort: 10998
-[00:01:29]: [Shard] Connecting to master...
-[00:01:39]: [Shard] Connection to master failed. Waiting to reconnect...
-[00:01:45]: About to start a shard with these settings:
-[00:01:45]:   ShardName: Caves
-[00:01:45]:   ShardID: 4239966897
-[00:01:45]:   ShardRole: SECONDARY
-[00:01:45]:   MasterHost: 127.0.0.1
-[00:01:45]:   MasterBind: (null)
-[00:01:45]:   MasterPort: 10998
-[00:01:45]: [Shard] Connecting to master...
-[00:01:45]: [Shard] Sending secondary shard information to master...
-[00:01:45]: Received MasterInfoPacket row da17a993ec5dd5d523d3e00aff9ab774 region us-east-1
-[00:01:45]: Obtaining secondary shard IP from us-east-1 lobby
-[00:01:45]: [Shard] secondary shard is now ready!
-[00:01:45]: World 1 is now connected	
-[00:01:45]: [SyncWorldSettings] Sending ResyncWorldSettings.	
-[00:01:45]: Validating portal[5] <-> 1[5] (active)	
-[00:01:45]: Validating portal[7] <-> 1[7] (active)	
-[00:01:45]: Validating portal[9] <-> 1[9] (active)	
-[00:01:45]: Validating portal[10] <-> 1[10] (active)	
-[00:01:45]: Validating portal[6] <-> 1[6] (active)	
-[00:01:45]: Validating portal[1] <-> 1[1] (active)	
-[00:01:45]: Validating portal[3] <-> 1[3] (active)	
-[00:01:45]: Validating portal[2] <-> 1[2] (active)	
-[00:01:45]: Validating portal[4] <-> 1[4] (active)	
-[00:01:45]: Validating portal[8] <-> 1[8] (active)	
-[00:01:45]: [SyncWorldSettings] recieved world settings from master shard.	true	
-[00:01:45]: [SyncWorldSettings] applying portalresurection = always from master shard.	
-[00:01:45]: component hauntable already exists on entity 101848 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
-[00:01:45]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
-[00:01:45]: [SyncWorldSettings] applying resettime = none from master shard.	
-[00:01:45]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
-[00:01:45]: [SyncWorldSettings] recieved world settings from master shard.	true	
-[00:01:45]: [SyncWorldSettings] applying portalresurection = always from master shard.	
-[00:01:45]: component hauntable already exists on entity 101848 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
-[00:01:45]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
-[00:01:45]: [SyncWorldSettings] applying resettime = none from master shard.	
-[00:01:45]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
-[00:01:46]: [Shard] secondary shard LUA is now ready!
-[00:01:46]: Sim paused
+[00:00:48]: Loading Nav Grid	
+[00:00:48]: World generated on build 587581 with save version: 5.142, using seed: 1655873162	
+[00:00:48]: setting 	summerlength	15	
+[00:00:48]: setting 	cavemoonphase	quarter	
+[00:00:48]: setting 	iscavefullmoon	false	
+[00:00:48]: setting 	isnightmaredawn	false	
+[00:00:48]: setting 	elapseddaysinseason	14	
+[00:00:48]: setting 	isfullmoon	false	
+[00:00:48]: setting 	moisture	1143.3551025391	
+[00:00:48]: setting 	springlength	20	
+[00:00:48]: setting 	islunarhailing	false	
+[00:00:48]: setting 	isnightmarewild	false	
+[00:00:48]: setting 	nightmaretimeinphase	0	
+[00:00:48]: setting 	precipitationrate	0	
+[00:00:48]: setting 	iswet	false	
+[00:00:48]: setting 	isnewmoon	false	
+[00:00:48]: setting 	israining	false	
+[00:00:48]: setting 	iswinter	false	
+[00:00:48]: setting 	isnightmarewarn	false	
+[00:00:48]: setting 	precipitation	none	
+[00:00:48]: setting 	iscavewaxingmoon	false	
+[00:00:48]: setting 	isacidraining	false	
+[00:00:48]: setting 	moonphase	quarter	
+[00:00:48]: setting 	remainingdaysinseason	6	
+[00:00:48]: setting 	temperature	19.587082450706	
+[00:00:48]: setting 	wetness	0	
+[00:00:48]: setting 	cycles	1378	
+[00:00:48]: setting 	moistureceil	4040.6345214844	
+[00:00:48]: setting 	isday	true	
+[00:00:48]: setting 	winterlength	15	
+[00:00:48]: setting 	season	autumn	
+[00:00:48]: setting 	iswaxingmoon	false	
+[00:00:48]: setting 	isalterawake	false	
+[00:00:48]: setting 	isnightmarecalm	false	
+[00:00:48]: setting 	isnight	false	
+[00:00:48]: setting 	isdusk	false	
+[00:00:48]: setting 	isspring	false	
+[00:00:48]: setting 	isautumn	true	
+[00:00:48]: setting 	iscaveday	true	
+[00:00:48]: setting 	lunarhaillevel	55.143337249756	
+[00:00:48]: setting 	pop	0.20381487009307	
+[00:00:48]: setting 	snowlevel	0	
+[00:00:48]: setting 	issnowcovered	false	
+[00:00:48]: setting 	autumnlength	20	
+[00:00:48]: setting 	phase	day	
+[00:00:48]: setting 	nightmaretime	0	
+[00:00:48]: setting 	issnowing	false	
+[00:00:48]: setting 	iscavedusk	false	
+[00:00:48]: setting 	nightmarephase	none	
+[00:00:48]: setting 	timeinphase	0.070882479349772	
+[00:00:48]: setting 	seasonprogress	0.7	
+[00:00:48]: setting 	iscavenight	false	
+[00:00:48]: setting 	iscavenewmoon	false	
+[00:00:48]: setting 	issummer	false	
+[00:00:48]: setting 	cavephase	day	
+[00:00:48]: setting 	time	0.035441239674886	
+[00:00:48]: OVERRIDE: setting	resettime	to	none	
+[00:00:48]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:00:48]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:48]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:53]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
+[00:00:55]: inserting post_fn armor	stack traceback:
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:788 in (method) EndFn (Lua) <763-869>
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:690 in (field) ? (Lua) <684-691>
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:487 in (method) ChooseEquipment (Lua) <466-491>
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:1283 in (method) OnLoad (Lua) <1246-1311>
+	scripts/entityscript.lua:1809 in (method) SetPersistData (Lua) <1796-1817>
+	scripts/mainfunctions.lua:457 in (global) SpawnSaveRecord (Lua) <418-464>
+	scripts/components/container.lua:819 in (method) OnLoad (Lua) <816-825>
+	scripts/entityscript.lua:1809 in (method) SetPersistData (Lua) <1796-1817>
+	scripts/mainfunctions.lua:457 in (global) SpawnSaveRecord (Lua) <418-464>
+	scripts/gamelogic.lua:665 in (upvalue) PopulateWorld (Lua) <394-701>
+	scripts/gamelogic.lua:975 in (upvalue) DoInitGame (Lua) <858-1054>
+	scripts/gamelogic.lua:1088 in (local) cb (Lua) <1082-1089>
+	...
+	=[C]:-1 in (method) GetPersistentString (C) <-1--1>
+	scripts/saveindex.lua:285 in (method) Load (Lua) <282-289>
+	scripts/gamelogic.lua:1323 in (local) callback (Lua) <1322-1328>
+	scripts/playerprofile.lua:1747 in (method) Set (Lua) <1599-1750>
+	scripts/playerprofile.lua:1587 in () ? (Lua) <1586-1588>
+	=[C]:-1 in (method) GetPersistentString (C) <-1--1>
+	scripts/playerprofile.lua:1585 in (method) Load (Lua) <1584-1589>
+	scripts/gamelogic.lua:1322 in () ? (main) <0-0>
+	=[C]:-1 in (upvalue) _3asx (C) <-1--1>
+	../mods/workshop-1207269058/modmain.lua:1 in (global) require (Lua) <1-1>	
+[00:01:04]: inserting post_fn armor	stack traceback:
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:788 in (method) EndFn (Lua) <763-869>
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:690 in (field) ? (Lua) <684-691>
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:487 in (method) ChooseEquipment (Lua) <466-491>
+	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:1283 in (method) OnLoad (Lua) <1246-1311>
+	scripts/entityscript.lua:1809 in (method) SetPersistData (Lua) <1796-1817>
+	scripts/mainfunctions.lua:457 in (global) SpawnSaveRecord (Lua) <418-464>
+	scripts/gamelogic.lua:665 in (upvalue) PopulateWorld (Lua) <394-701>
+	scripts/gamelogic.lua:975 in (upvalue) DoInitGame (Lua) <858-1054>
+	scripts/gamelogic.lua:1088 in (local) cb (Lua) <1082-1089>
+	scripts/shardindex.lua:214 in (upvalue) OnLoadSaveDataFile (Lua) <196-215>
+	scripts/shardindex.lua:219 in () ? (Lua) <218-220>
+	=[C]:-1 in (method) GetPersistentString (C) <-1--1>
+	...
+	=[C]:-1 in (method) GetPersistentString (C) <-1--1>
+	scripts/saveindex.lua:285 in (method) Load (Lua) <282-289>
+	scripts/gamelogic.lua:1323 in (local) callback (Lua) <1322-1328>
+	scripts/playerprofile.lua:1747 in (method) Set (Lua) <1599-1750>
+	scripts/playerprofile.lua:1587 in () ? (Lua) <1586-1588>
+	=[C]:-1 in (method) GetPersistentString (C) <-1--1>
+	scripts/playerprofile.lua:1585 in (method) Load (Lua) <1584-1589>
+	scripts/gamelogic.lua:1322 in () ? (main) <0-0>
+	=[C]:-1 in (upvalue) _3asx (C) <-1--1>
+	../mods/workshop-1207269058/modmain.lua:1 in (global) require (Lua) <1-1>	
+[00:01:18]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:18]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:18]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:18]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:18]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:18]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:23]: [dst-more-equip-slots]	INFO	["thunder_armor"] = nil, -- Thor's Cape	
+[00:01:23]: [dst-more-equip-slots]	INFO	["upgraded_amulet"] = nil, -- Exort Amulet	
+[00:01:23]: [dst-more-equip-slots]	INFO	["upgraded_blueamulet"] = nil, -- Quas Amulet	
+[00:01:23]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:23]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:24]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
+[00:01:24]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
+[00:01:24]: [dst-more-equip-slots]	INFO	["armorgold"] = nil, -- Golden Scalemail	
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:24]: Could not find anim build FROMNUM
+[00:01:37]: Reconstructing topology	
+[00:01:37]: 	...Sorting points	
+[00:01:37]: 	...Sorting edges	
+[00:01:37]: 	...Connecting nodes	
+[00:01:37]: 	...Validating connections	
+[00:01:37]: 	...Housekeeping	
+[00:01:37]: 	...Done!	
+[00:01:37]: 1 uploads added to server. From server_temp
+[00:01:37]: About to start a shard with these settings:
+[00:01:37]:   ShardName: [SHDMASTER]
+[00:01:37]:   ShardID: 1
+[00:01:37]:   ShardRole: MASTER
+[00:01:37]:   MasterHost: (null)
+[00:01:37]:   MasterBind: 127.0.0.1
+[00:01:37]:   MasterPort: 10998
+[00:01:37]: [Shard] Starting master server
+[00:01:37]: [Shard] Shard server started on port: 10998
+[00:01:37]: Telling Client our new session identifier: BF953A8AFDD25F52
+[00:01:37]: Check for write access: TRUE
+[00:01:37]: Check for read access: TRUE
+[00:01:37]: Available disk space for save files: 81609 MB
+[00:01:37]: ModIndex: Load sequence finished successfully.	
+[00:01:38]: Reset() returning
+[00:01:42]: Validating portal[7] <-> 4239966897[7] (inactive)	
+[00:01:42]: Validating portal[4] <-> 4239966897[4] (inactive)	
+[00:01:42]: Validating portal[9] <-> 4239966897[9] (inactive)	
+[00:01:42]: Validating portal[5] <-> 4239966897[5] (inactive)	
+[00:01:42]: Validating portal[6] <-> 4239966897[6] (inactive)	
+[00:01:42]: Validating portal[8] <-> 4239966897[8] (inactive)	
+[00:01:42]: Validating portal[3] <-> 4239966897[3] (inactive)	
+[00:01:42]: Validating portal[1] <-> 4239966897[1] (inactive)	
+[00:01:42]: Validating portal[10] <-> 4239966897[10] (inactive)	
+[00:01:42]: Validating portal[2] <-> 4239966897[2] (inactive)	
+[00:01:43]: Server registered via geo DNS in us-east-1
+[00:01:43]: Sim paused
+[00:01:45]: [Shard] Secondary shard Caves(4239966897) connected: [LAN] 127.0.0.1
+[00:01:45]: [Shard] Secondary Caves(4239966897) ready!
+[00:01:45]: World 4239966897 is now connected	
+[00:01:45]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:01:45]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
+[00:01:45]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[00:01:45]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
+[00:01:45]: Validating portal[7] <-> 4239966897[7] (active)	
+[00:01:45]: Validating portal[4] <-> 4239966897[4] (active)	
+[00:01:45]: Validating portal[9] <-> 4239966897[9] (active)	
+[00:01:45]: Validating portal[5] <-> 4239966897[5] (active)	
+[00:01:45]: Validating portal[6] <-> 4239966897[6] (disabled)	
+[00:01:45]: Validating portal[8] <-> 4239966897[8] (active)	
+[00:01:45]: Validating portal[3] <-> 4239966897[3] (active)	
+[00:01:45]: Validating portal[1] <-> 4239966897[1] (active)	
+[00:01:45]: Validating portal[10] <-> 4239966897[10] (active)	
+[00:01:45]: Validating portal[2] <-> 4239966897[2] (active)	
+[00:01:45]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
+[00:01:45]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
+[00:01:45]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
+[00:01:45]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
