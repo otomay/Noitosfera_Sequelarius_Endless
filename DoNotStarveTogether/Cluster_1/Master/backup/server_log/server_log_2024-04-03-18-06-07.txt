@@ -1,0 +1,119 @@
+[00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 600904
+[00:00:00]: Current time: Wed Apr  3 18:05:19 2024
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: 883c9f9587b0
+[00:00:00]: Release(Kernel) Version: 6.5.0-1019-oracle
+[00:00:00]: Kernel Build Timestamp: #19~22.04.1-Ubuntu SMP Tue Mar 12 23:02:13 UTC 2024
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 600904 LINUX
+[00:00:00]: Build Date: 2361
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -only_update_server_mods 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (246979505155936)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:3.99
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: THREAD - started 'StreamInput' (246979374493536)
+[00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:01]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
+[00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:02]: LOADING LUA
+[00:00:02]: DoLuaFile scripts/main.lua
+[00:00:02]: DoLuaFile loading buffer scripts/main.lua
+[00:00:02]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
+[00:00:07]:   taskgrouplist:	default	Juntos	
+[00:00:07]:   taskgrouplist:	classic	Clássico	
+[00:00:07]:   taskgrouplist:	cave_default	Subterrâneo	
+[00:00:07]:   taskgrouplist:	lavaarena_taskset	A Forja	
+[00:00:07]:   taskgrouplist:	quagmire_taskset	A Garganta	
+[00:00:07]: Running main.lua
+	
+[00:00:07]: loaded modindex	
+[00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:08]: [Workshop] Collection query page 0, size: 1, total size: 1
+[00:00:08]: [Workshop] Collection query queued to get details from ID: 2792228447
+[00:00:08]: [Workshop] Collection query sent
+[00:00:08]: [Workshop] CollectionQuery got this many results: 1
+[00:00:08]: [Workshop] CollectionQuery queued IDs: 666155465 1111658995 1185229307 1207269058 1228256860 1416161108 1803285852 2039181790 2167036904 2281925291 2324689937 2410967470 2477889104 2486802405 2503437364 2537774396 2597204554 2665263549 2847806795 2847908822 2854057841 2876537244 2937640068 2948633273 3055010657
+[00:00:08]: [Workshop] CollectionQuery finished, downloading mods.
+[00:00:08]: [Workshop] Item query page 0, size: 25, total size: 25
+[00:00:08]: [Workshop] Item query queued IDs: 666155465 1111658995 1185229307 1207269058 1228256860 1416161108 1803285852 2039181790 2167036904 2281925291 2324689937 2410967470 2477889104 2486802405 2503437364 2537774396 2597204554 2665263549 2847806795 2847908822 2854057841 2876537244 2937640068 2948633273 3055010657
+[00:00:08]: [Workshop] Item query sent
+[00:00:08]: [Workshop] ItemQuery got this many results: 25, matching: 25
+[00:00:08]: [Workshop] ModQuery got 25 results
+[00:00:08]: [Workshop] ModQuery queued to download IDs: 1228256860 2281925291
+[00:00:08]: [Workshop] ModQuery already have IDs: {0.58,666155465} {3.0,1111658995} {87,1185229307} {2.16,1207269058} {24.6,1416161108} {0.2.8,1803285852} {under the weather pt.1 v1.4.15.5,2039181790} {2.0,2167036904} {1.3.5,2324689937} {2.8.8,2410967470} {1.3.1,2477889104} {1.00.03.28,2486802405} {6.0.4,2503437364} {2.4.1,2537774396} {1.0.126,2597204554} {1.1.3,2665263549} {1.2.2,2847806795} {24-4-3,2847908822} {0.2.0,2854057841} {1.0.2.,2876537244} {6.3.1,2937640068} {1.0.4.,2948633273} {5.0.5,3055010657}
+[00:00:08]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:08]: [Workshop] ItemQuery downloading 2 pending mods marked to download
+[00:00:08]: [Workshop] DownloadPublishedFile [10] 1228256860
+[00:00:09]: [Workshop] DownloadPublishedFile [10] 2281925291
+[00:00:16]: [Workshop] OnDownloadPublishedFile [37] 1228256860
+[00:00:16]: [Workshop] ODPF failed entirely: 37
+[00:00:17]: [Workshop] OnDownloadPublishedFile [37] 2281925291
+[00:00:17]: [Workshop] ODPF failed entirely: 37
+[00:00:39]: DownloadServerMods timed out with no response from Workshop...
+[00:00:39]: FinishDownloadingServerMods Complete! Process trying to quit nicely..
+[00:00:39]: ERROR: Failed to load modoverrides.lua	
+[00:00:40]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:42]: LOADING LUA SUCCESS
+[00:00:42]: PlayerDeaths could not load morgue	
+[00:00:42]: PlayerHistory could not load player_history	
+[00:00:42]: ServerPreferences could not load server_preferences	
+[00:00:42]: ConsoleScreenSettings could not load consolescreen	
+[00:00:42]: bloom_enabled	true	
+[00:00:42]: OnFilesLoaded()	
+[00:00:42]: OnUpdatePurchaseStateComplete	
+[00:00:42]: Klump load on boot started.	
+[00:00:42]: Klump files loaded: 	0	
+[00:00:44]: 	Load FE	
+[00:00:45]: THREAD - started 'FilesExistAsyncThread' (246978884525920)
+[00:00:45]: 	Load FE: done	
+[00:00:45]: FilesExistAsyncThread started (23943 files)...
+[00:00:45]: Check for write access: TRUE
+[00:00:45]: Check for read access: TRUE
+[00:00:45]: Available disk space for save files: 118540 MB
+[00:00:45]: ModIndex: Load sequence finished successfully.	
+[00:00:45]: Reset() returning
+[00:00:45]: Collecting garbage...
+[00:00:45]: lua_gc took 0.18 seconds
+[00:00:45]: ~ShardLuaProxy()
+[00:00:45]: ~cEventLeaderboardProxy()
+[00:00:45]: ~ItemServerLuaProxy()
+[00:00:45]: ~InventoryLuaProxy()
+[00:00:45]: ~NetworkLuaProxy()
+[00:00:45]: ~SimLuaProxy()
+[00:00:45]: FilesExistAsyncThread aborted.
+[00:00:45]: ... FilesExistAsyncThread complete
+[00:00:45]: lua_close took 0.18 seconds
+[00:00:45]: CurlRequestManager::ClientThread::Main() complete
+[00:00:45]: HttpClient2 discarded 0 callbacks.
+[00:00:46]: Shutting down

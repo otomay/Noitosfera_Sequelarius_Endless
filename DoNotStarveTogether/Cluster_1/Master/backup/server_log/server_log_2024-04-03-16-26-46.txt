@@ -1,0 +1,2070 @@
+[00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 600904
+[00:00:00]: Current time: Wed Apr  3 05:17:13 2024
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: 883c9f9587b0
+[00:00:00]: Release(Kernel) Version: 6.5.0-1019-oracle
+[00:00:00]: Kernel Build Timestamp: #19~22.04.1-Ubuntu SMP Tue Mar 12 23:02:13 UTC 2024
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 600904 LINUX
+[00:00:00]: Build Date: 2361
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Master 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (252374774452064)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:4.02
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:02]: [Connect] PendingConnection::Reset(true)
+[00:00:02]: Platform: 1
+[00:00:02]: Network tick rate: U=15(2), D=0
+[00:00:02]: Network tick rate: U=15(2), D=0
+[00:00:02]: THREAD - started 'StreamInput' (252374643777376)
+[00:00:02]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:02]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:02]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
+[00:00:02]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:02]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:02]: cGame::InitializeOnMainThread
+[00:00:02]: Renderer initialize: Okay
+[00:00:02]: AnimManager initialize: Okay
+[00:00:02]: Buffers initialize: Okay
+[00:00:02]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:02]: GameSpecific initialize: Okay
+[00:00:02]: cGame::StartPlaying
+[00:00:02]: AppVersion::GetArchitecture() x64
+[00:00:03]: LOADING LUA
+[00:00:03]: DoLuaFile scripts/main.lua
+[00:00:03]: DoLuaFile loading buffer scripts/main.lua
+[00:00:03]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
+[00:00:08]:   taskgrouplist:	default	Juntos	
+[00:00:08]:   taskgrouplist:	classic	Clássico	
+[00:00:08]:   taskgrouplist:	cave_default	Subterrâneo	
+[00:00:08]:   taskgrouplist:	lavaarena_taskset	A Forja	
+[00:00:08]:   taskgrouplist:	quagmire_taskset	A Garganta	
+[00:00:08]: Running main.lua
+	
+[00:00:08]: loaded modindex	
+[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:08]: ERROR: Failed to load modoverrides.lua	
+[00:00:09]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:11]: LOADING LUA SUCCESS
+[00:00:11]: PlayerDeaths could not load morgue	
+[00:00:11]: PlayerHistory could not load player_history	
+[00:00:11]: ServerPreferences could not load server_preferences	
+[00:00:11]: ConsoleScreenSettings could not load consolescreen	
+[00:00:11]: bloom_enabled	true	
+[00:00:11]: OnFilesLoaded()	
+[00:00:11]: OnUpdatePurchaseStateComplete	
+[00:00:11]: Klump load on boot started.	
+[00:00:11]: Klump files loaded: 	0	
+[00:00:13]: 	Load FE	
+[00:00:14]: THREAD - started 'FilesExistAsyncThread' (252374104342368)
+[00:00:14]: 	Load FE: done	
+[00:00:14]: FilesExistAsyncThread started (23943 files)...
+[00:00:14]: Check for write access: TRUE
+[00:00:14]: Check for read access: TRUE
+[00:00:14]: Available disk space for save files: 126942 MB
+[00:00:14]: ModIndex: Load sequence finished successfully.	
+[00:00:14]: Reset() returning
+[00:00:14]: [200] Account Communication Success (6)
+[00:00:14]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
+[00:00:14]: Received (KU_2DNgIUgO) from TokenPurpose
+[00:00:14]: Starting Dedicated Server Game	
+[00:00:14]: Network tick rate: U=15(2), D=0
+[00:00:14]: About to start a server with the following settings:
+[00:00:14]:   Dedicated: true
+[00:00:14]:   Online: true
+[00:00:14]:   Passworded: false
+[00:00:14]:   ServerPort: 10999
+[00:00:14]:   SteamAuthPort: 8766
+[00:00:14]:   SteamMasterServerPort: 12346
+[00:00:14]:   ClanID: false
+[00:00:14]:   ClanOnly: false
+[00:00:14]:   ClanAdmin: false
+[00:00:14]:   LanOnly: false
+[00:00:14]:   FriendsOnly: false
+[00:00:14]:   EnableAutosaver: true
+[00:00:14]:   EncodeUserPath: true
+[00:00:14]:   PVP: false
+[00:00:14]:   MaxPlayers: 12
+[00:00:14]:   GameMode: endless
+[00:00:14]:   OverridenDNS: 
+[00:00:14]:   PauseWhenEmpty: true
+[00:00:14]:   IdleTimeout: 1800s
+[00:00:14]:   VoteEnabled: true
+[00:00:14]:   InternetBroadcasting: true
+[00:00:14]: Online Server Started on port: 10999
+[00:00:15]: ERROR: Failed to load modoverrides.lua	
+[00:00:15]: Not applying level data overrides.	
+[00:00:15]: Found a worldgen override file with these contents:	
+[00:00:15]: 	K: 	override_enabled	 V: 	true	
+[00:00:15]: 	K: 	overrides	 V: 	table: 0x5b256d40	
+[00:00:15]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:15]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:15]: 		K: 	portalresurection	 V: 	always	
+[00:00:15]: 		K: 	resettime	 V: 	none	
+[00:00:15]: 	K: 	settings_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:15]: 	K: 	worldgen_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:15]:   sanity-checking worldgenoverride.lua...	
+[00:00:15]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:15]:   contained worldgen preset SURVIVAL_TOGETHER, loading...	
+[00:00:15]:   contained settings preset SURVIVAL_TOGETHER, loading...	
+[00:00:15]: Overwriting savedata with override file.	
+[00:00:15]: Collecting garbage...
+[00:00:15]: lua_gc took 0.27 seconds
+[00:00:15]: ~ShardLuaProxy()
+[00:00:15]: ~cEventLeaderboardProxy()
+[00:00:15]: ~ItemServerLuaProxy()
+[00:00:15]: ~InventoryLuaProxy()
+[00:00:15]: ~NetworkLuaProxy()
+[00:00:15]: ~SimLuaProxy()
+[00:00:15]: FilesExistAsyncThread aborted.
+[00:00:15]: ... FilesExistAsyncThread complete
+[00:00:15]: lua_close took 0.22 seconds
+[00:00:15]: ReleaseAll
+[00:00:15]: ReleaseAll Finished
+[00:00:15]: cGame::StartPlaying
+[00:00:15]: AppVersion::GetArchitecture() x64
+[00:00:15]: LOADING LUA
+[00:00:15]: DoLuaFile scripts/main.lua
+[00:00:15]: DoLuaFile loading buffer scripts/main.lua
+[00:00:15]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
+[00:00:21]:   taskgrouplist:	default	Juntos	
+[00:00:21]:   taskgrouplist:	classic	Clássico	
+[00:00:21]:   taskgrouplist:	cave_default	Subterrâneo	
+[00:00:21]:   taskgrouplist:	lavaarena_taskset	A Forja	
+[00:00:21]:   taskgrouplist:	quagmire_taskset	A Garganta	
+[00:00:21]: Running main.lua
+	
+[00:00:21]: loaded modindex	
+[00:00:21]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:21]: ERROR: Failed to load modoverrides.lua	
+[00:00:22]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:22]: LOADING LUA SUCCESS
+[00:00:22]: PlayerDeaths could not load morgue	
+[00:00:22]: PlayerHistory could not load player_history	
+[00:00:22]: ServerPreferences could not load server_preferences	
+[00:00:22]: ConsoleScreenSettings could not load consolescreen	
+[00:00:22]: bloom_enabled	true	
+[00:00:22]: OnFilesLoaded()	
+[00:00:22]: OnUpdatePurchaseStateComplete	
+[00:00:22]: Loading world: session/BF953A8AFDD25F52/0000001311	
+[00:00:22]: Save file is at version 5.146	
+[00:00:22]: Klump load on boot started.	
+[00:00:22]: Klump files loaded: 	0	
+[00:00:23]: 	Unload FE	
+[00:00:23]: 	Unload FE done	
+[00:00:25]: 	LOAD BE	
+[00:00:37]: Could not preload undefined prefab (brokenwall_scrap)
+[00:00:37]: 	LOAD BE: done	
+[00:00:37]: Begin Session: BF953A8AFDD25F52
+[00:00:37]: saving to server_temp/server_save	
+[00:00:37]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:00:37]: Loading 19 new character(s)	
+[00:00:38]: Total 19 character(s) loaded	
+[00:00:40]: Loading Nav Grid	
+[00:00:40]: World generated on build 587581 with save version: 5.142, using seed: 1655873162	
+[00:00:40]: setting 	summerlength	15	
+[00:00:40]: setting 	cavemoonphase	quarter	
+[00:00:40]: setting 	iscavefullmoon	false	
+[00:00:40]: setting 	isnightmaredawn	false	
+[00:00:40]: setting 	elapseddaysinseason	15	
+[00:00:40]: setting 	isfullmoon	false	
+[00:00:40]: setting 	moisture	1346.6029052734	
+[00:00:40]: setting 	springlength	20	
+[00:00:40]: setting 	islunarhailing	false	
+[00:00:40]: setting 	isnightmarewild	false	
+[00:00:40]: setting 	nightmaretimeinphase	0	
+[00:00:40]: setting 	precipitationrate	0	
+[00:00:40]: setting 	iswet	false	
+[00:00:40]: setting 	isnewmoon	false	
+[00:00:40]: setting 	israining	false	
+[00:00:40]: setting 	iswinter	false	
+[00:00:40]: setting 	isnightmarewarn	false	
+[00:00:40]: setting 	precipitation	none	
+[00:00:40]: setting 	iscavewaxingmoon	true	
+[00:00:40]: setting 	isacidraining	false	
+[00:00:40]: setting 	moonphase	quarter	
+[00:00:40]: setting 	remainingdaysinseason	5	
+[00:00:40]: setting 	temperature	41.60707213698	
+[00:00:40]: setting 	wetness	13.412852287292	
+[00:00:40]: setting 	cycles	1222	
+[00:00:40]: setting 	moistureceil	2653.8449707031	
+[00:00:40]: setting 	isday	true	
+[00:00:40]: setting 	winterlength	15	
+[00:00:40]: setting 	season	spring	
+[00:00:40]: setting 	iswaxingmoon	true	
+[00:00:40]: setting 	isalterawake	false	
+[00:00:40]: setting 	isnightmarecalm	false	
+[00:00:40]: setting 	isnight	false	
+[00:00:40]: setting 	isdusk	false	
+[00:00:40]: setting 	isspring	true	
+[00:00:40]: setting 	isautumn	false	
+[00:00:40]: setting 	iscaveday	true	
+[00:00:40]: setting 	lunarhaillevel	51.047115325928	
+[00:00:40]: setting 	pop	0.45233608265409	
+[00:00:40]: setting 	snowlevel	0	
+[00:00:40]: setting 	issnowcovered	false	
+[00:00:40]: setting 	autumnlength	20	
+[00:00:40]: setting 	phase	day	
+[00:00:40]: setting 	nightmaretime	0	
+[00:00:40]: setting 	issnowing	false	
+[00:00:40]: setting 	iscavedusk	false	
+[00:00:40]: setting 	nightmarephase	none	
+[00:00:40]: setting 	timeinphase	0.96015633212196	
+[00:00:40]: setting 	seasonprogress	0.75	
+[00:00:40]: setting 	iscavenight	false	
+[00:00:40]: setting 	iscavenewmoon	false	
+[00:00:40]: setting 	issummer	false	
+[00:00:40]: setting 	cavephase	day	
+[00:00:40]: setting 	time	0.36005862454573	
+[00:00:40]: OVERRIDE: setting	resettime	to	none	
+[00:00:40]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:00:40]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:40]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:40]: Can't find prefab chasni_wargfant_tooth	
+[00:00:40]: SpawnSaveRecord [100042, chasni_wargfant_tooth] FAILED	
+[00:00:40]: Can't find prefab powerpowder_big	
+[00:00:40]: SpawnSaveRecord [nil, powerpowder_big] FAILED	
+[00:00:40]: Can't find prefab hua_wall_decals_tardis	
+[00:00:40]: SpawnSaveRecord [nil, hua_wall_decals_tardis] FAILED	
+[00:00:40]: Can't find prefab hua_wall_decals_tardis	
+[00:00:40]: SpawnSaveRecord [nil, hua_wall_decals_tardis] FAILED	
+[00:00:40]: Can't find prefab hua_wall_decals_tardis	
+[00:00:40]: SpawnSaveRecord [124146, hua_wall_decals_tardis] FAILED	
+[00:00:40]: Can't find prefab hua_wall_decals_tardis	
+[00:00:40]: SpawnSaveRecord [124147, hua_wall_decals_tardis] FAILED	
+[00:00:40]: Can't find prefab chasni_city_lamp	
+[00:00:40]: SpawnSaveRecord [nil, chasni_city_lamp] FAILED	
+[00:00:40]: Can't find prefab chasni_city_lamp	
+[00:00:40]: SpawnSaveRecord [nil, chasni_city_lamp] FAILED	
+[00:00:40]: Can't find prefab chasni_city_lamp	
+[00:00:40]: SpawnSaveRecord [nil, chasni_city_lamp] FAILED	
+[00:00:41]: Can't find prefab tinkertower	
+[00:00:41]: SpawnSaveRecord [nil, tinkertower] FAILED	
+[00:00:41]: Can't find prefab propelomatic	
+[00:00:41]: SpawnSaveRecord [103022, propelomatic] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103035, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103036, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103037, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103038, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103039, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103040, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103041, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103042, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103043, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103044, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103045, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103046, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103047, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103048, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103049, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103050, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103051, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103052, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103053, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103054, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103055, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103056, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103057, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103058, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103059, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103060, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103061, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103062, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103063, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103064, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103065, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103066, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103067, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103068, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103069, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103070, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103071, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103072, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103073, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103074, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103075, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab chasni_ancientherald_lavapool	
+[00:00:41]: SpawnSaveRecord [103076, chasni_ancientherald_lavapool] FAILED	
+[00:00:41]: Can't find prefab spidermonkey_creep	
+[00:00:41]: SpawnSaveRecord [103077, spidermonkey_creep] FAILED	
+[00:00:41]: Can't find prefab spidermonkey_creep	
+[00:00:41]: SpawnSaveRecord [103078, spidermonkey_creep] FAILED	
+[00:00:41]: Can't find prefab spidermonkey_creep	
+[00:00:41]: SpawnSaveRecord [103079, spidermonkey_creep] FAILED	
+[00:00:41]: Can't find prefab opticstaff	
+[00:00:41]: SpawnSaveRecord [103212, opticstaff] FAILED	
+[00:00:41]: Can't find prefab poison_antidote	
+[00:00:41]: SpawnSaveRecord [nil, poison_antidote] FAILED	
+[00:00:41]: Can't find prefab thunder_hat	
+[00:00:41]: SpawnSaveRecord [nil, thunder_hat] FAILED	
+[00:00:41]: Can't find prefab goldstaff	
+[00:00:41]: SpawnSaveRecord [nil, goldstaff] FAILED	
+[00:00:41]: Can't find prefab request_quest_normal	
+[00:00:41]: SpawnSaveRecord [nil, request_quest_normal] FAILED	
+[00:00:41]: Can't find prefab jellybean_red	
+[00:00:41]: SpawnSaveRecord [103517, jellybean_red] FAILED	
+[00:00:41]: Can't find prefab chasni_mosquito_poison	
+[00:00:41]: SpawnSaveRecord [103523, chasni_mosquito_poison] FAILED	
+[00:00:41]: Can't find prefab chasni_mosquito_poison	
+[00:00:41]: SpawnSaveRecord [103525, chasni_mosquito_poison] FAILED	
+[00:00:41]: Can't find prefab chasni_mosquito_poison	
+[00:00:41]: SpawnSaveRecord [103527, chasni_mosquito_poison] FAILED	
+[00:00:41]: Can't find prefab chasni_mosquito_poison	
+[00:00:41]: SpawnSaveRecord [103529, chasni_mosquito_poison] FAILED	
+[00:00:41]: Can't find prefab chasni_mosquito_poison	
+[00:00:41]: SpawnSaveRecord [103531, chasni_mosquito_poison] FAILED	
+[00:00:41]: Can't find prefab chasni_mosquito_poison	
+[00:00:41]: SpawnSaveRecord [103533, chasni_mosquito_poison] FAILED	
+[00:00:41]: Can't find prefab chasni_mosquito_poison	
+[00:00:41]: SpawnSaveRecord [103535, chasni_mosquito_poison] FAILED	
+[00:00:41]: Can't find prefab luckamulet	
+[00:00:41]: SpawnSaveRecord [103821, luckamulet] FAILED	
+[00:00:42]: Can't find prefab hua_wall_decals_tardis_in	
+[00:00:42]: SpawnSaveRecord [nil, hua_wall_decals_tardis_in] FAILED	
+[00:00:42]: Can't find prefab hua_wall_decals_tardis_in	
+[00:00:42]: SpawnSaveRecord [104146, hua_wall_decals_tardis_in] FAILED	
+[00:00:42]: Can't find prefab hua_wall_decals_tardis_in	
+[00:00:42]: SpawnSaveRecord [104147, hua_wall_decals_tardis_in] FAILED	
+[00:00:42]: Can't find prefab hua_wall_decals_tardis_in	
+[00:00:42]: SpawnSaveRecord [nil, hua_wall_decals_tardis_in] FAILED	
+[00:00:42]: Can't find prefab vipcard	
+[00:00:42]: SpawnSaveRecord [nil, vipcard] FAILED	
+[00:00:42]: Can't find prefab chasni_wargfant_tooth	
+[00:00:42]: SpawnSaveRecord [nil, chasni_wargfant_tooth] FAILED	
+[00:00:42]: Can't find prefab blackglommerfuel	
+[00:00:42]: SpawnSaveRecord [nil, blackglommerfuel] FAILED	
+[00:00:42]: Can't find prefab blackglommerfuel	
+[00:00:42]: SpawnSaveRecord [nil, blackglommerfuel] FAILED	
+[00:00:42]: Can't find prefab blackglommerfuel	
+[00:00:42]: SpawnSaveRecord [nil, blackglommerfuel] FAILED	
+[00:00:42]: Can't find prefab jellybean_red	
+[00:00:42]: SpawnSaveRecord [nil, jellybean_red] FAILED	
+[00:00:42]: Can't find prefab hua_wall_decals_zhu2	
+[00:00:42]: SpawnSaveRecord [nil, hua_wall_decals_zhu2] FAILED	
+[00:00:42]: Can't find prefab hua_wall_decals_zhu2	
+[00:00:42]: SpawnSaveRecord [nil, hua_wall_decals_zhu2] FAILED	
+[00:00:42]: Can't find prefab boardsmaker	
+[00:00:42]: SpawnSaveRecord [105290, boardsmaker] FAILED	
+[00:00:43]: Can't find prefab request_quest_very_difficult	
+[00:00:43]: SpawnSaveRecord [nil, request_quest_very_difficult] FAILED	
+[00:00:44]: Can't find prefab bookpack	
+[00:00:44]: SpawnSaveRecord [107456, bookpack] FAILED	
+[00:00:44]: Can't find prefab bookpack	
+[00:00:44]: SpawnSaveRecord [107485, bookpack] FAILED	
+[00:00:44]: Can't find prefab powerpowder_small	
+[00:00:44]: SpawnSaveRecord [nil, powerpowder_small] FAILED	
+[00:00:44]: Can't find prefab powerpowder_small	
+[00:00:44]: SpawnSaveRecord [nil, powerpowder_small] FAILED	
+[00:00:44]: Can't find prefab accomplishrine	
+[00:00:44]: SpawnSaveRecord [107555, accomplishrine] FAILED	
+[00:00:44]: Can't find prefab accomplishrine	
+[00:00:44]: SpawnSaveRecord [107556, accomplishrine] FAILED	
+[00:00:44]: Can't find prefab accomplishrine	
+[00:00:44]: SpawnSaveRecord [107557, accomplishrine] FAILED	
+[00:00:44]: Can't find prefab chasni_exort_feather	
+[00:00:44]: SpawnSaveRecord [108089, chasni_exort_feather] FAILED	
+[00:00:44]: Can't find prefab chasni_wargfant_fur	
+[00:00:44]: SpawnSaveRecord [124565, chasni_wargfant_fur] FAILED	
+[00:00:44]: Can't find prefab chasni_wargfant_fur	
+[00:00:44]: SpawnSaveRecord [124567, chasni_wargfant_fur] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [nil, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [133589, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108310, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108312, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108314, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108316, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108318, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108320, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108322, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108324, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108326, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108328, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108330, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108332, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108334, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108336, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108338, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108340, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108342, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108344, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108346, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108348, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108350, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108352, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108354, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108356, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108358, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108360, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108362, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108364, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108366, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108368, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108370, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108372, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108374, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108376, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108378, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108380, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108382, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108384, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108386, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108388, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108390, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108392, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108394, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108396, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108398, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108400, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108402, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108404, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108406, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108408, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108410, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108412, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108414, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108416, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108418, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108420, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108422, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108424, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab blackglommerfuel	
+[00:00:45]: SpawnSaveRecord [108426, blackglommerfuel] FAILED	
+[00:00:45]: Can't find prefab chasni_grub_jaw	
+[00:00:45]: SpawnSaveRecord [108892, chasni_grub_jaw] FAILED	
+[00:00:45]: Can't find prefab chasni_grub_jaw	
+[00:00:45]: SpawnSaveRecord [108894, chasni_grub_jaw] FAILED	
+[00:00:45]: Can't find prefab chasni_grub_jaw	
+[00:00:45]: SpawnSaveRecord [108896, chasni_grub_jaw] FAILED	
+[00:00:45]: Can't find prefab chasni_grub_jaw	
+[00:00:45]: SpawnSaveRecord [108898, chasni_grub_jaw] FAILED	
+[00:00:45]: Can't find prefab hua_floor	
+[00:00:45]: SpawnSaveRecord [nil, hua_floor] FAILED	
+[00:00:45]: Can't find prefab hua_floor	
+[00:00:45]: SpawnSaveRecord [125276, hua_floor] FAILED	
+[00:00:45]: Can't find prefab hua_floor	
+[00:00:45]: SpawnSaveRecord [nil, hua_floor] FAILED	
+[00:00:45]: Can't find prefab hua_floor	
+[00:00:45]: SpawnSaveRecord [nil, hua_floor] FAILED	
+[00:00:45]: Can't find prefab hua_floor	
+[00:00:45]: SpawnSaveRecord [125279, hua_floor] FAILED	
+[00:00:45]: Can't find prefab hua_floor	
+[00:00:45]: SpawnSaveRecord [nil, hua_floor] FAILED	
+[00:00:46]: Can't find prefab hua_player_house	
+[00:00:46]: SpawnSaveRecord [110788, hua_player_house] FAILED	
+[00:00:46]: Can't find prefab hua_player_house	
+[00:00:46]: SpawnSaveRecord [110789, hua_player_house] FAILED	
+[00:00:46]: Can't find prefab hua_player_house	
+[00:00:46]: SpawnSaveRecord [110790, hua_player_house] FAILED	
+[00:00:46]: Can't find prefab hua_player_house	
+[00:00:46]: SpawnSaveRecord [110791, hua_player_house] FAILED	
+[00:00:47]: Can't find prefab hua_door_exit	
+[00:00:47]: SpawnSaveRecord [111893, hua_door_exit] FAILED	
+[00:00:47]: Can't find prefab hua_door_exit	
+[00:00:47]: SpawnSaveRecord [111894, hua_door_exit] FAILED	
+[00:00:47]: Can't find prefab hua_door_exit	
+[00:00:47]: SpawnSaveRecord [111895, hua_door_exit] FAILED	
+[00:00:47]: Can't find prefab hua_door_exit	
+[00:00:47]: SpawnSaveRecord [111896, hua_door_exit] FAILED	
+[00:00:47]: Can't find prefab schatztruhe	
+[00:00:47]: SpawnSaveRecord [112027, schatztruhe] FAILED	
+[00:00:47]: Can't find prefab schatztruhe	
+[00:00:47]: SpawnSaveRecord [112028, schatztruhe] FAILED	
+[00:00:47]: Can't find prefab schatztruhe	
+[00:00:47]: SpawnSaveRecord [112029, schatztruhe] FAILED	
+[00:00:47]: Can't find prefab schatztruhe	
+[00:00:47]: SpawnSaveRecord [112030, schatztruhe] FAILED	
+[00:00:49]: Can't find prefab hua_wall_decals	
+[00:00:49]: SpawnSaveRecord [nil, hua_wall_decals] FAILED	
+[00:00:49]: Can't find prefab hua_wall_decals	
+[00:00:49]: SpawnSaveRecord [113596, hua_wall_decals] FAILED	
+[00:00:49]: Can't find prefab hua_wall_decals	
+[00:00:49]: SpawnSaveRecord [nil, hua_wall_decals] FAILED	
+[00:00:49]: Can't find prefab hua_wall_decals	
+[00:00:49]: SpawnSaveRecord [nil, hua_wall_decals] FAILED	
+[00:00:49]: Can't find prefab hua_wall_decals	
+[00:00:49]: SpawnSaveRecord [113599, hua_wall_decals] FAILED	
+[00:00:49]: Can't find prefab hua_wall_decals	
+[00:00:49]: SpawnSaveRecord [113600, hua_wall_decals] FAILED	
+[00:00:49]: Can't find prefab hua_wall_decals	
+[00:00:49]: SpawnSaveRecord [113601, hua_wall_decals] FAILED	
+[00:00:49]: Can't find prefab hua_wall_decals	
+[00:00:49]: SpawnSaveRecord [nil, hua_wall_decals] FAILED	
+[00:00:49]: Can't find prefab hua_wall_decals_zhu1	
+[00:00:49]: SpawnSaveRecord [113684, hua_wall_decals_zhu1] FAILED	
+[00:00:49]: Can't find prefab hua_wall_decals_zhu1	
+[00:00:49]: SpawnSaveRecord [113685, hua_wall_decals_zhu1] FAILED	
+[00:00:49]: Can't find prefab hua_wall_decals_zhu1	
+[00:00:49]: SpawnSaveRecord [nil, hua_wall_decals_zhu1] FAILED	
+[00:00:49]: Can't find prefab hua_wall_decals_zhu1	
+[00:00:49]: SpawnSaveRecord [nil, hua_wall_decals_zhu1] FAILED	
+[00:00:49]: Can't find prefab questboard	
+[00:00:49]: SpawnSaveRecord [nil, questboard] FAILED	
+[00:00:49]: Can't find prefab chasni_snapdragon_seed	
+[00:00:49]: SpawnSaveRecord [nil, chasni_snapdragon_seed] FAILED	
+[00:00:49]: Can't find prefab glommerfuelmachine	
+[00:00:49]: SpawnSaveRecord [113903, glommerfuelmachine] FAILED	
+[00:00:50]: Can't find prefab nightmarechester_eyebone	
+[00:00:50]: SpawnSaveRecord [114251, nightmarechester_eyebone] FAILED	
+[00:00:50]: Can't find prefab chasni_hippo_skin	
+[00:00:50]: SpawnSaveRecord [114433, chasni_hippo_skin] FAILED	
+[00:00:50]: Can't find prefab chasni_hippo_skin	
+[00:00:50]: SpawnSaveRecord [nil, chasni_hippo_skin] FAILED	
+[00:00:50]: Can't find prefab chasni_hippo_skin	
+[00:00:50]: SpawnSaveRecord [114437, chasni_hippo_skin] FAILED	
+[00:00:50]: Can't find prefab chasni_hippo_skin	
+[00:00:50]: SpawnSaveRecord [114439, chasni_hippo_skin] FAILED	
+[00:00:50]: Can't find prefab chasni_hippo_skin	
+[00:00:50]: SpawnSaveRecord [114441, chasni_hippo_skin] FAILED	
+[00:00:50]: Can't find prefab chasni_hippo_skin	
+[00:00:50]: SpawnSaveRecord [114443, chasni_hippo_skin] FAILED	
+[00:00:50]: Can't find prefab chasni_hippo_skin	
+[00:00:50]: SpawnSaveRecord [114445, chasni_hippo_skin] FAILED	
+[00:00:50]: Can't find prefab chasni_hippo_skin	
+[00:00:50]: SpawnSaveRecord [nil, chasni_hippo_skin] FAILED	
+[00:00:51]: Can't find prefab everdagger5	
+[00:00:51]: SpawnSaveRecord [114481, everdagger5] FAILED	
+[00:00:51]: Can't find prefab poison_gland	
+[00:00:51]: SpawnSaveRecord [nil, poison_gland] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117101, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117103, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117105, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117107, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117109, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117111, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117113, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117119, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117121, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117123, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117125, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117127, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117129, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117131, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117133, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117135, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117137, goldstaff] FAILED	
+[00:00:52]: Can't find prefab goldstaff	
+[00:00:52]: SpawnSaveRecord [117115, goldstaff] FAILED	
+[00:00:52]: Can't find prefab hua_player_house_tardis	
+[00:00:52]: SpawnSaveRecord [107361, hua_player_house_tardis] FAILED	
+[00:00:52]: Can't find prefab hua_player_house_tardis	
+[00:00:52]: SpawnSaveRecord [107362, hua_player_house_tardis] FAILED	
+[00:00:52]: Can't find prefab gemmaker	
+[00:00:52]: SpawnSaveRecord [118049, gemmaker] FAILED	
+[00:00:52]: Can't find prefab schatzkarte	
+[00:00:52]: SpawnSaveRecord [118095, schatzkarte] FAILED	
+[00:00:52]: Can't find prefab schatzkarte	
+[00:00:52]: SpawnSaveRecord [118097, schatzkarte] FAILED	
+[00:00:52]: Can't find prefab schatzkarte	
+[00:00:52]: SpawnSaveRecord [118099, schatzkarte] FAILED	
+[00:00:52]: Can't find prefab schatzkarte	
+[00:00:52]: SpawnSaveRecord [118101, schatzkarte] FAILED	
+[00:00:52]: Can't find prefab schatzkarte	
+[00:00:52]: SpawnSaveRecord [118103, schatzkarte] FAILED	
+[00:00:52]: Can't find prefab hua_house	
+[00:00:52]: SpawnSaveRecord [nil, hua_house] FAILED	
+[00:00:52]: Can't find prefab hua_house	
+[00:00:52]: SpawnSaveRecord [nil, hua_house] FAILED	
+[00:00:52]: Can't find prefab hua_house	
+[00:00:52]: SpawnSaveRecord [nil, hua_house] FAILED	
+[00:00:52]: Can't find prefab hua_house	
+[00:00:52]: SpawnSaveRecord [nil, hua_house] FAILED	
+[00:00:52]: Can't find prefab hua_house	
+[00:00:52]: SpawnSaveRecord [nil, hua_house] FAILED	
+[00:00:52]: Can't find prefab hua_house	
+[00:00:52]: SpawnSaveRecord [nil, hua_house] FAILED	
+[00:00:53]: Can't find prefab chasni_hippo_antler	
+[00:00:53]: SpawnSaveRecord [118087, chasni_hippo_antler] FAILED	
+[00:00:53]: Can't find prefab chasni_snapdragon_flower	
+[00:00:53]: SpawnSaveRecord [118184, chasni_snapdragon_flower] FAILED	
+[00:00:53]: Can't find prefab chasni_snapdragon_flower	
+[00:00:53]: SpawnSaveRecord [118185, chasni_snapdragon_flower] FAILED	
+[00:00:53]: Can't find prefab chasni_snapdragon_flower	
+[00:00:53]: SpawnSaveRecord [118186, chasni_snapdragon_flower] FAILED	
+[00:00:53]: Can't find prefab chasni_snapdragon_flower	
+[00:00:53]: SpawnSaveRecord [118187, chasni_snapdragon_flower] FAILED	
+[00:00:53]: Can't find prefab chasni_snapdragon_flower	
+[00:00:53]: SpawnSaveRecord [118188, chasni_snapdragon_flower] FAILED	
+[00:00:53]: Can't find prefab chasni_snapdragon_flower	
+[00:00:53]: SpawnSaveRecord [118189, chasni_snapdragon_flower] FAILED	
+[00:00:53]: Can't find prefab chasni_snapdragon_flower	
+[00:00:53]: SpawnSaveRecord [118190, chasni_snapdragon_flower] FAILED	
+[00:00:53]: Can't find prefab chasni_snapdragon_flower	
+[00:00:53]: SpawnSaveRecord [118191, chasni_snapdragon_flower] FAILED	
+[00:00:53]: Can't find prefab chasni_snapdragon_flower	
+[00:00:53]: SpawnSaveRecord [118192, chasni_snapdragon_flower] FAILED	
+[00:00:53]: Can't find prefab chronoflux	
+[00:00:53]: SpawnSaveRecord [114231, chronoflux] FAILED	
+[00:00:53]: Can't find prefab chronoflux	
+[00:00:53]: SpawnSaveRecord [114232, chronoflux] FAILED	
+[00:00:53]: Can't find prefab chronoflux	
+[00:00:53]: SpawnSaveRecord [114233, chronoflux] FAILED	
+[00:00:53]: Can't find prefab hua_wall_decals_in	
+[00:00:53]: SpawnSaveRecord [118228, hua_wall_decals_in] FAILED	
+[00:00:53]: Can't find prefab hua_wall_decals_in	
+[00:00:53]: SpawnSaveRecord [nil, hua_wall_decals_in] FAILED	
+[00:00:53]: Can't find prefab hua_wall_decals_in	
+[00:00:53]: SpawnSaveRecord [nil, hua_wall_decals_in] FAILED	
+[00:00:53]: Can't find prefab hua_wall_decals_in	
+[00:00:53]: SpawnSaveRecord [118231, hua_wall_decals_in] FAILED	
+[00:00:53]: Can't find prefab hua_wall_decals_in	
+[00:00:53]: SpawnSaveRecord [nil, hua_wall_decals_in] FAILED	
+[00:00:53]: Can't find prefab hua_wall_decals_in	
+[00:00:53]: SpawnSaveRecord [118233, hua_wall_decals_in] FAILED	
+[00:00:53]: Can't find prefab hua_wall_decals_in	
+[00:00:53]: SpawnSaveRecord [118234, hua_wall_decals_in] FAILED	
+[00:00:53]: Can't find prefab hua_wall_decals_in	
+[00:00:53]: SpawnSaveRecord [nil, hua_wall_decals_in] FAILED	
+[00:00:54]: Can't find prefab hua_window_round	
+[00:00:54]: SpawnSaveRecord [nil, hua_window_round] FAILED	
+[00:00:54]: Can't find prefab hua_window_round	
+[00:00:54]: SpawnSaveRecord [nil, hua_window_round] FAILED	
+[00:00:54]: Can't find prefab hua_window_round	
+[00:00:54]: SpawnSaveRecord [nil, hua_window_round] FAILED	
+[00:00:54]: Can't find prefab hua_window_round	
+[00:00:54]: SpawnSaveRecord [nil, hua_window_round] FAILED	
+[00:00:54]: Can't find prefab request_quest	
+[00:00:54]: SpawnSaveRecord [nil, request_quest] FAILED	
+[00:00:54]: Can't find prefab request_quest	
+[00:00:54]: SpawnSaveRecord [nil, request_quest] FAILED	
+[00:00:54]: Can't find prefab request_quest	
+[00:00:54]: SpawnSaveRecord [nil, request_quest] FAILED	
+[00:00:54]: Can't find prefab request_quest	
+[00:00:54]: SpawnSaveRecord [118324, request_quest] FAILED	
+[00:00:54]: Can't find prefab request_quest	
+[00:00:54]: SpawnSaveRecord [nil, request_quest] FAILED	
+[00:00:54]: Can't find prefab request_quest	
+[00:00:54]: SpawnSaveRecord [nil, request_quest] FAILED	
+[00:00:54]: Can't find prefab request_quest	
+[00:00:54]: SpawnSaveRecord [nil, request_quest] FAILED	
+[00:00:54]: Can't find prefab request_quest	
+[00:00:54]: SpawnSaveRecord [nil, request_quest] FAILED	
+[00:00:54]: Can't find prefab request_quest	
+[00:00:54]: SpawnSaveRecord [nil, request_quest] FAILED	
+[00:00:54]: Can't find prefab request_quest	
+[00:00:54]: SpawnSaveRecord [118336, request_quest] FAILED	
+[00:00:54]: Can't find prefab request_quest	
+[00:00:54]: SpawnSaveRecord [118338, request_quest] FAILED	
+[00:00:54]: Can't find prefab request_quest	
+[00:00:54]: SpawnSaveRecord [118340, request_quest] FAILED	
+[00:00:54]: Can't find prefab request_quest	
+[00:00:54]: SpawnSaveRecord [nil, request_quest] FAILED	
+[00:00:54]: Can't find prefab request_quest	
+[00:00:54]: SpawnSaveRecord [nil, request_quest] FAILED	
+[00:00:54]: Can't find prefab secoin	
+[00:00:54]: SpawnSaveRecord [118546, secoin] FAILED	
+[00:00:54]: Can't find prefab secoin	
+[00:00:54]: SpawnSaveRecord [118548, secoin] FAILED	
+[00:00:54]: Can't find prefab chasni_mandrakeman	
+[00:00:54]: SpawnSaveRecord [118912, chasni_mandrakeman] FAILED	
+[00:00:54]: Can't find prefab chasni_mandrakeman	
+[00:00:54]: SpawnSaveRecord [118914, chasni_mandrakeman] FAILED	
+[00:00:54]: Can't find prefab chasni_mandrakeman	
+[00:00:54]: SpawnSaveRecord [118916, chasni_mandrakeman] FAILED	
+[00:00:54]: Can't find prefab chasni_mandrakeman	
+[00:00:54]: SpawnSaveRecord [118918, chasni_mandrakeman] FAILED	
+[00:00:54]: Can't find prefab anvil	
+[00:00:54]: SpawnSaveRecord [118834, anvil] FAILED	
+[00:00:54]: Can't find prefab anvil	
+[00:00:54]: SpawnSaveRecord [118836, anvil] FAILED	
+[00:00:54]: Can't find prefab anvil	
+[00:00:54]: SpawnSaveRecord [118838, anvil] FAILED	
+[00:00:55]: Can't find prefab chlorophyte_ore	
+[00:00:55]: SpawnSaveRecord [122075, chlorophyte_ore] FAILED	
+[00:00:55]: Can't find prefab chasni_cocoontree	
+[00:00:55]: SpawnSaveRecord [103214, chasni_cocoontree] FAILED	
+[00:00:55]: Can't find prefab chasni_cocoontree	
+[00:00:55]: SpawnSaveRecord [103215, chasni_cocoontree] FAILED	
+[00:00:55]: Can't find prefab chasni_cocoontree	
+[00:00:55]: SpawnSaveRecord [103216, chasni_cocoontree] FAILED	
+[00:00:55]: Can't find prefab treasurechasechest	
+[00:00:55]: SpawnSaveRecord [120160, treasurechasechest] FAILED	
+[00:00:55]: Can't find prefab hua_wallpaper	
+[00:00:55]: SpawnSaveRecord [nil, hua_wallpaper] FAILED	
+[00:00:55]: Can't find prefab hua_wallpaper	
+[00:00:55]: SpawnSaveRecord [nil, hua_wallpaper] FAILED	
+[00:00:55]: Can't find prefab hua_wallpaper	
+[00:00:55]: SpawnSaveRecord [nil, hua_wallpaper] FAILED	
+[00:00:55]: Can't find prefab hua_wallpaper	
+[00:00:55]: SpawnSaveRecord [118200, hua_wallpaper] FAILED	
+[00:00:55]: Can't find prefab hua_wallpaper	
+[00:00:55]: SpawnSaveRecord [118201, hua_wallpaper] FAILED	
+[00:00:55]: Can't find prefab hua_wallpaper	
+[00:00:55]: SpawnSaveRecord [nil, hua_wallpaper] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab trap_flytrap	
+[00:00:55]: SpawnSaveRecord [nil, trap_flytrap] FAILED	
+[00:00:55]: Can't find prefab hua_door_exit3	
+[00:00:55]: SpawnSaveRecord [118193, hua_door_exit3] FAILED	
+[00:00:55]: Can't find prefab hua_door_exit3	
+[00:00:55]: SpawnSaveRecord [118194, hua_door_exit3] FAILED	
+[00:00:56]: Can't find prefab upgraded_treasurechest	
+[00:00:56]: SpawnSaveRecord [121459, upgraded_treasurechest] FAILED	
+[00:00:56]: Can't find prefab upgraded_treasurechest	
+[00:00:56]: SpawnSaveRecord [121501, upgraded_treasurechest] FAILED	
+[00:00:56]: Can't find prefab upgraded_treasurechest	
+[00:00:56]: SpawnSaveRecord [121556, upgraded_treasurechest] FAILED	
+[00:00:56]: Can't find prefab upgraded_treasurechest	
+[00:00:56]: SpawnSaveRecord [121600, upgraded_treasurechest] FAILED	
+[00:00:56]: Can't find prefab upgraded_treasurechest	
+[00:00:56]: SpawnSaveRecord [121651, upgraded_treasurechest] FAILED	
+[00:00:56]: Can't find prefab upgraded_treasurechest	
+[00:00:56]: SpawnSaveRecord [121699, upgraded_treasurechest] FAILED	
+[00:00:56]: Can't find prefab upgraded_treasurechest	
+[00:00:56]: SpawnSaveRecord [121752, upgraded_treasurechest] FAILED	
+[00:00:56]: Can't find prefab upgraded_treasurechest	
+[00:00:56]: SpawnSaveRecord [121802, upgraded_treasurechest] FAILED	
+[00:00:56]: Can't find prefab upgraded_treasurechest	
+[00:00:56]: SpawnSaveRecord [121888, upgraded_treasurechest] FAILED	
+[00:00:56]: Can't find prefab upgraded_treasurechest	
+[00:00:56]: SpawnSaveRecord [121919, upgraded_treasurechest] FAILED	
+[00:00:56]: Can't find prefab upgraded_treasurechest	
+[00:00:56]: SpawnSaveRecord [121971, upgraded_treasurechest] FAILED	
+[00:00:56]: Can't find prefab upgraded_treasurechest	
+[00:00:56]: SpawnSaveRecord [122026, upgraded_treasurechest] FAILED	
+[00:00:56]: Can't find prefab hua_light_red	
+[00:00:56]: SpawnSaveRecord [119356, hua_light_red] FAILED	
+[00:00:56]: Can't find prefab hua_light_red	
+[00:00:56]: SpawnSaveRecord [119357, hua_light_red] FAILED	
+[00:00:56]: Can't find prefab hua_light_red	
+[00:00:56]: SpawnSaveRecord [119358, hua_light_red] FAILED	
+[00:00:56]: Can't find prefab hua_light_red	
+[00:00:56]: SpawnSaveRecord [119359, hua_light_red] FAILED	
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Could not find anim build FROMNUM
+[00:00:56]: Can't find prefab upgraded_farmplot	
+[00:00:56]: SpawnSaveRecord [128871, upgraded_farmplot] FAILED	
+[00:00:56]: Can't find prefab upgraded_farmplot	
+[00:00:56]: SpawnSaveRecord [128873, upgraded_farmplot] FAILED	
+[00:00:56]: Can't find prefab upgraded_farmplot	
+[00:00:56]: SpawnSaveRecord [128875, upgraded_farmplot] FAILED	
+[00:00:56]: Can't find prefab upgraded_farmplot	
+[00:00:56]: SpawnSaveRecord [128877, upgraded_farmplot] FAILED	
+[00:00:56]: Can't find prefab upgraded_farmplot	
+[00:00:56]: SpawnSaveRecord [128879, upgraded_farmplot] FAILED	
+[00:00:56]: Can't find prefab upgraded_farmplot	
+[00:00:56]: SpawnSaveRecord [128881, upgraded_farmplot] FAILED	
+[00:00:57]: Can't find prefab maxwell_torch	
+[00:00:57]: SpawnSaveRecord [122611, maxwell_torch] FAILED	
+[00:00:57]: Can't find prefab chasni_slipstor_fur	
+[00:00:57]: SpawnSaveRecord [118115, chasni_slipstor_fur] FAILED	
+[00:00:57]: Can't find prefab chasni_slipstor_fur	
+[00:00:57]: SpawnSaveRecord [118117, chasni_slipstor_fur] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab hua_wall	
+[00:00:58]: SpawnSaveRecord [nil, hua_wall] FAILED	
+[00:00:58]: Can't find prefab chasni_grub_skull	
+[00:00:58]: SpawnSaveRecord [125248, chasni_grub_skull] FAILED	
+[00:00:58]: Can't find prefab chasni_grub_skull	
+[00:00:58]: SpawnSaveRecord [125250, chasni_grub_skull] FAILED	
+[00:00:58]: Can't find prefab chasni_grub_skull	
+[00:00:58]: SpawnSaveRecord [125252, chasni_grub_skull] FAILED	
+[00:00:58]: Can't find prefab chasni_grub_skull	
+[00:00:58]: SpawnSaveRecord [nil, chasni_grub_skull] FAILED	
+[00:00:58]: Can't find prefab chasni_grub_skull	
+[00:00:58]: SpawnSaveRecord [125256, chasni_grub_skull] FAILED	
+[00:00:58]: Can't find prefab chasni_grub_skull	
+[00:00:58]: SpawnSaveRecord [125258, chasni_grub_skull] FAILED	
+[00:00:58]: Can't find prefab chasni_grub_skull	
+[00:00:58]: SpawnSaveRecord [125260, chasni_grub_skull] FAILED	
+[00:01:02]: Can't find prefab frogking_p_crown	
+[00:01:02]: SpawnSaveRecord [129240, frogking_p_crown] FAILED	
+[00:01:02]: Reconstructing topology	
+[00:01:02]: 	...Sorting points	
+[00:01:02]: 	...Sorting edges	
+[00:01:02]: 	...Connecting nodes	
+[00:01:02]: 	...Validating connections	
+[00:01:03]: 	...Housekeeping	
+[00:01:03]: 	...Done!	
+[00:01:03]: 1 uploads added to server. From server_temp
+[00:01:03]: About to start a shard with these settings:
+[00:01:03]:   ShardName: [SHDMASTER]
+[00:01:03]:   ShardID: 1
+[00:01:03]:   ShardRole: MASTER
+[00:01:03]:   MasterHost: (null)
+[00:01:03]:   MasterBind: 127.0.0.1
+[00:01:03]:   MasterPort: 10998
+[00:01:03]: [Shard] Starting master server
+[00:01:03]: [Shard] Shard server started on port: 10998
+[00:01:03]: Telling Client our new session identifier: BF953A8AFDD25F52
+[00:01:03]: Check for write access: TRUE
+[00:01:03]: Check for read access: TRUE
+[00:01:03]: Available disk space for save files: 126942 MB
+[00:01:03]: ModIndex: Load sequence finished successfully.	
+[00:01:03]: Reset() returning
+[00:01:05]: Validating portal[2] <-> 4239966897[2] (inactive)	
+[00:01:05]: Validating portal[7] <-> 4239966897[7] (inactive)	
+[00:01:05]: Validating portal[5] <-> 4239966897[5] (inactive)	
+[00:01:05]: Validating portal[9] <-> 4239966897[9] (inactive)	
+[00:01:05]: Validating portal[8] <-> 4239966897[8] (inactive)	
+[00:01:05]: Validating portal[1] <-> 4239966897[1] (inactive)	
+[00:01:05]: Validating portal[10] <-> 4239966897[10] (inactive)	
+[00:01:05]: Validating portal[4] <-> 4239966897[4] (inactive)	
+[00:01:05]: Validating portal[3] <-> 4239966897[3] (inactive)	
+[00:01:05]: Validating portal[6] <-> 4239966897[6] (inactive)	
+[00:01:05]: Could not find anim bank [tentacle_spike]
+[00:01:06]: Server registered via geo DNS in us-east-1
+[00:01:06]: Sim paused
+[00:01:06]: [Shard] Secondary shard Caves(4239966897) connected: [LAN] 127.0.0.1
+[00:01:07]: [Shard] Secondary Caves(4239966897) ready!
+[00:01:07]: World 4239966897 is now connected	
+[00:01:07]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:01:07]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
+[00:01:07]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[00:01:07]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
+[00:01:07]: Validating portal[2] <-> 4239966897[2] (active)	
+[00:01:07]: Validating portal[7] <-> 4239966897[7] (active)	
+[00:01:07]: Validating portal[5] <-> 4239966897[5] (active)	
+[00:01:07]: Validating portal[9] <-> 4239966897[9] (active)	
+[00:01:07]: Validating portal[8] <-> 4239966897[8] (active)	
+[00:01:07]: Validating portal[1] <-> 4239966897[1] (active)	
+[00:01:07]: Validating portal[10] <-> 4239966897[10] (active)	
+[00:01:07]: Validating portal[4] <-> 4239966897[4] (active)	
+[00:01:07]: Validating portal[3] <-> 4239966897[3] (active)	
+[00:01:07]: Validating portal[6] <-> 4239966897[6] (disabled)	
+[00:01:07]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
+[00:01:07]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
+[00:01:07]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
+[00:01:07]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
+[00:30:14]: [200] Account Communication Success (6)
+[00:30:14]: Received (KU_2DNgIUgO) from TokenPurpose
+[01:00:14]: [200] Account Communication Success (6)
+[01:00:14]: Received (KU_2DNgIUgO) from TokenPurpose
+[01:30:15]: [200] Account Communication Success (6)
+[01:30:15]: Received (KU_2DNgIUgO) from TokenPurpose
+[02:00:14]: [200] Account Communication Success (6)
+[02:00:14]: Received (KU_2DNgIUgO) from TokenPurpose
+[02:30:15]: [200] Account Communication Success (6)
+[02:30:15]: Received (KU_2DNgIUgO) from TokenPurpose
+[03:00:14]: [200] Account Communication Success (6)
+[03:00:14]: Received (KU_2DNgIUgO) from TokenPurpose
+[03:30:15]: [200] Account Communication Success (6)
+[03:30:15]: Received (KU_2DNgIUgO) from TokenPurpose
+[04:00:15]: [200] Account Communication Success (6)
+[04:00:15]: Received (KU_2DNgIUgO) from TokenPurpose
+[04:30:15]: [200] Account Communication Success (6)
+[04:30:15]: Received (KU_2DNgIUgO) from TokenPurpose
+[05:00:14]: [200] Account Communication Success (6)
+[05:00:14]: Received (KU_2DNgIUgO) from TokenPurpose
+[05:30:14]: [200] Account Communication Success (6)
+[05:30:14]: Received (KU_2DNgIUgO) from TokenPurpose
+[06:00:15]: [200] Account Communication Success (6)
+[06:00:15]: Received (KU_2DNgIUgO) from TokenPurpose
+[06:30:15]: [200] Account Communication Success (6)
+[06:30:15]: Received (KU_2DNgIUgO) from TokenPurpose
+[07:00:15]: [200] Account Communication Success (6)
+[07:00:15]: Received (KU_2DNgIUgO) from TokenPurpose
+[07:24:06]: New incoming connection 177.38.112.213|47176 <4861724625938335753>
+[07:24:06]: Client connected from 177.38.112.213|47176 <4861724625938335753>
+[07:24:06]: ValidateGameSessionToken GUID<4861724625938335753>
+[07:24:07]: Client authenticated: (KU_I5Fy6qDS) Raccoon
+[07:24:07]: [Steam] SendUserConnectAndAuthenticate for '76561198822031768'
+[07:24:07]: [Steam] Authenticated client '76561198822031768'
+[07:24:08]: There is no active event to validate against.
+[07:24:08]: [Shard] Read save location file for (KU_I5Fy6qDS)
+[07:25:29]: Resuming user: session/BF953A8AFDD25F52/A7I8AFU1MGQS
+[07:29:05]: Spawn request: waxwell from Raccoon
+[07:29:05]: Skin request: () (body_tweedvest_pink_raspberry) () () ()
+[07:29:05]: Skill Selection request: 0
+[07:29:05]: Spawning player at: [Fixed] (214.00, 0.00, 130.00)	
+[07:29:05]: Enabling Spawn Protection for	129368 - waxwell	
+[07:29:05]: Serializing user: session/BF953A8AFDD25F52/A7I8AFU1MGQS/0000001312
+[07:29:06]: Sim unpaused
+[07:30:15]: [200] Account Communication Success (6)
+[07:30:15]: Received (KU_2DNgIUgO) from TokenPurpose
+[07:31:47]: Failed to assign item skin ids due to ownership check failure.
+[07:33:03]: Failed to assign item skin ids due to ownership check failure.
+[07:33:03]: Failed to assign item skin ids due to ownership check failure.
+[07:33:04]: Failed to assign item skin ids due to ownership check failure.
+[07:33:05]: Failed to assign item skin ids due to ownership check failure.
+[07:33:06]: Failed to assign item skin ids due to ownership check failure.
+[07:33:07]: Failed to assign item skin ids due to ownership check failure.
+[07:33:26]: Could not find anim [lunge_loop] in bank [wilson]
+[07:33:27]: Could not find anim [death] in bank [ghost]
+[07:33:27]: Serializing user: session/BF953A8AFDD25F52/A7I8AFU1MGQS/0000001312
+[07:33:48]: KU_I5Fy6qDS	running text command:	rescue	true	
+[07:34:03]: [Steam] SendUserDisconnect for '76561198822031768'
+[07:34:03]: [Shard] (KU_I5Fy6qDS) disconnected from [SHDMASTER](1)
+[07:34:04]: Serializing user: session/BF953A8AFDD25F52/A7I8AFU1MGQS/0000001312
+[07:34:04]: Sim paused
+[08:00:15]: [200] Account Communication Success (6)
+[08:00:15]: Received (KU_2DNgIUgO) from TokenPurpose
+[08:30:15]: [200] Account Communication Success (6)
+[08:30:15]: Received (KU_2DNgIUgO) from TokenPurpose
+[09:00:15]: [200] Account Communication Success (6)
+[09:00:15]: Received (KU_2DNgIUgO) from TokenPurpose
+[09:30:15]: [200] Account Communication Success (6)
+[09:30:15]: Received (KU_2DNgIUgO) from TokenPurpose
+[10:00:15]: [200] Account Communication Success (6)
+[10:00:15]: Received (KU_2DNgIUgO) from TokenPurpose
+[10:22:15]: New incoming connection 168.228.177.253|53039 <2449700802143519252>
+[10:22:15]: Client connected from 168.228.177.253|53039 <2449700802143519252>
+[10:22:15]: ValidateGameSessionToken GUID<2449700802143519252>
+[10:22:16]: Client authenticated: (KU_N9ipdSfX) Vapo
+[10:22:16]: [Steam] SendUserConnectAndAuthenticate for '76561198398983946'
+[10:22:16]: [Steam] Authenticated client '76561198398983946'
+[10:22:18]: There is no active event to validate against.
+[10:22:18]: [Shard] Read save location file for (KU_N9ipdSfX)
+[10:24:50]: Resuming user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001310
+[10:24:50]: Can't find prefab shadow_crest	
+[10:24:50]: SpawnSaveRecord [nil, shadow_crest] FAILED	
+[10:24:50]: Can't find prefab luckamulet	
+[10:24:50]: SpawnSaveRecord [nil, luckamulet] FAILED	
+[10:24:50]: Can't find prefab stealer	
+[10:24:50]: SpawnSaveRecord [nil, stealer] FAILED	
+[10:24:50]: Can't find prefab terraprisma	
+[10:24:50]: SpawnSaveRecord [nil, terraprisma] FAILED	
+[10:24:50]: Can't find prefab vipcard	
+[10:24:50]: SpawnSaveRecord [nil, vipcard] FAILED	
+[10:24:50]: Spawning player at: [Load] (1999.99, 0.00, 1907.07)	
+[10:24:50]: Sim unpaused
+[10:24:52]: New time stamps for everyone at	1712158925	
+[10:24:52]: New time stamps for everyone at	1712158925	
+[10:25:00]: Available disk space for save files: 126863 MB
+[10:25:01]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001312
+[10:25:01]: Missing reference:	112250 - beef_bell	->	112252	112252 - beefalo	
+[10:25:02]: Serializing world: session/BF953A8AFDD25F52/0000001312
+[10:28:58]: [Steam] SendUserDisconnect for '76561198398983946'
+[10:28:58]: [Shard] (KU_N9ipdSfX) disconnected from [SHDMASTER](1)
+[10:28:59]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001313
+[10:28:59]: Sim paused
+[10:30:15]: [200] Account Communication Success (6)
+[10:30:15]: Received (KU_2DNgIUgO) from TokenPurpose
+[11:00:15]: [200] Account Communication Success (6)
+[11:00:15]: Received (KU_2DNgIUgO) from TokenPurpose
