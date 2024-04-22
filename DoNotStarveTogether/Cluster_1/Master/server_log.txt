@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 601983
-[00:00:00]: Current time: Sat Apr 20 21:59:39 2024
+[00:00:00]: Current time: Sun Apr 21 22:31:31 2024
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: fdcabe1e4075
@@ -15,9 +15,9 @@
 [00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Master 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (269968933523296)
+[00:00:00]: THREAD - started 'GAClient' (270290776514400)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:23.36
+[00:00:00]: ProfileIndex:22.57
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -31,7 +31,7 @@
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (269968544116576)
+[00:00:01]: THREAD - started 'StreamInput' (270290655240032)
 [00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
 [00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
 [00:00:01]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
@@ -746,24 +746,24 @@
 [00:00:11]: Mod: workshop-2324689937 (More equip slots)	Loading modworldgenmain.lua	
 [00:00:11]: Mod: workshop-2324689937 (More equip slots)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:11]: Mod: workshop-2324689937 (More equip slots)	Loading modmain.lua	
-[00:00:12]: Mod: workshop-1416161108 (Camp Security)	Loading modworldgenmain.lua	
-[00:00:12]: Mod: workshop-1416161108 (Camp Security)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:12]: Mod: workshop-1416161108 (Camp Security)	Loading modmain.lua	
-[00:00:12]: modimport: ../mods/workshop-1416161108/data/strings.lua	
-[00:00:12]: modimport: ../mods/workshop-1416161108/lib_fn.lua	
-[00:00:12]: modimport: ../mods/workshop-1416161108/data/PlayerCache.lua	
-[00:00:12]: modimport: ../mods/workshop-1416161108/scripts/patches/controlpanel.lua	
-[00:00:12]: modimport: ../mods/workshop-1416161108/scripts/patches/friendlist.lua	
-[00:00:12]: modimport: ../mods/workshop-1416161108/scripts/patches/lockedcontainers.lua	
-[00:00:12]: modimport: ../mods/workshop-1416161108/scripts/patches/drop_everything.lua	
-[00:00:12]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modworldgenmain.lua	
-[00:00:12]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:12]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modmain.lua	
-[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_assets.lua	
-[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_tuning.lua	
-[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_debug.lua	
-[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_strings.lua	
-[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_recipes.lua	
+[00:00:11]: Mod: workshop-1416161108 (Camp Security)	Loading modworldgenmain.lua	
+[00:00:11]: Mod: workshop-1416161108 (Camp Security)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:11]: Mod: workshop-1416161108 (Camp Security)	Loading modmain.lua	
+[00:00:11]: modimport: ../mods/workshop-1416161108/data/strings.lua	
+[00:00:11]: modimport: ../mods/workshop-1416161108/lib_fn.lua	
+[00:00:11]: modimport: ../mods/workshop-1416161108/data/PlayerCache.lua	
+[00:00:11]: modimport: ../mods/workshop-1416161108/scripts/patches/controlpanel.lua	
+[00:00:11]: modimport: ../mods/workshop-1416161108/scripts/patches/friendlist.lua	
+[00:00:11]: modimport: ../mods/workshop-1416161108/scripts/patches/lockedcontainers.lua	
+[00:00:11]: modimport: ../mods/workshop-1416161108/scripts/patches/drop_everything.lua	
+[00:00:11]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modworldgenmain.lua	
+[00:00:11]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:11]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modmain.lua	
+[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_assets.lua	
+[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_tuning.lua	
+[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_debug.lua	
+[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_strings.lua	
+[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_recipes.lua	
 [00:00:12]: modimport: ../mods/workshop-2503437364/init/init_containers.lua	
 [00:00:12]: modimport: ../mods/workshop-2503437364/init/init_actions.lua	
 [00:00:12]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
@@ -866,9 +866,9 @@
 [00:00:12]: Mod: workshop-2847908822 ([DST] Performance Pack)	Loading modworldgenmain.lua	
 [00:00:12]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:12]: Mod: workshop-2847908822 ([DST] Performance Pack)	Loading modmain.lua	
-[00:00:13]: modimport: ../mods/workshop-2847908822/1.lua	
-[00:00:13]: modimport: ../mods/workshop-2847908822/10.lua	
-[00:00:13]: modimport: ../mods/workshop-2847908822/14.lua	
+[00:00:12]: modimport: ../mods/workshop-2847908822/1.lua	
+[00:00:12]: modimport: ../mods/workshop-2847908822/10.lua	
+[00:00:12]: modimport: ../mods/workshop-2847908822/14.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/15.lua	
 [00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
 [00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
@@ -908,15 +908,15 @@
 [00:00:16]: Registering Client mod namespace "workshop-1111658995"
 [00:00:16]: Registering Shard mod namespace "quest_system_rpc"
 [00:00:16]: Registering Shard mod namespace "workshop-2167036904"
-[00:00:17]: PlayerDeaths could not load morgue	
-[00:00:17]: PlayerHistory could not load player_history	
-[00:00:17]: ServerPreferences could not load server_preferences	
-[00:00:17]: ConsoleScreenSettings could not load consolescreen	
-[00:00:17]: bloom_enabled	true	
-[00:00:17]: OnFilesLoaded()	
-[00:00:17]: OnUpdatePurchaseStateComplete	
-[00:00:17]: Klump load on boot started.	
-[00:00:17]: Klump files loaded: 	0	
+[00:00:16]: PlayerDeaths could not load morgue	
+[00:00:16]: PlayerHistory could not load player_history	
+[00:00:16]: ServerPreferences could not load server_preferences	
+[00:00:16]: ConsoleScreenSettings could not load consolescreen	
+[00:00:16]: bloom_enabled	true	
+[00:00:16]: OnFilesLoaded()	
+[00:00:16]: OnUpdatePurchaseStateComplete	
+[00:00:16]: Klump load on boot started.	
+[00:00:16]: Klump files loaded: 	0	
 [00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	Registering prefabs	
 [00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/questboard	
 [00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    questboard	
@@ -1253,79 +1253,79 @@
 [00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies	
 [00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies_builder	
 [00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	  Registering default mod prefab	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Registering prefabs	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/seffc	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    seffc	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/chasniplacer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    rabbit_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    tallbirdnest_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    houndmound_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    molehill_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    catcoonden_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    monkeybarrel_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    slurtlehole_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    walrus_camp_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wasphive_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    oceanvine_cocoon_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    spiderhole_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    moonspiderden_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    klaussack_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/dirtpile_boss	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dirtpile_boss	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/animal_track_boss	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    animal_track_boss	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/simplefx	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    poisonfx	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    paintfx	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/robin_egg	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_robin_egg	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/robin	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ro_bin	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/robin_stone	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_robin_stone	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/chasni_invis	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_invis	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/light_fx	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    groundlight_fx	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bloblight_fx	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/laser	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laser	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_playerlaser	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserempty	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_playerlaserempty	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserscorch	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_lasertrail	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserhit	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/laserring	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserring	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserexplosion	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_metalhulk_ringfx	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rock_basalt	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_basalt	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/icyweed	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_icyweed	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_icyweedbreakfx	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/trinketslot	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    trinketslot	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/shieldsfx	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wormwood_poop_shield	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    hulkhat_buff	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    shield_lunar	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wickerbottom/books_perk	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_gather	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_teleport	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_shield	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_shadow	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_lunar	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_voker	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wickerbottom/bookpack	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bookpack	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wickerbottom/new_book_buff	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    book_lunar_buff	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    book_shadow_buff	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wanda/watchcase	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    watchcase	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wanda/pocketwatches_perk	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Registering prefabs	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/seffc	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    seffc	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/chasniplacer	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    rabbit_placer	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    tallbirdnest_placer	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    houndmound_placer	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    molehill_placer	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    catcoonden_placer	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    monkeybarrel_placer	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    slurtlehole_placer	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    walrus_camp_placer	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wasphive_placer	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    oceanvine_cocoon_placer	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    spiderhole_placer	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    moonspiderden_placer	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    klaussack_placer	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/dirtpile_boss	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dirtpile_boss	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/animal_track_boss	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    animal_track_boss	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/simplefx	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    poisonfx	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    paintfx	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/robin_egg	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_robin_egg	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/robin	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ro_bin	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/robin_stone	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_robin_stone	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/chasni_invis	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_invis	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/light_fx	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    groundlight_fx	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bloblight_fx	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/laser	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laser	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_playerlaser	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserempty	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_playerlaserempty	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserscorch	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_lasertrail	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserhit	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/laserring	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserring	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserexplosion	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_metalhulk_ringfx	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rock_basalt	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_basalt	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/icyweed	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_icyweed	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_icyweedbreakfx	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/trinketslot	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    trinketslot	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/shieldsfx	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wormwood_poop_shield	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    hulkhat_buff	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    shield_lunar	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wickerbottom/books_perk	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_gather	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_teleport	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_shield	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_shadow	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_lunar	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_voker	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wickerbottom/bookpack	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bookpack	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wickerbottom/new_book_buff	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    book_lunar_buff	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    book_shadow_buff	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wanda/watchcase	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    watchcase	
+[00:00:22]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wanda/pocketwatches_perk	
 [00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_bloom	
 [00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_burnt	
 [00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_corrupt	
@@ -1914,10 +1914,10 @@
 [00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/uncontested/upgraded_beehat	
 [00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_beehat	
 [00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering default mod prefab	
-[00:00:24]: Could not preload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
-[00:00:24]: Could not preload undefined prefab (chasni_crab_shadowlunarorgan)
-[00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:23]: Could not preload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
+[00:00:23]: Could not preload undefined prefab (chasni_crab_shadowlunarorgan)
+[00:00:23]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:23]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/sparks_green.zip
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
@@ -1939,7 +1939,7 @@
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:24]: Could not preload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
 [00:00:24]: Could not preload undefined prefab (chasni_crab_shadowshadoworgan)
-[00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
@@ -2014,12 +2014,12 @@
 [00:00:27]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:27]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:28]: 	Load FE	
-[00:00:28]: THREAD - started 'FilesExistAsyncThread' (269968264773472)
-[00:00:28]: FilesExistAsyncThread started (24715 files)...
+[00:00:28]: THREAD - started 'FilesExistAsyncThread' (270290177724256)
 [00:00:28]: 	Load FE: done	
+[00:00:28]: FilesExistAsyncThread started (24715 files)...
 [00:00:28]: Check for write access: TRUE
 [00:00:28]: Check for read access: TRUE
-[00:00:28]: Available disk space for save files: 99519 MB
+[00:00:28]: Available disk space for save files: 132832 MB
 [00:00:28]: ModIndex: Load sequence finished successfully.	
 [00:00:28]: Reset() returning
 [00:00:29]: Error: Could not find file: anim/chop_mangrove_pink.zip
@@ -2192,6 +2192,7 @@
 [00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
 [00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
 [00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:29]: ... FilesExistAsyncThread complete
 [00:00:29]: [200] Account Communication Success (6)
 [00:00:29]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
 [00:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
@@ -2224,25 +2225,25 @@
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-3156633422	
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2167036904	
-[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2665263549	
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-3055010657	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2665263549	
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-3050607025	
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2597204554	
-[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2937640068	
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-3150203711	
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2324689937	
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2847806795	
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-1185229307	
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2854057841	
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
-[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2937640068	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2503437364	
 [00:00:29]: Online Server Started on port: 10999
 [00:00:29]: SUCCESS: Loaded modoverrides.lua	
 [00:00:29]: Not applying level data overrides.	
 [00:00:29]: Found a worldgen override file with these contents:	
 [00:00:29]: 	K: 	override_enabled	 V: 	true	
-[00:00:29]: 	K: 	overrides	 V: 	table: 0x4a362830	
+[00:00:29]: 	K: 	overrides	 V: 	table: 0x6af301b0	
 [00:00:29]: 		K: 	basicresource_regrowth	 V: 	always	
 [00:00:29]: 		K: 	ghostsanitydrain	 V: 	none	
 [00:00:29]: 		K: 	portalresurection	 V: 	always	
@@ -2255,7 +2256,6 @@
 [00:00:29]:   contained settings preset SURVIVAL_TOGETHER, loading...	
 [00:00:29]: Overwriting savedata with override file.	
 [00:00:29]: Collecting garbage...
-[00:00:30]: ... FilesExistAsyncThread complete
 [00:00:30]: lua_gc took 0.30 seconds
 [00:00:30]: ~ShardLuaProxy()
 [00:00:30]: ~cEventLeaderboardProxy()
@@ -2832,8 +2832,8 @@
 [00:00:39]: Overriding mod workshop-2854057841's option os_hammer with value false	
 [00:00:39]: Overriding mod workshop-2854057841's option number with value 6	
 [00:00:39]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modworldgenmain.lua	
-[00:00:40]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modmain.lua	
-[00:00:40]: modimport: ../mods/workshop-2597204554/quest_system/tuning_strings.lua	
+[00:00:39]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modmain.lua	
+[00:00:39]: modimport: ../mods/workshop-2597204554/quest_system/tuning_strings.lua	
 [00:00:40]: [Quest System] Amount of quests:	150	
 [00:00:40]: [Quest System] Amount of quests difficulty 1:	29	
 [00:00:40]: [Quest System] Amount of quests difficulty 2:	41	
@@ -2985,35 +2985,35 @@
 [00:00:40]: modimport: ../mods/workshop-2503437364/init/init_debug.lua	
 [00:00:40]: modimport: ../mods/workshop-2503437364/init/init_strings.lua	
 [00:00:40]: modimport: ../mods/workshop-2503437364/init/init_recipes.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_containers.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_actions.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_colours.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_loading_tips.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_widgets.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_mod_modifier.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/postinit_bosses.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/postinit_colours.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/postinit_descriptions.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/postinit_epics.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/postinit_repairitems.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/postinit_treasuremap_spawner.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/armor.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/attackdodger.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/builder.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/combat.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/finiteuses.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/grue.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/hounded.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/perishable.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/playeractionpicker.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/playercontroller.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/reticule.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/sewing.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/prefabs/world.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/prefabs/player.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/screens/playerhud.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_containers.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_actions.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_colours.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_loading_tips.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_widgets.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_mod_modifier.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/postinit_bosses.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/postinit_colours.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/postinit_descriptions.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/postinit_epics.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/postinit_repairitems.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/postinit_treasuremap_spawner.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/armor.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/attackdodger.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/builder.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/combat.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/finiteuses.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/grue.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/hounded.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/perishable.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/playeractionpicker.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/playercontroller.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/reticule.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/sewing.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/prefabs/world.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/prefabs/player.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/screens/playerhud.lua	
 [00:00:41]: modimport: ../mods/workshop-2503437364/postinit/stategraphs/SGpolly_rogers.lua	
 [00:00:41]: modimport: ../mods/workshop-2503437364/postinit/stategraphs/SGwilson_client.lua	
 [00:00:41]: modimport: ../mods/workshop-2503437364/postinit/mod_compability.lua	
@@ -3092,11 +3092,11 @@
 [00:00:41]: modimport: ../mods/workshop-2847908822/8.lua	
 [00:00:41]: modimport: ../mods/workshop-2847908822/7.lua	
 [00:00:41]: modimport: ../mods/workshop-2847908822/3.lua	
-[00:00:42]: modimport: ../mods/workshop-2847908822/6.lua	
-[00:00:42]: modimport: ../mods/workshop-2847908822/4.lua	
-[00:00:42]: modimport: ../mods/workshop-2847908822/5.lua	
-[00:00:42]: modimport: ../mods/workshop-2847908822/9.lua	
-[00:00:42]: modimport: ../mods/workshop-2847908822/14.lua	
+[00:00:41]: modimport: ../mods/workshop-2847908822/6.lua	
+[00:00:41]: modimport: ../mods/workshop-2847908822/4.lua	
+[00:00:41]: modimport: ../mods/workshop-2847908822/5.lua	
+[00:00:41]: modimport: ../mods/workshop-2847908822/9.lua	
+[00:00:41]: modimport: ../mods/workshop-2847908822/14.lua	
 [00:00:42]: modimport: ../mods/workshop-2847908822/15.lua	
 [00:00:42]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
 [00:00:42]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
@@ -3143,7 +3143,7 @@
 [00:00:44]: bloom_enabled	true	
 [00:00:44]: OnFilesLoaded()	
 [00:00:44]: OnUpdatePurchaseStateComplete	
-[00:00:44]: Loading world: session/BF953A8AFDD25F52/0000001745	
+[00:00:44]: Loading world: session/BF953A8AFDD25F52/0000001803	
 [00:00:45]: Save file is at version 5.146	
 [00:00:45]: Klump load on boot started.	
 [00:00:45]: Klump files loaded: 	0	
@@ -3225,48 +3225,48 @@
 [00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_eyebone	
 [00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	    spit_bomb	
 [00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering default mod prefab	
-[00:00:51]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
-[00:00:51]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
-[00:00:51]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
-[00:00:51]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering default mod prefab	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	Registering prefabs	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/shoes	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_armor	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_speed	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_rain	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_wet	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_winter	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_summer	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_slurper	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_waterplant	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_frog	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_battle	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_moonrock	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_fern	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_mushroom_red	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_mushroom_green	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_mushroom_blue	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_monkey	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/shoes_desk	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_desk	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_desk_morel	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_desk_placer	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/shoes_seller	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_seller	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/shoes_fx	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoes_fx	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/shoeshine_kit	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    shoeshine_kit	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/critter_cappy	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    critter_cappy	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/cappy_snack	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    cappy_snack	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/shoesskinprefabs	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    ms_shoes_fern_green	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    ms_shoes_rain_rubber	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    ms_shoes_speed_blue	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	    ms_shoes_speed_teal	
-[00:00:51]: Mod: workshop-3150203711 (Shoetime)	  Registering default mod prefab	
+[00:00:50]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
+[00:00:50]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
+[00:00:50]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
+[00:00:50]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering default mod prefab	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	Registering prefabs	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/shoes	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_armor	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_speed	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_rain	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_wet	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_winter	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_summer	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_slurper	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_waterplant	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_frog	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_battle	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_moonrock	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_fern	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_mushroom_red	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_mushroom_green	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_mushroom_blue	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_monkey	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/shoes_desk	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_desk	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_desk_morel	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_desk_placer	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/shoes_seller	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_seller	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/shoes_fx	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoes_fx	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/shoeshine_kit	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    shoeshine_kit	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/critter_cappy	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    critter_cappy	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/cappy_snack	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    cappy_snack	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	  Registering prefab file: prefabs/shoesskinprefabs	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    ms_shoes_fern_green	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    ms_shoes_rain_rubber	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    ms_shoes_speed_blue	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	    ms_shoes_speed_teal	
+[00:00:50]: Mod: workshop-3150203711 (Shoetime)	  Registering default mod prefab	
 [00:00:51]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
 [00:00:51]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
 [00:00:51]: Mod: workshop-2537774396 (Discord Thông Báo)	Registering prefabs	
@@ -3410,107 +3410,107 @@
 [00:00:51]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering prefab file: prefabs/treasurechasechest	
 [00:00:51]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	    treasurechasechest	
 [00:00:51]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Registering default mod prefab	
-[00:00:52]: Could not preload undefined prefab (beequeenhat)
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	Registering prefabs	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_door_exit	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit1	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit2	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit3	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_wall	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_floor	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floor	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallpaper	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu1	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2_light	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_in	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1_in	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz_in	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis_in	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_mushroom_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_sunflower_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_upholstered_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_harlequin_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_circles_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_punk_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_pvz_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_tardis_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_mushroom_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checker_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checkered_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_geome_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_herringbone_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_octagon_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_ruins_slab_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodmetal_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodpaneling_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_punk_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_pvz_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_tardis_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_lights	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red1	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red2	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round_light	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk_light	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_light_light	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_light	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house1	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_named_item	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_named_item	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_pvz	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_tardis	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_fake	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_interiors	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_phonograph	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph_placer	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_zombies	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies_builder	
-[00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	  Registering default mod prefab	
+[00:00:51]: Could not preload undefined prefab (beequeenhat)
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	Registering prefabs	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_door_exit	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit1	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit2	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_door_exit3	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_wall	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_floor	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floor	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallpaper	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu1	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2_light	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_in	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1_in	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz_in	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis_in	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_mushroom_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_sunflower_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_upholstered_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_harlequin_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_circles_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_punk_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_pvz_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_tardis_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_mushroom_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checker_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checkered_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_geome_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_herringbone_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_octagon_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_ruins_slab_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodmetal_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodpaneling_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_punk_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_pvz_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_tardis_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_lights	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red1	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red2	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round_light	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk_light	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_light_light	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_light	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house1	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_named_item	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_named_item	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_pvz	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_tardis	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_fake	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_interiors	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_phonograph	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph_placer	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_zombies	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies_builder	
+[00:00:51]: Mod: workshop-3055010657 (Sweet House fix)	  Registering default mod prefab	
 [00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Registering prefabs	
 [00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/seffc	
 [00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    seffc	
@@ -4153,36 +4153,36 @@
 [00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_metalbit	
 [00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    trinket_chasni_1	
 [00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/slipscraft	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    slipscraft	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/trap_flytrap	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    trap_flytrap	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dug_trap_flytrap	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dug_trap_flytrap_placer	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/crocpack	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    crocpack	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/crockit	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    crockit	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/hulkhat	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    hulkhat	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/hulkgloves	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    hulkgloves	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/uncontested/upgraded_redbluestaff	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_firestaff	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_icestaff	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/uncontested/upgraded_beehat	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_beehat	
-[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering default mod prefab	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    slipscraft	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/trap_flytrap	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    trap_flytrap	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dug_trap_flytrap	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dug_trap_flytrap_placer	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/crocpack	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    crocpack	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/crockit	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    crockit	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/hulkhat	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    hulkhat	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/hulkgloves	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    hulkgloves	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/uncontested/upgraded_redbluestaff	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_firestaff	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_icestaff	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/uncontested/upgraded_beehat	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_beehat	
+[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering default mod prefab	
 [00:00:53]: Could not preload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
 [00:00:53]: Could not preload undefined prefab (chasni_crab_shadowlunarorgan)
 [00:00:54]: Could not preload undefined prefab (chasni_fire_crab_king_claw_fx_build)
 [00:00:54]: Could not preload undefined prefab (chasni_crab_shadowfireorgan)
 [00:00:54]: Could not preload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
 [00:00:54]: Could not preload undefined prefab (chasni_crab_shadowshadoworgan)
-[00:00:56]: Could not preload undefined prefab (chasni_ice_crab_king_claw_fx_build)
-[00:00:56]: Could not preload undefined prefab (chasni_crab_shadowiceorgan)
-[00:00:56]: Could not preload undefined prefab (cckproj_ice)
-[00:00:56]: Could not preload undefined prefab (chasni_water_crab_king_claw_fx_build)
-[00:00:56]: Could not preload undefined prefab (chasni_crab_shadowwaterorgan)
+[00:00:55]: Could not preload undefined prefab (chasni_ice_crab_king_claw_fx_build)
+[00:00:55]: Could not preload undefined prefab (chasni_crab_shadowiceorgan)
+[00:00:55]: Could not preload undefined prefab (cckproj_ice)
+[00:00:55]: Could not preload undefined prefab (chasni_water_crab_king_claw_fx_build)
+[00:00:55]: Could not preload undefined prefab (chasni_crab_shadowwaterorgan)
 [00:00:56]: Could not preload undefined prefab (fryfocals_charge)
 [00:00:56]: Could not preload undefined prefab (paint_fx)
 [00:00:57]: Mod: workshop-2847908822 ([DST] Performance Pack)	Registering prefabs	
@@ -4195,9 +4195,9 @@
 [00:00:57]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
 [00:00:57]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:57]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
-[00:00:58]: 	LOAD BE	
-[00:01:11]: Could not preload undefined prefab (brokenwall_scrap)
-[00:01:14]: 	LOAD BE: done	
+[00:00:57]: 	LOAD BE	
+[00:01:10]: Could not preload undefined prefab (brokenwall_scrap)
+[00:01:13]: 	LOAD BE: done	
 [00:01:14]: Begin Session: BF953A8AFDD25F52
 [00:01:14]: saving to server_temp/server_save	
 [00:01:14]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
@@ -4219,128 +4219,69 @@
 [00:01:14]: ---### a player is come back! reset the name? ###---	
 [00:01:14]: Loading 19 new character(s)	
 [00:01:16]: Total 19 character(s) loaded	
-[00:01:18]: Loading Nav Grid	
-[00:01:18]: World generated on build 587581 with save version: 5.142, using seed: 1655873162	
-[00:01:18]: setting 	summerlength	15	
-[00:01:18]: setting 	cavemoonphase	half	
-[00:01:18]: setting 	iscavefullmoon	false	
-[00:01:18]: setting 	isnightmaredawn	false	
-[00:01:18]: setting 	elapseddaysinseason	5	
-[00:01:18]: setting 	isfullmoon	false	
-[00:01:18]: setting 	moisture	2461.4611816406	
-[00:01:18]: setting 	springlength	20	
-[00:01:18]: setting 	islunarhailing	false	
-[00:01:18]: setting 	isnightmarewild	false	
-[00:01:18]: setting 	nightmaretimeinphase	0	
-[00:01:18]: setting 	precipitationrate	0	
-[00:01:18]: setting 	iswet	false	
-[00:01:18]: setting 	isnewmoon	false	
-[00:01:18]: setting 	israining	false	
-[00:01:18]: setting 	iswinter	false	
-[00:01:18]: setting 	isnightmarewarn	false	
-[00:01:18]: setting 	precipitation	none	
-[00:01:18]: setting 	iscavewaxingmoon	true	
-[00:01:18]: setting 	isacidraining	false	
-[00:01:18]: setting 	moonphase	half	
-[00:01:18]: setting 	remainingdaysinseason	15	
-[00:01:18]: setting 	temperature	42.531066678466	
-[00:01:18]: setting 	wetness	0	
-[00:01:18]: setting 	cycles	1610	
-[00:01:18]: setting 	moistureceil	5617.7495117188	
-[00:01:18]: setting 	isday	true	
-[00:01:18]: setting 	winterlength	15	
-[00:01:18]: setting 	season	autumn	
-[00:01:18]: setting 	iswaxingmoon	true	
-[00:01:18]: setting 	isalterawake	false	
-[00:01:18]: setting 	isnightmarecalm	false	
-[00:01:18]: setting 	isnight	false	
-[00:01:18]: setting 	isdusk	false	
-[00:01:18]: setting 	isspring	false	
-[00:01:18]: setting 	isautumn	true	
-[00:01:18]: setting 	iscaveday	true	
-[00:01:18]: setting 	lunarhaillevel	50.887432098389	
-[00:01:18]: setting 	pop	0.3614093378549	
-[00:01:18]: setting 	snowlevel	0	
-[00:01:18]: setting 	issnowcovered	false	
-[00:01:18]: setting 	autumnlength	20	
-[00:01:18]: setting 	phase	day	
-[00:01:18]: setting 	nightmaretime	0	
-[00:01:18]: setting 	issnowing	false	
-[00:01:18]: setting 	iscavedusk	false	
-[00:01:18]: setting 	nightmarephase	none	
-[00:01:18]: setting 	timeinphase	0.89992872079213	
-[00:01:18]: setting 	seasonprogress	0.25	
-[00:01:18]: setting 	iscavenight	false	
-[00:01:18]: setting 	iscavenewmoon	false	
-[00:01:18]: setting 	issummer	false	
-[00:01:18]: setting 	cavephase	day	
-[00:01:18]: setting 	time	0.44996436039607	
+[00:01:17]: Loading Nav Grid	
+[00:01:17]: World generated on build 587581 with save version: 5.142, using seed: 1655873162	
+[00:01:17]: setting 	summerlength	15	
+[00:01:17]: setting 	cavemoonphase	threequarter	
+[00:01:17]: setting 	iscavefullmoon	false	
+[00:01:17]: setting 	isnightmaredawn	false	
+[00:01:17]: setting 	elapseddaysinseason	6	
+[00:01:17]: setting 	isfullmoon	false	
+[00:01:17]: setting 	moisture	3452.0793457031	
+[00:01:17]: setting 	springlength	20	
+[00:01:17]: setting 	islunarhailing	false	
+[00:01:17]: setting 	isnightmarewild	false	
+[00:01:17]: setting 	nightmaretimeinphase	0	
+[00:01:17]: setting 	precipitationrate	0	
+[00:01:17]: setting 	iswet	false	
+[00:01:17]: setting 	isnewmoon	false	
+[00:01:17]: setting 	israining	false	
+[00:01:17]: setting 	iswinter	false	
+[00:01:17]: setting 	isnightmarewarn	false	
+[00:01:17]: setting 	precipitation	none	
+[00:01:17]: setting 	iscavewaxingmoon	false	
+[00:01:17]: setting 	isacidraining	false	
+[00:01:17]: setting 	moonphase	threequarter	
+[00:01:17]: setting 	remainingdaysinseason	9	
+[00:01:17]: setting 	temperature	91.572538021614	
+[00:01:17]: setting 	wetness	0	
+[00:01:17]: setting 	cycles	1666	
+[00:01:17]: setting 	moistureceil	3885.7092285156	
+[00:01:17]: setting 	isday	true	
+[00:01:17]: setting 	winterlength	15	
+[00:01:17]: setting 	season	summer	
+[00:01:17]: setting 	iswaxingmoon	false	
+[00:01:17]: setting 	isalterawake	false	
+[00:01:17]: setting 	isnightmarecalm	false	
+[00:01:17]: setting 	isnight	false	
+[00:01:17]: setting 	isdusk	false	
+[00:01:17]: setting 	isspring	false	
+[00:01:17]: setting 	isautumn	false	
+[00:01:17]: setting 	iscaveday	true	
+[00:01:17]: setting 	lunarhaillevel	73.533470153809	
+[00:01:17]: setting 	pop	0.8668236831569	
+[00:01:17]: setting 	snowlevel	0	
+[00:01:17]: setting 	issnowcovered	false	
+[00:01:17]: setting 	autumnlength	20	
+[00:01:17]: setting 	phase	day	
+[00:01:17]: setting 	nightmaretime	0	
+[00:01:17]: setting 	issnowing	false	
+[00:01:17]: setting 	iscavedusk	false	
+[00:01:17]: setting 	nightmarephase	none	
+[00:01:17]: setting 	timeinphase	0.0031208385120739	
+[00:01:17]: setting 	seasonprogress	0.4	
+[00:01:17]: setting 	iscavenight	false	
+[00:01:17]: setting 	iscavenewmoon	false	
+[00:01:17]: setting 	issummer	true	
+[00:01:17]: setting 	cavephase	day	
+[00:01:17]: setting 	time	0.0021455764770508	
 [00:01:18]: OVERRIDE: setting	resettime	to	none	
 [00:01:18]: OVERRIDE: setting	basicresource_regrowth	to	always	
 [00:01:18]: OVERRIDE: setting	portalresurection	to	always	
 [00:01:18]: OVERRIDE: setting	ghostsanitydrain	to	none	
-[00:01:18]: Can't find prefab powerpowder_big	
-[00:01:18]: SpawnSaveRecord [nil, powerpowder_big] FAILED	
-[00:01:34]: Can't find prefab powerpowder_small	
-[00:01:34]: SpawnSaveRecord [nil, powerpowder_small] FAILED	
-[00:01:34]: Can't find prefab powerpowder_small	
-[00:01:34]: SpawnSaveRecord [114335, powerpowder_small] FAILED	
-[00:01:45]: [dst-more-equip-slots]	INFO	["thunder_armor"] = nil, -- Thor's Cape	
-[00:01:51]: Can't find prefab everdagger5	
-[00:01:51]: SpawnSaveRecord [113520, everdagger5] FAILED	
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:02:00]: [dst-more-equip-slots]	INFO	["terraprisma"] = EQUIP_TYPES.AMULET, -- Terraprisma	
-[00:02:02]: Could not find anim [idle] in bank [cappy]
-[00:02:06]: [dst-more-equip-slots]	INFO	["upgraded_amulet"] = nil, -- Exort Amulet	
-[00:02:06]: [dst-more-equip-slots]	INFO	["upgraded_blueamulet"] = nil, -- Quas Amulet	
-[00:02:07]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
-[00:02:07]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
-[00:02:07]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
-[00:02:07]: [dst-more-equip-slots]	INFO	["armorgold"] = nil, -- Golden Scalemail	
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:08]: Could not find anim build FROMNUM
-[00:02:10]: inserting post_fn armor	stack traceback:
+[00:01:23]: [dst-more-equip-slots]	INFO	["slipscraft"] = nil, -- Slipscraft	
+[00:01:24]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:32]: inserting post_fn armor	stack traceback:
 	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:788 in (method) EndFn (Lua) <763-869>
 	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:690 in (field) ? (Lua) <684-691>
 	../mods/workshop-2503437364/scripts/components/mod_modifier.lua:487 in (method) ChooseEquipment (Lua) <466-491>
@@ -4364,268 +4305,620 @@
 	scripts/gamelogic.lua:1322 in () ? (main) <0-0>
 	=[C]:-1 in (upvalue) _3asx (C) <-1--1>
 	../mods/workshop-1207269058/modmain.lua:1 in (global) require (Lua) <1-1>	
-[00:02:13]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
-[00:02:28]: Reconstructing topology	
-[00:02:28]: 	...Sorting points	
-[00:02:28]: 	...Sorting edges	
-[00:02:28]: 	...Connecting nodes	
-[00:02:28]: 	...Validating connections	
-[00:02:29]: 	...Housekeeping	
-[00:02:29]: 	...Done!	
-[00:02:29]: 1 uploads added to server. From server_temp
-[00:02:29]: About to start a shard with these settings:
-[00:02:29]:   ShardName: [SHDMASTER]
-[00:02:29]:   ShardID: 1
-[00:02:29]:   ShardRole: MASTER
-[00:02:29]:   MasterHost: (null)
-[00:02:29]:   MasterBind: 127.0.0.1
-[00:02:29]:   MasterPort: 10998
-[00:02:29]: [Shard] Starting master server
-[00:02:29]: [Shard] Shard server started on port: 10998
-[00:02:29]: Telling Client our new session identifier: BF953A8AFDD25F52
-[00:02:29]: Check for write access: TRUE
-[00:02:29]: Check for read access: TRUE
-[00:02:29]: Available disk space for save files: 99518 MB
-[00:02:29]: ModIndex: Load sequence finished successfully.	
-[00:02:30]: Reset() returning
-[00:02:35]: Validating portal[1] <-> 4239966897[1] (inactive)	
-[00:02:35]: Validating portal[6] <-> 4239966897[6] (inactive)	
-[00:02:35]: Validating portal[3] <-> 4239966897[3] (inactive)	
-[00:02:35]: Validating portal[10] <-> 4239966897[10] (inactive)	
-[00:02:35]: Validating portal[8] <-> 4239966897[8] (inactive)	
-[00:02:35]: Validating portal[7] <-> 4239966897[7] (inactive)	
-[00:02:35]: Validating portal[5] <-> 4239966897[5] (inactive)	
-[00:02:36]: Validating portal[2] <-> 4239966897[2] (inactive)	
-[00:02:36]: Validating portal[4] <-> 4239966897[4] (inactive)	
-[00:02:36]: Validating portal[9] <-> 4239966897[9] (inactive)	
-[00:02:37]: Server registered via geo DNS in us-east-1
-[00:02:37]: Sim paused
-[00:02:37]: [Shard] Secondary shard Caves(4239966897) connected: [LAN] 127.0.0.1
-[00:02:38]: [Shard] Secondary Caves(4239966897) ready!
-[00:02:38]: World 4239966897 is now connected	
-[00:02:38]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
-[00:02:38]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
-[00:02:38]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
-[00:02:38]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
-[00:02:38]: Validating portal[1] <-> 4239966897[1] (active)	
-[00:02:38]: Validating portal[6] <-> 4239966897[6] (disabled)	
-[00:02:38]: Validating portal[3] <-> 4239966897[3] (active)	
-[00:02:38]: Validating portal[10] <-> 4239966897[10] (active)	
-[00:02:38]: Validating portal[8] <-> 4239966897[8] (active)	
-[00:02:38]: Validating portal[7] <-> 4239966897[7] (active)	
-[00:02:38]: Validating portal[5] <-> 4239966897[5] (active)	
-[00:02:38]: Validating portal[2] <-> 4239966897[2] (active)	
-[00:02:38]: Validating portal[4] <-> 4239966897[4] (active)	
-[00:02:38]: Validating portal[9] <-> 4239966897[9] (active)	
-[00:02:38]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
-[00:02:38]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
-[00:02:38]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
-[00:02:38]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
-[00:03:18]: New incoming connection 179.125.143.188|58785 <8529672540948383299>
-[00:03:18]: Client connected from 179.125.143.188|58785 <8529672540948383299>
-[00:03:18]: ValidateGameSessionToken GUID<8529672540948383299>
-[00:03:19]: Client authenticated: (KU_2DNgIUgO) Otomai
-[00:03:19]: [Steam] Authenticated host '76561198068392192'
-[00:03:20]: There is no active event to validate against.
-[00:03:20]: [Shard] Read save location file for (KU_2DNgIUgO)
-[00:03:20]: [Shard] Forwarding player to Caves(4239966897)
-[00:03:20]: [Shard] Begin migration #1 for (KU_2DNgIUgO)
-[00:03:20]: [Shard] #1 [SHDMASTER](1) -> Caves(4239966897)
-[00:03:20]: Sim unpaused
-[00:03:20]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
-[00:03:20]: [Steam] SendUserDisconnect for '76561198068392192'
-[00:03:20]: [Shard] (KU_2DNgIUgO) disconnected from [SHDMASTER](1)
-[00:03:24]: [Shard] Completed migration #1 for player (KU_2DNgIUgO)
-[00:06:03]: [Shard] Begin migration #2 for (KU_2DNgIUgO)
-[00:06:03]: [Shard] #2 Caves(4239966897) -> [SHDMASTER](1)
-[00:06:03]: [Shard] #2 -> session/BF953A8AFDD25F52/A7G8QNL4JQKO/0000001746
-[00:06:03]: [Shard] Received migration #2 data for (KU_2DNgIUgO)
-[00:06:03]: [Shard] Writing save location file for (KU_2DNgIUgO)
-[00:06:03]: [Shard] (KU_2DNgIUgO) disconnected from Caves(4239966897)
-[00:06:08]: [P2P] Session request for '76561198068392192'
-[00:06:09]: New incoming connection 179.125.143.188|58807 <3272778562327977105>
-[00:06:09]: Client connected from 179.125.143.188|58807 <3272778562327977105>
-[00:06:09]: ValidateGameSessionToken GUID<3272778562327977105>
-[00:06:10]: Client authenticated: (KU_2DNgIUgO) Otomai
-[00:06:10]: [Steam] Authenticated host '76561198068392192'
-[00:06:10]: [Shard] Completed incoming migration #2 for (KU_2DNgIUgO)
-[00:06:10]: [Shard] Completed migration #2 for player (KU_2DNgIUgO)
-[00:06:13]: [P2P] Create session: 83.225.136.221|1 '76561198068392192'
-[00:06:13]: [P2P] Received from 83.225.136.221|1 '76561198068392192'
-[00:06:13]: [P2P] Sent to 83.225.136.221|1 '76561198068392192'
-[00:06:26]: Resuming user: session/BF953A8AFDD25F52/A7G8QNL4JQKO/0000001746
-[00:06:26]: Player will spawn close to portal #3	
-[00:06:26]: Spawning player at: [Load] (-138.51, 0.00, -228.43)	
-[00:06:26]: [Quest System] Add Local Quests to	133807 - webber	
-[00:07:46]: Available disk space for save files: 99518 MB
-[00:07:48]: [Quest System] Saving own quests!	
-[00:07:48]: Serializing user: session/BF953A8AFDD25F52/A7G8QNL4JQKO/0000001746
-[00:07:48]: Missing reference:	108688 - beefaloherd	->	122925	122925 - beefalo	
-[00:07:49]: Serializing world: session/BF953A8AFDD25F52/0000001746
-[00:13:17]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
-[00:15:49]: Available disk space for save files: 99513 MB
-[00:15:51]: [Quest System] Saving own quests!	
-[00:15:51]: Serializing user: session/BF953A8AFDD25F52/A7G8QNL4JQKO/0000001747
-[00:15:51]: Missing reference:	108688 - beefaloherd	->	122925	122925 - beefalo	
-[00:15:52]: Serializing world: session/BF953A8AFDD25F52/0000001747
-[00:16:13]: [P2P] Session timed out for '76561198068392192'
-[00:16:13]: [P2P] Remove session: 83.225.136.221|1 '76561198068392192'
-[00:20:15]: [Quest System] Add Quest	The Possessed Crows	number of quests	6	
-[00:23:52]: Available disk space for save files: 99508 MB
-[00:23:54]: [Quest System] Saving own quests!	
-[00:23:54]: Serializing user: session/BF953A8AFDD25F52/A7G8QNL4JQKO/0000001748
-[00:23:54]: Missing reference:	122923 - beef_bell	->	122925	122925 - beefalo	
-[00:23:55]: Serializing world: session/BF953A8AFDD25F52/0000001748
+[00:01:35]: [dst-more-equip-slots]	INFO	["thunder_armor"] = nil, -- Thor's Cape	
+[00:01:52]: Could not find anim [idle] in bank [cappy]
+[00:01:57]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:57]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:57]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:57]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:57]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:57]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:57]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:57]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:57]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:57]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:02:01]: [dst-more-equip-slots]	INFO	["upgraded_amulet"] = nil, -- Exort Amulet	
+[00:02:01]: [dst-more-equip-slots]	INFO	["upgraded_blueamulet"] = nil, -- Quas Amulet	
+[00:02:02]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
+[00:02:02]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
+[00:02:02]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:02:02]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:02:02]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:02:02]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:02:02]: [dst-more-equip-slots]	INFO	["armorgold"] = nil, -- Golden Scalemail	
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:03]: Could not find anim build FROMNUM
+[00:02:06]: [dst-more-equip-slots]	INFO	["terraprisma"] = EQUIP_TYPES.AMULET, -- Terraprisma	
+[00:02:06]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
+[00:02:19]: Reconstructing topology	
+[00:02:19]: 	...Sorting points	
+[00:02:19]: 	...Sorting edges	
+[00:02:19]: 	...Connecting nodes	
+[00:02:19]: 	...Validating connections	
+[00:02:19]: 	...Housekeeping	
+[00:02:19]: 	...Done!	
+[00:02:19]: Truncating to snapshot #1803...
+[00:02:19]:  - session/BF953A8AFDD25F52/0000001796
+[00:02:19]:  - session/BF953A8AFDD25F52/0000001797
+[00:02:19]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000001797
+[00:02:19]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000001796
+[00:02:19]:  - session/BF953A8AFDD25F52/A7HBIF7MG52E/0000001786
+[00:02:19]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001797
+[00:02:19]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001796
+[00:02:19]:    7 file(s) removed
+[00:02:19]: Restoring user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001803	
+[00:02:20]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
+[00:02:20]: [dst-more-equip-slots]	INFO	["terraprisma"] = EQUIP_TYPES.AMULET, -- Terraprisma	
+[00:02:20]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001804
+[00:02:20]: 1 uploads added to server. From server_temp
+[00:02:20]: About to start a shard with these settings:
+[00:02:20]:   ShardName: [SHDMASTER]
+[00:02:20]:   ShardID: 1
+[00:02:20]:   ShardRole: MASTER
+[00:02:20]:   MasterHost: (null)
+[00:02:20]:   MasterBind: 127.0.0.1
+[00:02:20]:   MasterPort: 10998
+[00:02:20]: [Shard] Starting master server
+[00:02:20]: [Shard] Shard server started on port: 10998
+[00:02:20]: Telling Client our new session identifier: BF953A8AFDD25F52
+[00:02:20]: Check for write access: TRUE
+[00:02:20]: Check for read access: TRUE
+[00:02:20]: Available disk space for save files: 132841 MB
+[00:02:20]: ModIndex: Load sequence finished successfully.	
+[00:02:21]: Reset() returning
+[00:02:25]: Validating portal[7] <-> 4239966897[7] (inactive)	
+[00:02:25]: Validating portal[5] <-> 4239966897[5] (inactive)	
+[00:02:25]: Validating portal[2] <-> 4239966897[2] (inactive)	
+[00:02:26]: Validating portal[9] <-> 4239966897[9] (inactive)	
+[00:02:26]: Validating portal[1] <-> 4239966897[1] (inactive)	
+[00:02:26]: Validating portal[3] <-> 4239966897[3] (inactive)	
+[00:02:26]: Validating portal[4] <-> 4239966897[4] (inactive)	
+[00:02:26]: Validating portal[10] <-> 4239966897[10] (inactive)	
+[00:02:26]: Validating portal[8] <-> 4239966897[8] (inactive)	
+[00:02:27]: Validating portal[6] <-> 4239966897[6] (inactive)	
+[00:02:28]: Server registered via geo DNS in us-east-1
+[00:02:28]: Sim paused
+[00:02:28]: [Shard] Secondary shard Caves(4239966897) connected: [LAN] 127.0.0.1
+[00:02:29]: [Shard] Secondary Caves(4239966897) ready!
+[00:02:29]: World 4239966897 is now connected	
+[00:02:29]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:02:29]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
+[00:02:29]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[00:02:29]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
+[00:02:29]: Validating portal[7] <-> 4239966897[7] (active)	
+[00:02:29]: Validating portal[5] <-> 4239966897[5] (active)	
+[00:02:29]: Validating portal[2] <-> 4239966897[2] (active)	
+[00:02:29]: Validating portal[9] <-> 4239966897[9] (active)	
+[00:02:29]: Validating portal[1] <-> 4239966897[1] (active)	
+[00:02:29]: Validating portal[3] <-> 4239966897[3] (active)	
+[00:02:29]: Validating portal[4] <-> 4239966897[4] (active)	
+[00:02:29]: Validating portal[10] <-> 4239966897[10] (active)	
+[00:02:29]: Validating portal[8] <-> 4239966897[8] (active)	
+[00:02:29]: Validating portal[6] <-> 4239966897[6] (disabled)	
+[00:02:29]: [Shard] Secondary shard 'Caves(4239966897)' restarting...
+[00:02:29]: World 4239966897 is now disconnected	
+[00:02:29]: Validating portal[7] <-> 4239966897[7] (inactive)	
+[00:02:29]: Validating portal[5] <-> 4239966897[5] (inactive)	
+[00:02:29]: Validating portal[2] <-> 4239966897[2] (inactive)	
+[00:02:29]: Validating portal[9] <-> 4239966897[9] (inactive)	
+[00:02:29]: Validating portal[1] <-> 4239966897[1] (inactive)	
+[00:02:29]: Validating portal[3] <-> 4239966897[3] (inactive)	
+[00:02:29]: Validating portal[4] <-> 4239966897[4] (inactive)	
+[00:02:29]: Validating portal[10] <-> 4239966897[10] (inactive)	
+[00:02:29]: Validating portal[8] <-> 4239966897[8] (inactive)	
+[00:02:29]: Validating portal[6] <-> 4239966897[6] (inactive)	
+[00:03:39]: [Shard] Secondary Caves(4239966897) ready!
+[00:03:39]: World 4239966897 is now connected	
+[00:03:39]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:03:39]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
+[00:03:39]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[00:03:39]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
+[00:03:39]: Validating portal[7] <-> 4239966897[7] (active)	
+[00:03:39]: Validating portal[5] <-> 4239966897[5] (active)	
+[00:03:39]: Validating portal[2] <-> 4239966897[2] (active)	
+[00:03:39]: Validating portal[9] <-> 4239966897[9] (active)	
+[00:03:39]: Validating portal[1] <-> 4239966897[1] (active)	
+[00:03:39]: Validating portal[3] <-> 4239966897[3] (active)	
+[00:03:39]: Validating portal[4] <-> 4239966897[4] (active)	
+[00:03:39]: Validating portal[10] <-> 4239966897[10] (active)	
+[00:03:39]: Validating portal[8] <-> 4239966897[8] (active)	
+[00:03:39]: Validating portal[6] <-> 4239966897[6] (disabled)	
+[00:03:39]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
+[00:03:39]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
+[00:03:39]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
+[00:03:39]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
+[00:07:33]: New incoming connection 168.228.177.20|35007 <710195023671604432>
+[00:07:33]: Client connected from 168.228.177.20|35007 <710195023671604432>
+[00:07:33]: ValidateGameSessionToken GUID<710195023671604432>
+[00:07:34]: Client authenticated: (KU_N9ipdSfX) Vapo
+[00:07:34]: [Steam] SendUserConnectAndAuthenticate for '76561198398983946'
+[00:07:34]: [Steam] Authenticated client '76561198398983946'
+[00:07:36]: There is no active event to validate against.
+[00:07:36]: [Shard] Read save location file for (KU_N9ipdSfX)
+[00:09:56]: Resuming user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001804
+[00:09:56]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
+[00:09:57]: [dst-more-equip-slots]	INFO	["terraprisma"] = EQUIP_TYPES.AMULET, -- Terraprisma	
+[00:09:57]: Spawning player at: [Load] (65.97, -0.00, -30.39)	
+[00:09:57]: Sim unpaused
+[00:09:57]: [Quest System] Add Local Quests to	127815 - waxwell	
+[00:13:02]: [Quest System] Add Quest	A Werepigs Worst Nightmare	number of quests	6	
+[00:17:58]: Available disk space for save files: 132595 MB
+[00:17:59]: [Quest System] Saving own quests!	
+[00:17:59]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001804
+[00:17:59]: Missing reference:	118609 - beefaloherd	->	109019	109019 - beefalo	
+[00:18:00]: Serializing world: session/BF953A8AFDD25F52/0000001804
+[00:26:01]: Available disk space for save files: 132163 MB
+[00:26:02]: [Quest System] Saving own quests!	
+[00:26:02]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001805
+[00:26:02]: Missing reference:	118609 - beefaloherd	->	109019	109019 - beefalo	
+[00:26:03]: Serializing world: session/BF953A8AFDD25F52/0000001805
 [00:30:29]: [200] Account Communication Success (6)
 [00:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[00:31:55]: Available disk space for save files: 99503 MB
-[00:31:56]: [Quest System] Saving own quests!	
-[00:31:56]: Serializing user: session/BF953A8AFDD25F52/A7G8QNL4JQKO/0000001749
-[00:31:56]: Missing reference:	108688 - beefaloherd	->	122925	122925 - beefalo	
-[00:31:58]: Serializing world: session/BF953A8AFDD25F52/0000001749
-[00:33:11]: [(KU_2DNgIUgO) Otomai] ReceiveRemoteExecute(c_freecrafting()) @(-262.54, -231.05)
-[00:39:03]: Could not find anim [spawn] in bank [squiderp]
-[00:39:03]: Could not find anim [spawn] in bank [squiderp]
-[00:39:58]: Available disk space for save files: 99498 MB
-[00:39:59]: [Quest System] Saving own quests!	
-[00:39:59]: Serializing user: session/BF953A8AFDD25F52/A7G8QNL4JQKO/0000001750
-[00:39:59]: Missing reference:	108688 - beefaloherd	->	122925	122925 - beefalo	
-[00:40:01]: Serializing world: session/BF953A8AFDD25F52/0000001750
-[00:41:20]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
-[00:41:21]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
-[00:41:28]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
-[00:44:46]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
-[00:44:50]: [Quest System] Add Quest	Training Makes Perfect	number of quests	6	
-[00:47:31]: Remote left click out of range	
-[00:48:02]: Available disk space for save files: 99493 MB
-[00:48:04]: [Quest System] Saving own quests!	
-[00:48:04]: Serializing user: session/BF953A8AFDD25F52/A7G8QNL4JQKO/0000001751
-[00:48:04]: Missing reference:	108688 - beefaloherd	->	122925	122925 - beefalo	
-[00:48:05]: Serializing world: session/BF953A8AFDD25F52/0000001751
-[00:56:05]: Available disk space for save files: 99488 MB
-[00:56:06]: [Quest System] Saving own quests!	
-[00:56:06]: Serializing user: session/BF953A8AFDD25F52/A7G8QNL4JQKO/0000001752
-[00:56:06]: Missing reference:	108688 - beefaloherd	->	122925	122925 - beefalo	
-[00:56:07]: Serializing world: session/BF953A8AFDD25F52/0000001752
-[01:00:29]: [Quest System] Add Quest	Lucky Guy	number of quests	7	
+[00:34:03]: Available disk space for save files: 131725 MB
+[00:34:04]: [Quest System] Saving own quests!	
+[00:34:04]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001806
+[00:34:04]: Missing reference:	118609 - beefaloherd	->	109019	109019 - beefalo	
+[00:34:06]: Serializing world: session/BF953A8AFDD25F52/0000001806
+[00:42:06]: Available disk space for save files: 131250 MB
+[00:42:07]: [Quest System] Saving own quests!	
+[00:42:07]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001807
+[00:42:07]: Missing reference:	118609 - beefaloherd	->	109019	109019 - beefalo	
+[00:42:08]: Serializing world: session/BF953A8AFDD25F52/0000001807
+[00:44:21]: Activating portal[7] to 4239966897	
+[00:44:22]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001808
+[00:44:22]: [Shard] Migration request: (KU_N9ipdSfX) to Caves(4239966897)
+[00:44:22]: [Shard] Begin migration #1 for (KU_N9ipdSfX)
+[00:44:22]: [Shard] #1 [SHDMASTER](1) -> Caves(4239966897)
+[00:44:22]: [Shard] #1 <- session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001808
+[00:44:22]: [Shard] Writing save location file for (KU_N9ipdSfX)
+[00:44:22]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:44:22]: [Steam] SendUserDisconnect for '76561198398983946'
+[00:44:22]: [Shard] (KU_N9ipdSfX) disconnected from [SHDMASTER](1)
+[00:44:37]: [Shard] Completed migration #1 for player (KU_N9ipdSfX)
+[00:50:08]: Available disk space for save files: 130775 MB
+[00:50:10]: [Quest System] Saving own quests!	
+[00:50:10]: Missing reference:	118609 - beefaloherd	->	109019	109019 - beefalo	
+[00:50:11]: Serializing world: session/BF953A8AFDD25F52/0000001808
+[00:50:11]: Truncating to snapshot #1808...
+[00:50:11]:  - session/BF953A8AFDD25F52/0000001801
+[00:50:11]:  - session/BF953A8AFDD25F52/0000001802
+[00:50:11]:  - session/BF953A8AFDD25F52/0000001798
+[00:50:11]:  - session/BF953A8AFDD25F52/0000001799
+[00:50:11]:  - session/BF953A8AFDD25F52/0000001800
+[00:50:11]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000001801
+[00:50:11]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000001800
+[00:50:11]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000001799
+[00:50:11]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000001798
+[00:50:11]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001802
+[00:50:11]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001801
+[00:50:11]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001800
+[00:50:11]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001799
+[00:50:11]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001798
+[00:50:11]:    14 file(s) removed
+[00:51:59]: New incoming connection 73.215.137.38|55540 <3822155002248947310>
+[00:51:59]: Client connected from 73.215.137.38|55540 <3822155002248947310>
+[00:51:59]: ValidateGameSessionToken GUID<3822155002248947310>
+[00:51:59]: Client authenticated: (KU_sJttOkZJ) thomps12
+[00:52:00]: [Steam] SendUserConnectAndAuthenticate for '76561199052798750'
+[00:52:00]: [Steam] Authenticated client '76561199052798750'
+[00:52:01]: [Steam] SendUserDisconnect for '76561199052798750'
+[00:52:01]: [Shard] Received a ID_SHD_D2M_PLAYER_DISCONNECTED message for an unknown player (KU_sJttOkZJ).
+[00:52:01]: User disconnected during Inventory validation
+[00:52:01]: Missing Network Client Object for KU_sJttOkZJ
+[00:52:34]: New incoming connection 73.215.137.38|54412 <8304970035952264360>
+[00:52:34]: Client connected from 73.215.137.38|54412 <8304970035952264360>
+[00:52:34]: ValidateGameSessionToken GUID<8304970035952264360>
+[00:52:34]: Client authenticated: (KU_sJttOkZJ) thomps12
+[00:52:35]: [Steam] SendUserConnectAndAuthenticate for '76561199052798750'
+[00:52:35]: [Steam] Authenticated client '76561199052798750'
+[00:52:35]: There is no active event to validate against.
+[00:52:35]: [Shard] Read save location file for (KU_sJttOkZJ)
+[00:54:18]: Resuming user: session/BF953A8AFDD25F52/A7MP7NRM5Q6J
+[00:54:34]: Spawn request: wx78 from thomps12
+[00:54:34]: Skin request: () () () () ()
+[00:54:34]: Skill Selection request: 0
+[00:54:34]: Spawning player at: [Fixed] (214.00, 0.00, 130.00)	
+[00:54:34]: Serializing user: session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001809
+[00:54:34]: [Quest System] Add Local Quests to	140450 - wx78	
+[00:55:47]: [Shard] (KU_N9ipdSfX) disconnected from Caves(4239966897)
+[00:56:12]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[00:56:57]: Could not find anim [death] in bank [ghost]
+[00:56:57]: Serializing user: session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001809
+[00:58:11]: Available disk space for save files: 130322 MB
+[00:58:12]: [Quest System] Saving own quests!	
+[00:58:12]: Serializing user: session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001809
+[00:58:12]: Missing reference:	118609 - beefaloherd	->	109019	109019 - beefalo	
+[00:58:14]: Serializing world: session/BF953A8AFDD25F52/0000001809
+[00:59:08]: Could not find anim [idle_loop] in bank [ghost]
+[00:59:11]: Serializing user: session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001810
+[00:59:36]: Activating portal[1] to 4239966897	
+[00:59:37]: Serializing user: session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001810
+[00:59:37]: [Shard] Migration request: (KU_sJttOkZJ) to Caves(4239966897)
+[00:59:37]: [Shard] Begin migration #2 for (KU_sJttOkZJ)
+[00:59:37]: [Shard] #2 [SHDMASTER](1) -> Caves(4239966897)
+[00:59:37]: [Shard] #2 <- session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001810
+[00:59:37]: [Shard] Writing save location file for (KU_sJttOkZJ)
+[00:59:37]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:59:37]: [Steam] SendUserDisconnect for '76561199052798750'
+[00:59:37]: [Shard] (KU_sJttOkZJ) disconnected from [SHDMASTER](1)
+[00:59:43]: [Shard] Completed migration #2 for player (KU_sJttOkZJ)
 [01:00:29]: [200] Account Communication Success (6)
 [01:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[01:00:36]: [Steam] SendUserDisconnect for '76561198068392192'
-[01:00:36]: [Shard] (KU_2DNgIUgO) disconnected from [SHDMASTER](1)
-[01:00:36]: Serializing user: session/BF953A8AFDD25F52/A7G8QNL4JQKO/0000001753
-[01:00:37]: Sim paused
-[01:22:17]: New incoming connection 177.34.169.56|10591 <5649857105689495357>
-[01:22:17]: Client connected from 177.34.169.56|10591 <5649857105689495357>
-[01:22:17]: ValidateGameSessionToken GUID<5649857105689495357>
-[01:22:18]: Client authenticated: (KU_QfOFWfob) Smilinguido
-[01:22:18]: [Steam] SendUserConnectAndAuthenticate for '76561198199956210'
-[01:22:18]: [Steam] Authenticated client '76561198199956210'
-[01:22:19]: There is no active event to validate against.
-[01:22:19]: [Shard] Read save location file for (KU_QfOFWfob)
-[01:22:20]: [Steam] SendUserDisconnect for '76561198199956210'
-[01:22:20]: [Shard] (KU_QfOFWfob) disconnected from [SHDMASTER](1)
+[01:00:48]: [Shard] Begin migration #3 for (KU_sJttOkZJ)
+[01:00:48]: [Shard] #3 Caves(4239966897) -> [SHDMASTER](1)
+[01:00:48]: [Shard] #3 -> session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001810
+[01:00:48]: [Shard] Received migration #3 data for (KU_sJttOkZJ)
+[01:00:48]: [Shard] Writing save location file for (KU_sJttOkZJ)
+[01:00:49]: [Shard] (KU_sJttOkZJ) disconnected from Caves(4239966897)
+[01:00:53]: New incoming connection 73.215.137.38|55595 <6660893878294668422>
+[01:00:53]: Client connected from 73.215.137.38|55595 <6660893878294668422>
+[01:00:53]: ValidateGameSessionToken GUID<6660893878294668422>
+[01:00:53]: Client authenticated: (KU_sJttOkZJ) thomps12
+[01:00:53]: [Steam] SendUserConnectAndAuthenticate for '76561199052798750'
+[01:00:54]: [Steam] Authenticated client '76561199052798750'
+[01:00:54]: [Shard] Completed incoming migration #3 for (KU_sJttOkZJ)
+[01:00:54]: [Shard] Completed migration #3 for player (KU_sJttOkZJ)
+[01:01:16]: New incoming connection 168.228.177.20|33982 <2359155685568232388>
+[01:01:16]: Client connected from 168.228.177.20|33982 <2359155685568232388>
+[01:01:16]: ValidateGameSessionToken GUID<2359155685568232388>
+[01:01:16]: Client authenticated: (KU_N9ipdSfX) Vapo
+[01:01:17]: [Steam] SendUserConnectAndAuthenticate for '76561198398983946'
+[01:01:17]: [Steam] Authenticated client '76561198398983946'
+[01:01:19]: Resuming user: session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001810
+[01:01:19]: Player will spawn close to portal #1	
+[01:01:19]: Spawning player at: [Load] (195.46, 0.00, 27.26)	
+[01:01:19]: [Quest System] Add Local Quests to	143120 - wx78	
+[01:01:19]: There is no active event to validate against.
+[01:01:19]: [Shard] Read save location file for (KU_N9ipdSfX)
+[01:01:19]: [Shard] Forwarding player to Caves(4239966897)
+[01:01:19]: [Shard] Begin migration #4 for (KU_N9ipdSfX)
+[01:01:19]: [Shard] #4 [SHDMASTER](1) -> Caves(4239966897)
+[01:01:19]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[01:01:19]: [Steam] SendUserDisconnect for '76561198398983946'
+[01:01:19]: [Shard] (KU_N9ipdSfX) disconnected from [SHDMASTER](1)
+[01:01:29]: [Shard] Completed migration #4 for player (KU_N9ipdSfX)
+[01:02:16]: Activating portal[1] to 4239966897	
+[01:02:17]: Serializing user: session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001810
+[01:02:17]: [Shard] Migration request: (KU_sJttOkZJ) to Caves(4239966897)
+[01:02:17]: [Shard] Begin migration #5 for (KU_sJttOkZJ)
+[01:02:17]: [Shard] #5 [SHDMASTER](1) -> Caves(4239966897)
+[01:02:17]: [Shard] #5 <- session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001810
+[01:02:17]: [Shard] Writing save location file for (KU_sJttOkZJ)
+[01:02:17]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[01:02:17]: [Steam] SendUserDisconnect for '76561199052798750'
+[01:02:17]: [Shard] (KU_sJttOkZJ) disconnected from [SHDMASTER](1)
+[01:02:23]: [Shard] Completed migration #5 for player (KU_sJttOkZJ)
+[01:05:46]: [Shard] Begin migration #6 for (KU_sJttOkZJ)
+[01:05:46]: [Shard] #6 Caves(4239966897) -> [SHDMASTER](1)
+[01:05:46]: [Shard] #6 -> session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001810
+[01:05:46]: [Shard] Received migration #6 data for (KU_sJttOkZJ)
+[01:05:46]: [Shard] Writing save location file for (KU_sJttOkZJ)
+[01:05:46]: [Shard] (KU_sJttOkZJ) disconnected from Caves(4239966897)
+[01:05:50]: New incoming connection 73.215.137.38|61840 <3022832318183454019>
+[01:05:50]: Client connected from 73.215.137.38|61840 <3022832318183454019>
+[01:05:50]: ValidateGameSessionToken GUID<3022832318183454019>
+[01:05:51]: Client authenticated: (KU_sJttOkZJ) thomps12
+[01:05:52]: [Steam] SendUserConnectAndAuthenticate for '76561199052798750'
+[01:05:52]: [Steam] Authenticated client '76561199052798750'
+[01:05:52]: [Shard] Completed incoming migration #6 for (KU_sJttOkZJ)
+[01:05:52]: [Shard] Completed migration #6 for player (KU_sJttOkZJ)
+[01:06:14]: Available disk space for save files: 129850 MB
+[01:06:15]: [Quest System] Saving own quests!	
+[01:06:15]: Missing reference:	118609 - beefaloherd	->	109019	109019 - beefalo	
+[01:06:16]: Serializing world: session/BF953A8AFDD25F52/0000001810
+[01:06:16]: Truncating to snapshot #1810...
+[01:06:16]:  - session/BF953A8AFDD25F52/0000001804
+[01:06:16]:  - session/BF953A8AFDD25F52/0000001803
+[01:06:16]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001804
+[01:06:16]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001803
+[01:06:16]:    4 file(s) removed
+[01:06:17]: Resuming user: session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001810
+[01:06:17]: Player will spawn close to portal #1	
+[01:06:17]: Spawning player at: [Load] (196.89, 0.00, 27.12)	
+[01:06:17]: [Quest System] Add Local Quests to	144170 - wx78	
+[01:06:25]: [Shard] Begin migration #7 for (KU_N9ipdSfX)
+[01:06:25]: [Shard] #7 Caves(4239966897) -> [SHDMASTER](1)
+[01:06:25]: [Shard] #7 -> session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001811
+[01:06:25]: [Shard] Received migration #7 data for (KU_N9ipdSfX)
+[01:06:25]: [Shard] Writing save location file for (KU_N9ipdSfX)
+[01:06:25]: [Shard] (KU_N9ipdSfX) disconnected from Caves(4239966897)
+[01:06:34]: [P2P] Session request for '76561198398983946'
+[01:06:35]: New incoming connection 168.228.177.20|35252 <1424929524147997500>
+[01:06:35]: Client connected from 168.228.177.20|35252 <1424929524147997500>
+[01:06:35]: ValidateGameSessionToken GUID<1424929524147997500>
+[01:06:35]: Client authenticated: (KU_N9ipdSfX) Vapo
+[01:06:36]: [Steam] SendUserConnectAndAuthenticate for '76561198398983946'
+[01:06:36]: [Steam] Authenticated client '76561198398983946'
+[01:06:36]: [Shard] Completed incoming migration #7 for (KU_N9ipdSfX)
+[01:06:36]: [Shard] Completed migration #7 for player (KU_N9ipdSfX)
+[01:06:38]: [P2P] Create session: 227.175.211.89|1 '76561198398983946'
+[01:06:38]: [P2P] Received from 227.175.211.89|1 '76561198398983946'
+[01:06:38]: [P2P] Sent to 227.175.211.89|1 '76561198398983946'
+[01:07:34]: Could not find anim [death] in bank [ghost]
+[01:07:34]: Serializing user: session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001811
+[01:07:36]: Resuming user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001811
+[01:07:36]: [dst-more-equip-slots]	INFO	["terraprisma"] = EQUIP_TYPES.AMULET, -- Terraprisma	
+[01:07:36]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
+[01:07:36]: Player will spawn close to portal #7	
+[01:07:36]: Spawning player at: [Load] (-96.98, 0.00, -515.94)	
+[01:07:36]: [Quest System] Add Local Quests to	144577 - waxwell	
+[01:10:45]: [Steam] SendUserDisconnect for '76561199052798750'
+[01:10:45]: [Shard] (KU_sJttOkZJ) disconnected from [SHDMASTER](1)
+[01:10:46]: Serializing user: session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001811
+[01:14:17]: Available disk space for save files: 129381 MB
+[01:14:18]: [Quest System] Saving own quests!	
+[01:14:18]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001811
+[01:14:18]: Missing reference:	118609 - beefaloherd	->	109019	109019 - beefalo	
+[01:14:19]: Serializing world: session/BF953A8AFDD25F52/0000001811
+[01:16:38]: [P2P] Session timed out for '76561198398983946'
+[01:16:38]: [P2P] Remove session: 227.175.211.89|1 '76561198398983946'
+[01:17:39]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[01:17:52]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[01:18:13]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[01:22:19]: Available disk space for save files: 128909 MB
+[01:22:20]: [Quest System] Saving own quests!	
+[01:22:20]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001812
+[01:22:20]: Missing reference:	118609 - beefaloherd	->	109019	109019 - beefalo	
+[01:22:22]: Serializing world: session/BF953A8AFDD25F52/0000001812
+[01:29:40]: Could not find anim [spawn] in bank [squiderp]
+[01:29:41]: Could not find anim [spawn] in bank [squiderp]
+[01:29:42]: Could not find anim [spawn] in bank [squiderp]
+[01:30:22]: Available disk space for save files: 128493 MB
+[01:30:23]: [Quest System] Saving own quests!	
+[01:30:23]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001813
+[01:30:23]: Missing reference:	118609 - beefaloherd	->	109019	109019 - beefalo	
+[01:30:24]: Serializing world: session/BF953A8AFDD25F52/0000001813
 [01:30:29]: [200] Account Communication Success (6)
 [01:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[01:33:27]: 112404 - lureplant	TRIED TO GO TO INVALID STATE	hit	
+[01:34:59]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[01:38:25]: Available disk space for save files: 128035 MB
+[01:38:26]: [Quest System] Saving own quests!	
+[01:38:26]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001814
+[01:38:26]: Missing reference:	118609 - beefaloherd	->	109019	109019 - beefalo	
+[01:38:27]: Serializing world: session/BF953A8AFDD25F52/0000001814
+[01:46:27]: Available disk space for save files: 128030 MB
+[01:46:28]: [Quest System] Saving own quests!	
+[01:46:28]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001815
+[01:46:28]: Missing reference:	118609 - beefaloherd	->	109019	109019 - beefalo	
+[01:46:30]: Serializing world: session/BF953A8AFDD25F52/0000001815
+[01:54:30]: Available disk space for save files: 128026 MB
+[01:54:31]: [Quest System] Saving own quests!	
+[01:54:31]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001816
+[01:54:31]: Missing reference:	118609 - beefaloherd	->	109019	109019 - beefalo	
+[01:54:32]: Serializing world: session/BF953A8AFDD25F52/0000001816
 [02:00:29]: [200] Account Communication Success (6)
 [02:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[02:02:32]: Available disk space for save files: 128021 MB
+[02:02:33]: [Quest System] Saving own quests!	
+[02:02:33]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001817
+[02:02:35]: Serializing world: session/BF953A8AFDD25F52/0000001817
+[02:10:35]: Available disk space for save files: 128016 MB
+[02:10:36]: [Quest System] Saving own quests!	
+[02:10:36]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001818
+[02:10:37]: Serializing world: session/BF953A8AFDD25F52/0000001818
+[02:15:35]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[02:18:09]: Activating portal[7] to 4239966897	
+[02:18:09]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001819
+[02:18:09]: [Shard] Migration request: (KU_N9ipdSfX) to Caves(4239966897)
+[02:18:10]: [Shard] Begin migration #8 for (KU_N9ipdSfX)
+[02:18:10]: [Shard] #8 [SHDMASTER](1) -> Caves(4239966897)
+[02:18:10]: [Shard] #8 <- session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001819
+[02:18:10]: [Shard] Writing save location file for (KU_N9ipdSfX)
+[02:18:10]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[02:18:10]: [Steam] SendUserDisconnect for '76561198398983946'
+[02:18:10]: [Shard] (KU_N9ipdSfX) disconnected from [SHDMASTER](1)
+[02:18:25]: [Shard] Completed migration #8 for player (KU_N9ipdSfX)
+[02:18:37]: Available disk space for save files: 128011 MB
+[02:18:38]: [Quest System] Saving own quests!	
+[02:18:40]: Serializing world: session/BF953A8AFDD25F52/0000001819
+[02:18:40]: Truncating to snapshot #1819...
+[02:18:40]:  - session/BF953A8AFDD25F52/0000001811
+[02:18:40]:  - session/BF953A8AFDD25F52/0000001808
+[02:18:40]:  - session/BF953A8AFDD25F52/0000001809
+[02:18:40]:  - session/BF953A8AFDD25F52/0000001805
+[02:18:40]:  - session/BF953A8AFDD25F52/0000001813
+[02:18:40]:  - session/BF953A8AFDD25F52/0000001812
+[02:18:40]:  - session/BF953A8AFDD25F52/0000001807
+[02:18:40]:  - session/BF953A8AFDD25F52/0000001810
+[02:18:40]:  - session/BF953A8AFDD25F52/0000001806
+[02:18:40]:  - session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001810
+[02:18:40]:  - session/BF953A8AFDD25F52/A7MP7NRM5Q6J/0000001809
+[02:18:40]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001813
+[02:18:40]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001812
+[02:18:40]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001811
+[02:18:40]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001808
+[02:18:40]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001807
+[02:18:40]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001806
+[02:18:40]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001805
+[02:18:40]:    18 file(s) removed
+[02:18:40]:  > session/BF953A8AFDD25F52/A7ISJCPPRIJ1/savelocation
+[02:18:40]:    1 file(s) updated
+[02:26:40]: Available disk space for save files: 128049 MB
+[02:26:41]: [Quest System] Saving own quests!	
+[02:26:42]: Serializing world: session/BF953A8AFDD25F52/0000001820
+[02:26:42]: Truncating to snapshot #1820...
+[02:26:42]:  - session/BF953A8AFDD25F52/0000001814
+[02:26:42]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001814
+[02:26:42]:    2 file(s) removed
+[02:29:52]: [Shard] Begin migration #9 for (KU_N9ipdSfX)
+[02:29:52]: [Shard] #9 Caves(4239966897) -> [SHDMASTER](1)
+[02:29:52]: [Shard] #9 -> session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001821
+[02:29:52]: [Shard] Received migration #9 data for (KU_N9ipdSfX)
+[02:29:52]: [Shard] Writing save location file for (KU_N9ipdSfX)
+[02:29:52]: [Shard] (KU_N9ipdSfX) disconnected from Caves(4239966897)
+[02:30:01]: New incoming connection 168.228.177.20|33993 <138036219915618594>
+[02:30:01]: Client connected from 168.228.177.20|33993 <138036219915618594>
+[02:30:01]: ValidateGameSessionToken GUID<138036219915618594>
+[02:30:02]: Client authenticated: (KU_N9ipdSfX) Vapo
+[02:30:02]: [Steam] SendUserConnectAndAuthenticate for '76561198398983946'
+[02:30:03]: [Steam] Authenticated client '76561198398983946'
+[02:30:03]: [Shard] Completed incoming migration #9 for (KU_N9ipdSfX)
+[02:30:03]: [Shard] Completed migration #9 for player (KU_N9ipdSfX)
+[02:30:04]: [P2P] Create session: 227.175.211.90|1 '76561198398983946'
+[02:30:04]: [P2P] Received from 227.175.211.90|1 '76561198398983946'
+[02:30:04]: [P2P] Sent to 227.175.211.90|1 '76561198398983946'
 [02:30:29]: [200] Account Communication Success (6)
 [02:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[02:31:02]: Resuming user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001821
+[02:31:02]: [dst-more-equip-slots]	INFO	["terraprisma"] = EQUIP_TYPES.AMULET, -- Terraprisma	
+[02:31:02]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
+[02:31:02]: Player will spawn close to portal #7	
+[02:31:02]: Spawning player at: [Load] (-95.81, 0.00, -517.16)	
+[02:31:02]: [Quest System] Add Local Quests to	182965 - waxwell	
+[02:34:43]: Available disk space for save files: 128045 MB
+[02:34:44]: [Quest System] Saving own quests!	
+[02:34:44]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001821
+[02:34:45]: Serializing world: session/BF953A8AFDD25F52/0000001821
+[02:35:37]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[02:35:48]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[02:35:50]: A timer with the name 	speak_time	 already exists on 	109622 - hermitcrab	!	
+[02:35:55]: A timer with the name 	speak_time	 already exists on 	109622 - hermitcrab	!	
+[02:35:57]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[02:40:04]: [P2P] Session timed out for '76561198398983946'
+[02:40:04]: [P2P] Remove session: 227.175.211.90|1 '76561198398983946'
+[02:42:45]: Available disk space for save files: 127773 MB
+[02:42:46]: [Quest System] Saving own quests!	
+[02:42:46]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001822
+[02:42:48]: Serializing world: session/BF953A8AFDD25F52/0000001822
+[02:50:48]: Available disk space for save files: 127310 MB
+[02:50:49]: [Quest System] Saving own quests!	
+[02:50:49]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001823
+[02:50:50]: Serializing world: session/BF953A8AFDD25F52/0000001823
+[02:51:35]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[02:55:03]: Remote left click out of range	
+[02:55:03]: Remote left click out of range	
+[02:56:00]: Remote left click out of range	
+[02:56:00]: Remote left click out of range	
+[02:58:50]: Available disk space for save files: 126835 MB
+[02:58:52]: [Quest System] Saving own quests!	
+[02:58:52]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001824
+[02:58:53]: Serializing world: session/BF953A8AFDD25F52/0000001824
+[02:58:59]: Remote left click out of range	
+[02:59:00]: Remote left click out of range	
 [03:00:29]: [200] Account Communication Success (6)
 [03:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[03:02:53]: Remote left click out of range	
+[03:06:53]: Available disk space for save files: 126361 MB
+[03:06:54]: [Quest System] Saving own quests!	
+[03:06:54]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001825
+[03:06:56]: Serializing world: session/BF953A8AFDD25F52/0000001825
+[03:09:16]: New incoming connection 201.217.247.53|57200 <9132005689595091680>
+[03:09:16]: Client connected from 201.217.247.53|57200 <9132005689595091680>
+[03:09:16]: ValidateGameSessionToken GUID<9132005689595091680>
+[03:09:17]: Client authenticated: (KU_uBXVj6T2) pornaso
+[03:09:17]: [Steam] SendUserConnectAndAuthenticate for '76561199069488024'
+[03:09:17]: [Steam] Authenticated client '76561199069488024'
+[03:09:18]: There is no active event to validate against.
+[03:09:18]: [Shard] Read save location file for (KU_uBXVj6T2)
+[03:10:47]: [Steam] SendUserDisconnect for '76561199069488024'
+[03:10:47]: [Shard] (KU_uBXVj6T2) disconnected from [SHDMASTER](1)
+[03:14:56]: Available disk space for save files: 125887 MB
+[03:14:57]: [Quest System] Saving own quests!	
+[03:14:57]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001826
+[03:14:58]: Serializing world: session/BF953A8AFDD25F52/0000001826
+[03:22:58]: Available disk space for save files: 125413 MB
+[03:22:59]: [Quest System] Saving own quests!	
+[03:22:59]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001827
+[03:23:01]: Serializing world: session/BF953A8AFDD25F52/0000001827
 [03:30:29]: [200] Account Communication Success (6)
 [03:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[03:31:01]: Available disk space for save files: 138978 MB
+[03:31:02]: [Quest System] Saving own quests!	
+[03:31:02]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001828
+[03:31:03]: Serializing world: session/BF953A8AFDD25F52/0000001828
+[03:35:04]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[03:39:03]: Available disk space for save files: 138495 MB
+[03:39:05]: [Quest System] Saving own quests!	
+[03:39:05]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001829
+[03:39:06]: Serializing world: session/BF953A8AFDD25F52/0000001829
+[03:47:06]: Available disk space for save files: 138021 MB
+[03:47:07]: [Quest System] Saving own quests!	
+[03:47:07]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001830
+[03:47:08]: Serializing world: session/BF953A8AFDD25F52/0000001830
+[03:47:18]: [Steam] SendUserDisconnect for '76561198398983946'
+[03:47:18]: [Shard] (KU_N9ipdSfX) disconnected from [SHDMASTER](1)
+[03:47:19]: Serializing user: session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001831
+[03:47:19]: Sim paused
 [04:00:29]: [200] Account Communication Success (6)
 [04:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[04:30:01]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 15m para manutenção programada!")"
 [04:30:29]: [200] Account Communication Success (6)
 [04:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[05:00:29]: [200] Account Communication Success (6)
-[05:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[05:00:58]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 15m para manutenção programada!")"
-[05:30:29]: [200] Account Communication Success (6)
-[05:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[06:00:29]: [200] Account Communication Success (6)
-[06:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[06:30:29]: [200] Account Communication Success (6)
-[06:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[07:00:29]: [200] Account Communication Success (6)
-[07:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[07:30:29]: [200] Account Communication Success (6)
-[07:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[08:00:29]: [200] Account Communication Success (6)
-[08:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[08:29:48]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 5m para manutenção programada!")"
-[08:30:29]: [200] Account Communication Success (6)
-[08:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[08:33:49]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 1m para manutenção programada!")"
-[08:35:19]: RemoteCommandInput: "c_announce("Reiniciando servidor...")"
-[08:35:19]: RemoteCommandInput: "c_save()"
-[08:35:19]: Sim unpaused
-[08:35:19]: RemoteCommandInput: "c_shutdown()"
-[08:35:19]: c_shutdown	nil	
-[08:35:19]: Available disk space for save files: 135220 MB
-[08:35:20]: [Quest System] Saving own quests!	
-[08:35:20]: Missing reference:	108688 - beefaloherd	->	122925	122925 - beefalo	
-[08:35:22]: Serializing world: session/BF953A8AFDD25F52/0000001753
-[08:35:22]: Truncating to snapshot #1753...
-[08:35:22]:  - session/BF953A8AFDD25F52/0000001741
-[08:35:22]:  - session/BF953A8AFDD25F52/0000001742
-[08:35:22]:  - session/BF953A8AFDD25F52/0000001743
-[08:35:22]:  - session/BF953A8AFDD25F52/0000001745
-[08:35:22]:  - session/BF953A8AFDD25F52/0000001740
-[08:35:22]:  - session/BF953A8AFDD25F52/0000001747
-[08:35:22]:  - session/BF953A8AFDD25F52/0000001744
-[08:35:22]:  - session/BF953A8AFDD25F52/0000001746
-[08:35:22]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000001744
-[08:35:22]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000001743
-[08:35:22]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000001742
-[08:35:22]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000001741
-[08:35:22]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000001740
-[08:35:22]:  - session/BF953A8AFDD25F52/A7G8QNL4JQKO/0000001747
-[08:35:22]:  - session/BF953A8AFDD25F52/A7G8QNL4JQKO/0000001746
-[08:35:22]:  - session/BF953A8AFDD25F52/A7G8QNL4JQKO/0000001737
-[08:35:22]:    16 file(s) removed
-[08:35:22]:  > session/BF953A8AFDD25F52/A7G8QNL4JQKO/savelocation
-[08:35:22]:    1 file(s) updated
-[08:35:22]: Available disk space for save files: 135255 MB
-[08:35:23]: [Quest System] Saving own quests!	
-[08:35:23]: Missing reference:	108688 - beefaloherd	->	122925	122925 - beefalo	
-[08:35:24]: Serializing world: session/BF953A8AFDD25F52/0000001754
-[08:35:24]: Truncating to snapshot #1754...
-[08:35:24]:  - session/BF953A8AFDD25F52/0000001748
-[08:35:24]:  - session/BF953A8AFDD25F52/A7G8QNL4JQKO/0000001748
-[08:35:24]:    2 file(s) removed
-[08:35:24]: Removing server from lobby
-[08:35:24]: [Shard] Stopping shard mode
-[08:35:24]: [Steam] SendUserDisconnect for ''
-[08:35:25]: Collecting garbage...
-[08:35:27]: lua_gc took 2.01 seconds
-[08:35:28]: ~ShardLuaProxy()
-[08:35:28]: ~cEventLeaderboardProxy()
-[08:35:28]: ~ItemServerLuaProxy()
-[08:35:28]: ~InventoryLuaProxy()
-[08:35:28]: ~NetworkLuaProxy()
-[08:35:28]: ~SimLuaProxy()
-[08:35:28]: Cancelling LuaQueryCallback handle [46]
-[08:35:28]: Cancelling LuaQueryCallback handle [47]
-[08:35:28]: Cancelling LuaQueryCallback handle [48]
-[08:35:30]: lua_close took 2.45 seconds
-[08:35:30]: Could not unload undefined prefab (cckproj_ice)
-[08:35:30]: Could not unload undefined prefab (brokenwall_scrap)
-[08:35:30]: Could not unload undefined prefab (chasni_fire_crab_king_claw_fx_build)
-[08:35:30]: Could not unload undefined prefab (chasni_crab_shadowfireorgan)
-[08:35:30]: Could not unload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
-[08:35:30]: Could not unload undefined prefab (chasni_crab_shadowlunarorgan)
-[08:35:30]: Could not unload undefined prefab (chasni_water_crab_king_claw_fx_build)
-[08:35:30]: Could not unload undefined prefab (chasni_crab_shadowwaterorgan)
-[08:35:30]: Could not unload undefined prefab (chasni_ice_crab_king_claw_fx_build)
-[08:35:30]: Could not unload undefined prefab (chasni_crab_shadowiceorgan)
-[08:35:30]: Could not unload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
-[08:35:30]: Could not unload undefined prefab (chasni_crab_shadowshadoworgan)
-[08:35:30]: Could not unload undefined prefab (fryfocals_charge)
-[08:35:30]: Could not unload undefined prefab (paint_fx)
-[08:35:30]: Could not unload undefined prefab (beequeenhat)
-[08:35:30]:  Manager - ORPHANED UNKNOWN RESOURCES:
-[08:35:30]: anim/splash_water_drop.zip - 3
-[08:35:30]: CurlRequestManager::ClientThread::Main() complete
-[08:35:30]: HttpClient2 discarded 0 callbacks.
-[08:35:31]: Shutting down
+[04:40:31]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 5m para manutenção programada!")"
+[04:45:02]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 1m para manutenção programada!")"
+[04:46:02]: RemoteCommandInput: "c_announce("Reiniciando servidor...")"
+[04:46:02]: RemoteCommandInput: "c_save()"
+[04:46:02]: Sim unpaused
+[04:46:02]: RemoteCommandInput: "c_shutdown()"
+[04:46:02]: c_shutdown	nil	
+[04:46:02]: Available disk space for save files: 134820 MB
+[04:46:03]: [Quest System] Saving own quests!	
+[04:46:05]: Serializing world: session/BF953A8AFDD25F52/0000001831
+[04:46:05]: Truncating to snapshot #1831...
+[04:46:05]:  - session/BF953A8AFDD25F52/0000001816
+[04:46:05]:  - session/BF953A8AFDD25F52/0000001820
+[04:46:05]:  - session/BF953A8AFDD25F52/0000001819
+[04:46:05]:  - session/BF953A8AFDD25F52/0000001817
+[04:46:05]:  - session/BF953A8AFDD25F52/0000001825
+[04:46:05]:  - session/BF953A8AFDD25F52/0000001824
+[04:46:05]:  - session/BF953A8AFDD25F52/0000001822
+[04:46:05]:  - session/BF953A8AFDD25F52/0000001818
+[04:46:05]:  - session/BF953A8AFDD25F52/0000001823
+[04:46:05]:  - session/BF953A8AFDD25F52/0000001815
+[04:46:05]:  - session/BF953A8AFDD25F52/0000001821
+[04:46:05]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001825
+[04:46:05]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001824
+[04:46:05]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001823
+[04:46:05]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001822
+[04:46:05]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001821
+[04:46:05]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001819
+[04:46:05]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001818
+[04:46:05]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001817
+[04:46:05]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001816
+[04:46:05]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001815
+[04:46:05]:    21 file(s) removed
+[04:46:05]:  > session/BF953A8AFDD25F52/A7ISJCPPRIJ1/savelocation
+[04:46:05]:    1 file(s) updated
+[04:46:05]: Available disk space for save files: 134864 MB
+[04:46:06]: [Quest System] Saving own quests!	
+[04:46:07]: Serializing world: session/BF953A8AFDD25F52/0000001832
+[04:46:07]: Truncating to snapshot #1832...
+[04:46:07]:  - session/BF953A8AFDD25F52/0000001826
+[04:46:07]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000001826
+[04:46:07]:    2 file(s) removed
+[04:46:07]: Removing server from lobby
+[04:46:07]: [Shard] Stopping shard mode
+[04:46:07]: [Steam] SendUserDisconnect for ''
