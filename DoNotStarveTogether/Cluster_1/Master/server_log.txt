@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 605310
-[00:00:00]: Current time: Sun May 26 22:52:25 2024
+[00:00:00]: Current time: Mon May 27 03:30:10 2024
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: 6518fa1f56cf
@@ -15,9 +15,9 @@
 [00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Master 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (253264402513760)
+[00:00:00]: THREAD - started 'GAClient' (269455044444000)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:22.58
+[00:00:00]: ProfileIndex:22.70
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -31,8 +31,8 @@
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (253264148512608)
 [00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:01]: THREAD - started 'StreamInput' (269454920851296)
 [00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
 [00:00:01]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
 [00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
@@ -780,7 +780,7 @@
 [00:00:11]: modimport: ../mods/workshop-2503437364/init/init_tuning.lua	
 [00:00:11]: modimport: ../mods/workshop-2503437364/init/init_debug.lua	
 [00:00:11]: modimport: ../mods/workshop-2503437364/init/init_strings.lua	
-[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_recipes.lua	
+[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_recipes.lua	
 [00:00:12]: modimport: ../mods/workshop-2503437364/init/init_containers.lua	
 [00:00:12]: modimport: ../mods/workshop-2503437364/init/init_actions.lua	
 [00:00:12]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
@@ -2022,27 +2022,27 @@
 [00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:27]: Mod: workshop-2847908822 ([DST] Performance Pack)	Registering prefabs	
-[00:00:27]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Registering prefab file: prefabs/w0tblgvn	
-[00:00:27]: Mod: workshop-2847908822 ([DST] Performance Pack)	    virtent	
-[00:00:27]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Registering default mod prefab	
-[00:00:27]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
-[00:00:27]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:28]: Mod: workshop-2847908822 ([DST] Performance Pack)	Registering prefabs	
+[00:00:28]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Registering prefab file: prefabs/w0tblgvn	
+[00:00:28]: Mod: workshop-2847908822 ([DST] Performance Pack)	    virtent	
+[00:00:28]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Registering default mod prefab	
+[00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
 [00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
 [00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
 [00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:28]: 	Load FE	
-[00:00:29]: THREAD - started 'FilesExistAsyncThread' (253263800156000)
+[00:00:29]: THREAD - started 'FilesExistAsyncThread' (269454369877856)
 [00:00:29]: 	Load FE: done	
 [00:00:29]: FilesExistAsyncThread started (24749 files)...
 [00:00:29]: Check for write access: TRUE
 [00:00:29]: Check for read access: TRUE
-[00:00:29]: Available disk space for save files: 116741 MB
+[00:00:29]: Available disk space for save files: 129985 MB
 [00:00:29]: ModIndex: Load sequence finished successfully.	
 [00:00:29]: Reset() returning
 [00:00:29]: Error: Could not find file: anim/chop_mangrove_pink.zip
@@ -2221,63 +2221,63 @@
 [00:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
 [00:00:29]: Starting Dedicated Server Game	
 [00:00:29]: Network tick rate: U=15(2), D=0
-[00:00:30]: About to start a server with the following settings:
-[00:00:30]:   Dedicated: true
-[00:00:30]:   Online: true
-[00:00:30]:   Passworded: false
-[00:00:30]:   ServerPort: 10999
-[00:00:30]:   SteamAuthPort: 8766
-[00:00:30]:   SteamMasterServerPort: 12346
-[00:00:30]:   ClanID: false
-[00:00:30]:   ClanOnly: false
-[00:00:30]:   ClanAdmin: false
-[00:00:30]:   LanOnly: false
-[00:00:30]:   FriendsOnly: false
-[00:00:30]:   EnableAutosaver: true
-[00:00:30]:   EncodeUserPath: true
-[00:00:30]:   PVP: false
-[00:00:30]:   MaxPlayers: 12
-[00:00:30]:   GameMode: endless
-[00:00:30]:   OverridenDNS: 
-[00:00:30]:   PauseWhenEmpty: true
-[00:00:30]:   IdleTimeout: 1800s
-[00:00:30]:   VoteEnabled: true
-[00:00:30]:   InternetBroadcasting: true
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2847908822	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1416161108	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3156633422	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2167036904	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3055010657	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3050607025	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2597204554	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2937640068	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3150203711	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2324689937	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2847806795	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1185229307	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2854057841	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2503437364	
-[00:00:30]: Online Server Started on port: 10999
-[00:00:30]: SUCCESS: Loaded modoverrides.lua	
-[00:00:30]: Not applying level data overrides.	
-[00:00:30]: Found a worldgen override file with these contents:	
-[00:00:30]: 	K: 	override_enabled	 V: 	true	
-[00:00:30]: 	K: 	overrides	 V: 	table: 0x522333c0	
-[00:00:30]: 		K: 	basicresource_regrowth	 V: 	always	
-[00:00:30]: 		K: 	ghostsanitydrain	 V: 	none	
-[00:00:30]: 		K: 	portalresurection	 V: 	always	
-[00:00:30]: 		K: 	resettime	 V: 	none	
-[00:00:30]: 	K: 	settings_preset	 V: 	SURVIVAL_TOGETHER	
-[00:00:30]: 	K: 	worldgen_preset	 V: 	SURVIVAL_TOGETHER	
-[00:00:30]:   sanity-checking worldgenoverride.lua...	
-[00:00:30]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
-[00:00:30]:   contained worldgen preset SURVIVAL_TOGETHER, loading...	
-[00:00:30]:   contained settings preset SURVIVAL_TOGETHER, loading...	
-[00:00:30]: Overwriting savedata with override file.	
-[00:00:30]: Collecting garbage...
+[00:00:29]: About to start a server with the following settings:
+[00:00:29]:   Dedicated: true
+[00:00:29]:   Online: true
+[00:00:29]:   Passworded: false
+[00:00:29]:   ServerPort: 10999
+[00:00:29]:   SteamAuthPort: 8766
+[00:00:29]:   SteamMasterServerPort: 12346
+[00:00:29]:   ClanID: false
+[00:00:29]:   ClanOnly: false
+[00:00:29]:   ClanAdmin: false
+[00:00:29]:   LanOnly: false
+[00:00:29]:   FriendsOnly: false
+[00:00:29]:   EnableAutosaver: true
+[00:00:29]:   EncodeUserPath: true
+[00:00:29]:   PVP: false
+[00:00:29]:   MaxPlayers: 12
+[00:00:29]:   GameMode: endless
+[00:00:29]:   OverridenDNS: 
+[00:00:29]:   PauseWhenEmpty: true
+[00:00:29]:   IdleTimeout: 1800s
+[00:00:29]:   VoteEnabled: true
+[00:00:29]:   InternetBroadcasting: true
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2847908822	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-1416161108	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-3156633422	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2167036904	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-3050607025	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2597204554	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2937640068	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-3055010657	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-3150203711	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2324689937	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2847806795	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-1185229307	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2854057841	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2503437364	
+[00:00:29]: Online Server Started on port: 10999
+[00:00:29]: SUCCESS: Loaded modoverrides.lua	
+[00:00:29]: Not applying level data overrides.	
+[00:00:29]: Found a worldgen override file with these contents:	
+[00:00:29]: 	K: 	override_enabled	 V: 	true	
+[00:00:29]: 	K: 	overrides	 V: 	table: 0x63f796c0	
+[00:00:29]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:29]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:29]: 		K: 	portalresurection	 V: 	always	
+[00:00:29]: 		K: 	resettime	 V: 	none	
+[00:00:29]: 	K: 	settings_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:29]: 	K: 	worldgen_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:29]:   sanity-checking worldgenoverride.lua...	
+[00:00:29]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:29]:   contained worldgen preset SURVIVAL_TOGETHER, loading...	
+[00:00:29]:   contained settings preset SURVIVAL_TOGETHER, loading...	
+[00:00:29]: Overwriting savedata with override file.	
+[00:00:29]: Collecting garbage...
 [00:00:30]: lua_gc took 0.29 seconds
 [00:00:30]: ~ShardLuaProxy()
 [00:00:30]: ~cEventLeaderboardProxy()
@@ -2285,7 +2285,7 @@
 [00:00:30]: ~InventoryLuaProxy()
 [00:00:30]: ~NetworkLuaProxy()
 [00:00:30]: ~SimLuaProxy()
-[00:00:30]: lua_close took 0.25 seconds
+[00:00:30]: lua_close took 0.26 seconds
 [00:00:30]: ReleaseAll
 [00:00:30]: ReleaseAll Finished
 [00:00:30]: cGame::StartPlaying
@@ -3012,18 +3012,18 @@
 [00:00:40]: modimport: ../mods/workshop-1416161108/data/strings.lua	
 [00:00:40]: modimport: ../mods/workshop-1416161108/lib_fn.lua	
 [00:00:40]: modimport: ../mods/workshop-1416161108/data/PlayerCache.lua	
-[00:00:41]: modimport: ../mods/workshop-1416161108/scripts/patches/controlpanel.lua	
-[00:00:41]: modimport: ../mods/workshop-1416161108/scripts/patches/friendlist.lua	
-[00:00:41]: modimport: ../mods/workshop-1416161108/scripts/patches/lockedcontainers.lua	
-[00:00:41]: modimport: ../mods/workshop-1416161108/scripts/patches/drop_everything.lua	
-[00:00:41]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modworldgenmain.lua	
-[00:00:41]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:41]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modmain.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_assets.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_tuning.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_debug.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_strings.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_recipes.lua	
+[00:00:40]: modimport: ../mods/workshop-1416161108/scripts/patches/controlpanel.lua	
+[00:00:40]: modimport: ../mods/workshop-1416161108/scripts/patches/friendlist.lua	
+[00:00:40]: modimport: ../mods/workshop-1416161108/scripts/patches/lockedcontainers.lua	
+[00:00:40]: modimport: ../mods/workshop-1416161108/scripts/patches/drop_everything.lua	
+[00:00:40]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modworldgenmain.lua	
+[00:00:40]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:40]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modmain.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_assets.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_tuning.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_debug.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_strings.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_recipes.lua	
 [00:00:41]: modimport: ../mods/workshop-2503437364/init/init_containers.lua	
 [00:00:41]: modimport: ../mods/workshop-2503437364/init/init_actions.lua	
 [00:00:41]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
@@ -3128,9 +3128,9 @@
 [00:00:41]: Mod: workshop-2847908822 ([DST] Performance Pack)	Loading modmain.lua	
 [00:00:41]: modimport: ../mods/workshop-2847908822/1.lua	
 [00:00:41]: modimport: ../mods/workshop-2847908822/10.lua	
-[00:00:42]: modimport: ../mods/workshop-2847908822/8.lua	
-[00:00:42]: modimport: ../mods/workshop-2847908822/7.lua	
-[00:00:42]: modimport: ../mods/workshop-2847908822/3.lua	
+[00:00:41]: modimport: ../mods/workshop-2847908822/8.lua	
+[00:00:41]: modimport: ../mods/workshop-2847908822/7.lua	
+[00:00:41]: modimport: ../mods/workshop-2847908822/3.lua	
 [00:00:42]: modimport: ../mods/workshop-2847908822/6.lua	
 [00:00:42]: modimport: ../mods/workshop-2847908822/4.lua	
 [00:00:42]: modimport: ../mods/workshop-2847908822/5.lua	
@@ -3176,14 +3176,14 @@
 [00:00:44]: Registering Client mod namespace "workshop-1111658995"
 [00:00:44]: Registering Shard mod namespace "quest_system_rpc"
 [00:00:44]: Registering Shard mod namespace "workshop-2167036904"
-[00:00:45]: PlayerDeaths could not load morgue	
-[00:00:45]: PlayerHistory could not load player_history	
-[00:00:45]: ServerPreferences could not load server_preferences	
-[00:00:45]: ConsoleScreenSettings could not load consolescreen	
-[00:00:45]: bloom_enabled	true	
-[00:00:45]: OnFilesLoaded()	
-[00:00:45]: OnUpdatePurchaseStateComplete	
-[00:00:45]: Loading world: session/BF953A8AFDD25F52/0000002846	
+[00:00:44]: PlayerDeaths could not load morgue	
+[00:00:44]: PlayerHistory could not load player_history	
+[00:00:44]: ServerPreferences could not load server_preferences	
+[00:00:44]: ConsoleScreenSettings could not load consolescreen	
+[00:00:44]: bloom_enabled	true	
+[00:00:44]: OnFilesLoaded()	
+[00:00:44]: OnUpdatePurchaseStateComplete	
+[00:00:44]: Loading world: session/BF953A8AFDD25F52/0000002857	
 [00:00:45]: Save file is at version 5.146	
 [00:00:45]: Klump load on boot started.	
 [00:00:45]: Klump files loaded: 	0	
@@ -4261,9 +4261,9 @@
 [00:01:17]: setting 	cavemoonphase	full	
 [00:01:17]: setting 	iscavefullmoon	false	
 [00:01:17]: setting 	isnightmaredawn	false	
-[00:01:17]: setting 	elapseddaysinseason	4	
+[00:01:17]: setting 	elapseddaysinseason	13	
 [00:01:17]: setting 	isfullmoon	false	
-[00:01:17]: setting 	moisture	1964.6558837891	
+[00:01:17]: setting 	moisture	3465.6003417969	
 [00:01:17]: setting 	springlength	20	
 [00:01:17]: setting 	islunarhailing	false	
 [00:01:17]: setting 	isnightmarewild	false	
@@ -4278,10 +4278,10 @@
 [00:01:17]: setting 	iscavewaxingmoon	false	
 [00:01:17]: setting 	isacidraining	false	
 [00:01:17]: setting 	moonphase	full	
-[00:01:17]: setting 	remainingdaysinseason	16	
-[00:01:17]: setting 	temperature	43.541861945696	
+[00:01:17]: setting 	remainingdaysinseason	7	
+[00:01:17]: setting 	temperature	21.716061032091	
 [00:01:17]: setting 	wetness	0	
-[00:01:17]: setting 	cycles	2644	
+[00:01:17]: setting 	cycles	2653	
 [00:01:17]: setting 	moistureceil	7593.3090820312	
 [00:01:17]: setting 	isday	true	
 [00:01:17]: setting 	winterlength	15	
@@ -4294,8 +4294,8 @@
 [00:01:17]: setting 	isspring	false	
 [00:01:17]: setting 	isautumn	true	
 [00:01:17]: setting 	iscaveday	true	
-[00:01:17]: setting 	lunarhaillevel	46.295497894287	
-[00:01:17]: setting 	pop	0.23370471631583	
+[00:01:17]: setting 	lunarhaillevel	99.108757019043	
+[00:01:17]: setting 	pop	0.43804607804735	
 [00:01:17]: setting 	snowlevel	0	
 [00:01:17]: setting 	issnowcovered	false	
 [00:01:17]: setting 	autumnlength	20	
@@ -4304,99 +4304,105 @@
 [00:01:17]: setting 	issnowing	false	
 [00:01:17]: setting 	iscavedusk	false	
 [00:01:17]: setting 	nightmarephase	none	
-[00:01:17]: setting 	timeinphase	0.0037573920355902	
-[00:01:17]: setting 	seasonprogress	0.2	
+[00:01:17]: setting 	timeinphase	0.046985944112142	
+[00:01:17]: setting 	seasonprogress	0.65	
 [00:01:17]: setting 	iscavenight	false	
 [00:01:17]: setting 	iscavenewmoon	false	
 [00:01:17]: setting 	issummer	false	
 [00:01:17]: setting 	cavephase	day	
-[00:01:17]: setting 	time	0.0021135330200195	
+[00:01:17]: setting 	time	0.023492972056071	
 [00:01:17]: OVERRIDE: setting	resettime	to	none	
 [00:01:17]: OVERRIDE: setting	basicresource_regrowth	to	always	
 [00:01:17]: OVERRIDE: setting	portalresurection	to	always	
 [00:01:17]: OVERRIDE: setting	ghostsanitydrain	to	none	
 [00:01:21]: [dst-more-equip-slots]	INFO	["upgraded_blueamulet"] = EQUIP_TYPES.AMULET, -- Quas Amulet	
-[00:01:29]: Could not find anim bank [nature_staff]
-[00:01:29]: Could not find anim bank [nature_staff]
-[00:01:46]: Could not find anim [idle] in bank [cappy]
+[00:01:28]: Could not find anim bank [nature_staff]
+[00:01:28]: Could not find anim bank [nature_staff]
+[00:01:44]: [dst-more-equip-slots]	INFO	["terraprisma"] = EQUIP_TYPES.AMULET, -- Terraprisma	
+[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
 [00:01:54]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
-[00:01:54]: Could not find anim bank [hell_armor]
-[00:01:54]: [dst-more-equip-slots]	INFO	["hell_armor"] = nil, -- Diabolical Robe	
-[00:01:54]: Could not find anim bank [hell_armor]
-[00:01:54]: [dst-more-equip-slots]	INFO	["hell_armor"] = nil, -- Diabolical Robe	
-[00:01:54]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:54]: [dst-more-equip-slots]	INFO	["slipscraft"] = nil, -- Slipscraft	
-[00:01:54]: [dst-more-equip-slots]	INFO	["armorgold"] = nil, -- Golden Scalemail	
-[00:01:54]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
-[00:01:55]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
-[00:01:55]: [dst-more-equip-slots]	INFO	["upgraded_amulet"] = EQUIP_TYPES.AMULET, -- Exort Amulet	
-[00:01:55]: [dst-more-equip-slots]	INFO	["upgraded_blueamulet"] = EQUIP_TYPES.AMULET, -- Quas Amulet	
+[00:01:55]: Could not find anim bank [hell_armor]
+[00:01:55]: [dst-more-equip-slots]	INFO	["hell_armor"] = nil, -- Diabolical Robe	
+[00:01:55]: Could not find anim bank [hell_armor]
+[00:01:55]: [dst-more-equip-slots]	INFO	["hell_armor"] = nil, -- Diabolical Robe	
+[00:01:55]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:55]: [dst-more-equip-slots]	INFO	["slipscraft"] = nil, -- Slipscraft	
 [00:01:55]: [dst-more-equip-slots]	INFO	["armorgold"] = nil, -- Golden Scalemail	
 [00:01:55]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
+[00:01:56]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
+[00:01:56]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
+[00:01:56]: Could not find anim [chasni_save] in bank [FROMNUM]
+[00:01:56]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
 [00:01:56]: Could not find anim [chasni_shadow_monster] in bank [FROMNUM]
+[00:01:56]: Could not find anim [chasni_exp] in bank [FROMNUM]
+[00:01:56]: Could not find anim [chasni_achiev] in bank [FROMNUM]
+[00:01:56]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
 [00:01:56]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
 [00:01:56]: Could not find anim [chasni_exp] in bank [FROMNUM]
+[00:01:56]: Could not find anim [chasni_achiev] in bank [FROMNUM]
+[00:01:56]: Could not find anim [chasni_save] in bank [FROMNUM]
 [00:01:56]: Could not find anim [chasni_moon_soul] in bank [FROMNUM]
+[00:01:56]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
 [00:01:56]: Could not find anim [chasni_exp] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_exp] in bank [FROMNUM]
+[00:01:56]: Could not find anim [chasni_achiev] in bank [FROMNUM]
+[00:01:56]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
 [00:01:56]: Could not find anim [chasni_moon_soul] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_achiev] in bank [FROMNUM]
+[00:01:56]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
+[00:01:56]: Could not find anim [chasni_exp] in bank [FROMNUM]
 [00:01:56]: Could not find anim [chasni_achiev] in bank [FROMNUM]
 [00:01:56]: Could not find anim [chasni_exp] in bank [FROMNUM]
 [00:01:56]: Could not find anim [chasni_exp] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_exp] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_achiev] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_achiev] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_moon_soul] in bank [FROMNUM]
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:56]: Could not find anim build FROMNUM
-[00:01:58]: [dst-more-equip-slots]	INFO	["terraprisma"] = EQUIP_TYPES.AMULET, -- Terraprisma	
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:59]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:57]: [dst-more-equip-slots]	INFO	["upgraded_amulet"] = EQUIP_TYPES.AMULET, -- Exort Amulet	
+[00:01:57]: [dst-more-equip-slots]	INFO	["upgraded_blueamulet"] = EQUIP_TYPES.AMULET, -- Quas Amulet	
+[00:01:57]: [dst-more-equip-slots]	INFO	["armorgold"] = nil, -- Golden Scalemail	
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:02:01]: Could not find anim [idle] in bank [cappy]
 [00:02:05]: Reconstructing topology	
 [00:02:05]: 	...Sorting points	
 [00:02:05]: 	...Sorting edges	
@@ -4404,372 +4410,457 @@
 [00:02:05]: 	...Validating connections	
 [00:02:05]: 	...Housekeeping	
 [00:02:05]: 	...Done!	
-[00:02:05]: You must first AddTimer before you can start a timer	bearger_timetospawn	
-[00:02:05]: You must first AddTimer before you can start a timer	bearger_timetospawn	
-[00:02:05]: Truncating to snapshot #2846...
-[00:02:05]:  - session/BF953A8AFDD25F52/0000002839
-[00:02:05]:  - session/BF953A8AFDD25F52/0000002840
-[00:02:05]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002840
-[00:02:05]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002839
-[00:02:05]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000002840
-[00:02:05]:  - session/BF953A8AFDD25F52/A7ISJCPPRIJ1/0000002839
-[00:02:05]:    6 file(s) removed
-[00:02:05]: Restoring user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002846	
-[00:02:06]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
-[00:02:06]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:02:06]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:02:06]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:02:06]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:02:06]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:02:06]: Could not find anim [chasni_shadow_monster] in bank [FROMNUM]
-[00:02:06]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002847
-[00:02:06]: 1 uploads added to server. From server_temp
-[00:02:06]: About to start a shard with these settings:
-[00:02:06]:   ShardName: [SHDMASTER]
-[00:02:06]:   ShardID: 1
-[00:02:06]:   ShardRole: MASTER
-[00:02:06]:   MasterHost: (null)
-[00:02:06]:   MasterBind: 127.0.0.1
-[00:02:06]:   MasterPort: 10998
-[00:02:06]: [Shard] Starting master server
-[00:02:06]: [Shard] Shard server started on port: 10998
-[00:02:06]: Telling Client our new session identifier: BF953A8AFDD25F52
-[00:02:06]: Check for write access: TRUE
-[00:02:06]: Check for read access: TRUE
-[00:02:06]: Available disk space for save files: 116749 MB
-[00:02:06]: ModIndex: Load sequence finished successfully.	
-[00:02:07]: Reset() returning
+[00:02:05]: 1 uploads added to server. From server_temp
+[00:02:05]: About to start a shard with these settings:
+[00:02:05]:   ShardName: [SHDMASTER]
+[00:02:05]:   ShardID: 1
+[00:02:05]:   ShardRole: MASTER
+[00:02:05]:   MasterHost: (null)
+[00:02:05]:   MasterBind: 127.0.0.1
+[00:02:05]:   MasterPort: 10998
+[00:02:05]: [Shard] Starting master server
+[00:02:05]: [Shard] Shard server started on port: 10998
+[00:02:05]: Telling Client our new session identifier: BF953A8AFDD25F52
+[00:02:05]: Check for write access: TRUE
+[00:02:05]: Check for read access: TRUE
+[00:02:05]: Available disk space for save files: 129889 MB
+[00:02:05]: ModIndex: Load sequence finished successfully.	
+[00:02:06]: Reset() returning
+[00:02:10]: Validating portal[10] <-> 4239966897[10] (inactive)	
+[00:02:10]: Validating portal[5] <-> 4239966897[5] (inactive)	
+[00:02:10]: Validating portal[2] <-> 4239966897[2] (inactive)	
 [00:02:10]: Validating portal[7] <-> 4239966897[7] (inactive)	
-[00:02:11]: Validating portal[4] <-> 4239966897[4] (inactive)	
-[00:02:11]: Validating portal[3] <-> 4239966897[3] (inactive)	
-[00:02:11]: Validating portal[10] <-> 4239966897[10] (inactive)	
+[00:02:10]: Validating portal[9] <-> 4239966897[9] (inactive)	
+[00:02:10]: Validating portal[4] <-> 4239966897[4] (inactive)	
 [00:02:11]: Validating portal[6] <-> 4239966897[6] (inactive)	
-[00:02:11]: Validating portal[9] <-> 4239966897[9] (inactive)	
 [00:02:11]: Validating portal[8] <-> 4239966897[8] (inactive)	
-[00:02:11]: Validating portal[2] <-> 4239966897[2] (inactive)	
-[00:02:11]: Validating portal[5] <-> 4239966897[5] (inactive)	
-[00:02:12]: Validating portal[1] <-> 4239966897[1] (inactive)	
-[00:02:13]: Server registered via geo DNS in us-east-1
-[00:02:13]: Sim paused
-[00:02:13]: [Shard] Secondary shard Caves(4239966897) connected: [LAN] 127.0.0.1
-[00:02:14]: [Shard] Secondary Caves(4239966897) ready!
-[00:02:14]: World 4239966897 is now connected	
-[00:02:14]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
-[00:02:14]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
-[00:02:14]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
-[00:02:14]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
-[00:02:14]: Validating portal[7] <-> 4239966897[7] (active)	
-[00:02:14]: Validating portal[4] <-> 4239966897[4] (active)	
-[00:02:14]: Validating portal[3] <-> 4239966897[3] (active)	
-[00:02:14]: Validating portal[10] <-> 4239966897[10] (active)	
-[00:02:14]: Validating portal[6] <-> 4239966897[6] (disabled)	
-[00:02:14]: Validating portal[9] <-> 4239966897[9] (active)	
-[00:02:14]: Validating portal[8] <-> 4239966897[8] (active)	
-[00:02:14]: Validating portal[2] <-> 4239966897[2] (active)	
-[00:02:14]: Validating portal[5] <-> 4239966897[5] (active)	
-[00:02:14]: Validating portal[1] <-> 4239966897[1] (active)	
-[00:02:14]: [Shard] Secondary shard 'Caves(4239966897)' restarting...
-[00:02:14]: World 4239966897 is now disconnected	
-[00:02:14]: Validating portal[7] <-> 4239966897[7] (inactive)	
-[00:02:14]: Validating portal[4] <-> 4239966897[4] (inactive)	
-[00:02:14]: Validating portal[3] <-> 4239966897[3] (inactive)	
-[00:02:14]: Validating portal[10] <-> 4239966897[10] (inactive)	
-[00:02:14]: Validating portal[6] <-> 4239966897[6] (inactive)	
-[00:02:14]: Validating portal[9] <-> 4239966897[9] (inactive)	
-[00:02:14]: Validating portal[8] <-> 4239966897[8] (inactive)	
-[00:02:14]: Validating portal[2] <-> 4239966897[2] (inactive)	
-[00:02:14]: Validating portal[5] <-> 4239966897[5] (inactive)	
-[00:02:14]: Validating portal[1] <-> 4239966897[1] (inactive)	
-[00:03:14]: New incoming connection 200.100.196.175|51550 <8042338854956255260>
-[00:03:14]: Client connected from 200.100.196.175|51550 <8042338854956255260>
-[00:03:14]: ValidateGameSessionToken GUID<8042338854956255260>
-[00:03:15]: Client authenticated: (KU_LbNGg3S9) GMC6
-[00:03:15]: [Steam] SendUserConnectAndAuthenticate for '76561199126781524'
-[00:03:15]: [Steam] Authenticated client '76561199126781524'
-[00:03:16]: There is no active event to validate against.
-[00:03:16]: [Shard] Read save location file for (KU_LbNGg3S9)
-[00:03:24]: [Shard] Secondary Caves(4239966897) ready!
-[00:03:24]: World 4239966897 is now connected	
-[00:03:24]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
-[00:03:24]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
-[00:03:24]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
-[00:03:24]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
-[00:03:24]: Validating portal[7] <-> 4239966897[7] (active)	
-[00:03:24]: Validating portal[4] <-> 4239966897[4] (active)	
-[00:03:24]: Validating portal[3] <-> 4239966897[3] (active)	
-[00:03:24]: Validating portal[10] <-> 4239966897[10] (active)	
-[00:03:24]: Validating portal[6] <-> 4239966897[6] (disabled)	
-[00:03:24]: Validating portal[9] <-> 4239966897[9] (active)	
-[00:03:24]: Validating portal[8] <-> 4239966897[8] (active)	
-[00:03:24]: Validating portal[2] <-> 4239966897[2] (active)	
-[00:03:24]: Validating portal[5] <-> 4239966897[5] (active)	
-[00:03:24]: Validating portal[1] <-> 4239966897[1] (active)	
-[00:03:24]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
-[00:03:24]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
-[00:03:24]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
-[00:03:24]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
-[00:04:37]: Resuming user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002847
-[00:04:37]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
-[00:04:37]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:04:37]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:04:37]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:04:37]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:04:37]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:04:37]: Could not find anim [chasni_shadow_monster] in bank [FROMNUM]
-[00:04:37]: Spawning player at: [Load] (572.73, 0.00, 30.87)	
-[00:04:37]: Sim unpaused
-[00:04:38]: [Quest System] Add Local Quests to	124142 - wx78	
-[00:05:14]: [Steam] SendUserDisconnect for '76561199126781524'
-[00:05:14]: Connection lost to 200.100.196.175|51550 <8042338854956255260>
-[00:05:14]: [Shard] (KU_LbNGg3S9) disconnected from [SHDMASTER](1)
-[00:05:14]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002847
-[00:05:14]: Sim paused
-[00:07:44]: New incoming connection 200.100.196.175|56498 <8975141729695437605>
-[00:07:44]: Client connected from 200.100.196.175|56498 <8975141729695437605>
-[00:07:44]: ValidateGameSessionToken GUID<8975141729695437605>
-[00:07:45]: Client authenticated: (KU_LbNGg3S9) GMC6
-[00:07:45]: [Steam] SendUserConnectAndAuthenticate for '76561199126781524'
-[00:07:46]: [Steam] Authenticated client '76561199126781524'
-[00:07:46]: There is no active event to validate against.
-[00:07:46]: [Shard] Read save location file for (KU_LbNGg3S9)
-[00:09:31]: Resuming user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002847
-[00:09:31]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
-[00:09:31]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:09:31]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:09:31]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:09:31]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:09:31]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:09:31]: Could not find anim [chasni_shadow_monster] in bank [FROMNUM]
-[00:09:31]: Spawning player at: [Load] (562.66, 1.37, 47.75)	
-[00:09:31]: Sim unpaused
-[00:09:31]: [Quest System] Add Local Quests to	124984 - wx78	
-[00:10:09]: Could not find anim [FROMNUM] in bank [schatztruhe]
-[00:11:34]: [ERROR] Calling ReturnToScene on an invalid entity!	greenstaff	
-[00:11:34]: Warning: Can't give item because it's not an inventory item.	
-[00:16:55]: Available disk space for save files: 116748 MB
-[00:16:56]: [Quest System] Saving own quests!	
-[00:16:56]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002847
-[00:16:57]: Serializing world: session/BF953A8AFDD25F52/0000002847
-[00:17:53]: Could not find anim [FROMNUM] in bank [schatztruhe]
-[00:18:30]: 128080 - butterfly	TRIED TO GO TO INVALID STATE	hit	
-[00:18:51]: [ERROR] Calling ReturnToScene on an invalid entity!	chlorophyte_ore	
-[00:21:31]: [Quest System] Add Quest	Lucky Guy	number of quests	10	
-[00:24:58]: Available disk space for save files: 116744 MB
-[00:24:59]: [Quest System] Saving own quests!	
-[00:24:59]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002848
-[00:25:00]: Serializing world: session/BF953A8AFDD25F52/0000002848
-[00:25:15]: TemporaryBonus:AddBonus: Tried to add bonus, but requirements were not met	dodge	The Fearful Trial	5	480	
-[00:26:48]: [Steam] SendUserDisconnect for '76561199126781524'
-[00:26:48]: Connection lost to 200.100.196.175|56498 <8975141729695437605>
-[00:26:48]: [Shard] (KU_LbNGg3S9) disconnected from [SHDMASTER](1)
-[00:26:49]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002849
-[00:26:49]: Sim paused
-[00:28:19]: New incoming connection 200.100.196.175|63461 <2391238981842932948>
-[00:28:19]: Client connected from 200.100.196.175|63461 <2391238981842932948>
-[00:28:19]: ValidateGameSessionToken GUID<2391238981842932948>
-[00:28:19]: Client authenticated: (KU_LbNGg3S9) GMC6
-[00:28:20]: [Steam] SendUserConnectAndAuthenticate for '76561199126781524'
-[00:28:20]: [Steam] Authenticated client '76561199126781524'
-[00:28:21]: There is no active event to validate against.
-[00:28:21]: [Shard] Read save location file for (KU_LbNGg3S9)
-[00:29:17]: Resuming user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002849
-[00:29:17]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
-[00:29:17]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:29:17]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:29:17]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:29:17]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:29:17]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:29:17]: Could not find anim [chasni_shadow_monster] in bank [FROMNUM]
-[00:29:17]: Spawning player at: [Load] (-207.85, 0.00, -340.60)	
-[00:29:17]: Sim unpaused
-[00:29:17]: [Quest System] Add Local Quests to	130745 - wx78	
+[00:02:11]: Validating portal[3] <-> 4239966897[3] (inactive)	
+[00:02:11]: Validating portal[1] <-> 4239966897[1] (inactive)	
+[00:02:12]: Server registered via geo DNS in us-east-1
+[00:02:12]: Sim paused
+[00:02:12]: [Shard] Secondary shard Caves(4239966897) connected: [LAN] 127.0.0.1
+[00:02:13]: [Shard] Secondary Caves(4239966897) ready!
+[00:02:13]: World 4239966897 is now connected	
+[00:02:13]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:02:13]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
+[00:02:13]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[00:02:13]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
+[00:02:13]: Validating portal[10] <-> 4239966897[10] (active)	
+[00:02:13]: Validating portal[5] <-> 4239966897[5] (active)	
+[00:02:13]: Validating portal[2] <-> 4239966897[2] (active)	
+[00:02:13]: Validating portal[7] <-> 4239966897[7] (active)	
+[00:02:13]: Validating portal[9] <-> 4239966897[9] (active)	
+[00:02:13]: Validating portal[4] <-> 4239966897[4] (active)	
+[00:02:13]: Validating portal[6] <-> 4239966897[6] (disabled)	
+[00:02:13]: Validating portal[8] <-> 4239966897[8] (active)	
+[00:02:13]: Validating portal[3] <-> 4239966897[3] (active)	
+[00:02:13]: Validating portal[1] <-> 4239966897[1] (active)	
+[00:02:13]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
+[00:02:13]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
+[00:02:13]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
+[00:02:13]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
 [00:30:29]: [200] Account Communication Success (6)
 [00:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[00:35:28]: Available disk space for save files: 116739 MB
-[00:35:29]: [Quest System] Saving own quests!	
-[00:35:29]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002849
-[00:35:30]: Serializing world: session/BF953A8AFDD25F52/0000002849
-[00:38:11]: A timer with the name 	sleeping_relocate	 already exists on 	133598 - malbatross	!	
-[00:43:30]: Available disk space for save files: 116735 MB
-[00:43:31]: [Quest System] Saving own quests!	
-[00:43:31]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002850
-[00:43:32]: Serializing world: session/BF953A8AFDD25F52/0000002850
-[00:51:32]: Available disk space for save files: 116730 MB
-[00:51:33]: [Quest System] Saving own quests!	
-[00:51:33]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002851
-[00:51:34]: Serializing world: session/BF953A8AFDD25F52/0000002851
-[00:53:52]: A timer with the name 	resetcloud	 already exists on 	113044 - waterplant	!	
-[00:55:14]: New incoming connection 45.7.12.245|63077 <1020657507662255237>
-[00:55:14]: Client connected from 45.7.12.245|63077 <1020657507662255237>
-[00:55:14]: ValidateGameSessionToken GUID<1020657507662255237>
-[00:55:15]: Client authenticated: (KU_1unu2Pj2) Apple
-[00:55:15]: [Steam] SendUserConnectAndAuthenticate for '76561199548281889'
-[00:55:16]: [Steam] Authenticated client '76561199548281889'
-[00:55:17]: There is no active event to validate against.
-[00:55:17]: [Shard] Read save location file for (KU_1unu2Pj2)
-[00:55:21]: New incoming connection 177.11.94.192|62865 <3476539116949229954>
-[00:55:21]: Client connected from 177.11.94.192|62865 <3476539116949229954>
-[00:55:21]: ValidateGameSessionToken GUID<3476539116949229954>
-[00:55:22]: Client authenticated: (KU_H6259xcN) walysomlorra1
-[00:55:22]: [Steam] SendUserConnectAndAuthenticate for '76561199389685179'
-[00:55:22]: [Steam] Authenticated client '76561199389685179'
-[00:55:22]: There is no active event to validate against.
-[00:55:22]: [Shard] Read save location file for (KU_H6259xcN)
-[00:55:39]: [Steam] SendUserDisconnect for '76561199548281889'
-[00:55:39]: [Shard] (KU_1unu2Pj2) disconnected from [SHDMASTER](1)
-[00:56:23]: New incoming connection 45.7.12.245|56798 <1583427029248939963>
-[00:56:23]: Client connected from 45.7.12.245|56798 <1583427029248939963>
-[00:56:23]: ValidateGameSessionToken GUID<1583427029248939963>
-[00:56:23]: Client authenticated: (KU_1unu2Pj2) Apple
-[00:56:24]: [Steam] SendUserConnectAndAuthenticate for '76561199548281889'
-[00:56:25]: [Steam] Authenticated client '76561199548281889'
-[00:56:25]: There is no active event to validate against.
-[00:56:25]: [Shard] Read save location file for (KU_1unu2Pj2)
-[00:57:06]: Resuming user: session/BF953A8AFDD25F52/A7I4C22IFECN
-[00:57:29]: [Steam] SendUserDisconnect for '76561199548281889'
-[00:57:29]: [Shard] (KU_1unu2Pj2) disconnected from [SHDMASTER](1)
-[00:57:36]: New incoming connection 45.7.12.245|63140 <3447901358769016407>
-[00:57:36]: Client connected from 45.7.12.245|63140 <3447901358769016407>
-[00:57:36]: ValidateGameSessionToken GUID<3447901358769016407>
-[00:57:36]: Client authenticated: (KU_1unu2Pj2) Apple
-[00:57:37]: [Steam] SendUserConnectAndAuthenticate for '76561199548281889'
-[00:57:37]: [Steam] Authenticated client '76561199548281889'
-[00:57:38]: There is no active event to validate against.
-[00:57:38]: [Shard] Read save location file for (KU_1unu2Pj2)
-[00:58:21]: Spawn request: wanda from walysomlorra1
-[00:58:21]: Skin request: (wanda_none) (body_willow_victorian) (hand_woodie_hockey) (legs_walter_ice) ()
-[00:58:21]: Skill Selection request: 0
-[00:58:21]: Spawning player at: [Fixed] (214.00, 0.00, 130.00)	
-[00:58:21]: Enabling Spawn Protection for	141321 - wanda	
-[00:58:21]: Serializing user: session/BF953A8AFDD25F52/A7I4C22IFECN/0000002852
-[00:58:21]: [Quest System] Add Local Quests to	141321 - wanda	
-[00:59:22]: Resuming user: session/BF953A8AFDD25F52/A7G7HHS0J6Q2
-[00:59:27]: Could not find anim [chasni_save] in bank [FROMNUM]
-[00:59:27]: Could not find anim [chasni_save] in bank [FROMNUM]
-[00:59:27]: Could not find anim [chasni_shadow_shield] in bank [FROMNUM]
-[00:59:35]: Available disk space for save files: 116726 MB
-[00:59:36]: [Quest System] Saving own quests!	
-[00:59:36]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002852
-[00:59:36]: Serializing user: session/BF953A8AFDD25F52/A7I4C22IFECN/0000002852
-[00:59:37]: Serializing world: session/BF953A8AFDD25F52/0000002852
-[00:59:37]: Spawn request: wendy from Apple
-[00:59:37]: Skin request: (wendy_survivorp) (body_wendy_gladiator) (hand_webber_punk) (legs_wortox_ice) (feet_woodie_hippie)
-[00:59:37]: Skill Selection request: 0
-[00:59:37]: Spawning player at: [Fixed] (214.00, 0.00, 130.00)	
-[00:59:37]: Enabling Spawn Protection for	141751 - wendy	
-[00:59:37]: Serializing user: session/BF953A8AFDD25F52/A7G7HHS0J6Q2/0000002853
-[00:59:37]: [Quest System] Add Local Quests to	141751 - wendy	
-[00:59:58]: Could not find anim [death_wanda] in bank [ghost]
-[00:59:58]: Serializing user: session/BF953A8AFDD25F52/A7I4C22IFECN/0000002853
-[01:00:22]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
 [01:00:29]: [200] Account Communication Success (6)
 [01:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[01:00:47]: Could not find anim [idle_loop] in bank [ghost]
-[01:00:50]: Serializing user: session/BF953A8AFDD25F52/A7I4C22IFECN/0000002853
-[01:05:07]: TELEPORT OUT TERRORBEAK	
-[01:05:07]: EXCHANGE TERROR BEAK	
-[01:06:00]: Could not find anim [death] in bank [ghost]
-[01:06:00]: Serializing user: session/BF953A8AFDD25F52/A7G7HHS0J6Q2/0000002853
-[01:07:37]: Available disk space for save files: 116722 MB
-[01:07:38]: [Quest System] Saving own quests!	
-[01:07:38]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002853
-[01:07:38]: Serializing user: session/BF953A8AFDD25F52/A7I4C22IFECN/0000002853
-[01:07:38]: Serializing user: session/BF953A8AFDD25F52/A7G7HHS0J6Q2/0000002853
-[01:07:39]: Serializing world: session/BF953A8AFDD25F52/0000002853
-[01:08:14]: Could not find anim [idle_loop] in bank [ghost]
-[01:08:18]: Serializing user: session/BF953A8AFDD25F52/A7G7HHS0J6Q2/0000002854
-[01:08:34]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
-[01:14:40]: [Quest System] Add Quest	The Ancient Craft	number of quests	6	
-[01:15:39]: Available disk space for save files: 116718 MB
-[01:15:40]: [Quest System] Saving own quests!	
-[01:15:40]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002854
-[01:15:40]: Serializing user: session/BF953A8AFDD25F52/A7I4C22IFECN/0000002854
-[01:15:40]: Serializing user: session/BF953A8AFDD25F52/A7G7HHS0J6Q2/0000002854
-[01:15:41]: Serializing world: session/BF953A8AFDD25F52/0000002854
-[01:19:50]: Could not find anim [death_wanda] in bank [ghost]
-[01:19:50]: Serializing user: session/BF953A8AFDD25F52/A7I4C22IFECN/0000002855
-[01:20:07]: [Steam] SendUserDisconnect for '76561199389685179'
-[01:20:07]: [Shard] (KU_H6259xcN) disconnected from [SHDMASTER](1)
-[01:20:07]: Serializing user: session/BF953A8AFDD25F52/A7I4C22IFECN/0000002855
-[01:21:17]: Could not find anim [death] in bank [ghost]
-[01:21:17]: Serializing user: session/BF953A8AFDD25F52/A7G7HHS0J6Q2/0000002855
-[01:21:22]: [Steam] SendUserDisconnect for '76561199548281889'
-[01:21:22]: [Shard] (KU_1unu2Pj2) disconnected from [SHDMASTER](1)
-[01:21:23]: Serializing user: session/BF953A8AFDD25F52/A7G7HHS0J6Q2/0000002855
-[01:23:41]: Available disk space for save files: 116713 MB
-[01:23:42]: [Quest System] Saving own quests!	
-[01:23:42]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002855
-[01:23:42]: Missing reference:	100029 - world	->	148502	nil	
-[01:23:42]: Missing reference:	100029 - world	->	148608	nil	
-[01:23:42]: Missing reference:	100029 - world	->	148554	nil	
-[01:23:42]: Missing reference:	100029 - world	->	148689	nil	
-[01:23:43]: Serializing world: session/BF953A8AFDD25F52/0000002855
-[01:23:53]: [Steam] SendUserDisconnect for '76561199126781524'
-[01:23:53]: [Shard] (KU_LbNGg3S9) disconnected from [SHDMASTER](1)
-[01:23:54]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002856
-[01:23:54]: Sim paused
 [01:30:29]: [200] Account Communication Success (6)
 [01:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
 [02:00:29]: [200] Account Communication Success (6)
 [02:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[02:30:30]: [200] Account Communication Success (6)
-[02:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[02:26:34]: New incoming connection 186.219.180.96|1883 <7315833757107166842>
+[02:26:34]: Client connected from 186.219.180.96|1883 <7315833757107166842>
+[02:26:34]: ValidateGameSessionToken GUID<7315833757107166842>
+[02:26:35]: Client authenticated: (KU_XjTVYYXb) Caus
+[02:26:35]: [Steam] SendUserConnectAndAuthenticate for '76561199178312622'
+[02:26:36]: [Steam] Authenticated client '76561199178312622'
+[02:26:37]: There is no active event to validate against.
+[02:26:37]: [Shard] Read save location file for (KU_XjTVYYXb)
+[02:28:24]: Resuming user: session/BF953A8AFDD25F52/A7K6QTFOKA35
+[02:30:29]: [200] Account Communication Success (6)
+[02:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[02:53:00]: Spawn request: woodie from Caus
+[02:53:00]: Skin request: () () () () ()
+[02:53:00]: Skill Selection request: 0
+[02:53:00]: Spawning player at: [Fixed] (214.00, 0.00, 130.00)	
+[02:53:00]: Enabling Spawn Protection for	123694 - woodie	
+[02:53:00]: Serializing user: session/BF953A8AFDD25F52/A7K6QTFOKA35/0000002858
+[02:53:00]: Sim unpaused
+[02:53:01]: [Quest System] Add Local Quests to	123694 - woodie	
+[02:57:34]: Could not find anim [death] in bank [ghost]
+[02:57:34]: Serializing user: session/BF953A8AFDD25F52/A7K6QTFOKA35/0000002858
+[02:57:57]: Could not find anim [idle_loop] in bank [ghost]
+[02:58:00]: Serializing user: session/BF953A8AFDD25F52/A7K6QTFOKA35/0000002858
+[02:59:40]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
 [03:00:29]: [200] Account Communication Success (6)
 [03:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[03:30:29]: [200] Account Communication Success (6)
-[03:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[04:00:29]: [200] Account Communication Success (6)
-[04:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[04:08:07]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 15m para manutenção programada!")"
-[04:18:37]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 5m para manutenção programada!")"
-[04:23:08]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 1m para manutenção programada!")"
-[04:24:38]: RemoteCommandInput: "c_announce("Reiniciando servidor...")"
-[04:24:38]: RemoteCommandInput: "c_save()"
-[04:24:38]: Sim unpaused
-[04:24:38]: RemoteCommandInput: "c_shutdown()"
-[04:24:38]: c_shutdown	nil	
-[04:24:38]: Available disk space for save files: 130479 MB
-[04:24:39]: [Quest System] Saving own quests!	
-[04:24:39]: Missing reference:	100029 - world	->	148502	nil	
-[04:24:39]: Missing reference:	100029 - world	->	148608	nil	
-[04:24:39]: Missing reference:	100029 - world	->	148554	nil	
-[04:24:39]: Missing reference:	100029 - world	->	148689	nil	
-[04:24:40]: Serializing world: session/BF953A8AFDD25F52/0000002856
-[04:24:40]: Truncating to snapshot #2856...
-[04:24:40]:  - session/BF953A8AFDD25F52/0000002847
-[04:24:40]:  - session/BF953A8AFDD25F52/0000002850
-[04:24:40]:  - session/BF953A8AFDD25F52/0000002841
-[04:24:40]:  - session/BF953A8AFDD25F52/0000002846
-[04:24:40]:  - session/BF953A8AFDD25F52/0000002842
-[04:24:40]:  - session/BF953A8AFDD25F52/0000002848
-[04:24:40]:  - session/BF953A8AFDD25F52/0000002843
-[04:24:40]:  - session/BF953A8AFDD25F52/0000002844
-[04:24:40]:  - session/BF953A8AFDD25F52/0000002845
-[04:24:40]:  - session/BF953A8AFDD25F52/0000002849
-[04:24:40]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002850
-[04:24:40]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002849
-[04:24:40]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002848
-[04:24:40]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002847
-[04:24:40]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002846
-[04:24:40]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002845
-[04:24:40]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002844
-[04:24:40]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002843
-[04:24:40]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002842
-[04:24:40]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002841
-[04:24:40]:    20 file(s) removed
-[04:24:40]: Available disk space for save files: 130517 MB
-[04:24:41]: [Quest System] Saving own quests!	
-[04:24:41]: Missing reference:	100029 - world	->	148502	nil	
-[04:24:41]: Missing reference:	100029 - world	->	148608	nil	
-[04:24:41]: Missing reference:	100029 - world	->	148554	nil	
-[04:24:41]: Missing reference:	100029 - world	->	148689	nil	
-[04:24:42]: Serializing world: session/BF953A8AFDD25F52/0000002857
-[04:24:42]: Truncating to snapshot #2857...
-[04:24:42]:  - session/BF953A8AFDD25F52/0000002851
-[04:24:42]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002851
-[04:24:42]:    2 file(s) removed
-[04:24:42]: Removing server from lobby
-[04:24:42]: [Shard] Stopping shard mode
-[04:24:42]: [Steam] SendUserDisconnect for ''
-[04:24:43]: Collecting garbage...
-[04:24:45]: lua_gc took 1.75 seconds
+[03:00:51]: Available disk space for save files: 124924 MB
+[03:00:52]: [Quest System] Saving own quests!	
+[03:00:52]: Serializing user: session/BF953A8AFDD25F52/A7K6QTFOKA35/0000002858
+[03:00:53]: Serializing world: session/BF953A8AFDD25F52/0000002858
+[03:02:01]: Could not find anim [death] in bank [ghost]
+[03:02:01]: Serializing user: session/BF953A8AFDD25F52/A7K6QTFOKA35/0000002859
+[03:02:51]: [Steam] SendUserDisconnect for '76561199178312622'
+[03:02:51]: [Shard] (KU_XjTVYYXb) disconnected from [SHDMASTER](1)
+[03:02:51]: Serializing user: session/BF953A8AFDD25F52/A7K6QTFOKA35/0000002859
+[03:02:51]: Sim paused
+[03:30:30]: [200] Account Communication Success (6)
+[03:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[04:00:30]: [200] Account Communication Success (6)
+[04:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[04:30:30]: [200] Account Communication Success (6)
+[04:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[05:00:30]: [200] Account Communication Success (6)
+[05:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[05:30:29]: [200] Account Communication Success (6)
+[05:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[06:00:30]: [200] Account Communication Success (6)
+[06:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[06:30:30]: [200] Account Communication Success (6)
+[06:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[07:00:29]: [200] Account Communication Success (6)
+[07:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[07:30:30]: [200] Account Communication Success (6)
+[07:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[08:00:29]: [200] Account Communication Success (6)
+[08:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[08:30:30]: [200] Account Communication Success (6)
+[08:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[09:00:30]: [200] Account Communication Success (6)
+[09:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[09:30:30]: [200] Account Communication Success (6)
+[09:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[10:00:30]: [200] Account Communication Success (6)
+[10:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[10:30:30]: [200] Account Communication Success (6)
+[10:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[11:00:30]: [200] Account Communication Success (6)
+[11:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[11:11:39]: New incoming connection 177.91.105.102|49251 <6502992799502199942>
+[11:11:39]: Client connected from 177.91.105.102|49251 <6502992799502199942>
+[11:11:39]: ValidateGameSessionToken GUID<6502992799502199942>
+[11:11:40]: Client authenticated: (KU_QW6v-PGw) Draken
+[11:11:40]: [Steam] SendUserConnectAndAuthenticate for '76561199031573650'
+[11:11:40]: [Steam] Authenticated client '76561199031573650'
+[11:11:41]: There is no active event to validate against.
+[11:11:41]: [Shard] Read save location file for (KU_QW6v-PGw)
+[11:12:24]: [Steam] SendUserDisconnect for '76561199031573650'
+[11:12:24]: [Shard] (KU_QW6v-PGw) disconnected from [SHDMASTER](1)
+[11:30:30]: [200] Account Communication Success (6)
+[11:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[12:00:30]: [200] Account Communication Success (6)
+[12:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[12:30:30]: [200] Account Communication Success (6)
+[12:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[13:00:30]: [200] Account Communication Success (6)
+[13:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[13:30:30]: [200] Account Communication Success (6)
+[13:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[14:00:30]: [200] Account Communication Success (6)
+[14:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[14:30:30]: [200] Account Communication Success (6)
+[14:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[15:00:30]: [200] Account Communication Success (6)
+[15:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[15:30:30]: [200] Account Communication Success (6)
+[15:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[16:00:30]: [200] Account Communication Success (6)
+[16:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[16:30:30]: [200] Account Communication Success (6)
+[16:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[17:00:30]: [200] Account Communication Success (6)
+[17:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[17:24:39]: New incoming connection 138.186.110.123|41693 <17197842796330998770>
+[17:24:39]: Client connected from 138.186.110.123|41693 <17197842796330998770>
+[17:24:39]: ValidateGameSessionToken GUID<17197842796330998770>
+[17:24:40]: Client authenticated: (KU_F7UMTFxE) Hawkzera
+[17:24:40]: [Steam] SendUserConnectAndAuthenticate for '76561199067286810'
+[17:24:40]: [Steam] Authenticated client '76561199067286810'
+[17:24:41]: There is no active event to validate against.
+[17:24:41]: [Shard] Read save location file for (KU_F7UMTFxE)
+[17:26:16]: Resuming user: session/BF953A8AFDD25F52/A7HSEUB79VME
+[17:27:06]: Spawn request: waxwell from Hawkzera
+[17:27:06]: Skin request: () (body_cardigan_teal_jade) (hand_wathgrithr_nature) (legs_wurt_victorian) (feet_ridingboot_white_pure)
+[17:27:06]: Skill Selection request: 0
+[17:27:06]: Spawning player at: [Fixed] (214.00, 0.00, 130.00)	
+[17:27:06]: Enabling Spawn Protection for	125497 - waxwell	
+[17:27:06]: Serializing user: session/BF953A8AFDD25F52/A7HSEUB79VME/0000002859
+[17:27:06]: Sim unpaused
+[17:27:06]: [Quest System] Add Local Quests to	125497 - waxwell	
+[17:27:08]: New time stamps for everyone at	1716843438	
+[17:27:08]: New time stamps for everyone at	1716843438	
+[17:28:55]: Could not find anim [death] in bank [ghost]
+[17:28:55]: Serializing user: session/BF953A8AFDD25F52/A7HSEUB79VME/0000002859
+[17:30:30]: [200] Account Communication Success (6)
+[17:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[17:33:08]: Available disk space for save files: 117516 MB
+[17:33:08]: [Quest System] Saving own quests!	
+[17:33:08]: Serializing user: session/BF953A8AFDD25F52/A7HSEUB79VME/0000002859
+[17:33:10]: Serializing world: session/BF953A8AFDD25F52/0000002859
+[17:41:10]: Available disk space for save files: 117512 MB
+[17:41:11]: [Quest System] Saving own quests!	
+[17:41:11]: Serializing user: session/BF953A8AFDD25F52/A7HSEUB79VME/0000002860
+[17:41:12]: Serializing world: session/BF953A8AFDD25F52/0000002860
+[17:49:12]: Available disk space for save files: 117508 MB
+[17:49:13]: [Quest System] Saving own quests!	
+[17:49:13]: Serializing user: session/BF953A8AFDD25F52/A7HSEUB79VME/0000002861
+[17:49:14]: Serializing world: session/BF953A8AFDD25F52/0000002861
+[17:55:01]: [Steam] SendUserDisconnect for '76561199067286810'
+[17:55:01]: Connection lost to 138.186.110.123|41693 <17197842796330998770>
+[17:55:01]: [Shard] (KU_F7UMTFxE) disconnected from [SHDMASTER](1)
+[17:55:01]: Serializing user: session/BF953A8AFDD25F52/A7HSEUB79VME/0000002862
+[17:55:01]: Sim paused
+[18:00:30]: [200] Account Communication Success (6)
+[18:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[18:30:30]: [200] Account Communication Success (6)
+[18:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[19:00:30]: [200] Account Communication Success (6)
+[19:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[19:30:30]: [200] Account Communication Success (6)
+[19:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[19:58:11]: New incoming connection 179.180.200.84|58093 <3576762145849334458>
+[19:58:12]: Client connected from 179.180.200.84|58093 <3576762145849334458>
+[19:58:12]: ValidateGameSessionToken GUID<3576762145849334458>
+[19:58:12]: Client authenticated: (KU_vLUNqzNW) julyeniemann
+[19:58:13]: [Steam] SendUserConnectAndAuthenticate for '76561199228132918'
+[19:58:13]: [Steam] Authenticated client '76561199228132918'
+[19:58:14]: There is no active event to validate against.
+[19:58:14]: [Shard] Read save location file for (KU_vLUNqzNW)
+[20:00:30]: [200] Account Communication Success (6)
+[20:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[20:01:24]: [Steam] SendUserDisconnect for '76561199228132918'
+[20:01:24]: [Shard] (KU_vLUNqzNW) disconnected from [SHDMASTER](1)
+[20:03:47]: New incoming connection 179.180.200.84|58229 <3354158854379778024>
+[20:03:47]: Client connected from 179.180.200.84|58229 <3354158854379778024>
+[20:03:47]: ValidateGameSessionToken GUID<3354158854379778024>
+[20:03:47]: Client authenticated: (KU_vLUNqzNW) julyeniemann
+[20:03:48]: [Steam] SendUserConnectAndAuthenticate for '76561199228132918'
+[20:05:44]: [Steam] Authenticated client '76561199228132918'
+[20:05:45]: There is no active event to validate against.
+[20:05:45]: [Shard] Read save location file for (KU_vLUNqzNW)
+[20:16:13]: [Steam] SendUserDisconnect for '76561199228132918'
+[20:16:13]: [Shard] (KU_vLUNqzNW) disconnected from [SHDMASTER](1)
+[20:16:52]: New incoming connection 179.180.200.84|51927 <3095146179824541825>
+[20:16:52]: Client connected from 179.180.200.84|51927 <3095146179824541825>
+[20:16:52]: ValidateGameSessionToken GUID<3095146179824541825>
+[20:16:53]: Client authenticated: (KU_vLUNqzNW) julyeniemann
+[20:16:53]: [Steam] SendUserConnectAndAuthenticate for '76561199228132918'
+[20:16:54]: [Steam] Authenticated client '76561199228132918'
+[20:16:55]: There is no active event to validate against.
+[20:16:55]: [Shard] Read save location file for (KU_vLUNqzNW)
+[20:17:41]: [Steam] SendUserDisconnect for '76561199228132918'
+[20:17:41]: [Shard] (KU_vLUNqzNW) disconnected from [SHDMASTER](1)
+[20:30:30]: [200] Account Communication Success (6)
+[20:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[21:00:30]: [200] Account Communication Success (6)
+[21:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[21:30:30]: [200] Account Communication Success (6)
+[21:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[22:00:30]: [200] Account Communication Success (6)
+[22:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[22:30:30]: [200] Account Communication Success (6)
+[22:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[22:43:59]: New incoming connection 179.180.200.84|63116 <6752044350396951598>
+[22:43:59]: Client connected from 179.180.200.84|63116 <6752044350396951598>
+[22:43:59]: ValidateGameSessionToken GUID<6752044350396951598>
+[22:44:00]: Client authenticated: (KU_vLUNqzNW) julyeniemann
+[22:44:00]: [Steam] SendUserConnectAndAuthenticate for '76561199228132918'
+[22:44:01]: [Steam] Authenticated client '76561199228132918'
+[22:44:02]: There is no active event to validate against.
+[22:44:02]: [Shard] Read save location file for (KU_vLUNqzNW)
+[22:45:33]: Resuming user: session/BF953A8AFDD25F52/A7N5AUBT7LF0
+[22:46:38]: Spawn request: wathgrithr from julyeniemann
+[22:46:38]: Skin request: () () () () ()
+[22:46:38]: Skill Selection request: 0
+[22:46:38]: Spawning player at: [Fixed] (214.00, 0.00, 130.00)	
+[22:46:38]: Enabling Spawn Protection for	129782 - wathgrithr	
+[22:46:38]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002862
+[22:46:38]: Sim unpaused
+[22:46:38]: [Quest System] Add Local Quests to	129782 - wathgrithr	
+[22:46:41]: New time stamps for everyone at	1716862611	
+[22:46:41]: New time stamps for everyone at	1716862611	
+[22:48:50]: Available disk space for save files: 128166 MB
+[22:48:51]: [Quest System] Saving own quests!	
+[22:48:51]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002862
+[22:48:52]: Serializing world: session/BF953A8AFDD25F52/0000002862
+[22:56:52]: Available disk space for save files: 128162 MB
+[22:56:53]: [Quest System] Saving own quests!	
+[22:56:53]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002863
+[22:56:54]: Serializing world: session/BF953A8AFDD25F52/0000002863
+[22:59:06]: Activating portal[1] to 4239966897	
+[22:59:07]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
+[22:59:07]: [Shard] Migration request: (KU_vLUNqzNW) to Caves(4239966897)
+[22:59:07]: [Shard] Begin migration #1 for (KU_vLUNqzNW)
+[22:59:07]: [Shard] #1 [SHDMASTER](1) -> Caves(4239966897)
+[22:59:07]: [Shard] #1 <- session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
+[22:59:07]: [Shard] Writing save location file for (KU_vLUNqzNW)
+[22:59:07]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[22:59:07]: [Steam] SendUserDisconnect for '76561199228132918'
+[22:59:07]: [Shard] (KU_vLUNqzNW) disconnected from [SHDMASTER](1)
+[22:59:17]: [Shard] Completed migration #1 for player (KU_vLUNqzNW)
+[23:00:18]: [Shard] Begin migration #2 for (KU_vLUNqzNW)
+[23:00:18]: [Shard] #2 Caves(4239966897) -> [SHDMASTER](1)
+[23:00:18]: [Shard] #2 -> session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
+[23:00:18]: [Shard] Received migration #2 data for (KU_vLUNqzNW)
+[23:00:18]: [Shard] Writing save location file for (KU_vLUNqzNW)
+[23:00:18]: [Shard] (KU_vLUNqzNW) disconnected from Caves(4239966897)
+[23:00:25]: [P2P] Session request for '76561199228132918'
+[23:00:26]: New incoming connection 179.180.200.84|52068 <1801447150137084871>
+[23:00:26]: Client connected from 179.180.200.84|52068 <1801447150137084871>
+[23:00:26]: ValidateGameSessionToken GUID<1801447150137084871>
+[23:00:26]: Client authenticated: (KU_vLUNqzNW) julyeniemann
+[23:00:26]: [Steam] SendUserConnectAndAuthenticate for '76561199228132918'
+[23:00:27]: [Steam] Authenticated client '76561199228132918'
+[23:00:27]: [Shard] Completed incoming migration #2 for (KU_vLUNqzNW)
+[23:00:27]: [Shard] Completed migration #2 for player (KU_vLUNqzNW)
+[23:00:29]: [P2P] Create session: 36.49.246.249|1 '76561199228132918'
+[23:00:29]: [P2P] Received from 36.49.246.249|1 '76561199228132918'
+[23:00:29]: [P2P] Sent to 36.49.246.249|1 '76561199228132918'
+[23:00:30]: [200] Account Communication Success (6)
+[23:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[23:01:14]: Resuming user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
+[23:01:14]: Player will spawn close to portal #1	
+[23:01:14]: Spawning player at: [Load] (195.78, 0.00, 29.90)	
+[23:01:14]: [Quest System] Add Local Quests to	131783 - wathgrithr	
+[23:02:07]: Activating portal[1] to 4239966897	
+[23:02:08]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
+[23:02:08]: [Shard] Migration request: (KU_vLUNqzNW) to Caves(4239966897)
+[23:02:08]: [Shard] Begin migration #3 for (KU_vLUNqzNW)
+[23:02:08]: [Shard] #3 [SHDMASTER](1) -> Caves(4239966897)
+[23:02:08]: [Shard] #3 <- session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
+[23:02:08]: [Shard] Writing save location file for (KU_vLUNqzNW)
+[23:02:08]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[23:02:08]: [Steam] SendUserDisconnect for '76561199228132918'
+[23:02:08]: [Shard] (KU_vLUNqzNW) disconnected from [SHDMASTER](1)
+[23:02:16]: [Shard] Completed migration #3 for player (KU_vLUNqzNW)
+[23:04:16]: [Shard] Begin migration #4 for (KU_vLUNqzNW)
+[23:04:16]: [Shard] #4 Caves(4239966897) -> [SHDMASTER](1)
+[23:04:16]: [Shard] #4 -> session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
+[23:04:16]: [Shard] Received migration #4 data for (KU_vLUNqzNW)
+[23:04:16]: [Shard] Writing save location file for (KU_vLUNqzNW)
+[23:04:16]: [Shard] (KU_vLUNqzNW) disconnected from Caves(4239966897)
+[23:04:24]: New incoming connection 179.180.200.84|54891 <232561467256486615>
+[23:04:24]: Client connected from 179.180.200.84|54891 <232561467256486615>
+[23:04:24]: ValidateGameSessionToken GUID<232561467256486615>
+[23:04:24]: Client authenticated: (KU_vLUNqzNW) julyeniemann
+[23:04:24]: [Steam] SendUserConnectAndAuthenticate for '76561199228132918'
+[23:04:25]: [Steam] Authenticated client '76561199228132918'
+[23:04:25]: [Shard] Completed incoming migration #4 for (KU_vLUNqzNW)
+[23:04:25]: [Shard] Completed migration #4 for player (KU_vLUNqzNW)
+[23:04:27]: [P2P] Received from 36.49.246.249|1 '76561199228132918'
+[23:04:27]: [P2P] Sent to 36.49.246.249|1 '76561199228132918'
+[23:04:55]: Available disk space for save files: 128158 MB
+[23:04:56]: [Quest System] Saving own quests!	
+[23:04:57]: Serializing world: session/BF953A8AFDD25F52/0000002864
+[23:04:57]: Truncating to snapshot #2864...
+[23:04:57]:  - session/BF953A8AFDD25F52/0000002854
+[23:04:57]:  - session/BF953A8AFDD25F52/0000002855
+[23:04:57]:  - session/BF953A8AFDD25F52/0000002853
+[23:04:57]:  - session/BF953A8AFDD25F52/0000002857
+[23:04:57]:  - session/BF953A8AFDD25F52/0000002856
+[23:04:57]:  - session/BF953A8AFDD25F52/0000002852
+[23:04:57]:  - session/BF953A8AFDD25F52/0000002858
+[23:04:57]:  - session/BF953A8AFDD25F52/A7K6QTFOKA35/0000002858
+[23:04:57]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002855
+[23:04:57]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002854
+[23:04:57]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002853
+[23:04:57]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002852
+[23:04:57]:  - session/BF953A8AFDD25F52/A7G7HHS0J6Q2/0000002854
+[23:04:57]:  - session/BF953A8AFDD25F52/A7G7HHS0J6Q2/0000002853
+[23:04:57]:  - session/BF953A8AFDD25F52/A7I4C22IFECN/0000002854
+[23:04:57]:  - session/BF953A8AFDD25F52/A7I4C22IFECN/0000002853
+[23:04:57]:  - session/BF953A8AFDD25F52/A7I4C22IFECN/0000002852
+[23:04:57]:    17 file(s) removed
+[23:05:11]: Resuming user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
+[23:05:11]: Player will spawn close to portal #1	
+[23:05:11]: Spawning player at: [Load] (195.10, 0.00, 29.38)	
+[23:05:11]: [Quest System] Add Local Quests to	132078 - wathgrithr	
+[23:12:57]: Available disk space for save files: 128183 MB
+[23:12:58]: [Quest System] Saving own quests!	
+[23:12:58]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002865
+[23:12:59]: Serializing world: session/BF953A8AFDD25F52/0000002865
+[23:14:27]: [P2P] Session timed out for '76561199228132918'
+[23:14:27]: [P2P] Remove session: 36.49.246.249|1 '76561199228132918'
+[23:16:07]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[23:18:57]: Could not find anim [death] in bank [ghost]
+[23:18:57]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002866
+[23:19:02]: [Steam] SendUserDisconnect for '76561199228132918'
+[23:19:02]: [Shard] (KU_vLUNqzNW) disconnected from [SHDMASTER](1)
+[23:19:03]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002866
+[23:19:03]: Sim paused
+[23:30:26]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 15m para manutenção programada!")"
+[23:30:30]: [200] Account Communication Success (6)
+[23:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[23:40:56]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 5m para manutenção programada!")"
+[00:00:30]: [200] Account Communication Success (6)
+[00:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[00:30:30]: [200] Account Communication Success (6)
+[00:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[01:00:30]: [200] Account Communication Success (6)
+[01:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[01:05:04]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 1m para manutenção programada!")"
+[01:06:35]: RemoteCommandInput: "c_announce("Reiniciando servidor...")"
+[01:30:30]: [200] Account Communication Success (6)
+[01:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[02:00:30]: [200] Account Communication Success (6)
+[02:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[02:30:30]: [200] Account Communication Success (6)
+[02:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[03:00:30]: [200] Account Communication Success (6)
+[03:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[03:30:30]: [200] Account Communication Success (6)
+[03:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[04:00:30]: [200] Account Communication Success (6)
+[04:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[04:30:30]: [200] Account Communication Success (6)
+[04:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[05:00:30]: [200] Account Communication Success (6)
+[05:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[05:30:30]: [200] Account Communication Success (6)
+[05:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[06:00:30]: [200] Account Communication Success (6)
+[06:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[06:30:30]: [200] Account Communication Success (6)
+[06:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[07:00:30]: [200] Account Communication Success (6)
+[07:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[07:30:30]: [200] Account Communication Success (6)
+[07:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[08:00:31]: [200] Account Communication Success (6)
+[08:00:31]: Received (KU_2DNgIUgO) from TokenPurpose
+[08:30:31]: [200] Account Communication Success (6)
+[08:30:31]: Received (KU_2DNgIUgO) from TokenPurpose
+[09:00:30]: [200] Account Communication Success (6)
+[09:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[09:13:53]: RemoteCommandInput: "c_save()"
+[09:13:53]: Sim unpaused
+[09:13:54]: Available disk space for save files: 122587 MB
+[09:13:55]: [Quest System] Saving own quests!	
+[09:13:56]: Serializing world: session/BF953A8AFDD25F52/0000002866
+[09:13:56]: Truncating to snapshot #2866...
+[09:13:56]:  - session/BF953A8AFDD25F52/0000002859
+[09:13:56]:  - session/BF953A8AFDD25F52/0000002860
+[09:13:56]:  - session/BF953A8AFDD25F52/A7HSEUB79VME/0000002860
+[09:13:56]:  - session/BF953A8AFDD25F52/A7HSEUB79VME/0000002859
+[09:13:56]:    4 file(s) removed
+[09:13:56]: Sim paused
+[09:14:23]: RemoteCommandInput: "c_shutdown()"
+[09:14:23]: c_shutdown	nil	
+[09:14:23]: Available disk space for save files: 122591 MB
+[09:14:24]: [Quest System] Saving own quests!	
+[09:14:25]: Serializing world: session/BF953A8AFDD25F52/0000002867
+[09:14:25]: Truncating to snapshot #2867...
+[09:14:25]:  - session/BF953A8AFDD25F52/0000002861
+[09:14:25]:  - session/BF953A8AFDD25F52/A7HSEUB79VME/0000002861
+[09:14:25]:    2 file(s) removed
+[09:14:25]: Available disk space for save files: 122591 MB
+[09:14:26]: [Quest System] Saving own quests!	
+[09:14:27]: Serializing world: session/BF953A8AFDD25F52/0000002868
+[09:14:27]: Truncating to snapshot #2868...
+[09:14:27]:  - session/BF953A8AFDD25F52/0000002862
+[09:14:27]:  - session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002862
+[09:14:27]:    2 file(s) removed
+[09:14:27]: Removing server from lobby
+[09:14:27]: [Shard] Stopping shard mode
+[09:14:27]: [Steam] SendUserDisconnect for ''
+[09:14:28]: Collecting garbage...
+[09:14:30]: lua_gc took 1.69 seconds
