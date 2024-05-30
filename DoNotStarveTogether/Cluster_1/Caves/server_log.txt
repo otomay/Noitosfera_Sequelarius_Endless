@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Caves/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 605310
-[00:00:00]: Current time: Mon May 27 03:30:10 2024
+[00:00:00]: Current time: Wed May 29 06:09:27 2024
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: 6518fa1f56cf
@@ -15,9 +15,9 @@
 [00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Caves 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (268916839497568)
+[00:00:00]: THREAD - started 'GAClient' (255436639739744)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:22.72
+[00:00:00]: ProfileIndex:17.94
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -31,7 +31,7 @@
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (268916716367712)
+[00:00:01]: THREAD - started 'StreamInput' (255436384776032)
 [00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
 [00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
 [00:00:01]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
@@ -769,18 +769,18 @@
 [00:00:11]: modimport: ../mods/workshop-1416161108/data/strings.lua	
 [00:00:11]: modimport: ../mods/workshop-1416161108/lib_fn.lua	
 [00:00:11]: modimport: ../mods/workshop-1416161108/data/PlayerCache.lua	
-[00:00:12]: modimport: ../mods/workshop-1416161108/scripts/patches/controlpanel.lua	
-[00:00:12]: modimport: ../mods/workshop-1416161108/scripts/patches/friendlist.lua	
-[00:00:12]: modimport: ../mods/workshop-1416161108/scripts/patches/lockedcontainers.lua	
-[00:00:12]: modimport: ../mods/workshop-1416161108/scripts/patches/drop_everything.lua	
-[00:00:12]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modworldgenmain.lua	
-[00:00:12]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:12]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modmain.lua	
-[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_assets.lua	
-[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_tuning.lua	
-[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_debug.lua	
-[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_strings.lua	
-[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_recipes.lua	
+[00:00:11]: modimport: ../mods/workshop-1416161108/scripts/patches/controlpanel.lua	
+[00:00:11]: modimport: ../mods/workshop-1416161108/scripts/patches/friendlist.lua	
+[00:00:11]: modimport: ../mods/workshop-1416161108/scripts/patches/lockedcontainers.lua	
+[00:00:11]: modimport: ../mods/workshop-1416161108/scripts/patches/drop_everything.lua	
+[00:00:11]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modworldgenmain.lua	
+[00:00:11]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:11]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modmain.lua	
+[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_assets.lua	
+[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_tuning.lua	
+[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_debug.lua	
+[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_strings.lua	
+[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_recipes.lua	
 [00:00:12]: modimport: ../mods/workshop-2503437364/init/init_containers.lua	
 [00:00:12]: modimport: ../mods/workshop-2503437364/init/init_actions.lua	
 [00:00:12]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
@@ -884,10 +884,10 @@
 [00:00:12]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:12]: Mod: workshop-2847908822 ([DST] Performance Pack)	Loading modmain.lua	
 [00:00:12]: modimport: ../mods/workshop-2847908822/1.lua	
-[00:00:13]: modimport: ../mods/workshop-2847908822/10.lua	
-[00:00:13]: modimport: ../mods/workshop-2847908822/8.lua	
-[00:00:13]: modimport: ../mods/workshop-2847908822/7.lua	
-[00:00:13]: modimport: ../mods/workshop-2847908822/3.lua	
+[00:00:12]: modimport: ../mods/workshop-2847908822/10.lua	
+[00:00:12]: modimport: ../mods/workshop-2847908822/8.lua	
+[00:00:12]: modimport: ../mods/workshop-2847908822/7.lua	
+[00:00:12]: modimport: ../mods/workshop-2847908822/3.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/6.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/4.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/5.lua	
@@ -1187,93 +1187,93 @@
 [00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_wall	
 [00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall	
 [00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_floor	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floor	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallpaper	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu1	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2_light	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_in	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1_in	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz_in	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis_in	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_mushroom_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_sunflower_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_upholstered_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_harlequin_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_circles_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_punk_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_pvz_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_tardis_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_mushroom_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checker_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checkered_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_geome_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_herringbone_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_octagon_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_ruins_slab_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodmetal_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodpaneling_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_punk_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_pvz_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_tardis_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_lights	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red1	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red2	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round_light	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk_light	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_light_light	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_light	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house1	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_named_item	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_named_item	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_pvz	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_tardis	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_fake	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_interiors	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_phonograph	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph_placer	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_zombies	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies_builder	
-[00:00:23]: Mod: workshop-3055010657 (Sweet House fix)	  Registering default mod prefab	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floor	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallpaper	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu1	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_zhu2_light	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_in	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals1_in	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_pvz_in	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wall_decals_tardis_in	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_mushroom_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_sunflower_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_upholstered_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_harlequin_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_circles_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_punk_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_pvz_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_wallskin_tardis_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_mushroom_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checker_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_checkered_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_geome_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_herringbone_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_octagon_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_ruins_slab_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodmetal_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_woodpaneling_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_punk_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_pvz_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_floorskin_tardis_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_lights	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red1	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_red2	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_round_light	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_window_punk_light	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_light_light	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_light_light	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house1	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house1_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_named_item	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_named_item	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_pvz	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_pvz_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_player_house_tardis	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_fake	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_player_house_tardis_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_house_interiors	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_1_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_2_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_3_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_4_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_5_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_6_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_7_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_8_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_9_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_10_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_11_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_house_interiors_12_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_phonograph	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_phonograph_placer	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	  Registering prefab file: prefabs/hua_zombies	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies_builder	
+[00:00:22]: Mod: workshop-3055010657 (Sweet House fix)	  Registering default mod prefab	
 [00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Registering prefabs	
 [00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/seffc	
 [00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    seffc	
@@ -1954,16 +1954,16 @@
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/bishop_projectile_yellow.zip
 [00:00:24]: Tried to add build [bearger_ground_fx] from file [anim/bearger_ground_fx.zip] but we've already added a build with that name!
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: Could not preload undefined prefab (chasni_fire_crab_king_claw_fx_build)
 [00:00:25]: Could not preload undefined prefab (chasni_crab_shadowfireorgan)
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: Could not preload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
 [00:00:25]: Could not preload undefined prefab (chasni_crab_shadowshadoworgan)
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
@@ -1977,11 +1977,11 @@
 [00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:27]: Could not preload undefined prefab (chasni_ice_crab_king_claw_fx_build)
-[00:00:27]: Could not preload undefined prefab (chasni_crab_shadowiceorgan)
-[00:00:27]: Could not preload undefined prefab (cckproj_ice)
-[00:00:27]: Could not preload undefined prefab (chasni_water_crab_king_claw_fx_build)
-[00:00:27]: Could not preload undefined prefab (chasni_crab_shadowwaterorgan)
+[00:00:26]: Could not preload undefined prefab (chasni_ice_crab_king_claw_fx_build)
+[00:00:26]: Could not preload undefined prefab (chasni_crab_shadowiceorgan)
+[00:00:26]: Could not preload undefined prefab (cckproj_ice)
+[00:00:26]: Could not preload undefined prefab (chasni_water_crab_king_claw_fx_build)
+[00:00:26]: Could not preload undefined prefab (chasni_crab_shadowwaterorgan)
 [00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
@@ -2010,13 +2010,13 @@
 [00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
 [00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
-[00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
-[00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
-[00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
+[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
+[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
@@ -2037,12 +2037,12 @@
 [00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:28]: 	Load FE	
-[00:00:29]: THREAD - started 'FilesExistAsyncThread' (268916305567584)
-[00:00:29]: FilesExistAsyncThread started (24749 files)...
+[00:00:29]: THREAD - started 'FilesExistAsyncThread' (255436034383712)
 [00:00:29]: 	Load FE: done	
+[00:00:29]: FilesExistAsyncThread started (24749 files)...
 [00:00:29]: Check for write access: TRUE
 [00:00:29]: Check for read access: TRUE
-[00:00:29]: Available disk space for save files: 129984 MB
+[00:00:29]: Available disk space for save files: 127759 MB
 [00:00:29]: ModIndex: Load sequence finished successfully.	
 [00:00:29]: Reset() returning
 [00:00:29]: Error: Could not find file: anim/chop_mangrove_pink.zip
@@ -2261,25 +2261,25 @@
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
 [00:00:29]: Online Server Started on port: 11000
-[00:00:30]: SUCCESS: Loaded modoverrides.lua	
-[00:00:30]: Not applying level data overrides.	
-[00:00:30]: Found a worldgen override file with these contents:	
-[00:00:30]: 	K: 	override_enabled	 V: 	true	
-[00:00:30]: 	K: 	overrides	 V: 	table: 0x6eae9290	
-[00:00:30]: 		K: 	basicresource_regrowth	 V: 	always	
-[00:00:30]: 		K: 	ghostsanitydrain	 V: 	none	
-[00:00:30]: 		K: 	portalresurection	 V: 	always	
-[00:00:30]: 		K: 	resettime	 V: 	none	
-[00:00:30]: 		K: 	start_location	 V: 	default	
-[00:00:30]: 	K: 	settings_preset	 V: 	DST_CAVE	
-[00:00:30]: 	K: 	worldgen_preset	 V: 	DST_CAVE	
-[00:00:30]:   sanity-checking worldgenoverride.lua...	
-[00:00:30]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
-[00:00:30]:   contained worldgen preset DST_CAVE, loading...	
-[00:00:30]:   contained settings preset DST_CAVE, loading...	
-[00:00:30]: Overwriting savedata with override file.	
+[00:00:29]: SUCCESS: Loaded modoverrides.lua	
+[00:00:29]: Not applying level data overrides.	
+[00:00:29]: Found a worldgen override file with these contents:	
+[00:00:29]: 	K: 	override_enabled	 V: 	true	
+[00:00:29]: 	K: 	overrides	 V: 	table: 0x6c6fbdf0	
+[00:00:29]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:29]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:29]: 		K: 	portalresurection	 V: 	always	
+[00:00:29]: 		K: 	resettime	 V: 	none	
+[00:00:29]: 		K: 	start_location	 V: 	default	
+[00:00:29]: 	K: 	settings_preset	 V: 	DST_CAVE	
+[00:00:29]: 	K: 	worldgen_preset	 V: 	DST_CAVE	
+[00:00:29]:   sanity-checking worldgenoverride.lua...	
+[00:00:29]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:29]:   contained worldgen preset DST_CAVE, loading...	
+[00:00:29]:   contained settings preset DST_CAVE, loading...	
+[00:00:29]: Overwriting savedata with override file.	
 [00:00:30]: Collecting garbage...
-[00:00:30]: lua_gc took 0.29 seconds
+[00:00:30]: lua_gc took 0.30 seconds
 [00:00:30]: ~ShardLuaProxy()
 [00:00:30]: ~cEventLeaderboardProxy()
 [00:00:30]: ~ItemServerLuaProxy()
@@ -3013,18 +3013,18 @@
 [00:00:40]: modimport: ../mods/workshop-1416161108/data/strings.lua	
 [00:00:40]: modimport: ../mods/workshop-1416161108/lib_fn.lua	
 [00:00:40]: modimport: ../mods/workshop-1416161108/data/PlayerCache.lua	
-[00:00:41]: modimport: ../mods/workshop-1416161108/scripts/patches/controlpanel.lua	
-[00:00:41]: modimport: ../mods/workshop-1416161108/scripts/patches/friendlist.lua	
-[00:00:41]: modimport: ../mods/workshop-1416161108/scripts/patches/lockedcontainers.lua	
-[00:00:41]: modimport: ../mods/workshop-1416161108/scripts/patches/drop_everything.lua	
-[00:00:41]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modworldgenmain.lua	
-[00:00:41]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:41]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modmain.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_assets.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_tuning.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_debug.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_strings.lua	
-[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_recipes.lua	
+[00:00:40]: modimport: ../mods/workshop-1416161108/scripts/patches/controlpanel.lua	
+[00:00:40]: modimport: ../mods/workshop-1416161108/scripts/patches/friendlist.lua	
+[00:00:40]: modimport: ../mods/workshop-1416161108/scripts/patches/lockedcontainers.lua	
+[00:00:40]: modimport: ../mods/workshop-1416161108/scripts/patches/drop_everything.lua	
+[00:00:40]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modworldgenmain.lua	
+[00:00:40]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:40]: Mod: workshop-2503437364 (Modifiers for Equippable Items)	Loading modmain.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_assets.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_tuning.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_debug.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_strings.lua	
+[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_recipes.lua	
 [00:00:41]: modimport: ../mods/workshop-2503437364/init/init_containers.lua	
 [00:00:41]: modimport: ../mods/workshop-2503437364/init/init_actions.lua	
 [00:00:41]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
@@ -3129,8 +3129,8 @@
 [00:00:41]: Mod: workshop-2847908822 ([DST] Performance Pack)	Loading modmain.lua	
 [00:00:41]: modimport: ../mods/workshop-2847908822/1.lua	
 [00:00:41]: modimport: ../mods/workshop-2847908822/10.lua	
-[00:00:42]: modimport: ../mods/workshop-2847908822/8.lua	
-[00:00:42]: modimport: ../mods/workshop-2847908822/7.lua	
+[00:00:41]: modimport: ../mods/workshop-2847908822/8.lua	
+[00:00:41]: modimport: ../mods/workshop-2847908822/7.lua	
 [00:00:42]: modimport: ../mods/workshop-2847908822/3.lua	
 [00:00:42]: modimport: ../mods/workshop-2847908822/6.lua	
 [00:00:42]: modimport: ../mods/workshop-2847908822/4.lua	
@@ -3143,52 +3143,52 @@
 [00:00:42]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:42]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
 [00:00:44]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:00:45]: LOADING LUA SUCCESS
-[00:00:45]: Registering Server mod namespace "wormwood"
-[00:00:45]: Registering Server mod namespace "wexwell"
-[00:00:45]: Registering Server mod namespace "webber"
-[00:00:45]: Registering Server mod namespace "workshop-1416161108"
-[00:00:45]: Registering Server mod namespace "dstachievement"
-[00:00:45]: Registering Server mod namespace "wolfgang"
-[00:00:45]: Registering Server mod namespace "workshop-1207269058"
-[00:00:45]: Registering Server mod namespace "invokerbook"
-[00:00:45]: Registering Server mod namespace "woodie"
-[00:00:45]: Registering Server mod namespace "wes"
-[00:00:45]: Registering Server mod namespace "wendy"
-[00:00:45]: Registering Server mod namespace "willow"
-[00:00:45]: Registering Server mod namespace "wathgrithr"
-[00:00:45]: Registering Server mod namespace "huahouse_name"
-[00:00:45]: Registering Server mod namespace "woodie_mod"
-[00:00:45]: Registering Server mod namespace "wilson"
-[00:00:45]: Registering Server mod namespace "winona"
-[00:00:45]: Registering Server mod namespace "wickerbottom"
-[00:00:45]: Registering Server mod namespace "modmodifier"
-[00:00:45]: Registering Server mod namespace "quest_system_rpc"
-[00:00:45]: Registering Server mod namespace "wendy_mod"
-[00:00:45]: Registering Server mod namespace "workshop-1111658995"
-[00:00:45]: Registering Server mod namespace "extra_mod"
-[00:00:45]: Registering Server mod namespace "wx78"
-[00:00:45]: Registering Server mod namespace "simpleeconomy"
-[00:00:45]: Registering Server mod namespace "walter"
-[00:00:45]: Registering Server mod namespace "achievementui"
-[00:00:45]: Registering Server mod namespace "wand"
-[00:00:45]: Registering Client mod namespace "quest_system_rpc"
-[00:00:45]: Registering Client mod namespace "workshop-1185229307"
-[00:00:45]: Registering Client mod namespace "workshop-1111658995"
-[00:00:45]: Registering Shard mod namespace "quest_system_rpc"
-[00:00:45]: Registering Shard mod namespace "workshop-2167036904"
-[00:00:45]: PlayerDeaths could not load morgue	
-[00:00:45]: PlayerHistory could not load player_history	
-[00:00:45]: ServerPreferences could not load server_preferences	
-[00:00:45]: ConsoleScreenSettings could not load consolescreen	
-[00:00:45]: bloom_enabled	true	
-[00:00:45]: OnFilesLoaded()	
-[00:00:45]: OnUpdatePurchaseStateComplete	
-[00:00:45]: Loading world: session/324D3B74FD686B24/0000002856	
+[00:00:44]: LOADING LUA SUCCESS
+[00:00:44]: Registering Server mod namespace "wormwood"
+[00:00:44]: Registering Server mod namespace "wexwell"
+[00:00:44]: Registering Server mod namespace "webber"
+[00:00:44]: Registering Server mod namespace "workshop-1416161108"
+[00:00:44]: Registering Server mod namespace "dstachievement"
+[00:00:44]: Registering Server mod namespace "wolfgang"
+[00:00:44]: Registering Server mod namespace "workshop-1207269058"
+[00:00:44]: Registering Server mod namespace "invokerbook"
+[00:00:44]: Registering Server mod namespace "woodie"
+[00:00:44]: Registering Server mod namespace "wes"
+[00:00:44]: Registering Server mod namespace "wendy"
+[00:00:44]: Registering Server mod namespace "willow"
+[00:00:44]: Registering Server mod namespace "wathgrithr"
+[00:00:44]: Registering Server mod namespace "huahouse_name"
+[00:00:44]: Registering Server mod namespace "woodie_mod"
+[00:00:44]: Registering Server mod namespace "wilson"
+[00:00:44]: Registering Server mod namespace "winona"
+[00:00:44]: Registering Server mod namespace "wickerbottom"
+[00:00:44]: Registering Server mod namespace "modmodifier"
+[00:00:44]: Registering Server mod namespace "quest_system_rpc"
+[00:00:44]: Registering Server mod namespace "wendy_mod"
+[00:00:44]: Registering Server mod namespace "workshop-1111658995"
+[00:00:44]: Registering Server mod namespace "extra_mod"
+[00:00:44]: Registering Server mod namespace "wx78"
+[00:00:44]: Registering Server mod namespace "simpleeconomy"
+[00:00:44]: Registering Server mod namespace "walter"
+[00:00:44]: Registering Server mod namespace "achievementui"
+[00:00:44]: Registering Server mod namespace "wand"
+[00:00:44]: Registering Client mod namespace "quest_system_rpc"
+[00:00:44]: Registering Client mod namespace "workshop-1185229307"
+[00:00:44]: Registering Client mod namespace "workshop-1111658995"
+[00:00:44]: Registering Shard mod namespace "quest_system_rpc"
+[00:00:44]: Registering Shard mod namespace "workshop-2167036904"
+[00:00:44]: PlayerDeaths could not load morgue	
+[00:00:44]: PlayerHistory could not load player_history	
+[00:00:44]: ServerPreferences could not load server_preferences	
+[00:00:44]: ConsoleScreenSettings could not load consolescreen	
+[00:00:44]: bloom_enabled	true	
+[00:00:44]: OnFilesLoaded()	
+[00:00:44]: OnUpdatePurchaseStateComplete	
+[00:00:44]: Loading world: session/324D3B74FD686B24/0000002901	
 [00:00:45]: Save file is at version 5.146	
 [00:00:45]: Klump load on boot started.	
 [00:00:45]: Klump files loaded: 	0	
-[00:00:46]: 	Unload FE	
+[00:00:45]: 	Unload FE	
 [00:00:46]: 	Unload FE done	
 [00:00:46]: Could not unload undefined prefab (chasni_fire_crab_king_claw_fx_build)
 [00:00:46]: Could not unload undefined prefab (chasni_crab_shadowfireorgan)
@@ -4233,194 +4233,187 @@
 [00:00:57]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:57]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:57]: 	LOAD BE	
-[00:01:10]: Could not preload undefined prefab (brokenwall_scrap)
-[00:01:13]: 	LOAD BE: done	
-[00:01:13]: Begin Session: 324D3B74FD686B24
-[00:01:13]: saving to server_temp/server_save	
-[00:01:14]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-3150203711/images/shoesminimap.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/anvil.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/schatztruhe.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/treasurechasechest.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house1.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house_pvz.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house_tardis.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/minimap/dung_pile.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/minimap/basefan.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/telipad.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/thumper.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/smelter.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/propelomatic.xml )
-[00:01:14]: ---### a player is come back! reset the name? ###---	
-[00:01:14]: Loading 19 new character(s)	
-[00:01:15]: Total 19 character(s) loaded	
-[00:01:34]: Loading Nav Grid	
-[00:01:34]: World generated on build 587581 with save version: 5.142, using seed: 1655734220	
-[00:01:34]: setting 	summerlength	15	
-[00:01:34]: setting 	cavemoonphase	full	
-[00:01:34]: setting 	iscavefullmoon	false	
-[00:01:34]: setting 	isnightmaredawn	false	
-[00:01:34]: setting 	elapseddaysinseason	13	
-[00:01:34]: setting 	isfullmoon	false	
-[00:01:34]: setting 	moisture	2819.8684082031	
-[00:01:34]: setting 	springlength	20	
-[00:01:34]: setting 	islunarhailing	false	
-[00:01:34]: setting 	isnightmarewild	false	
-[00:01:34]: setting 	nightmaretimeinphase	0.55260780156255	
-[00:01:34]: setting 	precipitationrate	0	
-[00:01:34]: setting 	iswet	false	
-[00:01:34]: setting 	isnewmoon	false	
-[00:01:34]: setting 	israining	false	
-[00:01:34]: setting 	iswinter	false	
-[00:01:34]: setting 	isnightmarewarn	false	
-[00:01:34]: setting 	precipitation	none	
-[00:01:34]: setting 	iscavewaxingmoon	false	
-[00:01:34]: setting 	isacidraining	false	
-[00:01:34]: setting 	moonphase	new	
-[00:01:34]: setting 	remainingdaysinseason	7	
-[00:01:34]: setting 	temperature	13.092963249149	
-[00:01:34]: setting 	wetness	0	
-[00:01:34]: setting 	cycles	2653	
-[00:01:34]: setting 	moistureceil	4435.1870117188	
-[00:01:34]: setting 	isday	false	
-[00:01:34]: setting 	winterlength	15	
-[00:01:34]: setting 	season	autumn	
-[00:01:34]: setting 	iswaxingmoon	true	
-[00:01:34]: setting 	isalterawake	false	
-[00:01:34]: setting 	isnightmarecalm	true	
-[00:01:34]: setting 	isnight	true	
-[00:01:34]: setting 	isdusk	false	
-[00:01:34]: setting 	isspring	false	
-[00:01:34]: setting 	isautumn	true	
-[00:01:34]: setting 	iscaveday	true	
-[00:01:34]: setting 	lunarhaillevel	0	
-[00:01:34]: setting 	pop	0.38892236638557	
-[00:01:34]: setting 	snowlevel	0	
-[00:01:34]: setting 	issnowcovered	false	
-[00:01:34]: setting 	autumnlength	20	
-[00:01:34]: setting 	phase	night	
-[00:01:34]: setting 	nightmaretime	198.93880856252	
-[00:01:34]: setting 	issnowing	false	
-[00:01:34]: setting 	iscavedusk	false	
-[00:01:34]: setting 	nightmarephase	calm	
-[00:01:34]: setting 	timeinphase	0.053789838155111	
-[00:01:34]: setting 	seasonprogress	0.65	
-[00:01:34]: setting 	iscavenight	false	
-[00:01:34]: setting 	iscavenewmoon	false	
-[00:01:34]: setting 	issummer	false	
-[00:01:34]: setting 	cavephase	day	
-[00:01:34]: setting 	time	0.026894919077555	
-[00:01:34]: [Shard] Secondary shard is waiting for LUA...
-[00:01:34]: OVERRIDE: setting	resettime	to	none	
-[00:01:34]: OVERRIDE: setting	basicresource_regrowth	to	always	
-[00:01:34]: OVERRIDE: setting	portalresurection	to	always	
-[00:01:34]: OVERRIDE: setting	ghostsanitydrain	to	none	
-[00:01:47]: Could not find anim [chasni_shadow_monster] in bank [FROMNUM]
-[00:01:47]: Could not find anim [chasni_moon_soul] in bank [FROMNUM]
-[00:02:00]: Reconstructing topology	
-[00:02:00]: 	...Sorting points	
-[00:02:00]: 	...Sorting edges	
-[00:02:00]: 	...Connecting nodes	
-[00:02:00]: 	...Validating connections	
-[00:02:01]: 	...Housekeeping	
-[00:02:01]: 	...Done!	
-[00:02:01]: 1 uploads added to server. From server_temp
-[00:02:01]: About to start a shard with these settings:
-[00:02:01]:   ShardName: Caves
-[00:02:01]:   ShardID: 4239966897
-[00:02:01]:   ShardRole: SECONDARY
-[00:02:01]:   MasterHost: 127.0.0.1
-[00:02:01]:   MasterBind: (null)
-[00:02:01]:   MasterPort: 10998
-[00:02:01]: [Shard] Connecting to master...
-[00:02:01]: Telling Client our new session identifier: 324D3B74FD686B24
-[00:02:01]: Check for write access: TRUE
-[00:02:01]: Check for read access: TRUE
-[00:02:01]: Available disk space for save files: 129893 MB
-[00:02:01]: ModIndex: Load sequence finished successfully.	
-[00:02:01]: Reset() returning
-[00:02:01]: [Shard] Connection to master failed. Waiting to reconnect...
-[00:02:03]: Validating portal[6] <-> 1[6] (inactive)	
-[00:02:03]: Validating portal[4] <-> 1[4] (inactive)	
-[00:02:03]: Validating portal[2] <-> 1[2] (inactive)	
-[00:02:04]: Validating portal[3] <-> 1[3] (inactive)	
-[00:02:04]: Validating portal[7] <-> 1[7] (inactive)	
-[00:02:04]: Validating portal[10] <-> 1[10] (inactive)	
-[00:02:04]: Validating portal[5] <-> 1[5] (inactive)	
-[00:02:04]: Validating portal[1] <-> 1[1] (inactive)	
-[00:02:04]: Validating portal[9] <-> 1[9] (inactive)	
-[00:02:04]: Validating portal[8] <-> 1[8] (inactive)	
-[00:02:07]: About to start a shard with these settings:
-[00:02:07]:   ShardName: Caves
-[00:02:07]:   ShardID: 4239966897
-[00:02:07]:   ShardRole: SECONDARY
-[00:02:07]:   MasterHost: 127.0.0.1
-[00:02:07]:   MasterBind: (null)
-[00:02:07]:   MasterPort: 10998
-[00:02:07]: [Shard] Connecting to master...
-[00:02:07]: [Shard] Sending secondary shard information to master...
-[00:02:12]: Received MasterInfoPacket row f1b7212f5a529268b3cf186115deddb0 region us-east-1
-[00:02:12]: Obtaining secondary shard IP from us-east-1 lobby
-[00:02:13]: [Shard] secondary shard is now ready!
-[00:02:13]: World 1 is now connected	
-[00:02:13]: [SyncWorldSettings] Sending ResyncWorldSettings.	
-[00:02:13]: Validating portal[6] <-> 1[6] (active)	
-[00:02:13]: Validating portal[4] <-> 1[4] (active)	
-[00:02:13]: Validating portal[2] <-> 1[2] (active)	
-[00:02:13]: Validating portal[3] <-> 1[3] (active)	
-[00:02:13]: Validating portal[7] <-> 1[7] (active)	
-[00:02:13]: Validating portal[10] <-> 1[10] (active)	
-[00:02:13]: Validating portal[5] <-> 1[5] (active)	
-[00:02:13]: Validating portal[1] <-> 1[1] (active)	
-[00:02:13]: Validating portal[9] <-> 1[9] (active)	
-[00:02:13]: Validating portal[8] <-> 1[8] (active)	
-[00:02:13]: [SyncWorldSettings] recieved world settings from master shard.	true	
-[00:02:13]: [SyncWorldSettings] applying portalresurection = always from master shard.	
-[00:02:13]: component hauntable already exists on entity 101951 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
-[00:02:13]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
-[00:02:13]: [SyncWorldSettings] applying resettime = none from master shard.	
-[00:02:13]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
-[00:02:13]: [SyncWorldSettings] recieved world settings from master shard.	true	
-[00:02:13]: [SyncWorldSettings] applying portalresurection = always from master shard.	
-[00:02:13]: component hauntable already exists on entity 101951 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
-[00:02:13]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
-[00:02:13]: [SyncWorldSettings] applying resettime = none from master shard.	
-[00:02:13]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
-[00:02:14]: Available disk space for save files: 129880 MB
-[00:02:15]: Serializing world: session/324D3B74FD686B24/0000002857
-[00:02:15]: Truncating to snapshot #2857...
-[00:02:15]:  - session/324D3B74FD686B24/0000002851
-[00:02:15]:    1 file(s) removed
-[00:02:15]: [Shard] secondary shard LUA is now ready!
-[00:02:15]: Sim paused
+[00:01:11]: Could not preload undefined prefab (brokenwall_scrap)
+[00:01:15]: 	LOAD BE: done	
+[00:01:15]: Begin Session: 324D3B74FD686B24
+[00:01:15]: saving to server_temp/server_save	
+[00:01:15]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3150203711/images/shoesminimap.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/anvil.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/schatztruhe.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/treasurechasechest.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house1.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house_pvz.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house_tardis.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/minimap/dung_pile.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/minimap/basefan.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/telipad.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/thumper.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/smelter.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/propelomatic.xml )
+[00:01:15]: ---### a player is come back! reset the name? ###---	
+[00:01:15]: Loading 19 new character(s)	
+[00:01:17]: Total 19 character(s) loaded	
+[00:01:36]: Loading Nav Grid	
+[00:01:36]: World generated on build 587581 with save version: 5.142, using seed: 1655734220	
+[00:01:36]: setting 	summerlength	15	
+[00:01:36]: setting 	cavemoonphase	full	
+[00:01:36]: setting 	iscavefullmoon	false	
+[00:01:36]: setting 	isnightmaredawn	false	
+[00:01:36]: setting 	elapseddaysinseason	18	
+[00:01:36]: setting 	isfullmoon	false	
+[00:01:36]: setting 	moisture	4839.1040039062	
+[00:01:36]: setting 	springlength	20	
+[00:01:36]: setting 	islunarhailing	false	
+[00:01:36]: setting 	isnightmarewild	true	
+[00:01:36]: setting 	nightmaretimeinphase	0.17920425019045	
+[00:01:36]: setting 	precipitationrate	0	
+[00:01:36]: setting 	iswet	false	
+[00:01:36]: setting 	isnewmoon	false	
+[00:01:36]: setting 	israining	false	
+[00:01:36]: setting 	iswinter	false	
+[00:01:36]: setting 	isnightmarewarn	false	
+[00:01:36]: setting 	precipitation	none	
+[00:01:36]: setting 	iscavewaxingmoon	false	
+[00:01:36]: setting 	isacidraining	false	
+[00:01:36]: setting 	moonphase	new	
+[00:01:36]: setting 	remainingdaysinseason	2	
+[00:01:36]: setting 	temperature	32.01979971026	
+[00:01:36]: setting 	wetness	0	
+[00:01:36]: setting 	cycles	2693	
+[00:01:36]: setting 	moistureceil	5084.2993164062	
+[00:01:36]: setting 	isday	false	
+[00:01:36]: setting 	winterlength	15	
+[00:01:36]: setting 	season	spring	
+[00:01:36]: setting 	iswaxingmoon	true	
+[00:01:36]: setting 	isalterawake	false	
+[00:01:36]: setting 	isnightmarecalm	false	
+[00:01:36]: setting 	isnight	true	
+[00:01:36]: setting 	isdusk	false	
+[00:01:36]: setting 	isspring	true	
+[00:01:36]: setting 	isautumn	false	
+[00:01:36]: setting 	iscaveday	true	
+[00:01:36]: setting 	lunarhaillevel	0	
+[00:01:36]: setting 	pop	0.94837650575619	
+[00:01:36]: setting 	snowlevel	0	
+[00:01:36]: setting 	issnowcovered	false	
+[00:01:36]: setting 	autumnlength	20	
+[00:01:36]: setting 	phase	night	
+[00:01:36]: setting 	nightmaretime	476.88063752857	
+[00:01:36]: setting 	issnowing	false	
+[00:01:36]: setting 	iscavedusk	false	
+[00:01:36]: setting 	nightmarephase	wild	
+[00:01:36]: setting 	timeinphase	0.56900936308361	
+[00:01:36]: setting 	seasonprogress	0.9	
+[00:01:36]: setting 	iscavenight	false	
+[00:01:36]: setting 	iscavenewmoon	false	
+[00:01:36]: setting 	issummer	false	
+[00:01:36]: setting 	cavephase	day	
+[00:01:36]: setting 	time	0.24894159634908	
+[00:01:36]: [Shard] Secondary shard is waiting for LUA...
+[00:01:36]: OVERRIDE: setting	resettime	to	none	
+[00:01:36]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:01:36]: OVERRIDE: setting	portalresurection	to	always	
+[00:01:36]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:01:54]: Could not find anim [chasni_shadow_monster] in bank [FROMNUM]
+[00:01:54]: Could not find anim [chasni_moon_soul] in bank [FROMNUM]
+[00:02:02]: Reconstructing topology	
+[00:02:02]: 	...Sorting points	
+[00:02:02]: 	...Sorting edges	
+[00:02:02]: 	...Connecting nodes	
+[00:02:02]: 	...Validating connections	
+[00:02:03]: 	...Housekeeping	
+[00:02:03]: 	...Done!	
+[00:02:03]: 1 uploads added to server. From server_temp
+[00:02:03]: About to start a shard with these settings:
+[00:02:03]:   ShardName: Caves
+[00:02:03]:   ShardID: 4239966897
+[00:02:03]:   ShardRole: SECONDARY
+[00:02:03]:   MasterHost: 127.0.0.1
+[00:02:03]:   MasterBind: (null)
+[00:02:03]:   MasterPort: 10998
+[00:02:03]: [Shard] Connecting to master...
+[00:02:03]: Telling Client our new session identifier: 324D3B74FD686B24
+[00:02:03]: Check for write access: TRUE
+[00:02:03]: Check for read access: TRUE
+[00:02:03]: Available disk space for save files: 127726 MB
+[00:02:03]: ModIndex: Load sequence finished successfully.	
+[00:02:03]: Reset() returning
+[00:02:03]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:02:05]: Validating portal[6] <-> 1[6] (inactive)	
+[00:02:05]: Validating portal[7] <-> 1[7] (inactive)	
+[00:02:05]: Validating portal[5] <-> 1[5] (inactive)	
+[00:02:05]: Validating portal[8] <-> 1[8] (inactive)	
+[00:02:05]: Validating portal[1] <-> 1[1] (inactive)	
+[00:02:05]: Validating portal[10] <-> 1[10] (inactive)	
+[00:02:05]: Validating portal[4] <-> 1[4] (inactive)	
+[00:02:05]: Validating portal[2] <-> 1[2] (inactive)	
+[00:02:05]: Validating portal[3] <-> 1[3] (inactive)	
+[00:02:05]: Validating portal[9] <-> 1[9] (inactive)	
+[00:02:08]: About to start a shard with these settings:
+[00:02:08]:   ShardName: Caves
+[00:02:08]:   ShardID: 4239966897
+[00:02:08]:   ShardRole: SECONDARY
+[00:02:08]:   MasterHost: 127.0.0.1
+[00:02:08]:   MasterBind: (null)
+[00:02:08]:   MasterPort: 10998
+[00:02:08]: [Shard] Connecting to master...
+[00:02:08]: [Shard] Sending secondary shard information to master...
+[00:02:15]: Received MasterInfoPacket row 9b622cf26ad957c63531950cd331637e region us-east-1
+[00:02:15]: Obtaining secondary shard IP from us-east-1 lobby
+[00:02:15]: [Shard] secondary shard is now ready!
+[00:02:15]: World 1 is now connected	
+[00:02:15]: [SyncWorldSettings] Sending ResyncWorldSettings.	
+[00:02:15]: Validating portal[6] <-> 1[6] (active)	
+[00:02:15]: Validating portal[7] <-> 1[7] (active)	
+[00:02:15]: Validating portal[5] <-> 1[5] (active)	
+[00:02:15]: Validating portal[8] <-> 1[8] (active)	
+[00:02:15]: Validating portal[1] <-> 1[1] (active)	
+[00:02:15]: Validating portal[10] <-> 1[10] (active)	
+[00:02:15]: Validating portal[4] <-> 1[4] (active)	
+[00:02:15]: Validating portal[2] <-> 1[2] (active)	
+[00:02:15]: Validating portal[3] <-> 1[3] (active)	
+[00:02:15]: Validating portal[9] <-> 1[9] (active)	
+[00:02:15]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:02:15]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:02:15]: component hauntable already exists on entity 101868 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:02:15]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:02:15]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:02:15]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:02:15]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:02:15]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:02:15]: component hauntable already exists on entity 101868 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:02:15]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:02:15]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:02:15]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:02:16]: [Shard] secondary shard LUA is now ready!
+[00:02:16]: Available disk space for save files: 127713 MB
+[00:02:18]: Serializing world: session/324D3B74FD686B24/0000002902
+[00:02:18]: Truncating to snapshot #2902...
+[00:02:18]:  - session/324D3B74FD686B24/0000002896
+[00:02:18]:    1 file(s) removed
+[00:02:18]: Sim paused
 [00:30:29]: [200] Account Communication Success (6)
 [00:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
 [01:00:29]: [200] Account Communication Success (6)
 [01:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[01:30:30]: [200] Account Communication Success (6)
-[01:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[01:30:29]: [200] Account Communication Success (6)
+[01:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
 [02:00:30]: [200] Account Communication Success (6)
 [02:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[02:30:30]: [200] Account Communication Success (6)
-[02:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[02:53:00]: Sim unpaused
-[03:00:30]: [200] Account Communication Success (6)
-[03:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[03:00:51]: Available disk space for save files: 124924 MB
-[03:00:52]: Serializing world: session/324D3B74FD686B24/0000002858
-[03:00:52]: Truncating to snapshot #2858...
-[03:00:52]:  - session/324D3B74FD686B24/0000002852
-[03:00:52]:    1 file(s) removed
-[03:02:51]: Sim paused
+[02:30:29]: [200] Account Communication Success (6)
+[02:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[03:00:29]: [200] Account Communication Success (6)
+[03:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
 [03:30:30]: [200] Account Communication Success (6)
 [03:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[04:00:30]: [200] Account Communication Success (6)
-[04:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[04:00:29]: [200] Account Communication Success (6)
+[04:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
 [04:30:30]: [200] Account Communication Success (6)
 [04:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[05:00:30]: [200] Account Communication Success (6)
+[05:00:29]: [200] Account Communication Success (6)
 [05:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [05:30:30]: [200] Account Communication Success (6)
 [05:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
@@ -4452,16 +4445,115 @@
 [12:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [12:30:30]: [200] Account Communication Success (6)
 [12:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[12:41:44]: Sim unpaused
+[12:47:48]: Available disk space for save files: 125741 MB
+[12:47:50]: Serializing world: session/324D3B74FD686B24/0000002903
+[12:47:50]: Truncating to snapshot #2903...
+[12:47:50]:  - session/324D3B74FD686B24/0000002897
+[12:47:50]:    1 file(s) removed
+[12:48:23]: Sim paused
+[12:53:41]: Sim unpaused
 [13:00:30]: [200] Account Communication Success (6)
 [13:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[13:01:08]: Available disk space for save files: 125736 MB
+[13:01:09]: Serializing world: session/324D3B74FD686B24/0000002904
+[13:01:09]: Truncating to snapshot #2904...
+[13:01:09]:  - session/324D3B74FD686B24/0000002898
+[13:01:09]:    1 file(s) removed
+[13:09:10]: Available disk space for save files: 125732 MB
+[13:09:11]: Serializing world: session/324D3B74FD686B24/0000002905
+[13:09:11]: Truncating to snapshot #2905...
+[13:09:11]:  - session/324D3B74FD686B24/0000002899
+[13:09:11]:    1 file(s) removed
+[13:17:12]: Available disk space for save files: 125728 MB
+[13:17:14]: Serializing world: session/324D3B74FD686B24/0000002906
+[13:17:14]: Truncating to snapshot #2906...
+[13:17:14]:  - session/324D3B74FD686B24/0000002900
+[13:17:14]:    1 file(s) removed
+[13:25:14]: Available disk space for save files: 125723 MB
+[13:25:16]: Serializing world: session/324D3B74FD686B24/0000002907
+[13:25:16]: Truncating to snapshot #2907...
+[13:25:16]:  - session/324D3B74FD686B24/0000002901
+[13:25:16]:    1 file(s) removed
 [13:30:30]: [200] Account Communication Success (6)
 [13:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[13:33:17]: Available disk space for save files: 125719 MB
+[13:33:18]: Serializing world: session/324D3B74FD686B24/0000002908
+[13:33:18]: Truncating to snapshot #2908...
+[13:33:18]:  - session/324D3B74FD686B24/0000002902
+[13:33:18]:    1 file(s) removed
+[13:41:19]: Available disk space for save files: 125715 MB
+[13:41:20]: Serializing world: session/324D3B74FD686B24/0000002909
+[13:41:20]: Truncating to snapshot #2909...
+[13:41:20]:  - session/324D3B74FD686B24/0000002903
+[13:41:20]:    1 file(s) removed
+[13:49:21]: Available disk space for save files: 125710 MB
+[13:49:22]: Serializing world: session/324D3B74FD686B24/0000002910
+[13:49:22]: Truncating to snapshot #2910...
+[13:49:22]:  - session/324D3B74FD686B24/0000002904
+[13:49:22]:    1 file(s) removed
+[13:57:23]: Available disk space for save files: 125706 MB
+[13:57:24]: Serializing world: session/324D3B74FD686B24/0000002911
+[13:57:24]: Truncating to snapshot #2911...
+[13:57:24]:  - session/324D3B74FD686B24/0000002905
+[13:57:24]:    1 file(s) removed
 [14:00:30]: [200] Account Communication Success (6)
 [14:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[14:05:25]: Available disk space for save files: 125702 MB
+[14:05:26]: Serializing world: session/324D3B74FD686B24/0000002912
+[14:05:26]: Truncating to snapshot #2912...
+[14:05:26]:  - session/324D3B74FD686B24/0000002906
+[14:05:26]:    1 file(s) removed
+[14:13:27]: Available disk space for save files: 125690 MB
+[14:13:28]: Serializing world: session/324D3B74FD686B24/0000002913
+[14:13:28]: Truncating to snapshot #2913...
+[14:13:28]:  - session/324D3B74FD686B24/0000002907
+[14:13:28]:    1 file(s) removed
+[14:21:29]: Available disk space for save files: 125686 MB
+[14:21:30]: Serializing world: session/324D3B74FD686B24/0000002914
+[14:21:30]: Truncating to snapshot #2914...
+[14:21:30]:  - session/324D3B74FD686B24/0000002908
+[14:21:30]:    1 file(s) removed
+[14:29:31]: Available disk space for save files: 125682 MB
+[14:29:33]: Serializing world: session/324D3B74FD686B24/0000002915
+[14:29:33]: Truncating to snapshot #2915...
+[14:29:33]:  - session/324D3B74FD686B24/0000002909
+[14:29:33]:    1 file(s) removed
 [14:30:30]: [200] Account Communication Success (6)
 [14:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[14:37:33]: Available disk space for save files: 125677 MB
+[14:37:35]: Serializing world: session/324D3B74FD686B24/0000002916
+[14:37:35]: Truncating to snapshot #2916...
+[14:37:35]:  - session/324D3B74FD686B24/0000002910
+[14:37:35]:    1 file(s) removed
+[14:45:35]: Available disk space for save files: 125673 MB
+[14:45:37]: Serializing world: session/324D3B74FD686B24/0000002917
+[14:45:37]: Truncating to snapshot #2917...
+[14:45:37]:  - session/324D3B74FD686B24/0000002911
+[14:45:37]:    1 file(s) removed
+[14:53:37]: Available disk space for save files: 125669 MB
+[14:53:39]: Serializing world: session/324D3B74FD686B24/0000002918
+[14:53:39]: Truncating to snapshot #2918...
+[14:53:39]:  - session/324D3B74FD686B24/0000002912
+[14:53:39]:    1 file(s) removed
 [15:00:30]: [200] Account Communication Success (6)
 [15:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[15:01:40]: Available disk space for save files: 125665 MB
+[15:01:41]: Serializing world: session/324D3B74FD686B24/0000002919
+[15:01:41]: Truncating to snapshot #2919...
+[15:01:41]:  - session/324D3B74FD686B24/0000002913
+[15:01:41]:    1 file(s) removed
+[15:09:42]: Available disk space for save files: 125660 MB
+[15:09:43]: Serializing world: session/324D3B74FD686B24/0000002920
+[15:09:43]: Truncating to snapshot #2920...
+[15:09:43]:  - session/324D3B74FD686B24/0000002914
+[15:09:43]:    1 file(s) removed
+[15:17:45]: Available disk space for save files: 125656 MB
+[15:17:46]: Serializing world: session/324D3B74FD686B24/0000002921
+[15:17:46]: Truncating to snapshot #2921...
+[15:17:46]:  - session/324D3B74FD686B24/0000002915
+[15:17:46]:    1 file(s) removed
+[15:18:11]: Sim paused
 [15:30:30]: [200] Account Communication Success (6)
 [15:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [16:00:30]: [200] Account Communication Success (6)
@@ -4470,25 +4562,8 @@
 [16:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [17:00:30]: [200] Account Communication Success (6)
 [17:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[17:27:06]: Sim unpaused
 [17:30:30]: [200] Account Communication Success (6)
 [17:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[17:33:08]: Available disk space for save files: 117516 MB
-[17:33:09]: Serializing world: session/324D3B74FD686B24/0000002859
-[17:33:09]: Truncating to snapshot #2859...
-[17:33:09]:  - session/324D3B74FD686B24/0000002853
-[17:33:09]:    1 file(s) removed
-[17:41:10]: Available disk space for save files: 117512 MB
-[17:41:11]: Serializing world: session/324D3B74FD686B24/0000002860
-[17:41:11]: Truncating to snapshot #2860...
-[17:41:11]:  - session/324D3B74FD686B24/0000002854
-[17:41:11]:    1 file(s) removed
-[17:49:12]: Available disk space for save files: 117508 MB
-[17:49:13]: Serializing world: session/324D3B74FD686B24/0000002861
-[17:49:13]: Truncating to snapshot #2861...
-[17:49:13]:  - session/324D3B74FD686B24/0000002855
-[17:49:13]:    1 file(s) removed
-[17:55:01]: Sim paused
 [18:00:30]: [200] Account Communication Success (6)
 [18:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [18:30:30]: [200] Account Communication Success (6)
@@ -4503,127 +4578,11 @@
 [20:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [21:00:30]: [200] Account Communication Success (6)
 [21:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[21:30:30]: [200] Account Communication Success (6)
-[21:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[22:00:30]: [200] Account Communication Success (6)
-[22:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[22:30:30]: [200] Account Communication Success (6)
-[22:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[22:46:38]: Sim unpaused
-[22:48:50]: Available disk space for save files: 128166 MB
-[22:48:52]: Serializing world: session/324D3B74FD686B24/0000002862
-[22:48:52]: Truncating to snapshot #2862...
-[22:48:52]:  - session/324D3B74FD686B24/0000002856
-[22:48:52]:    1 file(s) removed
-[22:56:52]: Available disk space for save files: 128162 MB
-[22:56:54]: Serializing world: session/324D3B74FD686B24/0000002863
-[22:56:54]: Truncating to snapshot #2863...
-[22:56:54]:  - session/324D3B74FD686B24/0000002857
-[22:56:54]:    1 file(s) removed
-[22:59:07]: [Shard] #1 -> session/324D3B74FD686B24/A7N5AUBT7LF0/0000002864
-[22:59:07]: [Shard] Received migration #1 data for (KU_vLUNqzNW)
-[22:59:15]: [P2P] Session request for '76561199228132918'
-[22:59:15]: New incoming connection 179.180.200.84|60619 <3823937232779172952>
-[22:59:15]: Client connected from 179.180.200.84|60619 <3823937232779172952>
-[22:59:15]: ValidateGameSessionToken GUID<3823937232779172952>
-[22:59:16]: Client authenticated: (KU_vLUNqzNW) julyeniemann
-[22:59:16]: [Steam] SendUserConnectAndAuthenticate for '76561199228132918'
-[22:59:17]: [Steam] Authenticated client '76561199228132918'
-[22:59:17]: [Shard] Completed incoming migration #1 for (KU_vLUNqzNW)
-[22:59:19]: [P2P] Create session: 36.52.115.74|1 '76561199228132918'
-[22:59:19]: [P2P] Received from 36.52.115.74|1 '76561199228132918'
-[22:59:19]: [P2P] Sent to 36.52.115.74|1 '76561199228132918'
-[22:59:50]: Resuming user: session/324D3B74FD686B24/A7N5AUBT7LF0/0000002864
-[22:59:50]: Player will spawn close to portal #1	
-[22:59:50]: Spawning player at: [Load] (-334.28, 0.00, 4.84)	
-[22:59:50]: [Quest System] Add Local Quests to	118301 - wathgrithr	
-[23:00:17]: Activating portal[1] to 1	
-[23:00:18]: Serializing user: session/324D3B74FD686B24/A7N5AUBT7LF0/0000002864
-[23:00:18]: [Shard] Migration request: (KU_vLUNqzNW) to [SHDMASTER](1)
-[23:00:18]: [Shard] #2 <- session/324D3B74FD686B24/A7N5AUBT7LF0/0000002864
-[23:00:18]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
-[23:00:18]: [Steam] SendUserDisconnect for '76561199228132918'
-[23:00:30]: [200] Account Communication Success (6)
-[23:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[23:02:08]: [Shard] #3 -> session/324D3B74FD686B24/A7N5AUBT7LF0/0000002864
-[23:02:08]: [Shard] Received migration #3 data for (KU_vLUNqzNW)
-[23:02:15]: New incoming connection 179.180.200.84|62302 <7124713720210612107>
-[23:02:15]: Client connected from 179.180.200.84|62302 <7124713720210612107>
-[23:02:15]: ValidateGameSessionToken GUID<7124713720210612107>
-[23:02:16]: Client authenticated: (KU_vLUNqzNW) julyeniemann
-[23:02:16]: [Steam] SendUserConnectAndAuthenticate for '76561199228132918'
-[23:02:16]: [Steam] Authenticated client '76561199228132918'
-[23:02:16]: [Shard] Completed incoming migration #3 for (KU_vLUNqzNW)
-[23:02:18]: [P2P] Received from 36.52.115.74|1 '76561199228132918'
-[23:02:18]: [P2P] Sent to 36.52.115.74|1 '76561199228132918'
-[23:02:48]: Resuming user: session/324D3B74FD686B24/A7N5AUBT7LF0/0000002864
-[23:02:48]: Player will spawn close to portal #1	
-[23:02:48]: Spawning player at: [Load] (-336.52, 0.00, 1.18)	
-[23:02:48]: [Quest System] Add Local Quests to	118729 - wathgrithr	
-[23:04:16]: Activating portal[1] to 1	
-[23:04:16]: Serializing user: session/324D3B74FD686B24/A7N5AUBT7LF0/0000002864
-[23:04:16]: [Shard] Migration request: (KU_vLUNqzNW) to [SHDMASTER](1)
-[23:04:16]: [Shard] #4 <- session/324D3B74FD686B24/A7N5AUBT7LF0/0000002864
-[23:04:16]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
-[23:04:16]: [Steam] SendUserDisconnect for '76561199228132918'
-[23:04:55]: Available disk space for save files: 128158 MB
-[23:04:56]: Serializing world: session/324D3B74FD686B24/0000002864
-[23:04:56]: Truncating to snapshot #2864...
-[23:04:56]:  - session/324D3B74FD686B24/0000002858
-[23:04:56]:    1 file(s) removed
-[23:12:18]: [P2P] Session timed out for '76561199228132918'
-[23:12:18]: [P2P] Remove session: 36.52.115.74|1 '76561199228132918'
-[23:12:57]: Available disk space for save files: 128183 MB
-[23:12:58]: Serializing world: session/324D3B74FD686B24/0000002865
-[23:12:58]: Truncating to snapshot #2865...
-[23:12:58]:  - session/324D3B74FD686B24/0000002859
-[23:12:58]:    1 file(s) removed
-[23:19:03]: Sim paused
-[23:30:30]: [200] Account Communication Success (6)
-[23:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[00:00:30]: [200] Account Communication Success (6)
-[00:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[00:30:30]: [200] Account Communication Success (6)
-[00:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[01:00:30]: [200] Account Communication Success (6)
-[01:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[01:30:30]: [200] Account Communication Success (6)
-[01:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[02:00:30]: [200] Account Communication Success (6)
-[02:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[02:30:30]: [200] Account Communication Success (6)
-[02:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[03:00:30]: [200] Account Communication Success (6)
-[03:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[03:30:30]: [200] Account Communication Success (6)
-[03:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[04:00:30]: [200] Account Communication Success (6)
-[04:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[04:30:31]: [200] Account Communication Success (6)
-[04:30:31]: Received (KU_2DNgIUgO) from TokenPurpose
-[05:00:30]: [200] Account Communication Success (6)
-[05:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[05:30:30]: [200] Account Communication Success (6)
-[05:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[06:00:30]: [200] Account Communication Success (6)
-[06:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[06:30:31]: [200] Account Communication Success (6)
-[06:30:31]: Received (KU_2DNgIUgO) from TokenPurpose
-[07:00:31]: [200] Account Communication Success (6)
-[07:00:31]: Received (KU_2DNgIUgO) from TokenPurpose
-[07:30:31]: [200] Account Communication Success (6)
-[07:30:31]: Received (KU_2DNgIUgO) from TokenPurpose
-[08:00:31]: [200] Account Communication Success (6)
-[08:00:31]: Received (KU_2DNgIUgO) from TokenPurpose
-[08:30:31]: [200] Account Communication Success (6)
-[08:30:31]: Received (KU_2DNgIUgO) from TokenPurpose
-[09:00:31]: [200] Account Communication Success (6)
-[09:00:31]: Received (KU_2DNgIUgO) from TokenPurpose
-[09:13:53]: Sim unpaused
-[09:13:54]: Available disk space for save files: 122587 MB
-[09:13:55]: Serializing world: session/324D3B74FD686B24/0000002866
-[09:13:55]: Truncating to snapshot #2866...
-[09:13:55]:  - session/324D3B74FD686B24/0000002860
-[09:13:55]:    1 file(s) removed
-[09:13:56]: Sim paused
-[09:14:27]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[21:08:13]: Sim unpaused
+[21:08:14]: Available disk space for save files: 139780 MB
+[21:08:16]: Serializing world: session/324D3B74FD686B24/0000002922
+[21:08:16]: Truncating to snapshot #2922...
+[21:08:16]:  - session/324D3B74FD686B24/0000002916
+[21:08:16]:    1 file(s) removed
+[21:08:17]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[21:08:18]: Sim paused

@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 605310
-[00:00:00]: Current time: Mon May 27 03:30:10 2024
+[00:00:00]: Current time: Wed May 29 06:09:27 2024
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: 6518fa1f56cf
@@ -15,9 +15,9 @@
 [00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Master 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (269455044444000)
+[00:00:00]: THREAD - started 'GAClient' (276150834749280)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:22.70
+[00:00:00]: ProfileIndex:22.55
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -31,8 +31,8 @@
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: THREAD - started 'StreamInput' (276150715592544)
 [00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
-[00:00:01]: THREAD - started 'StreamInput' (269454920851296)
 [00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
 [00:00:01]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
 [00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
@@ -885,9 +885,9 @@
 [00:00:12]: Mod: workshop-2847908822 ([DST] Performance Pack)	Loading modmain.lua	
 [00:00:12]: modimport: ../mods/workshop-2847908822/1.lua	
 [00:00:12]: modimport: ../mods/workshop-2847908822/10.lua	
-[00:00:13]: modimport: ../mods/workshop-2847908822/8.lua	
-[00:00:13]: modimport: ../mods/workshop-2847908822/7.lua	
-[00:00:13]: modimport: ../mods/workshop-2847908822/3.lua	
+[00:00:12]: modimport: ../mods/workshop-2847908822/8.lua	
+[00:00:12]: modimport: ../mods/workshop-2847908822/7.lua	
+[00:00:12]: modimport: ../mods/workshop-2847908822/3.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/6.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/4.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/5.lua	
@@ -942,56 +942,56 @@
 [00:00:17]: OnUpdatePurchaseStateComplete	
 [00:00:17]: Klump load on boot started.	
 [00:00:17]: Klump files loaded: 	0	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	Registering prefabs	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/questboard	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    questboard	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    questboard_placer	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/request_quest	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_very_easy	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_easy	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_normal	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_difficult	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_very_difficult	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_specific	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/quest_system_fx	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    greenfiresplash_fx	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splat_fx	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_full	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_med	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_low	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_melted	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/boss_island_ceiling	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    boss_island_ceiling	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/glommer_lightflower	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_lightflower	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/shadow_piece_items	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    shadow_crest	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    shadow_mitre	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    shadow_lance	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/frogking	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_beyblade	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_crown	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_p_crown	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_scepter	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/glommer_puddle	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_puddle_fx	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_puddle_trap	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/glommer_boss	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_small	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_boss	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine_item	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine_item_placer	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    blackglommerfuel	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    blackglommerfuel_placer	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/chester_boss	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    chester_boss	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_eyebone	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	    spit_bomb	
-[00:00:21]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering default mod prefab	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	Registering prefabs	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/questboard	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    questboard	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    questboard_placer	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/request_quest	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_very_easy	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_easy	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_normal	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_difficult	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_very_difficult	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    request_quest_specific	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/quest_system_fx	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    greenfiresplash_fx	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splat_fx	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_full	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_med	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_low	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_splash_fx_melted	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/boss_island_ceiling	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    boss_island_ceiling	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/glommer_lightflower	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_lightflower	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/shadow_piece_items	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    shadow_crest	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    shadow_mitre	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    shadow_lance	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/frogking	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_beyblade	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_crown	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_p_crown	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    frogking_scepter	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/glommer_puddle	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_puddle_fx	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_puddle_trap	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/glommer_boss	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_small	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_boss	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine_item	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine_item_placer	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    blackglommerfuel	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    blackglommerfuel_placer	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/chester_boss	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    chester_boss	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_eyebone	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    spit_bomb	
+[00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering default mod prefab	
 [00:00:21]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
 [00:00:21]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
 [00:00:21]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
@@ -1041,12 +1041,12 @@
 [00:00:21]: Mod: workshop-3150203711 (Shoetime)	    ms_shoes_speed_blue	
 [00:00:21]: Mod: workshop-3150203711 (Shoetime)	    ms_shoes_speed_teal	
 [00:00:21]: Mod: workshop-3150203711 (Shoetime)	  Registering default mod prefab	
-[00:00:22]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
-[00:00:22]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
-[00:00:22]: Mod: workshop-2537774396 (Discord Thông Báo)	Registering prefabs	
-[00:00:22]: Mod: workshop-2537774396 (Discord Thông Báo)	  Registering default mod prefab	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	Registering prefabs	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critters	
+[00:00:21]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:21]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:21]: Mod: workshop-2537774396 (Discord Thông Báo)	Registering prefabs	
+[00:00:21]: Mod: workshop-2537774396 (Discord Thông Báo)	  Registering default mod prefab	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	Registering prefabs	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critters	
 [00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lamb	
 [00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lamb_builder	
 [00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_puppy	
@@ -1957,14 +1957,14 @@
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:24]: Could not preload undefined prefab (chasni_fire_crab_king_claw_fx_build)
 [00:00:24]: Could not preload undefined prefab (chasni_crab_shadowfireorgan)
-[00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:25]: Could not preload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
-[00:00:25]: Could not preload undefined prefab (chasni_crab_shadowshadoworgan)
-[00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:24]: Could not preload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
+[00:00:24]: Could not preload undefined prefab (chasni_crab_shadowshadoworgan)
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
 [00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
@@ -2022,27 +2022,27 @@
 [00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:28]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:28]: Mod: workshop-2847908822 ([DST] Performance Pack)	Registering prefabs	
-[00:00:28]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Registering prefab file: prefabs/w0tblgvn	
-[00:00:28]: Mod: workshop-2847908822 ([DST] Performance Pack)	    virtent	
-[00:00:28]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Registering default mod prefab	
-[00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
-[00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
-[00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
-[00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
-[00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
-[00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:27]: Mod: workshop-2847908822 ([DST] Performance Pack)	Registering prefabs	
+[00:00:27]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Registering prefab file: prefabs/w0tblgvn	
+[00:00:27]: Mod: workshop-2847908822 ([DST] Performance Pack)	    virtent	
+[00:00:27]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Registering default mod prefab	
+[00:00:27]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:27]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:27]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:27]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:27]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:27]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:28]: 	Load FE	
-[00:00:29]: THREAD - started 'FilesExistAsyncThread' (269454369877856)
+[00:00:29]: THREAD - started 'FilesExistAsyncThread' (276150300647264)
 [00:00:29]: 	Load FE: done	
 [00:00:29]: FilesExistAsyncThread started (24749 files)...
 [00:00:29]: Check for write access: TRUE
 [00:00:29]: Check for read access: TRUE
-[00:00:29]: Available disk space for save files: 129985 MB
+[00:00:29]: Available disk space for save files: 127759 MB
 [00:00:29]: ModIndex: Load sequence finished successfully.	
 [00:00:29]: Reset() returning
 [00:00:29]: Error: Could not find file: anim/chop_mangrove_pink.zip
@@ -2215,7 +2215,6 @@
 [00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
 [00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
 [00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: ... FilesExistAsyncThread complete
 [00:00:29]: [200] Account Communication Success (6)
 [00:00:29]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
 [00:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
@@ -2261,11 +2260,12 @@
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
 [00:00:29]: Could not load mod_config_data/modconfiguration_workshop-2503437364	
 [00:00:29]: Online Server Started on port: 10999
+[00:00:29]: ... FilesExistAsyncThread complete
 [00:00:29]: SUCCESS: Loaded modoverrides.lua	
 [00:00:29]: Not applying level data overrides.	
 [00:00:29]: Found a worldgen override file with these contents:	
 [00:00:29]: 	K: 	override_enabled	 V: 	true	
-[00:00:29]: 	K: 	overrides	 V: 	table: 0x63f796c0	
+[00:00:29]: 	K: 	overrides	 V: 	table: 0x4d22ba90	
 [00:00:29]: 		K: 	basicresource_regrowth	 V: 	always	
 [00:00:29]: 		K: 	ghostsanitydrain	 V: 	none	
 [00:00:29]: 		K: 	portalresurection	 V: 	always	
@@ -3183,7 +3183,7 @@
 [00:00:44]: bloom_enabled	true	
 [00:00:44]: OnFilesLoaded()	
 [00:00:44]: OnUpdatePurchaseStateComplete	
-[00:00:44]: Loading world: session/BF953A8AFDD25F52/0000002857	
+[00:00:44]: Loading world: session/BF953A8AFDD25F52/0000002902	
 [00:00:45]: Save file is at version 5.146	
 [00:00:45]: Klump load on boot started.	
 [00:00:45]: Klump files loaded: 	0	
@@ -4221,104 +4221,104 @@
 [00:00:55]: Could not preload undefined prefab (chasni_crab_shadowwaterorgan)
 [00:00:56]: Could not preload undefined prefab (fryfocals_charge)
 [00:00:56]: Could not preload undefined prefab (paint_fx)
-[00:00:57]: Mod: workshop-2847908822 ([DST] Performance Pack)	Registering prefabs	
-[00:00:57]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Registering prefab file: prefabs/w0tblgvn	
-[00:00:57]: Mod: workshop-2847908822 ([DST] Performance Pack)	    virtent	
-[00:00:57]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Registering default mod prefab	
-[00:00:57]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
-[00:00:57]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:56]: Mod: workshop-2847908822 ([DST] Performance Pack)	Registering prefabs	
+[00:00:56]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Registering prefab file: prefabs/w0tblgvn	
+[00:00:56]: Mod: workshop-2847908822 ([DST] Performance Pack)	    virtent	
+[00:00:56]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Registering default mod prefab	
+[00:00:56]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:56]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
 [00:00:57]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
 [00:00:57]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
 [00:00:57]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:57]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:57]: 	LOAD BE	
-[00:01:10]: Could not preload undefined prefab (brokenwall_scrap)
-[00:01:13]: 	LOAD BE: done	
-[00:01:13]: Begin Session: BF953A8AFDD25F52
-[00:01:13]: saving to server_temp/server_save	
-[00:01:14]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-3150203711/images/shoesminimap.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/anvil.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/schatztruhe.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/treasurechasechest.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house1.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house_pvz.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house_tardis.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/minimap/dung_pile.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/minimap/basefan.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/telipad.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/thumper.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/smelter.xml )
-[00:01:14]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/propelomatic.xml )
-[00:01:14]: ---### a player is come back! reset the name? ###---	
-[00:01:14]: Loading 19 new character(s)	
-[00:01:15]: Total 19 character(s) loaded	
-[00:01:17]: Loading Nav Grid	
-[00:01:17]: World generated on build 587581 with save version: 5.142, using seed: 1655873162	
-[00:01:17]: setting 	summerlength	15	
-[00:01:17]: setting 	cavemoonphase	full	
-[00:01:17]: setting 	iscavefullmoon	false	
-[00:01:17]: setting 	isnightmaredawn	false	
-[00:01:17]: setting 	elapseddaysinseason	13	
-[00:01:17]: setting 	isfullmoon	false	
-[00:01:17]: setting 	moisture	3465.6003417969	
-[00:01:17]: setting 	springlength	20	
-[00:01:17]: setting 	islunarhailing	false	
-[00:01:17]: setting 	isnightmarewild	false	
-[00:01:17]: setting 	nightmaretimeinphase	0	
-[00:01:17]: setting 	precipitationrate	0	
-[00:01:17]: setting 	iswet	false	
-[00:01:17]: setting 	isnewmoon	false	
-[00:01:17]: setting 	israining	false	
-[00:01:17]: setting 	iswinter	false	
-[00:01:17]: setting 	isnightmarewarn	false	
-[00:01:17]: setting 	precipitation	none	
-[00:01:17]: setting 	iscavewaxingmoon	false	
-[00:01:17]: setting 	isacidraining	false	
-[00:01:17]: setting 	moonphase	full	
-[00:01:17]: setting 	remainingdaysinseason	7	
-[00:01:17]: setting 	temperature	21.716061032091	
-[00:01:17]: setting 	wetness	0	
-[00:01:17]: setting 	cycles	2653	
-[00:01:17]: setting 	moistureceil	7593.3090820312	
-[00:01:17]: setting 	isday	true	
-[00:01:17]: setting 	winterlength	15	
-[00:01:17]: setting 	season	autumn	
-[00:01:17]: setting 	iswaxingmoon	false	
-[00:01:17]: setting 	isalterawake	true	
-[00:01:17]: setting 	isnightmarecalm	false	
-[00:01:17]: setting 	isnight	false	
-[00:01:17]: setting 	isdusk	false	
-[00:01:17]: setting 	isspring	false	
-[00:01:17]: setting 	isautumn	true	
-[00:01:17]: setting 	iscaveday	true	
-[00:01:17]: setting 	lunarhaillevel	99.108757019043	
-[00:01:17]: setting 	pop	0.43804607804735	
-[00:01:17]: setting 	snowlevel	0	
-[00:01:17]: setting 	issnowcovered	false	
-[00:01:17]: setting 	autumnlength	20	
-[00:01:17]: setting 	phase	day	
-[00:01:17]: setting 	nightmaretime	0	
-[00:01:17]: setting 	issnowing	false	
-[00:01:17]: setting 	iscavedusk	false	
-[00:01:17]: setting 	nightmarephase	none	
-[00:01:17]: setting 	timeinphase	0.046985944112142	
-[00:01:17]: setting 	seasonprogress	0.65	
-[00:01:17]: setting 	iscavenight	false	
-[00:01:17]: setting 	iscavenewmoon	false	
-[00:01:17]: setting 	issummer	false	
-[00:01:17]: setting 	cavephase	day	
-[00:01:17]: setting 	time	0.023492972056071	
-[00:01:17]: OVERRIDE: setting	resettime	to	none	
-[00:01:17]: OVERRIDE: setting	basicresource_regrowth	to	always	
-[00:01:17]: OVERRIDE: setting	portalresurection	to	always	
-[00:01:17]: OVERRIDE: setting	ghostsanitydrain	to	none	
-[00:01:21]: [dst-more-equip-slots]	INFO	["upgraded_blueamulet"] = EQUIP_TYPES.AMULET, -- Quas Amulet	
-[00:01:28]: Could not find anim bank [nature_staff]
-[00:01:28]: Could not find anim bank [nature_staff]
-[00:01:44]: [dst-more-equip-slots]	INFO	["terraprisma"] = EQUIP_TYPES.AMULET, -- Terraprisma	
+[00:01:11]: Could not preload undefined prefab (brokenwall_scrap)
+[00:01:15]: 	LOAD BE: done	
+[00:01:15]: Begin Session: BF953A8AFDD25F52
+[00:01:15]: saving to server_temp/server_save	
+[00:01:15]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3150203711/images/shoesminimap.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/anvil.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/schatztruhe.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/treasurechasechest.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house1.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house_pvz.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house_tardis.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/minimap/dung_pile.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/minimap/basefan.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/telipad.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/thumper.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/smelter.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/propelomatic.xml )
+[00:01:15]: ---### a player is come back! reset the name? ###---	
+[00:01:15]: Loading 19 new character(s)	
+[00:01:17]: Total 19 character(s) loaded	
+[00:01:19]: Loading Nav Grid	
+[00:01:19]: World generated on build 587581 with save version: 5.142, using seed: 1655873162	
+[00:01:19]: setting 	summerlength	15	
+[00:01:19]: setting 	cavemoonphase	full	
+[00:01:19]: setting 	iscavefullmoon	false	
+[00:01:19]: setting 	isnightmaredawn	false	
+[00:01:19]: setting 	elapseddaysinseason	18	
+[00:01:19]: setting 	isfullmoon	false	
+[00:01:19]: setting 	moisture	2889.9123535156	
+[00:01:19]: setting 	springlength	20	
+[00:01:19]: setting 	islunarhailing	false	
+[00:01:19]: setting 	isnightmarewild	false	
+[00:01:19]: setting 	nightmaretimeinphase	0	
+[00:01:19]: setting 	precipitationrate	0.83299106359482	
+[00:01:19]: setting 	iswet	true	
+[00:01:19]: setting 	isnewmoon	false	
+[00:01:19]: setting 	israining	true	
+[00:01:19]: setting 	iswinter	false	
+[00:01:19]: setting 	isnightmarewarn	false	
+[00:01:19]: setting 	precipitation	rain	
+[00:01:19]: setting 	iscavewaxingmoon	false	
+[00:01:19]: setting 	isacidraining	false	
+[00:01:19]: setting 	moonphase	full	
+[00:01:19]: setting 	remainingdaysinseason	2	
+[00:01:19]: setting 	temperature	53.392046607088	
+[00:01:19]: setting 	wetness	69.747016906738	
+[00:01:19]: setting 	cycles	2693	
+[00:01:19]: setting 	moistureceil	4344.9047851562	
+[00:01:19]: setting 	isday	true	
+[00:01:19]: setting 	winterlength	15	
+[00:01:19]: setting 	season	spring	
+[00:01:19]: setting 	iswaxingmoon	false	
+[00:01:19]: setting 	isalterawake	true	
+[00:01:19]: setting 	isnightmarecalm	false	
+[00:01:19]: setting 	isnight	false	
+[00:01:19]: setting 	isdusk	false	
+[00:01:19]: setting 	isspring	true	
+[00:01:19]: setting 	isautumn	false	
+[00:01:19]: setting 	iscaveday	true	
+[00:01:19]: setting 	lunarhaillevel	32.697429656982	
+[00:01:19]: setting 	pop	1	
+[00:01:19]: setting 	snowlevel	0	
+[00:01:19]: setting 	issnowcovered	false	
+[00:01:19]: setting 	autumnlength	20	
+[00:01:19]: setting 	phase	day	
+[00:01:19]: setting 	nightmaretime	0	
+[00:01:19]: setting 	issnowing	false	
+[00:01:19]: setting 	iscavedusk	false	
+[00:01:19]: setting 	nightmarephase	none	
+[00:01:19]: setting 	timeinphase	0.56091239565895	
+[00:01:19]: setting 	seasonprogress	0.9	
+[00:01:19]: setting 	iscavenight	false	
+[00:01:19]: setting 	iscavenewmoon	false	
+[00:01:19]: setting 	issummer	false	
+[00:01:19]: setting 	cavephase	day	
+[00:01:19]: setting 	time	0.24539917310079	
+[00:01:19]: OVERRIDE: setting	resettime	to	none	
+[00:01:19]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:01:19]: OVERRIDE: setting	portalresurection	to	always	
+[00:01:19]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:01:23]: [dst-more-equip-slots]	INFO	["upgraded_blueamulet"] = EQUIP_TYPES.AMULET, -- Quas Amulet	
+[00:01:45]: [dst-more-equip-slots]	INFO	["terraprisma"] = EQUIP_TYPES.AMULET, -- Terraprisma	
+[00:01:46]: Could not find anim bank [nature_staff]
+[00:01:46]: Could not find anim bank [nature_staff]
 [00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
 [00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
 [00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
@@ -4327,7 +4327,11 @@
 [00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
 [00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
 [00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:54]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
+[00:01:48]: Could not find anim [idle] in bank [cappy]
+[00:01:54]: [dst-more-equip-slots]	INFO	["upgraded_amulet"] = EQUIP_TYPES.AMULET, -- Exort Amulet	
+[00:01:54]: [dst-more-equip-slots]	INFO	["upgraded_blueamulet"] = EQUIP_TYPES.AMULET, -- Quas Amulet	
+[00:01:54]: [dst-more-equip-slots]	INFO	["armorgold"] = nil, -- Golden Scalemail	
+[00:01:55]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
 [00:01:55]: Could not find anim bank [hell_armor]
 [00:01:55]: [dst-more-equip-slots]	INFO	["hell_armor"] = nil, -- Diabolical Robe	
 [00:01:55]: Could not find anim bank [hell_armor]
@@ -4335,33 +4339,30 @@
 [00:01:55]: Could not find anim [idle_loop] in bank [schatzkarte]
 [00:01:55]: [dst-more-equip-slots]	INFO	["slipscraft"] = nil, -- Slipscraft	
 [00:01:55]: [dst-more-equip-slots]	INFO	["armorgold"] = nil, -- Golden Scalemail	
-[00:01:55]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
+[00:01:56]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
 [00:01:56]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
 [00:01:56]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
-[00:01:56]: Could not find anim [chasni_save] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_shadow_monster] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_exp] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_achiev] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_exp] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_achiev] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_save] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_moon_soul] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_exp] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_achiev] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_moon_soul] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_exp] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_achiev] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_exp] in bank [FROMNUM]
-[00:01:56]: Could not find anim [chasni_exp] in bank [FROMNUM]
-[00:01:57]: [dst-more-equip-slots]	INFO	["upgraded_amulet"] = EQUIP_TYPES.AMULET, -- Exort Amulet	
-[00:01:57]: [dst-more-equip-slots]	INFO	["upgraded_blueamulet"] = EQUIP_TYPES.AMULET, -- Quas Amulet	
-[00:01:57]: [dst-more-equip-slots]	INFO	["armorgold"] = nil, -- Golden Scalemail	
+[00:01:57]: Could not find anim [chasni_save] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_save] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_exp] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_achiev] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_shadow_monster] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_exp] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_moon_soul] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_exp] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_exp] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_achiev] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_achiev] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_moon_soul] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_exp] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_exp] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_achiev] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_shadow_shield] in bank [FROMNUM]
+[00:01:57]: Could not find anim [chasni_shadow_monster] in bank [FROMNUM]
 [00:01:57]: Could not find anim build FROMNUM
 [00:01:57]: Could not find anim build FROMNUM
 [00:01:57]: Could not find anim build FROMNUM
@@ -4402,117 +4403,84 @@
 [00:01:57]: Could not find anim build FROMNUM
 [00:01:57]: Could not find anim build FROMNUM
 [00:01:57]: Could not find anim build FROMNUM
-[00:02:01]: Could not find anim [idle] in bank [cappy]
-[00:02:05]: Reconstructing topology	
-[00:02:05]: 	...Sorting points	
-[00:02:05]: 	...Sorting edges	
-[00:02:05]: 	...Connecting nodes	
-[00:02:05]: 	...Validating connections	
-[00:02:05]: 	...Housekeeping	
-[00:02:05]: 	...Done!	
-[00:02:05]: 1 uploads added to server. From server_temp
-[00:02:05]: About to start a shard with these settings:
-[00:02:05]:   ShardName: [SHDMASTER]
-[00:02:05]:   ShardID: 1
-[00:02:05]:   ShardRole: MASTER
-[00:02:05]:   MasterHost: (null)
-[00:02:05]:   MasterBind: 127.0.0.1
-[00:02:05]:   MasterPort: 10998
-[00:02:05]: [Shard] Starting master server
-[00:02:05]: [Shard] Shard server started on port: 10998
-[00:02:05]: Telling Client our new session identifier: BF953A8AFDD25F52
-[00:02:05]: Check for write access: TRUE
-[00:02:05]: Check for read access: TRUE
-[00:02:05]: Available disk space for save files: 129889 MB
-[00:02:05]: ModIndex: Load sequence finished successfully.	
-[00:02:06]: Reset() returning
-[00:02:10]: Validating portal[10] <-> 4239966897[10] (inactive)	
-[00:02:10]: Validating portal[5] <-> 4239966897[5] (inactive)	
-[00:02:10]: Validating portal[2] <-> 4239966897[2] (inactive)	
-[00:02:10]: Validating portal[7] <-> 4239966897[7] (inactive)	
-[00:02:10]: Validating portal[9] <-> 4239966897[9] (inactive)	
-[00:02:10]: Validating portal[4] <-> 4239966897[4] (inactive)	
-[00:02:11]: Validating portal[6] <-> 4239966897[6] (inactive)	
-[00:02:11]: Validating portal[8] <-> 4239966897[8] (inactive)	
-[00:02:11]: Validating portal[3] <-> 4239966897[3] (inactive)	
-[00:02:11]: Validating portal[1] <-> 4239966897[1] (inactive)	
-[00:02:12]: Server registered via geo DNS in us-east-1
-[00:02:12]: Sim paused
-[00:02:12]: [Shard] Secondary shard Caves(4239966897) connected: [LAN] 127.0.0.1
-[00:02:13]: [Shard] Secondary Caves(4239966897) ready!
-[00:02:13]: World 4239966897 is now connected	
-[00:02:13]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
-[00:02:13]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
-[00:02:13]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
-[00:02:13]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
-[00:02:13]: Validating portal[10] <-> 4239966897[10] (active)	
-[00:02:13]: Validating portal[5] <-> 4239966897[5] (active)	
-[00:02:13]: Validating portal[2] <-> 4239966897[2] (active)	
-[00:02:13]: Validating portal[7] <-> 4239966897[7] (active)	
-[00:02:13]: Validating portal[9] <-> 4239966897[9] (active)	
-[00:02:13]: Validating portal[4] <-> 4239966897[4] (active)	
-[00:02:13]: Validating portal[6] <-> 4239966897[6] (disabled)	
-[00:02:13]: Validating portal[8] <-> 4239966897[8] (active)	
-[00:02:13]: Validating portal[3] <-> 4239966897[3] (active)	
-[00:02:13]: Validating portal[1] <-> 4239966897[1] (active)	
-[00:02:13]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
-[00:02:13]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
-[00:02:13]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
-[00:02:13]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
+[00:02:07]: Reconstructing topology	
+[00:02:07]: 	...Sorting points	
+[00:02:07]: 	...Sorting edges	
+[00:02:07]: 	...Connecting nodes	
+[00:02:07]: 	...Validating connections	
+[00:02:08]: 	...Housekeeping	
+[00:02:08]: 	...Done!	
+[00:02:08]: 1 uploads added to server. From server_temp
+[00:02:08]: About to start a shard with these settings:
+[00:02:08]:   ShardName: [SHDMASTER]
+[00:02:08]:   ShardID: 1
+[00:02:08]:   ShardRole: MASTER
+[00:02:08]:   MasterHost: (null)
+[00:02:08]:   MasterBind: 127.0.0.1
+[00:02:08]:   MasterPort: 10998
+[00:02:08]: [Shard] Starting master server
+[00:02:08]: [Shard] Shard server started on port: 10998
+[00:02:08]: Telling Client our new session identifier: BF953A8AFDD25F52
+[00:02:08]: Check for write access: TRUE
+[00:02:08]: Check for read access: TRUE
+[00:02:08]: Available disk space for save files: 127720 MB
+[00:02:08]: ModIndex: Load sequence finished successfully.	
+[00:02:09]: Reset() returning
+[00:02:12]: Validating portal[1] <-> 4239966897[1] (inactive)	
+[00:02:13]: Validating portal[3] <-> 4239966897[3] (inactive)	
+[00:02:13]: Validating portal[10] <-> 4239966897[10] (inactive)	
+[00:02:13]: Validating portal[5] <-> 4239966897[5] (inactive)	
+[00:02:13]: Validating portal[4] <-> 4239966897[4] (inactive)	
+[00:02:13]: Validating portal[6] <-> 4239966897[6] (inactive)	
+[00:02:13]: Validating portal[8] <-> 4239966897[8] (inactive)	
+[00:02:13]: Validating portal[2] <-> 4239966897[2] (inactive)	
+[00:02:13]: Validating portal[7] <-> 4239966897[7] (inactive)	
+[00:02:13]: Validating portal[9] <-> 4239966897[9] (inactive)	
+[00:02:15]: Server registered via geo DNS in us-east-1
+[00:02:15]: Sim paused
+[00:02:15]: [Shard] Secondary shard Caves(4239966897) connected: [LAN] 127.0.0.1
+[00:02:15]: [Shard] Secondary Caves(4239966897) ready!
+[00:02:15]: World 4239966897 is now connected	
+[00:02:15]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:02:15]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
+[00:02:15]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[00:02:15]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
+[00:02:15]: Validating portal[1] <-> 4239966897[1] (active)	
+[00:02:15]: Validating portal[3] <-> 4239966897[3] (active)	
+[00:02:15]: Validating portal[10] <-> 4239966897[10] (active)	
+[00:02:15]: Validating portal[5] <-> 4239966897[5] (active)	
+[00:02:15]: Validating portal[4] <-> 4239966897[4] (active)	
+[00:02:15]: Validating portal[6] <-> 4239966897[6] (disabled)	
+[00:02:15]: Validating portal[8] <-> 4239966897[8] (active)	
+[00:02:15]: Validating portal[2] <-> 4239966897[2] (active)	
+[00:02:15]: Validating portal[7] <-> 4239966897[7] (active)	
+[00:02:15]: Validating portal[9] <-> 4239966897[9] (active)	
+[00:02:15]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
+[00:02:15]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
+[00:02:15]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
+[00:02:15]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
 [00:30:29]: [200] Account Communication Success (6)
 [00:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
 [01:00:29]: [200] Account Communication Success (6)
 [01:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
 [01:30:29]: [200] Account Communication Success (6)
 [01:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[02:00:29]: [200] Account Communication Success (6)
-[02:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[02:26:34]: New incoming connection 186.219.180.96|1883 <7315833757107166842>
-[02:26:34]: Client connected from 186.219.180.96|1883 <7315833757107166842>
-[02:26:34]: ValidateGameSessionToken GUID<7315833757107166842>
-[02:26:35]: Client authenticated: (KU_XjTVYYXb) Caus
-[02:26:35]: [Steam] SendUserConnectAndAuthenticate for '76561199178312622'
-[02:26:36]: [Steam] Authenticated client '76561199178312622'
-[02:26:37]: There is no active event to validate against.
-[02:26:37]: [Shard] Read save location file for (KU_XjTVYYXb)
-[02:28:24]: Resuming user: session/BF953A8AFDD25F52/A7K6QTFOKA35
+[02:00:30]: [200] Account Communication Success (6)
+[02:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [02:30:29]: [200] Account Communication Success (6)
 [02:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[02:53:00]: Spawn request: woodie from Caus
-[02:53:00]: Skin request: () () () () ()
-[02:53:00]: Skill Selection request: 0
-[02:53:00]: Spawning player at: [Fixed] (214.00, 0.00, 130.00)	
-[02:53:00]: Enabling Spawn Protection for	123694 - woodie	
-[02:53:00]: Serializing user: session/BF953A8AFDD25F52/A7K6QTFOKA35/0000002858
-[02:53:00]: Sim unpaused
-[02:53:01]: [Quest System] Add Local Quests to	123694 - woodie	
-[02:57:34]: Could not find anim [death] in bank [ghost]
-[02:57:34]: Serializing user: session/BF953A8AFDD25F52/A7K6QTFOKA35/0000002858
-[02:57:57]: Could not find anim [idle_loop] in bank [ghost]
-[02:58:00]: Serializing user: session/BF953A8AFDD25F52/A7K6QTFOKA35/0000002858
-[02:59:40]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
 [03:00:29]: [200] Account Communication Success (6)
 [03:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[03:00:51]: Available disk space for save files: 124924 MB
-[03:00:52]: [Quest System] Saving own quests!	
-[03:00:52]: Serializing user: session/BF953A8AFDD25F52/A7K6QTFOKA35/0000002858
-[03:00:53]: Serializing world: session/BF953A8AFDD25F52/0000002858
-[03:02:01]: Could not find anim [death] in bank [ghost]
-[03:02:01]: Serializing user: session/BF953A8AFDD25F52/A7K6QTFOKA35/0000002859
-[03:02:51]: [Steam] SendUserDisconnect for '76561199178312622'
-[03:02:51]: [Shard] (KU_XjTVYYXb) disconnected from [SHDMASTER](1)
-[03:02:51]: Serializing user: session/BF953A8AFDD25F52/A7K6QTFOKA35/0000002859
-[03:02:51]: Sim paused
 [03:30:30]: [200] Account Communication Success (6)
 [03:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[04:00:30]: [200] Account Communication Success (6)
-[04:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[04:00:29]: [200] Account Communication Success (6)
+[04:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
 [04:30:30]: [200] Account Communication Success (6)
 [04:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[05:00:30]: [200] Account Communication Success (6)
-[05:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[05:30:29]: [200] Account Communication Success (6)
-[05:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[05:00:29]: [200] Account Communication Success (6)
+[05:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[05:30:30]: [200] Account Communication Success (6)
+[05:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [06:00:30]: [200] Account Communication Success (6)
 [06:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [06:30:30]: [200] Account Communication Success (6)
@@ -4521,8 +4489,8 @@
 [07:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
 [07:30:30]: [200] Account Communication Success (6)
 [07:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[08:00:29]: [200] Account Communication Success (6)
-[08:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[08:00:30]: [200] Account Communication Success (6)
+[08:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [08:30:30]: [200] Account Communication Success (6)
 [08:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [09:00:30]: [200] Account Communication Success (6)
@@ -4535,32 +4503,509 @@
 [10:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [11:00:30]: [200] Account Communication Success (6)
 [11:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[11:11:39]: New incoming connection 177.91.105.102|49251 <6502992799502199942>
-[11:11:39]: Client connected from 177.91.105.102|49251 <6502992799502199942>
-[11:11:39]: ValidateGameSessionToken GUID<6502992799502199942>
-[11:11:40]: Client authenticated: (KU_QW6v-PGw) Draken
-[11:11:40]: [Steam] SendUserConnectAndAuthenticate for '76561199031573650'
-[11:11:40]: [Steam] Authenticated client '76561199031573650'
-[11:11:41]: There is no active event to validate against.
-[11:11:41]: [Shard] Read save location file for (KU_QW6v-PGw)
-[11:12:24]: [Steam] SendUserDisconnect for '76561199031573650'
-[11:12:24]: [Shard] (KU_QW6v-PGw) disconnected from [SHDMASTER](1)
 [11:30:30]: [200] Account Communication Success (6)
 [11:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [12:00:30]: [200] Account Communication Success (6)
 [12:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [12:30:30]: [200] Account Communication Success (6)
 [12:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[12:39:59]: New incoming connection 200.100.196.175|56575 <2729472867671402964>
+[12:39:59]: Client connected from 200.100.196.175|56575 <2729472867671402964>
+[12:39:59]: ValidateGameSessionToken GUID<2729472867671402964>
+[12:39:59]: Client authenticated: (KU_LbNGg3S9) GMC6
+[12:40:00]: [Steam] SendUserConnectAndAuthenticate for '76561199126781524'
+[12:40:00]: [Steam] Authenticated client '76561199126781524'
+[12:40:01]: There is no active event to validate against.
+[12:40:01]: [Shard] Read save location file for (KU_LbNGg3S9)
+[12:41:43]: Resuming user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002901
+[12:41:44]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
+[12:41:44]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
+[12:41:44]: Could not find anim [chasni_moon_soul] in bank [FROMNUM]
+[12:41:44]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
+[12:41:44]: Spawning player at: [Load] (-180.87, 0.00, -275.53)	
+[12:41:44]: Sim unpaused
+[12:41:45]: [Quest System] Add Local Quests to	123666 - wx78	
+[12:42:44]: [Quest System] Add Quest	The Hunt For Mutants	number of quests	3	
+[12:44:34]: Could not find anim build FROMNUM
+[12:46:53]: Could not find anim build FROMNUM
+[12:47:31]: Could not find anim build FROMNUM
+[12:47:48]: Available disk space for save files: 125741 MB
+[12:47:49]: [Quest System] Saving own quests!	
+[12:47:49]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002903
+[12:47:50]: Serializing world: session/BF953A8AFDD25F52/0000002903
+[12:48:23]: [Steam] SendUserDisconnect for '76561199126781524'
+[12:48:23]: [Shard] (KU_LbNGg3S9) disconnected from [SHDMASTER](1)
+[12:48:23]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002904
+[12:48:23]: Sim paused
+[12:51:36]: New incoming connection 200.100.196.175|52778 <5242768162652793208>
+[12:51:36]: Client connected from 200.100.196.175|52778 <5242768162652793208>
+[12:51:36]: ValidateGameSessionToken GUID<5242768162652793208>
+[12:51:36]: Client authenticated: (KU_LbNGg3S9) GMC6
+[12:51:37]: [Steam] SendUserConnectAndAuthenticate for '76561199126781524'
+[12:51:37]: [Steam] Authenticated client '76561199126781524'
+[12:51:38]: There is no active event to validate against.
+[12:51:38]: [Shard] Read save location file for (KU_LbNGg3S9)
+[12:53:40]: Resuming user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002904
+[12:53:41]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
+[12:53:41]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
+[12:53:41]: Could not find anim [chasni_moon_soul] in bank [FROMNUM]
+[12:53:41]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
+[12:53:41]: Spawning player at: [Load] (-182.37, 0.00, -315.98)	
+[12:53:41]: Sim unpaused
+[12:53:41]: [Quest System] Add Local Quests to	127205 - wx78	
+[12:56:00]: [Quest System] Add Quest	Bright Worshipnight	number of quests	4	
 [13:00:30]: [200] Account Communication Success (6)
 [13:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[13:01:08]: Available disk space for save files: 125736 MB
+[13:01:09]: [Quest System] Saving own quests!	
+[13:01:09]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002904
+[13:01:10]: Serializing world: session/BF953A8AFDD25F52/0000002904
+[13:08:06]: [Quest System] Add Quest	The Attacker	number of quests	4	
+[13:09:10]: Available disk space for save files: 125732 MB
+[13:09:11]: [Quest System] Saving own quests!	
+[13:09:11]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002905
+[13:09:12]: Serializing world: session/BF953A8AFDD25F52/0000002905
+[13:17:12]: Available disk space for save files: 125728 MB
+[13:17:13]: [Quest System] Saving own quests!	
+[13:17:13]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002906
+[13:17:13]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[13:17:14]: Serializing world: session/BF953A8AFDD25F52/0000002906
+[13:25:14]: Available disk space for save files: 125723 MB
+[13:25:15]: [Quest System] Saving own quests!	
+[13:25:15]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002907
+[13:25:15]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[13:25:16]: Serializing world: session/BF953A8AFDD25F52/0000002907
 [13:30:30]: [200] Account Communication Success (6)
 [13:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[13:33:16]: Available disk space for save files: 125719 MB
+[13:33:17]: [Quest System] Saving own quests!	
+[13:33:17]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002908
+[13:33:17]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[13:33:18]: Serializing world: session/BF953A8AFDD25F52/0000002908
+[13:41:19]: Available disk space for save files: 125715 MB
+[13:41:19]: [Quest System] Saving own quests!	
+[13:41:19]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002909
+[13:41:20]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[13:41:21]: Serializing world: session/BF953A8AFDD25F52/0000002909
+[13:49:21]: Available disk space for save files: 125710 MB
+[13:49:22]: [Quest System] Saving own quests!	
+[13:49:22]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002910
+[13:49:22]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[13:49:23]: Serializing world: session/BF953A8AFDD25F52/0000002910
+[13:57:23]: Available disk space for save files: 125706 MB
+[13:57:24]: [Quest System] Saving own quests!	
+[13:57:24]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002911
+[13:57:24]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[13:57:25]: Serializing world: session/BF953A8AFDD25F52/0000002911
 [14:00:30]: [200] Account Communication Success (6)
 [14:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[14:04:24]: [Quest System] Add Quest	Hell's Guardian	number of quests	4	
+[14:05:25]: Available disk space for save files: 125702 MB
+[14:05:26]: [Quest System] Saving own quests!	
+[14:05:26]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002912
+[14:05:26]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[14:05:27]: Serializing world: session/BF953A8AFDD25F52/0000002912
+[14:13:27]: Available disk space for save files: 125690 MB
+[14:13:28]: [Quest System] Saving own quests!	
+[14:13:28]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002913
+[14:13:28]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[14:13:29]: Serializing world: session/BF953A8AFDD25F52/0000002913
+[14:15:25]: [Quest System] Add Quest	The Defender	number of quests	5	
+[14:21:29]: Available disk space for save files: 125686 MB
+[14:21:30]: [Quest System] Saving own quests!	
+[14:21:30]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002914
+[14:21:30]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[14:21:31]: Serializing world: session/BF953A8AFDD25F52/0000002914
+[14:29:31]: Available disk space for save files: 125682 MB
+[14:29:32]: [Quest System] Saving own quests!	
+[14:29:32]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002915
+[14:29:32]: Missing reference:	100029 - world	->	156393	nil	
+[14:29:32]: Missing reference:	100029 - world	->	156119	nil	
+[14:29:32]: Missing reference:	100029 - world	->	155568	nil	
+[14:29:32]: Missing reference:	100029 - world	->	155609	nil	
+[14:29:32]: Missing reference:	100029 - world	->	154870	nil	
+[14:29:32]: Missing reference:	100029 - world	->	154656	nil	
+[14:29:32]: Missing reference:	100029 - world	->	155683	nil	
+[14:29:32]: Missing reference:	100029 - world	->	154736	nil	
+[14:29:32]: Missing reference:	100029 - world	->	155859	nil	
+[14:29:32]: Missing reference:	100029 - world	->	154972	nil	
+[14:29:32]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[14:29:32]: Missing reference:	100029 - world	->	155071	nil	
+[14:29:32]: Missing reference:	100029 - world	->	155242	nil	
+[14:29:33]: Serializing world: session/BF953A8AFDD25F52/0000002915
+[14:30:10]: A timer with the name 	rammed	 already exists on 	157775 - minotaur	!	
 [14:30:30]: [200] Account Communication Success (6)
 [14:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[14:32:58]: [Quest System] Add Quest	Below the Abandoned Land	number of quests	5	
+[14:33:29]: [Quest System] Add Quest	I've got 99 problems but starving ain't one!	number of quests	6	
+[14:33:49]: [Quest System] Add Quest	The Goodest Boy	number of quests	7	
+[14:35:46]: [Quest System] Add Quest	Ho Ho Ho	number of quests	8	
+[14:37:33]: Available disk space for save files: 125677 MB
+[14:37:34]: [Quest System] Saving own quests!	
+[14:37:34]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002916
+[14:37:34]: Missing reference:	100029 - world	->	158140	nil	
+[14:37:34]: Missing reference:	100029 - world	->	156393	nil	
+[14:37:34]: Missing reference:	100029 - world	->	154870	nil	
+[14:37:34]: Missing reference:	100029 - world	->	155859	nil	
+[14:37:34]: Missing reference:	100029 - world	->	154972	nil	
+[14:37:34]: Missing reference:	100029 - world	->	159039	nil	
+[14:37:34]: Missing reference:	100029 - world	->	155683	nil	
+[14:37:34]: Missing reference:	100029 - world	->	154656	nil	
+[14:37:34]: Missing reference:	100029 - world	->	155609	nil	
+[14:37:34]: Missing reference:	100029 - world	->	157775	nil	
+[14:37:34]: Missing reference:	100029 - world	->	159371	nil	
+[14:37:34]: Missing reference:	100029 - world	->	154736	nil	
+[14:37:34]: Missing reference:	100029 - world	->	158018	nil	
+[14:37:34]: Missing reference:	100029 - world	->	156119	nil	
+[14:37:34]: Missing reference:	100029 - world	->	159118	nil	
+[14:37:34]: Missing reference:	100029 - world	->	157626	nil	
+[14:37:34]: Missing reference:	100029 - world	->	158242	nil	
+[14:37:34]: Missing reference:	100029 - world	->	155568	nil	
+[14:37:34]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[14:37:34]: Missing reference:	100029 - world	->	155071	nil	
+[14:37:34]: Missing reference:	100029 - world	->	155242	nil	
+[14:37:34]: Missing reference:	100029 - world	->	159524	nil	
+[14:37:34]: Missing reference:	100029 - world	->	157534	nil	
+[14:37:35]: Serializing world: session/BF953A8AFDD25F52/0000002916
+[14:45:35]: Available disk space for save files: 125673 MB
+[14:45:36]: [Quest System] Saving own quests!	
+[14:45:36]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002917
+[14:45:36]: Missing reference:	100029 - world	->	161676	nil	
+[14:45:36]: Missing reference:	100029 - world	->	161736	nil	
+[14:45:36]: Missing reference:	100029 - world	->	161768	nil	
+[14:45:36]: Missing reference:	100029 - world	->	161818	nil	
+[14:45:36]: Missing reference:	100029 - world	->	161927	nil	
+[14:45:36]: Missing reference:	100029 - world	->	158140	nil	
+[14:45:36]: Missing reference:	100029 - world	->	162351	nil	
+[14:45:36]: Missing reference:	100029 - world	->	156393	nil	
+[14:45:36]: Missing reference:	100029 - world	->	162568	nil	
+[14:45:36]: Missing reference:	100029 - world	->	160608	nil	
+[14:45:36]: Missing reference:	100029 - world	->	162737	nil	
+[14:45:36]: Missing reference:	100029 - world	->	160698	nil	
+[14:45:36]: Missing reference:	100029 - world	->	160788	nil	
+[14:45:36]: Missing reference:	100029 - world	->	160892	nil	
+[14:45:36]: Missing reference:	100029 - world	->	157626	nil	
+[14:45:36]: Missing reference:	100029 - world	->	154972	nil	
+[14:45:36]: Missing reference:	100029 - world	->	155683	nil	
+[14:45:36]: Missing reference:	100029 - world	->	155568	nil	
+[14:45:36]: Missing reference:	100029 - world	->	157775	nil	
+[14:45:36]: Missing reference:	100029 - world	->	154736	nil	
+[14:45:36]: Missing reference:	100029 - world	->	155609	nil	
+[14:45:36]: Missing reference:	100029 - world	->	154656	nil	
+[14:45:36]: Missing reference:	100029 - world	->	158018	nil	
+[14:45:36]: Missing reference:	100029 - world	->	161041	nil	
+[14:45:36]: Missing reference:	100029 - world	->	156119	nil	
+[14:45:36]: Missing reference:	100029 - world	->	160966	nil	
+[14:45:36]: Missing reference:	100029 - world	->	155859	nil	
+[14:45:36]: Missing reference:	100029 - world	->	159371	nil	
+[14:45:36]: Missing reference:	100029 - world	->	159118	nil	
+[14:45:36]: Missing reference:	100029 - world	->	159039	nil	
+[14:45:36]: Missing reference:	100029 - world	->	160527	nil	
+[14:45:36]: Missing reference:	100029 - world	->	158242	nil	
+[14:45:36]: Missing reference:	100029 - world	->	161872	nil	
+[14:45:36]: Missing reference:	100029 - world	->	154870	nil	
+[14:45:36]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[14:45:36]: Missing reference:	100029 - world	->	155071	nil	
+[14:45:36]: Missing reference:	100029 - world	->	155242	nil	
+[14:45:36]: Missing reference:	100029 - world	->	159524	nil	
+[14:45:36]: Missing reference:	100029 - world	->	157534	nil	
+[14:45:37]: Serializing world: session/BF953A8AFDD25F52/0000002917
+[14:53:37]: Available disk space for save files: 125669 MB
+[14:53:38]: [Quest System] Saving own quests!	
+[14:53:38]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002918
+[14:53:38]: Missing reference:	100029 - world	->	161676	nil	
+[14:53:38]: Missing reference:	100029 - world	->	161736	nil	
+[14:53:38]: Missing reference:	100029 - world	->	161768	nil	
+[14:53:38]: Missing reference:	100029 - world	->	161818	nil	
+[14:53:38]: Missing reference:	100029 - world	->	161927	nil	
+[14:53:38]: Missing reference:	100029 - world	->	164173	nil	
+[14:53:38]: Missing reference:	100029 - world	->	158140	nil	
+[14:53:38]: Missing reference:	100029 - world	->	164376	nil	
+[14:53:38]: Missing reference:	100029 - world	->	162351	nil	
+[14:53:38]: Missing reference:	100029 - world	->	164413	nil	
+[14:53:38]: Missing reference:	100029 - world	->	166483	nil	
+[14:53:38]: Missing reference:	100029 - world	->	156393	nil	
+[14:53:38]: Missing reference:	100029 - world	->	166647	nil	
+[14:53:38]: Missing reference:	100029 - world	->	162568	nil	
+[14:53:38]: Missing reference:	100029 - world	->	166721	nil	
+[14:53:38]: Missing reference:	100029 - world	->	160608	nil	
+[14:53:38]: Missing reference:	100029 - world	->	164726	nil	
+[14:53:38]: Missing reference:	100029 - world	->	162737	nil	
+[14:53:38]: Missing reference:	100029 - world	->	160698	nil	
+[14:53:38]: Missing reference:	100029 - world	->	160788	nil	
+[14:53:38]: Missing reference:	100029 - world	->	160892	nil	
+[14:53:38]: Missing reference:	100029 - world	->	160966	nil	
+[14:53:38]: Missing reference:	100029 - world	->	157626	nil	
+[14:53:38]: Missing reference:	100029 - world	->	154972	nil	
+[14:53:38]: Missing reference:	100029 - world	->	155683	nil	
+[14:53:38]: Missing reference:	100029 - world	->	155568	nil	
+[14:53:38]: Missing reference:	100029 - world	->	157775	nil	
+[14:53:38]: Missing reference:	100029 - world	->	154736	nil	
+[14:53:38]: Missing reference:	100029 - world	->	155609	nil	
+[14:53:38]: Missing reference:	100029 - world	->	154656	nil	
+[14:53:38]: Missing reference:	100029 - world	->	158018	nil	
+[14:53:38]: Missing reference:	100029 - world	->	164555	nil	
+[14:53:38]: Missing reference:	100029 - world	->	164705	nil	
+[14:53:38]: Missing reference:	100029 - world	->	161041	nil	
+[14:53:38]: Missing reference:	100029 - world	->	156119	nil	
+[14:53:38]: Missing reference:	100029 - world	->	155859	nil	
+[14:53:38]: Missing reference:	100029 - world	->	159371	nil	
+[14:53:38]: Missing reference:	100029 - world	->	164915	nil	
+[14:53:38]: Missing reference:	100029 - world	->	165797	nil	
+[14:53:38]: Missing reference:	100029 - world	->	166374	nil	
+[14:53:38]: Missing reference:	100029 - world	->	165056	nil	
+[14:53:38]: Missing reference:	100029 - world	->	164599	nil	
+[14:53:38]: Missing reference:	100029 - world	->	159118	nil	
+[14:53:38]: Missing reference:	100029 - world	->	166562	nil	
+[14:53:38]: Missing reference:	100029 - world	->	159039	nil	
+[14:53:38]: Missing reference:	100029 - world	->	160527	nil	
+[14:53:38]: Missing reference:	100029 - world	->	158242	nil	
+[14:53:38]: Missing reference:	100029 - world	->	161872	nil	
+[14:53:38]: Missing reference:	100029 - world	->	154870	nil	
+[14:53:38]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[14:53:38]: Missing reference:	100029 - world	->	155071	nil	
+[14:53:38]: Missing reference:	100029 - world	->	155242	nil	
+[14:53:38]: Missing reference:	100029 - world	->	159524	nil	
+[14:53:38]: Missing reference:	100029 - world	->	157534	nil	
+[14:53:39]: Serializing world: session/BF953A8AFDD25F52/0000002918
+[14:58:16]: [Quest System] Add Quest	The Tormented Dust Moth	number of quests	5	
 [15:00:30]: [200] Account Communication Success (6)
 [15:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[15:01:40]: Available disk space for save files: 125665 MB
+[15:01:40]: [Quest System] Saving own quests!	
+[15:01:41]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002919
+[15:01:41]: Missing reference:	100029 - world	->	169854	nil	
+[15:01:41]: Missing reference:	100029 - world	->	161676	nil	
+[15:01:41]: Missing reference:	100029 - world	->	169889	169889 - spat	
+[15:01:41]: Missing reference:	100029 - world	->	161736	nil	
+[15:01:41]: Missing reference:	100029 - world	->	161768	nil	
+[15:01:41]: Missing reference:	100029 - world	->	161818	nil	
+[15:01:41]: Missing reference:	100029 - world	->	161927	nil	
+[15:01:41]: Missing reference:	100029 - world	->	164173	nil	
+[15:01:41]: Missing reference:	100029 - world	->	168337	nil	
+[15:01:41]: Missing reference:	100029 - world	->	158140	nil	
+[15:01:41]: Missing reference:	100029 - world	->	164376	nil	
+[15:01:41]: Missing reference:	100029 - world	->	162351	nil	
+[15:01:41]: Missing reference:	100029 - world	->	164413	nil	
+[15:01:41]: Missing reference:	100029 - world	->	166483	nil	
+[15:01:41]: Missing reference:	100029 - world	->	168586	nil	
+[15:01:41]: Missing reference:	100029 - world	->	156393	nil	
+[15:01:41]: Missing reference:	100029 - world	->	166647	nil	
+[15:01:41]: Missing reference:	100029 - world	->	162568	nil	
+[15:01:41]: Missing reference:	100029 - world	->	166721	nil	
+[15:01:41]: Missing reference:	100029 - world	->	160608	nil	
+[15:01:41]: Missing reference:	100029 - world	->	164726	nil	
+[15:01:41]: Missing reference:	100029 - world	->	162737	nil	
+[15:01:41]: Missing reference:	100029 - world	->	160698	nil	
+[15:01:41]: Missing reference:	100029 - world	->	160788	nil	
+[15:01:41]: Missing reference:	100029 - world	->	160892	nil	
+[15:01:41]: Missing reference:	100029 - world	->	160966	nil	
+[15:01:41]: Missing reference:	100029 - world	->	154656	nil	
+[15:01:41]: Missing reference:	100029 - world	->	164705	nil	
+[15:01:41]: Missing reference:	100029 - world	->	159371	nil	
+[15:01:41]: Missing reference:	100029 - world	->	155859	nil	
+[15:01:41]: Missing reference:	100029 - world	->	166374	nil	
+[15:01:41]: Missing reference:	100029 - world	->	164915	nil	
+[15:01:41]: Missing reference:	100029 - world	->	166562	nil	
+[15:01:41]: Missing reference:	100029 - world	->	164599	nil	
+[15:01:41]: Missing reference:	100029 - world	->	161041	nil	
+[15:01:41]: Missing reference:	100029 - world	->	164555	nil	
+[15:01:41]: Missing reference:	100029 - world	->	156119	nil	
+[15:01:41]: Missing reference:	100029 - world	->	155568	nil	
+[15:01:41]: Missing reference:	100029 - world	->	165056	nil	
+[15:01:41]: Missing reference:	100029 - world	->	154870	nil	
+[15:01:41]: Missing reference:	100029 - world	->	159039	nil	
+[15:01:41]: Missing reference:	100029 - world	->	157626	nil	
+[15:01:41]: Missing reference:	100029 - world	->	159118	nil	
+[15:01:41]: Missing reference:	100029 - world	->	154736	nil	
+[15:01:41]: Missing reference:	100029 - world	->	155609	nil	
+[15:01:41]: Missing reference:	100029 - world	->	167007	nil	
+[15:01:41]: Missing reference:	100029 - world	->	169721	nil	
+[15:01:41]: Missing reference:	100029 - world	->	154972	nil	
+[15:01:41]: Missing reference:	100029 - world	->	158242	nil	
+[15:01:41]: Missing reference:	100029 - world	->	160527	nil	
+[15:01:41]: Missing reference:	100029 - world	->	165797	nil	
+[15:01:41]: Missing reference:	100029 - world	->	158018	nil	
+[15:01:41]: Missing reference:	100029 - world	->	168400	nil	
+[15:01:41]: Missing reference:	100029 - world	->	166860	nil	
+[15:01:41]: Missing reference:	100029 - world	->	155683	nil	
+[15:01:41]: Missing reference:	100029 - world	->	168619	nil	
+[15:01:41]: Missing reference:	100029 - world	->	161872	nil	
+[15:01:41]: Missing reference:	100029 - world	->	157775	nil	
+[15:01:41]: Missing reference:	100029 - world	->	169617	nil	
+[15:01:41]: Missing reference:	100029 - world	->	168251	nil	
+[15:01:41]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[15:01:41]: Missing reference:	100029 - world	->	167252	nil	
+[15:01:41]: Missing reference:	100029 - world	->	155071	nil	
+[15:01:41]: Missing reference:	100029 - world	->	169478	nil	
+[15:01:41]: Missing reference:	100029 - world	->	155242	nil	
+[15:01:41]: Missing reference:	100029 - world	->	169690	nil	
+[15:01:41]: Missing reference:	100029 - world	->	159524	nil	
+[15:01:41]: Missing reference:	100029 - world	->	157534	nil	
+[15:01:42]: Serializing world: session/BF953A8AFDD25F52/0000002919
+[15:03:01]: New incoming connection 45.239.136.212|56488 <3572894617523897254>
+[15:03:01]: Client connected from 45.239.136.212|56488 <3572894617523897254>
+[15:03:01]: ValidateGameSessionToken GUID<3572894617523897254>
+[15:03:02]: Client authenticated: (KU_yeIVsrGu) ianbatistag2
+[15:03:02]: [Steam] SendUserConnectAndAuthenticate for '76561198810780931'
+[15:03:03]: [Steam] Authenticated client '76561198810780931'
+[15:03:04]: There is no active event to validate against.
+[15:03:04]: [Shard] Read save location file for (KU_yeIVsrGu)
+[15:03:39]: [Steam] SendUserDisconnect for '76561198810780931'
+[15:03:39]: [Shard] (KU_yeIVsrGu) disconnected from [SHDMASTER](1)
+[15:04:21]: [Quest System] Add Quest	Running Like Clockwork	number of quests	4	
+[15:09:42]: Available disk space for save files: 125660 MB
+[15:09:43]: [Quest System] Saving own quests!	
+[15:09:43]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002920
+[15:09:43]: Missing reference:	100029 - world	->	169854	nil	
+[15:09:43]: Missing reference:	100029 - world	->	161676	nil	
+[15:09:43]: Missing reference:	100029 - world	->	169889	nil	
+[15:09:43]: Missing reference:	100029 - world	->	161736	nil	
+[15:09:43]: Missing reference:	100029 - world	->	169956	nil	
+[15:09:43]: Missing reference:	100029 - world	->	161768	nil	
+[15:09:43]: Missing reference:	100029 - world	->	161818	nil	
+[15:09:43]: Missing reference:	100029 - world	->	170023	nil	
+[15:09:43]: Missing reference:	100029 - world	->	161927	nil	
+[15:09:43]: Missing reference:	100029 - world	->	164173	nil	
+[15:09:43]: Missing reference:	100029 - world	->	168337	nil	
+[15:09:43]: Missing reference:	100029 - world	->	158140	nil	
+[15:09:43]: Missing reference:	100029 - world	->	164376	nil	
+[15:09:43]: Missing reference:	100029 - world	->	162351	nil	
+[15:09:43]: Missing reference:	100029 - world	->	164413	nil	
+[15:09:43]: Missing reference:	100029 - world	->	166483	nil	
+[15:09:43]: Missing reference:	100029 - world	->	168586	nil	
+[15:09:43]: Missing reference:	100029 - world	->	156393	nil	
+[15:09:43]: Missing reference:	100029 - world	->	166647	nil	
+[15:09:43]: Missing reference:	100029 - world	->	162568	nil	
+[15:09:43]: Missing reference:	100029 - world	->	166721	nil	
+[15:09:43]: Missing reference:	100029 - world	->	160608	nil	
+[15:09:43]: Missing reference:	100029 - world	->	164726	nil	
+[15:09:43]: Missing reference:	100029 - world	->	162737	nil	
+[15:09:43]: Missing reference:	100029 - world	->	160698	nil	
+[15:09:43]: Missing reference:	100029 - world	->	160788	nil	
+[15:09:43]: Missing reference:	100029 - world	->	160892	nil	
+[15:09:43]: Missing reference:	100029 - world	->	160966	nil	
+[15:09:43]: Missing reference:	100029 - world	->	154656	nil	
+[15:09:43]: Missing reference:	100029 - world	->	164705	nil	
+[15:09:43]: Missing reference:	100029 - world	->	159371	nil	
+[15:09:43]: Missing reference:	100029 - world	->	155859	nil	
+[15:09:43]: Missing reference:	100029 - world	->	166374	nil	
+[15:09:43]: Missing reference:	100029 - world	->	164915	nil	
+[15:09:43]: Missing reference:	100029 - world	->	166562	nil	
+[15:09:43]: Missing reference:	100029 - world	->	164599	nil	
+[15:09:43]: Missing reference:	100029 - world	->	161041	nil	
+[15:09:43]: Missing reference:	100029 - world	->	164555	nil	
+[15:09:43]: Missing reference:	100029 - world	->	156119	nil	
+[15:09:43]: Missing reference:	100029 - world	->	155568	nil	
+[15:09:43]: Missing reference:	100029 - world	->	165056	nil	
+[15:09:43]: Missing reference:	100029 - world	->	154870	nil	
+[15:09:43]: Missing reference:	100029 - world	->	159039	nil	
+[15:09:43]: Missing reference:	100029 - world	->	157626	nil	
+[15:09:43]: Missing reference:	100029 - world	->	159118	nil	
+[15:09:43]: Missing reference:	100029 - world	->	154736	nil	
+[15:09:43]: Missing reference:	100029 - world	->	155609	nil	
+[15:09:43]: Missing reference:	100029 - world	->	167007	nil	
+[15:09:43]: Missing reference:	100029 - world	->	169721	nil	
+[15:09:43]: Missing reference:	100029 - world	->	154972	nil	
+[15:09:43]: Missing reference:	100029 - world	->	158242	nil	
+[15:09:43]: Missing reference:	100029 - world	->	160527	nil	
+[15:09:43]: Missing reference:	100029 - world	->	165797	nil	
+[15:09:43]: Missing reference:	100029 - world	->	158018	nil	
+[15:09:43]: Missing reference:	100029 - world	->	168400	nil	
+[15:09:43]: Missing reference:	100029 - world	->	166860	nil	
+[15:09:43]: Missing reference:	100029 - world	->	155683	nil	
+[15:09:43]: Missing reference:	100029 - world	->	168619	nil	
+[15:09:43]: Missing reference:	100029 - world	->	161872	nil	
+[15:09:43]: Missing reference:	100029 - world	->	157775	nil	
+[15:09:43]: Missing reference:	100029 - world	->	169617	nil	
+[15:09:43]: Missing reference:	100029 - world	->	168251	nil	
+[15:09:43]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[15:09:43]: Missing reference:	100029 - world	->	167252	nil	
+[15:09:43]: Missing reference:	100029 - world	->	155071	nil	
+[15:09:43]: Missing reference:	100029 - world	->	169478	nil	
+[15:09:43]: Missing reference:	100029 - world	->	155242	nil	
+[15:09:43]: Missing reference:	100029 - world	->	169690	nil	
+[15:09:43]: Missing reference:	100029 - world	->	159524	nil	
+[15:09:43]: Missing reference:	100029 - world	->	157534	nil	
+[15:09:44]: Serializing world: session/BF953A8AFDD25F52/0000002920
+[15:17:44]: Available disk space for save files: 125656 MB
+[15:17:45]: [Quest System] Saving own quests!	
+[15:17:45]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002921
+[15:17:45]: Missing reference:	100029 - world	->	169854	nil	
+[15:17:45]: Missing reference:	100029 - world	->	161676	nil	
+[15:17:45]: Missing reference:	100029 - world	->	169889	nil	
+[15:17:45]: Missing reference:	100029 - world	->	161736	nil	
+[15:17:45]: Missing reference:	100029 - world	->	169956	nil	
+[15:17:45]: Missing reference:	100029 - world	->	161768	nil	
+[15:17:45]: Missing reference:	100029 - world	->	161818	nil	
+[15:17:45]: Missing reference:	100029 - world	->	170023	nil	
+[15:17:45]: Missing reference:	100029 - world	->	161927	nil	
+[15:17:45]: Missing reference:	100029 - world	->	164173	nil	
+[15:17:45]: Missing reference:	100029 - world	->	168337	nil	
+[15:17:45]: Missing reference:	100029 - world	->	158140	nil	
+[15:17:45]: Missing reference:	100029 - world	->	164376	nil	
+[15:17:45]: Missing reference:	100029 - world	->	162351	nil	
+[15:17:45]: Missing reference:	100029 - world	->	164413	nil	
+[15:17:45]: Missing reference:	100029 - world	->	166483	nil	
+[15:17:45]: Missing reference:	100029 - world	->	168586	nil	
+[15:17:45]: Missing reference:	100029 - world	->	156393	nil	
+[15:17:45]: Missing reference:	100029 - world	->	166647	nil	
+[15:17:45]: Missing reference:	100029 - world	->	162568	nil	
+[15:17:45]: Missing reference:	100029 - world	->	166721	nil	
+[15:17:45]: Missing reference:	100029 - world	->	160608	nil	
+[15:17:45]: Missing reference:	100029 - world	->	164726	nil	
+[15:17:45]: Missing reference:	100029 - world	->	162737	nil	
+[15:17:45]: Missing reference:	100029 - world	->	160698	nil	
+[15:17:45]: Missing reference:	100029 - world	->	160788	nil	
+[15:17:45]: Missing reference:	100029 - world	->	160892	nil	
+[15:17:45]: Missing reference:	100029 - world	->	160966	nil	
+[15:17:45]: Missing reference:	100029 - world	->	154656	nil	
+[15:17:45]: Missing reference:	100029 - world	->	164705	nil	
+[15:17:45]: Missing reference:	100029 - world	->	159371	nil	
+[15:17:45]: Missing reference:	100029 - world	->	155859	nil	
+[15:17:45]: Missing reference:	100029 - world	->	166374	nil	
+[15:17:45]: Missing reference:	100029 - world	->	164915	nil	
+[15:17:45]: Missing reference:	100029 - world	->	166562	nil	
+[15:17:45]: Missing reference:	100029 - world	->	164599	nil	
+[15:17:45]: Missing reference:	100029 - world	->	161041	nil	
+[15:17:45]: Missing reference:	100029 - world	->	164555	nil	
+[15:17:45]: Missing reference:	100029 - world	->	156119	nil	
+[15:17:45]: Missing reference:	100029 - world	->	155568	nil	
+[15:17:45]: Missing reference:	100029 - world	->	165056	nil	
+[15:17:45]: Missing reference:	100029 - world	->	154870	nil	
+[15:17:45]: Missing reference:	100029 - world	->	159039	nil	
+[15:17:45]: Missing reference:	100029 - world	->	157626	nil	
+[15:17:45]: Missing reference:	100029 - world	->	159118	nil	
+[15:17:45]: Missing reference:	100029 - world	->	154736	nil	
+[15:17:45]: Missing reference:	100029 - world	->	155609	nil	
+[15:17:45]: Missing reference:	100029 - world	->	167007	nil	
+[15:17:45]: Missing reference:	100029 - world	->	169721	nil	
+[15:17:45]: Missing reference:	100029 - world	->	154972	nil	
+[15:17:45]: Missing reference:	100029 - world	->	158242	nil	
+[15:17:45]: Missing reference:	100029 - world	->	160527	nil	
+[15:17:45]: Missing reference:	100029 - world	->	165797	nil	
+[15:17:45]: Missing reference:	100029 - world	->	158018	nil	
+[15:17:45]: Missing reference:	100029 - world	->	168400	nil	
+[15:17:45]: Missing reference:	100029 - world	->	166860	nil	
+[15:17:45]: Missing reference:	100029 - world	->	155683	nil	
+[15:17:45]: Missing reference:	100029 - world	->	168619	nil	
+[15:17:45]: Missing reference:	100029 - world	->	161872	nil	
+[15:17:45]: Missing reference:	100029 - world	->	157775	nil	
+[15:17:45]: Missing reference:	100029 - world	->	169617	nil	
+[15:17:45]: Missing reference:	100029 - world	->	168251	nil	
+[15:17:45]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[15:17:45]: Missing reference:	100029 - world	->	167252	nil	
+[15:17:45]: Missing reference:	100029 - world	->	155071	nil	
+[15:17:45]: Missing reference:	100029 - world	->	169478	nil	
+[15:17:45]: Missing reference:	100029 - world	->	155242	nil	
+[15:17:45]: Missing reference:	100029 - world	->	169690	nil	
+[15:17:45]: Missing reference:	100029 - world	->	159524	nil	
+[15:17:45]: Missing reference:	100029 - world	->	157534	nil	
+[15:17:47]: Serializing world: session/BF953A8AFDD25F52/0000002921
+[15:18:10]: [Steam] SendUserDisconnect for '76561199126781524'
+[15:18:10]: [Shard] (KU_LbNGg3S9) disconnected from [SHDMASTER](1)
+[15:18:11]: Serializing user: session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002922
+[15:18:11]: Sim paused
 [15:30:30]: [200] Account Communication Success (6)
 [15:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [16:00:30]: [200] Account Communication Success (6)
@@ -4569,46 +5014,8 @@
 [16:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [17:00:30]: [200] Account Communication Success (6)
 [17:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[17:24:39]: New incoming connection 138.186.110.123|41693 <17197842796330998770>
-[17:24:39]: Client connected from 138.186.110.123|41693 <17197842796330998770>
-[17:24:39]: ValidateGameSessionToken GUID<17197842796330998770>
-[17:24:40]: Client authenticated: (KU_F7UMTFxE) Hawkzera
-[17:24:40]: [Steam] SendUserConnectAndAuthenticate for '76561199067286810'
-[17:24:40]: [Steam] Authenticated client '76561199067286810'
-[17:24:41]: There is no active event to validate against.
-[17:24:41]: [Shard] Read save location file for (KU_F7UMTFxE)
-[17:26:16]: Resuming user: session/BF953A8AFDD25F52/A7HSEUB79VME
-[17:27:06]: Spawn request: waxwell from Hawkzera
-[17:27:06]: Skin request: () (body_cardigan_teal_jade) (hand_wathgrithr_nature) (legs_wurt_victorian) (feet_ridingboot_white_pure)
-[17:27:06]: Skill Selection request: 0
-[17:27:06]: Spawning player at: [Fixed] (214.00, 0.00, 130.00)	
-[17:27:06]: Enabling Spawn Protection for	125497 - waxwell	
-[17:27:06]: Serializing user: session/BF953A8AFDD25F52/A7HSEUB79VME/0000002859
-[17:27:06]: Sim unpaused
-[17:27:06]: [Quest System] Add Local Quests to	125497 - waxwell	
-[17:27:08]: New time stamps for everyone at	1716843438	
-[17:27:08]: New time stamps for everyone at	1716843438	
-[17:28:55]: Could not find anim [death] in bank [ghost]
-[17:28:55]: Serializing user: session/BF953A8AFDD25F52/A7HSEUB79VME/0000002859
 [17:30:30]: [200] Account Communication Success (6)
 [17:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[17:33:08]: Available disk space for save files: 117516 MB
-[17:33:08]: [Quest System] Saving own quests!	
-[17:33:08]: Serializing user: session/BF953A8AFDD25F52/A7HSEUB79VME/0000002859
-[17:33:10]: Serializing world: session/BF953A8AFDD25F52/0000002859
-[17:41:10]: Available disk space for save files: 117512 MB
-[17:41:11]: [Quest System] Saving own quests!	
-[17:41:11]: Serializing user: session/BF953A8AFDD25F52/A7HSEUB79VME/0000002860
-[17:41:12]: Serializing world: session/BF953A8AFDD25F52/0000002860
-[17:49:12]: Available disk space for save files: 117508 MB
-[17:49:13]: [Quest System] Saving own quests!	
-[17:49:13]: Serializing user: session/BF953A8AFDD25F52/A7HSEUB79VME/0000002861
-[17:49:14]: Serializing world: session/BF953A8AFDD25F52/0000002861
-[17:55:01]: [Steam] SendUserDisconnect for '76561199067286810'
-[17:55:01]: Connection lost to 138.186.110.123|41693 <17197842796330998770>
-[17:55:01]: [Shard] (KU_F7UMTFxE) disconnected from [SHDMASTER](1)
-[17:55:01]: Serializing user: session/BF953A8AFDD25F52/A7HSEUB79VME/0000002862
-[17:55:01]: Sim paused
 [18:00:30]: [200] Account Communication Success (6)
 [18:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [18:30:30]: [200] Account Communication Success (6)
@@ -4617,250 +5024,213 @@
 [19:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [19:30:30]: [200] Account Communication Success (6)
 [19:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[19:58:11]: New incoming connection 179.180.200.84|58093 <3576762145849334458>
-[19:58:12]: Client connected from 179.180.200.84|58093 <3576762145849334458>
-[19:58:12]: ValidateGameSessionToken GUID<3576762145849334458>
-[19:58:12]: Client authenticated: (KU_vLUNqzNW) julyeniemann
-[19:58:13]: [Steam] SendUserConnectAndAuthenticate for '76561199228132918'
-[19:58:13]: [Steam] Authenticated client '76561199228132918'
-[19:58:14]: There is no active event to validate against.
-[19:58:14]: [Shard] Read save location file for (KU_vLUNqzNW)
 [20:00:30]: [200] Account Communication Success (6)
 [20:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[20:01:24]: [Steam] SendUserDisconnect for '76561199228132918'
-[20:01:24]: [Shard] (KU_vLUNqzNW) disconnected from [SHDMASTER](1)
-[20:03:47]: New incoming connection 179.180.200.84|58229 <3354158854379778024>
-[20:03:47]: Client connected from 179.180.200.84|58229 <3354158854379778024>
-[20:03:47]: ValidateGameSessionToken GUID<3354158854379778024>
-[20:03:47]: Client authenticated: (KU_vLUNqzNW) julyeniemann
-[20:03:48]: [Steam] SendUserConnectAndAuthenticate for '76561199228132918'
-[20:05:44]: [Steam] Authenticated client '76561199228132918'
-[20:05:45]: There is no active event to validate against.
-[20:05:45]: [Shard] Read save location file for (KU_vLUNqzNW)
-[20:16:13]: [Steam] SendUserDisconnect for '76561199228132918'
-[20:16:13]: [Shard] (KU_vLUNqzNW) disconnected from [SHDMASTER](1)
-[20:16:52]: New incoming connection 179.180.200.84|51927 <3095146179824541825>
-[20:16:52]: Client connected from 179.180.200.84|51927 <3095146179824541825>
-[20:16:52]: ValidateGameSessionToken GUID<3095146179824541825>
-[20:16:53]: Client authenticated: (KU_vLUNqzNW) julyeniemann
-[20:16:53]: [Steam] SendUserConnectAndAuthenticate for '76561199228132918'
-[20:16:54]: [Steam] Authenticated client '76561199228132918'
-[20:16:55]: There is no active event to validate against.
-[20:16:55]: [Shard] Read save location file for (KU_vLUNqzNW)
-[20:17:41]: [Steam] SendUserDisconnect for '76561199228132918'
-[20:17:41]: [Shard] (KU_vLUNqzNW) disconnected from [SHDMASTER](1)
 [20:30:30]: [200] Account Communication Success (6)
 [20:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[20:51:42]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 15m para manutenção programada!")"
 [21:00:30]: [200] Account Communication Success (6)
 [21:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[21:30:30]: [200] Account Communication Success (6)
-[21:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[22:00:30]: [200] Account Communication Success (6)
-[22:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[22:30:30]: [200] Account Communication Success (6)
-[22:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[22:43:59]: New incoming connection 179.180.200.84|63116 <6752044350396951598>
-[22:43:59]: Client connected from 179.180.200.84|63116 <6752044350396951598>
-[22:43:59]: ValidateGameSessionToken GUID<6752044350396951598>
-[22:44:00]: Client authenticated: (KU_vLUNqzNW) julyeniemann
-[22:44:00]: [Steam] SendUserConnectAndAuthenticate for '76561199228132918'
-[22:44:01]: [Steam] Authenticated client '76561199228132918'
-[22:44:02]: There is no active event to validate against.
-[22:44:02]: [Shard] Read save location file for (KU_vLUNqzNW)
-[22:45:33]: Resuming user: session/BF953A8AFDD25F52/A7N5AUBT7LF0
-[22:46:38]: Spawn request: wathgrithr from julyeniemann
-[22:46:38]: Skin request: () () () () ()
-[22:46:38]: Skill Selection request: 0
-[22:46:38]: Spawning player at: [Fixed] (214.00, 0.00, 130.00)	
-[22:46:38]: Enabling Spawn Protection for	129782 - wathgrithr	
-[22:46:38]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002862
-[22:46:38]: Sim unpaused
-[22:46:38]: [Quest System] Add Local Quests to	129782 - wathgrithr	
-[22:46:41]: New time stamps for everyone at	1716862611	
-[22:46:41]: New time stamps for everyone at	1716862611	
-[22:48:50]: Available disk space for save files: 128166 MB
-[22:48:51]: [Quest System] Saving own quests!	
-[22:48:51]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002862
-[22:48:52]: Serializing world: session/BF953A8AFDD25F52/0000002862
-[22:56:52]: Available disk space for save files: 128162 MB
-[22:56:53]: [Quest System] Saving own quests!	
-[22:56:53]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002863
-[22:56:54]: Serializing world: session/BF953A8AFDD25F52/0000002863
-[22:59:06]: Activating portal[1] to 4239966897	
-[22:59:07]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
-[22:59:07]: [Shard] Migration request: (KU_vLUNqzNW) to Caves(4239966897)
-[22:59:07]: [Shard] Begin migration #1 for (KU_vLUNqzNW)
-[22:59:07]: [Shard] #1 [SHDMASTER](1) -> Caves(4239966897)
-[22:59:07]: [Shard] #1 <- session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
-[22:59:07]: [Shard] Writing save location file for (KU_vLUNqzNW)
-[22:59:07]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
-[22:59:07]: [Steam] SendUserDisconnect for '76561199228132918'
-[22:59:07]: [Shard] (KU_vLUNqzNW) disconnected from [SHDMASTER](1)
-[22:59:17]: [Shard] Completed migration #1 for player (KU_vLUNqzNW)
-[23:00:18]: [Shard] Begin migration #2 for (KU_vLUNqzNW)
-[23:00:18]: [Shard] #2 Caves(4239966897) -> [SHDMASTER](1)
-[23:00:18]: [Shard] #2 -> session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
-[23:00:18]: [Shard] Received migration #2 data for (KU_vLUNqzNW)
-[23:00:18]: [Shard] Writing save location file for (KU_vLUNqzNW)
-[23:00:18]: [Shard] (KU_vLUNqzNW) disconnected from Caves(4239966897)
-[23:00:25]: [P2P] Session request for '76561199228132918'
-[23:00:26]: New incoming connection 179.180.200.84|52068 <1801447150137084871>
-[23:00:26]: Client connected from 179.180.200.84|52068 <1801447150137084871>
-[23:00:26]: ValidateGameSessionToken GUID<1801447150137084871>
-[23:00:26]: Client authenticated: (KU_vLUNqzNW) julyeniemann
-[23:00:26]: [Steam] SendUserConnectAndAuthenticate for '76561199228132918'
-[23:00:27]: [Steam] Authenticated client '76561199228132918'
-[23:00:27]: [Shard] Completed incoming migration #2 for (KU_vLUNqzNW)
-[23:00:27]: [Shard] Completed migration #2 for player (KU_vLUNqzNW)
-[23:00:29]: [P2P] Create session: 36.49.246.249|1 '76561199228132918'
-[23:00:29]: [P2P] Received from 36.49.246.249|1 '76561199228132918'
-[23:00:29]: [P2P] Sent to 36.49.246.249|1 '76561199228132918'
-[23:00:30]: [200] Account Communication Success (6)
-[23:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[23:01:14]: Resuming user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
-[23:01:14]: Player will spawn close to portal #1	
-[23:01:14]: Spawning player at: [Load] (195.78, 0.00, 29.90)	
-[23:01:14]: [Quest System] Add Local Quests to	131783 - wathgrithr	
-[23:02:07]: Activating portal[1] to 4239966897	
-[23:02:08]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
-[23:02:08]: [Shard] Migration request: (KU_vLUNqzNW) to Caves(4239966897)
-[23:02:08]: [Shard] Begin migration #3 for (KU_vLUNqzNW)
-[23:02:08]: [Shard] #3 [SHDMASTER](1) -> Caves(4239966897)
-[23:02:08]: [Shard] #3 <- session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
-[23:02:08]: [Shard] Writing save location file for (KU_vLUNqzNW)
-[23:02:08]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
-[23:02:08]: [Steam] SendUserDisconnect for '76561199228132918'
-[23:02:08]: [Shard] (KU_vLUNqzNW) disconnected from [SHDMASTER](1)
-[23:02:16]: [Shard] Completed migration #3 for player (KU_vLUNqzNW)
-[23:04:16]: [Shard] Begin migration #4 for (KU_vLUNqzNW)
-[23:04:16]: [Shard] #4 Caves(4239966897) -> [SHDMASTER](1)
-[23:04:16]: [Shard] #4 -> session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
-[23:04:16]: [Shard] Received migration #4 data for (KU_vLUNqzNW)
-[23:04:16]: [Shard] Writing save location file for (KU_vLUNqzNW)
-[23:04:16]: [Shard] (KU_vLUNqzNW) disconnected from Caves(4239966897)
-[23:04:24]: New incoming connection 179.180.200.84|54891 <232561467256486615>
-[23:04:24]: Client connected from 179.180.200.84|54891 <232561467256486615>
-[23:04:24]: ValidateGameSessionToken GUID<232561467256486615>
-[23:04:24]: Client authenticated: (KU_vLUNqzNW) julyeniemann
-[23:04:24]: [Steam] SendUserConnectAndAuthenticate for '76561199228132918'
-[23:04:25]: [Steam] Authenticated client '76561199228132918'
-[23:04:25]: [Shard] Completed incoming migration #4 for (KU_vLUNqzNW)
-[23:04:25]: [Shard] Completed migration #4 for player (KU_vLUNqzNW)
-[23:04:27]: [P2P] Received from 36.49.246.249|1 '76561199228132918'
-[23:04:27]: [P2P] Sent to 36.49.246.249|1 '76561199228132918'
-[23:04:55]: Available disk space for save files: 128158 MB
-[23:04:56]: [Quest System] Saving own quests!	
-[23:04:57]: Serializing world: session/BF953A8AFDD25F52/0000002864
-[23:04:57]: Truncating to snapshot #2864...
-[23:04:57]:  - session/BF953A8AFDD25F52/0000002854
-[23:04:57]:  - session/BF953A8AFDD25F52/0000002855
-[23:04:57]:  - session/BF953A8AFDD25F52/0000002853
-[23:04:57]:  - session/BF953A8AFDD25F52/0000002857
-[23:04:57]:  - session/BF953A8AFDD25F52/0000002856
-[23:04:57]:  - session/BF953A8AFDD25F52/0000002852
-[23:04:57]:  - session/BF953A8AFDD25F52/0000002858
-[23:04:57]:  - session/BF953A8AFDD25F52/A7K6QTFOKA35/0000002858
-[23:04:57]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002855
-[23:04:57]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002854
-[23:04:57]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002853
-[23:04:57]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002852
-[23:04:57]:  - session/BF953A8AFDD25F52/A7G7HHS0J6Q2/0000002854
-[23:04:57]:  - session/BF953A8AFDD25F52/A7G7HHS0J6Q2/0000002853
-[23:04:57]:  - session/BF953A8AFDD25F52/A7I4C22IFECN/0000002854
-[23:04:57]:  - session/BF953A8AFDD25F52/A7I4C22IFECN/0000002853
-[23:04:57]:  - session/BF953A8AFDD25F52/A7I4C22IFECN/0000002852
-[23:04:57]:    17 file(s) removed
-[23:05:11]: Resuming user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002864
-[23:05:11]: Player will spawn close to portal #1	
-[23:05:11]: Spawning player at: [Load] (195.10, 0.00, 29.38)	
-[23:05:11]: [Quest System] Add Local Quests to	132078 - wathgrithr	
-[23:12:57]: Available disk space for save files: 128183 MB
-[23:12:58]: [Quest System] Saving own quests!	
-[23:12:58]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002865
-[23:12:59]: Serializing world: session/BF953A8AFDD25F52/0000002865
-[23:14:27]: [P2P] Session timed out for '76561199228132918'
-[23:14:27]: [P2P] Remove session: 36.49.246.249|1 '76561199228132918'
-[23:16:07]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
-[23:18:57]: Could not find anim [death] in bank [ghost]
-[23:18:57]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002866
-[23:19:02]: [Steam] SendUserDisconnect for '76561199228132918'
-[23:19:02]: [Shard] (KU_vLUNqzNW) disconnected from [SHDMASTER](1)
-[23:19:03]: Serializing user: session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002866
-[23:19:03]: Sim paused
-[23:30:26]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 15m para manutenção programada!")"
-[23:30:30]: [200] Account Communication Success (6)
-[23:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[23:40:56]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 5m para manutenção programada!")"
-[00:00:30]: [200] Account Communication Success (6)
-[00:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[00:30:30]: [200] Account Communication Success (6)
-[00:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[01:00:30]: [200] Account Communication Success (6)
-[01:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[01:05:04]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 1m para manutenção programada!")"
-[01:06:35]: RemoteCommandInput: "c_announce("Reiniciando servidor...")"
-[01:30:30]: [200] Account Communication Success (6)
-[01:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[02:00:30]: [200] Account Communication Success (6)
-[02:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[02:30:30]: [200] Account Communication Success (6)
-[02:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[03:00:30]: [200] Account Communication Success (6)
-[03:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[03:30:30]: [200] Account Communication Success (6)
-[03:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[04:00:30]: [200] Account Communication Success (6)
-[04:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[04:30:30]: [200] Account Communication Success (6)
-[04:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[05:00:30]: [200] Account Communication Success (6)
-[05:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[05:30:30]: [200] Account Communication Success (6)
-[05:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[06:00:30]: [200] Account Communication Success (6)
-[06:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[06:30:30]: [200] Account Communication Success (6)
-[06:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[07:00:30]: [200] Account Communication Success (6)
-[07:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[07:30:30]: [200] Account Communication Success (6)
-[07:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[08:00:31]: [200] Account Communication Success (6)
-[08:00:31]: Received (KU_2DNgIUgO) from TokenPurpose
-[08:30:31]: [200] Account Communication Success (6)
-[08:30:31]: Received (KU_2DNgIUgO) from TokenPurpose
-[09:00:30]: [200] Account Communication Success (6)
-[09:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[09:13:53]: RemoteCommandInput: "c_save()"
-[09:13:53]: Sim unpaused
-[09:13:54]: Available disk space for save files: 122587 MB
-[09:13:55]: [Quest System] Saving own quests!	
-[09:13:56]: Serializing world: session/BF953A8AFDD25F52/0000002866
-[09:13:56]: Truncating to snapshot #2866...
-[09:13:56]:  - session/BF953A8AFDD25F52/0000002859
-[09:13:56]:  - session/BF953A8AFDD25F52/0000002860
-[09:13:56]:  - session/BF953A8AFDD25F52/A7HSEUB79VME/0000002860
-[09:13:56]:  - session/BF953A8AFDD25F52/A7HSEUB79VME/0000002859
-[09:13:56]:    4 file(s) removed
-[09:13:56]: Sim paused
-[09:14:23]: RemoteCommandInput: "c_shutdown()"
-[09:14:23]: c_shutdown	nil	
-[09:14:23]: Available disk space for save files: 122591 MB
-[09:14:24]: [Quest System] Saving own quests!	
-[09:14:25]: Serializing world: session/BF953A8AFDD25F52/0000002867
-[09:14:25]: Truncating to snapshot #2867...
-[09:14:25]:  - session/BF953A8AFDD25F52/0000002861
-[09:14:25]:  - session/BF953A8AFDD25F52/A7HSEUB79VME/0000002861
-[09:14:25]:    2 file(s) removed
-[09:14:25]: Available disk space for save files: 122591 MB
-[09:14:26]: [Quest System] Saving own quests!	
-[09:14:27]: Serializing world: session/BF953A8AFDD25F52/0000002868
-[09:14:27]: Truncating to snapshot #2868...
-[09:14:27]:  - session/BF953A8AFDD25F52/0000002862
-[09:14:27]:  - session/BF953A8AFDD25F52/A7N5AUBT7LF0/0000002862
-[09:14:27]:    2 file(s) removed
-[09:14:27]: Removing server from lobby
-[09:14:27]: [Shard] Stopping shard mode
-[09:14:27]: [Steam] SendUserDisconnect for ''
-[09:14:28]: Collecting garbage...
-[09:14:30]: lua_gc took 1.69 seconds
+[21:01:43]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 5m para manutenção programada!")"
+[21:06:13]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 1m para manutenção programada!")"
+[21:07:43]: RemoteCommandInput: "c_announce("Reiniciando servidor...")"
+[21:08:13]: RemoteCommandInput: "c_save()"
+[21:08:13]: Sim unpaused
+[21:08:13]: RemoteCommandInput: "c_shutdown()"
+[21:08:13]: c_shutdown	nil	
+[21:08:13]: Available disk space for save files: 139780 MB
+[21:08:14]: [Quest System] Saving own quests!	
+[21:08:14]: Missing reference:	100029 - world	->	169854	nil	
+[21:08:14]: Missing reference:	100029 - world	->	161676	nil	
+[21:08:14]: Missing reference:	100029 - world	->	169889	nil	
+[21:08:14]: Missing reference:	100029 - world	->	161736	nil	
+[21:08:14]: Missing reference:	100029 - world	->	169956	nil	
+[21:08:14]: Missing reference:	100029 - world	->	161768	nil	
+[21:08:14]: Missing reference:	100029 - world	->	161818	nil	
+[21:08:14]: Missing reference:	100029 - world	->	170023	nil	
+[21:08:14]: Missing reference:	100029 - world	->	161927	nil	
+[21:08:14]: Missing reference:	100029 - world	->	164173	nil	
+[21:08:14]: Missing reference:	100029 - world	->	168337	nil	
+[21:08:14]: Missing reference:	100029 - world	->	158140	nil	
+[21:08:14]: Missing reference:	100029 - world	->	164376	nil	
+[21:08:14]: Missing reference:	100029 - world	->	162351	nil	
+[21:08:14]: Missing reference:	100029 - world	->	164413	nil	
+[21:08:14]: Missing reference:	100029 - world	->	166483	nil	
+[21:08:14]: Missing reference:	100029 - world	->	168586	nil	
+[21:08:14]: Missing reference:	100029 - world	->	156393	nil	
+[21:08:14]: Missing reference:	100029 - world	->	166647	nil	
+[21:08:14]: Missing reference:	100029 - world	->	162568	nil	
+[21:08:14]: Missing reference:	100029 - world	->	166721	nil	
+[21:08:14]: Missing reference:	100029 - world	->	160608	nil	
+[21:08:14]: Missing reference:	100029 - world	->	164726	nil	
+[21:08:14]: Missing reference:	100029 - world	->	162737	nil	
+[21:08:14]: Missing reference:	100029 - world	->	160698	nil	
+[21:08:14]: Missing reference:	100029 - world	->	160788	nil	
+[21:08:14]: Missing reference:	100029 - world	->	160892	nil	
+[21:08:14]: Missing reference:	100029 - world	->	160966	nil	
+[21:08:14]: Missing reference:	100029 - world	->	154656	nil	
+[21:08:14]: Missing reference:	100029 - world	->	164705	nil	
+[21:08:14]: Missing reference:	100029 - world	->	159371	nil	
+[21:08:14]: Missing reference:	100029 - world	->	155859	nil	
+[21:08:14]: Missing reference:	100029 - world	->	166374	nil	
+[21:08:14]: Missing reference:	100029 - world	->	164915	nil	
+[21:08:14]: Missing reference:	100029 - world	->	166562	nil	
+[21:08:14]: Missing reference:	100029 - world	->	164599	nil	
+[21:08:14]: Missing reference:	100029 - world	->	161041	nil	
+[21:08:14]: Missing reference:	100029 - world	->	164555	nil	
+[21:08:14]: Missing reference:	100029 - world	->	156119	nil	
+[21:08:14]: Missing reference:	100029 - world	->	155568	nil	
+[21:08:14]: Missing reference:	100029 - world	->	165056	nil	
+[21:08:14]: Missing reference:	100029 - world	->	154870	nil	
+[21:08:14]: Missing reference:	100029 - world	->	159039	nil	
+[21:08:14]: Missing reference:	100029 - world	->	157626	nil	
+[21:08:14]: Missing reference:	100029 - world	->	159118	nil	
+[21:08:14]: Missing reference:	100029 - world	->	154736	nil	
+[21:08:14]: Missing reference:	100029 - world	->	155609	nil	
+[21:08:14]: Missing reference:	100029 - world	->	167007	nil	
+[21:08:14]: Missing reference:	100029 - world	->	169721	nil	
+[21:08:14]: Missing reference:	100029 - world	->	154972	nil	
+[21:08:14]: Missing reference:	100029 - world	->	158242	nil	
+[21:08:14]: Missing reference:	100029 - world	->	160527	nil	
+[21:08:14]: Missing reference:	100029 - world	->	165797	nil	
+[21:08:14]: Missing reference:	100029 - world	->	158018	nil	
+[21:08:14]: Missing reference:	100029 - world	->	168400	nil	
+[21:08:14]: Missing reference:	100029 - world	->	166860	nil	
+[21:08:14]: Missing reference:	100029 - world	->	155683	nil	
+[21:08:14]: Missing reference:	100029 - world	->	168619	nil	
+[21:08:14]: Missing reference:	100029 - world	->	161872	nil	
+[21:08:14]: Missing reference:	100029 - world	->	157775	nil	
+[21:08:14]: Missing reference:	100029 - world	->	169617	nil	
+[21:08:14]: Missing reference:	100029 - world	->	168251	nil	
+[21:08:14]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[21:08:14]: Missing reference:	100029 - world	->	167252	nil	
+[21:08:14]: Missing reference:	100029 - world	->	155071	nil	
+[21:08:14]: Missing reference:	100029 - world	->	169478	nil	
+[21:08:14]: Missing reference:	100029 - world	->	155242	nil	
+[21:08:14]: Missing reference:	100029 - world	->	169690	nil	
+[21:08:14]: Missing reference:	100029 - world	->	159524	nil	
+[21:08:14]: Missing reference:	100029 - world	->	157534	nil	
+[21:08:15]: Serializing world: session/BF953A8AFDD25F52/0000002922
+[21:08:15]: Truncating to snapshot #2922...
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002905
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002901
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002902
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002900
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002912
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002908
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002914
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002904
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002906
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002911
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002916
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002898
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002899
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002913
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002910
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002915
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002907
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002903
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002897
+[21:08:15]:  - session/BF953A8AFDD25F52/0000002909
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002916
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002915
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002914
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002913
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002912
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002911
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002910
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002909
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002908
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002907
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002906
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002905
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002904
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002903
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002901
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002900
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002899
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002898
+[21:08:15]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002897
+[21:08:15]:    39 file(s) removed
+[21:08:15]: Available disk space for save files: 139859 MB
+[21:08:16]: [Quest System] Saving own quests!	
+[21:08:16]: Missing reference:	100029 - world	->	169854	nil	
+[21:08:16]: Missing reference:	100029 - world	->	161676	nil	
+[21:08:16]: Missing reference:	100029 - world	->	169889	nil	
+[21:08:16]: Missing reference:	100029 - world	->	161736	nil	
+[21:08:16]: Missing reference:	100029 - world	->	169956	nil	
+[21:08:16]: Missing reference:	100029 - world	->	161768	nil	
+[21:08:16]: Missing reference:	100029 - world	->	161818	nil	
+[21:08:16]: Missing reference:	100029 - world	->	170023	nil	
+[21:08:16]: Missing reference:	100029 - world	->	161927	nil	
+[21:08:16]: Missing reference:	100029 - world	->	164173	nil	
+[21:08:16]: Missing reference:	100029 - world	->	168337	nil	
+[21:08:16]: Missing reference:	100029 - world	->	158140	nil	
+[21:08:16]: Missing reference:	100029 - world	->	164376	nil	
+[21:08:16]: Missing reference:	100029 - world	->	162351	nil	
+[21:08:16]: Missing reference:	100029 - world	->	164413	nil	
+[21:08:16]: Missing reference:	100029 - world	->	166483	nil	
+[21:08:16]: Missing reference:	100029 - world	->	168586	nil	
+[21:08:16]: Missing reference:	100029 - world	->	156393	nil	
+[21:08:16]: Missing reference:	100029 - world	->	166647	nil	
+[21:08:16]: Missing reference:	100029 - world	->	162568	nil	
+[21:08:16]: Missing reference:	100029 - world	->	166721	nil	
+[21:08:16]: Missing reference:	100029 - world	->	160608	nil	
+[21:08:16]: Missing reference:	100029 - world	->	164726	nil	
+[21:08:16]: Missing reference:	100029 - world	->	162737	nil	
+[21:08:16]: Missing reference:	100029 - world	->	160698	nil	
+[21:08:16]: Missing reference:	100029 - world	->	160788	nil	
+[21:08:16]: Missing reference:	100029 - world	->	160892	nil	
+[21:08:16]: Missing reference:	100029 - world	->	160966	nil	
+[21:08:16]: Missing reference:	100029 - world	->	154656	nil	
+[21:08:16]: Missing reference:	100029 - world	->	164705	nil	
+[21:08:16]: Missing reference:	100029 - world	->	159371	nil	
+[21:08:16]: Missing reference:	100029 - world	->	155859	nil	
+[21:08:16]: Missing reference:	100029 - world	->	166374	nil	
+[21:08:16]: Missing reference:	100029 - world	->	164915	nil	
+[21:08:16]: Missing reference:	100029 - world	->	166562	nil	
+[21:08:16]: Missing reference:	100029 - world	->	164599	nil	
+[21:08:16]: Missing reference:	100029 - world	->	161041	nil	
+[21:08:16]: Missing reference:	100029 - world	->	164555	nil	
+[21:08:16]: Missing reference:	100029 - world	->	156119	nil	
+[21:08:16]: Missing reference:	100029 - world	->	155568	nil	
+[21:08:16]: Missing reference:	100029 - world	->	165056	nil	
+[21:08:16]: Missing reference:	100029 - world	->	154870	nil	
+[21:08:16]: Missing reference:	100029 - world	->	159039	nil	
+[21:08:16]: Missing reference:	100029 - world	->	157626	nil	
+[21:08:16]: Missing reference:	100029 - world	->	159118	nil	
+[21:08:16]: Missing reference:	100029 - world	->	154736	nil	
+[21:08:16]: Missing reference:	100029 - world	->	155609	nil	
+[21:08:16]: Missing reference:	100029 - world	->	167007	nil	
+[21:08:16]: Missing reference:	100029 - world	->	169721	nil	
+[21:08:16]: Missing reference:	100029 - world	->	154972	nil	
+[21:08:16]: Missing reference:	100029 - world	->	158242	nil	
+[21:08:16]: Missing reference:	100029 - world	->	160527	nil	
+[21:08:16]: Missing reference:	100029 - world	->	165797	nil	
+[21:08:16]: Missing reference:	100029 - world	->	158018	nil	
+[21:08:16]: Missing reference:	100029 - world	->	168400	nil	
+[21:08:16]: Missing reference:	100029 - world	->	166860	nil	
+[21:08:16]: Missing reference:	100029 - world	->	155683	nil	
+[21:08:16]: Missing reference:	100029 - world	->	168619	nil	
+[21:08:16]: Missing reference:	100029 - world	->	161872	nil	
+[21:08:16]: Missing reference:	100029 - world	->	157775	nil	
+[21:08:16]: Missing reference:	100029 - world	->	169617	nil	
+[21:08:16]: Missing reference:	100029 - world	->	168251	nil	
+[21:08:16]: Missing reference:	100029 - world	->	133790	133790 - daywalker2	
+[21:08:16]: Missing reference:	100029 - world	->	167252	nil	
+[21:08:16]: Missing reference:	100029 - world	->	155071	nil	
+[21:08:16]: Missing reference:	100029 - world	->	169478	nil	
+[21:08:16]: Missing reference:	100029 - world	->	155242	nil	
+[21:08:16]: Missing reference:	100029 - world	->	169690	nil	
+[21:08:16]: Missing reference:	100029 - world	->	159524	nil	
+[21:08:16]: Missing reference:	100029 - world	->	157534	nil	
+[21:08:17]: Serializing world: session/BF953A8AFDD25F52/0000002923
+[21:08:17]: Truncating to snapshot #2923...
+[21:08:17]:  - session/BF953A8AFDD25F52/0000002917
+[21:08:17]:  - session/BF953A8AFDD25F52/A7IMAN8AGDO9/0000002917
+[21:08:17]:    2 file(s) removed
+[21:08:17]: Removing server from lobby
+[21:08:17]: [Shard] Stopping shard mode
+[21:08:17]: [Steam] SendUserDisconnect for ''
+[21:08:18]: Collecting garbage...
+[21:08:20]: lua_gc took 1.79 seconds
