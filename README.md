@@ -3,7 +3,7 @@
 - `2712` dias de jogo
 - `15` dias reais passados em jogo
 - `106` jogadores únicos
-- `1590271` moedas dropadas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
+- `1590275` moedas dropadas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
 - `1234127` moedas gastas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
 - `24883` monstros normais derrotados
 - `865` chefes derrotados
