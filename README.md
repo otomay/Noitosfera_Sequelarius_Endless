@@ -1,6 +1,6 @@
 # [Noitosfera] Sequelarius - `Pré-Season #2`
 - De `03/01/2024` à `Hoje`
-- `2713` dias de jogo
+- `2714` dias de jogo
 - `15` dias reais passados em jogo
 - `107` jogadores únicos
 - `1590276` moedas dropadas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
@@ -9,7 +9,7 @@
 - `865` chefes derrotados
 - `0` crashes do servidor
 
-# Ranking de melhores jogadores (total de `325289` pontos)
+# Ranking de melhores jogadores (total de `325279` pontos)
 1. 🎗️ **Vapo** *[`182430` pontos]*
 2. 🎗️ **GMC6** *[`125628` pontos]*
 3. 🎗️ **PtckLB** *[`5702` pontos]*
