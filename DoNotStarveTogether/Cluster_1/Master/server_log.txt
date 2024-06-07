@@ -1,10 +1,10 @@
 [00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 605310
-[00:00:00]: Current time: Wed Jun  5 03:30:51 2024
+[00:00:00]: Current time: Thu Jun  6 23:41:21 2024
 
 [00:00:00]: System Name: Linux
-[00:00:00]: Host Name: 6518fa1f56cf
+[00:00:00]: Host Name: f1276206328b
 [00:00:00]: Release(Kernel) Version: 6.5.0-1023-oracle
 [00:00:00]: Kernel Build Timestamp: #23~22.04.1-Ubuntu SMP Thu May  2 15:18:29 UTC 2024
 [00:00:00]: Machine Arch: x86_64
@@ -15,9 +15,9 @@
 [00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Master 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (267808412462944)
+[00:00:00]: THREAD - started 'GAClient' (262660773560160)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:22.64
+[00:00:00]: ProfileIndex:22.57
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -26,15 +26,15 @@
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
-[00:00:00]: [Steam] SteamGameServer_Init success
-[00:00:00]: [Connect] PendingConnection::Reset(true)
-[00:00:00]: Platform: 1
-[00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (267808298409824)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
 [00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
 [00:00:01]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
+[00:00:01]: THREAD - started 'StreamInput' (262660515815264)
 [00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
 [00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
 [00:00:01]: cGame::InitializeOnMainThread
@@ -66,6 +66,7 @@
 [00:00:10]: modoverrides.lua enabling workshop-3156633422	
 [00:00:10]: modoverrides.lua enabling workshop-2167036904	
 [00:00:10]: modoverrides.lua enabling workshop-3055010657	
+[00:00:10]: modoverrides.lua enabling workshop-2948633273	
 [00:00:10]: modoverrides.lua enabling workshop-3050607025	
 [00:00:10]: modoverrides.lua enabling workshop-2597204554	
 [00:00:10]: modoverrides.lua enabling workshop-2937640068	
@@ -93,9 +94,10 @@
 [00:00:10]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
 [00:00:10]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
 [00:00:10]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
-[00:00:10]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
+[00:00:10]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2948633273	
 [00:00:10]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
 [00:00:10]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:10]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
 [00:00:10]: Could not load mod_config_data/modconfiguration_workshop-2847908822_CLIENT	
 [00:00:10]: Loading mod: workshop-2847908822 ([DST] Performance Pack) Version:24-5-1-2	
 [00:00:10]: Could not load mod_config_data/modconfiguration_workshop-1416161108_CLIENT	
@@ -126,12 +128,14 @@
 [00:00:10]: Loading mod: workshop-2477889104 (Beefalo Status Bar) Version:1.3.1	
 [00:00:10]: Could not load mod_config_data/modconfiguration_workshop-2847806795_CLIENT	
 [00:00:10]: Loading mod: workshop-2847806795 ( Economia Simples ) Version:1.2.3	
-[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-2503437364_CLIENT	
-[00:00:10]: Loading mod: workshop-2503437364 (Modifiers for Equippable Items) Version:6.0.4	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-2948633273_CLIENT	
+[00:00:10]: Loading mod: workshop-2948633273 (DayW - The Zombie Mod) Version:1.0.4.	
 [00:00:10]: Could not load mod_config_data/modconfiguration_workshop-2537774396_CLIENT	
 [00:00:10]: Loading mod: workshop-2537774396 (Discord Thông Báo) Version:2.4.1	
 [00:00:10]: Could not load mod_config_data/modconfiguration_workshop-1111658995_CLIENT	
 [00:00:10]: Loading mod: workshop-1111658995 (Show Bundle) Version:3.0	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-2503437364_CLIENT	
+[00:00:10]: Loading mod: workshop-2503437364 (Modifiers for Equippable Items) Version:6.0.4	
 [00:00:10]: applying configuration_options from modoverrides.lua to mod workshop-2847908822	
 [00:00:10]: Overriding mod workshop-2847908822's option  with value false	
 [00:00:10]: Overriding mod workshop-2847908822's option  with value false	
@@ -224,21 +228,47 @@
 [00:00:10]: Overriding mod workshop-3055010657's option HouseHammered with value false	
 [00:00:10]: Overriding mod workshop-3055010657's option CanSpawnSpore with value true	
 [00:00:10]: Overriding mod workshop-3055010657's option Tardis with value true	
-[00:00:10]: applying configuration_options from modoverrides.lua to mod workshop-2876537244	
-[00:00:10]: Overriding mod workshop-2876537244's option DAGGERER_BIG with value 3	
-[00:00:10]: Overriding mod workshop-2876537244's option BasicStatsSection with value 	
-[00:00:10]: Overriding mod workshop-2876537244's option EVERDAGGER_USESPERDAGGER with value 1	
-[00:00:10]: Overriding mod workshop-2876537244's option EVERDAGGER_EXTRA_ATTACK with value 10	
-[00:00:10]: Overriding mod workshop-2876537244's option DAGGERER_SMALL with value 1	
-[00:00:10]: Overriding mod workshop-2876537244's option bump with value 	
-[00:00:10]: Overriding mod workshop-2876537244's option bump with value 	
-[00:00:10]: Overriding mod workshop-2876537244's option EVERDAGGER_THIRD_ATTACK with value 45	
-[00:00:10]: Overriding mod workshop-2876537244's option HandWSection with value 	
-[00:00:10]: Overriding mod workshop-2876537244's option EVERDAGGER_CAP with value 555	
-[00:00:10]: Overriding mod workshop-2876537244's option EVERDAGGER_FIFTH_ATTACK with value 65	
-[00:00:10]: Overriding mod workshop-2876537244's option EVERDAGGER_FOURTH_ATTACK with value 55	
-[00:00:10]: Overriding mod workshop-2876537244's option EVERDAGGER_FIRST_ATTACK with value 25	
-[00:00:10]: Overriding mod workshop-2876537244's option EVERDAGGER_SECOND_ATTACK with value 35	
+[00:00:10]: applying configuration_options from modoverrides.lua to mod workshop-2948633273	
+[00:00:10]: Overriding mod workshop-2948633273's option BasicStatsSection with value 	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_HEALTH with value 300	
+[00:00:10]: Overriding mod workshop-2948633273's option SecondaryStatsSection with value 	
+[00:00:10]: Overriding mod workshop-2948633273's option SecondaryStatsSection with value 	
+[00:00:10]: Overriding mod workshop-2948633273's option SecondaryStatsSection with value 	
+[00:00:10]: Overriding mod workshop-2948633273's option SecondaryStatsSection with value 	
+[00:00:10]: Overriding mod workshop-2948633273's option SecondaryStatsSection with value 	
+[00:00:10]: Overriding mod workshop-2948633273's option SecondaryStatsSection with value 	
+[00:00:10]: Overriding mod workshop-2948633273's option SecondaryStatsSection with value 	
+[00:00:10]: Overriding mod workshop-2948633273's option bump with value 	
+[00:00:10]: Overriding mod workshop-2948633273's option bump with value 	
+[00:00:10]: Overriding mod workshop-2948633273's option bump with value 	
+[00:00:10]: Overriding mod workshop-2948633273's option bump with value 	
+[00:00:10]: Overriding mod workshop-2948633273's option bump with value 	
+[00:00:10]: Overriding mod workshop-2948633273's option bump with value 	
+[00:00:10]: Overriding mod workshop-2948633273's option BRAIN_HEALTH with value -10	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_ARM_PVP_DAMAGE with value 65	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_DROP_ARM with value 0.1	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_STUNLOCK_CAP with value 300	
+[00:00:10]: Overriding mod workshop-2948633273's option BRAIN_SANITY with value -50	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_SANITYLOSS with value 0.25	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_PROBABILITY_RED with value 1	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_PROBABILITY_GREY with value 1	
+[00:00:10]: Overriding mod workshop-2948633273's option BRAINSTAFF_COST_BRAIN with value 5	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_ARM_USES with value 100	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_AGGRO_RANGE with value 5	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_PROBABILITY_BLUE with value 1	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_MAX_STAFFLESS with value 15	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_MAX_STAFF with value 15	
+[00:00:10]: Overriding mod workshop-2948633273's option BRAIN_HUNGER with value 15	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_DROP_BONE with value 0.2	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_DROP_FIRST_MEAT with value 0.8	
+[00:00:10]: Overriding mod workshop-2948633273's option BRAINSTAFF_DAMAGE with value 75	
+[00:00:10]: Overriding mod workshop-2948633273's option BRAINSTAFF_COST_BONE with value 1	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_DROP_MEAT with value 0.3	
+[00:00:10]: Overriding mod workshop-2948633273's option SPAWN_STRUCTURE_AWAY with value 10	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_DAMAGE with value 300	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_ARM_DAMAGE with value 55	
+[00:00:10]: Overriding mod workshop-2948633273's option ZOMBIE_PROBABILITY_BRAINLESS with value 1	
+[00:00:10]: Overriding mod workshop-2948633273's option BRAINSTAFF_COST_ROPE with value 1	
 [00:00:10]: applying configuration_options from modoverrides.lua to mod workshop-3050607025	
 [00:00:10]: Overriding mod workshop-3050607025's option beefalo with value 50	
 [00:00:10]: Overriding mod workshop-3050607025's option log with value 50	
@@ -600,8 +630,8 @@
 [00:00:10]: Overriding mod workshop-2854057841's option os_hammer with value false	
 [00:00:10]: Overriding mod workshop-2854057841's option number with value 6	
 [00:00:10]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modworldgenmain.lua	
-[00:00:10]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modmain.lua	
-[00:00:10]: modimport: ../mods/workshop-2597204554/quest_system/tuning_strings.lua	
+[00:00:11]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modmain.lua	
+[00:00:11]: modimport: ../mods/workshop-2597204554/quest_system/tuning_strings.lua	
 [00:00:11]: [Quest System] Amount of quests:	150	
 [00:00:11]: [Quest System] Amount of quests difficulty 1:	29	
 [00:00:11]: [Quest System] Amount of quests difficulty 2:	41	
@@ -662,9 +692,10 @@
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
-[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
+[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2948633273	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
 [00:00:11]: modimport: ../mods/workshop-3156633422/libs/use.lua	
 [00:00:11]: Mod: workshop-2854057841 (Noitosfera)	Loading modworldgenmain.lua	
 [00:00:11]: Mod: workshop-2854057841 (Noitosfera)	  Mod had no modworldgenmain.lua. Skipping.	
@@ -689,9 +720,10 @@
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
-[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
+[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2948633273	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1416161108	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
@@ -707,9 +739,10 @@
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
-[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
+[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2948633273	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
 [00:00:11]: modimport: ../mods/workshop-3050607025/scripts/more_stack_size.lua	
 [00:00:11]: modimport: ../mods/workshop-3050607025/scripts/auto_clean.lua	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
@@ -727,9 +760,10 @@
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
-[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
+[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2948633273	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1416161108	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
@@ -745,14 +779,18 @@
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
-[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
+[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2948633273	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
 [00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
 [00:00:11]: modimport: ../mods/workshop-3050607025/scripts/stop_regrowth.lua	
 [00:00:11]: modimport: ../mods/workshop-3050607025/scripts/no_stump.lua	
 [00:00:11]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
 [00:00:11]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:11]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
+[00:00:11]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	Loading modworldgenmain.lua	
+[00:00:11]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:11]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	Loading modmain.lua	
 [00:00:11]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
 [00:00:11]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:11]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
@@ -885,9 +923,9 @@
 [00:00:12]: Mod: workshop-2847908822 ([DST] Performance Pack)	Loading modmain.lua	
 [00:00:12]: modimport: ../mods/workshop-2847908822/1.lua	
 [00:00:12]: modimport: ../mods/workshop-2847908822/10.lua	
-[00:00:12]: modimport: ../mods/workshop-2847908822/8.lua	
-[00:00:12]: modimport: ../mods/workshop-2847908822/7.lua	
-[00:00:12]: modimport: ../mods/workshop-2847908822/3.lua	
+[00:00:13]: modimport: ../mods/workshop-2847908822/8.lua	
+[00:00:13]: modimport: ../mods/workshop-2847908822/7.lua	
+[00:00:13]: modimport: ../mods/workshop-2847908822/3.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/6.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/4.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/5.lua	
@@ -1133,6 +1171,19 @@
 [00:00:22]: Mod: workshop-3050607025 (Lag Remover)	  Registering default mod prefab	
 [00:00:22]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
 [00:00:22]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
+[00:00:22]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	Registering prefabs	
+[00:00:22]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	  Registering prefab file: prefabs/brainstaff	
+[00:00:22]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	    brainstaff	
+[00:00:22]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	  Registering prefab file: prefabs/zombie_brain	
+[00:00:22]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	    zombie_brain	
+[00:00:22]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	  Registering prefab file: prefabs/zombies	
+[00:00:22]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	    zombie_red	
+[00:00:22]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	    zombie_grey	
+[00:00:22]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	    zombie_blue	
+[00:00:22]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	    zombie_brainless	
+[00:00:22]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	  Registering prefab file: prefabs/zombie_arm	
+[00:00:22]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	    zombie_arm	
+[00:00:22]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	  Registering default mod prefab	
 [00:00:22]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
 [00:00:22]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
 [00:00:22]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
@@ -1806,87 +1857,87 @@
 [00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancient_hulk_orb	
 [00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ancient_hulk_marker	
 [00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancient_robots	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_spider	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_claw	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_leg	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_head	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancient_robots_assembly	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_assembly	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_crabking_claw	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_firecrabking_claw	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_watercrabking_claw	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_icecrabking_claw	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_shadowcrabking_claw	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_lunarcrabking_claw	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_crabking_claw_proj	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_fire_proj	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_water_proj	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_ice_proj	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_electric_proj	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_lunar_proj	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_shadow_proj	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/snapdragon_flower	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon_flower	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/cocoontrees	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_normal	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_cocoon	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_burnt	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_stump	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/new_seeds	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontreeseed	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontreeseed_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon_seed	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon_seed_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/woodenpigstatue	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_woodenpigstatue	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/windconch	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_windconch	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/birdwhistle	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_birdwhistle	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_birdwhistlecorrupted	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/tinker_house	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    tinkertower	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    tinkertower_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_batbat	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_batbat	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_minerhat	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_minerhat	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_minerhatlight	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_shovel	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_shovel	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_shovel_ground	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_farmplot	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_farmplot	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_farmplot_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/medicalkit	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    medicalkit	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/armorgold	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    armorgold	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_fencerotator	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_fencerotator	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_boat	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_player_collision	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_item_collision	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_item	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_item_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/oar_stopper	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    oar_stopper	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_amulet	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_amulet	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_blueamulet	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_greenamulet	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_catcoonhat	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_catcoonhat	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_whip	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_whip	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_treasurechest	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_treasurechest	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_treasurechest_placer	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/voker_alacrity	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    voker_alacrity	
-[00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/voker_icewall	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_spider	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_claw	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_leg	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_head	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/ancient_robots_assembly	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_hulk_assembly	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_crabking_claw	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_firecrabking_claw	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_watercrabking_claw	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_icecrabking_claw	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_shadowcrabking_claw	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_lunarcrabking_claw	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/mobs/new_crabking_claw_proj	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_fire_proj	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_water_proj	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_ice_proj	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_electric_proj	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_lunar_proj	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_crabking_claw_shadow_proj	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/snapdragon_flower	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon_flower	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/cocoontrees	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_normal	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_cocoon	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_burnt	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontree_stump	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/new_seeds	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontreeseed	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_cocoontreeseed_placer	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon_seed	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_snapdragon_seed_placer	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/woodenpigstatue	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_woodenpigstatue	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/windconch	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_windconch	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/birdwhistle	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_birdwhistle	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_birdwhistlecorrupted	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/tinker_house	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    tinkertower	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    tinkertower_placer	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_batbat	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_batbat	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_minerhat	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_minerhat	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_minerhatlight	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_shovel	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_shovel	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_shovel_ground	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_farmplot	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_farmplot	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_farmplot_placer	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/medicalkit	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    medicalkit	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/armorgold	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    armorgold	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_fencerotator	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_fencerotator	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_boat	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_player_collision	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_item_collision	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_item	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_boat_item_placer	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/oar_stopper	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    oar_stopper	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_amulet	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_amulet	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_blueamulet	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_greenamulet	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_catcoonhat	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_catcoonhat	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_whip	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_whip	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/upgraded_treasurechest	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_treasurechest	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_treasurechest_placer	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/voker_alacrity	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    voker_alacrity	
+[00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/voker_icewall	
 [00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    voker_icewall	
 [00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rog/voker_forgespirit	
 [00:00:24]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    voker_forgespirit	
@@ -1953,7 +2004,7 @@
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/bishop_projectile_yellow.zip
 [00:00:24]: Tried to add build [bearger_ground_fx] from file [anim/bearger_ground_fx.zip] but we've already added a build with that name!
-[00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: Could not preload undefined prefab (chasni_fire_crab_king_claw_fx_build)
 [00:00:25]: Could not preload undefined prefab (chasni_crab_shadowfireorgan)
@@ -2037,185 +2088,80 @@
 [00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:28]: 	Load FE	
-[00:00:29]: THREAD - started 'FilesExistAsyncThread' (267807745335136)
+[00:00:29]: THREAD - started 'FilesExistAsyncThread' (262660173573984)
 [00:00:29]: 	Load FE: done	
-[00:00:29]: FilesExistAsyncThread started (24749 files)...
+[00:00:29]: FilesExistAsyncThread started (24751 files)...
 [00:00:29]: Check for write access: TRUE
 [00:00:29]: Check for read access: TRUE
-[00:00:29]: Available disk space for save files: 116543 MB
+[00:00:29]: Available disk space for save files: 110161 MB
 [00:00:29]: ModIndex: Load sequence finished successfully.	
 [00:00:29]: Reset() returning
-[00:00:29]: Error: Could not find file: anim/chop_mangrove_pink.zip
-[00:00:29]: Error: Could not find file: anim/chop_mangrove_pink.zip
-[00:00:29]: Error: Could not find file: anim/hacking_tall_grass_fx.zip
-[00:00:29]: Error: Could not find file: anim/snake_scales_fx.zip
-[00:00:29]: Error: Could not find file: anim/splash_water.zip
-[00:00:29]: Error: Could not find file: anim/water_bombsplash.zip
-[00:00:29]: Error: Could not find file: anim/sparks_green.zip
-[00:00:29]: Error: Could not find file: anim/robot_leaf_fx.zip
-[00:00:29]: Error: Could not find file: anim/hacking_fx.zip
-[00:00:29]: Error: Could not find file: anim/circle_puff_fx.zip
-[00:00:29]: Error: Could not find file: anim/sparklefx.zip
-[00:00:29]: Error: Could not find file: anim/laser_ring_fx.zip
-[00:00:29]: Error: Could not find file: anim/living_suit_explode_fx.zip
-[00:00:29]: Error: Could not find file: anim/rock_hit_debris.zip
-[00:00:29]: Error: Could not find file: anim/shock_machines_fx.zip
-[00:00:29]: Error: Could not find file: anim/hacking_bamboo_fx.zip
-[00:00:29]: Error: Could not find file: anim/chop_jungle.zip
-[00:00:29]: Error: Could not find file: anim/chop_jungle.zip
-[00:00:29]: Error: Could not find file: anim/chop_mangrove.zip
-[00:00:29]: Error: Could not find file: anim/chop_mangrove.zip
-[00:00:29]: Error: Could not find file: anim/vortex_cloak_fx.zip
-[00:00:29]: Error: Could not find file: anim/chasni_music_fx.zip
-[00:00:29]: Error: Could not find file: anim/alchelab.zip
-[00:00:29]: Error: Could not find file: anim/accomplishment_fireworks.zip
-[00:00:29]: Error: Could not find file: anim/accomplishment_fireworks.zip
-[00:00:29]: Error: Could not find file: anim/batbat_batfx.zip
-[00:00:29]: Error: Could not find file: anim/batbat_batfx.zip
-[00:00:29]: Error: Could not find file: anim/batbat_batfx.zip
-[00:00:29]: Error: Could not find file: anim/batbat_batfx.zip
-[00:00:29]: Error: Could not find file: anim/willow_shield.zip
-[00:00:29]: Error: Could not find file: anim/chasni_fx_wathgrithr_buff.zip
-[00:00:29]: Error: Could not find file: anim/chasni_fx_wathgrithr_buff.zip
-[00:00:29]: Error: Could not find file: anim/chasni_moon_geyser.zip
-[00:00:29]: Error: Could not find file: anim/chasni_moon_geyser.zip
-[00:00:29]: Error: Could not find file: anim/chasni_moon_geyser.zip
-[00:00:29]: Error: Could not find file: anim/chasni_alterguardian_meteor.zip
-[00:00:29]: Error: Could not find file: anim/laserball.zip
-[00:00:29]: Error: Could not find file: anim/lunar_shadow_books_fxs.zip
-[00:00:29]: Error: Could not find file: anim/chasni_lunar_crab_king_claw_fx_build.zip
-[00:00:29]: Error: Could not find file: anim/chasni_shadow_crab_king_claw_fx_build.zip
-[00:00:29]: Error: Could not find file: anim/chasni_ice_crab_king_claw_fx_build.zip
-[00:00:29]: Error: Could not find file: anim/chasni_fire_crab_king_claw_fx_build.zip
-[00:00:29]: Error: Could not find file: anim/chasni_water_crab_king_claw_fx_build.zip
-[00:00:29]: Error: Could not find file: anim/bishop_projectile_yellow.zip
-[00:00:29]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:29]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:29]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:29]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:29]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:29]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:29]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:29]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:29]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:29]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:29]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:29]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:29]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:29]: Error: Could not find file: anim/chasni_drawing.zip
-[00:00:29]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:29]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:29]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:29]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:29]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:29]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:29]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:29]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:29]: ... FilesExistAsyncThread complete
+[00:00:30]: Error: Could not find file: anim/chop_mangrove_pink.zip
+[00:00:30]: Error: Could not find file: anim/chop_mangrove_pink.zip
+[00:00:30]: Error: Could not find file: anim/hacking_tall_grass_fx.zip
+[00:00:30]: Error: Could not find file: anim/snake_scales_fx.zip
+[00:00:30]: Error: Could not find file: anim/splash_water.zip
+[00:00:30]: Error: Could not find file: anim/water_bombsplash.zip
+[00:00:30]: Error: Could not find file: anim/sparks_green.zip
+[00:00:30]: Error: Could not find file: anim/robot_leaf_fx.zip
+[00:00:30]: Error: Could not find file: anim/hacking_fx.zip
+[00:00:30]: Error: Could not find file: anim/circle_puff_fx.zip
+[00:00:30]: Error: Could not find file: anim/sparklefx.zip
+[00:00:30]: Error: Could not find file: anim/laser_ring_fx.zip
+[00:00:30]: Error: Could not find file: anim/living_suit_explode_fx.zip
+[00:00:30]: Error: Could not find file: anim/rock_hit_debris.zip
+[00:00:30]: Error: Could not find file: anim/shock_machines_fx.zip
+[00:00:30]: Error: Could not find file: anim/hacking_bamboo_fx.zip
+[00:00:30]: Error: Could not find file: anim/chop_jungle.zip
+[00:00:30]: Error: Could not find file: anim/chop_jungle.zip
+[00:00:30]: Error: Could not find file: anim/chop_mangrove.zip
+[00:00:30]: Error: Could not find file: anim/chop_mangrove.zip
+[00:00:30]: Error: Could not find file: anim/vortex_cloak_fx.zip
+[00:00:30]: Error: Could not find file: anim/chasni_music_fx.zip
+[00:00:30]: Error: Could not find file: anim/alchelab.zip
+[00:00:30]: Error: Could not find file: anim/accomplishment_fireworks.zip
+[00:00:30]: Error: Could not find file: anim/accomplishment_fireworks.zip
+[00:00:30]: Error: Could not find file: anim/batbat_batfx.zip
+[00:00:30]: Error: Could not find file: anim/batbat_batfx.zip
+[00:00:30]: Error: Could not find file: anim/batbat_batfx.zip
+[00:00:30]: Error: Could not find file: anim/batbat_batfx.zip
+[00:00:30]: Error: Could not find file: anim/willow_shield.zip
+[00:00:30]: Error: Could not find file: anim/chasni_fx_wathgrithr_buff.zip
+[00:00:30]: Error: Could not find file: anim/chasni_fx_wathgrithr_buff.zip
+[00:00:30]: Error: Could not find file: anim/chasni_moon_geyser.zip
+[00:00:30]: Error: Could not find file: anim/chasni_moon_geyser.zip
+[00:00:30]: Error: Could not find file: anim/chasni_moon_geyser.zip
+[00:00:30]: Error: Could not find file: anim/chasni_alterguardian_meteor.zip
+[00:00:30]: Error: Could not find file: anim/laserball.zip
+[00:00:30]: Error: Could not find file: anim/lunar_shadow_books_fxs.zip
+[00:00:30]: Error: Could not find file: anim/chasni_lunar_crab_king_claw_fx_build.zip
+[00:00:30]: Error: Could not find file: anim/chasni_shadow_crab_king_claw_fx_build.zip
+[00:00:30]: Error: Could not find file: anim/chasni_ice_crab_king_claw_fx_build.zip
+[00:00:30]: Error: Could not find file: anim/chasni_fire_crab_king_claw_fx_build.zip
+[00:00:30]: Error: Could not find file: anim/chasni_water_crab_king_claw_fx_build.zip
+[00:00:30]: Error: Could not find file: anim/bishop_projectile_yellow.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
 [00:00:30]: [200] Account Communication Success (6)
 [00:00:30]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
 [00:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
@@ -2248,24 +2194,25 @@
 [00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
 [00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3156633422	
 [00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2167036904	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2948633273	
 [00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3050607025	
 [00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2597204554	
 [00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2937640068	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3055010657	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2854057841	
 [00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3150203711	
 [00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2324689937	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2847806795	
 [00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1185229307	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2854057841	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
 [00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3055010657	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2847806795	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
 [00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2503437364	
 [00:00:30]: Online Server Started on port: 10999
 [00:00:30]: SUCCESS: Loaded modoverrides.lua	
 [00:00:30]: Not applying level data overrides.	
 [00:00:30]: Found a worldgen override file with these contents:	
 [00:00:30]: 	K: 	override_enabled	 V: 	true	
-[00:00:30]: 	K: 	overrides	 V: 	table: 0x3aef8910	
+[00:00:30]: 	K: 	overrides	 V: 	table: 0x56af6080	
 [00:00:30]: 		K: 	basicresource_regrowth	 V: 	always	
 [00:00:30]: 		K: 	ghostsanitydrain	 V: 	none	
 [00:00:30]: 		K: 	portalresurection	 V: 	always	
@@ -2278,13 +2225,119 @@
 [00:00:30]:   contained settings preset SURVIVAL_TOGETHER, loading...	
 [00:00:30]: Overwriting savedata with override file.	
 [00:00:30]: Collecting garbage...
-[00:00:30]: lua_gc took 0.31 seconds
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: lua_gc took 0.30 seconds
 [00:00:30]: ~ShardLuaProxy()
 [00:00:30]: ~cEventLeaderboardProxy()
 [00:00:30]: ~ItemServerLuaProxy()
 [00:00:30]: ~InventoryLuaProxy()
 [00:00:30]: ~NetworkLuaProxy()
 [00:00:30]: ~SimLuaProxy()
+[00:00:30]: FilesExistAsyncThread aborted.
+[00:00:30]: ... FilesExistAsyncThread complete
 [00:00:30]: lua_close took 0.26 seconds
 [00:00:30]: ReleaseAll
 [00:00:30]: ReleaseAll Finished
@@ -2311,6 +2364,7 @@
 [00:00:39]: modoverrides.lua enabling workshop-3156633422	
 [00:00:39]: modoverrides.lua enabling workshop-2167036904	
 [00:00:39]: modoverrides.lua enabling workshop-3055010657	
+[00:00:39]: modoverrides.lua enabling workshop-2948633273	
 [00:00:39]: modoverrides.lua enabling workshop-3050607025	
 [00:00:39]: modoverrides.lua enabling workshop-2597204554	
 [00:00:39]: modoverrides.lua enabling workshop-2937640068	
@@ -2338,9 +2392,10 @@
 [00:00:39]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
 [00:00:39]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
 [00:00:39]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
-[00:00:39]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
+[00:00:39]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2948633273	
 [00:00:39]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
 [00:00:39]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:39]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
 [00:00:39]: Could not load mod_config_data/modconfiguration_workshop-2847908822	
 [00:00:39]: Loading mod: workshop-2847908822 ([DST] Performance Pack) Version:24-5-1-2	
 [00:00:39]: Could not load mod_config_data/modconfiguration_workshop-1416161108	
@@ -2371,12 +2426,14 @@
 [00:00:39]: Loading mod: workshop-2477889104 (Beefalo Status Bar) Version:1.3.1	
 [00:00:39]: Could not load mod_config_data/modconfiguration_workshop-2847806795	
 [00:00:39]: Loading mod: workshop-2847806795 ( Economia Simples ) Version:1.2.3	
-[00:00:39]: Could not load mod_config_data/modconfiguration_workshop-2503437364	
-[00:00:39]: Loading mod: workshop-2503437364 (Modifiers for Equippable Items) Version:6.0.4	
+[00:00:39]: Could not load mod_config_data/modconfiguration_workshop-2948633273	
+[00:00:39]: Loading mod: workshop-2948633273 (DayW - The Zombie Mod) Version:1.0.4.	
 [00:00:39]: Could not load mod_config_data/modconfiguration_workshop-2537774396	
 [00:00:39]: Loading mod: workshop-2537774396 (Discord Thông Báo) Version:2.4.1	
 [00:00:39]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
 [00:00:39]: Loading mod: workshop-1111658995 (Show Bundle) Version:3.0	
+[00:00:39]: Could not load mod_config_data/modconfiguration_workshop-2503437364	
+[00:00:39]: Loading mod: workshop-2503437364 (Modifiers for Equippable Items) Version:6.0.4	
 [00:00:39]: applying configuration_options from modoverrides.lua to mod workshop-2847908822	
 [00:00:39]: Overriding mod workshop-2847908822's option  with value false	
 [00:00:39]: Overriding mod workshop-2847908822's option  with value false	
@@ -2469,21 +2526,47 @@
 [00:00:39]: Overriding mod workshop-3055010657's option HouseHammered with value false	
 [00:00:39]: Overriding mod workshop-3055010657's option CanSpawnSpore with value true	
 [00:00:39]: Overriding mod workshop-3055010657's option Tardis with value true	
-[00:00:39]: applying configuration_options from modoverrides.lua to mod workshop-2876537244	
-[00:00:39]: Overriding mod workshop-2876537244's option DAGGERER_BIG with value 3	
-[00:00:39]: Overriding mod workshop-2876537244's option BasicStatsSection with value 	
-[00:00:39]: Overriding mod workshop-2876537244's option EVERDAGGER_USESPERDAGGER with value 1	
-[00:00:39]: Overriding mod workshop-2876537244's option EVERDAGGER_EXTRA_ATTACK with value 10	
-[00:00:39]: Overriding mod workshop-2876537244's option DAGGERER_SMALL with value 1	
-[00:00:39]: Overriding mod workshop-2876537244's option bump with value 	
-[00:00:39]: Overriding mod workshop-2876537244's option bump with value 	
-[00:00:39]: Overriding mod workshop-2876537244's option EVERDAGGER_THIRD_ATTACK with value 45	
-[00:00:39]: Overriding mod workshop-2876537244's option HandWSection with value 	
-[00:00:39]: Overriding mod workshop-2876537244's option EVERDAGGER_CAP with value 555	
-[00:00:39]: Overriding mod workshop-2876537244's option EVERDAGGER_FIFTH_ATTACK with value 65	
-[00:00:39]: Overriding mod workshop-2876537244's option EVERDAGGER_FOURTH_ATTACK with value 55	
-[00:00:39]: Overriding mod workshop-2876537244's option EVERDAGGER_FIRST_ATTACK with value 25	
-[00:00:39]: Overriding mod workshop-2876537244's option EVERDAGGER_SECOND_ATTACK with value 35	
+[00:00:39]: applying configuration_options from modoverrides.lua to mod workshop-2948633273	
+[00:00:39]: Overriding mod workshop-2948633273's option BasicStatsSection with value 	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_HEALTH with value 300	
+[00:00:39]: Overriding mod workshop-2948633273's option SecondaryStatsSection with value 	
+[00:00:39]: Overriding mod workshop-2948633273's option SecondaryStatsSection with value 	
+[00:00:39]: Overriding mod workshop-2948633273's option SecondaryStatsSection with value 	
+[00:00:39]: Overriding mod workshop-2948633273's option SecondaryStatsSection with value 	
+[00:00:39]: Overriding mod workshop-2948633273's option SecondaryStatsSection with value 	
+[00:00:39]: Overriding mod workshop-2948633273's option SecondaryStatsSection with value 	
+[00:00:39]: Overriding mod workshop-2948633273's option SecondaryStatsSection with value 	
+[00:00:39]: Overriding mod workshop-2948633273's option bump with value 	
+[00:00:39]: Overriding mod workshop-2948633273's option bump with value 	
+[00:00:39]: Overriding mod workshop-2948633273's option bump with value 	
+[00:00:39]: Overriding mod workshop-2948633273's option bump with value 	
+[00:00:39]: Overriding mod workshop-2948633273's option bump with value 	
+[00:00:39]: Overriding mod workshop-2948633273's option bump with value 	
+[00:00:39]: Overriding mod workshop-2948633273's option BRAIN_HEALTH with value -10	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_ARM_PVP_DAMAGE with value 65	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_DROP_ARM with value 0.1	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_STUNLOCK_CAP with value 300	
+[00:00:39]: Overriding mod workshop-2948633273's option BRAIN_SANITY with value -50	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_SANITYLOSS with value 0.25	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_PROBABILITY_RED with value 1	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_PROBABILITY_GREY with value 1	
+[00:00:39]: Overriding mod workshop-2948633273's option BRAINSTAFF_COST_BRAIN with value 5	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_ARM_USES with value 100	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_AGGRO_RANGE with value 5	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_PROBABILITY_BLUE with value 1	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_MAX_STAFFLESS with value 15	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_MAX_STAFF with value 15	
+[00:00:39]: Overriding mod workshop-2948633273's option BRAIN_HUNGER with value 15	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_DROP_BONE with value 0.2	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_DROP_FIRST_MEAT with value 0.8	
+[00:00:39]: Overriding mod workshop-2948633273's option BRAINSTAFF_DAMAGE with value 75	
+[00:00:39]: Overriding mod workshop-2948633273's option BRAINSTAFF_COST_BONE with value 1	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_DROP_MEAT with value 0.3	
+[00:00:39]: Overriding mod workshop-2948633273's option SPAWN_STRUCTURE_AWAY with value 10	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_DAMAGE with value 300	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_ARM_DAMAGE with value 55	
+[00:00:39]: Overriding mod workshop-2948633273's option ZOMBIE_PROBABILITY_BRAINLESS with value 1	
+[00:00:39]: Overriding mod workshop-2948633273's option BRAINSTAFF_COST_ROPE with value 1	
 [00:00:39]: applying configuration_options from modoverrides.lua to mod workshop-3050607025	
 [00:00:39]: Overriding mod workshop-3050607025's option beefalo with value 50	
 [00:00:39]: Overriding mod workshop-3050607025's option log with value 50	
@@ -2876,142 +2959,150 @@
 [00:00:40]: modimport: ../mods/workshop-3150203711/init/init_skins	
 [00:00:40]: modimport: ../mods/workshop-3150203711/postinit/prefabs	
 [00:00:40]: modimport: ../mods/workshop-3150203711/postinit/components	
-[00:00:41]: modimport: ../mods/workshop-3150203711/postinit/stategraphs	
-[00:00:41]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
-[00:00:41]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:41]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
-[00:00:41]: modimport: ../mods/workshop-1111658995/main/util.lua	
-[00:00:41]: modimport: ../mods/workshop-1111658995/main/showbundle_widgetcreation.lua	
-[00:00:41]: Mod: workshop-2537774396 (Discord Thông Báo)	Loading modworldgenmain.lua	
-[00:00:41]: Mod: workshop-2537774396 (Discord Thông Báo)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:41]: Mod: workshop-2537774396 (Discord Thông Báo)	Loading modmain.lua	
-[00:00:41]: Mod: workshop-3156633422 (MyPet (Fix))	Loading modworldgenmain.lua	
-[00:00:41]: Mod: workshop-3156633422 (MyPet (Fix))	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:41]: Mod: workshop-3156633422 (MyPet (Fix))	Loading modmain.lua	
-[00:00:41]: modimport: ../mods/workshop-3156633422/scripts/musha_adds_actions.lua	
-[00:00:41]: modimport: ../mods/workshop-3156633422/scripts/strings_critter_en.lua	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1416161108	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3156633422	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2167036904	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3055010657	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3050607025	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2597204554	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2937640068	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2854057841	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3150203711	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2324689937	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
-[00:00:41]: modimport: ../mods/workshop-3156633422/libs/use.lua	
-[00:00:41]: Mod: workshop-2854057841 (Noitosfera)	Loading modworldgenmain.lua	
-[00:00:41]: Mod: workshop-2854057841 (Noitosfera)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:41]: Mod: workshop-2854057841 (Noitosfera)	Loading modmain.lua	
-[00:00:41]: modimport: ../mods/workshop-2854057841/main/desummon.lua	
-[00:00:41]: modimport: ../mods/workshop-2854057841/main/enemyselect.lua	
-[00:00:41]: Mod: workshop-3050607025 (Lag Remover)	Loading modworldgenmain.lua	
-[00:00:41]: Mod: workshop-3050607025 (Lag Remover)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:41]: Mod: workshop-3050607025 (Lag Remover)	Loading modmain.lua	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1416161108	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3156633422	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2167036904	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3055010657	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3050607025	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2597204554	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2937640068	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2854057841	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3150203711	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2324689937	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1416161108	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3156633422	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2167036904	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3055010657	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3050607025	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2597204554	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2937640068	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2854057841	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3150203711	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2324689937	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
-[00:00:41]: modimport: ../mods/workshop-3050607025/scripts/more_stack_size.lua	
-[00:00:41]: modimport: ../mods/workshop-3050607025/scripts/auto_clean.lua	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1416161108	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3156633422	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2167036904	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3055010657	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3050607025	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2597204554	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2937640068	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2854057841	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3150203711	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2324689937	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1416161108	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3156633422	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2167036904	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3055010657	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3050607025	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2597204554	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2937640068	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2854057841	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3150203711	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2324689937	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
-[00:00:41]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
-[00:00:41]: modimport: ../mods/workshop-3050607025/scripts/stop_regrowth.lua	
-[00:00:41]: modimport: ../mods/workshop-3050607025/scripts/no_stump.lua	
-[00:00:41]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
-[00:00:41]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:41]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
-[00:00:41]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
-[00:00:41]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:41]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
-[00:00:41]: Mod: workshop-2847806795 ( Economia Simples )	Loading modworldgenmain.lua	
-[00:00:41]: Mod: workshop-2847806795 ( Economia Simples )	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:41]: Mod: workshop-2847806795 ( Economia Simples )	Loading modmain.lua	
-[00:00:41]: modimport: ../mods/workshop-2847806795/scripts/SEscripts/itemlist.lua	
-[00:00:41]: Mod: workshop-2324689937 (More equip slots)	Loading modworldgenmain.lua	
-[00:00:41]: Mod: workshop-2324689937 (More equip slots)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:41]: Mod: workshop-2324689937 (More equip slots)	Loading modmain.lua	
-[00:00:41]: Mod: workshop-1416161108 (Camp Security)	Loading modworldgenmain.lua	
-[00:00:41]: Mod: workshop-1416161108 (Camp Security)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:41]: Mod: workshop-1416161108 (Camp Security)	Loading modmain.lua	
-[00:00:41]: modimport: ../mods/workshop-1416161108/data/strings.lua	
-[00:00:41]: modimport: ../mods/workshop-1416161108/lib_fn.lua	
-[00:00:41]: modimport: ../mods/workshop-1416161108/data/PlayerCache.lua	
+[00:00:40]: modimport: ../mods/workshop-3150203711/postinit/stategraphs	
+[00:00:40]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:40]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:40]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:40]: modimport: ../mods/workshop-1111658995/main/util.lua	
+[00:00:40]: modimport: ../mods/workshop-1111658995/main/showbundle_widgetcreation.lua	
+[00:00:40]: Mod: workshop-2537774396 (Discord Thông Báo)	Loading modworldgenmain.lua	
+[00:00:40]: Mod: workshop-2537774396 (Discord Thông Báo)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:40]: Mod: workshop-2537774396 (Discord Thông Báo)	Loading modmain.lua	
+[00:00:40]: Mod: workshop-3156633422 (MyPet (Fix))	Loading modworldgenmain.lua	
+[00:00:40]: Mod: workshop-3156633422 (MyPet (Fix))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:40]: Mod: workshop-3156633422 (MyPet (Fix))	Loading modmain.lua	
+[00:00:40]: modimport: ../mods/workshop-3156633422/scripts/musha_adds_actions.lua	
+[00:00:40]: modimport: ../mods/workshop-3156633422/scripts/strings_critter_en.lua	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1416161108	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3156633422	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2167036904	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3055010657	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3050607025	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2597204554	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2937640068	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2854057841	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3150203711	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2324689937	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2948633273	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
+[00:00:40]: modimport: ../mods/workshop-3156633422/libs/use.lua	
+[00:00:40]: Mod: workshop-2854057841 (Noitosfera)	Loading modworldgenmain.lua	
+[00:00:40]: Mod: workshop-2854057841 (Noitosfera)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:40]: Mod: workshop-2854057841 (Noitosfera)	Loading modmain.lua	
+[00:00:40]: modimport: ../mods/workshop-2854057841/main/desummon.lua	
+[00:00:40]: modimport: ../mods/workshop-2854057841/main/enemyselect.lua	
+[00:00:40]: Mod: workshop-3050607025 (Lag Remover)	Loading modworldgenmain.lua	
+[00:00:40]: Mod: workshop-3050607025 (Lag Remover)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:40]: Mod: workshop-3050607025 (Lag Remover)	Loading modmain.lua	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1416161108	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3156633422	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2167036904	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3055010657	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3050607025	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2597204554	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2937640068	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2854057841	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3150203711	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2324689937	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2948633273	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1416161108	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3156633422	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2167036904	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3055010657	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3050607025	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2597204554	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2937640068	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2854057841	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3150203711	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2324689937	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2948633273	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
+[00:00:40]: modimport: ../mods/workshop-3050607025/scripts/more_stack_size.lua	
+[00:00:40]: modimport: ../mods/workshop-3050607025/scripts/auto_clean.lua	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1416161108	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3156633422	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2167036904	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3055010657	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3050607025	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2597204554	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2937640068	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2854057841	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3150203711	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2324689937	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2948633273	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1416161108	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3156633422	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2167036904	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3055010657	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3050607025	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2597204554	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2937640068	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2854057841	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3150203711	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2324689937	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2477889104	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847806795	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2948633273	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2537774396	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:40]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2503437364	
+[00:00:40]: modimport: ../mods/workshop-3050607025/scripts/stop_regrowth.lua	
+[00:00:40]: modimport: ../mods/workshop-3050607025/scripts/no_stump.lua	
+[00:00:40]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modworldgenmain.lua	
+[00:00:40]: Mod: workshop-2167036904 (Discord Button Reborn)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:40]: Mod: workshop-2167036904 (Discord Button Reborn)	Loading modmain.lua	
+[00:00:40]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	Loading modworldgenmain.lua	
+[00:00:40]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:40]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	Loading modmain.lua	
+[00:00:40]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modworldgenmain.lua	
+[00:00:40]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:40]: Mod: workshop-2477889104 (Beefalo Status Bar)	Loading modmain.lua	
+[00:00:40]: Mod: workshop-2847806795 ( Economia Simples )	Loading modworldgenmain.lua	
+[00:00:40]: Mod: workshop-2847806795 ( Economia Simples )	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:40]: Mod: workshop-2847806795 ( Economia Simples )	Loading modmain.lua	
+[00:00:40]: modimport: ../mods/workshop-2847806795/scripts/SEscripts/itemlist.lua	
+[00:00:40]: Mod: workshop-2324689937 (More equip slots)	Loading modworldgenmain.lua	
+[00:00:40]: Mod: workshop-2324689937 (More equip slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:40]: Mod: workshop-2324689937 (More equip slots)	Loading modmain.lua	
+[00:00:40]: Mod: workshop-1416161108 (Camp Security)	Loading modworldgenmain.lua	
+[00:00:40]: Mod: workshop-1416161108 (Camp Security)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:40]: Mod: workshop-1416161108 (Camp Security)	Loading modmain.lua	
+[00:00:40]: modimport: ../mods/workshop-1416161108/data/strings.lua	
+[00:00:40]: modimport: ../mods/workshop-1416161108/lib_fn.lua	
+[00:00:40]: modimport: ../mods/workshop-1416161108/data/PlayerCache.lua	
 [00:00:41]: modimport: ../mods/workshop-1416161108/scripts/patches/controlpanel.lua	
 [00:00:41]: modimport: ../mods/workshop-1416161108/scripts/patches/friendlist.lua	
 [00:00:41]: modimport: ../mods/workshop-1416161108/scripts/patches/lockedcontainers.lua	
@@ -3117,16 +3208,16 @@
 [00:00:41]: modimport: ../mods/workshop-2937640068/main_initialize.lua	
 [00:00:41]: CZ-INFO : Loading save files	
 [00:00:41]: modimport: ../mods/workshop-2937640068/main_recipes.lua	
-[00:00:42]: modimport: ../mods/workshop-2937640068/main_containers.lua	
-[00:00:42]: modimport: ../mods/workshop-2937640068/main_winonaexpert.lua	
-[00:00:42]: modimport: ../mods/workshop-2937640068/main_wxexpert.lua	
-[00:00:42]: modimport: ../mods/workshop-2937640068/main_warlyexpert.lua	
-[00:00:42]: modimport: ../mods/workshop-2937640068/scripts/functions/customtechtree.lua	
-[00:00:42]: modimport: ../mods/workshop-2937640068/main_fx.lua	
-[00:00:42]: Mod: workshop-2847908822 ([DST] Performance Pack)	Loading modworldgenmain.lua	
-[00:00:42]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:42]: Mod: workshop-2847908822 ([DST] Performance Pack)	Loading modmain.lua	
-[00:00:42]: modimport: ../mods/workshop-2847908822/1.lua	
+[00:00:41]: modimport: ../mods/workshop-2937640068/main_containers.lua	
+[00:00:41]: modimport: ../mods/workshop-2937640068/main_winonaexpert.lua	
+[00:00:41]: modimport: ../mods/workshop-2937640068/main_wxexpert.lua	
+[00:00:41]: modimport: ../mods/workshop-2937640068/main_warlyexpert.lua	
+[00:00:41]: modimport: ../mods/workshop-2937640068/scripts/functions/customtechtree.lua	
+[00:00:41]: modimport: ../mods/workshop-2937640068/main_fx.lua	
+[00:00:41]: Mod: workshop-2847908822 ([DST] Performance Pack)	Loading modworldgenmain.lua	
+[00:00:41]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:41]: Mod: workshop-2847908822 ([DST] Performance Pack)	Loading modmain.lua	
+[00:00:41]: modimport: ../mods/workshop-2847908822/1.lua	
 [00:00:42]: modimport: ../mods/workshop-2847908822/10.lua	
 [00:00:42]: modimport: ../mods/workshop-2847908822/8.lua	
 [00:00:42]: modimport: ../mods/workshop-2847908822/7.lua	
@@ -3183,7 +3274,7 @@
 [00:00:45]: bloom_enabled	true	
 [00:00:45]: OnFilesLoaded()	
 [00:00:45]: OnUpdatePurchaseStateComplete	
-[00:00:45]: Loading world: session/BF953A8AFDD25F52/0000002941	
+[00:00:45]: Loading world: session/BF953A8AFDD25F52/0000002946	
 [00:00:45]: Save file is at version 5.146	
 [00:00:45]: Klump load on boot started.	
 [00:00:45]: Klump files loaded: 	0	
@@ -3378,34 +3469,47 @@
 [00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_held2	
 [00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_ground2	
 [00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering default mod prefab	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/terraprisma	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/terraprisma_magic	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_red	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_green	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_blue	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_yellow	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_orange	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_purple	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/opticstaff	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    opticstaff	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/eyeofterror_summon	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    eyeofterror_summon1	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    eyeofterror_summon2	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/laser	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laser	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    chasni_playerlaser	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserempty	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    chasni_playerlaserempty	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserscorch	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    chasni_lasertrail	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserhit	
-[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/terraprisma	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/terraprisma_magic	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_red	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_green	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_blue	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_yellow	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_orange	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_purple	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/opticstaff	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    opticstaff	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/eyeofterror_summon	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    eyeofterror_summon1	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    eyeofterror_summon2	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/laser	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laser	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    chasni_playerlaser	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserempty	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    chasni_playerlaserempty	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserscorch	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    chasni_lasertrail	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserhit	
+[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
 [00:00:52]: Mod: workshop-3050607025 (Lag Remover)	Registering prefabs	
 [00:00:52]: Mod: workshop-3050607025 (Lag Remover)	  Registering default mod prefab	
 [00:00:52]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
 [00:00:52]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
+[00:00:52]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	Registering prefabs	
+[00:00:52]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	  Registering prefab file: prefabs/brainstaff	
+[00:00:52]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	    brainstaff	
+[00:00:52]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	  Registering prefab file: prefabs/zombie_brain	
+[00:00:52]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	    zombie_brain	
+[00:00:52]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	  Registering prefab file: prefabs/zombies	
+[00:00:52]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	    zombie_red	
+[00:00:52]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	    zombie_grey	
+[00:00:52]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	    zombie_blue	
+[00:00:52]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	    zombie_brainless	
+[00:00:52]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	  Registering prefab file: prefabs/zombie_arm	
+[00:00:52]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	    zombie_arm	
+[00:00:52]: Mod: workshop-2948633273 (DayW - The Zombie Mod)	  Registering default mod prefab	
 [00:00:52]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
 [00:00:52]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
 [00:00:52]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
@@ -4208,8 +4312,8 @@
 [00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/uncontested/upgraded_beehat	
 [00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_beehat	
 [00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering default mod prefab	
-[00:00:53]: Could not preload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
-[00:00:53]: Could not preload undefined prefab (chasni_crab_shadowlunarorgan)
+[00:00:54]: Could not preload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
+[00:00:54]: Could not preload undefined prefab (chasni_crab_shadowlunarorgan)
 [00:00:54]: Could not preload undefined prefab (chasni_fire_crab_king_claw_fx_build)
 [00:00:54]: Could not preload undefined prefab (chasni_crab_shadowfireorgan)
 [00:00:54]: Could not preload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
@@ -4234,11 +4338,12 @@
 [00:00:58]: 	LOAD BE	
 [00:01:11]: Could not preload undefined prefab (brokenwall_scrap)
 [00:01:14]: 	LOAD BE: done	
-[00:01:14]: Begin Session: BF953A8AFDD25F52
-[00:01:14]: saving to server_temp/server_save	
+[00:01:15]: Begin Session: BF953A8AFDD25F52
+[00:01:15]: saving to server_temp/server_save	
 [00:01:15]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
 [00:01:15]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
 [00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3150203711/images/shoesminimap.xml )
+[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2948633273/images/inventoryimages/brain.xml )
 [00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/anvil.xml )
 [00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/schatztruhe.xml )
 [00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/treasurechasechest.xml )
@@ -4254,35 +4359,35 @@
 [00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/propelomatic.xml )
 [00:01:15]: ---### a player is come back! reset the name? ###---	
 [00:01:15]: Loading 19 new character(s)	
-[00:01:16]: Total 19 character(s) loaded	
+[00:01:17]: Total 19 character(s) loaded	
 [00:01:18]: Loading Nav Grid	
 [00:01:18]: World generated on build 587581 with save version: 5.142, using seed: 1655873162	
 [00:01:18]: setting 	summerlength	15	
 [00:01:18]: setting 	cavemoonphase	full	
 [00:01:18]: setting 	iscavefullmoon	false	
 [00:01:18]: setting 	isnightmaredawn	false	
-[00:01:18]: setting 	elapseddaysinseason	4	
+[00:01:18]: setting 	elapseddaysinseason	5	
 [00:01:18]: setting 	isfullmoon	false	
-[00:01:18]: setting 	moisture	7333.2338867188	
+[00:01:18]: setting 	moisture	7299.2797851562	
 [00:01:18]: setting 	springlength	20	
 [00:01:18]: setting 	islunarhailing	false	
 [00:01:18]: setting 	isnightmarewild	false	
 [00:01:18]: setting 	nightmaretimeinphase	0	
-[00:01:18]: setting 	precipitationrate	0.19998597954479	
+[00:01:18]: setting 	precipitationrate	0	
 [00:01:18]: setting 	iswet	true	
 [00:01:18]: setting 	isnewmoon	false	
-[00:01:18]: setting 	israining	true	
+[00:01:18]: setting 	israining	false	
 [00:01:18]: setting 	iswinter	false	
 [00:01:18]: setting 	isnightmarewarn	false	
-[00:01:18]: setting 	precipitation	rain	
+[00:01:18]: setting 	precipitation	none	
 [00:01:18]: setting 	iscavewaxingmoon	false	
 [00:01:18]: setting 	isacidraining	false	
 [00:01:18]: setting 	moonphase	full	
-[00:01:18]: setting 	remainingdaysinseason	16	
-[00:01:18]: setting 	temperature	45.347119135754	
-[00:01:18]: setting 	wetness	86.440925598145	
-[00:01:18]: setting 	cycles	2714	
-[00:01:18]: setting 	moistureceil	9795.3876953125	
+[00:01:18]: setting 	remainingdaysinseason	15	
+[00:01:18]: setting 	temperature	41.118188624756	
+[00:01:18]: setting 	wetness	36.718044281006	
+[00:01:18]: setting 	cycles	2715	
+[00:01:18]: setting 	moistureceil	7501.9360351562	
 [00:01:18]: setting 	isday	true	
 [00:01:18]: setting 	winterlength	15	
 [00:01:18]: setting 	season	autumn	
@@ -4294,8 +4399,8 @@
 [00:01:18]: setting 	isspring	false	
 [00:01:18]: setting 	isautumn	true	
 [00:01:18]: setting 	iscaveday	true	
-[00:01:18]: setting 	lunarhaillevel	98.883445739746	
-[00:01:18]: setting 	pop	1	
+[00:01:18]: setting 	lunarhaillevel	2.121565580368	
+[00:01:18]: setting 	pop	0.21801519353672	
 [00:01:18]: setting 	snowlevel	0	
 [00:01:18]: setting 	issnowcovered	false	
 [00:01:18]: setting 	autumnlength	20	
@@ -4304,36 +4409,48 @@
 [00:01:18]: setting 	issnowing	false	
 [00:01:18]: setting 	iscavedusk	false	
 [00:01:18]: setting 	nightmarephase	none	
-[00:01:18]: setting 	timeinphase	0.87850221704554	
-[00:01:18]: setting 	seasonprogress	0.2	
+[00:01:18]: setting 	timeinphase	0.0087563196818033	
+[00:01:18]: setting 	seasonprogress	0.25	
 [00:01:18]: setting 	iscavenight	false	
 [00:01:18]: setting 	iscavenewmoon	false	
 [00:01:18]: setting 	issummer	false	
 [00:01:18]: setting 	cavephase	day	
-[00:01:18]: setting 	time	0.49415749708811	
-[00:01:18]: OVERRIDE: setting	resettime	to	none	
-[00:01:18]: OVERRIDE: setting	basicresource_regrowth	to	always	
-[00:01:18]: OVERRIDE: setting	portalresurection	to	always	
-[00:01:18]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:01:18]: setting 	time	0.0043781598409017	
+[00:01:19]: OVERRIDE: setting	resettime	to	none	
+[00:01:19]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:01:19]: OVERRIDE: setting	portalresurection	to	always	
+[00:01:19]: OVERRIDE: setting	ghostsanitydrain	to	none	
 [00:01:22]: [dst-more-equip-slots]	INFO	["upgraded_blueamulet"] = EQUIP_TYPES.AMULET, -- Quas Amulet	
 [00:01:29]: Could not find anim bank [nature_staff]
 [00:01:29]: Could not find anim bank [nature_staff]
-[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:47]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:53]: [dst-more-equip-slots]	INFO	["terraprisma"] = EQUIP_TYPES.AMULET, -- Terraprisma	
+[00:01:48]: [dst-more-equip-slots]	INFO	["terraprisma"] = EQUIP_TYPES.AMULET, -- Terraprisma	
+[00:01:50]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:50]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:50]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:50]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:50]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:50]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:50]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:50]: Could not find anim [idle_loop] in bank [schatzkarte]
+[00:01:56]: Could not find anim build FROMNUM
+[00:01:56]: Could not find anim build FROMNUM
+[00:01:56]: Could not find anim build FROMNUM
+[00:01:57]: [dst-more-equip-slots]	INFO	["upgraded_amulet"] = EQUIP_TYPES.AMULET, -- Exort Amulet	
+[00:01:57]: [dst-more-equip-slots]	INFO	["upgraded_blueamulet"] = EQUIP_TYPES.AMULET, -- Quas Amulet	
+[00:01:57]: [dst-more-equip-slots]	INFO	["armorgold"] = nil, -- Golden Scalemail	
+[00:01:57]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
+[00:01:57]: Could not find anim bank [hell_armor]
+[00:01:57]: [dst-more-equip-slots]	INFO	["hell_armor"] = nil, -- Diabolical Robe	
+[00:01:57]: Could not find anim bank [hell_armor]
+[00:01:57]: [dst-more-equip-slots]	INFO	["hell_armor"] = nil, -- Diabolical Robe	
+[00:01:57]: Could not find anim [idle_loop] in bank [schatzkarte]
 [00:01:57]: [dst-more-equip-slots]	INFO	["slipscraft"] = nil, -- Slipscraft	
 [00:01:57]: [dst-more-equip-slots]	INFO	["armorgold"] = nil, -- Golden Scalemail	
-[00:01:57]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
+[00:01:58]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
 [00:01:58]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
 [00:01:58]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
-[00:01:58]: Could not find anim [chasni_save] in bank [FROMNUM]
-[00:01:58]: Could not find anim [chasni_save] in bank [FROMNUM]
+[00:01:59]: Could not find anim [chasni_save] in bank [FROMNUM]
+[00:01:59]: Could not find anim [chasni_save] in bank [FROMNUM]
 [00:01:59]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
 [00:01:59]: Could not find anim [chasni_exp] in bank [FROMNUM]
 [00:01:59]: Could not find anim [chasni_achiev] in bank [FROMNUM]
@@ -4355,111 +4472,490 @@
 [00:01:59]: Could not find anim build FROMNUM
 [00:01:59]: Could not find anim build FROMNUM
 [00:01:59]: Could not find anim build FROMNUM
-[00:01:59]: [dst-more-equip-slots]	INFO	["upgraded_amulet"] = EQUIP_TYPES.AMULET, -- Exort Amulet	
-[00:01:59]: [dst-more-equip-slots]	INFO	["upgraded_blueamulet"] = EQUIP_TYPES.AMULET, -- Quas Amulet	
-[00:01:59]: [dst-more-equip-slots]	INFO	["armorgold"] = nil, -- Golden Scalemail	
-[00:01:59]: [dst-more-equip-slots]	INFO	["luckamulet"] = EQUIP_TYPES.AMULET, -- Amuleto da sorte	
-[00:01:59]: Could not find anim bank [hell_armor]
-[00:02:00]: [dst-more-equip-slots]	INFO	["hell_armor"] = nil, -- Diabolical Robe	
-[00:02:00]: Could not find anim bank [hell_armor]
-[00:02:00]: [dst-more-equip-slots]	INFO	["hell_armor"] = nil, -- Diabolical Robe	
-[00:02:00]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:00]: Could not find anim build FROMNUM
-[00:02:02]: Could not find anim [idle] in bank [cappy]
-[00:02:09]: Reconstructing topology	
-[00:02:09]: 	...Sorting points	
-[00:02:09]: 	...Sorting edges	
-[00:02:09]: 	...Connecting nodes	
-[00:02:09]: 	...Validating connections	
-[00:02:09]: 	...Housekeeping	
-[00:02:09]: 	...Done!	
-[00:02:09]: You must first AddTimer before you can start a timer	bearger_timetospawn	
-[00:02:09]: You must first AddTimer before you can start a timer	bearger_timetospawn	
-[00:02:09]: 1 uploads added to server. From server_temp
-[00:02:09]: About to start a shard with these settings:
-[00:02:09]:   ShardName: [SHDMASTER]
-[00:02:09]:   ShardID: 1
-[00:02:09]:   ShardRole: MASTER
-[00:02:09]:   MasterHost: (null)
-[00:02:09]:   MasterBind: 127.0.0.1
-[00:02:09]:   MasterPort: 10998
-[00:02:09]: [Shard] Starting master server
-[00:02:09]: [Shard] Shard server started on port: 10998
-[00:02:09]: Telling Client our new session identifier: BF953A8AFDD25F52
-[00:02:09]: Check for write access: TRUE
-[00:02:09]: Check for read access: TRUE
-[00:02:09]: Available disk space for save files: 116445 MB
-[00:02:09]: ModIndex: Load sequence finished successfully.	
-[00:02:10]: Reset() returning
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim build FROMNUM
+[00:01:59]: Could not find anim [idle] in bank [cappy]
+[00:02:08]: Reconstructing topology	
+[00:02:08]: 	...Sorting points	
+[00:02:08]: 	...Sorting edges	
+[00:02:08]: 	...Connecting nodes	
+[00:02:08]: 	...Validating connections	
+[00:02:08]: 	...Housekeeping	
+[00:02:08]: 	...Done!	
+[00:02:08]: You must first AddTimer before you can start a timer	bearger_timetospawn	
+[00:02:08]: You must first AddTimer before you can start a timer	bearger_timetospawn	
+[00:02:08]: Truncating to snapshot #2946...
+[00:02:08]:  - session/BF953A8AFDD25F52/A7G8QNL4JQKO/0000002947
+[00:02:08]:    1 file(s) removed
+[00:02:08]: 1 uploads added to server. From server_temp
+[00:02:08]: About to start a shard with these settings:
+[00:02:08]:   ShardName: [SHDMASTER]
+[00:02:08]:   ShardID: 1
+[00:02:08]:   ShardRole: MASTER
+[00:02:08]:   MasterHost: (null)
+[00:02:08]:   MasterBind: 127.0.0.1
+[00:02:08]:   MasterPort: 10998
+[00:02:08]: [Shard] Starting master server
+[00:02:08]: [Shard] Shard server started on port: 10998
+[00:02:08]: Telling Client our new session identifier: BF953A8AFDD25F52
+[00:02:08]: Check for write access: TRUE
+[00:02:08]: Check for read access: TRUE
+[00:02:08]: Available disk space for save files: 110160 MB
+[00:02:08]: ModIndex: Load sequence finished successfully.	
+[00:02:09]: Reset() returning
+[00:02:13]: Validating portal[4] <-> 4239966897[4] (inactive)	
+[00:02:13]: Validating portal[7] <-> 4239966897[7] (inactive)	
+[00:02:13]: Validating portal[9] <-> 4239966897[9] (inactive)	
+[00:02:13]: Validating portal[8] <-> 4239966897[8] (inactive)	
+[00:02:13]: Validating portal[5] <-> 4239966897[5] (inactive)	
+[00:02:13]: Validating portal[6] <-> 4239966897[6] (inactive)	
 [00:02:14]: Validating portal[10] <-> 4239966897[10] (inactive)	
 [00:02:14]: Validating portal[2] <-> 4239966897[2] (inactive)	
-[00:02:14]: Validating portal[4] <-> 4239966897[4] (inactive)	
+[00:02:14]: Validating portal[3] <-> 4239966897[3] (inactive)	
 [00:02:14]: Validating portal[1] <-> 4239966897[1] (inactive)	
-[00:02:14]: Validating portal[7] <-> 4239966897[7] (inactive)	
-[00:02:14]: Validating portal[9] <-> 4239966897[9] (inactive)	
-[00:02:14]: Validating portal[6] <-> 4239966897[6] (inactive)	
-[00:02:15]: Validating portal[5] <-> 4239966897[5] (inactive)	
-[00:02:15]: Validating portal[8] <-> 4239966897[8] (inactive)	
-[00:02:15]: Validating portal[3] <-> 4239966897[3] (inactive)	
-[00:02:16]: Server registered via geo DNS in us-east-1
-[00:02:16]: Sim paused
-[00:02:16]: [Shard] Secondary shard Caves(4239966897) connected: [LAN] 127.0.0.1
-[00:02:17]: [Shard] Secondary Caves(4239966897) ready!
-[00:02:17]: World 4239966897 is now connected	
-[00:02:17]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
-[00:02:17]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
-[00:02:17]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
-[00:02:17]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
-[00:02:17]: Validating portal[10] <-> 4239966897[10] (active)	
-[00:02:17]: Validating portal[2] <-> 4239966897[2] (active)	
-[00:02:17]: Validating portal[4] <-> 4239966897[4] (active)	
-[00:02:17]: Validating portal[1] <-> 4239966897[1] (active)	
-[00:02:17]: Validating portal[7] <-> 4239966897[7] (active)	
-[00:02:17]: Validating portal[9] <-> 4239966897[9] (active)	
-[00:02:17]: Validating portal[6] <-> 4239966897[6] (disabled)	
-[00:02:17]: Validating portal[5] <-> 4239966897[5] (active)	
-[00:02:17]: Validating portal[8] <-> 4239966897[8] (active)	
-[00:02:17]: Validating portal[3] <-> 4239966897[3] (active)	
-[00:02:17]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
-[00:02:17]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
-[00:02:17]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
-[00:02:17]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
+[00:02:15]: Server registered via geo DNS in us-east-1
+[00:02:15]: Sim paused
+[00:02:15]: [Shard] Secondary shard Caves(4239966897) connected: [LAN] 127.0.0.1
+[00:02:16]: [Shard] Secondary Caves(4239966897) ready!
+[00:02:16]: World 4239966897 is now connected	
+[00:02:16]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:02:16]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
+[00:02:16]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[00:02:16]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
+[00:02:16]: Validating portal[4] <-> 4239966897[4] (active)	
+[00:02:16]: Validating portal[7] <-> 4239966897[7] (active)	
+[00:02:16]: Validating portal[9] <-> 4239966897[9] (active)	
+[00:02:16]: Validating portal[8] <-> 4239966897[8] (active)	
+[00:02:16]: Validating portal[5] <-> 4239966897[5] (active)	
+[00:02:16]: Validating portal[6] <-> 4239966897[6] (disabled)	
+[00:02:16]: Validating portal[10] <-> 4239966897[10] (active)	
+[00:02:16]: Validating portal[2] <-> 4239966897[2] (active)	
+[00:02:16]: Validating portal[3] <-> 4239966897[3] (active)	
+[00:02:16]: Validating portal[1] <-> 4239966897[1] (active)	
+[00:02:16]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
+[00:02:16]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
+[00:02:16]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
+[00:02:16]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
+[00:21:45]: New incoming connection 177.148.216.128|62579 <348820138451112693>
+[00:21:45]: Client connected from 177.148.216.128|62579 <348820138451112693>
+[00:21:45]: ValidateGameSessionToken GUID<348820138451112693>
+[00:21:46]: Client authenticated: (KU_cDvg4pW7) The'Cops
+[00:21:46]: [Steam] SendUserConnectAndAuthenticate for '76561198304517008'
+[00:21:46]: [Steam] Authenticated client '76561198304517008'
+[00:21:48]: There is no active event to validate against.
+[00:21:48]: [Shard] Read save location file for (KU_cDvg4pW7)
+[00:24:16]: Resuming user: session/BF953A8AFDD25F52/A7KORPL16E07/0000001239
+[00:24:16]: Could not find anim [idle_loop] in bank [ghost]
+[00:24:16]: Spawning player at: [Load] (271.17, 0.00, 103.75)	
+[00:24:16]: Sim unpaused
+[00:24:17]: [Quest System] Add Local Quests to	123952 - webber	
+[00:25:49]: Remote direct walking out of range	
+[00:25:49]: Remote direct walking out of range	
+[00:25:49]: Remote direct walking out of range	
+[00:25:49]: Remote direct walking out of range	
+[00:26:36]: Remote direct walking out of range	
+[00:26:36]: Remote direct walking out of range	
+[00:26:36]: Remote direct walking out of range	
+[00:26:49]: Could not find anim [idle_loop] in bank [ghost]
+[00:26:52]: Serializing user: session/BF953A8AFDD25F52/A7KORPL16E07/0000002947
+[00:27:38]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:38]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:38]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:38]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:38]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:38]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:38]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:38]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:38]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:38]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:38]: TryAttack	124856 - zombie_grey	nil	
+[00:27:38]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:38]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:38]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:38]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:39]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:39]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:39]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:39]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:39]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:39]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:39]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:39]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:39]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:39]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:39]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:39]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:39]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124856 - zombie_grey	nil	
+[00:27:39]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:39]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:40]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:40]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:40]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:40]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:40]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:40]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:40]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:40]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:40]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:40]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:40]: TryAttack	124712 - zombie_blue	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:40]: TryAttack	124712 - zombie_blue	nil	
+[00:27:40]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:40]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:40]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:40]: TryAttack	124712 - zombie_blue	nil	
+[00:27:40]: TryAttack	124712 - zombie_blue	nil	
+[00:27:40]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:40]: TryAttack	124712 - zombie_blue	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:40]: TryAttack	124856 - zombie_grey	nil	
+[00:27:41]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:41]: TryAttack	124712 - zombie_blue	nil	
+[00:27:41]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:41]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:41]: TryAttack	124856 - zombie_grey	nil	
+[00:27:41]: TryAttack	124712 - zombie_blue	nil	
+[00:27:41]: TryAttack	124712 - zombie_blue	nil	
+[00:27:41]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:41]: TryAttack	124712 - zombie_blue	nil	
+[00:27:41]: TryAttack	124856 - zombie_grey	nil	
+[00:27:41]: TryAttack	124856 - zombie_grey	nil	
+[00:27:41]: TryAttack	124856 - zombie_grey	nil	
+[00:27:41]: TryAttack	124712 - zombie_blue	nil	
+[00:27:41]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:41]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:41]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:41]: TryAttack	124856 - zombie_grey	nil	
+[00:27:41]: TryAttack	124712 - zombie_blue	nil	
+[00:27:41]: TryAttack	124712 - zombie_blue	nil	
+[00:27:41]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:41]: TryAttack	124712 - zombie_blue	nil	
+[00:27:41]: TryAttack	124856 - zombie_grey	nil	
+[00:27:41]: TryAttack	124856 - zombie_grey	nil	
+[00:27:41]: TryAttack	124856 - zombie_grey	nil	
+[00:27:41]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:41]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:41]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:41]: TryAttack	124856 - zombie_grey	nil	
+[00:27:41]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:41]: TryAttack	124856 - zombie_grey	nil	
+[00:27:41]: TryAttack	124856 - zombie_grey	nil	
+[00:27:41]: TryAttack	124856 - zombie_grey	nil	
+[00:27:41]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:41]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:41]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:41]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:42]: TryAttack	124856 - zombie_grey	nil	
+[00:27:42]: TryAttack	124850 - zombie_brainless	nil	
+[00:27:43]: TryAttack	124856 - zombie_grey	nil	
+[00:27:43]: TryAttack	124856 - zombie_grey	nil	
+[00:27:43]: TryAttack	124856 - zombie_grey	nil	
+[00:27:43]: TryAttack	124856 - zombie_grey	nil	
+[00:27:43]: TryAttack	124856 - zombie_grey	nil	
+[00:27:43]: TryAttack	124856 - zombie_grey	nil	
+[00:27:43]: TryAttack	124856 - zombie_grey	nil	
+[00:27:43]: TryAttack	124856 - zombie_grey	nil	
+[00:27:43]: TryAttack	124856 - zombie_grey	nil	
+[00:27:43]: TryAttack	124856 - zombie_grey	nil	
+[00:27:43]: TryAttack	124856 - zombie_grey	nil	
+[00:27:43]: TryAttack	124856 - zombie_grey	nil	
+[00:27:55]: TryAttack	124854 - zombie_blue	nil	
+[00:27:55]: TryAttack	124854 - zombie_blue	nil	
+[00:27:55]: TryAttack	124854 - zombie_blue	nil	
+[00:27:55]: TryAttack	124854 - zombie_blue	nil	
+[00:27:55]: TryAttack	124854 - zombie_blue	nil	
+[00:27:55]: TryAttack	124854 - zombie_blue	nil	
+[00:27:55]: TryAttack	124854 - zombie_blue	nil	
+[00:27:55]: TryAttack	124854 - zombie_blue	nil	
+[00:27:55]: TryAttack	124854 - zombie_blue	nil	
+[00:27:55]: TryAttack	124854 - zombie_blue	nil	
+[00:27:56]: TryAttack	124854 - zombie_blue	nil	
+[00:27:56]: TryAttack	124854 - zombie_blue	nil	
+[00:27:56]: TryAttack	124854 - zombie_blue	nil	
+[00:27:56]: TryAttack	124854 - zombie_blue	nil	
+[00:28:00]: TryAttack	124854 - zombie_blue	nil	
+[00:28:00]: TryAttack	124854 - zombie_blue	nil	
+[00:28:00]: TryAttack	124854 - zombie_blue	nil	
+[00:28:00]: attack onenter	123952 - webber	
+[00:28:00]: TryAttack	124854 - zombie_blue	nil	
+[00:28:00]: TryAttack	124854 - zombie_blue	nil	
+[00:28:00]: TryAttack	124854 - zombie_blue	nil	
+[00:28:00]: TryAttack	124854 - zombie_blue	nil	
+[00:28:00]: TryAttack	124854 - zombie_blue	nil	
+[00:28:00]: TryAttack	124854 - zombie_blue	nil	
+[00:28:00]: TryAttack	124854 - zombie_blue	nil	
+[00:28:01]: doattack	123952 - webber	
+[00:28:01]: TryAttack	124854 - zombie_blue	nil	
+[00:28:01]: TryAttack	124854 - zombie_blue	nil	
+[00:28:01]: TryAttack	124854 - zombie_blue	nil	
+[00:28:24]: TryAttack	124853 - zombie_blue	nil	
+[00:28:24]: TryAttack	124853 - zombie_blue	nil	
+[00:28:24]: TryAttack	124853 - zombie_blue	nil	
+[00:28:24]: TryAttack	124853 - zombie_blue	nil	
+[00:28:24]: TryAttack	124853 - zombie_blue	nil	
+[00:28:24]: TryAttack	124853 - zombie_blue	nil	
+[00:28:24]: TryAttack	124853 - zombie_blue	nil	
+[00:28:24]: TryAttack	124853 - zombie_blue	nil	
+[00:28:24]: TryAttack	124853 - zombie_blue	nil	
+[00:28:24]: TryAttack	124853 - zombie_blue	nil	
+[00:28:24]: TryAttack	124853 - zombie_blue	nil	
+[00:28:25]: TryAttack	124853 - zombie_blue	nil	
+[00:28:25]: TryAttack	124853 - zombie_blue	nil	
+[00:28:26]: TryAttack	124948 - zombie_blue	nil	
+[00:28:31]: TryAttack	124712 - zombie_blue	nil	
+[00:28:31]: attack onenter	123952 - webber	
+[00:28:31]: TryAttack	124712 - zombie_blue	nil	
+[00:28:31]: TryAttack	124712 - zombie_blue	nil	
+[00:28:31]: TryAttack	124712 - zombie_blue	nil	
+[00:28:32]: TryAttack	124712 - zombie_blue	nil	
+[00:28:32]: TryAttack	124712 - zombie_blue	nil	
+[00:28:32]: doattack	123952 - webber	
+[00:28:32]: TryAttack	124712 - zombie_blue	nil	
+[00:28:32]: TryAttack	124712 - zombie_blue	nil	
+[00:28:32]: TryAttack	124712 - zombie_blue	nil	
+[00:28:32]: TryAttack	124712 - zombie_blue	nil	
+[00:28:32]: TryAttack	124712 - zombie_blue	nil	
+[00:28:32]: TryAttack	124712 - zombie_blue	nil	
+[00:28:32]: TryAttack	124712 - zombie_blue	nil	
+[00:28:41]: TryAttack	125016 - zombie_blue	nil	
+[00:28:41]: TryAttack	125016 - zombie_blue	nil	
+[00:28:41]: TryAttack	125016 - zombie_blue	nil	
+[00:28:41]: TryAttack	125016 - zombie_blue	nil	
+[00:28:41]: TryAttack	125016 - zombie_blue	nil	
+[00:28:41]: TryAttack	125016 - zombie_blue	nil	
+[00:28:41]: TryAttack	125016 - zombie_blue	nil	
+[00:28:41]: TryAttack	125016 - zombie_blue	nil	
+[00:28:41]: TryAttack	125016 - zombie_blue	nil	
+[00:28:41]: TryAttack	125016 - zombie_blue	nil	
+[00:28:41]: TryAttack	125016 - zombie_blue	nil	
+[00:28:41]: TryAttack	125016 - zombie_blue	nil	
+[00:28:41]: TryAttack	125016 - zombie_blue	nil	
+[00:28:41]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:42]: TryAttack	125016 - zombie_blue	nil	
+[00:28:43]: TryAttack	125016 - zombie_blue	nil	
+[00:28:43]: TryAttack	125016 - zombie_blue	nil	
+[00:28:43]: TryAttack	125016 - zombie_blue	nil	
+[00:28:43]: TryAttack	125016 - zombie_blue	nil	
+[00:28:43]: TryAttack	125016 - zombie_blue	nil	
+[00:28:43]: TryAttack	125016 - zombie_blue	nil	
+[00:28:43]: TryAttack	125016 - zombie_blue	nil	
+[00:28:43]: TryAttack	125016 - zombie_blue	nil	
+[00:28:43]: TryAttack	125016 - zombie_blue	nil	
+[00:28:43]: TryAttack	125016 - zombie_blue	nil	
+[00:28:43]: TryAttack	125016 - zombie_blue	nil	
+[00:28:43]: TryAttack	125016 - zombie_blue	nil	
+[00:28:43]: TryAttack	125016 - zombie_blue	nil	
+[00:28:43]: attack onenter	123952 - webber	
+[00:28:43]: TryAttack	125016 - zombie_blue	nil	
+[00:28:43]: TryAttack	125016 - zombie_blue	nil	
+[00:28:44]: TryAttack	125016 - zombie_blue	nil	
+[00:28:44]: TryAttack	125016 - zombie_blue	nil	
+[00:28:44]: TryAttack	125016 - zombie_blue	nil	
+[00:28:44]: TryAttack	125016 - zombie_blue	nil	
+[00:28:44]: TryAttack	125016 - zombie_blue	nil	
+[00:28:44]: doattack	123952 - webber	
+[00:28:46]: Could not find anim [death] in bank [ghost]
+[00:28:46]: Serializing user: session/BF953A8AFDD25F52/A7KORPL16E07/0000002947
+[00:28:51]: Could not find anim [idle_loop] in bank [ghost]
+[00:28:54]: Serializing user: session/BF953A8AFDD25F52/A7KORPL16E07/0000002947
+[00:28:57]: TryAttack	124731 - zombie_grey	nil	
+[00:28:57]: TryAttack	124731 - zombie_grey	nil	
+[00:28:57]: TryAttack	124731 - zombie_grey	nil	
+[00:28:57]: TryAttack	124731 - zombie_grey	nil	
+[00:28:57]: TryAttack	124731 - zombie_grey	nil	
+[00:28:57]: TryAttack	124731 - zombie_grey	nil	
+[00:28:57]: TryAttack	124731 - zombie_grey	nil	
+[00:28:58]: TryAttack	124731 - zombie_grey	nil	
+[00:28:58]: TryAttack	124731 - zombie_grey	nil	
+[00:28:58]: TryAttack	124731 - zombie_grey	nil	
+[00:28:58]: TryAttack	124731 - zombie_grey	nil	
+[00:28:58]: attack onenter	123952 - webber	
+[00:28:58]: TryAttack	124731 - zombie_grey	nil	
+[00:28:58]: TryAttack	124731 - zombie_grey	nil	
+[00:28:58]: TryAttack	124731 - zombie_grey	nil	
+[00:28:58]: TryAttack	124731 - zombie_grey	nil	
+[00:28:58]: TryAttack	124731 - zombie_grey	nil	
+[00:28:58]: TryAttack	124731 - zombie_grey	nil	
+[00:28:58]: doattack	123952 - webber	
+[00:28:58]: TryAttack	124731 - zombie_grey	nil	
+[00:28:58]: TryAttack	124731 - zombie_grey	nil	
+[00:28:58]: TryAttack	124731 - zombie_grey	nil	
+[00:28:58]: TryAttack	124731 - zombie_grey	nil	
+[00:28:59]: TryAttack	124731 - zombie_grey	nil	
+[00:28:59]: TryAttack	124731 - zombie_grey	nil	
+[00:28:59]: TryAttack	124731 - zombie_grey	nil	
+[00:28:59]: TryAttack	124731 - zombie_grey	nil	
+[00:28:59]: TryAttack	124731 - zombie_grey	nil	
+[00:28:59]: TryAttack	124731 - zombie_grey	nil	
+[00:28:59]: TryAttack	124731 - zombie_grey	nil	
+[00:28:59]: TryAttack	124731 - zombie_grey	nil	
+[00:28:59]: TryAttack	124731 - zombie_grey	nil	
+[00:28:59]: attack onenter	123952 - webber	
+[00:28:59]: TryAttack	124731 - zombie_grey	nil	
+[00:28:59]: TryAttack	124731 - zombie_grey	nil	
+[00:28:59]: TryAttack	124731 - zombie_grey	nil	
+[00:28:59]: TryAttack	124731 - zombie_grey	nil	
+[00:28:59]: TryAttack	124731 - zombie_grey	nil	
+[00:28:59]: TryAttack	124731 - zombie_grey	nil	
+[00:29:00]: TryAttack	124731 - zombie_grey	nil	
+[00:29:00]: doattack	123952 - webber	
+[00:29:00]: TryAttack	124731 - zombie_grey	nil	
+[00:29:00]: TryAttack	124731 - zombie_grey	nil	
+[00:29:00]: TryAttack	124731 - zombie_grey	nil	
+[00:29:00]: TryAttack	124731 - zombie_grey	nil	
+[00:29:00]: TryAttack	124731 - zombie_grey	nil	
+[00:29:00]: TryAttack	124731 - zombie_grey	nil	
+[00:29:00]: TryAttack	124731 - zombie_grey	nil	
+[00:29:00]: TryAttack	124731 - zombie_grey	nil	
+[00:29:00]: TryAttack	124731 - zombie_grey	nil	
+[00:29:00]: TryAttack	124731 - zombie_grey	nil	
+[00:29:00]: TryAttack	124731 - zombie_grey	nil	
+[00:29:00]: TryAttack	124731 - zombie_grey	nil	
+[00:29:00]: TryAttack	124731 - zombie_grey	nil	
+[00:29:01]: TryAttack	124731 - zombie_grey	nil	
+[00:29:01]: TryAttack	124731 - zombie_grey	nil	
+[00:29:01]: TryAttack	124731 - zombie_grey	nil	
+[00:29:01]: TryAttack	124731 - zombie_grey	nil	
+[00:29:02]: TryAttack	124731 - zombie_grey	nil	
+[00:29:02]: TryAttack	124731 - zombie_grey	nil	
+[00:29:02]: TryAttack	124731 - zombie_grey	nil	
+[00:29:02]: TryAttack	124731 - zombie_grey	nil	
+[00:29:02]: TryAttack	124731 - zombie_grey	nil	
+[00:29:02]: TryAttack	124731 - zombie_grey	nil	
+[00:29:02]: TryAttack	124731 - zombie_grey	nil	
+[00:29:02]: TryAttack	124731 - zombie_grey	nil	
+[00:29:02]: TryAttack	124731 - zombie_grey	nil	
+[00:29:03]: TryAttack	124731 - zombie_grey	nil	
+[00:29:03]: TryAttack	124731 - zombie_grey	nil	
+[00:29:03]: TryAttack	124731 - zombie_grey	nil	
+[00:29:03]: TryAttack	124731 - zombie_grey	nil	
+[00:29:04]: TryAttack	124731 - zombie_grey	nil	
+[00:29:04]: TryAttack	124731 - zombie_grey	nil	
+[00:29:04]: TryAttack	124731 - zombie_grey	nil	
+[00:29:04]: TryAttack	124731 - zombie_grey	nil	
+[00:29:04]: TryAttack	124731 - zombie_grey	nil	
+[00:29:04]: TryAttack	124731 - zombie_grey	nil	
+[00:29:04]: attack onenter	123952 - webber	
+[00:29:04]: TryAttack	124731 - zombie_grey	nil	
+[00:29:04]: TryAttack	124731 - zombie_grey	nil	
+[00:29:04]: TryAttack	124731 - zombie_grey	nil	
+[00:29:05]: TryAttack	124731 - zombie_grey	nil	
+[00:29:05]: TryAttack	124731 - zombie_grey	nil	
+[00:29:05]: TryAttack	124731 - zombie_grey	nil	
+[00:29:05]: TryAttack	124731 - zombie_grey	nil	
+[00:29:05]: doattack	123952 - webber	
+[00:29:07]: Could not find anim [death] in bank [ghost]
+[00:29:07]: Serializing user: session/BF953A8AFDD25F52/A7KORPL16E07/0000002947
+[00:29:41]: [Steam] SendUserDisconnect for '76561198304517008'
+[00:29:41]: [Shard] (KU_cDvg4pW7) disconnected from [SHDMASTER](1)
+[00:29:42]: Serializing user: session/BF953A8AFDD25F52/A7KORPL16E07/0000002947
+[00:29:42]: Sim paused
 [00:30:30]: [200] Account Communication Success (6)
 [00:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [01:00:30]: [200] Account Communication Success (6)
@@ -4472,8 +4968,12 @@
 [02:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [03:00:30]: [200] Account Communication Success (6)
 [03:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[03:19:59]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 15m para manutenção programada!")"
+[03:29:59]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 5m para manutenção programada!")"
 [03:30:30]: [200] Account Communication Success (6)
 [03:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[03:33:59]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 1m para manutenção programada!")"
+[03:35:29]: RemoteCommandInput: "c_announce("Reiniciando servidor...")"
 [04:00:30]: [200] Account Communication Success (6)
 [04:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [04:30:30]: [200] Account Communication Success (6)
@@ -4492,103 +4992,57 @@
 [07:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [08:00:30]: [200] Account Communication Success (6)
 [08:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[08:30:30]: [200] Account Communication Success (6)
-[08:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[09:00:30]: [200] Account Communication Success (6)
-[09:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[09:30:30]: [200] Account Communication Success (6)
-[09:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[10:00:30]: [200] Account Communication Success (6)
-[10:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[10:30:30]: [200] Account Communication Success (6)
-[10:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[11:00:30]: [200] Account Communication Success (6)
-[11:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[11:30:30]: [200] Account Communication Success (6)
-[11:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[12:00:30]: [200] Account Communication Success (6)
-[12:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[12:30:30]: [200] Account Communication Success (6)
-[12:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[13:00:30]: [200] Account Communication Success (6)
-[13:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[13:30:30]: [200] Account Communication Success (6)
-[13:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[14:00:30]: [200] Account Communication Success (6)
-[14:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[14:30:30]: [200] Account Communication Success (6)
-[14:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[15:00:30]: [200] Account Communication Success (6)
-[15:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[15:30:30]: [200] Account Communication Success (6)
-[15:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[16:00:30]: [200] Account Communication Success (6)
-[16:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[16:30:30]: [200] Account Communication Success (6)
-[16:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[17:00:30]: [200] Account Communication Success (6)
-[17:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[17:30:30]: [200] Account Communication Success (6)
-[17:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[18:00:30]: [200] Account Communication Success (6)
-[18:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[18:30:30]: [200] Account Communication Success (6)
-[18:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[19:00:30]: [200] Account Communication Success (6)
-[19:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[19:30:30]: [200] Account Communication Success (6)
-[19:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[20:00:30]: [200] Account Communication Success (6)
-[20:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[20:30:30]: [200] Account Communication Success (6)
-[20:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[21:00:30]: [200] Account Communication Success (6)
-[21:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[21:30:30]: [200] Account Communication Success (6)
-[21:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[22:00:31]: [200] Account Communication Success (6)
-[22:00:31]: Received (KU_2DNgIUgO) from TokenPurpose
-[22:30:30]: [200] Account Communication Success (6)
-[22:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[23:00:30]: [200] Account Communication Success (6)
-[23:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[23:30:31]: [200] Account Communication Success (6)
-[23:30:31]: Received (KU_2DNgIUgO) from TokenPurpose
-[23:31:04]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 15m para manutenção programada!")"
-[23:41:05]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 5m para manutenção programada!")"
-[23:45:05]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 1m para manutenção programada!")"
-[00:00:30]: [200] Account Communication Success (6)
-[00:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[00:30:31]: [200] Account Communication Success (6)
-[00:30:31]: Received (KU_2DNgIUgO) from TokenPurpose
-[00:58:43]: RemoteCommandInput: "c_announce("Reiniciando servidor...")"
-[00:59:13]: RemoteCommandInput: "c_save()"
-[00:59:13]: Sim unpaused
-[00:59:15]: Available disk space for save files: 118771 MB
-[00:59:16]: [Quest System] Saving own quests!	
-[00:59:17]: Serializing world: session/BF953A8AFDD25F52/0000002942
-[00:59:17]: Truncating to snapshot #2942...
-[00:59:17]:  - session/BF953A8AFDD25F52/0000002936
-[00:59:17]:    1 file(s) removed
-[00:59:17]: Sim paused
-[00:59:43]: RemoteCommandInput: "c_shutdown()"
-[00:59:43]: c_shutdown	nil	
-[00:59:43]: Available disk space for save files: 118768 MB
-[00:59:44]: [Quest System] Saving own quests!	
-[00:59:45]: Serializing world: session/BF953A8AFDD25F52/0000002943
-[00:59:45]: Truncating to snapshot #2943...
-[00:59:45]:  - session/BF953A8AFDD25F52/0000002937
-[00:59:45]:  - session/BF953A8AFDD25F52/A7MC3M72FI1A/0000001002
-[00:59:45]:    2 file(s) removed
-[00:59:45]: Available disk space for save files: 118768 MB
-[00:59:46]: [Quest System] Saving own quests!	
-[00:59:47]: Serializing world: session/BF953A8AFDD25F52/0000002944
-[00:59:47]: Truncating to snapshot #2944...
-[00:59:47]:  - session/BF953A8AFDD25F52/0000002938
-[00:59:47]:  - session/BF953A8AFDD25F52/A7MC3M72FI1A/0000002938
-[00:59:47]:    2 file(s) removed
-[00:59:47]: Removing server from lobby
-[00:59:47]: [Shard] Stopping shard mode
-[00:59:47]: [Steam] SendUserDisconnect for ''
-[00:59:48]: Collecting garbage...
-[00:59:50]: lua_gc took 1.52 seconds
+[08:07:00]: RemoteCommandInput: "c_save()"
+[08:07:00]: Sim unpaused
+[08:07:00]: RemoteCommandInput: "c_shutdown()"
+[08:07:00]: c_shutdown	nil	
+[08:07:00]: Available disk space for save files: 120725 MB
+[08:07:01]: [Quest System] Saving own quests!	
+[08:07:02]: Serializing world: session/BF953A8AFDD25F52/0000002947
+[08:07:02]: Truncating to snapshot #2947...
+[08:07:02]:  - session/BF953A8AFDD25F52/0000002941
+[08:07:02]:    1 file(s) removed
+[08:07:02]: Available disk space for save files: 120725 MB
+[08:07:03]: [Quest System] Saving own quests!	
+[08:07:04]: Serializing world: session/BF953A8AFDD25F52/0000002948
+[08:07:04]: Truncating to snapshot #2948...
+[08:07:04]:  - session/BF953A8AFDD25F52/0000002942
+[08:07:04]:    1 file(s) removed
+[08:07:04]: Removing server from lobby
+[08:07:04]: [Shard] Stopping shard mode
+[08:07:05]: [Steam] SendUserDisconnect for ''
+[08:07:05]: Collecting garbage...
+[08:07:07]: lua_gc took 1.34 seconds
+[08:07:07]: ~ShardLuaProxy()
+[08:07:07]: ~cEventLeaderboardProxy()
+[08:07:07]: ~ItemServerLuaProxy()
+[08:07:07]: ~InventoryLuaProxy()
+[08:07:07]: ~NetworkLuaProxy()
+[08:07:07]: ~SimLuaProxy()
+[08:07:07]: Cancelling LuaQueryCallback handle [13]
+[08:07:07]: Cancelling LuaQueryCallback handle [14]
+[08:07:07]: Cancelling LuaQueryCallback handle [15]
+[08:07:07]: Cancelling LuaQueryCallback handle [16]
+[08:07:07]: Cancelling LuaQueryCallback handle [17]
+[08:07:07]: Cancelling LuaQueryCallback handle [18]
+[08:07:09]: lua_close took 2.03 seconds
+[08:07:09]: Could not unload undefined prefab (cckproj_ice)
+[08:07:09]: Could not unload undefined prefab (brokenwall_scrap)
+[08:07:09]: Could not unload undefined prefab (chasni_fire_crab_king_claw_fx_build)
+[08:07:09]: Could not unload undefined prefab (chasni_crab_shadowfireorgan)
+[08:07:09]: Could not unload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
+[08:07:09]: Could not unload undefined prefab (chasni_crab_shadowlunarorgan)
+[08:07:09]: Could not unload undefined prefab (chasni_water_crab_king_claw_fx_build)
+[08:07:09]: Could not unload undefined prefab (chasni_crab_shadowwaterorgan)
+[08:07:09]: Could not unload undefined prefab (chasni_ice_crab_king_claw_fx_build)
+[08:07:09]: Could not unload undefined prefab (chasni_crab_shadowiceorgan)
+[08:07:09]: Could not unload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
+[08:07:09]: Could not unload undefined prefab (chasni_crab_shadowshadoworgan)
+[08:07:09]: Could not unload undefined prefab (fryfocals_charge)
+[08:07:09]: Could not unload undefined prefab (paint_fx)
+[08:07:09]: Could not unload undefined prefab (beequeenhat)
+[08:07:09]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[08:07:09]: anim/splash_water_drop.zip - 3
+[08:07:09]: CurlRequestManager::ClientThread::Main() complete
+[08:07:09]: HttpClient2 discarded 0 callbacks.
+[08:07:10]: Shutting down

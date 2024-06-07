@@ -330,24 +330,6 @@ KLEI     1 return {
       },
       enabled=true 
     },
-    ["workshop-2876537244"]={
-      configuration_options={
-        BasicStatsSection="",
-        DAGGERER_BIG=3,
-        DAGGERER_SMALL=1,
-        EVERDAGGER_CAP=555,
-        EVERDAGGER_EXTRA_ATTACK=10,
-        EVERDAGGER_FIFTH_ATTACK=65,
-        EVERDAGGER_FIRST_ATTACK=25,
-        EVERDAGGER_FOURTH_ATTACK=55,
-        EVERDAGGER_SECOND_ATTACK=35,
-        EVERDAGGER_THIRD_ATTACK=45,
-        EVERDAGGER_USESPERDAGGER=1,
-        HandWSection="",
-        bump="" 
-      },
-      enabled=false 
-    },
     ["workshop-2937640068"]={
       configuration_options={
         [""]=0,
@@ -375,6 +357,40 @@ KLEI     1 return {
         TESTING=false,
         UNLOCKXP=true,
         WORKXP=true 
+      },
+      enabled=true 
+    },
+    ["workshop-2948633273"]={
+      configuration_options={
+        BRAINSTAFF_COST_BONE=1,
+        BRAINSTAFF_COST_BRAIN=5,
+        BRAINSTAFF_COST_ROPE=1,
+        BRAINSTAFF_DAMAGE=75,
+        BRAIN_HEALTH=-10,
+        BRAIN_HUNGER=15,
+        BRAIN_SANITY=-50,
+        BasicStatsSection="",
+        SPAWN_STRUCTURE_AWAY=10,
+        SecondaryStatsSection="",
+        ZOMBIE_AGGRO_RANGE=5,
+        ZOMBIE_ARM_DAMAGE=55,
+        ZOMBIE_ARM_PVP_DAMAGE=65,
+        ZOMBIE_ARM_USES=100,
+        ZOMBIE_DAMAGE=300,
+        ZOMBIE_DROP_ARM=0.1,
+        ZOMBIE_DROP_BONE=0.2,
+        ZOMBIE_DROP_FIRST_MEAT=0.8,
+        ZOMBIE_DROP_MEAT=0.3,
+        ZOMBIE_HEALTH=300,
+        ZOMBIE_MAX_STAFF=15,
+        ZOMBIE_MAX_STAFFLESS=15,
+        ZOMBIE_PROBABILITY_BLUE=1,
+        ZOMBIE_PROBABILITY_BRAINLESS=1,
+        ZOMBIE_PROBABILITY_GREY=1,
+        ZOMBIE_PROBABILITY_RED=1,
+        ZOMBIE_SANITYLOSS=0.25,
+        ZOMBIE_STUNLOCK_CAP=300,
+        bump="" 
       },
       enabled=true 
     },
@@ -541,11 +557,11 @@ KLEI     1 return {
   },
   server={
     clan={ admin=false, id="", only=false },
-    description="Esse é o servidor que será publicado para a temporada 2 de \"Sequelarius - Endless RPG & Casual/Social\". Está em fase de testes para monitorarmos estabilidade da conexão.",
+    description="Às terças o evento de apocalipse zumbi fica ativo. Tente ficar vivo e aproveite a oportunidade para farmar moedas e xp!",
     encode_user_path=true,
     game_mode="survival",
     max_players=12,
-    name="[Noitosfera] Sukuna",
+    name="[Noitosfera] Sukuna - Apocalipse Zumbi",
     online_mode=true,
     password="",
     playstyle="endless",
