@@ -1,16 +1,16 @@
 # [Noitosfera] Sequelarius - `Pré-Season #2`
 - De `03/01/2024` à `Hoje`
-- `3035` dias de jogo
+- `3041` dias de jogo
 - `16` dias reais passados em jogo
-- `115` jogadores únicos
-- `2185157` moedas dropadas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
-- `1676460` moedas gastas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
-- `26818` monstros normais derrotados
+- `116` jogadores únicos
+- `2185207` moedas dropadas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
+- `1689850` moedas gastas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
+- `26837` monstros normais derrotados
 - `889` chefes derrotados
 - `0` crashes do servidor
 
-# Ranking de melhores jogadores (total de `390808` pontos)
-1. 🎗️ **GMC6** *[`190132` pontos]*
+# Ranking de melhores jogadores (total de `390909` pontos)
+1. 🎗️ **GMC6** *[`190233` pontos]*
 2. 🎗️ **Vapo** *[`183364` pontos]*
 3. 🎗️ **PtckLB** *[`5702` pontos]*
 4. 🎗️ **Otomai** *[`4355` pontos]*
@@ -27,5 +27,5 @@
 > Concedido ao jogador que mais conversou na temporada
 - ~🤔 O Indeciso: Otomai (`0` mudanças de personagem)~
 > ~Concedido ao jogador que mais trocou de personagem na temporada~
-- 😴 O Vagabundo: GMC6 (`11432` minutos / `190.53` horas / `3.17` dias)
+- 😴 O Vagabundo: GMC6 (`11704` minutos / `195.06` horas / `3.25` dias)
 > Concedido ao jogador que passou mais tempo online (no servidor) na temporada
