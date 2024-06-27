@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Caves/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 605310
-[00:00:00]: Current time: Tue Jun 25 03:31:31 2024
+[00:00:00]: Current time: Wed Jun 26 05:06:14 2024
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: 7a3ca1759d56
@@ -15,7 +15,7 @@
 [00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Caves 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (277938563485536)
+[00:00:00]: THREAD - started 'GAClient' (281395490205536)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: ProfileIndex:22.51
 [00:00:00]: Mounting file system databundles/klump.zip successful.
@@ -31,7 +31,7 @@
 [00:00:01]: Platform: 1
 [00:00:01]: Network tick rate: U=15(2), D=0
 [00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (277938439499616)
+[00:00:01]: THREAD - started 'StreamInput' (281395243048800)
 [00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
 [00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
 [00:00:01]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
@@ -626,8 +626,8 @@
 [00:00:10]: Overriding mod workshop-2854057841's option os_hammer with value false	
 [00:00:10]: Overriding mod workshop-2854057841's option number with value 6	
 [00:00:10]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modworldgenmain.lua	
-[00:00:10]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modmain.lua	
-[00:00:10]: modimport: ../mods/workshop-2597204554/quest_system/tuning_strings.lua	
+[00:00:11]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modmain.lua	
+[00:00:11]: modimport: ../mods/workshop-2597204554/quest_system/tuning_strings.lua	
 [00:00:11]: [Quest System] Amount of quests:	150	
 [00:00:11]: [Quest System] Amount of quests difficulty 1:	29	
 [00:00:11]: [Quest System] Amount of quests difficulty 2:	41	
@@ -808,37 +808,37 @@
 [00:00:11]: modimport: ../mods/workshop-2503437364/init/init_debug.lua	
 [00:00:11]: modimport: ../mods/workshop-2503437364/init/init_strings.lua	
 [00:00:11]: modimport: ../mods/workshop-2503437364/init/init_recipes.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_containers.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_actions.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_colours.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_loading_tips.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_widgets.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/init/init_mod_modifier.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/postinit_bosses.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/postinit_colours.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/postinit_descriptions.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/postinit_epics.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/postinit_repairitems.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/postinit_treasuremap_spawner.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/components/armor.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/components/attackdodger.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/components/builder.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/components/combat.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/components/finiteuses.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/components/grue.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/components/hounded.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/components/perishable.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/components/playeractionpicker.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/components/playercontroller.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/components/reticule.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/components/sewing.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/prefabs/world.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/prefabs/player.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/screens/playerhud.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/stategraphs/SGpolly_rogers.lua	
-[00:00:11]: modimport: ../mods/workshop-2503437364/postinit/stategraphs/SGwilson_client.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_containers.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_actions.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_colours.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_loading_tips.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_widgets.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/init/init_mod_modifier.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/postinit_bosses.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/postinit_colours.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/postinit_descriptions.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/postinit_epics.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/postinit_repairitems.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/postinit_treasuremap_spawner.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/components/armor.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/components/attackdodger.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/components/builder.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/components/combat.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/components/finiteuses.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/components/grue.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/components/hounded.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/components/perishable.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/components/playeractionpicker.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/components/playercontroller.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/components/reticule.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/components/sewing.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/prefabs/world.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/prefabs/player.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/screens/playerhud.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/stategraphs/SGpolly_rogers.lua	
+[00:00:12]: modimport: ../mods/workshop-2503437364/postinit/stategraphs/SGwilson_client.lua	
 [00:00:12]: modimport: ../mods/workshop-2503437364/postinit/mod_compability.lua	
 [00:00:12]: modimport: ../mods/workshop-2503437364/quests_mod_modifier.lua	
 [00:00:12]: [Quest System] Adding quests!	
@@ -915,9 +915,9 @@
 [00:00:12]: modimport: ../mods/workshop-2847908822/8.lua	
 [00:00:12]: modimport: ../mods/workshop-2847908822/7.lua	
 [00:00:12]: modimport: ../mods/workshop-2847908822/3.lua	
-[00:00:12]: modimport: ../mods/workshop-2847908822/6.lua	
-[00:00:12]: modimport: ../mods/workshop-2847908822/4.lua	
-[00:00:12]: modimport: ../mods/workshop-2847908822/5.lua	
+[00:00:13]: modimport: ../mods/workshop-2847908822/6.lua	
+[00:00:13]: modimport: ../mods/workshop-2847908822/4.lua	
+[00:00:13]: modimport: ../mods/workshop-2847908822/5.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/9.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/14.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/15.lua	
@@ -926,49 +926,49 @@
 [00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
 [00:00:14]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:00:16]: LOADING LUA SUCCESS
-[00:00:16]: Registering Server mod namespace "wormwood"
-[00:00:16]: Registering Server mod namespace "wexwell"
-[00:00:16]: Registering Server mod namespace "webber"
-[00:00:16]: Registering Server mod namespace "workshop-1416161108"
-[00:00:16]: Registering Server mod namespace "dstachievement"
-[00:00:16]: Registering Server mod namespace "wolfgang"
-[00:00:16]: Registering Server mod namespace "workshop-1207269058"
-[00:00:16]: Registering Server mod namespace "invokerbook"
-[00:00:16]: Registering Server mod namespace "woodie"
-[00:00:16]: Registering Server mod namespace "wes"
-[00:00:16]: Registering Server mod namespace "wendy"
-[00:00:16]: Registering Server mod namespace "willow"
-[00:00:16]: Registering Server mod namespace "wathgrithr"
-[00:00:16]: Registering Server mod namespace "huahouse_name"
-[00:00:16]: Registering Server mod namespace "woodie_mod"
-[00:00:16]: Registering Server mod namespace "wilson"
-[00:00:16]: Registering Server mod namespace "winona"
-[00:00:16]: Registering Server mod namespace "wickerbottom"
-[00:00:16]: Registering Server mod namespace "modmodifier"
-[00:00:16]: Registering Server mod namespace "quest_system_rpc"
-[00:00:16]: Registering Server mod namespace "wendy_mod"
-[00:00:16]: Registering Server mod namespace "workshop-1111658995"
-[00:00:16]: Registering Server mod namespace "extra_mod"
-[00:00:16]: Registering Server mod namespace "wx78"
-[00:00:16]: Registering Server mod namespace "simpleeconomy"
-[00:00:16]: Registering Server mod namespace "walter"
-[00:00:16]: Registering Server mod namespace "achievementui"
-[00:00:16]: Registering Server mod namespace "wand"
-[00:00:16]: Registering Client mod namespace "quest_system_rpc"
-[00:00:16]: Registering Client mod namespace "workshop-1185229307"
-[00:00:16]: Registering Client mod namespace "workshop-1111658995"
-[00:00:16]: Registering Shard mod namespace "quest_system_rpc"
-[00:00:16]: Registering Shard mod namespace "workshop-2167036904"
-[00:00:16]: PlayerDeaths could not load morgue	
-[00:00:16]: PlayerHistory could not load player_history	
-[00:00:16]: ServerPreferences could not load server_preferences	
-[00:00:16]: ConsoleScreenSettings could not load consolescreen	
-[00:00:16]: bloom_enabled	true	
-[00:00:16]: OnFilesLoaded()	
-[00:00:16]: OnUpdatePurchaseStateComplete	
-[00:00:16]: Klump load on boot started.	
-[00:00:16]: Klump files loaded: 	0	
+[00:00:17]: LOADING LUA SUCCESS
+[00:00:17]: Registering Server mod namespace "wormwood"
+[00:00:17]: Registering Server mod namespace "wexwell"
+[00:00:17]: Registering Server mod namespace "webber"
+[00:00:17]: Registering Server mod namespace "workshop-1416161108"
+[00:00:17]: Registering Server mod namespace "dstachievement"
+[00:00:17]: Registering Server mod namespace "wolfgang"
+[00:00:17]: Registering Server mod namespace "workshop-1207269058"
+[00:00:17]: Registering Server mod namespace "invokerbook"
+[00:00:17]: Registering Server mod namespace "woodie"
+[00:00:17]: Registering Server mod namespace "wes"
+[00:00:17]: Registering Server mod namespace "wendy"
+[00:00:17]: Registering Server mod namespace "willow"
+[00:00:17]: Registering Server mod namespace "wathgrithr"
+[00:00:17]: Registering Server mod namespace "huahouse_name"
+[00:00:17]: Registering Server mod namespace "woodie_mod"
+[00:00:17]: Registering Server mod namespace "wilson"
+[00:00:17]: Registering Server mod namespace "winona"
+[00:00:17]: Registering Server mod namespace "wickerbottom"
+[00:00:17]: Registering Server mod namespace "modmodifier"
+[00:00:17]: Registering Server mod namespace "quest_system_rpc"
+[00:00:17]: Registering Server mod namespace "wendy_mod"
+[00:00:17]: Registering Server mod namespace "workshop-1111658995"
+[00:00:17]: Registering Server mod namespace "extra_mod"
+[00:00:17]: Registering Server mod namespace "wx78"
+[00:00:17]: Registering Server mod namespace "simpleeconomy"
+[00:00:17]: Registering Server mod namespace "walter"
+[00:00:17]: Registering Server mod namespace "achievementui"
+[00:00:17]: Registering Server mod namespace "wand"
+[00:00:17]: Registering Client mod namespace "quest_system_rpc"
+[00:00:17]: Registering Client mod namespace "workshop-1185229307"
+[00:00:17]: Registering Client mod namespace "workshop-1111658995"
+[00:00:17]: Registering Shard mod namespace "quest_system_rpc"
+[00:00:17]: Registering Shard mod namespace "workshop-2167036904"
+[00:00:17]: PlayerDeaths could not load morgue	
+[00:00:17]: PlayerHistory could not load player_history	
+[00:00:17]: ServerPreferences could not load server_preferences	
+[00:00:17]: ConsoleScreenSettings could not load consolescreen	
+[00:00:17]: bloom_enabled	true	
+[00:00:17]: OnFilesLoaded()	
+[00:00:17]: OnUpdatePurchaseStateComplete	
+[00:00:17]: Klump load on boot started.	
+[00:00:17]: Klump files loaded: 	0	
 [00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	Registering prefabs	
 [00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/questboard	
 [00:00:20]: Mod: workshop-2597204554 (Quest System [BETA])	    questboard	
@@ -1074,64 +1074,64 @@
 [00:00:21]: Mod: workshop-2537774396 (Discord Thông Báo)	  Registering default mod prefab	
 [00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	Registering prefabs	
 [00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critters	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lamb	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lamb_builder	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_puppy	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_puppy_builder	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_kitten	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_kitten_builder	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_perdling	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_perdling_builder	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_dragonling	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_dragonling_builder	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_glomling	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_glomling_builder	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lunarmothling	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lunarmothling_builder	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_eyeofterror	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_eyeofterror_builder	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/forcefieldfxx	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    forcefieldfxx	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/green_ferns	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    green_fern	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/light_ferns	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    light_fern	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/musha_ferns	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    musha_fern	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/musha_bulb	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    musha_bulb	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    musha_bulb_double	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/moonnutdrake3	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    moonnutdrake3	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/moonnutdrake_lamb	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    moonnutdrake_lamb	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critter_spores	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_spore	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critter_badge	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet80	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet60	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet40	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet20	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    hungry_pet	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/ghosthound3	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    ghosthound3	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/exp_pet	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    exp_pet	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/tunacan	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    tunacan	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/tunacan_musha	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    tunacan_musha	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/bomb_collapse_fx	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    bomb_big	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    bomb_small	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/wobysmall	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    wobysmall	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/wobybig	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    wobybig	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/lantern_winter_fx_2	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_held2	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_ground2	
-[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering default mod prefab	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lamb	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lamb_builder	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_puppy	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_puppy_builder	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_kitten	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_kitten_builder	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_perdling	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_perdling_builder	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_dragonling	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_dragonling_builder	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_glomling	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_glomling_builder	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lunarmothling	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lunarmothling_builder	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_eyeofterror	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_eyeofterror_builder	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/forcefieldfxx	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    forcefieldfxx	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/green_ferns	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    green_fern	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/light_ferns	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    light_fern	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/musha_ferns	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    musha_fern	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/musha_bulb	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    musha_bulb	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    musha_bulb_double	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/moonnutdrake3	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    moonnutdrake3	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/moonnutdrake_lamb	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    moonnutdrake_lamb	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critter_spores	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_spore	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critter_badge	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet80	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet60	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet40	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet20	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    hungry_pet	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/ghosthound3	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    ghosthound3	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/exp_pet	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    exp_pet	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/tunacan	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    tunacan	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/tunacan_musha	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    tunacan_musha	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/bomb_collapse_fx	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    bomb_big	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    bomb_small	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/wobysmall	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    wobysmall	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/wobybig	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    wobybig	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/lantern_winter_fx_2	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_held2	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_ground2	
+[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering default mod prefab	
 [00:00:22]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
 [00:00:22]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/terraprisma	
 [00:00:22]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma	
@@ -1962,10 +1962,10 @@
 [00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/uncontested/upgraded_beehat	
 [00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_beehat	
 [00:00:23]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering default mod prefab	
-[00:00:23]: Could not preload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
-[00:00:23]: Could not preload undefined prefab (chasni_crab_shadowlunarorgan)
-[00:00:23]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:23]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:24]: Could not preload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
+[00:00:24]: Could not preload undefined prefab (chasni_crab_shadowlunarorgan)
+[00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/sparks_green.zip
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
@@ -1987,12 +1987,12 @@
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:24]: Could not preload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
 [00:00:24]: Could not preload undefined prefab (chasni_crab_shadowshadoworgan)
-[00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
 [00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:26]: AnimationFile::LoadFile Failed to open anim/batbat_batfx.zip
@@ -2009,9 +2009,9 @@
 [00:00:26]: Could not preload undefined prefab (cckproj_ice)
 [00:00:26]: Could not preload undefined prefab (chasni_water_crab_king_claw_fx_build)
 [00:00:26]: Could not preload undefined prefab (chasni_crab_shadowwaterorgan)
-[00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:27]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
@@ -2064,12 +2064,12 @@
 [00:00:27]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:27]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:28]: 	Load FE	
-[00:00:28]: THREAD - started 'FilesExistAsyncThread' (277937894420320)
-[00:00:28]: 	Load FE: done	
+[00:00:28]: THREAD - started 'FilesExistAsyncThread' (281394891177824)
 [00:00:28]: FilesExistAsyncThread started (24749 files)...
+[00:00:28]: 	Load FE: done	
 [00:00:28]: Check for write access: TRUE
 [00:00:28]: Check for read access: TRUE
-[00:00:28]: Available disk space for save files: 98352 MB
+[00:00:28]: Available disk space for save files: 84400 MB
 [00:00:28]: ModIndex: Load sequence finished successfully.	
 [00:00:28]: Reset() returning
 [00:00:29]: [200] Account Communication Success (6)
@@ -2121,7 +2121,7 @@
 [00:00:29]: Not applying level data overrides.	
 [00:00:29]: Found a worldgen override file with these contents:	
 [00:00:29]: 	K: 	override_enabled	 V: 	true	
-[00:00:29]: 	K: 	overrides	 V: 	table: 0x480eab90	
+[00:00:29]: 	K: 	overrides	 V: 	table: 0x65c80d70	
 [00:00:29]: 		K: 	basicresource_regrowth	 V: 	always	
 [00:00:29]: 		K: 	ghostsanitydrain	 V: 	none	
 [00:00:29]: 		K: 	portalresurection	 V: 	always	
@@ -2135,15 +2135,81 @@
 [00:00:29]:   contained settings preset DST_CAVE, loading...	
 [00:00:29]: Overwriting savedata with override file.	
 [00:00:29]: Collecting garbage...
-[00:00:29]: lua_gc took 0.30 seconds
-[00:00:29]: ~ShardLuaProxy()
-[00:00:29]: ~cEventLeaderboardProxy()
-[00:00:29]: ~ItemServerLuaProxy()
-[00:00:29]: ~InventoryLuaProxy()
-[00:00:29]: ~NetworkLuaProxy()
-[00:00:29]: ~SimLuaProxy()
-[00:00:29]: FilesExistAsyncThread aborted.
-[00:00:29]: ... FilesExistAsyncThread complete
+[00:00:30]: Error: Could not find file: anim/chop_mangrove_pink.zip
+[00:00:30]: Error: Could not find file: anim/chop_mangrove_pink.zip
+[00:00:30]: Error: Could not find file: anim/hacking_tall_grass_fx.zip
+[00:00:30]: Error: Could not find file: anim/snake_scales_fx.zip
+[00:00:30]: Error: Could not find file: anim/splash_water.zip
+[00:00:30]: Error: Could not find file: anim/water_bombsplash.zip
+[00:00:30]: Error: Could not find file: anim/sparks_green.zip
+[00:00:30]: Error: Could not find file: anim/robot_leaf_fx.zip
+[00:00:30]: Error: Could not find file: anim/hacking_fx.zip
+[00:00:30]: Error: Could not find file: anim/circle_puff_fx.zip
+[00:00:30]: Error: Could not find file: anim/sparklefx.zip
+[00:00:30]: Error: Could not find file: anim/laser_ring_fx.zip
+[00:00:30]: Error: Could not find file: anim/living_suit_explode_fx.zip
+[00:00:30]: Error: Could not find file: anim/rock_hit_debris.zip
+[00:00:30]: Error: Could not find file: anim/shock_machines_fx.zip
+[00:00:30]: Error: Could not find file: anim/hacking_bamboo_fx.zip
+[00:00:30]: Error: Could not find file: anim/chop_jungle.zip
+[00:00:30]: Error: Could not find file: anim/chop_jungle.zip
+[00:00:30]: Error: Could not find file: anim/chop_mangrove.zip
+[00:00:30]: Error: Could not find file: anim/chop_mangrove.zip
+[00:00:30]: Error: Could not find file: anim/vortex_cloak_fx.zip
+[00:00:30]: Error: Could not find file: anim/chasni_music_fx.zip
+[00:00:30]: Error: Could not find file: anim/alchelab.zip
+[00:00:30]: Error: Could not find file: anim/accomplishment_fireworks.zip
+[00:00:30]: Error: Could not find file: anim/accomplishment_fireworks.zip
+[00:00:30]: Error: Could not find file: anim/batbat_batfx.zip
+[00:00:30]: Error: Could not find file: anim/batbat_batfx.zip
+[00:00:30]: Error: Could not find file: anim/batbat_batfx.zip
+[00:00:30]: Error: Could not find file: anim/batbat_batfx.zip
+[00:00:30]: Error: Could not find file: anim/willow_shield.zip
+[00:00:30]: Error: Could not find file: anim/chasni_fx_wathgrithr_buff.zip
+[00:00:30]: Error: Could not find file: anim/chasni_fx_wathgrithr_buff.zip
+[00:00:30]: Error: Could not find file: anim/chasni_moon_geyser.zip
+[00:00:30]: Error: Could not find file: anim/chasni_moon_geyser.zip
+[00:00:30]: Error: Could not find file: anim/chasni_moon_geyser.zip
+[00:00:30]: Error: Could not find file: anim/chasni_alterguardian_meteor.zip
+[00:00:30]: Error: Could not find file: anim/laserball.zip
+[00:00:30]: Error: Could not find file: anim/lunar_shadow_books_fxs.zip
+[00:00:30]: Error: Could not find file: anim/chasni_lunar_crab_king_claw_fx_build.zip
+[00:00:30]: Error: Could not find file: anim/chasni_shadow_crab_king_claw_fx_build.zip
+[00:00:30]: Error: Could not find file: anim/chasni_ice_crab_king_claw_fx_build.zip
+[00:00:30]: Error: Could not find file: anim/chasni_fire_crab_king_claw_fx_build.zip
+[00:00:30]: Error: Could not find file: anim/chasni_water_crab_king_claw_fx_build.zip
+[00:00:30]: Error: Could not find file: anim/bishop_projectile_yellow.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_drawing.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
+[00:00:30]: lua_gc took 0.32 seconds
+[00:00:30]: ~ShardLuaProxy()
+[00:00:30]: ~cEventLeaderboardProxy()
+[00:00:30]: ~ItemServerLuaProxy()
+[00:00:30]: ~InventoryLuaProxy()
+[00:00:30]: ~NetworkLuaProxy()
+[00:00:30]: ~SimLuaProxy()
+[00:00:30]: FilesExistAsyncThread aborted.
+[00:00:30]: ... FilesExistAsyncThread complete
 [00:00:30]: lua_close took 0.26 seconds
 [00:00:30]: ReleaseAll
 [00:00:30]: ReleaseAll Finished
@@ -2153,11 +2219,11 @@
 [00:00:30]: DoLuaFile scripts/main.lua
 [00:00:30]: DoLuaFile loading buffer scripts/main.lua
 [00:00:30]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
-[00:00:38]:   taskgrouplist:	default	Juntos	
-[00:00:38]:   taskgrouplist:	classic	Clássico	
-[00:00:38]:   taskgrouplist:	cave_default	Subterrâneo	
-[00:00:38]:   taskgrouplist:	lavaarena_taskset	A Forja	
-[00:00:38]:   taskgrouplist:	quagmire_taskset	A Garganta	
+[00:00:39]:   taskgrouplist:	default	Juntos	
+[00:00:39]:   taskgrouplist:	classic	Clássico	
+[00:00:39]:   taskgrouplist:	cave_default	Subterrâneo	
+[00:00:39]:   taskgrouplist:	lavaarena_taskset	A Forja	
+[00:00:39]:   taskgrouplist:	quagmire_taskset	A Garganta	
 [00:00:39]: Running main.lua
 	
 [00:00:39]: loaded modindex	
@@ -2730,19 +2796,19 @@
 [00:00:39]: Overriding mod workshop-2854057841's option os_hammer with value false	
 [00:00:39]: Overriding mod workshop-2854057841's option number with value 6	
 [00:00:39]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modworldgenmain.lua	
-[00:00:39]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modmain.lua	
-[00:00:39]: modimport: ../mods/workshop-2597204554/quest_system/tuning_strings.lua	
-[00:00:39]: [Quest System] Amount of quests:	150	
-[00:00:39]: [Quest System] Amount of quests difficulty 1:	29	
-[00:00:39]: [Quest System] Amount of quests difficulty 2:	41	
-[00:00:39]: [Quest System] Amount of quests difficulty 3:	38	
-[00:00:39]: [Quest System] Amount of quests difficulty 4:	28	
-[00:00:39]: [Quest System] Amount of quests difficulty 5:	14	
-[00:00:39]: modimport: ../mods/workshop-2597204554/quest_system/RPC.lua	
-[00:00:39]: modimport: ../mods/workshop-2597204554/quest_system/Quest_Board_Util.lua	
-[00:00:39]: [Quest System] Amount of custom goals:	272	
-[00:00:39]: modimport: ../mods/workshop-2597204554/quest_system/postinitfns.lua	
-[00:00:39]: modimport: ../mods/workshop-2597204554/quest_system/postinitclass.lua	
+[00:00:40]: Mod: workshop-2597204554 (Quest System [BETA])	Loading modmain.lua	
+[00:00:40]: modimport: ../mods/workshop-2597204554/quest_system/tuning_strings.lua	
+[00:00:40]: [Quest System] Amount of quests:	150	
+[00:00:40]: [Quest System] Amount of quests difficulty 1:	29	
+[00:00:40]: [Quest System] Amount of quests difficulty 2:	41	
+[00:00:40]: [Quest System] Amount of quests difficulty 3:	38	
+[00:00:40]: [Quest System] Amount of quests difficulty 4:	28	
+[00:00:40]: [Quest System] Amount of quests difficulty 5:	14	
+[00:00:40]: modimport: ../mods/workshop-2597204554/quest_system/RPC.lua	
+[00:00:40]: modimport: ../mods/workshop-2597204554/quest_system/Quest_Board_Util.lua	
+[00:00:40]: [Quest System] Amount of custom goals:	272	
+[00:00:40]: modimport: ../mods/workshop-2597204554/quest_system/postinitfns.lua	
+[00:00:40]: modimport: ../mods/workshop-2597204554/quest_system/postinitclass.lua	
 [00:00:40]: modimport: ../mods/workshop-2597204554/quest_system/actions.lua	
 [00:00:40]: modimport: ../mods/workshop-2597204554/quest_system/consolecommands.lua	
 [00:00:40]: modimport: ../mods/workshop-2597204554/quest_system/init_custom_quests.lua	
@@ -2910,92 +2976,92 @@
 [00:00:40]: modimport: ../mods/workshop-2503437364/init/init_debug.lua	
 [00:00:40]: modimport: ../mods/workshop-2503437364/init/init_strings.lua	
 [00:00:40]: modimport: ../mods/workshop-2503437364/init/init_recipes.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_containers.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_actions.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_colours.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_loading_tips.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_widgets.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/init/init_mod_modifier.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/postinit_bosses.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/postinit_colours.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/postinit_descriptions.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/postinit_epics.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/postinit_repairitems.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/postinit_treasuremap_spawner.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/armor.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/attackdodger.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/builder.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/combat.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/finiteuses.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/grue.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/hounded.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/perishable.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/playeractionpicker.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/playercontroller.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/reticule.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/components/sewing.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/prefabs/world.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/prefabs/player.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/screens/playerhud.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/stategraphs/SGpolly_rogers.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/stategraphs/SGwilson_client.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/postinit/mod_compability.lua	
-[00:00:40]: modimport: ../mods/workshop-2503437364/quests_mod_modifier.lua	
-[00:00:40]: [Quest System] Adding quests!	
-[00:00:40]: Mod: workshop-3055010657 (Sweet House fix)	Loading modworldgenmain.lua	
-[00:00:40]: Mod: workshop-3055010657 (Sweet House fix)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:40]: Mod: workshop-3055010657 (Sweet House fix)	Loading modmain.lua	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_recipe	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house1_recipe	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_pvz_recipe	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_tardis_recipe	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_named_item	
-[00:00:40]: Warning: function AddRecipeTab in modmain is deprecated.	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_1	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_2	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_3	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_4	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_5	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_6	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_7	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_8	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_9	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_10	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_11	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_12	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_zombies_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_phonograph	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_mushroom_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_punk_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_pvz_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_tardis_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_sunflower_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_upholstered_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_harlequin_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_circles_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_mushroom_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_punk_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_pvz_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_tardis_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checker_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checkered_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_geome_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_herringbone_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_octagon_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_ruins_slab_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodmetal_builder	
-[00:00:40]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodpaneling_builder	
-[00:00:40]: upvaluehelper loaded	
-[00:00:40]: modimport: ../mods/workshop-3055010657/scripts/stategraphs/SG_hua_house.lua	
-[00:00:40]: modimport: ../mods/workshop-3055010657/scripts/hua_house_named.lua	
-[00:00:40]: modimport: ../mods/workshop-3055010657/tardis.lua	
-[00:00:40]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Loading modworldgenmain.lua	
-[00:00:40]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:40]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Loading modmain.lua	
-[00:00:40]: modimport: ../mods/workshop-2937640068/main_strings.lua	
-[00:00:40]: modimport: ../mods/workshop-2937640068/main_globalpostInits.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_containers.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_actions.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_colours.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_loading_tips.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_treasurechases.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_widgets.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/init/init_mod_modifier.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/postinit_bosses.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/postinit_colours.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/postinit_descriptions.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/postinit_epics.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/postinit_repairitems.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/postinit_treasuremap_spawner.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/armor.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/attackdodger.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/builder.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/combat.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/finiteuses.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/grue.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/hounded.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/perishable.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/playeractionpicker.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/playercontroller.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/reticule.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/components/sewing.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/prefabs/world.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/prefabs/player.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/screens/playerhud.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/stategraphs/SGpolly_rogers.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/stategraphs/SGwilson_client.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/postinit/mod_compability.lua	
+[00:00:41]: modimport: ../mods/workshop-2503437364/quests_mod_modifier.lua	
+[00:00:41]: [Quest System] Adding quests!	
+[00:00:41]: Mod: workshop-3055010657 (Sweet House fix)	Loading modworldgenmain.lua	
+[00:00:41]: Mod: workshop-3055010657 (Sweet House fix)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:41]: Mod: workshop-3055010657 (Sweet House fix)	Loading modmain.lua	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_recipe	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house1_recipe	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_pvz_recipe	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_tardis_recipe	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_named_item	
+[00:00:41]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_1	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_2	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_3	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_4	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_5	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_6	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_7	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_8	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_9	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_10	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_11	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_12	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_zombies_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_phonograph	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_mushroom_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_punk_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_pvz_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_tardis_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_sunflower_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_upholstered_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_harlequin_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_circles_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_mushroom_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_punk_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_pvz_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_tardis_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checker_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checkered_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_geome_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_herringbone_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_octagon_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_ruins_slab_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodmetal_builder	
+[00:00:41]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodpaneling_builder	
+[00:00:41]: upvaluehelper loaded	
+[00:00:41]: modimport: ../mods/workshop-3055010657/scripts/stategraphs/SG_hua_house.lua	
+[00:00:41]: modimport: ../mods/workshop-3055010657/scripts/hua_house_named.lua	
+[00:00:41]: modimport: ../mods/workshop-3055010657/tardis.lua	
+[00:00:41]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Loading modworldgenmain.lua	
+[00:00:41]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:41]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Loading modmain.lua	
+[00:00:41]: modimport: ../mods/workshop-2937640068/main_strings.lua	
+[00:00:41]: modimport: ../mods/workshop-2937640068/main_globalpostInits.lua	
 [00:00:41]: modimport: ../mods/workshop-2937640068/main_achivpostInits.lua	
 [00:00:41]: modimport: ../mods/workshop-2937640068/main_perkpostInits.lua	
 [00:00:41]: modimport: ../mods/workshop-2937640068/main_RoGpostInit.lua	
@@ -3019,10 +3085,10 @@
 [00:00:41]: modimport: ../mods/workshop-2847908822/3.lua	
 [00:00:41]: modimport: ../mods/workshop-2847908822/6.lua	
 [00:00:41]: modimport: ../mods/workshop-2847908822/4.lua	
-[00:00:41]: modimport: ../mods/workshop-2847908822/5.lua	
-[00:00:41]: modimport: ../mods/workshop-2847908822/9.lua	
-[00:00:41]: modimport: ../mods/workshop-2847908822/14.lua	
-[00:00:41]: modimport: ../mods/workshop-2847908822/15.lua	
+[00:00:42]: modimport: ../mods/workshop-2847908822/5.lua	
+[00:00:42]: modimport: ../mods/workshop-2847908822/9.lua	
+[00:00:42]: modimport: ../mods/workshop-2847908822/14.lua	
+[00:00:42]: modimport: ../mods/workshop-2847908822/15.lua	
 [00:00:42]: modimport: ../mods/workshop-2847908822/19.lua	
 [00:00:42]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
 [00:00:42]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
@@ -3069,10 +3135,10 @@
 [00:00:44]: bloom_enabled	true	
 [00:00:44]: OnFilesLoaded()	
 [00:00:44]: OnUpdatePurchaseStateComplete	
-[00:00:44]: Loading world: session/324D3B74FD686B24/0000003310	
-[00:00:44]: Save file is at version 5.146	
-[00:00:44]: Klump load on boot started.	
-[00:00:44]: Klump files loaded: 	0	
+[00:00:44]: Loading world: session/324D3B74FD686B24/0000003318	
+[00:00:45]: Save file is at version 5.146	
+[00:00:45]: Klump load on boot started.	
+[00:00:45]: Klump files loaded: 	0	
 [00:00:45]: 	Unload FE	
 [00:00:45]: 	Unload FE done	
 [00:00:45]: Could not unload undefined prefab (chasni_fire_crab_king_claw_fx_build)
@@ -3138,19 +3204,19 @@
 [00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_puddle_fx	
 [00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_puddle_trap	
 [00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/glommer_boss	
-[00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_small	
-[00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_boss	
-[00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine	
-[00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine_item	
-[00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine_item_placer	
-[00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	    blackglommerfuel	
-[00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	    blackglommerfuel_placer	
-[00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/chester_boss	
-[00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	    chester_boss	
-[00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester	
-[00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_eyebone	
-[00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	    spit_bomb	
-[00:00:50]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering default mod prefab	
+[00:00:51]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_small	
+[00:00:51]: Mod: workshop-2597204554 (Quest System [BETA])	    glommer_boss	
+[00:00:51]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine	
+[00:00:51]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine_item	
+[00:00:51]: Mod: workshop-2597204554 (Quest System [BETA])	    glommerfuelmachine_item_placer	
+[00:00:51]: Mod: workshop-2597204554 (Quest System [BETA])	    blackglommerfuel	
+[00:00:51]: Mod: workshop-2597204554 (Quest System [BETA])	    blackglommerfuel_placer	
+[00:00:51]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering prefab file: prefabs/chester_boss	
+[00:00:51]: Mod: workshop-2597204554 (Quest System [BETA])	    chester_boss	
+[00:00:51]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester	
+[00:00:51]: Mod: workshop-2597204554 (Quest System [BETA])	    nightmarechester_eyebone	
+[00:00:51]: Mod: workshop-2597204554 (Quest System [BETA])	    spit_bomb	
+[00:00:51]: Mod: workshop-2597204554 (Quest System [BETA])	  Registering default mod prefab	
 [00:00:51]: Mod: workshop-1185229307 (Barra de Vida Épica)	Registering prefabs	
 [00:00:51]: Mod: workshop-1185229307 (Barra de Vida Épica)	  Registering prefab file: prefabs/epichealth_proxy	
 [00:00:51]: Mod: workshop-1185229307 (Barra de Vida Épica)	    epichealth_proxy	
@@ -3200,98 +3266,98 @@
 [00:00:51]: Mod: workshop-3150203711 (Shoetime)	    ms_shoes_speed_blue	
 [00:00:51]: Mod: workshop-3150203711 (Shoetime)	    ms_shoes_speed_teal	
 [00:00:51]: Mod: workshop-3150203711 (Shoetime)	  Registering default mod prefab	
-[00:00:51]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
-[00:00:51]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
-[00:00:51]: Mod: workshop-2537774396 (Discord Thông Báo)	Registering prefabs	
-[00:00:51]: Mod: workshop-2537774396 (Discord Thông Báo)	  Registering default mod prefab	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	Registering prefabs	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critters	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lamb	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lamb_builder	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_puppy	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_puppy_builder	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_kitten	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_kitten_builder	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_perdling	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_perdling_builder	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_dragonling	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_dragonling_builder	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_glomling	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_glomling_builder	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lunarmothling	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lunarmothling_builder	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_eyeofterror	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_eyeofterror_builder	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/forcefieldfxx	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    forcefieldfxx	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/green_ferns	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    green_fern	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/light_ferns	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    light_fern	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/musha_ferns	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    musha_fern	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/musha_bulb	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    musha_bulb	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    musha_bulb_double	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/moonnutdrake3	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    moonnutdrake3	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/moonnutdrake_lamb	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    moonnutdrake_lamb	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critter_spores	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_spore	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critter_badge	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet80	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet60	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet40	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet20	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    hungry_pet	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/ghosthound3	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    ghosthound3	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/exp_pet	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    exp_pet	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/tunacan	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    tunacan	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/tunacan_musha	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    tunacan_musha	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/bomb_collapse_fx	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    bomb_big	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    bomb_small	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/wobysmall	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    wobysmall	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/wobybig	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    wobybig	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/lantern_winter_fx_2	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_held2	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_ground2	
-[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering default mod prefab	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/terraprisma	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/terraprisma_magic	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_red	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_green	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_blue	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_yellow	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_orange	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_purple	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/opticstaff	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    opticstaff	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/eyeofterror_summon	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    eyeofterror_summon1	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    eyeofterror_summon2	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/laser	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laser	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    chasni_playerlaser	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserempty	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    chasni_playerlaserempty	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserscorch	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    chasni_lasertrail	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserhit	
-[00:00:51]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
-[00:00:51]: Mod: workshop-3050607025 (Lag Remover)	Registering prefabs	
-[00:00:51]: Mod: workshop-3050607025 (Lag Remover)	  Registering default mod prefab	
-[00:00:51]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
-[00:00:51]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
+[00:00:52]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:52]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:52]: Mod: workshop-2537774396 (Discord Thông Báo)	Registering prefabs	
+[00:00:52]: Mod: workshop-2537774396 (Discord Thông Báo)	  Registering default mod prefab	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	Registering prefabs	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critters	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lamb	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lamb_builder	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_puppy	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_puppy_builder	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_kitten	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_kitten_builder	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_perdling	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_perdling_builder	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_dragonling	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_dragonling_builder	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_glomling	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_glomling_builder	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lunarmothling	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_lunarmothling_builder	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_eyeofterror	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_eyeofterror_builder	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/forcefieldfxx	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    forcefieldfxx	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/green_ferns	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    green_fern	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/light_ferns	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    light_fern	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/musha_ferns	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    musha_fern	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/musha_bulb	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    musha_bulb	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    musha_bulb_double	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/moonnutdrake3	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    moonnutdrake3	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/moonnutdrake_lamb	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    moonnutdrake_lamb	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critter_spores	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_spore	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critter_badge	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet80	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet60	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet40	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet20	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    hungry_pet	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/ghosthound3	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    ghosthound3	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/exp_pet	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    exp_pet	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/tunacan	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    tunacan	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/tunacan_musha	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    tunacan_musha	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/bomb_collapse_fx	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    bomb_big	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    bomb_small	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/wobysmall	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    wobysmall	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/wobybig	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    wobybig	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/lantern_winter_fx_2	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_held2	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_ground2	
+[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering default mod prefab	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/terraprisma	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/terraprisma_magic	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_red	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_green	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_blue	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_yellow	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_orange	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma_purple	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/opticstaff	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    opticstaff	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/eyeofterror_summon	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    eyeofterror_summon1	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    eyeofterror_summon2	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/laser	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laser	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    chasni_playerlaser	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserempty	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    chasni_playerlaserempty	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserscorch	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    chasni_lasertrail	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    chasni_laserhit	
+[00:00:52]: Mod: workshop-2854057841 (Noitosfera)	  Registering default mod prefab	
+[00:00:52]: Mod: workshop-3050607025 (Lag Remover)	Registering prefabs	
+[00:00:52]: Mod: workshop-3050607025 (Lag Remover)	  Registering default mod prefab	
+[00:00:52]: Mod: workshop-2167036904 (Discord Button Reborn)	Registering prefabs	
+[00:00:52]: Mod: workshop-2167036904 (Discord Button Reborn)	  Registering default mod prefab	
 [00:00:52]: Mod: workshop-2477889104 (Beefalo Status Bar)	Registering prefabs	
 [00:00:52]: Mod: workshop-2477889104 (Beefalo Status Bar)	  Registering default mod prefab	
 [00:00:52]: Mod: workshop-2847806795 ( Economia Simples )	Registering prefabs	
@@ -3433,317 +3499,317 @@
 [00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies	
 [00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	    hua_zombies_builder	
 [00:00:52]: Mod: workshop-3055010657 (Sweet House fix)	  Registering default mod prefab	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Registering prefabs	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/seffc	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    seffc	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/chasniplacer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    rabbit_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    tallbirdnest_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    houndmound_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    molehill_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    catcoonden_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    monkeybarrel_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    slurtlehole_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    walrus_camp_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wasphive_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    oceanvine_cocoon_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    spiderhole_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    moonspiderden_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    klaussack_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/dirtpile_boss	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dirtpile_boss	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/animal_track_boss	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    animal_track_boss	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/simplefx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    poisonfx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    paintfx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/robin_egg	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_robin_egg	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/robin	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ro_bin	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/robin_stone	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_robin_stone	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/chasni_invis	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_invis	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/light_fx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    groundlight_fx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bloblight_fx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/laser	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laser	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_playerlaser	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserempty	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_playerlaserempty	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserscorch	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_lasertrail	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserhit	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/laserring	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserring	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserexplosion	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_metalhulk_ringfx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rock_basalt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_basalt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/icyweed	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_icyweed	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_icyweedbreakfx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/trinketslot	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    trinketslot	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/shieldsfx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wormwood_poop_shield	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    hulkhat_buff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    shield_lunar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wickerbottom/books_perk	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_gather	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_teleport	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_shield	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_shadow	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_lunar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_voker	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wickerbottom/bookpack	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bookpack	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wickerbottom/new_book_buff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    book_lunar_buff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    book_shadow_buff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wanda/watchcase	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    watchcase	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wanda/pocketwatches_perk	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_bloom	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_burnt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_corrupt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_deconstruct	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_repair	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_refresher	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_multiverse	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wanda/wanda_clone	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wanda_clone_miner	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wanda_clone_chopper	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wanda_clone_worker	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wanda_clone_fighter	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wanda_clone_normal	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wanda_clone_evil	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wanda/watchpaint	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    watchpaint	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/battlesongs_perk	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_lightning	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_lightning_buff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_channel_shadow	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_instant_recharge	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_channel_lunar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_instant_stopmove	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_sailor	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_sailor_buff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/battlesongsbuffs_perk	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    battlesong_instant_electric_buff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    battlesong_instant_stopmove_debuff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/battlesongsfx_perk	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    lucentbeam	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/songfolder	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    songfolder	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/warf_emitter	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    warf_emitter	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    warf_emitter_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wendy/ghostly_elixirs_perk	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_lunar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_shadow	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_temperature	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_slow	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_lunar_buff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_shadow_buff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_temperature_buff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_slow_buff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_speed_light	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wendy/ghostly_elixirfx_perk	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_lunar_fx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_lunar_dripfx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_shadow_fx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_shadow_dripfx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_temperature_fx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_temperature_dripfx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_slow_fx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_slow_dripfx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/spider_mutators_perk	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mutator_poison	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wes/balloons_perk	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_beefalo	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_bunnyman	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_butterfly	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_hound	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_merm	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_pig	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_tentacle	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_spider	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wes/newballoons_perk	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_chasni_red	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_chasni_yellow	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_chasni_blue	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_chasni_purple	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_chasni_green	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/webbermasks	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_normal	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_hider	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_poison	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_dropper	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_water	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_moon	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_healer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_spitter	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_warrior	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/webbermask_spike	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_spike	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/webbermask_spit	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_spit	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/warly/fryingpan	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fryingpan	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/warly/chefhat	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chefhat	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/warly/chefpackred	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chefpackred	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/warly/portablegriller	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_portablegriller	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_portablegriller_item_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_portablegriller_item	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/warly/portablegriller_foods	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_red	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mopane	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brigadeiro	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_tumpeng	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_anzac	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kyivcake	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_empanadas	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kimchi	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_popcorn	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_green	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_yellow	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mooncake	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_balut	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_green_spice_salt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kyivcake_spice_garlic	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kyivcake_spice_sugar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kimchi_spice_sugar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_yellow_spice_salt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_balut_spice_garlic	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mooncake_spice_chili	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_balut_spice_salt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_balut_spice_chili	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brigadeiro_spice_garlic	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_anzac_spice_sugar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_red_spice_salt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_red_spice_garlic	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mopane_spice_salt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_empanadas_spice_chili	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_yellow_spice_sugar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mooncake_spice_sugar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kimchi_spice_salt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_red_spice_sugar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mopane_spice_chili	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mopane_spice_sugar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_anzac_spice_chili	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kyivcake_spice_chili	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_anzac_spice_garlic	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_anzac_spice_salt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brigadeiro_spice_sugar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mooncake_spice_salt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_tumpeng_spice_garlic	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_popcorn_spice_sugar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_tumpeng_spice_salt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_popcorn_spice_chili	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_tumpeng_spice_sugar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brigadeiro_spice_chili	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_red_spice_chili	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_popcorn_spice_garlic	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_green_spice_chili	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_green_spice_garlic	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_popcorn_spice_salt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_yellow_spice_garlic	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kimchi_spice_garlic	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_yellow_spice_chili	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mopane_spice_garlic	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brigadeiro_spice_salt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kyivcake_spice_salt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_balut_spice_sugar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_empanadas_spice_salt	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_empanadas_spice_garlic	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kimchi_spice_chili	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mooncake_spice_garlic	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_tumpeng_spice_chili	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_empanadas_spice_sugar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_green_spice_sugar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/warly/new_food_buff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mooncakebuff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_balutbuff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brigadeirobuff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kyivcakebuff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_empanadasbuff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kimchibuff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_anzacbuff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mopanebuff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/walter/magnifying_glass	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_magnifying_glass	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wetpaper	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/walter/campingbag	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    campingbag	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/walter/adventure_hat	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    adventure_hat	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/walter/ammo_perk	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_bomb	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_bomb_proj	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_egg	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_egg_proj	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_lunar	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_lunar_proj	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_pills	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_pills_proj	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_shadow	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_shadow_proj	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/thunder_spear	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    thunder_spear	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    spear_lightning	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    spear_elec_preparefx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    thunder_spear_fx	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/thunder_armor	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    thunder_armor	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/thunder_hat	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    thunder_hat	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wurt/water_spear	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    water_spear	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wurt/water_hat	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    water_hat	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wolfgang/marbled_spear	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    marbled_spear	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wolfgang/marbled_armor	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    marbled_armor	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wolfgang/marbled_hat	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    marbled_hat	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wolfgang/new_dumbbells	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dumbbell_tinker	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wilson/gem_portal	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_gemportal	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_gemportal_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/fire_rock	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_rock	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/fire_staff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_staff	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/fire_hat	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_hat	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/fire_spear	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_spear	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_perk_light	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/fire_armor	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_armor	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/fire_staff_meteor	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_staff_meteor	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_staff_meteor_splash	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_staff_meteor_splashbase	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_staff_meteor_splashhit	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/fire_clone	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_clone	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/flame_guard	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    flame_guard	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/food_heater	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_heater	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_heater_placer	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/woodie/axe_axe	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    axe_axe	
-[00:00:52]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/waxwell/shadow_tools	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	Registering prefabs	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/seffc	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    seffc	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/chasniplacer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    rabbit_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    tallbirdnest_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    houndmound_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    molehill_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    catcoonden_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    monkeybarrel_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    slurtlehole_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    walrus_camp_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wasphive_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    oceanvine_cocoon_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    spiderhole_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    moonspiderden_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    klaussack_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/dirtpile_boss	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dirtpile_boss	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/animal_track_boss	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    animal_track_boss	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/simplefx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    poisonfx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    paintfx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/robin_egg	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_robin_egg	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/robin	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_ro_bin	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/robin_stone	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_robin_stone	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/chasni_invis	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_invis	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/light_fx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    groundlight_fx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bloblight_fx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/laser	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laser	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_playerlaser	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserempty	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_playerlaserempty	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserscorch	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_lasertrail	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserhit	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/laserring	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserring	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_laserexplosion	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_metalhulk_ringfx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/rock_basalt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_basalt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/icyweed	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_icyweed	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_icyweedbreakfx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/trinketslot	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    trinketslot	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/shieldsfx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wormwood_poop_shield	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    hulkhat_buff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    shield_lunar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wickerbottom/books_perk	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_gather	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_teleport	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_shield	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_shadow	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_lunar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_book_voker	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wickerbottom/bookpack	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    bookpack	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wickerbottom/new_book_buff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    book_lunar_buff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    book_shadow_buff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wanda/watchcase	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    watchcase	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wanda/pocketwatches_perk	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_bloom	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_burnt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_corrupt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_deconstruct	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_repair	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_refresher	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_pocketwatch_multiverse	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wanda/wanda_clone	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wanda_clone_miner	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wanda_clone_chopper	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wanda_clone_worker	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wanda_clone_fighter	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wanda_clone_normal	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wanda_clone_evil	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wanda/watchpaint	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    watchpaint	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/battlesongs_perk	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_lightning	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_lightning_buff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_channel_shadow	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_instant_recharge	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_channel_lunar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_instant_stopmove	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_sailor	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_battlesong_sailor_buff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/battlesongsbuffs_perk	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    battlesong_instant_electric_buff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    battlesong_instant_stopmove_debuff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/battlesongsfx_perk	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    lucentbeam	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/songfolder	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    songfolder	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/warf_emitter	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    warf_emitter	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    warf_emitter_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wendy/ghostly_elixirs_perk	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_lunar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_shadow	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_temperature	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_slow	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_lunar_buff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_shadow_buff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_temperature_buff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_slow_buff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_speed_light	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wendy/ghostly_elixirfx_perk	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_lunar_fx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_lunar_dripfx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_shadow_fx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_shadow_dripfx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_temperature_fx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_temperature_dripfx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_slow_fx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    ghostlyelixir_slow_dripfx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/spider_mutators_perk	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mutator_poison	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wes/balloons_perk	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_beefalo	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_bunnyman	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_butterfly	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_hound	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_merm	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_pig	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_tentacle	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_spider	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wes/newballoons_perk	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_chasni_red	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_chasni_yellow	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_chasni_blue	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_chasni_purple	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    balloon_chasni_green	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/webbermasks	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_normal	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_hider	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_poison	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_dropper	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_water	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_moon	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_healer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_spitter	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_warrior	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/webbermask_spike	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_spike	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/webber/webbermask_spit	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    webbermask_spit	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/warly/fryingpan	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fryingpan	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/warly/chefhat	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chefhat	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/warly/chefpackred	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chefpackred	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/warly/portablegriller	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_portablegriller	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_portablegriller_item_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_portablegriller_item	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/warly/portablegriller_foods	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_red	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mopane	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brigadeiro	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_tumpeng	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_anzac	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kyivcake	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_empanadas	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kimchi	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_popcorn	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_green	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_yellow	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mooncake	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_balut	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_green_spice_salt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kyivcake_spice_garlic	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kyivcake_spice_sugar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kimchi_spice_sugar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_yellow_spice_salt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_balut_spice_garlic	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mooncake_spice_chili	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_balut_spice_salt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_balut_spice_chili	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brigadeiro_spice_garlic	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_anzac_spice_sugar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_red_spice_salt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_red_spice_garlic	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mopane_spice_salt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_empanadas_spice_chili	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_yellow_spice_sugar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mooncake_spice_sugar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kimchi_spice_salt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_red_spice_sugar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mopane_spice_chili	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mopane_spice_sugar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_anzac_spice_chili	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kyivcake_spice_chili	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_anzac_spice_garlic	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_anzac_spice_salt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brigadeiro_spice_sugar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mooncake_spice_salt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_tumpeng_spice_garlic	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_popcorn_spice_sugar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_tumpeng_spice_salt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_popcorn_spice_chili	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_tumpeng_spice_sugar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brigadeiro_spice_chili	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_red_spice_chili	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_popcorn_spice_garlic	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_green_spice_chili	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_green_spice_garlic	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_popcorn_spice_salt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_yellow_spice_garlic	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kimchi_spice_garlic	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_yellow_spice_chili	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mopane_spice_garlic	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brigadeiro_spice_salt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kyivcake_spice_salt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_balut_spice_sugar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_empanadas_spice_salt	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_empanadas_spice_garlic	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kimchi_spice_chili	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mooncake_spice_garlic	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_tumpeng_spice_chili	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_empanadas_spice_sugar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    jellybean_green_spice_sugar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/warly/new_food_buff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mooncakebuff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_balutbuff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_brigadeirobuff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kyivcakebuff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_empanadasbuff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_kimchibuff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_anzacbuff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_mopanebuff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/walter/magnifying_glass	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_magnifying_glass	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    wetpaper	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/walter/campingbag	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    campingbag	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/walter/adventure_hat	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    adventure_hat	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/walter/ammo_perk	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_bomb	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_bomb_proj	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_egg	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_egg_proj	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_lunar	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_lunar_proj	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_pills	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_pills_proj	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_shadow	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_slingshotammo_shadow_proj	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/thunder_spear	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    thunder_spear	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    spear_lightning	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    spear_elec_preparefx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    thunder_spear_fx	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/thunder_armor	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    thunder_armor	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wigfrid/thunder_hat	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    thunder_hat	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wurt/water_spear	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    water_spear	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wurt/water_hat	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    water_hat	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wolfgang/marbled_spear	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    marbled_spear	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wolfgang/marbled_armor	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    marbled_armor	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wolfgang/marbled_hat	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    marbled_hat	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wolfgang/new_dumbbells	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    dumbbell_tinker	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/wilson/gem_portal	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_gemportal	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_gemportal_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/fire_rock	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_rock	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/fire_staff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_staff	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/fire_hat	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_hat	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/fire_spear	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_spear	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_perk_light	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/fire_armor	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_armor	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/fire_staff_meteor	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_staff_meteor	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_staff_meteor_splash	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_staff_meteor_splashbase	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_staff_meteor_splashhit	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/fire_clone	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    fire_clone	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/flame_guard	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    flame_guard	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/willow/food_heater	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_heater	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    chasni_heater_placer	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/woodie/axe_axe	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    axe_axe	
+[00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/waxwell/shadow_tools	
 [00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    shadow_axe	
 [00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    shadow_hammer	
 [00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    shadow_pickaxe	
@@ -4094,8 +4160,8 @@
 [00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering prefab file: prefabs/uncontested/upgraded_beehat	
 [00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	    upgraded_beehat	
 [00:00:53]: Mod: workshop-2937640068 (Achievement Chasni Mod)	  Registering default mod prefab	
-[00:00:53]: Could not preload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
-[00:00:53]: Could not preload undefined prefab (chasni_crab_shadowlunarorgan)
+[00:00:54]: Could not preload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
+[00:00:54]: Could not preload undefined prefab (chasni_crab_shadowlunarorgan)
 [00:00:54]: Could not preload undefined prefab (chasni_fire_crab_king_claw_fx_build)
 [00:00:54]: Could not preload undefined prefab (chasni_crab_shadowfireorgan)
 [00:00:54]: Could not preload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
@@ -4105,8 +4171,8 @@
 [00:00:56]: Could not preload undefined prefab (cckproj_ice)
 [00:00:56]: Could not preload undefined prefab (chasni_water_crab_king_claw_fx_build)
 [00:00:56]: Could not preload undefined prefab (chasni_crab_shadowwaterorgan)
-[00:00:56]: Could not preload undefined prefab (fryfocals_charge)
-[00:00:56]: Could not preload undefined prefab (paint_fx)
+[00:00:57]: Could not preload undefined prefab (fryfocals_charge)
+[00:00:57]: Could not preload undefined prefab (paint_fx)
 [00:00:57]: Mod: workshop-2847908822 ([DST] Performance Pack)	Registering prefabs	
 [00:00:57]: Mod: workshop-2847908822 ([DST] Performance Pack)	  Registering prefab file: prefabs/w0tblgvn	
 [00:00:57]: Mod: workshop-2847908822 ([DST] Performance Pack)	    virtent	
@@ -4119,160 +4185,166 @@
 [00:00:57]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:58]: 	LOAD BE	
 [00:01:12]: Could not preload undefined prefab (brokenwall_scrap)
-[00:01:15]: 	LOAD BE: done	
-[00:01:15]: Begin Session: 324D3B74FD686B24
-[00:01:15]: saving to server_temp/server_save	
-[00:01:15]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
-[00:01:15]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
-[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3150203711/images/shoesminimap.xml )
-[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/anvil.xml )
-[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/schatztruhe.xml )
-[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/treasurechasechest.xml )
-[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house.xml )
-[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house1.xml )
-[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house_pvz.xml )
-[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house_tardis.xml )
-[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/minimap/dung_pile.xml )
-[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/minimap/basefan.xml )
-[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/telipad.xml )
-[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/thumper.xml )
-[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/smelter.xml )
-[00:01:15]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/propelomatic.xml )
-[00:01:15]: ---### a player is come back! reset the name? ###---	
-[00:01:15]: Loading 19 new character(s)	
-[00:01:17]: Total 19 character(s) loaded	
-[00:01:35]: Loading Nav Grid	
-[00:01:35]: World generated on build 587581 with save version: 5.142, using seed: 1655734220	
-[00:01:35]: setting 	summerlength	15	
-[00:01:35]: setting 	cavemoonphase	full	
-[00:01:35]: setting 	iscavefullmoon	false	
-[00:01:35]: setting 	isnightmaredawn	false	
-[00:01:35]: setting 	elapseddaysinseason	10	
-[00:01:35]: setting 	isfullmoon	false	
-[00:01:35]: setting 	moisture	1484.8167724609	
-[00:01:35]: setting 	springlength	20	
-[00:01:35]: setting 	islunarhailing	false	
-[00:01:35]: setting 	isnightmarewild	false	
-[00:01:35]: setting 	nightmaretimeinphase	0.38175327527711	
-[00:01:35]: setting 	precipitationrate	0.89082664251328	
-[00:01:35]: setting 	iswet	false	
-[00:01:35]: setting 	isnewmoon	false	
-[00:01:35]: setting 	israining	false	
-[00:01:35]: setting 	iswinter	false	
-[00:01:35]: setting 	isnightmarewarn	false	
-[00:01:35]: setting 	precipitation	acidrain	
-[00:01:35]: setting 	iscavewaxingmoon	false	
-[00:01:35]: setting 	isacidraining	true	
-[00:01:35]: setting 	moonphase	new	
-[00:01:35]: setting 	remainingdaysinseason	10	
-[00:01:35]: setting 	temperature	17.089705404157	
-[00:01:35]: setting 	wetness	0	
-[00:01:35]: setting 	cycles	3035	
-[00:01:35]: setting 	moistureceil	2779.8352050781	
-[00:01:35]: setting 	isday	false	
-[00:01:35]: setting 	winterlength	15	
-[00:01:35]: setting 	season	spring	
-[00:01:35]: setting 	iswaxingmoon	true	
-[00:01:35]: setting 	isalterawake	false	
-[00:01:35]: setting 	isnightmarecalm	true	
-[00:01:35]: setting 	isnight	true	
-[00:01:35]: setting 	isdusk	false	
-[00:01:35]: setting 	isspring	true	
-[00:01:35]: setting 	isautumn	false	
-[00:01:35]: setting 	iscaveday	false	
-[00:01:35]: setting 	lunarhaillevel	0	
-[00:01:35]: setting 	pop	1	
-[00:01:35]: setting 	snowlevel	0	
-[00:01:35]: setting 	issnowcovered	false	
-[00:01:35]: setting 	autumnlength	20	
-[00:01:35]: setting 	phase	night	
-[00:01:35]: setting 	nightmaretime	137.43117909976	
-[00:01:35]: setting 	issnowing	false	
-[00:01:35]: setting 	iscavedusk	true	
-[00:01:35]: setting 	nightmarephase	calm	
-[00:01:35]: setting 	timeinphase	0.48145367304484	
-[00:01:35]: setting 	seasonprogress	0.5	
-[00:01:35]: setting 	iscavenight	false	
-[00:01:35]: setting 	iscavenewmoon	false	
-[00:01:35]: setting 	issummer	false	
-[00:01:35]: setting 	cavephase	dusk	
-[00:01:35]: setting 	time	0.55322683652242	
-[00:01:35]: [Shard] Secondary shard is waiting for LUA...
-[00:01:35]: OVERRIDE: setting	resettime	to	none	
-[00:01:35]: OVERRIDE: setting	basicresource_regrowth	to	always	
-[00:01:35]: OVERRIDE: setting	portalresurection	to	always	
-[00:01:35]: OVERRIDE: setting	ghostsanitydrain	to	none	
-[00:01:54]: Could not find anim [chasni_shadow_monster] in bank [FROMNUM]
-[00:01:54]: Could not find anim [chasni_moon_soul] in bank [FROMNUM]
-[00:02:01]: Reconstructing topology	
-[00:02:01]: 	...Sorting points	
-[00:02:01]: 	...Sorting edges	
-[00:02:01]: 	...Connecting nodes	
-[00:02:01]: 	...Validating connections	
-[00:02:01]: 	...Housekeeping	
-[00:02:01]: 	...Done!	
-[00:02:02]: 1 uploads added to server. From server_temp
-[00:02:02]: About to start a shard with these settings:
-[00:02:02]:   ShardName: Caves
-[00:02:02]:   ShardID: 4239966897
-[00:02:02]:   ShardRole: SECONDARY
-[00:02:02]:   MasterHost: 127.0.0.1
-[00:02:02]:   MasterBind: (null)
-[00:02:02]:   MasterPort: 10998
-[00:02:02]: [Shard] Connecting to master...
-[00:02:02]: Telling Client our new session identifier: 324D3B74FD686B24
-[00:02:02]: Check for write access: TRUE
-[00:02:02]: Check for read access: TRUE
-[00:02:02]: Available disk space for save files: 98351 MB
-[00:02:02]: ModIndex: Load sequence finished successfully.	
-[00:02:02]: Reset() returning
-[00:02:02]: [Shard] Connection to master failed. Waiting to reconnect...
-[00:02:04]: Validating portal[9] <-> 1[9] (inactive)	
-[00:02:04]: Validating portal[4] <-> 1[4] (inactive)	
-[00:02:04]: Validating portal[6] <-> 1[6] (inactive)	
-[00:02:04]: Validating portal[3] <-> 1[3] (inactive)	
-[00:02:04]: Validating portal[2] <-> 1[2] (inactive)	
-[00:02:04]: Validating portal[5] <-> 1[5] (inactive)	
-[00:02:04]: Validating portal[1] <-> 1[1] (inactive)	
-[00:02:04]: Validating portal[7] <-> 1[7] (inactive)	
-[00:02:04]: Validating portal[8] <-> 1[8] (inactive)	
-[00:02:05]: Validating portal[10] <-> 1[10] (inactive)	
-[00:02:07]: About to start a shard with these settings:
-[00:02:07]:   ShardName: Caves
-[00:02:07]:   ShardID: 4239966897
-[00:02:07]:   ShardRole: SECONDARY
-[00:02:07]:   MasterHost: 127.0.0.1
-[00:02:07]:   MasterBind: (null)
-[00:02:07]:   MasterPort: 10998
-[00:02:07]: [Shard] Connecting to master...
-[00:02:08]: [Shard] Sending secondary shard information to master...
-[00:02:14]: Received MasterInfoPacket row 194342d16bf64c05a6878f5c832e9fa5 region us-east-1
-[00:02:14]: Obtaining secondary shard IP from us-east-1 lobby
-[00:02:15]: [Shard] secondary shard is now ready!
-[00:02:15]: World 1 is now connected	
-[00:02:15]: [SyncWorldSettings] Sending ResyncWorldSettings.	
-[00:02:15]: Validating portal[9] <-> 1[9] (active)	
-[00:02:15]: Validating portal[4] <-> 1[4] (active)	
-[00:02:15]: Validating portal[6] <-> 1[6] (active)	
-[00:02:15]: Validating portal[3] <-> 1[3] (active)	
-[00:02:15]: Validating portal[2] <-> 1[2] (active)	
-[00:02:15]: Validating portal[5] <-> 1[5] (active)	
-[00:02:15]: Validating portal[1] <-> 1[1] (active)	
-[00:02:15]: Validating portal[7] <-> 1[7] (active)	
-[00:02:15]: Validating portal[8] <-> 1[8] (active)	
-[00:02:15]: Validating portal[10] <-> 1[10] (active)	
-[00:02:15]: [SyncWorldSettings] recieved world settings from master shard.	true	
-[00:02:15]: [SyncWorldSettings] applying portalresurection = always from master shard.	
-[00:02:15]: component hauntable already exists on entity 101770 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
-[00:02:15]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
-[00:02:15]: [SyncWorldSettings] applying resettime = none from master shard.	
-[00:02:15]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
-[00:02:16]: Available disk space for save files: 98351 MB
-[00:02:18]: Serializing world: session/324D3B74FD686B24/0000003311
-[00:02:18]: Truncating to snapshot #3311...
-[00:02:18]:  - session/324D3B74FD686B24/0000003305
+[00:01:16]: 	LOAD BE: done	
+[00:01:16]: Begin Session: 324D3B74FD686B24
+[00:01:16]: saving to server_temp/server_save	
+[00:01:16]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:01:16]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:01:16]: MiniMapComponent::AddAtlas( ../mods/workshop-3150203711/images/shoesminimap.xml )
+[00:01:16]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/anvil.xml )
+[00:01:16]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/schatztruhe.xml )
+[00:01:16]: MiniMapComponent::AddAtlas( ../mods/workshop-2503437364/images/map_icons/treasurechasechest.xml )
+[00:01:16]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house.xml )
+[00:01:16]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house1.xml )
+[00:01:16]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house_pvz.xml )
+[00:01:16]: MiniMapComponent::AddAtlas( ../mods/workshop-3055010657/images/map_icons/hua_player_house_tardis.xml )
+[00:01:16]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/minimap/dung_pile.xml )
+[00:01:16]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/minimap/basefan.xml )
+[00:01:16]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/telipad.xml )
+[00:01:16]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/thumper.xml )
+[00:01:16]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/smelter.xml )
+[00:01:16]: MiniMapComponent::AddAtlas( ../mods/workshop-2937640068/images/inventoryimages/propelomatic.xml )
+[00:01:16]: ---### a player is come back! reset the name? ###---	
+[00:01:16]: Loading 19 new character(s)	
+[00:01:18]: Total 19 character(s) loaded	
+[00:01:37]: Loading Nav Grid	
+[00:01:37]: World generated on build 587581 with save version: 5.142, using seed: 1655734220	
+[00:01:37]: setting 	summerlength	15	
+[00:01:37]: setting 	cavemoonphase	full	
+[00:01:37]: setting 	iscavefullmoon	true	
+[00:01:37]: setting 	isnightmaredawn	false	
+[00:01:37]: setting 	elapseddaysinseason	16	
+[00:01:37]: setting 	isfullmoon	false	
+[00:01:37]: setting 	moisture	2148.5168457031	
+[00:01:37]: setting 	springlength	20	
+[00:01:37]: setting 	islunarhailing	false	
+[00:01:37]: setting 	isnightmarewild	true	
+[00:01:37]: setting 	nightmaretimeinphase	0.59824946283871	
+[00:01:37]: setting 	precipitationrate	0	
+[00:01:37]: setting 	iswet	false	
+[00:01:37]: setting 	isnewmoon	false	
+[00:01:37]: setting 	israining	false	
+[00:01:37]: setting 	iswinter	false	
+[00:01:37]: setting 	isnightmarewarn	false	
+[00:01:37]: setting 	precipitation	none	
+[00:01:37]: setting 	iscavewaxingmoon	false	
+[00:01:37]: setting 	isacidraining	false	
+[00:01:37]: setting 	moonphase	new	
+[00:01:37]: setting 	remainingdaysinseason	4	
+[00:01:37]: setting 	temperature	23.536518556348	
+[00:01:37]: setting 	wetness	0	
+[00:01:37]: setting 	cycles	3041	
+[00:01:37]: setting 	moistureceil	4337.8305664062	
+[00:01:37]: setting 	isday	false	
+[00:01:37]: setting 	winterlength	15	
+[00:01:37]: setting 	season	spring	
+[00:01:37]: setting 	iswaxingmoon	true	
+[00:01:37]: setting 	isalterawake	false	
+[00:01:37]: setting 	isnightmarecalm	false	
+[00:01:37]: setting 	isnight	true	
+[00:01:37]: setting 	isdusk	false	
+[00:01:37]: setting 	isspring	true	
+[00:01:37]: setting 	isautumn	false	
+[00:01:37]: setting 	iscaveday	false	
+[00:01:37]: setting 	lunarhaillevel	0	
+[00:01:37]: setting 	pop	0.45475596598334	
+[00:01:37]: setting 	snowlevel	0	
+[00:01:37]: setting 	issnowcovered	false	
+[00:01:37]: setting 	autumnlength	20	
+[00:01:37]: setting 	phase	night	
+[00:01:37]: setting 	nightmaretime	539.73741942581	
+[00:01:37]: setting 	issnowing	false	
+[00:01:37]: setting 	iscavedusk	false	
+[00:01:37]: setting 	nightmarephase	wild	
+[00:01:37]: setting 	timeinphase	0.25132251315647	
+[00:01:37]: setting 	seasonprogress	0.8	
+[00:01:37]: setting 	iscavenight	true	
+[00:01:37]: setting 	iscavenewmoon	false	
+[00:01:37]: setting 	issummer	false	
+[00:01:37]: setting 	cavephase	night	
+[00:01:37]: setting 	time	0.85962297121684	
+[00:01:37]: [Shard] Secondary shard is waiting for LUA...
+[00:01:37]: OVERRIDE: setting	resettime	to	none	
+[00:01:37]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:01:37]: OVERRIDE: setting	portalresurection	to	always	
+[00:01:37]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:01:55]: Could not find anim [chasni_shadow_monster] in bank [FROMNUM]
+[00:01:55]: Could not find anim [chasni_moon_soul] in bank [FROMNUM]
+[00:02:03]: Reconstructing topology	
+[00:02:03]: 	...Sorting points	
+[00:02:03]: 	...Sorting edges	
+[00:02:03]: 	...Connecting nodes	
+[00:02:03]: 	...Validating connections	
+[00:02:03]: 	...Housekeeping	
+[00:02:03]: 	...Done!	
+[00:02:03]: 1 uploads added to server. From server_temp
+[00:02:03]: About to start a shard with these settings:
+[00:02:03]:   ShardName: Caves
+[00:02:03]:   ShardID: 4239966897
+[00:02:03]:   ShardRole: SECONDARY
+[00:02:03]:   MasterHost: 127.0.0.1
+[00:02:03]:   MasterBind: (null)
+[00:02:03]:   MasterPort: 10998
+[00:02:03]: [Shard] Connecting to master...
+[00:02:03]: Telling Client our new session identifier: 324D3B74FD686B24
+[00:02:03]: Check for write access: TRUE
+[00:02:03]: Check for read access: TRUE
+[00:02:03]: Available disk space for save files: 84399 MB
+[00:02:03]: ModIndex: Load sequence finished successfully.	
+[00:02:04]: Reset() returning
+[00:02:04]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:02:06]: Validating portal[10] <-> 1[10] (inactive)	
+[00:02:06]: Validating portal[1] <-> 1[1] (inactive)	
+[00:02:06]: Validating portal[6] <-> 1[6] (inactive)	
+[00:02:06]: Validating portal[9] <-> 1[9] (inactive)	
+[00:02:06]: Validating portal[4] <-> 1[4] (inactive)	
+[00:02:06]: Validating portal[8] <-> 1[8] (inactive)	
+[00:02:06]: Validating portal[7] <-> 1[7] (inactive)	
+[00:02:06]: Validating portal[5] <-> 1[5] (inactive)	
+[00:02:06]: Validating portal[3] <-> 1[3] (inactive)	
+[00:02:06]: Validating portal[2] <-> 1[2] (inactive)	
+[00:02:09]: About to start a shard with these settings:
+[00:02:09]:   ShardName: Caves
+[00:02:09]:   ShardID: 4239966897
+[00:02:09]:   ShardRole: SECONDARY
+[00:02:09]:   MasterHost: 127.0.0.1
+[00:02:09]:   MasterBind: (null)
+[00:02:09]:   MasterPort: 10998
+[00:02:09]: [Shard] Connecting to master...
+[00:02:09]: [Shard] Sending secondary shard information to master...
+[00:02:15]: Received MasterInfoPacket row cbbdc35942fdf20f112ec22a00c6fff8 region us-east-1
+[00:02:15]: Obtaining secondary shard IP from us-east-1 lobby
+[00:02:16]: [Shard] secondary shard is now ready!
+[00:02:16]: World 1 is now connected	
+[00:02:16]: [SyncWorldSettings] Sending ResyncWorldSettings.	
+[00:02:16]: Validating portal[10] <-> 1[10] (active)	
+[00:02:16]: Validating portal[1] <-> 1[1] (active)	
+[00:02:16]: Validating portal[6] <-> 1[6] (active)	
+[00:02:16]: Validating portal[9] <-> 1[9] (active)	
+[00:02:16]: Validating portal[4] <-> 1[4] (active)	
+[00:02:16]: Validating portal[8] <-> 1[8] (active)	
+[00:02:16]: Validating portal[7] <-> 1[7] (active)	
+[00:02:16]: Validating portal[5] <-> 1[5] (active)	
+[00:02:16]: Validating portal[3] <-> 1[3] (active)	
+[00:02:16]: Validating portal[2] <-> 1[2] (active)	
+[00:02:16]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:02:16]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:02:16]: component hauntable already exists on entity 101784 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:02:16]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:02:16]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:02:16]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:02:16]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:02:16]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:02:16]: component hauntable already exists on entity 101784 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:02:16]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:02:16]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:02:16]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:02:17]: [Shard] secondary shard LUA is now ready!
+[00:02:17]: Available disk space for save files: 84399 MB
+[00:02:18]: Serializing world: session/324D3B74FD686B24/0000003319
+[00:02:18]: Truncating to snapshot #3319...
+[00:02:18]:  - session/324D3B74FD686B24/0000003313
 [00:02:18]:    1 file(s) removed
-[00:02:18]: [Shard] secondary shard LUA is now ready!
 [00:02:18]: Sim paused
 [00:30:29]: [200] Account Communication Success (6)
 [00:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
@@ -4304,73 +4376,154 @@
 [07:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
 [07:30:29]: [200] Account Communication Success (6)
 [07:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[07:30:32]: Sim unpaused
+[07:31:43]: Available disk space for save files: 84417 MB
+[07:31:44]: Serializing world: session/324D3B74FD686B24/0000003320
+[07:31:44]: Truncating to snapshot #3320...
+[07:31:44]:  - session/324D3B74FD686B24/0000003314
+[07:31:44]:    1 file(s) removed
+[07:39:45]: Available disk space for save files: 84412 MB
+[07:39:46]: Serializing world: session/324D3B74FD686B24/0000003321
+[07:39:46]: Truncating to snapshot #3321...
+[07:39:46]:  - session/324D3B74FD686B24/0000003315
+[07:39:46]:    1 file(s) removed
+[07:47:47]: Available disk space for save files: 84408 MB
+[07:47:48]: Serializing world: session/324D3B74FD686B24/0000003322
+[07:47:48]: Truncating to snapshot #3322...
+[07:47:48]:  - session/324D3B74FD686B24/0000003316
+[07:47:48]:    1 file(s) removed
+[07:55:49]: Available disk space for save files: 84404 MB
+[07:55:50]: Serializing world: session/324D3B74FD686B24/0000003323
+[07:55:50]: Truncating to snapshot #3323...
+[07:55:50]:  - session/324D3B74FD686B24/0000003317
+[07:55:50]:    1 file(s) removed
 [08:00:29]: [200] Account Communication Success (6)
 [08:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[08:17:34]: Sim unpaused
-[08:21:12]: Available disk space for save files: 94817 MB
-[08:21:13]: Serializing world: session/324D3B74FD686B24/0000003312
-[08:29:14]: Available disk space for save files: 94342 MB
-[08:29:15]: Serializing world: session/324D3B74FD686B24/0000003313
-[08:29:15]: Truncating to snapshot #3313...
-[08:29:15]:  - session/324D3B74FD686B24/0000003307
-[08:29:15]:    1 file(s) removed
+[08:03:51]: Available disk space for save files: 84399 MB
+[08:03:53]: Serializing world: session/324D3B74FD686B24/0000003324
+[08:03:53]: Truncating to snapshot #3324...
+[08:03:53]:  - session/324D3B74FD686B24/0000003318
+[08:03:53]:    1 file(s) removed
+[08:11:53]: Available disk space for save files: 84395 MB
+[08:11:55]: Serializing world: session/324D3B74FD686B24/0000003325
+[08:11:55]: Truncating to snapshot #3325...
+[08:11:55]:  - session/324D3B74FD686B24/0000003319
+[08:11:55]:    1 file(s) removed
+[08:19:55]: Available disk space for save files: 84391 MB
+[08:19:57]: Serializing world: session/324D3B74FD686B24/0000003326
+[08:19:57]: Truncating to snapshot #3326...
+[08:19:57]:  - session/324D3B74FD686B24/0000003320
+[08:19:57]:    1 file(s) removed
+[08:27:58]: Available disk space for save files: 84387 MB
+[08:27:59]: Serializing world: session/324D3B74FD686B24/0000003327
+[08:27:59]: Truncating to snapshot #3327...
+[08:27:59]:  - session/324D3B74FD686B24/0000003321
+[08:27:59]:    1 file(s) removed
 [08:30:29]: [200] Account Communication Success (6)
 [08:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[08:37:16]: Available disk space for save files: 93873 MB
-[08:37:17]: Serializing world: session/324D3B74FD686B24/0000003314
-[08:37:17]: Truncating to snapshot #3314...
-[08:37:17]:  - session/324D3B74FD686B24/0000003308
-[08:37:17]:    1 file(s) removed
-[08:45:18]: Available disk space for save files: 93403 MB
-[08:45:19]: Serializing world: session/324D3B74FD686B24/0000003315
-[08:45:19]: Truncating to snapshot #3315...
-[08:45:19]:  - session/324D3B74FD686B24/0000003309
-[08:45:19]:    1 file(s) removed
-[08:53:20]: Available disk space for save files: 92933 MB
-[08:53:21]: Serializing world: session/324D3B74FD686B24/0000003316
-[08:53:21]: Truncating to snapshot #3316...
-[08:53:21]:  - session/324D3B74FD686B24/0000003310
-[08:53:21]:    1 file(s) removed
+[08:36:01]: Available disk space for save files: 84374 MB
+[08:36:02]: Serializing world: session/324D3B74FD686B24/0000003328
+[08:36:02]: Truncating to snapshot #3328...
+[08:36:02]:  - session/324D3B74FD686B24/0000003322
+[08:36:02]:    1 file(s) removed
+[08:44:03]: Available disk space for save files: 84370 MB
+[08:44:04]: Serializing world: session/324D3B74FD686B24/0000003329
+[08:44:04]: Truncating to snapshot #3329...
+[08:44:04]:  - session/324D3B74FD686B24/0000003323
+[08:44:04]:    1 file(s) removed
+[08:52:05]: Available disk space for save files: 84366 MB
+[08:52:06]: Serializing world: session/324D3B74FD686B24/0000003330
+[08:52:06]: Truncating to snapshot #3330...
+[08:52:06]:  - session/324D3B74FD686B24/0000003324
+[08:52:06]:    1 file(s) removed
+[09:00:07]: Available disk space for save files: 84344 MB
+[09:00:08]: Serializing world: session/324D3B74FD686B24/0000003331
+[09:00:08]: Truncating to snapshot #3331...
+[09:00:08]:  - session/324D3B74FD686B24/0000003325
+[09:00:08]:    1 file(s) removed
 [09:00:29]: [200] Account Communication Success (6)
 [09:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[09:00:45]: Sim paused
+[09:08:10]: Available disk space for save files: 84340 MB
+[09:08:11]: Serializing world: session/324D3B74FD686B24/0000003332
+[09:08:11]: Truncating to snapshot #3332...
+[09:08:11]:  - session/324D3B74FD686B24/0000003326
+[09:08:11]:    1 file(s) removed
+[09:16:12]: Available disk space for save files: 84347 MB
+[09:16:13]: Serializing world: session/324D3B74FD686B24/0000003333
+[09:16:13]: Truncating to snapshot #3333...
+[09:16:13]:  - session/324D3B74FD686B24/0000003327
+[09:16:13]:    1 file(s) removed
+[09:24:14]: Available disk space for save files: 84342 MB
+[09:24:16]: Serializing world: session/324D3B74FD686B24/0000003334
+[09:24:16]: Truncating to snapshot #3334...
+[09:24:16]:  - session/324D3B74FD686B24/0000003328
+[09:24:16]:    1 file(s) removed
 [09:30:29]: [200] Account Communication Success (6)
 [09:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[09:32:17]: Available disk space for save files: 84402 MB
+[09:32:18]: Serializing world: session/324D3B74FD686B24/0000003335
+[09:32:18]: Truncating to snapshot #3335...
+[09:32:18]:  - session/324D3B74FD686B24/0000003329
+[09:32:18]:    1 file(s) removed
+[09:40:19]: Available disk space for save files: 84398 MB
+[09:40:20]: Serializing world: session/324D3B74FD686B24/0000003336
+[09:40:20]: Truncating to snapshot #3336...
+[09:40:20]:  - session/324D3B74FD686B24/0000003330
+[09:40:20]:    1 file(s) removed
+[09:48:21]: Available disk space for save files: 84393 MB
+[09:48:23]: Serializing world: session/324D3B74FD686B24/0000003337
+[09:48:23]: Truncating to snapshot #3337...
+[09:48:23]:  - session/324D3B74FD686B24/0000003331
+[09:48:23]:    1 file(s) removed
+[09:56:24]: Available disk space for save files: 84389 MB
+[09:56:25]: Serializing world: session/324D3B74FD686B24/0000003338
+[09:56:25]: Truncating to snapshot #3338...
+[09:56:25]:  - session/324D3B74FD686B24/0000003332
+[09:56:25]:    1 file(s) removed
 [10:00:29]: [200] Account Communication Success (6)
 [10:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[10:04:27]: Available disk space for save files: 84384 MB
+[10:04:28]: Serializing world: session/324D3B74FD686B24/0000003339
+[10:04:28]: Truncating to snapshot #3339...
+[10:04:28]:  - session/324D3B74FD686B24/0000003333
+[10:04:28]:    1 file(s) removed
+[10:12:29]: Available disk space for save files: 84372 MB
+[10:12:30]: Serializing world: session/324D3B74FD686B24/0000003340
+[10:12:30]: Truncating to snapshot #3340...
+[10:12:30]:  - session/324D3B74FD686B24/0000003334
+[10:12:30]:    1 file(s) removed
+[10:20:31]: Available disk space for save files: 84368 MB
+[10:20:32]: Serializing world: session/324D3B74FD686B24/0000003341
+[10:20:32]: Truncating to snapshot #3341...
+[10:20:32]:  - session/324D3B74FD686B24/0000003335
+[10:20:32]:    1 file(s) removed
+[10:22:04]: Sim paused
 [10:30:29]: [200] Account Communication Success (6)
 [10:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[11:00:29]: [200] Account Communication Success (6)
-[11:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[11:08:01]: Sim unpaused
-[11:08:39]: Available disk space for save files: 85035 MB
-[11:08:41]: Serializing world: session/324D3B74FD686B24/0000003317
-[11:08:41]: Truncating to snapshot #3317...
-[11:08:41]:  - session/324D3B74FD686B24/0000003311
-[11:08:41]:    1 file(s) removed
-[11:15:32]: Sim paused
-[11:30:29]: [200] Account Communication Success (6)
-[11:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[12:00:29]: [200] Account Communication Success (6)
-[12:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[12:30:29]: [200] Account Communication Success (6)
-[12:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[13:00:29]: [200] Account Communication Success (6)
-[13:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[13:30:29]: [200] Account Communication Success (6)
-[13:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[14:00:29]: [200] Account Communication Success (6)
-[14:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[14:30:29]: [200] Account Communication Success (6)
-[14:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[11:00:30]: [200] Account Communication Success (6)
+[11:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[11:30:30]: [200] Account Communication Success (6)
+[11:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[12:00:30]: [200] Account Communication Success (6)
+[12:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[12:30:30]: [200] Account Communication Success (6)
+[12:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[13:00:30]: [200] Account Communication Success (6)
+[13:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[13:30:30]: [200] Account Communication Success (6)
+[13:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[14:00:30]: [200] Account Communication Success (6)
+[14:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[14:30:30]: [200] Account Communication Success (6)
+[14:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [15:00:30]: [200] Account Communication Success (6)
 [15:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[15:30:29]: [200] Account Communication Success (6)
-[15:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[16:00:29]: [200] Account Communication Success (6)
-[16:00:29]: Received (KU_2DNgIUgO) from TokenPurpose
-[16:30:29]: [200] Account Communication Success (6)
-[16:30:29]: Received (KU_2DNgIUgO) from TokenPurpose
+[15:30:30]: [200] Account Communication Success (6)
+[15:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[16:00:30]: [200] Account Communication Success (6)
+[16:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[16:30:30]: [200] Account Communication Success (6)
+[16:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [17:00:30]: [200] Account Communication Success (6)
 [17:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [17:30:30]: [200] Account Communication Success (6)
@@ -4383,33 +4536,83 @@
 [19:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
 [19:30:30]: [200] Account Communication Success (6)
 [19:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[19:58:30]: Sim unpaused
 [20:00:30]: [200] Account Communication Success (6)
 [20:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[20:04:59]: Available disk space for save files: 82829 MB
+[20:05:01]: Serializing world: session/324D3B74FD686B24/0000003342
+[20:05:01]: Truncating to snapshot #3342...
+[20:05:01]:  - session/324D3B74FD686B24/0000003336
+[20:05:01]:    1 file(s) removed
+[20:13:01]: Available disk space for save files: 82357 MB
+[20:13:03]: Serializing world: session/324D3B74FD686B24/0000003343
+[20:13:03]: Truncating to snapshot #3343...
+[20:13:03]:  - session/324D3B74FD686B24/0000003337
+[20:13:03]:    1 file(s) removed
+[20:21:05]: Available disk space for save files: 81822 MB
+[20:21:06]: Serializing world: session/324D3B74FD686B24/0000003344
+[20:21:06]: Truncating to snapshot #3344...
+[20:21:06]:  - session/324D3B74FD686B24/0000003338
+[20:21:06]:    1 file(s) removed
+[20:29:12]: Available disk space for save files: 81344 MB
+[20:29:13]: Serializing world: session/324D3B74FD686B24/0000003345
+[20:29:13]: Truncating to snapshot #3345...
+[20:29:13]:  - session/324D3B74FD686B24/0000003339
+[20:29:13]:    1 file(s) removed
 [20:30:30]: [200] Account Communication Success (6)
 [20:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[20:37:25]: Available disk space for save files: 80860 MB
+[20:37:26]: Serializing world: session/324D3B74FD686B24/0000003346
+[20:37:26]: Truncating to snapshot #3346...
+[20:37:26]:  - session/324D3B74FD686B24/0000003340
+[20:37:26]:    1 file(s) removed
+[20:45:35]: Available disk space for save files: 80379 MB
+[20:45:37]: Serializing world: session/324D3B74FD686B24/0000003347
+[20:45:37]: Truncating to snapshot #3347...
+[20:45:37]:  - session/324D3B74FD686B24/0000003341
+[20:45:37]:    1 file(s) removed
+[20:53:39]: Available disk space for save files: 79905 MB
+[20:53:41]: Serializing world: session/324D3B74FD686B24/0000003348
+[20:53:41]: Truncating to snapshot #3348...
+[20:53:41]:  - session/324D3B74FD686B24/0000003342
+[20:53:41]:    1 file(s) removed
 [21:00:30]: [200] Account Communication Success (6)
 [21:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[21:01:45]: Available disk space for save files: 120824 MB
+[21:01:47]: Serializing world: session/324D3B74FD686B24/0000003349
+[21:01:47]: Truncating to snapshot #3349...
+[21:01:47]:  - session/324D3B74FD686B24/0000003343
+[21:01:47]:    1 file(s) removed
+[21:10:03]: Available disk space for save files: 120335 MB
+[21:10:05]: Serializing world: session/324D3B74FD686B24/0000003350
+[21:10:05]: Truncating to snapshot #3350...
+[21:10:05]:  - session/324D3B74FD686B24/0000003344
+[21:10:05]:    1 file(s) removed
+[21:18:21]: Available disk space for save files: 119846 MB
+[21:18:22]: Serializing world: session/324D3B74FD686B24/0000003351
+[21:18:22]: Truncating to snapshot #3351...
+[21:18:22]:  - session/324D3B74FD686B24/0000003345
+[21:18:22]:    1 file(s) removed
+[21:26:52]: Available disk space for save files: 119345 MB
+[21:26:53]: Serializing world: session/324D3B74FD686B24/0000003352
+[21:26:53]: Truncating to snapshot #3352...
+[21:26:53]:  - session/324D3B74FD686B24/0000003346
+[21:26:53]:    1 file(s) removed
 [21:30:30]: [200] Account Communication Success (6)
 [21:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[21:35:59]: Available disk space for save files: 118808 MB
+[21:36:01]: Serializing world: session/324D3B74FD686B24/0000003353
+[21:36:01]: Truncating to snapshot #3353...
+[21:36:01]:  - session/324D3B74FD686B24/0000003347
+[21:36:01]:    1 file(s) removed
+[21:42:41]: Sim paused
 [22:00:30]: [200] Account Communication Success (6)
 [22:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[22:30:30]: [200] Account Communication Success (6)
-[22:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[23:00:30]: [200] Account Communication Success (6)
-[23:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[23:30:30]: [200] Account Communication Success (6)
-[23:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[00:00:30]: [200] Account Communication Success (6)
-[00:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[00:30:30]: [200] Account Communication Success (6)
-[00:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[01:00:30]: [200] Account Communication Success (6)
-[01:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[01:21:56]: Sim unpaused
-[01:21:57]: Available disk space for save files: 84391 MB
-[01:21:59]: Serializing world: session/324D3B74FD686B24/0000003318
-[01:21:59]: Truncating to snapshot #3318...
-[01:21:59]:  - session/324D3B74FD686B24/0000003312
-[01:21:59]:    1 file(s) removed
-[01:22:01]: [Shard] We have been disconnected from the master. Waiting to reconnect...
-[01:22:01]: Sim paused
+[22:10:44]: Sim unpaused
+[22:10:45]: Available disk space for save files: 116782 MB
+[22:10:46]: Serializing world: session/324D3B74FD686B24/0000003354
+[22:10:46]: Truncating to snapshot #3354...
+[22:10:46]:  - session/324D3B74FD686B24/0000003348
+[22:10:46]:    1 file(s) removed
+[22:10:48]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[22:10:48]: Sim paused
