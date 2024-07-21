@@ -486,40 +486,6 @@ return {
     },
     enabled=true 
   },
-  ["workshop-2948633273"]={
-    configuration_options={
-      BRAINSTAFF_COST_BONE=1,
-      BRAINSTAFF_COST_BRAIN=5,
-      BRAINSTAFF_COST_ROPE=1,
-      BRAINSTAFF_DAMAGE=75,
-      BRAIN_HEALTH=-10,
-      BRAIN_HUNGER=15,
-      BRAIN_SANITY=-50,
-      BasicStatsSection="",
-      SPAWN_STRUCTURE_AWAY=10,
-      SecondaryStatsSection="",
-      ZOMBIE_AGGRO_RANGE=5,
-      ZOMBIE_ARM_DAMAGE=55,
-      ZOMBIE_ARM_PVP_DAMAGE=65,
-      ZOMBIE_ARM_USES=100,
-      ZOMBIE_DAMAGE=300,
-      ZOMBIE_DROP_ARM=0.1,
-      ZOMBIE_DROP_BONE=0.2,
-      ZOMBIE_DROP_FIRST_MEAT=0.8,
-      ZOMBIE_DROP_MEAT=0.3,
-      ZOMBIE_HEALTH=300,
-      ZOMBIE_MAX_STAFF=15,
-      ZOMBIE_MAX_STAFFLESS=15,
-      ZOMBIE_PROBABILITY_BLUE=1,
-      ZOMBIE_PROBABILITY_BRAINLESS=1,
-      ZOMBIE_PROBABILITY_GREY=1,
-      ZOMBIE_PROBABILITY_RED=1,
-      ZOMBIE_SANITYLOSS=0.25,
-      ZOMBIE_STUNLOCK_CAP=300,
-      bump="" 
-    },
-    enabled=false 
-  },
   ["workshop-2039181790"]={
     configuration_options={
       [""]=false,
@@ -655,7 +621,7 @@ return {
       perogi=0.5,
       pigking_guards=true,
       pinelings=true,
-      pocket_powertrip=1,
+      pocket_powertrip=false,
       pyrenettles=true,
       rat_raids=true,
       ratgrace=30,
@@ -740,7 +706,7 @@ return {
       wxless=false,
       wxlessspeedbump=false 
     },
-    enabled=true 
+    enabled=false 
   },
   ["workshop-3156633422"]={
     configuration_options={
