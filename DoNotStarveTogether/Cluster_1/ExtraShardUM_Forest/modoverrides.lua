@@ -28,7 +28,7 @@ return {
       UNLOCKXP=true,
       WORKXP=true 
     },
-    enabled=true 
+    enabled=false 
   },
   ["workshop-2854057841"]={
     configuration_options={
@@ -706,7 +706,7 @@ return {
       wxless=false,
       wxlessspeedbump=false 
     },
-    enabled=false 
+    enabled=true 
   },
   ["workshop-3156633422"]={
     configuration_options={

@@ -1,6 +1,6 @@
 # [Noitosfera] Sequelarius - `Pré-Season #2`
 - De `03/01/2024` à `Hoje`
-- `3324` dias de jogo
+- `3325` dias de jogo
 - `18` dias reais passados em jogo
 - `130` jogadores únicos
 - `2482166` moedas dropadas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
@@ -27,5 +27,5 @@
 > Concedido ao jogador que mais conversou na temporada
 - ~🤔 O Indeciso: Otomai (`0` mudanças de personagem)~
 > ~Concedido ao jogador que mais trocou de personagem na temporada~
-- 😴 O Vagabundo: GMC6 (`13160` minutos / `219.33` horas / `9.13` dias)
+- 😴 O Vagabundo: Vapo (`11416` minutos / `190.26` horas / `7.92` dias)
 > Concedido ao jogador que passou mais tempo online (no servidor) na temporada

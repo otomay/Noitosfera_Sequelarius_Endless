@@ -292,7 +292,7 @@ KLEI     1 return {
         wxless=false,
         wxlessspeedbump=false 
       },
-      enabled=false 
+      enabled=true 
     },
     ["workshop-2167036904"]={ configuration_options={ URL="https://discord.gg/NaX26M64VZ" }, enabled=true },
     ["workshop-2324689937"]={
@@ -561,7 +561,7 @@ KLEI     1 return {
         UNLOCKXP=true,
         WORKXP=true 
       },
-      enabled=true 
+      enabled=false 
     },
     ["workshop-3050607025"]={
       configuration_options={
@@ -738,7 +738,7 @@ KLEI     1 return {
     pvp=false,
     server_language="pt" 
   },
-  session_id="B4C266B1ABCF3F72",
+  session_id="58E0B87B01B7DF6D",
   version=5,
   world={
     options={
