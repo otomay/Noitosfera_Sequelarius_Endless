@@ -726,11 +726,11 @@ KLEI     1 return {
   },
   server={
     clan={ admin=false, id="", only=false },
-    description="Às terças o evento de apocalipse zumbi fica ativo. Tente ficar vivo e aproveite a oportunidade para farmar moedas e xp!",
+    description="Esse é o servidor que será publicado para a temporada 2 de \"Sequelarius - Endless RPG & Casual/Social\". Está em fase de testes para monitorarmos estabilidade da conexão.",
     encode_user_path=true,
     game_mode="survival",
     max_players=12,
-    name="[Noitosfera] Sukuna - Apocalipse Zumbi",
+    name="[Noitosfera] Sukuna",
     online_mode=true,
     password="",
     playstyle="endless",
