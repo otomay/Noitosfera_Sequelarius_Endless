@@ -1,25 +1,25 @@
 # [Noitosfera] Sequelarius - `Pré-Season #2`
 - De `03/01/2024` à `Hoje`
-- `3366` dias de jogo
+- `3369` dias de jogo
 - `18` dias reais passados em jogo
 - `141` jogadores únicos
-- `2482655` moedas dropadas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
-- `2013940` moedas gastas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
-- `28281` monstros normais derrotados
+- `2482660` moedas dropadas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
+- `2014085` moedas gastas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
+- `28285` monstros normais derrotados
 - `906` chefes derrotados
 - `0` crashes do servidor
 
-# Ranking de melhores jogadores (total de `441074` pontos)
+# Ranking de melhores jogadores (total de `441107` pontos)
 1. 🎗️ **GMC6** *[`233949` pontos]*
-2. 🎗️ **Vapo** *[`183519` pontos]*
+2. 🎗️ **Vapo** *[`183552` pontos]*
 3. 🎗️ **PtckLB** *[`5702` pontos]*
 4. 🎗️ **Otomai** *[`4408` pontos]*
 5. 🎗️ **Veio da Manga** *[`3981` pontos]*
 
 # Títulos conquistados
-- 👹 O Carniceiro: Vapo (`14848` monstros mortos)
+- 👹 O Carniceiro: Vapo (`14852` monstros mortos)
 > Concedido ao jogador que mais matou monstros na temporada
-- 🥵 O Masoquista: Vapo (`5408.48800827322` de dano recebido)
+- 🥵 O Masoquista: Vapo (`5429.15467493988` de dano recebido)
 > Concedido ao jogador que mais levou dano na temporada
 - 💀 Natsuki Subaru: Vapo (`75` mortes)
 > Concedido ao jogador que mais morreu na temporada
