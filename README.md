@@ -2,7 +2,7 @@
 - De `03/01/2024` à `Hoje`
 - `3414` dias de jogo
 - `18` dias reais passados em jogo
-- `146` jogadores únicos
+- `147` jogadores únicos
 - `2482706` moedas dropadas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
 - `2014421` moedas gastas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
 - `28323` monstros normais derrotados
