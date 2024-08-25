@@ -537,7 +537,7 @@ return {
       ZOMBIE_STUNLOCK_CAP=300,
       bump="" 
     },
-    enabled=true 
+    enabled=false 
   },
   ["workshop-3156633422"]={
     configuration_options={
