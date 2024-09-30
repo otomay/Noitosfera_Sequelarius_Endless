@@ -4730,22 +4730,3 @@
 [00:49:11]: Truncating to snapshot #4117...
 [00:49:11]:  - session/BF953A8AFDD25F52/0000004111
 [00:49:11]:    1 file(s) removed
-[00:49:11]: Available disk space for save files: 111731 MB
-[00:49:12]: [Quest System] Saving own quests!	
-[00:49:12]: Missing reference:	118571 - beef_bell	->	118573	118573 - beefalo	
-[00:49:12]: Missing reference:	118575 - beef_bell	->	118577	118577 - beefalo	
-[00:49:13]: Serializing world: session/BF953A8AFDD25F52/0000004118
-[00:49:13]: Truncating to snapshot #4118...
-[00:49:13]:  - session/BF953A8AFDD25F52/0000004112
-[00:49:13]:    1 file(s) removed
-[00:49:13]: Removing server from lobby
-[00:49:13]: [Shard] Stopping shard mode
-[00:49:13]: [Steam] SendUserDisconnect for ''
-[00:49:14]: Collecting garbage...
-[00:49:16]: lua_gc took 1.78 seconds
-[00:49:16]: ~ShardLuaProxy()
-[00:49:16]: ~cEventLeaderboardProxy()
-[00:49:16]: ~ItemServerLuaProxy()
-[00:49:16]: ~InventoryLuaProxy()
-[00:49:16]: ~NetworkLuaProxy()
-[00:49:16]: ~SimLuaProxy()
