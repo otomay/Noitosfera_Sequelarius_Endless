@@ -9,7 +9,7 @@
 - `906` chefes derrotados
 - `0` crashes do servidor
 
-# Ranking de melhores jogadores (total de `440865` pontos)
+# Ranking de melhores jogadores (total de `440855` pontos)
 1. 🎗️ **GMC6** *[`233949` pontos]*
 2. 🎗️ **Vapo** *[`183552` pontos]*
 3. 🎗️ **PtckLB** *[`5702` pontos]*
