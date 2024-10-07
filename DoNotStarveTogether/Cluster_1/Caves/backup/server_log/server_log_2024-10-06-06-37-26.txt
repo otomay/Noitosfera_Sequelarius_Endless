@@ -1,4 +1,4 @@
-[00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
+[00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Caves/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 632551
 [00:00:00]: Current time: Sun Oct  6 04:31:08 2024
@@ -12,12 +12,12 @@
 [00:00:00]: Build Date: 2663
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Master 
+[00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Caves 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (252593026629472)
+[00:00:00]: THREAD - started 'GAClient' (263720078933856)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:22.93
+[00:00:00]: ProfileIndex:22.66
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -25,22 +25,22 @@
 [00:00:00]: Mounting file system databundles/bigportraits.zip successful.
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
-[00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
+[00:00:00]: [Steam] SteamGameServer_Init(11000, 12347)
 [00:00:00]: [Steam] SteamGameServer_Init success
 [00:00:00]: [Connect] PendingConnection::Reset(true)
 [00:00:00]: Platform: 1
 [00:00:00]: Network tick rate: U=15(2), D=0
 [00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: THREAD - started 'StreamInput' (252592917577568)
 [00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:00]: THREAD - started 'StreamInput' (263719969881952)
 [00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
 [00:00:00]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
 [00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
 [00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
-[00:00:01]: cGame::InitializeOnMainThread
-[00:00:01]: Renderer initialize: Okay
-[00:00:01]: AnimManager initialize: Okay
-[00:00:01]: Buffers initialize: Okay
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
 [00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
 [00:00:01]: GameSpecific initialize: Okay
 [00:00:01]: cGame::StartPlaying
@@ -634,11 +634,11 @@
 [00:00:10]: [Quest System] Amount of quests difficulty 3:	38	
 [00:00:10]: [Quest System] Amount of quests difficulty 4:	28	
 [00:00:10]: [Quest System] Amount of quests difficulty 5:	14	
-[00:00:11]: modimport: ../mods/workshop-2597204554/quest_system/RPC.lua	
-[00:00:11]: modimport: ../mods/workshop-2597204554/quest_system/Quest_Board_Util.lua	
-[00:00:11]: [Quest System] Amount of custom goals:	278	
-[00:00:11]: modimport: ../mods/workshop-2597204554/quest_system/postinitfns.lua	
-[00:00:11]: modimport: ../mods/workshop-2597204554/quest_system/postinitclass.lua	
+[00:00:10]: modimport: ../mods/workshop-2597204554/quest_system/RPC.lua	
+[00:00:10]: modimport: ../mods/workshop-2597204554/quest_system/Quest_Board_Util.lua	
+[00:00:10]: [Quest System] Amount of custom goals:	278	
+[00:00:10]: modimport: ../mods/workshop-2597204554/quest_system/postinitfns.lua	
+[00:00:10]: modimport: ../mods/workshop-2597204554/quest_system/postinitclass.lua	
 [00:00:11]: modimport: ../mods/workshop-2597204554/quest_system/actions.lua	
 [00:00:11]: modimport: ../mods/workshop-2597204554/quest_system/consolecommands.lua	
 [00:00:11]: modimport: ../mods/workshop-2597204554/quest_system/init_custom_quests.lua	
@@ -848,50 +848,50 @@
 [00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_recipe	
 [00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house1_recipe	
 [00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_pvz_recipe	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_tardis_recipe	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_named_item	
-[00:00:12]: Warning: function AddRecipeTab in modmain is deprecated.	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_1	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_2	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_3	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_4	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_5	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_6	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_7	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_8	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_9	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_10	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_11	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_12	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_zombies_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_phonograph	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_mushroom_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_punk_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_pvz_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_tardis_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_sunflower_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_upholstered_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_harlequin_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_circles_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_mushroom_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_punk_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_pvz_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_tardis_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checker_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checkered_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_geome_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_herringbone_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_octagon_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_ruins_slab_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodmetal_builder	
-[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodpaneling_builder	
-[00:00:12]: upvaluehelper loaded	
-[00:00:12]: modimport: ../mods/workshop-3055010657/scripts/stategraphs/SG_hua_house.lua	
-[00:00:12]: modimport: ../mods/workshop-3055010657/scripts/hua_house_named.lua	
-[00:00:12]: modimport: ../mods/workshop-3055010657/tardis.lua	
-[00:00:12]: Mod: workshop-2937640068 (Achievement & Level)	Loading modworldgenmain.lua	
-[00:00:12]: Mod: workshop-2937640068 (Achievement & Level)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:12]: Mod: workshop-2937640068 (Achievement & Level)	Loading modmain.lua	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_player_house_tardis_recipe	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_named_item	
+[00:00:11]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_1	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_2	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_3	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_4	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_5	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_6	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_7	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_8	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_9	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_10	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_11	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_house_interiors_12	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_zombies_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_phonograph	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_mushroom_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_punk_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_pvz_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_tardis_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_sunflower_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_upholstered_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_harlequin_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_wallskin_circles_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_mushroom_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_punk_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_pvz_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_tardis_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checker_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_checkered_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_geome_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_herringbone_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_octagon_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_ruins_slab_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodmetal_builder	
+[00:00:11]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hua_floorskin_woodpaneling_builder	
+[00:00:11]: upvaluehelper loaded	
+[00:00:11]: modimport: ../mods/workshop-3055010657/scripts/stategraphs/SG_hua_house.lua	
+[00:00:11]: modimport: ../mods/workshop-3055010657/scripts/hua_house_named.lua	
+[00:00:11]: modimport: ../mods/workshop-3055010657/tardis.lua	
+[00:00:11]: Mod: workshop-2937640068 (Achievement & Level)	Loading modworldgenmain.lua	
+[00:00:11]: Mod: workshop-2937640068 (Achievement & Level)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:11]: Mod: workshop-2937640068 (Achievement & Level)	Loading modmain.lua	
 [00:00:12]: modimport: ../mods/workshop-2937640068/main_strings.lua	
 [00:00:12]: modimport: ../mods/workshop-2937640068/main_globalpostInits.lua	
 [00:00:12]: modimport: ../mods/workshop-2937640068/main_achivpostInits.lua	
@@ -919,7 +919,7 @@
 [00:00:12]: modimport: ../mods/workshop-2847908822/3.lua	
 [00:00:12]: modimport: ../mods/workshop-2847908822/6.lua	
 [00:00:12]: modimport: ../mods/workshop-2847908822/4.lua	
-[00:00:13]: modimport: ../mods/workshop-2847908822/5.lua	
+[00:00:12]: modimport: ../mods/workshop-2847908822/5.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/9.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/14.lua	
 [00:00:13]: modimport: ../mods/workshop-2847908822/15.lua	
@@ -1110,32 +1110,32 @@
 [00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/moonnutdrake_lamb	
 [00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    moonnutdrake_lamb	
 [00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critter_spores	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_spore	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critter_badge	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet80	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet60	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet40	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet20	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    hungry_pet	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/ghosthound3	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    ghosthound3	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/exp_pet	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    exp_pet	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/tunacan	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    tunacan	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/tunacan_musha	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    tunacan_musha	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/bomb_collapse_fx	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    bomb_big	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    bomb_small	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/wobysmall	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    wobysmall	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/wobybig	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    wobybig	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/lantern_winter_fx_2	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_held2	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_ground2	
-[00:00:22]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering default mod prefab	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    critter_spore	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/critter_badge	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet80	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet60	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet40	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    mypet20	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    hungry_pet	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/ghosthound3	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    ghosthound3	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/exp_pet	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    exp_pet	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/tunacan	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    tunacan	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/tunacan_musha	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    tunacan_musha	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/bomb_collapse_fx	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    bomb_big	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    bomb_small	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/wobysmall	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    wobysmall	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/wobybig	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    wobybig	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/lantern_winter_fx_2	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_held2	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_ground2	
+[00:00:21]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering default mod prefab	
 [00:00:22]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
 [00:00:22]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/terraprisma	
 [00:00:22]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma	
@@ -2080,11 +2080,11 @@
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/sparks_green.zip
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:25]: Could not preload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
-[00:00:25]: Could not preload undefined prefab (chasni_crab_shadowshadoworgan)
-[00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:24]: Could not preload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
+[00:00:24]: Could not preload undefined prefab (chasni_crab_shadowshadoworgan)
+[00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
+[00:00:24]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_slingshotammo.zip
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/batbat_batfx.zip
@@ -2107,7 +2107,7 @@
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:25]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
-[00:00:26]: AnimationFile::LoadFile Failed to open anim/sparklefx.zip
+[00:00:25]: AnimationFile::LoadFile Failed to open anim/sparklefx.zip
 [00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
 [00:00:26]: AnimationFile::LoadFile Failed to open anim/chasni_warlyfood_symbol.zip
@@ -2177,8 +2177,8 @@
 [00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
 [00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:28]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
-[00:00:29]: 	Load FE	
-[00:00:29]: THREAD - started 'FilesExistAsyncThread' (252592693182304)
+[00:00:28]: 	Load FE	
+[00:00:29]: THREAD - started 'FilesExistAsyncThread' (263719745486688)
 [00:00:29]: 	Load FE: done	
 [00:00:29]: FilesExistAsyncThread started (25930 files)...
 [00:00:29]: Check for write access: TRUE
@@ -2186,6 +2186,51 @@
 [00:00:29]: Available disk space for save files: 57039 MB
 [00:00:29]: ModIndex: Load sequence finished successfully.	
 [00:00:29]: Reset() returning
+[00:00:30]: [200] Account Communication Success (6)
+[00:00:30]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Caves/save/cached_userid
+[00:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
+[00:00:30]: Starting Dedicated Server Game	
+[00:00:30]: Network tick rate: U=15(2), D=0
+[00:00:30]: About to start a server with the following settings:
+[00:00:30]:   Dedicated: true
+[00:00:30]:   Online: true
+[00:00:30]:   Passworded: false
+[00:00:30]:   ServerPort: 11000
+[00:00:30]:   SteamAuthPort: 8767
+[00:00:30]:   SteamMasterServerPort: 12347
+[00:00:30]:   ClanID: false
+[00:00:30]:   ClanOnly: false
+[00:00:30]:   ClanAdmin: false
+[00:00:30]:   LanOnly: false
+[00:00:30]:   FriendsOnly: false
+[00:00:30]:   EnableAutosaver: true
+[00:00:30]:   EncodeUserPath: true
+[00:00:30]:   PVP: false
+[00:00:30]:   MaxPlayers: 12
+[00:00:30]:   GameMode: endless
+[00:00:30]:   OverridenDNS: 
+[00:00:30]:   PauseWhenEmpty: true
+[00:00:30]:   IdleTimeout: 1800s
+[00:00:30]:   VoteEnabled: true
+[00:00:30]:   InternetBroadcasting: true
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2847908822	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1416161108	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3156633422	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2167036904	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3055010657	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3050607025	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2597204554	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2937640068	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2854057841	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3150203711	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2324689937	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1185229307	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2847806795	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2503437364	
+[00:00:30]: Online Server Started on port: 11000
 [00:00:30]: Error: Could not find file: anim/chop_mangrove_pink.zip
 [00:00:30]: Error: Could not find file: anim/chop_mangrove_pink.zip
 [00:00:30]: Error: Could not find file: anim/hacking_tall_grass_fx.zip
@@ -2260,66 +2305,22 @@
 [00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
 [00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
 [00:00:30]: Error: Could not find file: anim/chasni_slingshotammo.zip
-[00:00:30]: [200] Account Communication Success (6)
-[00:00:30]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
-[00:00:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[00:00:30]: Starting Dedicated Server Game	
-[00:00:30]: Network tick rate: U=15(2), D=0
-[00:00:30]: About to start a server with the following settings:
-[00:00:30]:   Dedicated: true
-[00:00:30]:   Online: true
-[00:00:30]:   Passworded: false
-[00:00:30]:   ServerPort: 10999
-[00:00:30]:   SteamAuthPort: 8766
-[00:00:30]:   SteamMasterServerPort: 12346
-[00:00:30]:   ClanID: false
-[00:00:30]:   ClanOnly: false
-[00:00:30]:   ClanAdmin: false
-[00:00:30]:   LanOnly: false
-[00:00:30]:   FriendsOnly: false
-[00:00:30]:   EnableAutosaver: true
-[00:00:30]:   EncodeUserPath: true
-[00:00:30]:   PVP: false
-[00:00:30]:   MaxPlayers: 12
-[00:00:30]:   GameMode: endless
-[00:00:30]:   OverridenDNS: 
-[00:00:30]:   PauseWhenEmpty: true
-[00:00:30]:   IdleTimeout: 1800s
-[00:00:30]:   VoteEnabled: true
-[00:00:30]:   InternetBroadcasting: true
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2847908822	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1416161108	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3156633422	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2167036904	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3050607025	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2597204554	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2477889104	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2854057841	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3150203711	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2324689937	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1185229307	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2937640068	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-3055010657	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2847806795	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
-[00:00:30]: Could not load mod_config_data/modconfiguration_workshop-2503437364	
-[00:00:30]: Online Server Started on port: 10999
 [00:00:30]: SUCCESS: Loaded modoverrides.lua	
 [00:00:30]: Not applying level data overrides.	
 [00:00:30]: Found a worldgen override file with these contents:	
 [00:00:30]: 	K: 	override_enabled	 V: 	true	
-[00:00:30]: 	K: 	overrides	 V: 	table: 0x6c33b500	
+[00:00:30]: 	K: 	overrides	 V: 	table: 0x64cdc750	
 [00:00:30]: 		K: 	basicresource_regrowth	 V: 	always	
 [00:00:30]: 		K: 	ghostsanitydrain	 V: 	none	
 [00:00:30]: 		K: 	portalresurection	 V: 	always	
 [00:00:30]: 		K: 	resettime	 V: 	none	
-[00:00:30]: 	K: 	settings_preset	 V: 	SURVIVAL_TOGETHER	
-[00:00:30]: 	K: 	worldgen_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:30]: 		K: 	start_location	 V: 	default	
+[00:00:30]: 	K: 	settings_preset	 V: 	DST_CAVE	
+[00:00:30]: 	K: 	worldgen_preset	 V: 	DST_CAVE	
 [00:00:30]:   sanity-checking worldgenoverride.lua...	
 [00:00:30]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
-[00:00:30]:   contained worldgen preset SURVIVAL_TOGETHER, loading...	
-[00:00:30]:   contained settings preset SURVIVAL_TOGETHER, loading...	
+[00:00:30]:   contained worldgen preset DST_CAVE, loading...	
+[00:00:30]:   contained settings preset DST_CAVE, loading...	
 [00:00:30]: Overwriting savedata with override file.	
 [00:00:30]: Collecting garbage...
 [00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
@@ -2327,123 +2328,67 @@
 [00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
 [00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
 [00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
-[00:00:30]: lua_gc took 0.31 seconds
+[00:00:30]: lua_gc took 0.32 seconds
 [00:00:30]: ~ShardLuaProxy()
 [00:00:30]: ~cEventLeaderboardProxy()
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
 [00:00:30]: ~ItemServerLuaProxy()
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
 [00:00:30]: ~InventoryLuaProxy()
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
+[00:00:30]: Error: Could not find file: anim/chasni_warlyfood_symbol.zip
 [00:00:30]: ~NetworkLuaProxy()
 [00:00:30]: ~SimLuaProxy()
 [00:00:30]: FilesExistAsyncThread aborted.
 [00:00:30]: ... FilesExistAsyncThread complete
-[00:00:31]: lua_close took 0.25 seconds
+[00:00:31]: lua_close took 0.30 seconds
 [00:00:31]: ReleaseAll
 [00:00:31]: ReleaseAll Finished
 [00:00:31]: cGame::StartPlaying
@@ -2452,11 +2397,11 @@
 [00:00:31]: DoLuaFile scripts/main.lua
 [00:00:31]: DoLuaFile loading buffer scripts/main.lua
 [00:00:31]: Translator:LoadPOFile - loading file: scripts/languages/portuguese_br.po	
-[00:00:40]:   taskgrouplist:	default	Juntos	
-[00:00:40]:   taskgrouplist:	classic	Clássico	
-[00:00:40]:   taskgrouplist:	cave_default	Subterrâneo	
-[00:00:40]:   taskgrouplist:	lavaarena_taskset	A Forja	
-[00:00:40]:   taskgrouplist:	quagmire_taskset	A Garganta	
+[00:00:39]:   taskgrouplist:	default	Juntos	
+[00:00:39]:   taskgrouplist:	classic	Clássico	
+[00:00:39]:   taskgrouplist:	cave_default	Subterrâneo	
+[00:00:39]:   taskgrouplist:	lavaarena_taskset	A Forja	
+[00:00:39]:   taskgrouplist:	quagmire_taskset	A Garganta	
 [00:00:40]: Running main.lua
 	
 [00:00:40]: loaded modindex	
@@ -3039,9 +2984,9 @@
 [00:00:40]: [Quest System] Amount of quests difficulty 5:	14	
 [00:00:40]: modimport: ../mods/workshop-2597204554/quest_system/RPC.lua	
 [00:00:40]: modimport: ../mods/workshop-2597204554/quest_system/Quest_Board_Util.lua	
-[00:00:41]: [Quest System] Amount of custom goals:	278	
-[00:00:41]: modimport: ../mods/workshop-2597204554/quest_system/postinitfns.lua	
-[00:00:41]: modimport: ../mods/workshop-2597204554/quest_system/postinitclass.lua	
+[00:00:40]: [Quest System] Amount of custom goals:	278	
+[00:00:40]: modimport: ../mods/workshop-2597204554/quest_system/postinitfns.lua	
+[00:00:40]: modimport: ../mods/workshop-2597204554/quest_system/postinitclass.lua	
 [00:00:41]: modimport: ../mods/workshop-2597204554/quest_system/actions.lua	
 [00:00:41]: modimport: ../mods/workshop-2597204554/quest_system/consolecommands.lua	
 [00:00:41]: modimport: ../mods/workshop-2597204554/quest_system/init_custom_quests.lua	
@@ -3290,13 +3235,13 @@
 [00:00:41]: modimport: ../mods/workshop-3055010657/scripts/stategraphs/SG_hua_house.lua	
 [00:00:41]: modimport: ../mods/workshop-3055010657/scripts/hua_house_named.lua	
 [00:00:41]: modimport: ../mods/workshop-3055010657/tardis.lua	
-[00:00:42]: Mod: workshop-2937640068 (Achievement & Level)	Loading modworldgenmain.lua	
-[00:00:42]: Mod: workshop-2937640068 (Achievement & Level)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:42]: Mod: workshop-2937640068 (Achievement & Level)	Loading modmain.lua	
-[00:00:42]: modimport: ../mods/workshop-2937640068/main_strings.lua	
-[00:00:42]: modimport: ../mods/workshop-2937640068/main_globalpostInits.lua	
-[00:00:42]: modimport: ../mods/workshop-2937640068/main_achivpostInits.lua	
-[00:00:42]: modimport: ../mods/workshop-2937640068/main_perkpostInits.lua	
+[00:00:41]: Mod: workshop-2937640068 (Achievement & Level)	Loading modworldgenmain.lua	
+[00:00:41]: Mod: workshop-2937640068 (Achievement & Level)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:41]: Mod: workshop-2937640068 (Achievement & Level)	Loading modmain.lua	
+[00:00:41]: modimport: ../mods/workshop-2937640068/main_strings.lua	
+[00:00:41]: modimport: ../mods/workshop-2937640068/main_globalpostInits.lua	
+[00:00:41]: modimport: ../mods/workshop-2937640068/main_achivpostInits.lua	
+[00:00:41]: modimport: ../mods/workshop-2937640068/main_perkpostInits.lua	
 [00:00:42]: modimport: ../mods/workshop-2937640068/main_RoGpostInit.lua	
 [00:00:42]: modimport: ../mods/workshop-2937640068/main_trinketslotpostInit.lua	
 [00:00:42]: modimport: ../mods/workshop-2937640068/main_initialize.lua	
@@ -3370,10 +3315,10 @@
 [00:00:45]: bloom_enabled	true	
 [00:00:45]: OnFilesLoaded()	
 [00:00:45]: OnUpdatePurchaseStateComplete	
-[00:00:45]: Loading world: session/BF953A8AFDD25F52/0000004133	
-[00:00:46]: Save file is at version 5.151	
-[00:00:46]: Klump load on boot started.	
-[00:00:46]: Klump files loaded: 	0	
+[00:00:45]: Loading world: session/324D3B74FD686B24/0000004131	
+[00:00:45]: Save file is at version 5.151	
+[00:00:45]: Klump load on boot started.	
+[00:00:45]: Klump files loaded: 	0	
 [00:00:46]: 	Unload FE	
 [00:00:46]: 	Unload FE done	
 [00:00:46]: Could not unload undefined prefab (chasni_fire_crab_king_claw_fx_build)
@@ -3560,13 +3505,13 @@
 [00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    bomb_big	
 [00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    bomb_small	
 [00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/wobysmall	
-[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    wobysmall	
-[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/wobybig	
-[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    wobybig	
-[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/lantern_winter_fx_2	
-[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_held2	
-[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_ground2	
-[00:00:52]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering default mod prefab	
+[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    wobysmall	
+[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/wobybig	
+[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    wobybig	
+[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering prefab file: prefabs/lantern_winter_fx_2	
+[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_held2	
+[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	    lantern_winter_fx_ground2	
+[00:00:51]: Mod: workshop-3156633422 (MyPet (Fix))	  Registering default mod prefab	
 [00:00:52]: Mod: workshop-2854057841 (Noitosfera)	Registering prefabs	
 [00:00:52]: Mod: workshop-2854057841 (Noitosfera)	  Registering prefab file: prefabs/terraprisma	
 [00:00:52]: Mod: workshop-2854057841 (Noitosfera)	    terraprisma	
@@ -4526,7 +4471,7 @@
 [00:00:58]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
 [00:00:59]: 	LOAD BE	
 [00:01:18]: 	LOAD BE: done	
-[00:01:18]: Begin Session: BF953A8AFDD25F52
+[00:01:18]: Begin Session: 324D3B74FD686B24
 [00:01:18]: saving to server_temp/server_save	
 [00:01:18]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
 [00:01:18]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
@@ -4547,410 +4492,134 @@
 [00:01:18]: ---### a player is come back! reset the name? ###---	
 [00:01:18]: Loading 19 new character(s)	
 [00:01:20]: Total 19 character(s) loaded	
-[00:01:22]: Loading Nav Grid	
-[00:01:22]: World generated on build 587581 with save version: 5.142, using seed: 1655873162	
-[00:01:22]: setting 	summerlength	15	
-[00:01:22]: setting 	cavemoonphase	half	
-[00:01:22]: setting 	iscavefullmoon	false	
-[00:01:22]: setting 	isnightmaredawn	false	
-[00:01:22]: setting 	elapseddaysinseason	5	
-[00:01:22]: setting 	isfullmoon	false	
-[00:01:22]: setting 	moisture	910.83966064453	
-[00:01:22]: setting 	springlength	20	
-[00:01:22]: setting 	islunarhailing	false	
-[00:01:22]: setting 	isnightmarewild	false	
-[00:01:22]: setting 	nightmaretimeinphase	0	
-[00:01:22]: setting 	precipitationrate	0	
-[00:01:22]: setting 	iswet	false	
-[00:01:22]: setting 	isnewmoon	false	
-[00:01:22]: setting 	israining	false	
-[00:01:22]: setting 	iswinter	true	
-[00:01:22]: setting 	isnightmarewarn	false	
-[00:01:22]: setting 	precipitation	none	
-[00:01:22]: setting 	iscavewaxingmoon	true	
-[00:01:22]: setting 	isacidraining	false	
-[00:01:22]: setting 	moonphase	half	
-[00:01:22]: setting 	remainingdaysinseason	10	
-[00:01:22]: setting 	temperature	-21.833139718739	
-[00:01:22]: setting 	wetness	0	
-[00:01:22]: setting 	cycles	3584	
-[00:01:22]: setting 	moistureceil	1803.8348388672	
-[00:01:22]: setting 	isday	true	
-[00:01:22]: setting 	winterlength	15	
-[00:01:22]: setting 	season	winter	
-[00:01:22]: setting 	iswaxingmoon	true	
-[00:01:22]: setting 	isalterawake	false	
-[00:01:22]: setting 	isnightmarecalm	false	
-[00:01:22]: setting 	isnight	false	
-[00:01:22]: setting 	isdusk	false	
-[00:01:22]: setting 	isspring	false	
-[00:01:22]: setting 	isautumn	false	
-[00:01:22]: setting 	iscaveday	true	
-[00:01:22]: setting 	lunarhaillevel	15.102423667908	
-[00:01:22]: setting 	pop	0.14209800857865	
-[00:01:22]: setting 	snowlevel	0.85644966363907	
-[00:01:22]: setting 	issnowcovered	true	
-[00:01:22]: setting 	autumnlength	20	
-[00:01:22]: setting 	phase	day	
-[00:01:22]: setting 	nightmaretime	0	
-[00:01:22]: setting 	issnowing	false	
-[00:01:22]: setting 	iscavedusk	false	
-[00:01:22]: setting 	nightmarephase	none	
-[00:01:22]: setting 	timeinphase	0.95755309740702	
-[00:01:22]: setting 	seasonprogress	0.33333333333333	
-[00:01:22]: setting 	iscavenight	false	
-[00:01:22]: setting 	iscavenewmoon	false	
-[00:01:22]: setting 	issummer	false	
-[00:01:22]: setting 	cavephase	day	
-[00:01:22]: setting 	time	0.29923534293969	
-[00:01:22]: OVERRIDE: setting	resettime	to	none	
-[00:01:22]: OVERRIDE: setting	basicresource_regrowth	to	always	
-[00:01:22]: OVERRIDE: setting	portalresurection	to	always	
-[00:01:22]: OVERRIDE: setting	ghostsanitydrain	to	none	
-[00:01:45]: Could not find anim [idle] in bank [cappy]
-[00:01:48]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:48]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:48]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:48]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:48]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:48]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:48]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:48]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:48]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:56]: Could not find anim bank [hell_armor]
-[00:01:56]: [dst-more-equip-slots]	INFO	["hell_armor"] = nil, -- Diabolical Robe	
-[00:01:56]: Could not find anim bank [hell_armor]
-[00:01:56]: [dst-more-equip-slots]	INFO	["hell_armor"] = nil, -- Diabolical Robe	
-[00:01:57]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
-[00:01:57]: [dst-more-equip-slots]	INFO	["shadow_mitre"] = nil, -- Shadow Mitre	
-[00:01:57]: Could not find anim [chasni_save] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_exp] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_achiev] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_exp] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_achiev] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_exp] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_moon_soul] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_shadow_shield] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_exp] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_achiev] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_moon_spear] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_exp] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_achiev] in bank [FROMNUM]
-[00:01:57]: Could not find anim [chasni_exp] in bank [FROMNUM]
-[00:01:57]: [dst-more-equip-slots]	INFO	["upgraded_amulet"] = EQUIP_TYPES.AMULET, -- Exort Amulet	
-[00:01:58]: Could not find anim [idle_loop] in bank [schatzkarte]
-[00:01:58]: [dst-more-equip-slots]	INFO	["slipscraft"] = nil, -- Slipscraft	
-[00:01:58]: Could not find anim build FROMNUM
-[00:01:58]: Could not find anim build FROMNUM
-[00:01:58]: Could not find anim build FROMNUM
-[00:01:59]: Could not find anim build FROMNUM
-[00:01:59]: Could not find anim build FROMNUM
-[00:01:59]: Could not find anim build FROMNUM
-[00:01:59]: Could not find anim build FROMNUM
-[00:01:59]: Event data unavailable: lavaarena_event_server/prefabs/explosivehit
-[00:02:04]: Reconstructing topology	
-[00:02:04]: 	...Sorting points	
-[00:02:04]: 	...Sorting edges	
-[00:02:04]: 	...Connecting nodes	
-[00:02:04]: 	...Validating connections	
-[00:02:04]: 	...Housekeeping	
-[00:02:04]: 	...Done!	
-[00:02:04]: 1 uploads added to server. From server_temp
-[00:02:04]: About to start a shard with these settings:
-[00:02:04]:   ShardName: [SHDMASTER]
-[00:02:04]:   ShardID: 1
-[00:02:04]:   ShardRole: MASTER
-[00:02:04]:   MasterHost: (null)
-[00:02:04]:   MasterBind: 127.0.0.1
-[00:02:04]:   MasterPort: 10998
-[00:02:04]: [Shard] Starting master server
-[00:02:04]: [Shard] Shard server started on port: 10998
-[00:02:04]: Telling Client our new session identifier: BF953A8AFDD25F52
-[00:02:04]: Check for write access: TRUE
-[00:02:04]: Check for read access: TRUE
-[00:02:04]: Available disk space for save files: 57038 MB
-[00:02:04]: ModIndex: Load sequence finished successfully.	
-[00:02:05]: Reset() returning
-[00:02:09]: Validating portal[7] <-> 2[7] (inactive)	
-[00:02:09]: Validating portal[4] <-> 2[4] (inactive)	
-[00:02:09]: Validating portal[2] <-> 2[2] (inactive)	
-[00:02:09]: Validating portal[8] <-> 2[8] (inactive)	
-[00:02:10]: Validating portal[9] <-> 2[9] (inactive)	
-[00:02:10]: Validating portal[5] <-> 2[5] (inactive)	
-[00:02:10]: Validating portal[3] <-> 2[3] (inactive)	
-[00:02:10]: Validating portal[1] <-> 2[1] (inactive)	
-[00:02:10]: Validating portal[10] <-> 3[10] (inactive)	
-[00:02:10]: Validating portal[6] <-> 2[6] (inactive)	
-[00:02:11]: Server registered via geo DNS in us-east-1
-[00:02:11]: Sim paused
-[00:02:11]: [Shard] Secondary shard Caves(2) connected: [LAN] 127.0.0.1
-[00:02:12]: [Shard] Secondary Caves(2) ready!
-[00:02:12]: World 2 is now connected	
-[00:02:12]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
-[00:02:12]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
-[00:02:12]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
-[00:02:12]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
-[00:02:12]: Validating portal[7] <-> 2[7] (active)	
-[00:02:12]: Validating portal[4] <-> 2[4] (active)	
-[00:02:12]: Validating portal[2] <-> 2[2] (active)	
-[00:02:12]: Validating portal[8] <-> 2[8] (active)	
-[00:02:12]: Validating portal[9] <-> 2[9] (active)	
-[00:02:12]: Validating portal[5] <-> 2[5] (active)	
-[00:02:12]: Validating portal[3] <-> 2[3] (active)	
-[00:02:12]: Validating portal[1] <-> 2[1] (active)	
-[00:02:12]: Skipping portal[10] (different permanent world)	
-[00:02:12]: Validating portal[6] <-> 2[6] (active)	
-[00:02:12]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
-[00:02:12]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
-[00:02:12]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
-[00:02:12]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
+[00:01:39]: Loading Nav Grid	
+[00:01:39]: World generated on build 587581 with save version: 5.142, using seed: 1655734220	
+[00:01:39]: setting 	summerlength	15	
+[00:01:39]: setting 	cavemoonphase	half	
+[00:01:39]: setting 	iscavefullmoon	false	
+[00:01:39]: setting 	isnightmaredawn	false	
+[00:01:39]: setting 	elapseddaysinseason	5	
+[00:01:39]: setting 	isfullmoon	false	
+[00:01:39]: setting 	moisture	1149.4598388672	
+[00:01:39]: setting 	springlength	20	
+[00:01:39]: setting 	islunarhailing	false	
+[00:01:39]: setting 	isnightmarewild	false	
+[00:01:39]: setting 	nightmaretimeinphase	0.56946439298896	
+[00:01:39]: setting 	precipitationrate	0	
+[00:01:39]: setting 	iswet	false	
+[00:01:39]: setting 	isnewmoon	false	
+[00:01:39]: setting 	israining	false	
+[00:01:39]: setting 	iswinter	true	
+[00:01:39]: setting 	isnightmarewarn	false	
+[00:01:39]: setting 	precipitation	none	
+[00:01:39]: setting 	iscavewaxingmoon	true	
+[00:01:39]: setting 	isacidraining	false	
+[00:01:39]: setting 	moonphase	new	
+[00:01:39]: setting 	remainingdaysinseason	10	
+[00:01:39]: setting 	temperature	-13.199728896558	
+[00:01:39]: setting 	wetness	0	
+[00:01:39]: setting 	cycles	3584	
+[00:01:39]: setting 	moistureceil	2827.4313964844	
+[00:01:39]: setting 	isday	false	
+[00:01:39]: setting 	winterlength	15	
+[00:01:39]: setting 	season	winter	
+[00:01:39]: setting 	iswaxingmoon	true	
+[00:01:39]: setting 	isalterawake	false	
+[00:01:39]: setting 	isnightmarecalm	true	
+[00:01:39]: setting 	isnight	true	
+[00:01:39]: setting 	isdusk	false	
+[00:01:39]: setting 	isspring	false	
+[00:01:39]: setting 	isautumn	false	
+[00:01:39]: setting 	iscaveday	true	
+[00:01:39]: setting 	lunarhaillevel	0	
+[00:01:39]: setting 	pop	0.16785425705365	
+[00:01:39]: setting 	snowlevel	0	
+[00:01:39]: setting 	issnowcovered	false	
+[00:01:39]: setting 	autumnlength	20	
+[00:01:39]: setting 	phase	night	
+[00:01:39]: setting 	nightmaretime	205.00718147603	
+[00:01:39]: setting 	issnowing	false	
+[00:01:39]: setting 	iscavedusk	false	
+[00:01:39]: setting 	nightmarephase	calm	
+[00:01:39]: setting 	timeinphase	0.96821990648905	
+[00:01:39]: setting 	seasonprogress	0.33333333333333	
+[00:01:39]: setting 	iscavenight	false	
+[00:01:39]: setting 	iscavenewmoon	false	
+[00:01:39]: setting 	issummer	false	
+[00:01:39]: setting 	cavephase	day	
+[00:01:39]: setting 	time	0.30256872077783	
+[00:01:39]: [Shard] Secondary shard is waiting for LUA...
+[00:01:39]: OVERRIDE: setting	resettime	to	none	
+[00:01:39]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:01:39]: OVERRIDE: setting	portalresurection	to	always	
+[00:01:39]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:01:43]: Could not find anim [chasni_shadow_monster] in bank [FROMNUM]
+[00:01:43]: Could not find anim [chasni_moon_soul] in bank [FROMNUM]
+[00:02:05]: Reconstructing topology	
+[00:02:05]: 	...Sorting points	
+[00:02:05]: 	...Sorting edges	
+[00:02:05]: 	...Connecting nodes	
+[00:02:05]: 	...Validating connections	
+[00:02:06]: 	...Housekeeping	
+[00:02:06]: 	...Done!	
+[00:02:06]: 1 uploads added to server. From server_temp
+[00:02:06]: About to start a shard with these settings:
+[00:02:06]:   ShardName: Caves
+[00:02:06]:   ShardID: 2
+[00:02:06]:   ShardRole: SECONDARY
+[00:02:06]:   MasterHost: 127.0.0.1
+[00:02:06]:   MasterBind: (null)
+[00:02:06]:   MasterPort: 10998
+[00:02:06]: [Shard] Connecting to master...
+[00:02:06]: Telling Client our new session identifier: 324D3B74FD686B24
+[00:02:06]: Check for write access: TRUE
+[00:02:06]: Check for read access: TRUE
+[00:02:06]: Available disk space for save files: 57038 MB
+[00:02:06]: ModIndex: Load sequence finished successfully.	
+[00:02:06]: Reset() returning
+[00:02:06]: [Shard] Sending secondary shard information to master...
+[00:02:09]: Validating portal[5] <-> 1[5] (inactive)	
+[00:02:09]: Validating portal[8] <-> 1[8] (inactive)	
+[00:02:09]: Validating portal[7] <-> 1[7] (inactive)	
+[00:02:09]: Validating portal[3] <-> 1[3] (inactive)	
+[00:02:09]: Validating portal[6] <-> 1[6] (inactive)	
+[00:02:09]: Validating portal[9] <-> 1[9] (inactive)	
+[00:02:09]: Validating portal[2] <-> 1[2] (inactive)	
+[00:02:09]: Validating portal[4] <-> 1[4] (inactive)	
+[00:02:09]: Validating portal[1] <-> 1[1] (inactive)	
+[00:02:11]: Received MasterInfoPacket row c6863289454c67c41f6931e30bb83771 region us-east-1
+[00:02:11]: Obtaining secondary shard IP from us-east-1 lobby
+[00:02:12]: [Shard] secondary shard is now ready!
+[00:02:12]: World 1 is now connected	
+[00:02:12]: Validating portal[5] <-> 1[5] (active)	
+[00:02:12]: Validating portal[8] <-> 1[8] (active)	
+[00:02:12]: Validating portal[7] <-> 1[7] (active)	
+[00:02:12]: Validating portal[3] <-> 1[3] (active)	
+[00:02:12]: Validating portal[6] <-> 1[6] (active)	
+[00:02:12]: Validating portal[9] <-> 1[9] (active)	
+[00:02:12]: Validating portal[2] <-> 1[2] (active)	
+[00:02:12]: Validating portal[4] <-> 1[4] (active)	
+[00:02:12]: Validating portal[1] <-> 1[1] (active)	
+[00:02:12]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:02:12]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:02:12]: component hauntable already exists on entity 109982 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:02:12]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:02:12]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:02:12]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:02:12]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:02:12]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:02:12]: component hauntable already exists on entity 109982 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:02:12]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:02:12]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:02:12]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:02:13]: [Shard] secondary shard LUA is now ready!
+[00:02:13]: Synchronizing forward to master snapshot 4133	
+[00:02:13]: Available disk space for save files: 57038 MB
+[00:02:14]: Serializing world: session/324D3B74FD686B24/0000004133
+[00:02:14]: Truncating to snapshot #4133...
+[00:02:14]:  - session/324D3B74FD686B24/0000004126
+[00:02:14]:  - session/324D3B74FD686B24/0000004127
+[00:02:14]:    2 file(s) removed
+[00:02:14]: Sim paused
 [00:30:30]: [200] Account Communication Success (6)
 [00:30:30]: Received (KU_2DNgIUgO) from TokenPurpose
-[02:06:13]: CURL ERROR: (lobby-v2.klei.com) [28]
-[02:06:15]: World 2 is now disconnected	
-[02:06:15]: Validating portal[7] <-> 2[7] (inactive)	
-[02:06:15]: Validating portal[4] <-> 2[4] (inactive)	
-[02:06:15]: Validating portal[2] <-> 2[2] (inactive)	
-[02:06:15]: Validating portal[8] <-> 2[8] (inactive)	
-[02:06:15]: Validating portal[9] <-> 2[9] (inactive)	
-[02:06:15]: Validating portal[5] <-> 2[5] (inactive)	
-[02:06:15]: Validating portal[3] <-> 2[3] (inactive)	
-[02:06:15]: Validating portal[1] <-> 2[1] (inactive)	
-[02:06:15]: Skipping portal[10] (different permanent world)	
-[02:06:15]: Validating portal[6] <-> 2[6] (inactive)	
-[02:06:15]: [Shard] A shard has disconnected: 'Caves(2)'
-[02:06:15]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[02:06:17]: [Http] Curl failed[1] with HTTP_404, retrying (1 times). Response: _{"Error":{"Code":"E_NOT_IN_DB"}}_
-[02:06:17]: [200] Account Communication Success (6)
-[02:06:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[02:06:17]: [Http] Curl failed[1] with HTTP_404, retrying (0 times). Response: _{"Error":{"Code":"E_NOT_IN_DB"}}_
-[02:06:18]: [Error] Master Server Broadcast Error: E_NOT_IN_DB
-[02:06:18]: Master Server Broadcast will try to broadcast a new listing.
-[02:06:18]: Server registered via geo DNS in us-east-1
-[02:08:38]: [Shard] Secondary shard Caves(2) connected: [LAN] 127.0.0.1
-[02:08:42]: [Shard] Secondary Caves(2) ready!
-[02:08:42]: World 2 is now connected	
-[02:08:42]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
-[02:08:42]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
-[02:08:42]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
-[02:08:42]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
-[02:08:42]: Validating portal[7] <-> 2[7] (active)	
-[02:08:42]: Validating portal[4] <-> 2[4] (active)	
-[02:08:42]: Validating portal[2] <-> 2[2] (active)	
-[02:08:42]: Validating portal[8] <-> 2[8] (active)	
-[02:08:42]: Validating portal[9] <-> 2[9] (active)	
-[02:08:42]: Validating portal[5] <-> 2[5] (active)	
-[02:08:42]: Validating portal[3] <-> 2[3] (active)	
-[02:08:42]: Validating portal[1] <-> 2[1] (active)	
-[02:08:42]: Skipping portal[10] (different permanent world)	
-[02:08:42]: Validating portal[6] <-> 2[6] (active)	
-[02:08:42]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
-[02:08:42]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
-[02:08:42]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
-[02:08:42]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
-[02:36:16]: [200] Account Communication Success (6)
-[02:36:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[03:06:16]: [200] Account Communication Success (6)
-[03:06:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[03:36:16]: [200] Account Communication Success (6)
-[03:36:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[04:06:16]: [200] Account Communication Success (6)
-[04:06:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[04:36:16]: [200] Account Communication Success (6)
-[04:36:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[05:06:16]: [200] Account Communication Success (6)
-[05:06:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[05:35:39]: [P2P] Session request for '76561198805193000'
-[05:35:39]: New incoming connection 78.191.246.227|61138 <9560547731728034523>
-[05:35:39]: Client connected from 78.191.246.227|61138 <9560547731728034523>
-[05:35:39]: ValidateGameSessionToken GUID<9560547731728034523>
-[05:35:40]: [P2P] Create session: 97.81.142.188|1 '76561198805193000'
-[05:35:40]: [P2P] Received from 97.81.142.188|1 '76561198805193000'
-[05:35:40]: [P2P] Sent to 97.81.142.188|1 '76561198805193000'
-[05:35:40]: Client authenticated: (KU_UrT0T4Z0) Vuencx
-[05:35:41]: [Steam] SendUserConnectAndAuthenticate for '76561198805193000'
-[05:35:41]: [Steam] Authenticated client '76561198805193000'
-[05:35:43]: There is no active event to validate against.
-[05:35:43]: [Shard] Read save location file for (KU_UrT0T4Z0)
-[05:36:16]: [200] Account Communication Success (6)
-[05:36:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[05:36:16]: Resuming user: session/BF953A8AFDD25F52/A7JRAT078I60/0000001228
-[05:36:17]: Spawning player at: [Load] (-190.83, -0.00, -324.72)	
-[05:36:17]: Sim unpaused
-[05:36:18]: [Quest System] Add Local Quests to	122240 - wathgrithr	
-[05:37:42]: [Steam] SendUserDisconnect for '76561198805193000'
-[05:37:42]: [Shard] (KU_UrT0T4Z0) disconnected from [SHDMASTER](1)
-[05:37:42]: Serializing user: session/BF953A8AFDD25F52/A7JRAT078I60/0000004134
-[05:37:42]: Sim paused
-[05:45:40]: [P2P] Session timed out for '76561198805193000'
-[05:45:40]: [P2P] Remove session: 97.81.142.188|1 '76561198805193000'
-[05:48:27]: New incoming connection 78.191.246.227|52464 <9183952175209771407>
-[05:48:27]: Client connected from 78.191.246.227|52464 <9183952175209771407>
-[05:48:27]: ValidateGameSessionToken GUID<9183952175209771407>
-[05:48:28]: [P2P] Create session: 97.81.142.189|1 '76561198805193000'
-[05:48:28]: [P2P] Received from 97.81.142.189|1 '76561198805193000'
-[05:48:28]: [P2P] Sent to 97.81.142.189|1 '76561198805193000'
-[05:48:28]: Client authenticated: (KU_UrT0T4Z0) Vuencx
-[05:48:29]: [Steam] SendUserConnectAndAuthenticate for '76561198805193000'
-[05:48:29]: [Steam] Authenticated client '76561198805193000'
-[05:48:31]: There is no active event to validate against.
-[05:48:31]: [Shard] Read save location file for (KU_UrT0T4Z0)
-[05:48:54]: Resuming user: session/BF953A8AFDD25F52/A7JRAT078I60/0000004134
-[05:48:54]: Spawning player at: [Load] (-190.22, -0.00, -324.79)	
-[05:48:54]: Sim unpaused
-[05:48:54]: [Quest System] Add Local Quests to	122970 - wathgrithr	
-[05:53:07]: Available disk space for save files: 56162 MB
-[05:53:08]: [Quest System] Saving own quests!	
-[05:53:08]: Serializing user: session/BF953A8AFDD25F52/A7JRAT078I60/0000004134
-[05:53:08]: Missing reference:	110339 - beef_bell	->	110341	110341 - beefalo	
-[05:53:08]: Missing reference:	110343 - beef_bell	->	110345	110345 - beefalo	
-[05:53:09]: Serializing world: session/BF953A8AFDD25F52/0000004134
-[05:58:28]: [P2P] Session timed out for '76561198805193000'
-[05:58:28]: [P2P] Remove session: 97.81.142.189|1 '76561198805193000'
-[06:01:09]: Available disk space for save files: 56158 MB
-[06:01:10]: [Quest System] Saving own quests!	
-[06:01:10]: Serializing user: session/BF953A8AFDD25F52/A7JRAT078I60/0000004135
-[06:01:10]: Missing reference:	110339 - beef_bell	->	110341	110341 - beefalo	
-[06:01:10]: Missing reference:	110343 - beef_bell	->	110345	110345 - beefalo	
-[06:01:11]: Serializing world: session/BF953A8AFDD25F52/0000004135
-[06:01:56]: [Steam] SendUserDisconnect for '76561198805193000'
-[06:01:56]: [Shard] (KU_UrT0T4Z0) disconnected from [SHDMASTER](1)
-[06:01:56]: Serializing user: session/BF953A8AFDD25F52/A7JRAT078I60/0000004136
-[06:01:56]: Sim paused
-[06:06:16]: [200] Account Communication Success (6)
-[06:06:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[06:36:16]: [200] Account Communication Success (6)
-[06:36:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[07:06:16]: [200] Account Communication Success (6)
-[07:06:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[07:36:16]: [200] Account Communication Success (6)
-[07:36:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[08:06:16]: [200] Account Communication Success (6)
-[08:06:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[08:36:16]: [200] Account Communication Success (6)
-[08:36:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[09:06:16]: [200] Account Communication Success (6)
-[09:06:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[09:36:16]: [200] Account Communication Success (6)
-[09:36:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[10:06:16]: [200] Account Communication Success (6)
-[10:06:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[10:36:16]: [200] Account Communication Success (6)
-[10:36:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[11:06:16]: [200] Account Communication Success (6)
-[11:06:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[11:36:16]: [200] Account Communication Success (6)
-[11:36:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[12:06:16]: [200] Account Communication Success (6)
-[12:06:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[12:36:16]: [200] Account Communication Success (6)
-[12:36:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[12:39:20]: [P2P] Session request for '76561198259451268'
-[12:39:35]: [P2P] Connection failed for '76561198259451268' because of error code 4(The connection timed out because the target user didn't respond.).
-[13:06:16]: [200] Account Communication Success (6)
-[13:06:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[13:36:16]: [200] Account Communication Success (6)
-[13:36:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[14:06:16]: [200] Account Communication Success (6)
-[14:06:16]: Received (KU_2DNgIUgO) from TokenPurpose
-[14:36:17]: [200] Account Communication Success (6)
-[14:36:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[15:06:17]: [200] Account Communication Success (6)
-[15:06:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[15:36:17]: [200] Account Communication Success (6)
-[15:36:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[16:06:17]: [200] Account Communication Success (6)
-[16:06:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[16:36:17]: [200] Account Communication Success (6)
-[16:36:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[17:06:17]: [200] Account Communication Success (6)
-[17:06:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[17:36:17]: [200] Account Communication Success (6)
-[17:36:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[18:06:17]: [200] Account Communication Success (6)
-[18:06:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[18:36:17]: [200] Account Communication Success (6)
-[18:36:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[19:06:17]: [200] Account Communication Success (6)
-[19:06:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[19:36:17]: [200] Account Communication Success (6)
-[19:36:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[20:06:17]: [200] Account Communication Success (6)
-[20:06:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[20:36:17]: [200] Account Communication Success (6)
-[20:36:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[21:06:17]: [200] Account Communication Success (6)
-[21:06:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[21:36:17]: [200] Account Communication Success (6)
-[21:36:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[22:06:17]: [200] Account Communication Success (6)
-[22:06:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[22:28:55]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 15m para manutenção programada!")"
-[22:36:17]: [200] Account Communication Success (6)
-[22:36:17]: Received (KU_2DNgIUgO) from TokenPurpose
-[22:38:55]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 5m para manutenção programada!")"
-[22:42:56]: RemoteCommandInput: "c_announce("O servidor será reiniciado em 1m para manutenção programada!")"
-[22:44:26]: RemoteCommandInput: "c_announce("Reiniciando servidor...")"
-[22:44:26]: RemoteCommandInput: "c_save()"
-[22:44:26]: Sim unpaused
-[22:44:26]: RemoteCommandInput: "c_shutdown()"
-[22:44:26]: c_shutdown	nil	
-[22:44:26]: Available disk space for save files: 48224 MB
-[22:44:27]: [Quest System] Saving own quests!	
-[22:44:27]: Missing reference:	110339 - beef_bell	->	110341	110341 - beefalo	
-[22:44:27]: Missing reference:	110343 - beef_bell	->	110345	110345 - beefalo	
-[22:44:28]: Serializing world: session/BF953A8AFDD25F52/0000004136
-[22:44:28]: Truncating to snapshot #4136...
-[22:44:28]:  - session/BF953A8AFDD25F52/0000004128
-[22:44:28]:  - session/BF953A8AFDD25F52/0000004129
-[22:44:28]:  - session/BF953A8AFDD25F52/0000004130
-[22:44:28]:    3 file(s) removed
-[22:44:28]: Available disk space for save files: 48231 MB
-[22:44:29]: [Quest System] Saving own quests!	
-[22:44:29]: Missing reference:	110339 - beef_bell	->	110341	110341 - beefalo	
-[22:44:29]: Missing reference:	110343 - beef_bell	->	110345	110345 - beefalo	
-[22:44:30]: Serializing world: session/BF953A8AFDD25F52/0000004137
-[22:44:30]: Truncating to snapshot #4137...
-[22:44:30]:  - session/BF953A8AFDD25F52/0000004131
-[22:44:30]:    1 file(s) removed
-[22:44:30]: Removing server from lobby
-[22:44:30]: [Shard] Stopping shard mode
-[22:44:30]: [Steam] SendUserDisconnect for ''
-[22:44:31]: Collecting garbage...
-[22:44:32]: lua_gc took 1.67 seconds
-[22:44:33]: ~ShardLuaProxy()
-[22:44:33]: ~cEventLeaderboardProxy()
-[22:44:33]: ~ItemServerLuaProxy()
-[22:44:33]: ~InventoryLuaProxy()
-[22:44:33]: ~NetworkLuaProxy()
-[22:44:33]: ~SimLuaProxy()
-[22:44:33]: Cancelling LuaQueryCallback handle [16]
-[22:44:33]: Cancelling LuaQueryCallback handle [17]
-[22:44:33]: Cancelling LuaQueryCallback handle [18]
-[22:44:33]: Cancelling LuaQueryCallback handle [19]
-[22:44:33]: Cancelling LuaQueryCallback handle [20]
-[22:44:33]: Cancelling LuaQueryCallback handle [21]
-[22:44:34]: lua_close took 2.04 seconds
-[22:44:35]: Could not unload undefined prefab (chasni_fire_crab_king_claw_fx_build)
-[22:44:35]: Could not unload undefined prefab (chasni_crab_shadowfireorgan)
-[22:44:36]: Could not unload undefined prefab (chasni_lunar_crab_king_claw_fx_build)
-[22:44:36]: Could not unload undefined prefab (chasni_crab_shadowlunarorgan)
-[22:44:36]: Could not unload undefined prefab (chasni_water_crab_king_claw_fx_build)
-[22:44:36]: Could not unload undefined prefab (chasni_crab_shadowwaterorgan)
-[22:44:36]: Could not unload undefined prefab (chasni_ice_crab_king_claw_fx_build)
-[22:44:36]: Could not unload undefined prefab (chasni_crab_shadowiceorgan)
-[22:44:36]: Could not unload undefined prefab (chasni_shadow_crab_king_claw_fx_build)
-[22:44:36]: Could not unload undefined prefab (chasni_crab_shadowshadoworgan)
-[22:44:36]: Could not unload undefined prefab (chasni_electric_crab_king_claw_fx_build)
-[22:44:36]: Could not unload undefined prefab (chasni_crab_shadowelectricorgan)
-[22:44:36]: Could not unload undefined prefab (beequeenhat)
-[22:44:36]: Could not unload undefined prefab (paint_fx)
-[22:44:37]:  Manager - ORPHANED UNKNOWN RESOURCES:
-[22:44:37]: anim/splash_water_drop.zip - 3
-[22:44:37]: CurlRequestManager::ClientThread::Main() complete
-[22:44:37]: HttpClient2 discarded 0 callbacks.
-[22:44:37]: Shutting down
