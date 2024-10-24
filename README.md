@@ -1,8 +1,8 @@
 # [Noitosfera] Sequelarius - `Pré-Season #2`
 - De `03/01/2024` à `Hoje`
-- `3650` dias de jogo
+- `3651` dias de jogo
 - `20` dias reais passados em jogo
-- `173` jogadores únicos
+- `174` jogadores únicos
 - `2483016` moedas dropadas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
 - `2015597` moedas gastas [(Economia Simples)](https://github.com/otomay/Economia-Simples)
 - `28458` monstros normais derrotados
